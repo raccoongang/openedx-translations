@@ -32,7 +32,7 @@ msgstr ""
 
 #: apps/api/serializers.py:818
 msgid "Number of courses contained in this catalog"
-msgstr ""
+msgstr "Number of modules contained in this catalog"
 
 #: apps/api/serializers.py:821
 msgid "Usernames of users with explicit access to view this catalog"
@@ -48,11 +48,11 @@ msgstr ""
 
 #: apps/api/serializers.py:1016
 msgid "Language in which the course is administered"
-msgstr ""
+msgstr "Language in which the module is administered"
 
 #: apps/api/serializers.py:1119
 msgid "Course cannot be changed for an existing course run"
-msgstr ""
+msgstr "Module cannot be changed for an existing module run"
 
 #: apps/api/serializers.py:1124
 msgid "Minimum effort cannot be greater than Maximum effort"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: apps/api/serializers.py:1172
 msgid "Dictionary mapping course run IDs to boolean values"
-msgstr ""
+msgstr "Dictionary mapping module run IDs to boolean values"
 
 #: apps/api/serializers.py:1276
 msgid "Restriction Type cannot be empty"
@@ -72,16 +72,16 @@ msgstr ""
 
 #: apps/api/serializers.py:1724
 msgid "Dictionary mapping course IDs to boolean values"
-msgstr ""
+msgstr "Dictionary mapping module IDs to boolean values"
 
 #: apps/api/serializers.py:2191
 msgid "Languages that course runs in this program are offered in."
-msgstr ""
+msgstr "Languages that module runs in this program are offered in."
 
 #: apps/api/serializers.py:2195
 msgid ""
 "Languages that course runs in this program have available transcripts in."
-msgstr ""
+msgstr "Languages that module runs in this program have available transcripts in."
 
 #: apps/api/utils.py:327
 #, python-brace-format
@@ -89,6 +89,8 @@ msgid ""
 "An error occurred while setting the course run image for [{key}] in studio. "
 "All other fields were successfully saved in Studio."
 msgstr ""
+"An error occurred while setting the module run image for [{key}] in studio. "
+"All other fields were successfully saved in Studio."
 
 #: apps/api/v1/exceptions.py:13
 msgid "Specifying both editable=1 and a q parameter is not supported."
@@ -96,7 +98,7 @@ msgstr ""
 
 #: apps/api/v1/views/comments.py:34
 msgid "You must include a course_uuid in your query parameters."
-msgstr ""
+msgstr "You must include a module_uuid in your query parameters."
 
 #: apps/api/v1/views/comments.py:58 apps/api/v1/views/courses.py:192
 #, python-brace-format
@@ -109,7 +111,7 @@ msgstr ""
 
 #: apps/api/v1/views/course_runs.py:46
 msgid "Failed to set course run data: {}"
-msgstr ""
+msgstr "Failed to set module run data: {}"
 
 #: apps/api/v1/views/course_runs.py:315
 msgid "Can only update status, ofac restrictions, and ofac comment"
@@ -117,7 +119,7 @@ msgstr ""
 
 #: apps/api/v1/views/course_runs.py:356
 msgid "Course run is in review. Editing disabled."
-msgstr ""
+msgstr "Module run is in review. Editing disabled."
 
 #: apps/api/v1/views/course_runs.py:363
 msgid "Invalid parameter"
@@ -135,7 +137,7 @@ msgstr ""
 #: apps/api/v1/views/courses.py:196
 #, python-brace-format
 msgid "Course Type [{course_type}] does not exist. "
-msgstr ""
+msgstr "Module Type [{module_type}] does not exist. "
 
 #: apps/api/v1/views/courses.py:199
 #, python-brace-format
@@ -145,7 +147,7 @@ msgstr ""
 #: apps/api/v1/views/courses.py:217
 #, python-brace-format
 msgid "A course with key [{key}] already exists."
-msgstr ""
+msgstr "A module with key [{key}] already exists."
 
 #: apps/api/v1/views/courses.py:225
 #, python-brace-format
@@ -153,6 +155,8 @@ msgid ""
 "Course creation was unsuccessful. The course URL slug ‘[{url_slug}]’ is "
 "already in use. Please update this field and try again."
 msgstr ""
+"Module creation was unsuccessful. The module URL slug ‘[{url_slug}]’ is "
+"already in use. Please update this field and try again."
 
 #: apps/api/v1/views/courses.py:284
 msgid ""
@@ -166,6 +170,8 @@ msgid ""
 "Course edit was unsuccessful. The course URL slug ‘[{url_slug}]’ is already "
 "in use. Please update this field and try again."
 msgstr ""
+"Module edit was unsuccessful. The module URL slug ‘[{url_slug}]’ is already "
+"in use. Please update this field and try again."
 
 #: apps/api/views.py:58
 msgid "You are not permitted to access the API documentation."
@@ -177,7 +183,7 @@ msgstr ""
 
 #: apps/catalogs/models.py:18
 msgid "Query to retrieve Course Run catalog contents"
-msgstr ""
+msgstr "Query to retrieve Module Run catalog contents"
 
 #: apps/catalogs/models.py:22
 msgid "Query to retrieve Program catalog contents"
@@ -185,7 +191,7 @@ msgstr ""
 
 #: apps/catalogs/models.py:25
 msgid "Include archived courses"
-msgstr ""
+msgstr "Include archived modules"
 
 #: apps/core/admin.py:17
 msgid "Personal info"
@@ -263,11 +269,11 @@ msgstr ""
 
 #: apps/core/models.py:56
 msgid "Courses API URL"
-msgstr ""
+msgstr "Modules API URL"
 
 #: apps/core/models.py:59
 msgid "Course Mode API URL"
-msgstr ""
+msgstr "Modules Mode API URL"
 
 #: apps/core/models.py:60
 msgid "E-Commerce API URL"
@@ -386,7 +392,7 @@ msgstr ""
 
 #: apps/course_metadata/admin.py:427 apps/course_metadata/admin.py:712
 msgid "Included course runs"
-msgstr ""
+msgstr "Included module runs"
 
 #: apps/course_metadata/admin.py:718
 msgid "Edit link"
@@ -394,7 +400,7 @@ msgstr ""
 
 #: apps/course_metadata/admin.py:726
 msgid "Edit course run exclusions"
-msgstr ""
+msgstr "Edit module run exclusions"
 
 #: apps/course_metadata/admin.py:728
 msgid "(save and continue editing to create a link)"
@@ -424,7 +430,7 @@ msgstr ""
 #: apps/course_metadata/algolia_models.py:314
 #: apps/course_metadata/algolia_models.py:581
 msgid "Certificate courses"
-msgstr ""
+msgstr "Certificate modules"
 
 #: apps/course_metadata/algolia_models.py:316
 #: apps/course_metadata/algolia_models.py:587
@@ -561,7 +567,7 @@ msgstr ""
 
 #: apps/course_metadata/choices.py:79
 msgid "Short Course"
-msgstr ""
+msgstr "Short Module"
 
 #: apps/course_metadata/choices.py:80
 msgid "Sprint"
@@ -569,7 +575,7 @@ msgstr ""
 
 #: apps/course_metadata/choices.py:81
 msgid "Course Stack"
-msgstr ""
+msgstr "Module Stack"
 
 #: apps/course_metadata/choices.py:85
 msgid "Custom B2B Enterprise"
@@ -585,6 +591,8 @@ msgid ""
 "Existing course type {type} for {key} ({id}) doesn't match its own "
 "entitlements."
 msgstr ""
+"Existing module type {type} for {key} ({id}) doesn't match its own "
+"entitlements."
 
 #: apps/course_metadata/data_loaders/course_type.py:61
 #, python-brace-format
@@ -592,6 +600,8 @@ msgid ""
 "Existing run type {run_type} for {key} ({id}) doesn't match course type "
 "{type}.Skipping type."
 msgstr ""
+"Existing run type {run_type} for {key} ({id}) doesn't match module type "
+"{type}.Skipping type."
 
 #: apps/course_metadata/data_loaders/course_type.py:75
 #, python-brace-format
@@ -602,7 +612,7 @@ msgstr ""
 #: apps/course_metadata/data_loaders/course_type.py:91
 #, python-brace-format
 msgid "Course {key} ({id}) matched type {type}"
-msgstr ""
+msgstr "Module {key} ({id}) matched type {type}"
 
 #: apps/course_metadata/data_loaders/course_type.py:101
 #, python-brace-format
@@ -615,6 +625,8 @@ msgid ""
 "Not sending notification email for template {template} because no "
 "organization is defined for course {course}"
 msgstr ""
+"Not sending notification email for template {template} because no "
+"organization is defined for module {module}"
 
 #: apps/course_metadata/emails.py:41
 #, python-brace-format
@@ -647,7 +659,7 @@ msgstr ""
 
 #: apps/course_metadata/emails.py:211
 msgid "course team"
-msgstr ""
+msgstr "module team"
 
 #: apps/course_metadata/emails.py:220
 #, python-brace-format
@@ -657,7 +669,7 @@ msgstr ""
 #: apps/course_metadata/emails.py:233
 #, python-brace-format
 msgid "Course URL for {title}"
-msgstr ""
+msgstr "Module URL for {title}"
 
 #: apps/course_metadata/emails.py:279
 #, python-brace-format
@@ -740,7 +752,7 @@ msgstr ""
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:22
 msgid "Course to backpopulate."
-msgstr ""
+msgstr "Module to backpopulate."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:27
 msgid "KEY"
@@ -755,6 +767,8 @@ msgid ""
 "CourseType/CourseRunType mismatches to allow. Specify like course-type-slug:"
 "run-type-slug."
 msgstr ""
+"ModuleType/ModuleRunType mismatches to allow. Specify like module-type-slug:"
+"run-type-slug."
 
 #: apps/course_metadata/management/commands/backpopulate_course_type.py:41
 #: apps/course_metadata/management/commands/delete_person_dups.py:38
@@ -843,7 +857,7 @@ msgstr ""
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:89
 msgid "Course Runs"
-msgstr ""
+msgstr "Module Runs"
 
 #: apps/course_metadata/management/commands/delete_person_dups.py:90
 msgid "Target"
@@ -860,7 +874,7 @@ msgstr ""
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:23
 #, python-brace-format
 msgid "Publishing course run {key}"
-msgstr ""
+msgstr "Publishing module run {key}"
 
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:28
 #, python-brace-format
@@ -874,7 +888,7 @@ msgstr ""
 
 #: apps/course_metadata/management/commands/publish_live_course_runs.py:34
 msgid "One or more course runs failed to publish."
-msgstr ""
+msgstr "One or more module runs failed to publish."
 
 #: apps/course_metadata/management/commands/remove_redirects_from_courses.py:22
 msgid "Remove all redirects to all courses"
@@ -973,6 +987,10 @@ msgid ""
 "as theme color.\n"
 "            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
 msgstr ""
+"The 6 character-hex-value of the orgnization theme color,\n"
+"            all related module under same organization will use this color "
+"as theme color.\n"
+"            (e.g. \"#ff0000\" which equals red) No need to provide the `#`"
 
 #: apps/course_metadata/models.py:301
 msgid "The timestamp of the last time the organization data was modified."
@@ -999,6 +1017,10 @@ msgid ""
 "have their completion of the course counted toward the completion of the "
 "program."
 msgstr ""
+"Seat types that qualify for completion of programs of this type. Learners "
+"completing associated modules, but enrolled in other seat types, will NOT "
+"have their completion of the module counted toward the completion of the "
+"program."
 
 #: apps/course_metadata/models.py:484
 msgid "Please provide an image file with transparent background"
@@ -1045,16 +1067,20 @@ msgid ""
 "Who gets paid for the course? Platform is the site owner, Organization is "
 "the school."
 msgstr ""
+"Who gets paid for the module? Platform is the site owner, Organization is "
+"the school."
 
 #: apps/course_metadata/models.py:674
 msgid "Sets the order for displaying Course Run Types."
-msgstr ""
+msgstr "Sets the order for displaying Module Run Types."
 
 #: apps/course_metadata/models.py:677
 msgid ""
 "Leave this blank to allow all orgs. Otherwise, specifies which orgs can see "
 "this course type in Publisher."
 msgstr ""
+"Leave this blank to allow all orgs. Otherwise, specifies which orgs can see "
+"this module type in Publisher."
 
 #: apps/course_metadata/models.py:727
 msgid "Subject model translations"
@@ -1090,11 +1116,11 @@ msgstr ""
 
 #: apps/course_metadata/models.py:910
 msgid "The start date of the external course offering for marketing purpose"
-msgstr ""
+msgstr "The start date of the external module offering for marketing purpose"
 
 #: apps/course_metadata/models.py:914
 msgid "The ends date of the external course offering for marketing purpose"
-msgstr ""
+msgstr "The ends date of the external module offering for marketing purpose"
 
 #: apps/course_metadata/models.py:918
 msgid "The suggested deadline for enrollment for marketing purpose"
@@ -1106,7 +1132,7 @@ msgstr ""
 
 #: apps/course_metadata/models.py:926
 msgid "Course override"
-msgstr ""
+msgstr "Module override"
 
 #: apps/course_metadata/models.py:927
 msgid "This field allows for override the default course term"
@@ -1115,13 +1141,15 @@ msgstr ""
 #: apps/course_metadata/models.py:945
 msgid ""
 "This field contain external course marketing type specific to product lines"
-msgstr ""
+msgstr "This field contain external module marketing type specific to product lines"
 
 #: apps/course_metadata/models.py:954
 msgid ""
 "Determines weather the course should be displayed on the owning "
 "organization's page"
 msgstr ""
+"Determines weather the module should be displayed on the owning "
+"organization's page"
 
 #: apps/course_metadata/models.py:1022
 msgid "A list of major works by this person. Must be valid HTML."
@@ -1189,16 +1217,20 @@ msgid ""
 "When making reruns for this course, they will use this key instead of the "
 "course key."
 msgstr ""
+"When making reruns for this module, they will use this key instead of the "
+"module key."
 
 #: apps/course_metadata/models.py:1331
 msgid ""
 "The actual duration of this course as experienced by learners who complete "
 "it."
 msgstr ""
+"The actual duration of this module as experienced by learners who complete "
+"it."
 
 #: apps/course_metadata/models.py:1352
 msgid "Add the course image"
-msgstr ""
+msgstr "Add the module image"
 
 #: apps/course_metadata/models.py:1355 apps/course_metadata/models.py:3125
 msgid "FAQ"
@@ -1974,11 +2006,13 @@ msgid ""
 "The course run about page will be published on %(go_live_date)s, pending no "
 "further edits."
 msgstr ""
+The module run about page will be published on %(go_live_date)s, pending no "
+"further edits.
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:28
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:16
 msgid "The course run about page is now published."
-msgstr ""
+msgstr "The module run about page is now published."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:6
 #, python-format
@@ -1990,7 +2024,7 @@ msgstr ""
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:21
 #, python-format
 msgid "View the course run in Publisher: %(course_page_url)s"
-msgstr ""
+msgstr "View the module run in Publisher: %(course_page_url)s"
 
 #: apps/course_metadata/templates/course_metadata/email/watchers_course_url.html:8
 #, python-format
@@ -2001,6 +2035,11 @@ msgid ""
 "href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
 "    "
 msgstr ""
+"\n"
+"        Module '%(course_name)s' has been successfully reviewed by edX and "
+"is now published on %(course_publish_date)s. To see live module, go here: <a "
+"href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
+"    "
 
 #: apps/course_metadata/templates/course_metadata/email/watchers_course_url.html:12
 #, python-format
@@ -2013,6 +2052,13 @@ msgid ""
 "href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
 "    "
 msgstr ""
+"\n"
+"        Module '%(course_name)s' has been successfully reviewed by edX and "
+"is now ready for publication. The module will be published on "
+"%(course_publish_date)s.\n"
+"        To see a preview of the Module About Page, go here: <a "
+"href=\"%(course_marketing_url)s\">%(course_marketing_url)s</a>\n"
+"    "
 
 #: apps/course_metadata/templates/course_metadata/email/watchers_course_url.txt:4
 #, python-format
@@ -2022,6 +2068,10 @@ msgid ""
 "now published on %(course_publish_date)s. To see live course, go here: "
 "%(course_marketing_url)s\n"
 msgstr ""
+"\n"
+"    Module '%(course_name)s' has been successfully reviewed by edX and is "
+"now published on %(course_publish_date)s. To see live module, go here: "
+"%(course_marketing_url)s\n"
 
 #: apps/course_metadata/templates/course_metadata/email/watchers_course_url.txt:8
 #, python-format
@@ -2033,10 +2083,16 @@ msgid ""
 "    To see a preview of the Course About Page, go here: "
 "%(course_preview_url)s\n"
 msgstr ""
+"\n"
+"   Module '%(course_name)s' has been successfully reviewed by edX and is now "
+"ready for publication. The module will be published on "
+"%(course_publish_date)s.\n"
+"    To see a preview of the Module About Page, go here: "
+"%(course_preview_url)s\n"
 
 #: apps/course_metadata/utils.py:389
 msgid "Special characters not allowed in Course Number."
-msgstr ""
+msgstr "Special characters not allowed in Module Number."
 
 #: apps/course_metadata/validators.py:30
 #, python-brace-format
@@ -2071,11 +2127,11 @@ msgstr ""
 
 #: apps/course_metadata/views.py:206
 msgid "The refresh course skills task triggered successfully."
-msgstr ""
+msgstr "The refresh module skills task triggered successfully."
 
 #: apps/course_metadata/views.py:306
 msgid "The course skills were updated successfully."
-msgstr ""
+msgstr "The module skills were updated successfully."
 
 #: apps/edx_elasticsearch_dsl_extensions/exceptions.py:17
 msgid ""
@@ -2101,7 +2157,7 @@ msgstr ""
 
 #: apps/learner_pathway/models.py:88
 msgid "Course/Program associated pathways also appear in search results"
-msgstr ""
+msgstr "Module/Program associated pathways also appear in search results"
 
 #: apps/learner_pathway/models.py:91
 msgid "The active/inactive status of this Pathway."
@@ -2129,11 +2185,11 @@ msgstr ""
 
 #: apps/learner_pathway/models.py:238
 msgid "Learner Pathway Course"
-msgstr ""
+msgstr "Learner Pathway Module"
 
 #: apps/learner_pathway/models.py:239
 msgid "Learner Pathway Courses"
-msgstr ""
+msgstr "Learner Pathway Modules"
 
 #: apps/learner_pathway/models.py:276
 msgid "Learner Pathway Program"
@@ -2149,22 +2205,24 @@ msgstr ""
 
 #: apps/taxonomy_support/management/commands/update_course_recommendations.py:19
 msgid "Update the course recommendations based on skills."
-msgstr ""
+msgstr "Update the Module recommendations based on skills."
 
 #: apps/taxonomy_support/management/commands/update_course_recommendations.py:41
 msgid ""
 "Use arguments from the UpdateCourseRecommendationsConfig model instead of "
 "the command line."
 msgstr ""
+"Use arguments from the UpdateModuleRecommendationsConfig model instead of "
+"the command line."
 
 #: apps/taxonomy_support/models.py:24
 msgid "The original course, whose recommendation is stored here."
-msgstr ""
+msgstr "The original module, whose recommendation is stored here."
 
 #: apps/taxonomy_support/models.py:29
 msgid ""
 "This is the course recommended after learner completes the original course."
-msgstr ""
+msgstr "This is the module recommended after learner completes the original course."
 
 #: apps/taxonomy_support/models.py:32
 msgid "Ratio of number of common skills and total skill count."
@@ -2174,6 +2232,7 @@ msgstr ""
 msgid ""
 "Count of common skills between the original course and recommended course."
 msgstr ""
+"Count of common skills between the original module and recommended module."
 
 #: apps/taxonomy_support/models.py:38
 msgid "Ratio of number of common subjects and total subject count."
@@ -2183,23 +2242,24 @@ msgstr ""
 msgid ""
 "Count of common subjects between the original course and recommended course."
 msgstr ""
+"Count of common subjects between the original module and recommended module."
 
 #: apps/taxonomy_support/models.py:46
 msgid "Course Recommendation"
-msgstr ""
+msgstr "Module Recommendation"
 
 #: apps/taxonomy_support/models.py:47
 msgid "Course Recommendations"
-msgstr ""
+msgstr "Module Recommendations"
 
 #: apps/taxonomy_support/models.py:54
 msgid "Adds recommendations for all published courses"
-msgstr ""
+msgstr "Adds recommendations for all published modules"
 
 #: apps/taxonomy_support/models.py:58
 msgid ""
 "Adds recommendations for courses created or modified in the past num days"
-msgstr ""
+msgstr "Adds recommendations for modules created or modified in the past num days"
 
 #: apps/taxonomy_support/providers.py:198
 msgid "No partner object found!"
