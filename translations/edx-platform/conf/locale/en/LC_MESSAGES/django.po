@@ -2445,3 +2445,745 @@ msgstr "Module Starts"
 #: lms/templates/courses_list.html
 msgid "View all Courses"
 msgstr "View all Modules"
+
+#: cms/djangoapps/contentstore/admin.py:45
+#, python-brace-format
+msgid ""
+"Number of course outline regenerations successfully requested: {regenerates}"
+msgstr ""
+"Number of module outline regenerations successfully requested: {regenerates}"
+
+#: cms/djangoapps/contentstore/admin.py:57
+msgid "All course outline regenerations successfully requested."
+msgstr "All module outline regenerations successfully requested."
+
+#: cms/djangoapps/contentstore/errors.py:12
+msgid "Course olx validation failed. Please check your email."
+msgstr "Module olx validation failed. Please check your email."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:39
+msgid ""
+"Non writable git url provided. Expecting something like: git@github.com:"
+"openedx/openedx-demo-course.git"
+msgstr ""
+"Non writable git url provided. Expecting something like: git@github.com:"
+"openedx/openedx-demo-module.git"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:41
+msgid ""
+"If using http urls, you must provide the username and password in the url. "
+"Similar to https://user:pass@github.com/user/course."
+msgstr ""
+"If using http urls, you must provide the username and password in the url. "
+"Similar to https://user:pass@github.com/user/module."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:46
+msgid "Unable to export course to xml."
+msgstr "Unable to export module to xml."
+
+#: cms/djangoapps/contentstore/management/commands/git_export.py:33
+msgid ""
+"Take the specified course and attempt to export it to a git repository\n"
+". Course directory must already be a git repository. Usage:  git_export "
+"<course_loc> <git_url>"
+msgstr ""
+"Take the specified module and attempt to export it to a git repository\n"
+". Module directory must already be a git repository. Usage:  git_export "
+"<course_loc> <git_url>"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:18
+msgid "True if it's possible to hide the tab for a course"
+msgstr "True if it's possible to hide the tab for a module"
+
+#: cms/djangoapps/contentstore/rest_api/v0/views/tabs.py:117
+msgid "Change the visibility of tabs in a course."
+msgstr "Change the visibility of tabs in a module."
+
+#: cms/djangoapps/contentstore/views/course.py:360
+#: cms/djangoapps/contentstore/views/tests/test_course_index.py:732
+msgid "Course has been successfully reindexed."
+msgstr "Module has been successfully reindexed."
+
+#: cms/djangoapps/contentstore/views/course.py:891
+msgid ""
+"Special characters not allowed in organization, course number, and course "
+"run."
+msgstr ""
+"Special characters not allowed in organization, module number, and module "
+"run."
+
+#: cms/djangoapps/contentstore/views/course.py:927
+msgid ""
+"There is already a course defined with the same organization and course "
+"number. Please change either organization or course number to be unique."
+msgstr ""
+"There is already a module defined with the same organization and module "
+"number. Please change either organization or module number to be unique."
+
+#: cms/djangoapps/contentstore/views/course.py:932
+#: cms/djangoapps/contentstore/views/course.py:935
+msgid ""
+"Please change either the organization or course number so that it is unique."
+msgstr ""
+"Please change either the organization or module number so that it is unique."
+
+#: cms/djangoapps/contentstore/views/course.py:940
+#, python-brace-format
+msgid ""
+"Unable to create course '{name}'.\n"
+"\n"
+"{err}"
+msgstr ""
+"Unable to create module '{name}'.\n"
+"\n"
+"{err}"
+
+#: cms/djangoapps/contentstore/views/course.py:952
+msgid ""
+"User does not have the permission to create courses in this organization or "
+"course creation is disabled"
+msgstr ""
+"User does not have the permission to create modules in this organization or "
+"module creation is disabled"
+
+#: cms/djangoapps/contentstore/views/course.py:969
+msgid ""
+"You must link this course to an organization in order to continue. "
+"Organization you selected does not exist in the system, you will need to add "
+"it to the system"
+msgstr ""
+"You must link this module to an organization in order to continue. "
+"Organization you selected does not exist in the system, you will need to add "
+"it to the system"
+
+#: cms/djangoapps/contentstore/views/entrance_exam.py:253
+msgid "Completed Course Entrance Exam"
+msgstr "Completed Module Entrance Exam"
+
+#: cms/djangoapps/contentstore/views/export_git.py:47
+msgid "Course successfully exported to git repository"
+msgstr "Module successfully exported to git repository"
+
+#: cms/djangoapps/contentstore/views/library.py:265
+msgid ""
+"User does not have the permission to create library in this organization or "
+"course creation is disabled"
+msgstr ""
+"User does not have the permission to create library in this organization or "
+"module creation is disabled"
+
+#: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:1022
+#, python-brace-format
+msgid ""
+"Students must score {score}{pct_sign} or higher to access course materials."
+msgstr ""
+"Students must score {score}{pct_sign} or higher to access module materials."
+
+#: cms/djangoapps/coursegraph/admin.py:18
+msgid "Dump courses to CourseGraph (respect cache)"
+msgstr "Dump modules to CourseGraph (respect cache)"
+
+#: cms/djangoapps/maintenance/views.py:213
+msgid "Course is already in published state."
+msgstr "Module is already in published state."
+
+#: common/djangoapps/course_modes/models.py:121
+msgid ""
+"OPTIONAL: This is the SKU (stock keeping unit) of this mode in the external "
+"ecommerce service. Leave this blank if the course has not yet been migrated "
+"to the ecommerce service."
+msgstr ""
+"OPTIONAL: This is the SKU (stock keeping unit) of this mode in the external "
+"ecommerce service. Leave this blank if the module has not yet been migrated "
+"to the ecommerce service."
+
+#: common/djangoapps/course_modes/models.py:133
+msgid ""
+"OPTIONAL: This is the Android SKU registered on play store for this mode of "
+"the course. Leave this blank if the course has not yet been migrated to the "
+"ecommerce service."
+msgstr ""
+"OPTIONAL: This is the Android SKU registered on play store for this mode of "
+"the module. Leave this blank if the module has not yet been migrated to the "
+"ecommerce service."
+
+#: common/djangoapps/course_modes/models.py:145
+msgid ""
+"OPTIONAL: This is the iOS SKU registered on app store for this mode of the "
+"course. Leave this blank if the course has not yet been migrated to the "
+"ecommerce service."
+msgstr ""
+"OPTIONAL: This is the iOS SKU registered on app store for this mode of the "
+"module. Leave this blank if the module has not yet been migrated to the "
+"ecommerce service."
+
+#: common/djangoapps/course_modes/models.py:258
+#, python-brace-format
+msgid ""
+"The {course_mode} course mode has a minimum price of {min_price}. You must "
+"set a price greater than or equal to {min_price}."
+msgstr ""
+"The {course_mode} module mode has a minimum price of {min_price}. You must "
+"set a price greater than or equal to {min_price}."
+
+#: common/djangoapps/xblock_django/admin.py:52
+msgid ""
+"Enabled XBlock/template combinations with full or provisional support can "
+"always be created in Studio. Unsupported XBlock/template combinations "
+"require course author opt-in."
+msgstr ""
+"Enabled XBlock/template combinations with full or provisional support can "
+"always be created in Studio. Unsupported XBlock/template combinations "
+"require module author opt-in."
+
+#: common/djangoapps/xblock_django/admin.py:27
+msgid ""
+"Only XBlocks listed in a course's Advanced Module List can be flagged as "
+"deprecated. Remember to update XBlockStudioConfiguration support state "
+"accordingly, as deprecated does not impact whether or not new XBlock "
+"instances can be created in Studio."
+msgstr ""
+"Only XBlocks listed in a module's Advanced Module List can be flagged as "
+"deprecated. Remember to update XBlockStudioConfiguration support state "
+"accordingly, as deprecated does not impact whether or not new XBlock "
+"instances can be created in Studio."
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:29
+#, python-format
+msgid ""
+"\n"
+"                    You are enrolled in %(course_name)s at "
+"%(platform_name)s. This course contains proctored exams.\n"
+"                "
+msgstr ""
+"\n"
+"                    You are enrolled in %(course_name)s at "
+"%(platform_name)s. This module contains proctored exams.\n"
+"                "
+
+#: common/templates/student/edx_ace/proctoringrequirements/email/body.html:38
+#, python-format
+msgid ""
+"\n"
+"                    Proctored exams are timed exams that you take while "
+"proctoring software monitors your computer's desktop, webcam video, and "
+"audio. Your course uses %(proctoring_provider)s software for proctoring.\n"
+"                "
+msgstr ""
+"\n"
+"                    Proctored exams are timed exams that you take while "
+"proctoring software monitors your computer's desktop, webcam video, and "
+"audio. Your module uses %(proctoring_provider)s software for proctoring.\n"
+"                "
+
+#: lms/djangoapps/badges/events/course_complete.py:43
+#, python-brace-format
+msgid ""
+"Completed the course \"{course_name}\" ({course_mode}, {start_date} - "
+"{end_date})"
+msgstr ""
+"Completed the module \"{course_name}\" ({course_mode}, {start_date} - "
+"{end_date})"
+
+#: lms/djangoapps/badges/events/course_complete.py:50
+#, python-brace-format
+msgid "Completed the course \"{course_name}\" ({course_mode})"
+msgstr "Completed the module \"{course_name}\" ({course_mode})"
+
+#: lms/djangoapps/branding/api.py:117
+msgid "Take free online courses at edX.org"
+msgstr "Take free online modules at edX.org"
+
+#: lms/djangoapps/ccx/tests/test_views.py:353 lms/djangoapps/ccx/utils.py:50
+msgid ""
+"A CCX can only be created on this course through an external service. "
+"Contact a course admin to give you access."
+msgstr ""
+"A CCX can only be created on this module through an external service. "
+"Contact a module admin to give you access."
+
+#: lms/djangoapps/ccx/utils.py:267
+#, python-brace-format
+msgid "The course is full: the limit is {max_student_enrollments_allowed}"
+msgstr "The module is full: the limit is {max_student_enrollments_allowed}"
+
+#: lms/djangoapps/ccx/views.py:180
+msgid ""
+"You cannot create a CCX from a course using a deprecated id. Please create a "
+"rerun of this course in the studio to allow this action."
+msgstr ""
+"You cannot create a CCX from a module using a deprecated id. Please create a "
+"rerun of this module in the studio to allow this action."
+
+#: lms/djangoapps/certificates/models.py:1163
+msgid "The course mode for this template."
+msgstr "The module mode for this template."
+
+#: lms/djangoapps/certificates/views/support.py:151
+#, python-brace-format
+msgid "{course_key} is not a valid course key"
+msgstr "{course_key} is not a valid module key"
+
+#: lms/djangoapps/commerce/api/v1/serializers.py:50
+#, python-brace-format
+msgid "{course_id} is not a valid course key."
+msgstr "{course_id} is not a valid module key."
+
+#: lms/djangoapps/commerce/models.py:35
+msgid "Path to course(s) checkout page hosted by the E-Commerce service."
+msgstr "Path to module(s) checkout page hosted by the E-Commerce service."
+
+#: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.html:127
+msgid ""
+"\n"
+"                            Unsubscribe from goal reminder emails for this "
+"course\n"
+"                        "
+msgstr ""
+"\n"
+"                            Unsubscribe from goal reminder emails for this "
+"module\n"
+"                        "
+
+#: lms/djangoapps/course_home_api/admin.py:21
+msgid ""
+"These define the context to disable the frontend-app-learning progress page."
+"If no values are set, then the configuration applies globally. If a single "
+"value is set, then the configuration applies to all courses within that "
+"context. At most one value can be set at a time.<br>If multiple contexts "
+"apply to a course (for example, if configuration is specified for the course "
+"specifically, and for the org that the course is in, then the more specific "
+"context overrides the more general context."
+msgstr ""
+"These define the context to disable the frontend-app-learning progress page."
+"If no values are set, then the configuration applies globally. If a single "
+"value is set, then the configuration applies to all modules within that "
+"context. At most one value can be set at a time.<br>If multiple contexts "
+"apply to a module (for example, if configuration is specified for the module "
+"specifically, and for the org that the module is in, then the more specific "
+"context overrides the more general context."
+
+#: lms/djangoapps/course_home_api/admin.py:33
+#: openedx/features/discounts/admin.py:34
+msgid ""
+"If any of these values is left empty or \"Unknown\", then their value at "
+"runtime will be retrieved from the next most specific context that applies. "
+"For example, if \"Disabled\" is left as \"Unknown\" in the course context, "
+"then that course will be Disabled only if the org that it is in is Disabled."
+msgstr ""
+"If any of these values is left empty or \"Unknown\", then their value at "
+"runtime will be retrieved from the next most specific context that applies. "
+"For example, if \"Disabled\" is left as \"Unknown\" in the module context, "
+"then that module will be Disabled only if the org that it is in is Disabled."
+
+#: lms/djangoapps/course_home_api/outline/views.py:298
+#, fuzzy
+#| msgid "Course git url:"
+msgid "Course is full"
+msgstr "Module is full"
+
+#: lms/djangoapps/course_home_api/outline/views.py:635
+msgid "'course_id' is required."
+msgstr "'module_id' is required."
+
+#: lms/djangoapps/course_home_api/outline/views.py:639
+msgid "Only 'course_id' is expected."
+msgstr "Only 'module_id' is expected."
+
+#: lms/djangoapps/course_home_api/outline/views.py:675
+msgid "Your course goal has been successfully set."
+msgstr "Your module goal has been successfully set."
+
+#: lms/djangoapps/course_home_api/outline/views.py:676
+msgid "Course goal updated successfully."
+msgstr "Module goal updated successfully."
+
+#: lms/djangoapps/course_wiki/views.py:90
+msgid "Course page automatically created."
+msgstr "Module page automatically created."
+
+#: lms/djangoapps/courseware/access_response.py:213
+msgid "You do not have access to this course on a mobile device"
+msgstr "You do not have access to this module on a mobile device"
+
+#: lms/djangoapps/courseware/date_summary.py:298
+msgid ""
+"After this date, the course will be archived, which means you can review the "
+"course content but can no longer participate in graded assignments or work "
+"towards earning a certificate."
+msgstr ""
+"After this date, the module will be archived, which means you can review the "
+"module content but can no longer participate in graded assignments or work "
+"towards earning a certificate."
+
+#: lms/djangoapps/courseware/date_summary.py:302
+msgid ""
+"After the course ends, the course content will be archived and no longer "
+"active."
+msgstr ""
+"After the module ends, the module content will be archived and no longer "
+"active."
+
+#: lms/djangoapps/courseware/date_summary.py:304
+msgid ""
+"This course is archived, which means you can review course content but it is "
+"no longer active."
+msgstr ""
+"This module is archived, which means you can review module content but it is "
+"no longer active."
+
+#: lms/djangoapps/courseware/plugins.py:272
+msgid "Course level settings for Open Response Assessment."
+msgstr "Module level settings for Open Response Assessment."
+
+#: lms/djangoapps/courseware/views/views.py:222
+msgid ""
+"After this course officially ends, you will receive an email notification "
+"with your certificate."
+msgstr ""
+"After this module officially ends, you will receive an email notification "
+"with your certificate."
+
+#: lms/djangoapps/courseware/views/views.py:545
+#, python-brace-format
+msgid "To see course content, {sign_in_link} or {register_link}."
+msgstr "To see module content, {sign_in_link} or {register_link}."
+
+#: lms/djangoapps/courseware/views/views.py:1980
+msgid ""
+"We plan to use this information to evaluate your application for financial "
+"assistance and to further develop our financial assistance program. Please "
+"note that while \n"
+"assistance is available in most courses that offer verified certificates, a "
+"few courses and programs are not eligible. You must complete a separate "
+"application \n"
+"for each course you take. You may be approved for financial assistance five "
+"(5) times each year (based on 12-month period from you first approval). \n"
+"To apply for financial assistance: \n"
+"1. Enroll in the audit track for an eligible course that offers Verified "
+"Certificates \n"
+"2. Complete this application \n"
+"3. Check your email, your application will be reviewed in 3-4 business days"
+msgstr ""
+"We plan to use this information to evaluate your application for financial "
+"assistance and to further develop our financial assistance program. Please "
+"note that while \n"
+"assistance is available in most modules that offer verified certificates, a "
+"few modules and programs are not eligible. You must complete a separate "
+"application \n"
+"for each module you take. You may be approved for financial assistance five "
+"(5) times each year (based on 12-month period from your first approval). \n"
+"To apply for financial assistance: \n"
+"1. Enroll in the audit track for an eligible module that offers Verified "
+"Certificates \n"
+"2. Complete this application \n"
+"3. Check your email, your application will be reviewed in 3-4 business days"
+
+#: lms/djangoapps/courseware/views/views.py:2173
+msgid ""
+"Select the course for which you want to earn a verified certificate. If the "
+"course does not appear in the list, make sure that you have enrolled in the "
+"audit track for the course."
+msgstr ""
+"Select the module for which you want to earn a verified certificate. If the "
+"module does not appear in the list, make sure that you have enrolled in the "
+"audit track for the module."
+
+#: lms/djangoapps/edxnotes/plugins.py:58
+msgid ""
+"Allow learners to highlight passages and make notes right in the course."
+msgstr ""
+"Allow learners to highlight passages and make notes right in the module."
+
+#: lms/djangoapps/instructor/views/api.py:413
+msgid ""
+"Course is not cohorted but cohort provided. Ignoring cohort assignment for "
+"all users."
+msgstr ""
+"Module is not cohorted but cohort provided. Ignoring cohort assignment for "
+"all users."
+
+#: lms/djangoapps/instructor/views/api.py:445
+#, python-brace-format
+msgid ""
+"Invalid course mode: {mode}. Falling back to the default mode, or keeping "
+"the current mode in case the user is already enrolled."
+msgstr ""
+"Invalid module mode: {mode}. Falling back to the default mode, or keeping "
+"the current mode in case the user is already enrolled."
+
+#: lms/djangoapps/instructor/views/api.py:451
+#, python-brace-format
+msgid ""
+"Invalid course mode: {mode}. Falling back to {default_mode}, or resetting "
+"to {default_mode} in case the user is already enrolled."
+msgstr ""
+"Invalid module mode: {mode}. Falling back to {default_mode}, or resetting "
+"to {default_mode} in case the user is already enrolled."
+
+#: lms/djangoapps/instructor/views/api.py:1126
+msgid ""
+"A usage key location for a section or a problem. If the location is a block "
+"that contains other blocks, (such as the course, section, subsection, or "
+"unit blocks) then all blocks under that block will be included in the report."
+msgstr ""
+"A usage key location for a section or a problem. If the location is a block "
+"that contains other blocks, (such as the module, section, subsection, or "
+"unit blocks) then all blocks under that block will be included in the report."
+
+#: lms/djangoapps/instructor/views/api.py:3428
+#, python-brace-format
+msgid ""
+"The student {student} appears on the Certificate Exception list in course "
+"{course}. Please remove them from the Certificate Exception list before "
+"attempting to invalidate their certificate."
+msgstr ""
+"The student {student} appears on the Certificate Exception list in module "
+"{course}. Please remove them from the Certificate Exception list before "
+"attempting to invalidate their certificate."
+
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:424
+#, python-brace-format
+msgid "CourseMode with the mode slug({mode_slug}) DoesNotExist"
+msgstr "ModuleMode with the mode slug({mode_slug}) DoesNotExist"
+
+#: lms/djangoapps/instructor/views/instructor_dashboard.py:436
+msgid "CourseMode price updated successfully"
+msgstr "ModuleMode price updated successfully"
+
+#: lms/djangoapps/lms_xblock/mixin.py:80
+msgid ""
+"Enter the tab that is selected in the XBlock. If not set, the Course tab is "
+"selected."
+msgstr ""
+"Enter the tab that is selected in the XBlock. If not set, the Module tab is "
+"selected."
+
+#: lms/djangoapps/lms_xblock/mixin.py:91 xmodule/modulestore/inheritance.py:58
+msgid "If true, can be seen only by course staff, regardless of start date."
+msgstr "If true, can be seen only by module staff, regardless of start date."
+
+#: lms/djangoapps/teams/views.py:417
+msgid "course_id must be provided"
+msgstr "module_id must be provided"
+
+#: lms/djangoapps/teams/views.py:1370
+msgid "teamset_id requires course_id to also be provided."
+msgstr "teamset_id requires module_id to also be provided."
+
+#: lms/djangoapps/teams/views.py:1386 lms/djangoapps/teams/views.py:1399
+msgid "No teamset found in given course with given id"
+msgstr "No teamset found in given module with given id"
+
+#: lms/djangoapps/verify_student/models.py:1089
+msgid "The course for which this deadline applies"
+msgstr "The module for which this deadline applies"
+
+#: lms/envs/common.py:1294
+msgid "Retrieve your grades for your enrolled courses"
+msgstr "Retrieve your grades for your enrolled modules"
+
+#: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:9
+#, python-format
+msgid ""
+"To stop receiving email like this, update your course email settings here "
+"%(email_settings_url)s"
+msgstr ""
+"To stop receiving email like this, update your module email settings here "
+"%(email_settings_url)s"
+
+#: lms/templates/oauth2_provider/authorize.html:32
+msgid ""
+"These permissions will be granted for data from your courses associated with "
+"the following content providers:"
+msgstr ""
+"These permissions will be granted for data from your modules associated with "
+"the following content providers:"
+
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.html:21
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:3
+#, python-format
+msgid "Your progress in course %(course_title)s has been reset on your behalf."
+msgstr "Your progress in module %(course_title)s has been reset on your behalf."
+
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.html:25
+#: lms/templates/support/edx_ace/wholecoursereset/email/body.txt:4
+msgid ""
+"You will be able to re-attempt this course and earn a verified certificate "
+"upon successful completion."
+msgstr ""
+"You will be able to re-attempt this module and earn a verified certificate "
+"upon successful completion."
+
+#: openedx/core/djangoapps/catalog/models.py:26
+msgid "DEPRECATED: Use the setting COURSE_CATALOG_API_URL."
+msgstr ""
+
+#: openedx/core/djangoapps/catalog/models.py:53
+msgid ""
+"Username created for Course Catalog Integration, e.g. "
+"lms_catalog_service_user."
+msgstr ""
+"Username created for Module Catalog Integration, e.g. "
+"lms_catalog_service_user."
+
+#: openedx/core/djangoapps/config_model_utils/admin.py:41
+#, python-brace-format
+msgid ""
+"These define the context to enable this configuration on. If no values are "
+"set, then the configuration applies globally. If a single value is set, then "
+"the configuration applies to all courses within that context. At most one "
+"value can be set at a time.{br}If multiple contexts apply to a course (for "
+"example, if configuration is specified for the course specifically, and for "
+"the org that the course is in, then the more specific context overrides the "
+"more general context."
+msgstr ""
+"These define the context to enable this configuration on. If no values are "
+"set, then the configuration applies globally. If a single value is set, then "
+"the configuration applies to all modules within that context. At most one "
+"value can be set at a time.{br}If multiple contexts apply to a module (for "
+"example, if configuration is specified for the module specifically, and for "
+"the org that the module is in, then the more specific context overrides the "
+"more general context."
+
+#: openedx/core/djangoapps/config_model_utils/admin.py:53
+msgid ""
+"If any of these values are left empty or \"Unknown\", then their value at "
+"runtime will be retrieved from the next most specific context that applies. "
+"For example, if \"Enabled\" is left as \"Unknown\" in the course context, "
+"then that course will be Enabled only if the org that it is in is Enabled."
+msgstr ""
+"If any of these values are left empty or \"Unknown\", then their value at "
+"runtime will be retrieved from the next most specific context that applies. "
+"For example, if \"Enabled\" is left as \"Unknown\" in the module context, "
+"then that module will be Enabled only if the org that it is in is Enabled."
+
+#: openedx/core/djangoapps/config_model_utils/models.py:43
+#, python-format
+msgid "%(value)s should have the form ORG+COURSE"
+msgstr "%(value)s should have the form ORG+MODULE"
+
+#: openedx/core/djangoapps/credit/exceptions.py:86
+#, python-brace-format
+msgid "[{course_key}] is not a valid course key."
+msgstr "[{course_key}] is not a valid module key."
+
+#: openedx/core/djangoapps/credit/models.py:130
+msgid ""
+"Plain text or html content for displaying custom message inside credit "
+"receipt email content which is sent *after* paying to get credit for a "
+"credit course."
+msgstr ""
+"Plain text or html content for displaying custom message inside credit "
+"receipt email content which is sent *after* paying to get credit for a "
+"credit module."
+
+#: openedx/core/djangoapps/discussions/models.py:126
+#, python-brace-format
+msgid ""
+"{provider} requires that LTI advanced sharing be enabled for your course, as "
+"this provider uses email address and username to personalize the experience. "
+"Please contact {support_contact} to enable this feature."
+msgstr ""
+"{provider} requires that LTI advanced sharing be enabled for your module, as "
+"this provider uses email address and username to personalize the experience. "
+"Please contact {support_contact} to enable this feature."
+
+#: openedx/core/djangoapps/discussions/models.py:443
+msgid ""
+"If enabled, discussion topics will be created for each non-graded unit in "
+"the course. A UI for discussions will show up with each unit."
+msgstr ""
+"If enabled, discussion topics will be created for each non-graded unit in "
+"the module. A UI for discussions will show up with each unit."
+
+#: openedx/core/djangoapps/discussions/plugins.py:24
+msgid "Encourage participation and engagement in your course with discussions."
+msgstr "Encourage participation and engagement in your module with discussions."
+
+#: openedx/core/djangoapps/embargo/forms.py:46
+msgid "COURSE NOT FOUND.  Please check that the course ID is valid."
+msgstr "MODULE NOT FOUND.  Please check that the module ID is valid."
+
+#: openedx/core/djangoapps/embargo/models.py:137
+msgid "The course key for the restricted course."
+msgstr "The module key for the restricted module."
+
+#: openedx/core/djangoapps/embargo/models.py:151
+msgid "The message to show when a user is blocked from accessing a course."
+msgstr "The message to show when a user is blocked from accessing a module."
+
+#: openedx/core/djangoapps/embargo/models.py:157
+msgid ""
+"Allow users who enrolled in an allowed country to access restricted courses "
+"from excluded countries."
+msgstr ""
+"Allow users who enrolled in an allowed country to access restricted modules "
+"from excluded countries."
+
+#: openedx/core/djangoapps/embargo/models.py:435
+msgid "The course to which this rule applies."
+msgstr "The module to which this rule applies."
+
+#: openedx/core/djangoapps/notifications/base_notification.py:181
+#, python-brace-format
+msgid ""
+"<{p}>You have a new course update: <{strong}>{course_update_content}</"
+"{strong}></{p}>"
+msgstr ""
+"<{p}>You have a new module update: <{strong}>{course_update_content}</"
+"{strong}></{p}>"
+
+#: openedx/core/djangoapps/notifications/base_notification.py:223
+msgid "Notifications for new announcements and updates from the course team."
+msgstr "Notifications for new announcements and updates from the module team."
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.html:31
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/body.txt:13
+msgid ""
+"With self-paced courses, you learn on your own schedule. We encourage you to "
+"spend time with the course each week. Your focused attention will pay off in "
+"the end!"
+msgstr ""
+"With self-paced modules, you learn on your own schedule. We encourage you to "
+"spend time with the module each week. Your focused attention will pay off in "
+"the end!"
+
+#: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/recurringnudge_day3/email/body.html:31
+#, python-brace-format
+msgid ""
+"Remember when you enrolled in {start_strong}{course_name}{end_strong}, and "
+"other courses on {platform_name}? We do, and we’re glad to have you! Come "
+"see what everyone is learning."
+msgstr ""
+"Remember when you enrolled in {start_strong}{course_name}{end_strong}, and "
+"other modules on {platform_name}? We do, and we’re glad to have you! Come "
+"see what everyone is learning."
+
+#. Translators: These instructions appear on the registration form, immediately
+#. below a field meant to hold the user's public username.
+#: openedx/core/djangoapps/user_authn/views/registration_form.py:572
+msgid ""
+"The name that will identify you in your courses. It cannot be changed later."
+msgstr ""
+"The name that will identify you in your modules. It cannot be changed later."
+
+#: openedx/features/calendar_sync/utils.py:17
+#, python-brace-format
+msgid ""
+"Sticking to a schedule is the best way to ensure that you successfully "
+"complete your self-paced course. This schedule for {course} will help you "
+"stay on track!"
+msgstr ""
+"Sticking to a schedule is the best way to ensure that you successfully "
+"complete your self-paced module. This schedule for {course} will help you "
+"stay on track!"
+
+#. Translators: 'grader' refers to the edX automatic code grader.
+#: xmodule/capa/responsetypes.py:2755
+msgid "Invalid grader reply. Please contact the course staff."
+msgstr "Invalid grader reply. Please contact the module staff."
+
+#: xmodule/course_block.py:370
+msgid "Pre-Requisite Course key if this course has a pre-requisite course"
+msgstr "Pre-Requisite Module key if this module has a pre-requisite module"

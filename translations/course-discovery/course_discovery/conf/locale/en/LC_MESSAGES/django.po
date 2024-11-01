@@ -137,7 +137,7 @@ msgstr ""
 #: apps/api/v1/views/courses.py:196
 #, python-brace-format
 msgid "Course Type [{course_type}] does not exist. "
-msgstr "Module Type [{module_type}] does not exist. "
+msgstr "Module Type [{course_type}] does not exist. "
 
 #: apps/api/v1/views/courses.py:199
 #, python-brace-format
@@ -626,7 +626,7 @@ msgid ""
 "organization is defined for course {course}"
 msgstr ""
 "Not sending notification email for template {template} because no "
-"organization is defined for module {module}"
+"organization is defined for module {course}"
 
 #: apps/course_metadata/emails.py:41
 #, python-brace-format
@@ -2006,8 +2006,8 @@ msgid ""
 "The course run about page will be published on %(go_live_date)s, pending no "
 "further edits."
 msgstr ""
-The module run about page will be published on %(go_live_date)s, pending no "
-"further edits.
+"The module run about page will be published on %(go_live_date)s, pending no "
+"further edits."
 
 #: apps/course_metadata/templates/course_metadata/email/reviewed.html:28
 #: apps/course_metadata/templates/course_metadata/email/reviewed.txt:16
