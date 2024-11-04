@@ -36,7 +36,7 @@ msgstr ""
 
 #: api.py:347
 msgid "Wrong course id {} != {}"
-msgstr ""
+msgstr "Wrong module id {} != {}"
 
 #: api.py:366 api.py:368
 msgid "Repeated user_id: "

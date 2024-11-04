@@ -16,4 +16,4 @@ msgstr ""
 # Translation has invalid brace-format with encoding errors
 #, python-brace-format
 msgid "{action} is not a valid action."
-msgstr "{कार्रवाई} एक वैध कार्रवाई नहीं है।"
+msgstr "{action} एक वैध कार्रवाई नहीं है।"

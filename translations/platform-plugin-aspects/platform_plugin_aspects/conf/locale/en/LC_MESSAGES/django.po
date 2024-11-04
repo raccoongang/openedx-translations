@@ -23,7 +23,7 @@ msgstr ""
 
 #: settings/common.py:31
 msgid "Course Dashboard"
-msgstr ""
+msgstr "Module Dashboard"
 
 #: settings/common.py:37
 msgid "Individual Learner Dashboard"
@@ -44,6 +44,8 @@ msgid ""
 "Superset is only visible to course staff and instructors. Please contact "
 "your system administrator."
 msgstr ""
+"Superset is only visible to module staff and instructors. Please contact "
+"your system administrator."
 
 #: utils.py:162
 #, python-brace-format
@@ -60,12 +62,12 @@ msgstr ""
 #: views.py:83
 #, python-brace-format
 msgid "Invalid course id: '{course_id}'"
-msgstr ""
+msgstr "Invalid module id: '{course_id}'"
 
 #: views.py:95
 #, python-brace-format
 msgid "Course not found: '{course_id}'"
-msgstr ""
+msgstr "Module not found: '{course_id}"
 
 #: xblock.py:47 xblock.py:48
 msgid "Display name"
