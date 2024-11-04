@@ -411,7 +411,7 @@
     "learning.outline.alert.scheduled-content.heading": "More content is coming soon!",
     "learning.outline.alert.scheduled-content.body": "This module will have more content released at a future date. Look out for email updates or check back on this module for updates.",
     "learning.outline.alert.scheduled-content.button": "View Module Schedule",
-    "progress.ungradedAlert": "For progress on ungraded aspects of the coumodulerse, view your {outlineLink}.",
+    "progress.ungradedAlert": "For progress on ungraded aspects of the module, view your {outlineLink}.",
     "progress.footnotes.droppableAssignments": "The lowest {numDroppable, plural, one{# {assignmentType} score is} other{# {assignmentType} scores are}} dropped.",
     "calculator.instructions.button.label": "Calculator Instructions",
     "calculator.instructions": "For detailed information, see the {expressions_link}.",

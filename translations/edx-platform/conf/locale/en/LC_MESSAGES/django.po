@@ -2438,8 +2438,8 @@ msgstr ""
 "Enter true or false. If true, the module appears in the list of new modules, and a New!"
 " badge temporarily appears next to the module image."
 
-#: lms/djangoapps/courseware/date_summary.py
-msgid "Course Starts"
+#: lms/djangoapps/courseware/date_summary.py:273
+msgid "Course starts"
 msgstr "Module Starts"
 
 #: lms/templates/courses_list.html
