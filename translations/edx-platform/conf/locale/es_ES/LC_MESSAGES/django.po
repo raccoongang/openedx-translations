@@ -1547,20 +1547,19 @@ msgstr ""
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
 "If you are or represent a User that utilizes Our Platform to create, "
-"edit and host an Online School ("Online School Administrator"), please see below our legal basis and learn how we process your Personal Data."
+"edit and host an Online School (\"Online School Administrator\"), please see below our legal basis and learn how we process your Personal Data."
 msgstr ""
 "Si usted es o representa a un Usuario tercero que utiliza Nuestra Plataforma para crear, "
-"editar y alojar una Escuela Online (“Administrador de Escuela Online”), consulte a continuación nuestra base legal y conozca cómo procesamos sus Datos Personales."
+"editar y alojar una Escuela Online (\"Administrador de Escuela Online\"), consulte a continuación nuestra base legal y conozca cómo procesamos sus Datos Personales."
 
-#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
 "Personal data is defined by the General Data Protection Regulation "
-"(EU Regulation 2016/679) (the "GDPR") as "any information relating to an identifiable "
-"person who can be directly or indirectly identified in particular by reference to an identifier".
-mgstr ""
-"Los Datos Personales son, en términos más sencillos, cualquier información sobre usted que permita "
-"identificarle. Los Datos Personales abarcan información obvia como su nombre y datos de contacto, "
-"pero también información menos obvia como números de identificación, datos de localización electrónica y otros identificadores en línea."
+"(EU Regulation 2016/679) (the \"GDPR\") as \"any information relating to an identifiable "
+"person who can be directly or indirectly identified in particular by reference to an identifier\"."
+msgstr ""
+"Los Datos Personales se definen, según el Reglamento General de Protección de Datos "
+"(Reglamento de la UE 2016/679) (el \"RGPD\"), como \"cualquier información relativa a una persona identificable "
+"que pueda ser identificada directa o indirectamente, en particular mediante referencia a un identificador\"."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid: "Account"

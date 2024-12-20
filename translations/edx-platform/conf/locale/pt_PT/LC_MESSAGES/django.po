@@ -27099,10 +27099,6 @@ msgstr "Fale conosco"
 msgid "Contact us"
 msgstr "Fale conosco"
 
-#: themes/edx-theme-rg/lms/templates/static_templates/footer.html:14
-msgid "Contact Us"
-msgstr "Fale Conosco"
-
 #: themes/edx-theme-rg/lms/templates/static_templates/contact.html:17
 msgid "Contact email for general information or questions:"
 msgstr "Precisa de mais informações ou tem alguma dúvida? Entre em contato:"
@@ -28456,10 +28452,6 @@ msgstr ""
 "da data em que recebermos sua solicitação. Vamos mantê-lo totalmente informado sobre o andamento do processo."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid: "Account"
-msgstr "Conta"
-
-#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "Cookie Law"
 msgstr "Lei de Cookies"
 
@@ -28474,10 +28466,6 @@ msgstr "Escola On-line"
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "Site Visitors"
 msgstr "Visitantes do Site"
-
-#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid "User"
-msgstr "Usuário"
 
 # themes/edx-theme-rg/lms/templates/static_templates/tos.html
 msgid "Interfere with or disrupt the Service."
@@ -28504,22 +28492,25 @@ msgstr ""
 "identificável. Os Dados Pessoais incluem informações como nome e dados de contato, além de números de identidade, "
 "dados de localização eletrônica e outros identificadores on-line."
 
-# themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
 "If you are or represent a User that utilizes Our Platform to create, "
-"edit and host an Online School ("Online School Administrator"), please see below our legal basis and learn how we process your Personal Data."
+"edit and host an Online School (\"Online School Administrator\"), please see below our legal basis and learn how we process your Personal Data."
 msgstr ""
-"Se você for ou representar um Usuário terceiro que usa nossa Plataforma para criar, "
-"editar e hospedar uma Escola On-line (“Administrador de Escola On-line”), veja abaixo nossa base legal e entenda como processamos seus Dados Pessoais."
+"Se você for ou representar um Usuário que utiliza nossa Plataforma para criar, "
+"editar e hospedar uma Escola On-line (\"Administrador de Escola On-line\"), veja abaixo nossa base legal e entenda como processamos seus Dados Pessoais."
+
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "Financial information when you make a subscription (credit card details, account details, payment information);"
 msgstr "Informações financeiras (detalhes do cartão de crédito, detalhes da conta, informações de pagamento);"
 
-# themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid "Supplying you with information by email that you have opted-in to "
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Supplying you with information by email that you have opted-in to "
 "(you may unsubscribe or opt-out at any time by sending an email to {link_start} {link_email} {link_end})."
-mgstr "Fornecer-lhe informações por e-mail que você tenha optado para receber "
+msgstr ""
+"Fornecer-lhe informações por e-mail que você tenha optado para receber "
 "(você pode cancelar a inscrição ou optar por não receber a qualquer momento enviando um e-mail para {link_start} {link_email} {link_end})."
 
 # themes/edx-theme-rg/lms/templates/static_templates/privacy.html
@@ -28567,10 +28558,10 @@ msgstr ""
 "da comunidade de inteligência estadunidense. Até o momento, não recebemos nenhuma solicitação de vigilância, e caso recebamos uma solicitação "
 "desse tipo, notificaremos as partes afetadas, a menos que a legislação aplicável proíba."
 
-# themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
 "If you want to know what Personal Data We have about you, you can ask us for details of that Personal "
 "Data and for a copy of it (where any such Personal Data is held). This is known as a \"subject access request\"."
-mgstr ""
+msgstr ""
 "Se quiser saber quais de seus Dados Pessoais temos sobre você, pode solicitar os detalhes desses Dados Pessoais "
 "e uma cópia deles (caso os tenhamos). Isso é conhecido como \"solicitação de acesso\"."
