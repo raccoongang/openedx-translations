@@ -3151,7 +3151,7 @@ msgstr "Blog"
 #: lms/djangoapps/branding/api.py:255 cms/templates/widgets/sock_links.html:35
 #: themes/stanford-style/lms/templates/static_templates/about.html:96
 msgid "Contact Us"
-msgstr "Contacte-nos"
+msgstr "Fale conosco"
 
 #: lms/djangoapps/branding/api.py:256 lms/djangoapps/branding/api.py:292
 msgid "Help Center"
@@ -27010,3 +27010,1562 @@ msgstr "Coloque aqui o seu Texto de Direitos de Autor!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Editor de Código"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/about.html:8
+msgid "About us"
+msgstr "QUEM SOMOS"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/footer.html
+msgid "About Us"
+msgstr "Quem Somos"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/about.html:15
+msgid "Your Partner in Drilling Automation Success"
+msgstr "Seu aliado para o sucesso na Automação de Perfuração"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/about.html:19
+msgid ""
+"Drilledge Mining Solutions are specialists focused on mining Drill "
+"Operations Improvement, Deployment of Remote and Autonomous Drilling "
+"Solutions and Delivering Operator Training both on-site and via our "
+"best-in-class 3D digital LMS (Learning Management System) developed "
+"especially for Autonomous open-cut drill and blast operations."
+msgstr ""
+"A Drilledge Mining Solutions é especialista em melhoria de operações de "
+"perfuração em mineração e na implementação de soluções de perfuração "
+"remota e autônoma. Também oferecemos capacitação de operadores, tanto no "
+"local quanto por meio de nosso inovador Sistema de Gestão de Aprendizagem "
+"(LMS) em 3D, desenvolvido especificamente para operações de perfuração e "
+"desmonte autônomas em minas a céu aberto."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/about.html:22
+msgid ""
+"We are dedicated to implementing best-practices in open-cut blasthole "
+"drilling operations."
+msgstr ""
+"Nós nos dedicamos a implementar as melhores práticas em operações de "
+"perfuração e desmonte em minerações a céu aberto."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/about.html:24
+msgid ""
+"We can benchmark your operations, provide insights into potential "
+"performance bottlenecks and upskill your workforce."
+msgstr ""
+"Podemos avaliar suas operações, identificar possíveis gargalos de "
+"desempenho e otimizar a capacitação de sua equipe."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/about.html:27
+msgid ""
+"Miners who are currently planning or are ready to move into autonomous "
+"operations, Drilledge brings the many years of hands-on experience "
+"required for success."
+msgstr ""
+"Na Drilledge, sabemos que, ao planejar ou estar pronto para adotar a "
+"automação operacional, você precisa de um parceiro com a experiência "
+"prática necessária para alcançar os resultados desejados."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/about.html:30
+msgid ""
+"We've learned through extensive on-the-job experience, that it’s never as easy as it seems."
+msgstr ""
+"Ao longo de muitos anos de vivência, aprendemos que o caminho nunca é tão simples quanto parece."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/about.html:33
+msgid ""
+"The drive towards autonomous automation is accelerating around the world "
+"and to be successful it takes the right preparation, a solid foundation of "
+"skills, best-practice procedures and proven technologies."
+msgstr ""
+"A jornada rumo à automação autônoma está se acelerando globalmente e, para "
+"ter sucesso, é preciso estar bem preparado, com uma base sólida de "
+"habilidades, procedimentos baseados nas melhores práticas e tecnologias "
+"comprovadas."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/about.html:36
+msgid "We know, because we've done it and, we can help you do it too!"
+msgstr ""
+"Sabemos disso porque já passamos por essa jornada, e estamos aqui para "
+"ajudar você a atingir os mesmos resultados positivos."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/about.html:39
+msgid "Contact email:"
+msgstr "Email de contato:"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/about.html:41
+msgid "Contact page"
+msgstr "Fale conosco"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/contact.html:14
+msgid "Contact us"
+msgstr "Fale conosco"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/contact.html:17
+msgid "Contact email for general information or questions:"
+msgstr "Precisa de mais informações ou tem alguma dúvida? Entre em contato:"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/contact.html:20
+msgid "Contact email for LMS platform support or other support questions:"
+msgstr ""
+"Entre em contato com a nossa equipe se tiver"
+"alguma dúvida ou precisar de suporte com a Plataforma Digital de Aprendizagem (LMS):"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/contact.html:23
+msgid "Contact postal address:"
+msgstr "Endereço postal:"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:21
+msgid ""
+"Introduction Welcome to Drilledge.com. These Terms of Use (\"Terms\") govern "
+"your access to and use of the Drilledge.com website, subdomain websites and "
+"online digital LMS (Learning Management System) websites and its related "
+"services (collectively, the \"Service\"). By accessing or using the Service, "
+"you agree to be bound by these Terms and our Privacy Policy."
+msgstr ""
+"Introdução Bem-vindo a Drilledge.com. Estes Termos de Uso (os \"Termos\") "
+"regem o seu acesso e uso do site Drilledge.com e seus subdomínios e da "
+"Plataforma de Aprendizagem Drilledge. A Plataforma de Aprendizagem é o "
+"nosso Sistema de Gestão de Aprendizagem digital on-line. Este e todos os "
+"serviços (relacionados serão chamados de \"Serviço\") para o propósito deste "
+"documento. Ao acessar ou usar o Serviço, você concorda em cumprir estes "
+"Termos de Uso e a nossa Política de Privacidade."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:24
+msgid ""
+"Acceptance of Terms Your access to and use of the Service is conditioned on "
+"your acceptance of and compliance with these Terms. If you disagree with any "
+"part of the Terms, you may not access the Service."
+msgstr ""
+"Aceitação dos Termos Seu acesso e uso do Serviço estão condicionados à "
+"aceitação e ao cumprimento destes Termos. Caso não concorde com algum "
+"deles, você não poderá acessar o Serviço."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:27
+msgid ""
+"Description of Service Drilledge.com provides a range of online educational "
+"services, including but not limited to, courses, tutorials, and educational "
+"resources (the \"Educational Content\"). The Service is designed to "
+"facilitate learning and personal development."
+msgstr ""
+"Descrição do Serviço A Drilledge.com oferece uma ampla gama de serviços "
+"educacionais on-line, incluindo entre eles, cursos, tutoriais e recursos "
+"educativos (o \"Conteúdo Educativo\"). O Serviço está desenhado para "
+"facilitar a aprendizagem e o desenvolvimento pessoal."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:30
+msgid ""
+"User Accounts and Responsibilities To access certain features of the "
+"Service, you must register and create an account. You are responsible for "
+"maintaining the confidentiality of your account information and for all "
+"activities that occur under your account. You agree to provide accurate, "
+"current, and complete information during the registration process and to "
+"update such information to keep it accurate, current, and complete."
+msgstr ""
+"Contas e Responsabilidades do Usuário Para acessar determinados recursos "
+"do Serviço, você deve registrar-se e criar uma conta. Você é responsável "
+"por manter a confidencialidade das informações de sua conta e de todas as "
+"atividades realizadas nela. Você concorda em fornecer informações "
+"precisas, atuais e completas durante o processo de registro e atualizá-las "
+"para mantê-las exatas, atuais e completas."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:33
+msgid "Prohibited Activities You are prohibited from using the Service to:"
+msgstr "Atividades Proibidas Você está proibido de usar o Serviço para:"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:47
+msgid ""
+"Intellectual Property All content provided on Drilledge.com, including "
+"subdomains, LMS, text, graphics, logos, images, as well as the compilation "
+"thereof, and any software used on the Site, is the property of Drilledge.com "
+"or its suppliers and protected by copyright and other laws that protect "
+"intellectual property and proprietary rights."
+msgstr ""
+"Propriedade Intelectual Todo o conteúdo disponibilizado no site "
+"Drilledge.com e seus subdomínios, incluindo o Sistema de Gestão de "
+"Aprendizagem, textos, gráficos, logotipos, imagens, assim como sua "
+"compilação e qualquer software utilizado no site, é de propriedade do "
+"Drilledge.com ou de seus fornecedores, sendo protegido por leis de "
+"direitos autorais e outras legislações que garantem a proteção da "
+"propriedade intelectual e dos direitos de propriedade."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:50
+msgid ""
+"Disclaimers The materials on Drilledge.com are provided \"as is\". "
+"Drilledge.com makes no warranties, expressed or implied, and hereby "
+"disclaims all other warranties including, without limitation, implied "
+"warranties or conditions of merchantability, fitness for a particular "
+"purpose, or non-infringement of intellectual property."
+msgstr ""
+"Isenções de Responsabilidade Os materiais do Drilledge.com são fornecidos "
+"\"como estão\". Drilledge.com não oferece garantias, expressas ou "
+"implícitas, e, por este meio, isenta-se de todas as outras garantias, "
+"incluindo, sem limitação, garantias implícitas ou condições de "
+"comercialização, adequação a um fim específico ou não violação de "
+"propriedade intelectual."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:53
+msgid ""
+"Limitation of Liability In no event shall Drilledge.com or its suppliers be "
+"liable for any damages (including, without limitation, damages for loss of "
+"data or profit, or due to business interruption) arising out of the use or "
+"inability to use the materials on Drilledge.com."
+msgstr ""
+"Limitação de Responsabilidade Em nenhum caso a Drilledge.com ou seus "
+"fornecedores serão responsáveis por quaisquer danos (incluindo, sem "
+"limitação, danos por perda de dados ou lucro ou devido a interrupção dos "
+"negócios) decorrentes do uso ou da incapacidade de usar os materiais do "
+"Drilledge.com."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:56
+msgid ""
+"Indemnification You agree to indemnify, defend and hold harmless "
+"Drilledge.com, its officers, directors, employees, agents, and third "
+"parties, for any losses, costs, liabilities, and expenses (including "
+"reasonable attorney's fees) relating to or arising out of your use of or "
+"inability to use the Site or services."
+msgstr ""
+"Indenização Você concorda em indenizar, defender e isentar o "
+"Drilledge.com, seus diretores, executivos, funcionários, agentes e "
+"terceiros, de quaisquer perdas, custos, responsabilidades e despesas "
+"(incluindo honorários advocatícios razoáveis) relacionadas ao seu uso ou à "
+"impossibilidade de usar o Site ou os serviços."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:59
+msgid ""
+"Modification of Terms Drilledge.com reserves the right, in its sole "
+"discretion, to change the Terms under which Aulasneo.com is offered. The "
+"most current version of the Terms will supersede all previous versions."
+msgstr ""
+"Modificação dos Termos A Drilledge.com poderá alterar, a qualquer momento "
+"e sem aviso prévio, o conteúdo dos Termos de Uso sob os quais o site "
+"Drilledge.com é oferecido. A versão mais recente dos Termos substituirá "
+"todas as versões anteriores."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:62
+msgid ""
+"Governing Law These Terms are governed by and construed in accordance with "
+"the laws of Singapore, and you irrevocably submit to the exclusive "
+"jurisdiction of the courts in that State or location."
+msgstr ""
+"Lei aplicável"
+"Estes Termos e condições são regidos e interpretados de"
+"acordo com as leis de Singapura, e você se submete irrevogavelmente à"
+"jurisdição exclusiva dos tribunais desse estado ou local."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:65
+msgid "Contact Information Drilledge.com welcomes your questions or comments regarding the Terms:"
+msgstr ""
+"Informações para contato"
+"Em caso de dúvidas ou comentários relacionados aos Termos de Uso, entre em contato conosco:"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:69
+msgid "Email address:"
+msgstr "E-mail:"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:71
+msgid "Postal Address:"
+msgstr "Endereço:"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html:74
+msgid "Effective as of 1st November 2024."
+msgstr "Estes Termos de Uso são efetivos a partir de 1.º de novembro de 2024."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/privacy.html:9
+msgid "Transmit any material that is abusive, harassing, defamatory, obscene, or otherwise objectionable."
+msgstr "Compartilhar qualquer material que seja abusivo, assediante, difamatório, obsceno ou de qualquer outra forma inapropriado."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Drilledge (\"Drilledge\", \"Us\", \"We\", or \"Our\") understands the importance "
+"of your privacy and that you want to clearly understand how your Personal Data "
+"is used. We respect and value the privacy of everyone who visits this website, "
+"{link_start}www.drilledge.com{link_end} (\"Our Site\" or \"Site\"), the Drilledge "
+"platform (\"Our Platform\") and uses the offered services (\"Our Services\" or \"Services\") "
+"and will only collect and use Personal Data in ways that are described here, and in a way "
+"that is consistent with our obligations and your rights under all relevant data privacy laws."
+msgstr ""
+"A sua privacidade é importante para nós. A Drilledge (\"Drilledge\", \"Nós\" ou \"Nosso\") entende "
+"que você deseja entender claramente como seus Dados Pessoais são utilizados. "
+"Respeitamos e valorizamos a privacidade de todos os visitantes do site {link_start}www.drilledge.com{link_end} (\"Nosso Site\" ou \"Site\"), "
+"da plataforma de aprendizagem Drilledge (\"Nossa Plataforma\") e dos usuários dos serviços oferecidos "
+"(\"Nossos Serviços\" ou \"Serviços\"), por isso todos os dados pessoais são coletados "
+"e usados apenas da forma detalhada nestes termos e de maneira consistente "
+"com nossas obrigações e seus direitos, conforme todas as leis de privacidade de dados aplicáveis."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Please read this Privacy Policy carefully and ensure that you understand it."
+" Regardless of what type of user you are as described below Online School "
+"Administrator/User, End User and/or Site Visitor, this Privacy Policy "
+"creates a legal agreement directly between you and Us and explain the rules "
+"governing use of the Platform, Service and Site. If you do not agree with "
+"and accept this Privacy Policy, do not access or use our Site and/or "
+"Platform or any other aspect of Our business. You will be required to read "
+"and accept this Privacy Policy when signing up for a trial account to use "
+"Our Platform."
+msgstr ""
+"Por favor, leia esta Política de Privacidade atentamente e certifique-se"
+"de compreendê-la. Independentemente do tipo de usuário que você seja,"
+"conforme descrito a seguir — Administrador/Usuário de terceiros on-line,"
+"Usuário Final e/ou Visitante do Site — esta Política de Privacidade"
+"estabelece um acordo legal diretamente entre você e Nós e detalha"
+"a normativa que rege o uso da Plataforma, do Serviço e do Site."
+"Se você não concordar e aceitar a Política de Privacidade,"
+"não acesso ou use o nosso Site e/ou Plataforma ou qualquer serviço"
+"relacionado ao Nosso negócio. Será necessário ler e aceitar esta Política de Privacidade ao se inscrever para uma conta de teste para utilizar nossa Plataforma."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"We may, from time to time, modify this Privacy Policy. Please check this "
+"webpage periodically for updates. We will comply with applicable legal "
+"obligations to provide you with relevant notice of material changes to this "
+"Privacy Policy. This may be necessary, for example, if the law changes, or "
+"if we change our business in a way that affects Personal Data protection. "
+"Your continued use of the Site, the Platform and Services after any such "
+"update constitutes your acceptance of such changes."
+msgstr ""
+"Poderemos alterar, a qualquer momento e sem aviso prévio,"
+"o conteúdo da Política de Privacidade. A Drilledge aconselha"
+"a verificação desta página periodicamente para tomar conhecimento"
+"de quaisquer alterações que tivermos feito. Cumpriremos com as obrigações"
+"legais aplicáveis para avisar-lhe adequadamente sobre alterações significativas"
+"nesta Política de Privacidade. Isso pode ser necessário, por exemplo,"
+"se houver mudanças na legislação ou se alterarmos nosso negócio de maneira"
+"que impacte a proteção de Dados Pessoais. O uso continuado de nosso Site,"
+"da Plataforma e dos Serviços após qualquer alteração será considerado como aceitação de nossas práticas em torno de privacidade e informações pessoais"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "1. Definitions and Interpretation"
+msgstr "1. Definições e interpretaçãoq"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"All terms in capitals not defined herein shall have the meaning assigned to "
+"them in Our"
+msgstr ""
+"Todos os termos em maiúsculas que não estejam definidos neste documento terão o significado atribuído a eles em nossos"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"In this Privacy Policy the following terms shall have the following "
+"meanings:"
+msgstr ""
+"En la presente Política de Privacidad, los siguientes términos tendrán el significado que se indica a continuación:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"means an account required to access and/or use certain areas and features of"
+" Our Site and/or Platform and respective Services;"
+msgstr ""
+"significa una cuenta necesaria para acceder y/o utilizar determinadas áreas y funciones de Nuestro Sitio y/o plataforma y servicios respectivos;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"means a small text file placed on your computer or device by Our Site or "
+"Platform when you visit certain parts of Our Site or Platform and/or when "
+"you use certain features of Our Site or Platform."
+msgstr ""
+"significa um pequenos arquivos de texto armazenado em seu computador"
+"ou dispositivo pelo Nosso Site ou Plataforma quando você visita determinadas"
+"partes ou utiliza certas funcionalidades do Nosso Site ou Plataforma."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"means the relevant parts of the Privacy and Electronic Communications (EC "
+"Directive) Regulations 2003."
+msgstr ""
+"significa las partes relevantes do Regulamento de Privacidade e Comunicações"
+"Eletrônicas (Diretiva da CE) de 2003, incluindo todas as alterações conhecidas que estejam em vigor em 12 de outubro de 2024"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "means the user that has registered to an Online School."
+msgstr "significa o usuario que é o usuário registrado na Plataforma de Aprendizagem da Drilledge ou na Escola On-line."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"means a specialized website created by a User using Our Platform, which "
+"shall contain User Content (Free and/or Paid Online Courses) and shall be "
+"hosted by Us;"
+msgstr "significa site especializado criado por um Usuário utilizando Nossa Plataforma, que conterá Conteúdo do Usuário (cursos on-line gratuitos e/ou pagos) e será hospedado por nós."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "means visitors of the Website."
+msgstr "significa visitantes do Site."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "means a user of Our Site."
+msgstr "refere-se a um usuário do Nosso Site e da Plataforma Digital de Aprendizagem"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "2. Information About Us"
+msgstr "2. Sobre nós"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Our Site and Our Platform are owned and operated and our Services are "
+"offered by Drilledge Ltd, a limited company registered in Singapore."
+msgstr ""
+"A Drilledge Ltd, uma empresa limitada registrada em Singapura,"
+"é a proprietária e operadora do nosso Site e da nossa Plataforma, e oferece nossos Serviços."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Registered address:"
+msgstr "Endereço registrado:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "3. What is Personal Data?"
+msgstr "3. O que são dados pessoais?"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Personal Data is, in simpler terms, any information about you that enables "
+"you to be identified. Personal Data covers obvious information such as your "
+"name and contact details, but it also covers less obvious information such "
+"as identification numbers, electronic location data, and other online "
+"identifiers."
+msgstr ""
+"Em termos mais simples, os Dados Pessoais são qualquer informação"
+"relacionada a uma pessoa física identificável. Os Dados Pessoais"
+"incluem informações como nome e dados de contato, além de números"
+"de identidade, dados de localização eletrônica e outros identificadores on-line."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "4. What Does This Privacy Policy Cover?"
+msgstr "4. O que esta Política de Privacidade cobre?"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"This Privacy Policy applies only to your use of Our Site, Platform and "
+"respective Services. Our Site and Platform may contain links to other "
+"websites. Please note that we have no control over how your Personal Data is "
+"collected, stored, or used by other websites and we advise you to check the "
+"privacy policies of any such websites before providing any Personal Data to "
+"them."
+msgstr ""
+"Esta Política de Privacidade estabelece diretrizes e parâmetros específicos"
+"relacionados ao Nosso Site, nossa Plataforma e seus respectivos Serviços."
+"Nosso Site e nossa Plataforma podem conter links para outros sites."
+"Vale ressaltar que não temos controle sobre como seus Dados Pessoais são coletados, "
+"armazenados ou usados por outros sites. Por isso, recomendamos que você consulte"
+"as políticas de privacidade de qualquer site antes de fornecer seus Dados Pessoais"
+
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"The Personal Data we collect depends on the context of your interaction and "
+"use of our Site, Services and Platform and the choices you make in relation "
+"to your privacy settings. If you have questions about Our business "
+"operations in connection with providing Services to an Online School, please"
+" contact Us, as described in the How Do I Contact You section (Part 14). "
+msgstr ""
+"Os Dados Pessoais que coletamos dependem do contexto das suas interações com o Site,"
+"Serviços e Plataforma; e das escolhas que você faz com relação às suas"
+"configurações de privacidade. Se tiver qualquer consulta sobre nossas operações"
+"comerciais relacionadas à prestação de Serviços para terceiros (Escola On-line),"
+"entre em contato conosco, conforme descrito na seção Fale conosco (item 15)."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "(i) Online School Administrator"
+msgstr "(i) Administradores e usuários de escolas on-line de terceiros"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"When a User tries, subscribes or uses Our Platform and Services and obtains "
+"support for the above under an agreement with Us, We receive data from the "
+"User and collect and generate data based on Our legitimate interest to "
+"provide the requested Services (including improving, securing, and updating "
+"the Service), conduct our business operations, and communicate with the "
+"User, carry out business development and marketing activities and for "
+"administrative and auditing purposes."
+msgstr ""
+"Quando um Usuário testa, assina ou usa nossa Plataforma e Serviços,"
+"e obtém suporte conforme acordado conosco, recebemos dados do Usuário"
+"e coletamos e geramos dados com base em nosso interesse legítimo em fornecer"
+"os Serviços solicitados (incluindo melhorar, proteger e atualizar o Serviço),"
+"conduzir nossas operações comerciais, comunicar-nos com o Usuário,"
+"realizar atividades de desenvolvimento de negócios e marketing, e para fins administrativos e de auditoria." 
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "The Personal Data provided by the User may include:"
+msgstr "Os Dados Pessoais fornecidos pelo Usuário podem incluir:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Name;"
+msgstr "Nome e sobrenome;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "E-mail;"
+msgstr "E-mail;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Identifiable IT information (IP addresses, usage data, cookies data, online navigation data, browser data);"
+msgstr "Informações financeiras (detalhes do cartão de crédito, detalhes da conta, informações de pagamento)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Telephone number;"
+msgstr "Número de telefone;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Business name;"
+msgstr "Razão social;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Payment information."
+msgstr "Informação de pagamento."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"The Personal Data we collect while they use our Product and Services "
+"include:"
+msgstr "Os Dados Pessoais que coletamos enquanto o Usuário utiliza nossos Produtos e Serviços podem incluir:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Web browser type and version;"
+msgstr "Tipo e versão de navegador;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Operating system;"
+msgstr "Sistema operacional;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"A list of URLs starting with a referring site, your activity on Our Site, "
+"and the site you exit to;"
+msgstr "Uma lista de URL que começa com um site de referência, sua atividade em Nosso Site e o site para o qual você sai;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Number of log-ins."
+msgstr "Quantidade de logins;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "(ii) End User"
+msgstr "(ii) Usuário final"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"If you are an End User of an Online School, please see the terms and "
+"conditions and privacy policy of that third party, and direct your privacy "
+"inquiries, including any requests to exercise your data protection rights, "
+"to the Online School’s Administrator. We are not responsible for the privacy "
+"or security practices of our Online School Administrators, which may differ "
+"from those set forth in this privacy policy. However, we process your "
+"Personal Data and act as data processors to the Online School Administrator "
+"that is the data controller, with whom you have entered into an agreement "
+"with."
+msgstr ""
+"Se você for um usuário final de uma Escola On-line de terceiros, "
+"consulte os termos e condições e a política de privacidade desse terceiro, "
+"e direcione suas dúvidas sobre privacidade, incluindo quaisquer solicitações "
+"para exercer seus direitos de proteção de dados, ao Administrador da Escola On-line. "
+"Não somos responsáveis pelas práticas de privacidade ou segurança dos "
+"Administradores de Escolas On-line, que podem ser diferentes das estabelecidas "
+"nesta política de privacidade. No entanto, processamos seus Dados Pessoais e agimos como "
+"processadores de dados para o Administrador da Escola On-line, que é o controlador de dados, "
+"com quem você assinou um acordo."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "The Personal Data provided by the End User may include:"
+msgstr "Os Dados Pessoais fornecidos pelo usuário final podem incluir:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Name."
+msgstr "Nome e sobrenome."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Email Address."
+msgstr "E-mail;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Other custom form fields and profile information (occupation or other "
+"demographic information, address, job title) subject to the Online School "
+"Administrator set-up."
+msgstr ""
+"Outros campos personalizados e informações de perfil"
+"(ocupação ou outras informações demográficas, endereço, cargo),"
+"conforme configurado pelo Administrador da Escola On-line;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"End-user’s personal interests or preferences (including purchase history, "
+"marketing preferences and publicly available social media profile "
+"information subject to the Online School Administrator set-up."
+msgstr ""
+"Interesses ou preferências pessoais do Usuário Final "
+"(incluindo histórico de compras, preferências de marketing e informações de perfil"
+"de mídia social publicamente disponíveis, conforme configurado pelo Administrador da Escola On-line). "
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"The Personal Data we collect while they use our Product and Services may "
+"include:"
+msgstr "Os Dados Pessoais que coletamos enquanto utilizam nosso Produto e Serviços podem incluir:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Identifiable IT information (IP addresses, usage data, cookies data, online navigation data, browser data)."
+msgstr "Informações de TI (endereços IP, dados de uso, dados de cookies, dados do navegador, dados de pesquisa)."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Webpages visited."
+msgstr "Sites visitados."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Activity on the said Online School."
+msgstr "Atividade na Escola On-line de terceiros mencionada."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "If you use an Online School Account you can:"
+msgstr "Se você usar uma conta de Escola On-line de terceiros, poderá:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Control and administer your Account, including controlling privacy-related "
+"settings."
+msgstr "Controlar e gerenciar sua Conta, incluindo as configurações de privacidade."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Access and process your Personal Data, including the interaction data and "
+"the contents of your communications and files associated with your account "
+"in the Online School."
+msgstr ""
+"Acessar e processar seus Dados Pessoais, incluindo dados de interação"
+"e o conteúdo das suas comunicações e arquivos associados à sua conta na Escola On-line."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Access and process your End User’s Personal Data as provided by them to "
+"offer the agreed services."
+msgstr ""                                    
+"Acessar e processar os Dados Pessoais de seu Usuário Final conforme fornecidos por ele para a prestação de serviços acordados."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"When you use an Online School, Drilledge processing of your Personal Data in"
+" connection with that Online School is governed by an agreement between "
+"Drilledge and the respective User, who administrates the Online School. "
+"Drilledge processes your Personal Data to provide its Services to your "
+"Online School Administrator and you."
+msgstr ""
+"Quando você usa uma Escola On-line de terceiros, o processamento de seus"
+"Dados Pessoais relacionado a essa Escola Online é regido por um acordo entre"
+"a Drilledge e o Usuário respectivo, que administra a Escola On-line. A Drilledge"
+"processa seus Dados Pessoais para fornecer nossos Serviços a você e ao Administrador da sua Escola On-line."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"For Drilledge Platform and Services provided by an Online School "
+"Administrator to minors, Drilledge will:"
+msgstr ""
+"Para a Plataforma e Serviços da Drilledge fornecidos por um Administrador de Escola On-line a menores, a Drilledge:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"not collect or use such Personal Data beyond that needed for authorized "
+"operational purposes and to provide the relevant Services;"
+msgstr ""
+"não coletará ou usará tais Dados Pessoais além do necessário para fins operacionais autorizados e para fornecer os Serviços relevantes;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "not sell or rent such Personal Data;"
+msgstr "não venderá nem alugará tais Dados Pessoais;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"not use or share such Personal Data for advertising or similar commercial "
+"purposes, such as behavioral targeting of advertisements to minors;"
+msgstr ""
+"não usará ou compartilhará tais Dados Pessoais para publicidade"
+"ou outros fins comerciais, como segmentação comportamental de anúncios para menores;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"not build a personal profile of a minor, other than for supporting "
+"authorized educational or school purposes or as authorized by the parent or "
+"guardian;"
+msgstr ""
+"não criará um perfil pessoal de menores, exceto para fins educacionais"
+"ou escolares autorizados, ou conforme permitido pelos pais ou responsáveis;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"require that our Online School Administrators with whom minors’ Personal "
+"Data is shared to deliver the Service, if any, are obligated to implement "
+"these same commitments for such Personal Data."
+msgstr ""
+"exigirá que os Administradores de Escolas On-line"
+"com os quais os Dados Pessoais de menores são compartilhados"
+"para fornecer o Serviço implementem esses mesmos compromissos em relação a esses Dados Pessoais."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "(iii) Site Visitors"
+msgstr "(iii) Visitantes do Site"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"When you visit our Site the following information may be collected: your IP "
+"address, which browser version you use, time of your visit, how you use Our "
+"website and information about your device (e.g. geographical location, "
+"operating system, host name of accessing computer)."
+msgstr ""
+"Quando você visita nosso Site, os registros coletados podem incluir"
+"informações como o endereço IP, o tipo de navegador, tempo de visita,"
+"como você usou nosso Site, a informação do dispositivo (localização geográfica, sistema operacional, nome do administrador do computador de acesso)."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"The above mentioned data does not contain additional Personal Data, and "
+"cannot be assigned to specific persons."
+msgstr ""
+"Os dados mencionados acima não contêm Dados Pessoais adicionais e não podem ser atribuídos a pessoas específicas."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"You may choose to voluntarily submit your Personal Data by filling in the "
+"form(s) on our website (e.g. registration). Such information shall consist "
+"of your email address."
+msgstr ""
+"Você pode optar por enviar voluntariamente seus Dados Pessoais preenchendo"
+"o(s) formulário(s) em nosso site (ex.: cadastro).  Essas informações consistem no seu endereço de e-mail."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "(iv) Job applicants"
+msgstr "(iv) Candidatos a vagas"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"When you apply for a position by either populating the application form, by "
+"email or by hard copy and whether submitted directly by you or by a third-"
+"party recruitment agency on your behalf, we will use such data to evaluate "
+"you for the open position that you have applied for or any position that we "
+"consider you suitable for at the time you submit your resume or at any later"
+" date."
+msgstr ""
+"Quando você se candidata a uma vaga, seja preenchendo o formulário de inscrição,"
+"enviando um e-mail ou por meio de cópia impressa, enviada diretamente por você"
+"ou por uma agência de recrutamento em seu nome, usaremos esses dados para avaliar"
+"sua candidatura para a vaga aberta, bem como para outras posições que possamos"
+"considerar adequadas, tanto no momento do envio do seu currículo quanto em datas posteriores. "
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "The Personal Data processed includes:"
+msgstr "Os Dados Pessoais processados incluem:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Your contact information, such as name, email address, mailing address, "
+"phone number;"
+msgstr ""
+"Seus dados de contato como nome, endereço de e-mail, endereço postal, número de telefone;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"any other information you volunteer, including during any interview or your "
+"interactions with us and contained in the resume that you submit to us;"
+msgstr ""
+"Qualquer outra informação que você forneça voluntariamente,"
+"incluindo durante entrevistas ou suas interações conosco e no currículo que você enviar;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Personal Data of yours obtained from any third parties we work with in "
+"relation to our recruitment activities, including without limitation (and "
+"subject to local laws), recruitment agencies and your referees;"
+msgstr ""
+"Dados Pessoais seus obtidos de terceiros com os quais trabalhamos"
+"em relação às nossas atividades de recrutamento, incluindo, sem "
+"limitação (e de acordo com as leis locais), agências de recrutamento e as referências que ofereceu"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"details of your education, qualifications and employment history, any other "
+"Personal Data which is contained in any reference about you that we receive."
+msgstr ""
+"Informações sobre sua formação educativa, certificado de notas e histórico profissional, além de quaisquer outros Dados Pessoais contidos em referências sobre você que recebamos."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"For any query in relation to our use of your Personal Data or exercising "
+"your rights as outlined above, please contact us using the details provided "
+"in Part 14. Further information about your rights can also be obtained from "
+"the information commissioner’s office or your local citizens advice bureau. "
+"If you have any cause for complaint about our use of your Personal Data, you"
+" have the right to lodge a complaint with the information commissioner’s "
+"office."
+msgstr ""
+"Para qualquer dúvida relacionada ao uso de seus Dados Pessoais ou ao exercício"
+"de seus direitos conforme mencionado acima, entre em contato conosco usando"
+"os detalhes fornecidos no item 15. Mais informações sobre seus direitos também"
+"podem ser obtidas no escritório de informações ou na sua agência local"
+"de orientação ao cidadão. Se você tiver qualquer motivo para reclamar sobre"
+"nosso uso de seus Dados Pessoais, você tem o direito de registrar uma reclamação no escritório do comissário de informações."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "5. How Do You Use My Personal Data?"
+msgstr "5. Uso dos seus Dados Pessoais"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Under the GDPR, we must always have a lawful basis for using Personal Data. "
+"This may be because the Personal Data is necessary for providing our "
+"Services to you, because you have consented to our use of your Personal "
+"Data, or because it is in our legitimate business interests to use it. Your "
+"Personal Data may be used for one of the following purposes subject to your "
+"relevant consent or request:"
+msgstr ""
+"De acordo com o GDPR, devemos sempre ter uma base legal para usar Dados"
+"Pessoais. Isso pode ser porque os Dados Pessoais são necessários para fornecer"
+"nossos Serviços a você, porque você consentiu com o uso de seus Dados Pessoais,"
+"ou porque está em nossos legítimos interesses comerciais usá-los Seus Dados Pessoais"
+"podem ser usados para um dos seguintes fins, sujeitos ao seu consentimento ou solicitação relevante:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Providing and managing your Account on Our Platform;"
+msgstr "Fornecer e gerenciar sua Conta em nossa Plataforma;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Providing and managing your access to Our Site, Platform and relevant "
+"Services;"
+msgstr "Fornecer e gerenciar sua conta de acesso ao nosso Site, Plataforma e Serviços relacionados;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Operating our Site, Platform and provide Services;"
+msgstr "Operar nosso Site, Plataforma e fornecer Serviços;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Personalising and tailoring your experience on Our Site and Platform;"
+msgstr "Personalizar e adaptar sua experiência em nosso Site e Plataforma;"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Supplying Our Platform for your usage and Services to you. Your personal "
+"details are required in order for Us to enter into an agreement with you."
+msgstr "Suministrar Nuestra Plataforma para su uso y prestarle Servicios."
+"Fornecer nossa Plataforma para seu uso e oferecer-lhe Serviços."
+"Seus dados pessoais são necessários para que possamos celebrar um acordo com você. "
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Personalising and tailoring Our Platform and Services for you upon your "
+"request."
+msgstr "Personalizar e adaptar nossa Plataforma e Serviços para você, mediante sua solicitação."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Communicating with you in order to offer our Services. This may include "
+"responding to emails, support tickets or calls from you."
+msgstr "Comunicar-nos com você para oferecer nossos Serviços. Isso pode incluir responder a e-mails, tickets de suporte ou ligações suas."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Analysing your use of Our Site and Platform and gathering feedback to enable"
+" us to continually improve Our Site, Platform, Services and your overall "
+"user experience."
+msgstr ""
+"Analisar seu uso do nosso Site e Plataforma e obter"
+"seu feedback para que possamos continuar melhorando nosso Site, Plataforma, Serviços e sua experiência geral de usuário."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Monitor, detect, prevent, cease prohibited or illegal activities and enforce"
+" our terms of service and all other policies."
+msgstr ""
+"Gerenciar riscos e detectar, prevenir e/ou remediar outras"
+"atividades potencialmente ilegais ou proibidas, além de violações de políticas, contratos ou termos de uso aplicáveis."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "6. Data management"
+msgstr "6. Gestão de Dados"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Providing you with control over the use of your personal data especially "
+"collection, retention, correction, deletion and usage of your data is the "
+"main objective of the GDPR."
+msgstr ""
+"O principal objetivo do GDPR é fornecer a você o controle"
+"sobre o uso de seus dados pessoais, especialmente no que diz respeito à coleta, retenção, correção, exclusão e uso de seus dados"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Opt-Out by Default"
+msgstr "Exclusão por defeito:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Site Visitors of the Drilledge website residing within the EU are opted out "
+"of marketing communications by default."
+msgstr "os visitantes do site e da plataforma Drilledge têm automaticamente desativada a opção de receber comunicações de marketing."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Browser Cookie Control"
+msgstr "Controle de Cookies do navegador:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"You can find in our cookies policy how we use Cookies, namely small text "
+"files a website uses to recognize repeat users and their preferences, "
+"facilitate the user’s access and use of the Site and remember their details."
+" To prevent the use of Cookies for any other purpose, including but not "
+"limited to remarketing, other than the necessary, you may opt out by "
+"visiting the preferences section as displayed by clicking the relevant "
+"button on our banner."
+msgstr ""
+"em nossa Política de Cookies, você pode encontrar informações sobre como usamos cookies,"
+"arquivos pequenos e simples que ajudam a reconhecer usuários recorrentes e suas preferências,"
+"facilitando o acesso e uso do Site, e armazenando seus dados. Para impedir o uso de cookies"
+"para qualquer outra finalidade, incluindo, mas não se limitando a remarketing, além das necessárias,"
+"você pode desativá-las acessando a seção de preferências, exibida ao clicar no botão correspondente no banner de nosso site."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "7. What Are My Rights?"
+msgstr "7. Quais são meus direitos?"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Under the GDPR, you have the following rights, which we will always work to "
+"uphold:"
+msgstr ""
+"De acordo com o Regulamento Geral de Proteção de Dados, você tem os direitos a seguir, que sempre trabalharemos para defender:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"The right to access the Personal Data we hold about you. Part 13 will tell "
+"you how to do this."
+msgstr ""
+"O direito de acessar seus Dados Pessoais coletados. O item 13 mostra como pode fazê-lo.."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"The right to restrict (i.e. prevent) the processing of your personal data."
+msgstr ""
+"O direito de restringir (isto é, impedir) o processamento de seus Dados Pessoais."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"The right to object to us using your personal data for a particular purpose "
+"or purposes."
+msgstr ""
+"O direito de se opor ao uso de seus Dados Pessoais para um fim ou fins específicos."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"The right to data portability. This means that, if you have provided "
+"personal data to us directly, we are using it with your consent or for the "
+"performance of a contract, and that data is processed using automated means,"
+" you can ask us for a copy of that personal data to re-use with another "
+"service or business in many cases."
+msgstr ""
+"O direito à portabilidade dos dados. Isso significa que,"
+"se você nos forneceu Dados Pessoais diretamente, os usamos"
+"com seu consentimento ou para execução de um contrato, e esses dados"
+"são processados por meios automáticos, você pode solicitar uma cópia desses dados para reutilizá-los com outro serviço ou empresa em vários casos."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Rights relating to automated decision-making and profiling. We do not use "
+"your Personal Data in this way."
+msgstr ""
+"Direitos relativos à tomada de decisões automatizadas e elaboração de perfis. Não usamos seus Dados Pessoais desta forma."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"With your permission and/or where permitted by law, we may also use your "
+"Personal Data for marketing purposes, which may include contacting you by "
+"email or telephone or text message with information, news, and offers on Our"
+" Platform and Services. You will not be sent any unlawful marketing content "
+"or spam. We will always work to fully protect your rights and comply with "
+"our obligations under the GDPR and the Privacy and Electronic Communications"
+" (EC Directive) Regulations 2003, and you will always have the opportunity "
+"to opt-out."
+msgstr ""
+"Com sua permissão e/ou quando for permitido por lei, podemos também"
+"usar seus Dados Pessoais para fins de marketing, o que pode incluir"
+"entrar em contato via e-mail, telefone ou mensagem de texto com informações,"
+"novidades e ofertas sobre nossa Plataforma e Serviços. Você não receberá"
+"conteúdos de marketing ilegais ou spam. Trabalharemos para proteger plenamente"
+"seus direitos e cumprir nossas obrigações sob o GDPR e as Regulamentações"
+"de Privacidade e Comunicações Eletrônicas (Diretiva da CE) de 2003, e você sempre terá a opção de não participar."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Third Parties whose digital tools we use on Our Site and Platform may use "
+"third-party Cookies. Please note that we do not control the activities of "
+"such third parties, nor the data they collect and use themselves, and we "
+"advise you to check the privacy policies of any such third parties."
+msgstr ""
+"Os terceiros cujas ferramentas digitais usamos em nosso Site"
+"e Plataforma podem usar cookies de terceiros. Vale ressaltar"
+"que não controlamos as atividades desses terceiros, nem os dados"
+"que eles coletam e utilizam, e recomendamos que você consulte as políticas de privacidade desses terceiros."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "8. How Can I Control My Personal Data?"
+msgstr "8. Como posso controlar meus Dados Pessoais?"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"In addition to your rights under the GDPR, set out in Part 7, when you "
+"submit Personal Data via Our Site and Platform, you may be given options to "
+"restrict our use of your Personal Data. In particular, we provide you with "
+"strong controls on our use of your Personal Data for direct marketing "
+"purposes (including the ability to opt-out of receiving emails from us which"
+" you may do by unsubscribing using the links provided in our emails, at the "
+"point of providing your details, or and by managing your Account)."
+msgstr ""
+"Além de seus direitos de acordo com o GDPR, estabelecidos na Parte 8,"
+"ao enviar seus dados pessoais por meio de nosso Site, você pode"
+"ter opções para restringir o uso de seus Dados Pessoais. Oferecemos controles"
+"estritos sobre o uso de seus Dados Pessoais para marketing direto" 
+"(incluindo a opção de cancelar a assinatura dos nossos e-mails, o que pode ser"
+"feito através dos links fornecidos em nossas mensagens, no momento do fornecimento dos seus dados ou ao gerenciar sua conta)."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "9. How Long Will You Keep My Personal Data?"
+msgstr "9. Quanto tempos meus Dados Pessoais serão armazenados?"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"We will not keep your Personal Data for any longer than is necessary in "
+"light of the reason(s) for which it was first collected. Your Personal Data "
+"will therefore be kept for the following periods (or, where there is no "
+"fixed period, the following factors will be used to determine how long it is"
+" kept):"
+msgstr ""
+"Não manteremos seus dados pessoais por mais tempo do que o necessário"
+"para os fins pelos quais foram coletados inicialmente. Portanto, seus Dados"
+"Pessoais serão mantidos pelo seguinte período (ou, quando não houver um período fixo,"
+"serão usados os fatores apresentados a seguir para determinar por quanto tempo serão armazenados):"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/privacy.html:123
+msgid "For as long as you keep a paid or trial Account with Our Platform."
+msgstr "Enquanto você tiver uma conta paga ou de teste em nossa Plataforma."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/privacy.html:126
+msgid "For as long as you remain subscribed (have positively opted-in) in our emailing list and wish to receive news and offers from us."
+msgstr "Enquanto você permanecer inscrito (tenha dado seu consentimento) em nossa lista de e-mails e desejar receber notícias e ofertas de nossa parte."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/privacy.html:129
+msgid "If none of the above is, then we will keep your data for a maximum period of two years following your initial communication or signup/Personal Data submission."
+msgstr "Caso nenhum dos itens acima se aplique, manteremos seus dados por um período máximo de dois anos após sua comunicação inicial ou inscrição/envio de Dados Pessoais."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/privacy.html:132
+msgid "For proper compliance with our legal, accounting and tax obligations."
+msgstr "Para cumprimento adequado das nossas obrigações legais, fiscais e contábeis."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "10. How and Where Do You Store or Transfer My Personal Data?"
+msgstr "10. Como e onde são armazenados ou transferidos meus Dados Pessoais?"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"All Personal Data that you provide in order to receive the Services and use "
+"the Platform and any Online School is stored on secure Google or Amazon or "
+"Azure Cloud servers located in Singapore or Europe, U.S.A. or other "
+"location. We also share your data with external third parties, as detailed "
+"below, and some are based outside of the EEA. The following safeguards are "
+"applied to such transfers:"
+msgstr ""
+"Todos os Dados Pessoais fornecidos para receber os Serviços e usar a Plataforma"
+"e qualquer Escola On-line são armazenados em servidores seguros da Google,"
+"Amazon ou Azure Cloud localizados em Singapura, Europa, Estados Unidos ou outras"
+"localizações. Também compartilhamos seus dados com terceiros externos, conforme"
+"detalhado abaixo, e alguns podem estar localizados fora da Espaço Econômico Europeu (EEE). As seguintes salvaguardas são aplicadas a essas transferências:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"We will only transfer your Personal Data to countries that the European "
+"Commission has deemed to provide an adequate level of Personal Data "
+"protection."
+msgstr ""
+"Transferimos seus Dados Pessoais apenas para países que a Comissão"
+"Europeia tenha considerado que oferecem um nível adequado de proteção de Dados Pessoais."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Additionally, we use specific agreements and standard contractual clauses "
+"with external third parties that are approved by the European Commission for"
+" the transfer of Personal Data to third countries. These specific agreements"
+" and standard contractual clauses ensure the same levels of Personal Data "
+"protection that would apply under the GDPR."
+msgstr ""
+"Usamos contratos específicos e cláusulas contratuais padrão com terceiros externos"
+"aprovados pela Comissão Europeia para a transferência de Dados Pessoais para outros"
+"países, garantindo os mesmos níveis de proteção de Dados Pessoais previstos pelo GDPR."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Please contact us using the details below in Part 14 for further information"
+" about the particular data protection mechanism used by us when transferring"
+" your personal data to a third country."
+msgstr ""
+"Se quiser obter mais informações sobre os mecanismos de proteção de dados"
+"usados nas transferências internacionais, entre em contato conosco, conforme indicado no item 14."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"The European Commission adopted its adequacy decision for the EU-U.S. Data "
+"Privacy Framework and ruled that US ensures an adequate level of protection "
+"for processing of personal data comparable to that of the European Union. "
+"This means European entities are able to transfer data to self-certified "
+"businesses in the US without having to put in place additional data "
+"protection safeguards. Following the above, please note that all of our sub-"
+"processors are included in the Data Privacy Framework list."
+msgstr ""
+"A Comissão Europeia adotou sua decisão de adequação para a Estrutura de Privacidade"
+"de Dados UE-EUA e concluiu que os EUA garantem um nível adequado de proteção para"
+"o tratamento de dados pessoais, comparável ao da União Europeia. Isso significa"
+"que entidades europeias podem transferir dados para empresas autocertificadas"
+"nos EUA sem a necessidade de estabelecer salvaguardas adicionais de proteção de dados."
+"Em virtude disso, todos os nossos subcontratados estão incluídos na lista da Estrutura de Privacidade de Dados."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Any payment transactions will be encrypted using SSL technology; All payment"
+" data is stored by our payment processors and is never stored on our "
+"servers. Where we have given you (or where you have chosen) a password that "
+"enables you to access your account and the Product, you are responsible for "
+"keeping this password confidential. We recommend that you not share your "
+"password and that you change it frequently."
+msgstr ""
+"Todas as transações de pagamento são criptografadas usando tecnologia SSL;"
+"todos os dados de pagamento são armazenados pelos nossos processadores de pagamento"
+"e nunca são armazenados em nossos servidores. Quando fornecemos (ou quando você escolhe)"
+"uma senha para acessar sua conta e o Produto, você é responsável por manter a confidencialidade"
+"dessa senha. Recomendamos que não compartilhe sua senha e que a altere com frequência."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "11. Do You Share My Personal Data?"
+msgstr "11. Meus Dados Pessoais são compartilhados?"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Subsidiaries: We may sometimes share your personal and usage data with our "
+"subsidiaries in light of, offering our Services and Platform to You."
+msgstr ""
+"Subsidiárias: ocasionalmente, podemos compartilhar seus Dados"
+"Pessoais e de uso com nossas subsidiárias, com o objetivo de fornecer nossos Serviços e Plataforma."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Payment, marketing and delivery vendors and partners: We may sometimes enter"
+" into agreements with the following third parties to be able to offer "
+"certain features of Our Site, the Platform and Services under our capacity "
+"as data controllers. These may include payment processing, delivery, and "
+"marketing. In some cases, those third parties may require access to some or "
+"all of your Personal Data that we hold."
+msgstr ""
+"Fornecedores e parceiros de pagamento, marketing e entrega:"
+"ocasionalmente, podemos celebrar acordos com os terceiros a seguir,"
+"para oferecer certas funcionalidades do nosso Site, Plataforma e Serviços,"
+"no nosso papel como responsáveis pelo tratamento de dados. Estes terceiros"
+"podem envolver o processamento de pagamentos, entrega e marketing."
+"Em alguns casos, esses terceiros podem precisar acessar alguns ou todos os seus Dados Pessoais que temos."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Chargebee.com (subscription management and invoicing)"
+msgstr "Chargebee.com (gestão de assinaturas e faturamento)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Braintreepayments.com (online credit card payments)"
+msgstr "Braintreepayments.com (pagamentos on-line com cartão de crédito)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "PayPal.com (online payments)"
+msgstr "PayPal.com (pagamentos on-line)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "FreshDesk (Customer help center and support tickets)"
+msgstr "FreshDesk (central de atendimento ao cliente e tickets de suporte)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Agile CRM (CRM, form handling, appointment scheduling and user analytics)"
+msgstr "Agile CRM (CRM, gestão de formulários, agendamento de compromissos e analítica de usuários)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "FirstPromoter (registration and tracking of affiliates)"
+msgstr "FirstPromoter (registro e acompanhamento de cadastrados)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Google Analytics (website user analytics)"
+msgstr "Google Analytics (análise de usuários do site)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Google Cloud (data transfer and storage)"
+msgstr "Google Cloud (transferência e armazenamento de dados)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "MixPanel (website user analytics)"
+msgstr "MixPanel (análise e gestão de dados de usuários do site)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Segment (website user analytics)"
+msgstr "Segment (análise de usuários do site)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "HotJar (website user analytics)"
+msgstr "HotJar (análise de usuários do site)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Google AdWords (targeting and tracking of ad campaigns)"
+msgstr "Google AdWords (segmentação e acompanhamento de campanhas publicitárias)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Facebook (targeting and tracking of ad campaigns)"
+msgstr "Facebook (segmentação e acompanhamento de campanhas publicitárias)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "useFOMO (display of user notifications)"
+msgstr "useFOMO (visualização de notificações de usuário)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "LeadPages (displaying pop-ups and registration forms)"
+msgstr "LeadPages (exibição de pop-ups e formulários de inscrição)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Wistia (showing user videos and tracking analytics)"
+msgstr "Wistia (exibição de vídeos de usuários e análise de acompanhamento)"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Others that may apply from time to time"
+msgstr "Outros que possam ser usados ocasionalmente."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Assignment and succession: In case of transferring in part or in whole our "
+"business and/or assets to another company, we may transfer as well your "
+"personal and usage data. We will make sure to notify You in case of such "
+"transfer and you will have available all of your rights under the GDPR."
+msgstr ""
+"Cessão e sucessão: em caso de cessão parcial ou total do nosso negócio e/ou"
+"ativos para outra empresa, também poderemos ceder seus dados pessoais e de uso."
+"Garantiremos notificá-lo caso tal transferência aconteça, e você terá à disposição todos os direitos que o GDPR lhe concede."
+
+
+
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Authorized resellers: If you enter into any subscription plan, including "
+"trial, to access our Services and Platform, we may share your personal data "
+"with an authorized reseller directly so that they can provide you with "
+"timely, helpful information about our Platform and the Services and "
+"faciliate your onboarding. Our resellers are contractually obligated to "
+"treat personal and usage data only as described in the respective "
+"partnership agreement, preventing them from sharing your personal data with "
+"any other third parties or using them in any other way than as agreed in the"
+" partnership agreement. For more information regarding any of our authorized"
+" resellers, please read the Contact Us section below."
+msgstr ""
+"Revendedores autorizados: caso você adquira qualquer plano de assinatura, incluindo"
+"a versão de teste, para acessar nossos Serviços e Plataforma, podemos compartilhar"
+"seus dados pessoais com um revendedor autorizado diretamente para que possam fornecer"
+"informações úteis e oportunas sobre nossa Plataforma e Serviços e facilitar sua integração."
+"Nossos revendedores têm a obrigação contratual de tratar os dados pessoais e de uso apenas"
+"conforme descrito no respectivo acordo de parceria, o que os impede de compartilhar seus dados"
+"pessoais com terceiros ou utilizá-los de qualquer outra forma que não seja a acordada."
+"Se desejar mais informações sobre nossos revendedores autorizados, entre em contato conosco."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Additional Disclosures. We may disclose your personal data where (a) we "
+"believe that disclosure is reasonably necessary to comply with any "
+"applicable law, regulation, legal process, or governmental request, (b) to "
+"enforce our agreements, policies, and Terms of Use, (c) to protect the "
+"security of our Platform and Services, (d) to protect us, our customers, or "
+"the public from harm or illegal activities, or (e) to respond to claims that"
+" any content violates the right of third parties."
+msgstr ""
+"Divulgações adicionais: podemos divulgar seus dados pessoais quando (a)"
+"acreditarmos que a divulgação seja razoavelmente necessária para cumprir"
+"com qualquer lei, regulamento, processo legal ou solicitação governamental aplicável,"
+"(b) para fazer cumprir nossos acordos, políticas e Termos de Uso, (c) para proteger"
+"a segurança de nossa Plataforma e Serviços, (d) para nos proteger, proteger nossos"
+"clientes ou o público contra danos ou atividades ilegais, ou (e) para responder a reclamações de que qualquer conteúdo viole os direitos de terceiros."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"We may also share aggregated and de-identified information that does not "
+"directly identify you with third parties."
+msgstr ""
+"Também podemos compartilhar com terceiros informações adicionadas e não identificáveis que não o identifiquem diretamente."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"If any of your Personal Data is required by a third party, as described "
+"above, we will take steps to ensure that your Personal Data is handled "
+"safely, securely, and in accordance with your rights, our obligations, and "
+"the third party’s obligations under the law."
+msgstr ""
+"Se um terceiro solicitar algum de seus Dados Pessoais, conforme descrito acima,"
+"tomaremos as medidas necessárias para garantir que seus Dados Pessoais sejam tratados"
+"de forma segura e de acordo com seus direitos, nossas obrigações e as obrigações do terceiro conforme a legislação aplicável."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"If any Personal Data is transferred outside of the EEA, we will take "
+"suitable steps in order to ensure that your Personal Data is treated just as"
+" safely and securely as it would be within the EU and under the GDPR, as "
+"explained above."
+msgstr ""
+"Se algum Dado Pessoal for transferido fora da EEE, tomaremos as medidas"
+"adequadas para garantir que seus Dados Pessoais sejam tratados de forma" 
+"tão segura e protegida como seriam sob o GDPR, conforme explicado anteriormente."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "12. Can I Withhold Information?"
+msgstr "12. Posso recusar fornecer informações?"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"You may access certain areas of Our Site without providing any Personal Data"
+" at all. However, to use all features and functions available on Our Site "
+"and Platform you may be required to submit or allow for the collection of "
+"certain data for us to be able to offer our relevant Services. You may "
+"restrict our use of cookies."
+msgstr ""
+"Você pode acessar determinadas áreas do nosso Site sem fornecer Dados Pessoais."
+"No entanto, para usar todas as características e funcionalidades disponíveis"
+"em nosso Site e Plataforma, podemos solicitar que você envie ou permita a coleta"
+"de certos dados para que possamos fornecer nossos serviços. Você pode restringir o uso de cookies."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "13. How Can I Access My Personal Data?"
+msgstr "13. Como posso acessar meus Dados Pessoais?"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"All subject access requests should be made in writing and sent to the email "
+"or postal addresses shown in Part 14. To make this as easy as possible for "
+"you, a subject access request form is available for you to use."
+msgstr ""
+"Todas as solicitações de acesso devem ser feitas por escrito e enviadas para"
+"os endereços de e-mail ou postais fornecidos no item 15. Para facilitar essa solicitação,"
+"disponibilizamos um formulário de solicitação de acesso. Não é obrigatório usar este formulário,"
+"porém é a forma mais fácil de nos informar tudo o que precisamos saber para responder"
+"à sua solicitação à brevidade possível. Entre em contato conosco pelo e-mail contact@Drilledge.com e solicite o formulário."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"You do not have to use this form, but it is the easiest way to tell us "
+"everything we need to know to respond to your request as quickly as "
+"possible. Please contact us at \" + "
+"configuration_helpers.get_value('DRILLEDGE_CONTACT_EMAIL', "
+"'contact@drilledge.com') + \" and request this form."
+msgstr ""
+"Não é necessário usar este formulário, mas ele é a forma mais fácil de nos "
+"informar tudo o que precisamos saber para responder à sua solicitação o "
+"mais rápido possível. Entre em contato conosco através do e-mail \" + "
+"configuration_helpers.get_value('DRILLEDGE_CONTACT_EMAIL', "
+"'contact@drilledge.com') + \" e solicite este formulário."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"There is not normally any charge for a subject access request. If your "
+"request is ‘manifestly unfounded or excessive’ (for example, if you make "
+"repetitive requests) a fee may be charged to cover our administrative costs "
+"in responding."
+msgstr ""
+"Não costumamos cobramos nada por uma solicitação de acesso. No entanto,"
+"se sua solicitação for “manifestamente infundada ou excessiva” (por exemplo,"
+"se você fizer solicitações repetitivas), podemos cobrar uma taxa para cobrir os custos administrativos da nossa resposta."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"We will respond to your subject access request the soonest possible, and in "
+"any case, not more than one month of receiving it. Normally, We aim to "
+"provide a complete response, including a copy of your Personal Data within "
+"that time. In some cases, however, particularly if your request is more "
+"complex, more time may be required up to a maximum of three months from the "
+"date We receive your request. You will be kept fully informed of our "
+"progress."
+msgstr ""
+"Responderemos à sua solicitação o mais rápido possível e, em qualquer caso,"
+"no prazo máximo de um mês a partir do recebimento da solicitação."
+"Nosso objetivo é fornecer uma resposta completa, incluindo uma cópia dos seus"
+"Dados Pessoais, dentro desse prazo. No entanto, em alguns casos, especialmente"
+"se sua solicitação for mais complexa, pode ser necessário mais tempo, até um máximo"
+"de três meses a partir da data em que recebermos sua solicitação. Vamos mantê-lo totalmente informado sobre o andamento do processo."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "14. How Do I Contact You?"
+msgstr "14. Como posso acessar meus Dados Pessoais?"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"To contact us about anything to do with your personal data and data "
+"protection, including to make a subject access request, please use the "
+"following details:"
+msgstr ""
+"Para contactar-nos sobre qualquer coisa que tenha a ver com seus dados pessoais e"
+"proteção de dados, incluindo para fazer uma solicitação de acesso, use os seguintes"
+"detalhes:"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"All subject access requests should be made in writing and sent to the"
+"email or postal addresses shown in Part 14. To make this as easy as possible"
+"for you, a subject access request form is available for you to use."
+msgstr ""
+"Todas as solicitações de acesso devem ser feitas por escrito e enviadas"
+"para os endereços de e-mail ou postais fornecidos no item 14. Para facilitar essa solicitação,"
+"disponibilizamos um formulário de solicitação de acesso. Não é obrigatório usar este formulário,"
+"porém é a forma mais fácil de nos informar tudo o que precisamos saber para responder"
+"à sua solicitação à brevidade possível. Entre em contato conosco solicite o formulário."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"You do not have to use this form, but it is the easiest way to tell us"
+"everything we need to know to respond to your request as quickly as possible."
+"Please contact us at \" + configuration_helpers.get_value('DRILLEDGE_CONTACT_EMAIL', 'contact@drilledge.com') + \" and request this form."
+msgstr ""
+"Não é obrigatório usar este formulário, porém é a forma mais fácil de nos informar"
+"tudo o que precisamos saber para responder à sua solicitação à brevidade possível."
+"Entre em contato conosco pelo e-mail \" + configuration_helpers.get_value('DRILLEDGE_CONTACT_EMAIL', 'contact@drilledge.com') + \" e solicite o formulário."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"There is not normally any charge for a subject access request."
+"If your request is ‘manifestly unfounded or excessive’ (for example,"
+"if you make repetitive requests) a fee may be charged to cover our administrative costs in responding."
+msgstr ""
+"Não costumamos cobramos nada por uma solicitação de acesso. No entanto,"
+"se sua solicitação for “manifestamente infundada ou excessiva” (por exemplo,"
+"se você fizer solicitações repetitivas), podemos cobrar uma taxa para cobrir os custos administrativos da nossa resposta."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Responderemos a su solicitud lo antes posible y, en cualquier caso, en el plazo"
+"máximo de un mes desde su recepción. Normalmente, nuestro objetivo es proporcionarle"
+"una respuesta completa, incluida una copia de sus Datos Personales, en ese plazo."
+"Sin embargo, en algunos casos, especialmente si su solicitud es más compleja,"
+"puede ser necesario más tiempo, hasta un máximo de tres meses a partir de la fecha"
+"en que recibamos su solicitud. Le mantendremos plenamente informado de nuestro progreso."
+msgstr ""
+"Responderemos à sua solicitação o mais rápido possível e, em qualquer caso,"
+"no prazo máximo de um mês a partir do recebimento da solicitação. Nosso objetivo"
+"é fornecer uma resposta completa, incluindo uma cópia dos seus Dados Pessoais,"
+"dentro desse prazo. No entanto, em alguns casos, especialmente se sua solicitação"
+"for mais complexa, pode ser necessário mais tempo, até um máximo de três meses a partir"
+"da data em que recebermos sua solicitação. Vamos mantê-lo totalmente informado sobre o andamento do processo."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Cookie Law"
+msgstr "Lei de Cookies"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "End-User"
+msgstr "Usuário final"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Online School"
+msgstr "Escola On-line"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Site Visitors"
+msgstr "Visitantes do Site"
+
+# themes/edx-theme-rg/lms/templates/static_templates/tos.html
+msgid "Interfere with or disrupt the Service."
+msgstr "Interferir ou interromper o funcionamento do Serviço."
+
+# themes/edx-theme-rg/lms/templates/static_templates/tos.html
+msgid "Infringing upon the intellectual property rights of others."
+msgstr "Infringir os direitos de propriedade intelectual de terceiros."
+
+# themes/edx-theme-rg/lms/templates/static_templates/tos.html
+msgid "Engage in any fraudulent or illegal activities."
+msgstr "Participar de quaisquer atividades fraudulentas ou ilegais."
+
+# themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Personal data is defined by the General Data Protection Regulation "
+"(EU Regulation 2016/679) (the \"GDPR\") as \"any information relating to an identifiable "
+"person who can be directly or indirectly identified in particular by reference to an identifier\"."
+msgstr ""
+"De acordo com o Regulamento Geral de Proteção de Dados (Regulamento UE 2016/679) (o “GDPR”), "
+"“os dados pessoais são definidos como informações que estejam relacionadas a uma pessoa física "
+"identificada ou que possa ser identificada direta ou indiretamente, em particular por meio de um identificador”."
+"Em termos mais simples, os Dados Pessoais são qualquer informação relacionada a uma pessoa física "
+"identificável. Os Dados Pessoais incluem informações como nome e dados de contato, além de números de identidade, "
+"dados de localização eletrônica e outros identificadores on-line."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"If you are or represent a User that utilizes Our Platform to create, "
+"edit and host an Online School (\"Online School Administrator\"), please see below our legal basis and learn how we process your Personal Data."
+msgstr ""
+"Se você for ou representar um Usuário que utiliza nossa Plataforma para criar, "
+"editar e hospedar uma Escola On-line (\"Administrador de Escola On-line\"), veja abaixo nossa base legal e entenda como processamos seus Dados Pessoais."
+
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "Financial information when you make a subscription (credit card details, account details, payment information);"
+msgstr "Informações financeiras (detalhes do cartão de crédito, detalhes da conta, informações de pagamento);"
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Supplying you with information by email that you have opted-in to "
+"(you may unsubscribe or opt-out at any time by sending an email to {link_start} {link_email} {link_end})."
+msgstr ""
+"Fornecer-lhe informações por e-mail que você tenha optado para receber "
+"(você pode cancelar a inscrição ou optar por não receber a qualquer momento enviando um e-mail para {link_start} {link_email} {link_end})."
+
+# themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"The right to be informed about our collection and use of your Personal Data. "
+"This Privacy Policy should tell you everything you need to know, but you can always contact "
+"us to find out more or to ask any questions using the details in \"How Do I Contact You?\"."
+msgstr ""
+"O direito de ser informado sobre a coleta e o uso de seus Dados Pessoais. Esta Política "
+"de Privacidade deve fornecer todas as informações necessárias, mas você pode sempre entrar "
+"em contato conosco para mais detalhes ou para esclarecer dúvidas, conforme indicado na seção \"Fale conosco\"."
+
+# themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"The right to have your Personal Data rectified if any of your Personal Data "
+"held by us is inaccurate or incomplete. Please contact us using the details in \"How Do I Contact You?\" to find out more."
+msgstr ""
+"O direito de modificar seus Dados Pessoais caso estejam incorretos ou incompletos. "
+"Entre em contato conosco para mais informações, conforme indicado na seção \"Fale conosco\"."
+
+# themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"The right to be forgotten, i.e. the right to ask us to delete or otherwise dispose "
+"of any of your personal data that we have. Please contact us using the details "
+"in \"How Do I Contact You?\" to find out more, response timeframe is within a month."
+msgstr ""
+"O direito ao esquecimento, ou seja, solicitar a exclusão ou descarte de seus Dados Pessoais que possuímos. "
+"Entre em contato conosco para mais informações, conforme indicado na seção \"Fale conosco\". O prazo para responder é de um mês."
+
+# themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"Apart from these developments, Drilledge continues to apply standard contractual clauses (SCCs). "
+"Additionally, we’ve specifically assessed the risks and determined that those risks are highly "
+"unlikely for Drilledge as theoretical {bold_start}applications{bold_end} of Executive Order 12333 "
+"and the U.S. Foreign Intelligence Surveillance Act are unlikely to impact Drilledge in any way since "
+"the services we offer are not in the following sectors (e.g., telecommunication providers, ISPs, military etc) "
+"therefore the data we process should be of no interest to the U.S. intelligence community. So far no surveillance "
+"request has been received, and if we receive such a request, we shall notify the impacted parties unless prohibited by applicable law."
+msgstr ""
+"Além dessas novidades, a Drilledge continua aplicando as cláusulas contratuais padrão (CEC). "
+"Também avaliamos especificamente os riscos e determinamos que eles são pouco prováveis para a Drilledge, "
+"uma vez que é improvável que as aplicações teóricas da Ordem Executiva 12333 e da Lei de Vigilância de Inteligência "
+"Estrangeira dos EUA afetem a Drilledge de qualquer forma. Isso ocorre porque os serviços que oferecemos não pertencem aos setores "
+"de fornecedores de telecomunicações, ISP, militares ou setores relacionados. Portanto, os dados que processamos não devem ser de interesse "
+"da comunidade de inteligência estadunidense. Até o momento, não recebemos nenhuma solicitação de vigilância, e caso recebamos uma solicitação "
+"desse tipo, notificaremos as partes afetadas, a menos que a legislação aplicável proíba."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid ""
+"If you want to know what Personal Data We have about you, you can ask us for details of that Personal "
+"Data and for a copy of it (where any such Personal Data is held). This is known as a \"subject access request\"."
+msgstr ""
+"Se quiser saber quais de seus Dados Pessoais temos sobre você, pode solicitar os detalhes desses Dados Pessoais "
+"e uma cópia deles (caso os tenhamos). Isso é conhecido como \"solicitação de acesso\"."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "We know, because we’ve done it and, we can help you do it too!"
+msgstr "Sabemos disso porque já passamos por essa jornada, e estamos aqui para ajudar você a atingir os mesmos resultados positivos."
