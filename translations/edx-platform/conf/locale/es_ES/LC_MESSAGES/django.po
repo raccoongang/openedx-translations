@@ -1562,7 +1562,7 @@ msgstr ""
 "que pueda ser identificada directa o indirectamente, en particular mediante referencia a un identificador\"."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid: "Account"
+msgid "Account"
 msgstr "Cuenta"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
