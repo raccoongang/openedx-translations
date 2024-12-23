@@ -3184,7 +3184,7 @@ msgstr "Faça um donativo"
 #: themes/stanford-style/lms/templates/static_templates/about.html:41
 #: themes/stanford-style/lms/templates/static_templates/about.html:58
 msgid "About"
-msgstr "Sobre"
+msgstr "Quem somos"
 
 #: lms/djangoapps/branding/api.py:289 lms/djangoapps/branding/api.py:365
 #, python-brace-format
@@ -27550,8 +27550,7 @@ msgid ""
 "or security practices of our Online School Administrators, which may differ "
 "from those set forth in this privacy policy. However, we process your "
 "Personal Data and act as data processors to the Online School Administrator "
-"that is the data controller, with whom you have entered into an agreement "
-"with."
+"that is the data controller, with whom you have entered into an agreement."
 msgstr ""
 "Se você for um usuário final de uma Escola On-line de terceiros, "
 "consulte os termos e condições e a política de privacidade desse terceiro, "
@@ -28452,20 +28451,24 @@ msgstr ""
 "da data em que recebermos sua solicitação. Vamos mantê-lo totalmente informado sobre o andamento do processo."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid "Cookie Law"
-msgstr "Lei de Cookies"
+msgid "\"Conta\""
+msgstr "\"Usa\""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid "End-User"
-msgstr "Usuário final"
+msgid "\"Cookie Law\""
+msgstr "\"Lei de Cookies\""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid "Online School"
-msgstr "Escola On-line"
+msgid "\"End-User\""
+msgstr "\"Usuário final\""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid "Site Visitors"
-msgstr "Visitantes do Site"
+msgid "\"Online School\""
+msgstr "\"Escola On-line\""
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "\"Site Visitors\""
+msgstr "\"Visitantes do Site\""
 
 # themes/edx-theme-rg/lms/templates/static_templates/tos.html
 msgid "Interfere with or disrupt the Service."

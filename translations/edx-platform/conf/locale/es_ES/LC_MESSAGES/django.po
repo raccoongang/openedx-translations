@@ -582,8 +582,7 @@ msgid ""
 " or security practices of our Online School Administrators, which may differ"
 " from those set forth in this privacy policy. However, we process your "
 "Personal Data and act as data processors to the Online School Administrator "
-"that is the data controller, with whom you have entered into an agreement "
-"with."
+"that is the data controller, with whom you have entered into an agreement."
 msgstr ""
 "Si usted es un Usuario Final de una Escuela Online, consulte los términos y condiciones "
 "y la política de privacidad de ese tercero, y dirija sus consultas de privacidad, incluidas "
@@ -1468,8 +1467,8 @@ msgstr ""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
-"If you want to know what Personal Data We have about you,"
-"you can ask us for details of that Personal Data and for a copy"
+"If you want to know what Personal Data We have about you, "
+"you can ask us for details of that Personal Data and for a copy "
 "of it (where any such Personal Data is held). This is known as a \"subject access request\"."
 msgstr ""
 "Si desea saber qué Datos Personales tenemos sobre usted,"
@@ -1527,7 +1526,7 @@ msgstr "Derecho a modificar sus Datos Personales en caso de que sean inexactos o
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
 "The right to be informed about our collection and use of your Personal Data. "
-"This Privacy Policy should tell you everything you need to know, but you can always"
+"This Privacy Policy should tell you everything you need to know, but you can always "
 "contact us to find out more or to ask any questions using the details in \"How Do I Contact You?\"."
 msgstr ""
 "El derecho a ser informado sobre nuestra recopilación y uso de sus Datos Personales. "
@@ -1562,25 +1561,25 @@ msgstr ""
 "que pueda ser identificada directa o indirectamente, en particular mediante referencia a un identificador\"."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid "Account"
-msgstr "Cuenta"
+msgid "\"Account\""
+msgstr "\"Cuenta\""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid "Cookie Law"
-msgstr "Ley de Cookies"
+msgid "\"Cookie Law\""
+msgstr "\"Ley de Cookies\""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid "End-User"
-msgstr "Usuario Final"
+msgid "\"End-User\""
+msgstr "\"Usuario Final\""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid "Online School"
-msgstr "Escuela Online"
+msgid "\"Online School\""
+msgstr "\"Escuela Online\""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid "Site Visitors"
-msgstr "Visitantes del Sitio"
+msgid "\"Site Visitors\""
+msgstr "\"Visitantes del Sitio\""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid "User"
-msgstr "Usuario"
+msgid "\"User\""
+msgstr "\"Usuario\""
