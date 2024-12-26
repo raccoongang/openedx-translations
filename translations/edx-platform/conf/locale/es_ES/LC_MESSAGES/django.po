@@ -3,17 +3,17 @@
 # Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # #-#-#-#-#  underscore.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
+#
 # Translators:
 # Brian Smith, 2024
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2024
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -112,7 +112,7 @@ msgstr "Correo electrónico de contacto:"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/about.html:41
 msgid "Contact page"
-msgstr "Página de contacto"
+msgstr "Contáctenos"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/contact.html:14
 msgid "Contact Us"
@@ -232,7 +232,7 @@ msgstr ""
 
 #: themes/edx-theme-rg/lms/templates/static_templates/tos.html:50
 msgid ""
-"Disclaimers: The materials on Drilledge.com are provided \"as is\". "
+"Disclaimers The materials on Drilledge.com are provided \"as is\". "
 "Drilledge.com makes no warranties, expressed or implied, and hereby "
 "disclaims all other warranties including, without limitation, implied "
 "warranties or conditions of merchantability, fitness for a particular "
@@ -306,30 +306,31 @@ msgstr "Vigente a partir del 1 de noviembre de 2024."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
-"Drilledge (\"Drilledge\", \"Us\", \"We\", or \"Our\") understands the importance"
-"of your privacy and that you want to clearly understand how your Personal Data"
-"is used. We respect and value the privacy of everyone who visits this website,"
-"{link_start}www.drilledge.com{link_end} (\"Our Site\" or \"Site\"), the Drilledge"
-"platform (\"Our Platform\") and uses the offered services (\"Our Services\" or \"Services\")"
-"and will only collect and use Personal Data in ways that are described here, and in a way"
+"Drilledge (\"Drilledge\", \"Us\", \"We\", or \"Our\") understands the importance "
+"of your privacy and that you want to clearly understand how your Personal Data "
+"is used. We respect and value the privacy of everyone who visits this website, "
+"{link_start}www.drilledge.com{link_end} (\"Our Site\" or \"Site\"), the Drilledge "
+"platform (\"Our Platform\") and uses the offered services (\"Our Services\" or \"Services\") "
+"and will only collect and use Personal Data in ways that are described here, and in a way "
 "that is consistent with our obligations and your rights under all relevant data privacy laws."
 msgstr ""
-"Drilledge (\"Drilledge\", \"Nosotros\" o \"Nuestro/Nuestra\") entiende la importancia"
-"de su privacidad y que usted quiere entender claramente cómo se utilizan sus Datos Personales."
-"Respetamos y valoramos la privacidad de todos los que visitan este sitio web, {link_start}www.drilledge.com{link_end}"
-"(\"Nuestro sitio\" o \"Sitio\"), la plataforma de aprendizaje de Drilledge (\"Nuestra plataforma\")"
-"y utilizan los servicios ofrecidos (\"Nuestros servicios\" o \"Servicios\") y sólo recopilaremos"
-"y utilizaremos los Datos personales de las formas que se describen aquí, y de una manera"
-"que sea coherente con nuestras obligaciones y sus derechos en virtud de todas las leyes relevantes de privacidad de datos."
+"Drilledge (\"Drilledge\", \"Nosotros\" o \"Nuestro/Nuestra\") entiende la importancia "
+"de su privacidad y que usted quiere entender claramente cómo se utilizan sus Datos Personales. "
+"Respetamos y valoramos la privacidad de todos los que visitan este sitio web, "
+"{link_start}www.drilledge.com{link_end} (\"Nuestro sitio\" o \"Sitio\"), la plataforma "
+"de aprendizaje de Drilledge (\"Nuestra plataforma\") y utilizan los servicios ofrecidos "
+"(\"Nuestros servicios\" o \"Servicios\") y sólo recopilaremos y utilizaremos los Datos personales "
+"de las formas que se describen aquí, y de una manera que sea coherente con nuestras obligaciones "
+"y sus derechos en virtud de todas las leyes relevantes de privacidad de datos."
 
 #: themes/edx-theme-rg/lms/templates/static_templates/privacy.html:9
 msgid "Privacy Policy"
-msgstr "Política de privacidad"
+msgstr "Política de Privacidad"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
-"Please read this Privacy Policy carefully and ensure that you understand it."
-" Regardless of what type of user you are as described below Online School "
+"Please read this Privacy Policy carefully and ensure that you understand it. "
+"Regardless of what type of user you are as described below Online School "
 "Administrator/User, End User and/or Site Visitor, this Privacy Policy "
 "creates a legal agreement directly between you and Us and explain the rules "
 "governing use of the Platform, Service and Site. If you do not agree with "
@@ -578,9 +579,9 @@ msgid ""
 "If you are an End User of an Online School, please see the terms and "
 "conditions and privacy policy of that third party, and direct your privacy "
 "inquiries, including any requests to exercise your data protection rights, "
-"to the Online School’s Administrator. We are not responsible for the privacy"
-" or security practices of our Online School Administrators, which may differ"
-" from those set forth in this privacy policy. However, we process your "
+"to the Online School's Administrator. We are not responsible for the privacy "
+"or security practices of our Online School Administrators, which may differ "
+"from those set forth in this privacy policy. However, we process your "
 "Personal Data and act as data processors to the Online School Administrator "
 "that is the data controller, with whom you have entered into an agreement."
 msgstr ""
@@ -655,14 +656,14 @@ msgid ""
 "the contents of your communications and files associated with your account "
 "in the Online School."
 msgstr ""
-"Acceder y procesar sus Datos Personales, incluidos los datos" 
+"Acceder y procesar sus Datos Personales, incluidos los datos"
 "de interacción y el contenido de sus comunicaciones y archivos asociados a su cuenta en la Escuela Online."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
 "Access and process your End User’s Personal Data as provided by them to "
 "offer the agreed services."
-msgstr ""                                    
+msgstr ""
 "Acceder y procesar los Datos Personales de sus Usuarios Finales"
 "facilitados por ellos para ofrecer los servicios acordados."
 
@@ -1380,15 +1381,11 @@ msgstr ""
 msgid ""
 "You do not have to use this form, but it is the easiest way to tell us "
 "everything we need to know to respond to your request as quickly as "
-"possible. Please contact us at \" + "
-"configuration_helpers.get_value('DRILLEDGE_CONTACT_EMAIL', "
-"'contact@drilledge.com') + \" and request this form."
+"possible. Please contact us at {contact_email} and request this form."
 msgstr ""
 "No es obligatorio utilizar este formulario, pero es la forma más sencilla "
 "de indicarnos todo lo que necesitamos saber para responder a su solicitud "
-"lo antes posible. Póngase en contacto con nosotros en \" + "
-"configuration_helpers.get_value('DRILLEDGE_CONTACT_EMAIL', "
-"'contact@drilledge.com') + \" y solicite este formulario."
+"lo antes posible. Póngase en contacto con nosotros en {contact_email} y solicite este formulario."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
@@ -1509,8 +1506,8 @@ msgstr ""
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
 "The right to be forgotten, i.e. the right to ask us to delete or otherwise dispose "
-"of any of your personal data that we have. Please contact us using the details in "
-"\"How Do I Contact You?\" to find out more. Response timeframe is within a month."
+"of any of your personal data that we have. Please contact us using the details "
+"in \"How Do I Contact You?\" to find out more, response timeframe is within a month."
 msgstr ""
 "El derecho al olvido, es decir, el derecho a pedirnos que eliminemos o dispongamos "
 "de otro modo de cualquiera de sus datos personales que tengamos. Para más información, "
@@ -1583,3 +1580,11 @@ msgstr "\"Visitantes del Sitio\""
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "\"User\""
 msgstr "\"Usuario\""
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html
+msgid "Infringing upon the intellectual property rights of others."
+msgstr "Infringir los derechos de propiedad intelectual de terceros."
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html
+msgid "Drilledge LTD"
+msgstr "Drilledge Pte LTD"

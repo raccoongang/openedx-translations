@@ -3,31 +3,31 @@
 # Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2024 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2024 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # #-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2024 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
-# 
+#
 # Translators:
 # Brian Smith, 2024
 # Ivo Branco <ivo.branco@fccn.pt>, 2024
 # Cátia Lopes <catia.lopes@bridgelk.com>, 2024
 # Carolina Amado, 2024
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -3249,7 +3249,7 @@ msgstr "Política de Acessibilidade"
 #: themes/stanford-style/lms/templates/static_templates/tos.html:8
 #: themes/stanford-style/lms/templates/static_templates/tos.html:11
 msgid "Terms of Service"
-msgstr "Termos de Serviço"
+msgstr "Termos de Uso"
 
 #: lms/djangoapps/branding/api.py:334 lms/djangoapps/branding/api.py:409
 msgid "Sitemap"
@@ -14910,7 +14910,7 @@ msgstr "Data"
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:12
 msgid "User"
-msgstr "Utilizador"
+msgstr "Conta"
 
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/history.html:14
 #: wiki/plugins/attachments/templates/wiki/plugins/attachments/search.html:21
@@ -27293,8 +27293,8 @@ msgstr ""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
-"Please read this Privacy Policy carefully and ensure that you understand it."
-" Regardless of what type of user you are as described below Online School "
+"Please read this Privacy Policy carefully and ensure that you understand it. "
+"Regardless of what type of user you are as described below Online School "
 "Administrator/User, End User and/or Site Visitor, this Privacy Policy "
 "creates a legal agreement directly between you and Us and explain the rules "
 "governing use of the Platform, Service and Site. If you do not agree with "
@@ -27303,14 +27303,14 @@ msgid ""
 "and accept this Privacy Policy when signing up for a trial account to use "
 "Our Platform."
 msgstr ""
-"Por favor, leia esta Política de Privacidade atentamente e certifique-se"
-"de compreendê-la. Independentemente do tipo de usuário que você seja,"
-"conforme descrito a seguir — Administrador/Usuário de terceiros on-line,"
-"Usuário Final e/ou Visitante do Site — esta Política de Privacidade"
-"estabelece um acordo legal diretamente entre você e Nós e detalha"
-"a normativa que rege o uso da Plataforma, do Serviço e do Site."
-"Se você não concordar e aceitar a Política de Privacidade,"
-"não acesso ou use o nosso Site e/ou Plataforma ou qualquer serviço"
+"Por favor, leia esta Política de Privacidade atentamente e certifique-se "
+"de compreendê-la. Independentemente do tipo de usuário que você seja, "
+"conforme descrito a seguir — Administrador/Usuário de terceiros on-line, "
+"Usuário Final e/ou Visitante do Site — esta Política de Privacidade "
+"estabelece um acordo legal diretamente entre você e Nós e detalha "
+"a normativa que rege o uso da Plataforma, do Serviço e do Site. "
+"Se você não concordar e aceitar a Política de Privacidade, "
+"não acesso ou use o nosso Site e/ou Plataforma ou qualquer serviço "
 "relacionado ao Nosso negócio. Será necessário ler e aceitar esta Política de Privacidade ao se inscrever para uma conta de teste para utilizar nossa Plataforma."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
@@ -27349,14 +27349,14 @@ msgid ""
 "In this Privacy Policy the following terms shall have the following "
 "meanings:"
 msgstr ""
-"En la presente Política de Privacidad, los siguientes términos tendrán el significado que se indica a continuación:"
+"No decorrer desta Política de Privacidade, adotamos os termos abaixo listados com os respectivos significados:"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
-"means an account required to access and/or use certain areas and features of"
-" Our Site and/or Platform and respective Services;"
+"means an account required to access and/or use certain areas and features of "
+"Our Site and/or Platform and respective Services;"
 msgstr ""
-"significa una cuenta necesaria para acceder y/o utilizar determinadas áreas y funciones de Nuestro Sitio y/o plataforma y servicios respectivos;"
+"significa uma conta necessária para acessar e/ou usar certas áreas e funcionalidades de Nosso Site e/ou Plataforma e respectivos Serviços;"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
@@ -27364,8 +27364,8 @@ msgid ""
 "Platform when you visit certain parts of Our Site or Platform and/or when "
 "you use certain features of Our Site or Platform."
 msgstr ""
-"significa um pequenos arquivos de texto armazenado em seu computador"
-"ou dispositivo pelo Nosso Site ou Plataforma quando você visita determinadas"
+"significa um pequenos arquivos de texto armazenado em seu computador "
+"ou dispositivo pelo Nosso Site ou Plataforma quando você visita determinadas "
 "partes ou utiliza certas funcionalidades do Nosso Site ou Plataforma."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
@@ -27482,7 +27482,7 @@ msgstr ""
 "e coletamos e geramos dados com base em nosso interesse legítimo em fornecer"
 "os Serviços solicitados (incluindo melhorar, proteger e atualizar o Serviço),"
 "conduzir nossas operações comerciais, comunicar-nos com o Usuário,"
-"realizar atividades de desenvolvimento de negócios e marketing, e para fins administrativos e de auditoria." 
+"realizar atividades de desenvolvimento de negócios e marketing, e para fins administrativos e de auditoria."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "The Personal Data provided by the User may include:"
@@ -27546,21 +27546,22 @@ msgid ""
 "If you are an End User of an Online School, please see the terms and "
 "conditions and privacy policy of that third party, and direct your privacy "
 "inquiries, including any requests to exercise your data protection rights, "
-"to the Online School’s Administrator. We are not responsible for the privacy "
+"to the Online School's Administrator. We are not responsible for the privacy "
 "or security practices of our Online School Administrators, which may differ "
 "from those set forth in this privacy policy. However, we process your "
 "Personal Data and act as data processors to the Online School Administrator "
 "that is the data controller, with whom you have entered into an agreement."
 msgstr ""
-"Se você for um usuário final de uma Escola On-line de terceiros, "
-"consulte os termos e condições e a política de privacidade desse terceiro, "
-"e direcione suas dúvidas sobre privacidade, incluindo quaisquer solicitações "
-"para exercer seus direitos de proteção de dados, ao Administrador da Escola On-line. "
-"Não somos responsáveis pelas práticas de privacidade ou segurança dos "
+"Se você for um usuário final de uma Escola On-line de terceiros, consulte os "
+"termos e condições e a política de privacidade desse terceiro, e direcione "
+"suas dúvidas sobre privacidade, incluindo quaisquer solicitações para exercer "
+"seus direitos de proteção de dados, ao Administrador da Escola On-line. Não "
+"somos responsáveis pelas práticas de privacidade ou segurança dos "
 "Administradores de Escolas On-line, que podem ser diferentes das estabelecidas "
-"nesta política de privacidade. No entanto, processamos seus Dados Pessoais e agimos como "
-"processadores de dados para o Administrador da Escola On-line, que é o controlador de dados, "
-"com quem você assinou um acordo."
+"nesta política de privacidade. No entanto, processamos seus Dados Pessoais e "
+"agimos como processadores de dados para o Administrador da Escola On-line, "
+"que é o controlador de dados, com quem você assinou um acordo."
+
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "The Personal Data provided by the End User may include:"
@@ -27636,7 +27637,7 @@ msgstr ""
 msgid ""
 "Access and process your End User’s Personal Data as provided by them to "
 "offer the agreed services."
-msgstr ""                                    
+msgstr ""
 "Acessar e processar os Dados Pessoais de seu Usuário Final conforme fornecidos por ele para a prestação de serviços acordados."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
@@ -28016,7 +28017,7 @@ msgstr ""
 "Além de seus direitos de acordo com o GDPR, estabelecidos na Parte 8,"
 "ao enviar seus dados pessoais por meio de nosso Site, você pode"
 "ter opções para restringir o uso de seus Dados Pessoais. Oferecemos controles"
-"estritos sobre o uso de seus Dados Pessoais para marketing direto" 
+"estritos sobre o uso de seus Dados Pessoais para marketing direto"
 "(incluindo a opção de cancelar a assinatura dos nossos e-mails, o que pode ser"
 "feito através dos links fornecidos em nossas mensagens, no momento do fornecimento dos seus dados ou ao gerenciar sua conta)."
 
@@ -28242,9 +28243,6 @@ msgstr ""
 "ativos para outra empresa, também poderemos ceder seus dados pessoais e de uso."
 "Garantiremos notificá-lo caso tal transferência aconteça, e você terá à disposição todos os direitos que o GDPR lhe concede."
 
-
-
-
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
 "Authorized resellers: If you enter into any subscription plan, including "
@@ -28310,7 +28308,7 @@ msgid ""
 "explained above."
 msgstr ""
 "Se algum Dado Pessoal for transferido fora da EEE, tomaremos as medidas"
-"adequadas para garantir que seus Dados Pessoais sejam tratados de forma" 
+"adequadas para garantir que seus Dados Pessoais sejam tratados de forma"
 "tão segura e protegida como seriam sob o GDPR, conforme explicado anteriormente."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
@@ -28350,15 +28348,11 @@ msgstr ""
 msgid ""
 "You do not have to use this form, but it is the easiest way to tell us "
 "everything we need to know to respond to your request as quickly as "
-"possible. Please contact us at \" + "
-"configuration_helpers.get_value('DRILLEDGE_CONTACT_EMAIL', "
-"'contact@drilledge.com') + \" and request this form."
+"possible. Please contact us at {contact_email} and request this form."
 msgstr ""
 "Não é necessário usar este formulário, mas ele é a forma mais fácil de nos "
 "informar tudo o que precisamos saber para responder à sua solicitação o "
-"mais rápido possível. Entre em contato conosco através do e-mail \" + "
-"configuration_helpers.get_value('DRILLEDGE_CONTACT_EMAIL', "
-"'contact@drilledge.com') + \" e solicite este formulário."
+"mais rápido possível. Entre em contato conosco através do {contact_email} e solicite este formulário."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
@@ -28451,8 +28445,8 @@ msgstr ""
 "da data em que recebermos sua solicitação. Vamos mantê-lo totalmente informado sobre o andamento do processo."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid "\"Conta\""
-msgstr "\"Usa\""
+msgid "\"Account\""
+msgstr "\"Conta\""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "\"Cookie Law\""
@@ -28469,6 +28463,10 @@ msgstr "\"Escola On-line\""
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "\"Site Visitors\""
 msgstr "\"Visitantes do Site\""
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "\"User\""
+msgstr "\"Usuário\""
 
 # themes/edx-theme-rg/lms/templates/static_templates/tos.html
 msgid "Interfere with or disrupt the Service."
@@ -28572,3 +28570,11 @@ msgstr ""
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "We know, because we’ve done it and, we can help you do it too!"
 msgstr "Sabemos disso porque já passamos por essa jornada, e estamos aqui para ajudar você a atingir os mesmos resultados positivos."
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "{bold_start}Data Security:{bold_end} Here at Drilledge we take data security and privacy very seriously and we continuously look for opportunities to make improvements."
+msgstr "{bold_start}Segurança de Dados:{bold_end} Na Drilledge, a segurança dos dados e a privacidade são práticas fundamentais que levamos muito a sério"
+
+#: themes/edx-theme-rg/lms/templates/static_templates/tos.html
+msgid "Drilledge LTD"
+msgstr "Drilledge Pte LTD"
