@@ -27106,7 +27106,7 @@ msgstr "Precisa de mais informações ou tem alguma dúvida? Entre em contato:"
 #: themes/edx-theme-rg/lms/templates/static_templates/contact.html:20
 msgid "Contact email for LMS platform support or other support questions:"
 msgstr ""
-"Entre em contato com a nossa equipe se tiver"
+"Entre em contato com a nossa equipe se tiver "
 "alguma dúvida ou precisar de suporte com a Plataforma Digital de Aprendizagem (LMS):"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/contact.html:23
@@ -27121,13 +27121,12 @@ msgid ""
 "services (collectively, the \"Service\"). By accessing or using the Service, "
 "you agree to be bound by these Terms and our Privacy Policy."
 msgstr ""
-"Introdução Bem-vindo a Drilledge.com. Estes Termos de Uso (os \"Termos\") "
-"regem o seu acesso e uso do site Drilledge.com e seus subdomínios e da "
-"Plataforma de Aprendizagem Drilledge. A Plataforma de Aprendizagem é o "
-"nosso Sistema de Gestão de Aprendizagem digital on-line. Este e todos os "
-"serviços (relacionados serão chamados de \"Serviço\") para o propósito deste "
-"documento. Ao acessar ou usar o Serviço, você concorda em cumprir estes "
-"Termos de Uso e a nossa Política de Privacidade."
+"Bem-vindo a Drilledge.com. Estes Termos de Uso (os \"Termos\") regem o seu acesso "
+"e uso do site Drilledge.com e seus subdomínios e da Plataforma de Aprendizagem Drilledge. "
+"A Plataforma de Aprendizagem é o nosso Sistema de Gestão de Aprendizagem digital on-line. "
+"Este e todos os serviços relacionados serão chamados de “Serviço” para o propósito desde "
+"documento. Ao acessar ou usar o Serviço, você concorda em cumprir estes Termos de Uso e "
+"a nossa Política de Privacidade."
 
 #: themes/edx-theme-rg/lms/templates/static_templates/tos.html:24
 msgid ""
@@ -27135,7 +27134,7 @@ msgid ""
 "your acceptance of and compliance with these Terms. If you disagree with any "
 "part of the Terms, you may not access the Service."
 msgstr ""
-"Aceitação dos Termos Seu acesso e uso do Serviço estão condicionados à "
+"Aceitação dos Termos de Uso Seu acesso e uso do Serviço estão condicionados à "
 "aceitação e ao cumprimento destes Termos. Caso não concorde com algum "
 "deles, você não poderá acessar o Serviço."
 
@@ -27160,16 +27159,18 @@ msgid ""
 "current, and complete information during the registration process and to "
 "update such information to keep it accurate, current, and complete."
 msgstr ""
-"Contas e Responsabilidades do Usuário Para acessar determinados recursos "
-"do Serviço, você deve registrar-se e criar uma conta. Você é responsável "
-"por manter a confidencialidade das informações de sua conta e de todas as "
-"atividades realizadas nela. Você concorda em fornecer informações "
-"precisas, atuais e completas durante o processo de registro e atualizá-las "
-"para mantê-las exatas, atuais e completas."
+"Contas e Responsabilidades do Usuário É necessário registrar-se e criar uma "
+"conta de usuário para acessar determinados recursos do Serviço. Você é responsável "
+"de manter a confidencialidade da informação de sua conta e de todas as atividades "
+"realizadas ou transmitidas em sua conta. Você se responsabiliza pela precisão e "
+"veracidade dos dados informados durante o cadastro e reconhece que a inconsistência "
+"destes poderá implicar a impossibilidade de se utilizar o Serviço. Você é responsável "
+"pela atualização das suas informações pessoais e pelas consequências da omissão ou de "
+"erros nas informações pessoais cadastradas."
 
 #: themes/edx-theme-rg/lms/templates/static_templates/tos.html:33
 msgid "Prohibited Activities You are prohibited from using the Service to:"
-msgstr "Atividades Proibidas Você está proibido de usar o Serviço para:"
+msgstr "Atividades Proibidas Está proibido o uso do Serviço para:"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/tos.html:47
 msgid ""
@@ -27195,12 +27196,11 @@ msgid ""
 "warranties or conditions of merchantability, fitness for a particular "
 "purpose, or non-infringement of intellectual property."
 msgstr ""
-"Isenções de Responsabilidade Os materiais do Drilledge.com são fornecidos "
-"\"como estão\". Drilledge.com não oferece garantias, expressas ou "
-"implícitas, e, por este meio, isenta-se de todas as outras garantias, "
-"incluindo, sem limitação, garantias implícitas ou condições de "
-"comercialização, adequação a um fim específico ou não violação de "
-"propriedade intelectual."
+"Isenção de responsabilidade Os materiais oferecidos no site Drilledge.com "
+"são fornecidos 'como estão'. Drilledge.com não oferece garantias, expressas "
+"ou implícitas, e, por este meio, isenta-se e nega todas as outras garantias, "
+"incluindo, sem limitação, garantias implícitas ou condições de comercialização, "
+"adequação a um fim específico ou não violação de propriedade intelectual ou outra violação de direitos."
 
 #: themes/edx-theme-rg/lms/templates/static_templates/tos.html:53
 msgid ""
@@ -27209,7 +27209,7 @@ msgid ""
 "data or profit, or due to business interruption) arising out of the use or "
 "inability to use the materials on Drilledge.com."
 msgstr ""
-"Limitação de Responsabilidade Em nenhum caso a Drilledge.com ou seus "
+"Limitações Em nenhum caso a Drilledge.com ou seus "
 "fornecedores serão responsáveis por quaisquer danos (incluindo, sem "
 "limitação, danos por perda de dados ou lucro ou devido a interrupção dos "
 "negócios) decorrentes do uso ou da incapacidade de usar os materiais do "
@@ -27235,10 +27235,10 @@ msgid ""
 "discretion, to change the Terms under which Aulasneo.com is offered. The "
 "most current version of the Terms will supersede all previous versions."
 msgstr ""
-"Modificação dos Termos A Drilledge.com poderá alterar, a qualquer momento "
-"e sem aviso prévio, o conteúdo dos Termos de Uso sob os quais o site "
-"Drilledge.com é oferecido. A versão mais recente dos Termos substituirá "
-"todas as versões anteriores."
+"Alterações aos Termos A Drilledge.com poderá alterar, a qualquer momento e "
+"sem aviso prévio, o conteúdo dos Termos de Uso sob os quais o site Drilledge.com "
+"é oferecido. A versão mais recente dos Termos substituirá todas as versões anteriores. "
+"Ao usar este site, você concorda em ficar vinculado à versão atual desses termos de serviço."
 
 #: themes/edx-theme-rg/lms/templates/static_templates/tos.html:62
 msgid ""
@@ -27246,15 +27246,14 @@ msgid ""
 "the laws of Singapore, and you irrevocably submit to the exclusive "
 "jurisdiction of the courts in that State or location."
 msgstr ""
-"Lei aplicável"
-"Estes Termos e condições são regidos e interpretados de"
-"acordo com as leis de Singapura, e você se submete irrevogavelmente à"
+"Lei aplicável Estes Termos e condições são regidos e interpretados "
+"de acordo com as leis de Singapura, e você se submete irrevogavelmente à "
 "jurisdição exclusiva dos tribunais desse estado ou local."
 
 #: themes/edx-theme-rg/lms/templates/static_templates/tos.html:65
 msgid "Contact Information Drilledge.com welcomes your questions or comments regarding the Terms:"
 msgstr ""
-"Informações para contato"
+"Informações para contato "
 "Em caso de dúvidas ou comentários relacionados aos Termos de Uso, entre em contato conosco:"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/tos.html:69
@@ -27263,7 +27262,7 @@ msgstr "E-mail:"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/tos.html:71
 msgid "Postal Address:"
-msgstr "Endereço:"
+msgstr "Endereço postal:"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/tos.html:74
 msgid "Effective as of 1st November 2024."
@@ -27363,7 +27362,7 @@ msgid ""
 "Platform when you visit certain parts of Our Site or Platform and/or when "
 "you use certain features of Our Site or Platform."
 msgstr ""
-"um pequenos arquivos de texto armazenado em seu computador "
+"pequenos arquivos de texto armazenado em seu computador "
 "ou dispositivo pelo Nosso Site ou Plataforma quando você visita determinadas "
 "partes ou utiliza certas funcionalidades do Nosso Site ou Plataforma."
 
@@ -27403,7 +27402,7 @@ msgid ""
 "Our Site and Our Platform are owned and operated and our Services are "
 "offered by Drilledge Ltd, a limited company registered in Singapore."
 msgstr ""
-"A Drilledge Ltd, uma empresa limitada registrada em Singapura,"
+"A Drilledge Ltd, uma empresa limitada registrada em Singapura, "
 "é a proprietária e operadora do nosso Site e da nossa Plataforma, e oferece nossos Serviços."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
@@ -27565,7 +27564,7 @@ msgstr "Os Dados Pessoais fornecidos pelo usuário final podem incluir:"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "Name."
-msgstr "Nome e sobrenome."
+msgstr "Nome e sobrenome;"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "Email Address."
@@ -27638,7 +27637,7 @@ msgstr ""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
-"When you use an Online School, Drilledge processing of your Personal Data in"
+"When you use an Online School, Drilledge processing of your Personal Data in "
 "connection with that Online School is governed by an agreement between "
 "Drilledge and the respective User, who administrates the Online School. "
 "Drilledge processes your Personal Data to provide its Services to your "
@@ -28347,10 +28346,8 @@ msgid ""
 "you, a subject access request form is available for you to use."
 msgstr ""
 "Todas as solicitações de acesso devem ser feitas por escrito e enviadas para os "
-"endereços de e-mail ou postais fornecidos no item 15. Para facilitar essa solicitação, "
-"disponibilizamos um formulário de solicitação de acesso. Não é obrigatório usar este formulário, "
-"porém é a forma mais fácil de nos informar tudo o que precisamos saber para responder à sua solicitação "
-"à brevidade possível. Entre em contato conosco pelo e- mail contact@Drilledge.com e solicite o formulário."
+"endereços de e-mail ou postais fornecidos no item 14. Para facilitar essa solicitação, "
+"disponibilizamos um formulário de solicitação de acesso."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
@@ -28358,9 +28355,9 @@ msgid ""
 "everything we need to know to respond to your request as quickly as "
 "possible. Please contact us at {contact_email} and request this form."
 msgstr ""
-"Não é necessário usar este formulário, mas ele é a forma mais fácil de nos "
-"informar tudo o que precisamos saber para responder à sua solicitação o "
-"mais rápido possível. Entre em contato conosco através do {contact_email} e solicite este formulário."
+"Não é obrigatório usar este formulário, porém é a forma mais fácil de nos "
+"informar tudo o que precisamos saber para responder à sua solicitação à brevidade possível. "
+"Entre em contato conosco pelo e- mail {contact_email} e solicite o formulário."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
@@ -28393,7 +28390,7 @@ msgstr ""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "14. How Do I Contact You?"
-msgstr "14. Faleconosco"
+msgstr "14. Fale conosco"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
@@ -28446,6 +28443,10 @@ msgstr ""
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "\"Account\""
 msgstr "\"Conta\""
+
+#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
+msgid "\"Cookie\""
+msgstr "\"Cookies\""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "\"Cookie Law\""

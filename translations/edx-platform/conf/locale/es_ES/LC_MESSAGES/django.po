@@ -1178,7 +1178,7 @@ msgstr ""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
-"Any payment transactions will be encrypted using SSL technology; All payment"
+"Any payment transactions will be encrypted using SSL technology; All payment "
 "data is stored by our payment processors and is never stored on our "
 "servers. Where we have given you (or where you have chosen) a password that "
 "enables you to access your account and the Product, you are responsible for "
@@ -1206,7 +1206,7 @@ msgstr ""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
-"Payment, marketing and delivery vendors and partners: We may sometimes enter"
+"Payment, marketing and delivery vendors and partners: We may sometimes enter "
 "into agreements with the following third parties to be able to offer "
 "certain features of Our Site, the Platform and Services under our capacity "
 "as data controllers. These may include payment processing, delivery, and "
@@ -1225,7 +1225,7 @@ msgstr "Chargebee.com (gestión de suscripciones y facturación)"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "Braintreepayments.com (online credit card payments)"
-msgstr "Braintreepayments.com (pagos con tarjeta de crédito en línea)"
+msgstr "Braintreepayments.com (pagos en línea con tarjeta de crédito)"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "PayPal.com (online payments)"
@@ -1233,12 +1233,12 @@ msgstr "PayPal.com (pagos en línea)"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "FreshDesk (Customer help center and support tickets)"
-msgstr "FreshDesk (centro de ayuda al cliente y tickets de soporte)"
+msgstr "FreshDesk (centro de asistencia al cliente y tickets de soporte)"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
 "Agile CRM (CRM, form handling, appointment scheduling and user analytics)"
-msgstr "Agile CRM (CRM, gestión de formularios, programación de citas y análisis de usuarios)"
+msgstr "Agile CRM (CRM, gestión de formularios, programación de citas y analíticas de usuarios)"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "FirstPromoter (registration and tracking of affiliates)"
@@ -1246,7 +1246,7 @@ msgstr "FirstPromoter (registro y seguimiento de afiliados)"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "Google Analytics (website user analytics)"
-msgstr "Google Analytics (análisis de usuarios del sitio web)"
+msgstr "Google Analytics (analíticas de usuarios del sitio web)"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "Google Cloud (data transfer and storage)"
@@ -1254,23 +1254,23 @@ msgstr "Google Cloud (transferencia y almacenamiento de datos)"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "MixPanel (website user analytics)"
-msgstr "MixPanel (análisis de usuarios del sitio web)"
+msgstr "MixPanel (analíticas de usuarios del sitio web)"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "Segment (website user analytics)"
-msgstr "Segment (análisis de usuarios del sitio web)"
+msgstr "Segment (analíticas de usuarios del sitio web)"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "HotJar (website user analytics)"
-msgstr "HotJar (análisis de usuarios del sitio web)"
+msgstr "HotJar (analíticas de usuarios del sitio web)"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "Google AdWords (targeting and tracking of ad campaigns)"
-msgstr "Google AdWords (seguimiento y segmentación de campañas publicitarias)"
+msgstr "Google AdWords (segmentación y seguimiento de campañas publicitarias)"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "Facebook (targeting and tracking of ad campaigns)"
-msgstr "Facebook (seguimiento y segmentación de campañas publicitarias)"
+msgstr "Facebook (segmentación y seguimiento de campañas publicitarias)"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "useFOMO (display of user notifications)"
@@ -1345,7 +1345,7 @@ msgid ""
 "We may also share aggregated and de-identified information that does not "
 "directly identify you with third parties."
 msgstr ""
-"También podemos compartir con terceros información agregada y sin identificación que le identifique directamente"
+"También podemos compartir con terceros información agregada y sin identificación que le identifique directamente."
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
@@ -1390,7 +1390,7 @@ msgstr ""
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "13. How Can I Access My Personal Data?"
-msgstr "13. ¿Cómo puedo acceder mis datos personales?"
+msgstr "13. ¿Cómo puedo acceder a mis datos personales?"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
