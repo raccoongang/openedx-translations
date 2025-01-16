@@ -26495,7 +26495,7 @@ msgid "Organization name must be between 2 and 70 characters."
 msgstr "يجب أن يتراوح اسم المؤسسة بين 2 و70 حرفاً."
 
 msgid "Organization name can only contain letters, numbers, spaces, and the following characters: , @ . -"
-msgstr ""يمكن أن يحتوي اسم المؤسسة على أحرف وأرقام ومسافات والأحرف التالية فقط: , @ . -"
+msgstr "يمكن أن يحتوي اسم المؤسسة على أحرف وأرقام ومسافات والأحرف التالية فقط: , @ . -"
 
 msgid "Please provide your organization name."
 msgstr "المنظمة التي تنتمي إليها."
