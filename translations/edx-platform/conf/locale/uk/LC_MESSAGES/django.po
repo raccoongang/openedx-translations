@@ -16669,7 +16669,7 @@ msgstr "За цим посиланням Ви відкриєте веб-пере
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "View {cert_name_short}"
-msgstr "Переглянути сертифікат"
+msgstr "Переглянути {cert_name_short}"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "This link will open/download a PDF document"
@@ -26834,7 +26834,7 @@ msgstr "Не показувати ознайомлюючі матеріали"
 #: lms/djangoapps/verify_student/api.py:42
 #, python-brace-format
 msgid "Your {platform_name} ID verification was approved!"
-msgstr "Перевірка особи на %(platform_name)s була схвалена!"
+msgstr "Перевірка особи на {platform_name} була схвалена!"
 
 #: lms/djangoapps/verify_student/views.py:941
 msgid "Image data is in an unsupported format."
@@ -27011,8 +27011,8 @@ msgid ""
 "{start_anchor}%(target)s{middle_anchor}click here to go to the home "
 "page{end_anchor}."
 msgstr ""
-"Якщо Вас не буде перенаправлено протягом 5 секунд, {start_anchor} "
-"%(target)sнатисніть тут, щоб перейти на домашню сторінку{end_anchor}."
+"Якщо Вас не буде перенаправлено протягом 5 секунд, {start_anchor}%(target)s"
+"{middle_anchor}натисніть тут, щоб перейти на домашню сторінку{end_anchor}."
 
 #: lms/templates/support/edx_ace/wholecoursereset/email/body.html:11
 #: lms/templates/support/edx_ace/wholecoursereset/email/subject.txt:3
@@ -28145,7 +28145,7 @@ msgstr ""
 #: xmodule/graders.py:433
 #, python-brace-format
 msgid "{section_type} Average = {percent:.2%}"
-msgstr "{section_type} Average = {відсоток:.2%}"
+msgstr "{section_type} Average = {percent:.2%}"
 
 #: xmodule/hidden_block.py:38
 #, python-brace-format
@@ -28826,7 +28826,7 @@ msgid ""
 "Get temporary access to  {start_bold}non-graded{end_bold} activities, "
 "including discussion forums and non-graded assignments"
 msgstr ""
-"Отримайте тимчасовий доступ до недиференційованих ресурсів, включаючи "
+"Отримайте тимчасовий доступ до {start_bold}недиференційованих{end_bold} ресурсів, включаючи "
 "обговорення та самостійні неоцінювані завдання."
 
 #: lms/templates/course_modes/fbe.html:57
@@ -28834,7 +28834,7 @@ msgid ""
 "Get {start_bold}temporary access{end_bold} to the course material, including "
 "videos and readings"
 msgstr ""
-"Отримайте тимчасовий доступ до матеріалів курсу, включно з текстовими та "
+"Отримайте {start_bold}тимчасовий доступ{end_bold} до матеріалів курсу, включно з текстовими та "
 "відеоматеріалами."
 
 #: lms/templates/course_modes/fbe.html:62
@@ -28908,8 +28908,8 @@ msgid ""
 msgstr ""
 "{start_bold}Отримайте максимум користі від Вашого курсу!{end_bold} Перейдіть "
 "на повну версію щоб отримати доступ до усіх матеріалів курсу, розблокувати "
-"оцінювані та неоцінювані самостійні завдання, а також отримати верифікований "
-"сертифікат, який можна долучити до Вашого резюме."
+"оцінювані та неоцінювані самостійні завдання, а також отримати {link_start}верифікований "
+"сертифікат{link_end}, який можна долучити до Вашого резюме."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:396
 msgid ""
@@ -28917,7 +28917,7 @@ msgid ""
 "{link_start}verified certificate{link_end} to showcase on your resumé."
 msgstr ""
 "{start_bold}Отримайте максимум користі від Вашого курсу!{end_bold} Перейдіть "
-"на повну версію щоб отримати верифікований сертифікат, який можна долучити "
+"на повну версію щоб отримати {link_start}верифікований сертифікат{link_end}, який можна долучити "
 "до Вашого резюме."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:411
@@ -29191,7 +29191,7 @@ msgid ""
 "This module is available only for users who are signed into {platform}. "
 "Kindly sign in and refresh this page to load the content."
 msgstr ""
-"Цей модуль доступний лише для користувачів, які ввійшли на {платформу}. Будь "
+"Цей модуль доступний лише для користувачів, які ввійшли на {platform}. Будь "
 "ласка, увійдіть і оновіть сторінку, щоб завантажити вміст."
 
 #: lms/templates/lti_provider/user-auth-error.html:21

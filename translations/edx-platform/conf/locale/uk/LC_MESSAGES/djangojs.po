@@ -4922,7 +4922,8 @@ msgid ""
 "{platformName} app, {siteName}, or any other site hosted by {platformName}."
 msgstr ""
 "Після видалення облікового запису Ви не зможете використовувати його для "
-"проходження курсів у додатку {platformName}."
+"проходження курсів у додатку {platformName}, {siteName}, або будь-якому іншому сайті, "
+"розміщеному на {platformName}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx
@@ -4931,7 +4932,8 @@ msgid ""
 "system{additionalSiteSpecificDeletionText}."
 msgstr ""
 "Це включає доступ до {siteName} з системи Bашого роботодавця або "
-"університету."
+"університету "
+"system{additionalSiteSpecificDeletionText}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx
 msgid "We’re sorry to see you go!"
@@ -5069,7 +5071,7 @@ msgid ""
 "assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
 msgstr ""
 "{paragraphStart}Ви ввели {boldStart}{email}{boldEnd}. Якщо ця адреса "
-"електронної пошти пов'язана з Вашим обліковим записом, ми надішлемо на цю "
+"електронної пошти пов'язана з Вашим {platform_name} обліковим записом, ми надішлемо на цю "
 "адресу повідомлення з інструкціями щодо відновлення пароля.{paragraphEnd}"
 "{paragraphStart}Якщо через 1 хвилину Ви не отримаєте повідомлення зі зміною "
 "пароля, перевірте правильність адреси електронної пошти або папку \"Спам\"."
@@ -5094,7 +5096,7 @@ msgstr ""
 "Для того, щоб увійти, Вам потрібно активувати свій обліковий запис."
 "{line_break}{line_break}Ми щойно надіслали посилання для активації на "
 "{strong_start} {email} {strong_end}. Якщо Ви не отримали листа, перевірте "
-"папку \"Спам\" або зверніться до {anchorStart}служби підтримки{anchorEnd}."
+"папку \"Спам\" або зверніться до {anchorStart}служби підтримки {platform_name}{anchorEnd}."
 
 #: lms/static/js/student_account/views/LoginView.js
 msgid "An unexpected error has occurred."
@@ -5201,7 +5203,7 @@ msgid ""
 "The name that identifies you on {platform_name}. You cannot change your "
 "username."
 msgstr ""
-"Ім’я, яке ідентифікує Вас на платформі. Ви не можете змінити ім’я "
+"Ім’я, яке ідентифікує Вас на {platform_name}. Ви не можете змінити ім’я "
 "користувача."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
