@@ -29240,4 +29240,7 @@ msgstr ""
 
 #: extended_platform/overrides.py
 msgid "Use \"{}\" button."
-msgstr "Використайте \"{}\" кнопку."
+msgstr "Скористайся кнопкою \"{}\"."
+
+msgid "I am Sigma Software employee"
+msgstr "Я співробітник Sigma Software"
