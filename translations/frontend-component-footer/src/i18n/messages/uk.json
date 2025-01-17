@@ -39,5 +39,9 @@
   "authoring.footer.termsOfService.link.label": "Договір публічної оферти",
   "authoring.footer.privacyPolicy.link.label": "Політика Конфіденційності",
   "authoring.footer.accessibilityRequest.link.label": "Запит на створення спеціальних умов для людей з обмеженими можливостями",
-  "authoring.footer.trademark.message": "edX і Open edX, а також логотипи edX і Open edX є зареєстрованими товарними знаками"
+  "authoring.footer.trademark.message": "edX і Open edX, а також логотипи edX і Open edX є зареєстрованими товарними знаками",
+  "footer.staticPages.about": "Про нас",
+  "footer.staticPages.privacy": "Політика конфіденційності",
+  "footer.staticPages.tos": "Умови надання послуг",
+  "footer.staticPages.contact": "Зв'яжіться з нами"
 }
