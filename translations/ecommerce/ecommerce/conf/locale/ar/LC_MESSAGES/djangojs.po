@@ -2,11 +2,11 @@
 # Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # Translators:
 # Omar Al-Ithawi <i@omardo.com>, 2024
 # Abdalrahim Fakhouri <abdilra7eem@yahoo.com>, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -207,8 +207,8 @@ msgid "Card expired"
 msgstr "البطاقة منتهية الصلاحية"
 
 #: static/js/pages/basket_page.js:474
-msgid "<Choose state/province>"
-msgstr "<اختر ولاية/إمارة/مقاطعة>"
+msgid "&lt;Choose state/province&gt;"
+msgstr "&lt;اختر ولاية/إمارة/مقاطعة&gt;"
 
 #: static/js/pages/basket_page.js:475
 msgid "State/Province (required)"
