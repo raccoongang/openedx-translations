@@ -1,0 +1,4604 @@
+# #-#-#-#-#  django.po (ecommerce)  #-#-#-#-#
+# edX translation file
+# Copyright (C) 2018 edX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+# Translators:
+# Translators:
+# Translators:
+# Translators:
+# Andrey Kryachko, 2018
+# Danylo Shcherbak <danylo.shcherbak@raccoongang.com>, 2020
+# Denis <prohibiti@gmail.com>, 2015
+# Irene Korotkova <irca.gav@gmail.com>, 2017
+# Natalia Vynogradenko <tannaha@gmail.com>, 2017-2018
+# Radmila Segol <geroneja@yahoo.com>, 2020
+# Zoriana Zaiats, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-22 20:12+0000\n"
+"PO-Revision-Date: 2023-10-06 14:47+0300\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx."
+"org>\n"
+"Language-Team: Ukrainian (http://www.transifex.com/open-edx/edx-platform/"
+"language/uk/)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+"X-Generator: Poedit 3.4\n"
+
+#: ecommerce/core/admin.py:25
+msgid "Personal info"
+msgstr "Особиста інформація"
+
+#: ecommerce/core/admin.py:26
+msgid "Permissions"
+msgstr "Дозволи"
+
+#: ecommerce/core/admin.py:28
+msgid "Important dates"
+msgstr "Важливі дати"
+
+#. Translators: "Waffle" is the name of a third-party library. It should not
+#. be translated
+#: core/admin.py:35
+#, python-brace-format
+msgid ""
+"User administration has been disabled due to the load on the database. This "
+"functionality can be restored by activating the {switch_name} Waffle switch. "
+"Be careful when re-activating this switch!"
+msgstr ""
+"Адміністрування користувачів було відключено через навантаження на базу "
+"даних. Відновити цю функціональність можна, активувавши перемикач "
+"{switch_name} Waffle switch. Будьте обережні при повторній активації цього "
+"перемикача!"
+
+#: core/models.py:41
+msgid "LMS base url for custom site/microsite"
+msgstr "Базова URL-адреса LMS для кастомного сайту/мікросайту"
+
+#: core/models.py:42
+msgid "Root URL of this site's LMS (e.g. https://courses.stage.edx.org)"
+msgstr "URL raiz do LMS do site (por exemplo, https://courses.stage.edx.org)"
+
+#: core/models.py:47
+msgid "Path to custom site theme"
+msgstr "Шлях до користувацької теми сайту"
+
+#: core/models.py:54
+msgid "Payment processors"
+msgstr "Платіжні процесори"
+
+#: core/models.py:55
+msgid "Comma-separated list of processor names: 'cybersource,paypal'"
+msgstr "Список назв процесорів через кому: 'cybersource,paypal'"
+
+#: core/models.py:61
+msgid "Client-side payment processor"
+msgstr "Платіжний процесор на стороні клієнта"
+
+#: core/models.py:62
+msgid "Processor that will be used for client-side payments"
+msgstr "Процесор, який буде використовуватися для клієнтських платежів"
+
+#: core/models.py:68
+msgid "OAuth settings"
+msgstr "Налаштування OAuth"
+
+#: core/models.py:69
+msgid "JSON string containing OAuth backend settings."
+msgstr "Рядок JSON, що містить налаштування бекенду OAuth."
+
+#: core/models.py:75
+msgid "Segment key"
+msgstr "Ключ сегмента"
+
+#: core/models.py:76
+msgid "Segment write/API key."
+msgstr "Escrita de segmento/chave API."
+
+#: core/models.py:82
+msgid "From email"
+msgstr "З електронної пошти"
+
+#: core/models.py:83
+msgid "Address from which emails are sent."
+msgstr "Адреса, з якої надсилаються листи."
+
+#: core/models.py:89
+msgid "Enable enrollment codes"
+msgstr "Увімкнути коди реєстрації"
+
+#: core/models.py:90
+msgid "Enable the creation of enrollment codes."
+msgstr "Увімкніть створення кодів зарахування."
+
+#: core/models.py:95
+msgid "Payment support email"
+msgstr "Електронна пошта підтримки платежів"
+
+#: core/models.py:96
+msgid "Contact email for payment support issues."
+msgstr ""
+"Зверніться за електронною адресою для вирішення питань з платіжною "
+"підтримкою."
+
+#: core/models.py:102
+msgid "Payment support url"
+msgstr "Адреса підтримки платежів"
+
+#: core/models.py:103
+msgid "URL for payment support issues."
+msgstr "URL-адреса для вирішення питань платіжної підтримки."
+
+#: core/models.py:108
+msgid "UTM Cookie Name"
+msgstr "Ім'я файлу cookie UTM"
+
+#: core/models.py:109
+msgid "Name of cookie storing UTM data."
+msgstr "Назва файлу cookie, що зберігає дані UTM."
+
+#: core/models.py:115
+msgid "Affiliate Cookie Name"
+msgstr "Ім'я партнерського файлу cookie"
+
+#: core/models.py:116
+msgid "Name of cookie storing affiliate data."
+msgstr "Назва файлу cookie, що зберігає дані про афілійованих осіб."
+
+#: core/models.py:122
+msgid "Send refund email notification"
+msgstr "Надіслати сповіщення про відшкодування на електронну пошту"
+
+#: core/models.py:127
+msgid "Enable SDN check"
+msgstr "Увімкнути перевірку SDN"
+
+#: core/models.py:128
+msgid "Enable SDN check at checkout."
+msgstr "Увімкніть перевірку SDN при оформленні замовлення."
+
+#: core/models.py:132
+msgid "[Deprecated] US Treasury SDN API URL"
+msgstr "[Застаріла] URL-адреса API SDN Казначейства США"
+
+#: core/models.py:137
+msgid "[Deprecated] US Treasury SDN API key"
+msgstr "[Застарілий] Ключ API SDN Казначейства США"
+
+#: core/models.py:142
+msgid "SDN lists"
+msgstr "Списки SDN"
+
+#: core/models.py:143
+msgid "A comma-separated list of Treasury OFAC lists to check against."
+msgstr "Список списків OFAC Казначейства, розділений комами, для перевірки."
+
+#: core/models.py:148
+msgid "Require Account Activation"
+msgstr "Вимагати активації облікового запису"
+
+#: core/models.py:149
+msgid ""
+"Require users to activate their account before allowing them to redeem a "
+"coupon."
+msgstr ""
+"Вимагайте від користувачів активувати свій обліковий запис, перш ніж "
+"дозволити їм використати купон."
+
+#: core/models.py:153
+msgid "Optimizely snippet source URL"
+msgstr "Оптимальний фрагмент URL-адреси джерела"
+
+#: core/models.py:154
+msgid "This script will be loaded on every page."
+msgstr "Цей скрипт буде завантажуватися на кожній сторінці."
+
+#: ecommerce/core/models.py:164 ecommerce/extensions/partner/models.py:16
+msgid "Enable Sailthru Reporting"
+msgstr ""
+
+#: ecommerce/core/models.py:165
+msgid "Determines if purchases should be reported to Sailthru."
+msgstr ""
+
+#: core/models.py:159
+msgid "Base Cookie Domain"
+msgstr "Базовий домен файлів cookie"
+
+#: core/models.py:160
+msgid "Base cookie domain used to share cookies across services."
+msgstr ""
+"Домен базових файлів cookie використовується для обміну файлами cookie між "
+"службами."
+
+#: core/models.py:166
+msgid "Enable embargo check"
+msgstr "Увімкнути перевірку ембарго"
+
+#: core/models.py:167
+msgid "Enable embargo check at checkout."
+msgstr "Увімкніть перевірку ембарго при оформленні замовлення."
+
+#: core/models.py:171
+msgid "Discovery API URL"
+msgstr "URL-адреса API Discovery"
+
+#. Translators: Do not translate "Apple Pay"
+#: core/models.py:177
+msgid "Enable Apple Pay"
+msgstr "Увімкніть Apple Pay"
+
+#: core/models.py:181
+msgid "Enable Partial Program Offer"
+msgstr "Увімкнути часткову пропозицію програми"
+
+#: core/models.py:182
+msgid ""
+"Enable the application of program offers to remaining unenrolled or "
+"unverified courses"
+msgstr ""
+"Увімкніть застосування пропозицій програми до незареєстрованих або "
+"неперевірених курсів"
+
+#: core/models.py:187
+msgid "Hubspot Portal Secret Key"
+msgstr "Секретний ключ порталу Hubspot"
+
+#: core/models.py:188
+msgid "Secret key for Hubspot portal authentication"
+msgstr "Секретний ключ для автентифікації на порталі Hubspot"
+
+#: core/models.py:193
+msgid "Enable Microfrontend for Basket Page"
+msgstr "Ввімкнути мікрофронтенд для сторінки кошика"
+
+#: core/models.py:194
+msgid ""
+"Use the microfrontend implementation of the basket page instead of the "
+"server-side template"
+msgstr ""
+"Використовуйте мікрофронтенд-реалізацію сторінки кошика замість шаблону на "
+"стороні сервера"
+
+#: core/models.py:199
+msgid "Payment Microfrontend URL"
+msgstr "URL-адреса платіжного мікрофронтенду"
+
+#: core/models.py:200
+msgid ""
+"URL for the Payment Microfrontend (used if Enable Microfrontend for Basket "
+"Page is set)"
+msgstr ""
+"URL-адреса платіжного мікрофронтенду (використовується, якщо встановлено "
+"опцію \"Увімкнути мікрофронтенд для сторінки кошика\")"
+
+#: ecommerce/core/models.py:216
+msgid "Account Microfrontend URL"
+msgstr ""
+
+#: ecommerce/core/models.py:217
+msgid ""
+"URL for the Account Microfrontend (used to lead learners to ID verification "
+"workflow)"
+msgstr ""
+
+#: ecommerce/core/models.py:526
+msgid "last name"
+msgstr "прізвище"
+
+#: ecommerce/core/models.py:527
+msgid "Full Name"
+msgstr "Прізвище та ім'я"
+
+#: ecommerce/core/models.py:533
+msgid "LMS user id"
+msgstr "ID користувача LMS"
+
+#: ecommerce/core/models.py:777 ecommerce/extensions/basket/models.py:109
+#: ecommerce/templates/oscar/dashboard/offers/offer_detail.html:54
+#: ecommerce/templates/oscar/dashboard/offers/summary.html:10
+msgid "Name"
+msgstr "Ім'я"
+
+#: core/models.py:712 extensions/offer/models.py:582
+msgid "EnterpriseCustomer UUID"
+msgstr "EnterpriseCustomer UUID"
+
+#: core/models.py:713 extensions/offer/models.py:452
+#: extensions/offer/models.py:676 extensions/offer/models.py:742
+msgid "UUID for an EnterpriseCustomer from the Enterprise Service."
+msgstr "UUID для EnterpriseCustomer з Enterprise Service."
+
+#: ecommerce/coupons/views.py:71 ecommerce/coupons/views.py:120
+msgid "Coupon does not exist."
+msgstr "Купон не існує."
+
+#: ecommerce/coupons/views.py:76
+msgid "This coupon code is not yet valid."
+msgstr "Цей код купона недійсний."
+
+#: ecommerce/coupons/views.py:78
+msgid "This coupon code has expired."
+msgstr "Термін дії цього купона закінчився."
+
+#: ecommerce/coupons/views.py:90
+#, python-brace-format
+msgid "Product [{product}] not available for purchase."
+msgstr "Товар [{product}] недоступний для покупки."
+
+#: ecommerce/coupons/views.py:95
+msgid "This coupon code is no longer available."
+msgstr "Цей код купона більше недоступний."
+
+#: ecommerce/coupons/views.py:115
+msgid "This coupon code is invalid."
+msgstr "Цей код купона недійсний."
+
+#: ecommerce/coupons/views.py:122
+msgid "The voucher is not applicable to your current basket."
+msgstr "Ваучер не застосовується до вашого поточного кошика."
+
+#: ecommerce/coupons/views.py:132
+msgid "Welcome to edX"
+msgstr "Вітаємо на edX"
+
+#: ecommerce/coupons/views.py:133
+msgid ""
+"Please choose from the courses selected by your organization to start "
+"learning."
+msgstr ""
+"Будь ласка, оберіть один з курсів, відібраних вашою організацією, щоб "
+"розпочати навчання."
+
+#: ecommerce/coupons/views.py:163
+msgid "Code not provided."
+msgstr "Код не вказано."
+
+#: ecommerce/coupons/views.py:165
+msgid "SKU not provided."
+msgstr "SKU не вказано."
+
+#: ecommerce/coupons/views.py:176
+msgid "The product does not exist."
+msgstr "Товару не існує."
+
+#: ecommerce/coupons/views.py:190
+msgid "You are not eligible to use this coupon."
+msgstr "Ви не маєте права використовувати цей купон."
+
+#: ecommerce/coupons/views.py:205
+msgid "Couldn't find a matching Enterprise Customer for this coupon."
+msgstr ""
+"Не вдалося знайти відповідного корпоративного клієнта для цього купона."
+
+#: ecommerce/coupons/views.py:213
+msgid ""
+"This coupon is not valid for purchasing a program. Try using this on an "
+"individual course in the program. If you need assistance, contact edX "
+"support."
+msgstr ""
+"Цей купон не дійсний для придбання програми. Спробуйте використати його на "
+"окремому курсі програми. Якщо вам потрібна допомога, зверніться до служби "
+"підтримки edX."
+
+#: ecommerce/coupons/views.py:240
+msgid "Invalid data sharing consent token provided."
+msgstr "Надано недійсний токен згоди на обмін даними."
+
+#: ecommerce/coupons/views.py:259
+#, python-brace-format
+msgid "You have already purchased {course} seat."
+msgstr "Ви вже придбали курс {course}."
+
+#: ecommerce/coupons/views.py:278
+#, python-brace-format
+msgid "A discount has been applied, courtesy of {enterprise_customer_name}."
+msgstr "Була застосована знижка, надана {enterprise_customer_name}."
+
+#: ecommerce/coupons/views.py:288
+msgid "This coupon code is not valid for this course. Try a different course."
+msgstr "Цей код купона не діє для цього курсу. Спробуйте інший курс."
+
+#: ecommerce/courses/models.py:32 ecommerce/extensions/basket/models.py:20
+#: ecommerce/extensions/offer/models.py:203
+#: ecommerce/extensions/payment/models.py:70
+#: ecommerce/templates/oscar/dashboard/offers/offer_detail.html:63
+#: ecommerce/templates/oscar/dashboard/offers/summary.html:14
+msgid "Site"
+msgstr "Сайт"
+
+#: ecommerce/courses/models.py:39
+msgid "Last date/time on which verification for this product can be submitted."
+msgstr "Остання дата/час, коли можна подати верифікацію для цього товару."
+
+#: ecommerce/courses/publishers.py:61
+#, python-brace-format
+msgid "Failed to publish commerce data for {course_id} to LMS."
+msgstr "Не вдалося опублікувати комерційні дані для {course_id} в LMS."
+
+#: ecommerce/courses/utils.py:131
+msgid "Audit"
+msgstr "Безкоштовне прослуховування"
+
+#: courses/utils.py:139
+msgid "Credit"
+msgstr "Залік"
+
+#: courses/utils.py:140
+msgid "Honor"
+msgstr "Честь"
+
+#: courses/utils.py:141
+msgid "Professional"
+msgstr "Професійний"
+
+#: courses/utils.py:142
+msgid "Verified"
+msgstr "Перевірений"
+
+#: courses/utils.py:143
+msgid "Executive Education"
+msgstr "Виконавча освіта"
+
+#: ecommerce/credit/views.py:39
+msgid ""
+"An error has occurred. We could not confirm that you are eligible for course "
+"credit. Try the transaction again."
+msgstr ""
+"Виникла помилка. Ми не змогли підтвердити, що ви маєте право на зарахування "
+"курсу. Спробуйте здійснити транзакцію ще раз."
+
+#: credit/views.py:61
+#, python-brace-format
+msgid ""
+"Credit is not currently available for \"{course_name}\". If you are "
+"currently enrolled in the course, please try again after all grading is "
+"complete. If you need additional assistance, please contact the {site_name} "
+"Support Team."
+msgstr ""
+"Наразі кредит не доступний для \"{course_name}\". Якщо ви вже зареєстровані "
+"на курс, будь ласка, спробуйте ще раз після завершення оцінювання. Якщо вам "
+"потрібна додаткова допомога, зверніться до служби підтримки {site_name}."
+
+#: credit/views.py:75
+msgid ""
+"An error has occurred. We could not confirm that the institution you "
+"selected offers this course credit. Try the transaction again."
+msgstr ""
+"Виникла помилка. Ми не змогли підтвердити, що обраний вами навчальний заклад "
+"пропонує цей курс. Спробуйте здійснити транзакцію ще раз."
+
+#: enterprise/benefits.py:24
+#, python-format
+msgid "%d%% enterprise discount"
+msgstr "%d%% корпоративна знижка"
+
+#: enterprise/benefits.py:36
+#, python-brace-format
+msgid "{value} fixed-price enterprise discount"
+msgstr "{value} фіксована знижка для підприємств"
+
+#: enterprise/benefits.py:45 extensions/payment/models.py:86
+#: invoice/models.py:25 programs/constants.py:15
+msgid "Percentage"
+msgstr "Відсоток"
+
+#: enterprise/benefits.py:46 extensions/payment/models.py:87
+#: programs/constants.py:16
+msgid "Absolute"
+msgstr "Остаточний"
+
+#: enterprise/conditions.py:216
+#, python-brace-format
+msgid ""
+"This coupon has been made available through {new_enterprise}. To redeem this "
+"coupon, you must first logout. When you log back in, please select "
+"{new_enterprise} as your enterprise and try again."
+msgstr ""
+"Цей купон доступний на сайті {new_enterprise}. Щоб використати цей купон, ви "
+"повинні спочатку вийти з системи. Після повторного входу, будь ласка, "
+"оберіть {new_enterprise} як своє підприємство та спробуйте ще раз."
+
+#: enterprise/conditions.py:370
+msgid ""
+"This code is not valid with your email. Please login with the correct email "
+"assigned to the code or contact your Learning Manager for additional "
+"questions."
+msgstr ""
+"Цей код не дійсний для вашої електронної пошти. Будь ласка, увійдіть, "
+"використовуючи правильну адресу електронної пошти, присвоєну коду, або "
+"зверніться до свого менеджера з навчання, якщо у вас виникнуть додаткові "
+"запитання."
+
+#: enterprise/forms.py:38
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:30
+msgid "Enterprise Customer UUID"
+msgstr "UUID корпоративного клієнта"
+
+#: enterprise/forms.py:39
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:31
+msgid "Enterprise Customer Catalog UUID"
+msgstr "Корпоративний каталог клієнтів UUID"
+
+#: enterprise/forms.py:40 programs/forms.py:23
+msgid "Discount Type"
+msgstr "Тип знижки"
+
+#: enterprise/forms.py:42 programs/forms.py:25
+msgid "Discount Value"
+msgstr "Значення знижки"
+
+#: enterprise/forms.py:45
+msgid "Contract Discount Type"
+msgstr "Тип знижки за контрактом"
+
+#: enterprise/forms.py:48
+msgid "Contract Discount"
+msgstr "Контрактна знижка"
+
+#: enterprise/forms.py:51
+msgid "Prepaid Invoice Amount"
+msgstr "Сума передплаченого рахунку-фактури"
+
+#: enterprise/forms.py:53
+msgid "Salesforce Opportunity ID"
+msgstr "Salesforce Opportunity ID"
+
+#: enterprise/forms.py:58
+msgid "Emails Addresses"
+msgstr "Електронні адреси Адреси"
+
+#: enterprise/forms.py:59
+msgid "Comma separated emails which will receive the offer usage alerts"
+msgstr ""
+"Через кому - адреси електронної пошти, на які надходитимуть сповіщення про "
+"використання пропозиції"
+
+#: enterprise/forms.py:64
+msgid "Frequency for offer usage emails"
+msgstr "Частота розсилки листів про використання пропозиції"
+
+#: enterprise/forms.py:79
+msgid "The maximum number of enrollments that can redeem this offer."
+msgstr ""
+"Максимальна кількість учасників, які можуть скористатися цією пропозицією."
+
+#: enterprise/forms.py:80
+msgid "The maximum USD dollar amount that can be redeemed by this offer."
+msgstr ""
+"Максимальна сума в доларах США, яка може бути використана за цією "
+"пропозицією."
+
+#: enterprise/forms.py:81
+msgid ""
+"The maximum number of enrollments, by a user, that can redeem this offer."
+msgstr ""
+"Максимальна кількість реєстрацій, яку може здійснити користувач, щоб "
+"скористатися цією пропозицією."
+
+#: enterprise/forms.py:82
+msgid ""
+"The maximum USD dollar amount that can be redeemed using this offer by a "
+"user."
+msgstr ""
+"Максимальна сума в доларах США, яка може бути використана користувачем за "
+"цією пропозицією."
+
+#: enterprise/forms.py:85 programs/forms.py:35
+msgid "Start Date"
+msgstr "Дата початку"
+
+#: enterprise/forms.py:86 programs/forms.py:36
+msgid "End Date"
+msgstr "Дата закінчення"
+
+#: enterprise/forms.py:87
+msgid "Enrollment Limit"
+msgstr "Ліміт набору"
+
+#: enterprise/forms.py:88
+msgid "Bookings Limit"
+msgstr "Ліміт бронювання"
+
+#: enterprise/forms.py:89
+msgid "Per User Enrollment Limit"
+msgstr "Ліміт реєстрації на одного користувача"
+
+#: enterprise/forms.py:90
+msgid "Per User Bookings Limit"
+msgstr "Ліміт бронювань на одного користувача"
+
+#: enterprise/forms.py:152 enterprise/forms.py:220
+#, python-brace-format
+msgid ""
+"Ensure new value must be greater than or equal to "
+"consumed({offer_enrollments}) value."
+msgstr ""
+"Переконайтеся, що нове значення має бути більшим або рівним значенню "
+"спожитого({offer_enrollments})."
+
+#: enterprise/forms.py:184 enterprise/forms.py:232
+msgid "Ensure this value is greater than or equal to 0."
+msgstr "Переконайтеся, що це значення більше або дорівнює 0."
+
+#: enterprise/forms.py:191 enterprise/forms.py:248
+#, python-brace-format
+msgid ""
+"Ensure new value must be greater than or equal to "
+"consumed({consumed_discount:.2f}) value."
+msgstr ""
+"Переконайтеся, що нове значення має бути більшим або рівним значенню "
+"consumed({consumed_discount:.2f})."
+
+#: enterprise/forms.py:265
+#, python-brace-format
+msgid "Given email address {email} is not a valid email."
+msgstr "Вказана електронна адреса {email} не є дійсною."
+
+#: enterprise/forms.py:290
+msgid "An offer already exists for this Enterprise & Catalog combination."
+msgstr "Для цієї комбінації \"Підприємство та каталог\" вже існує пропозиція."
+
+#: enterprise/forms.py:293 enterprise/forms.py:302 programs/forms.py:73
+msgid "Percentage discounts cannot be greater than 100%."
+msgstr "Знижки у відсотках не можуть бути більшими за 100%."
+
+#: enterprise/forms.py:296 programs/forms.py:76
+msgid "A start date must be specified when specifying an end date."
+msgstr ""
+"При зазначенні дати завершення обов'язково потрібно вказати дату початку."
+
+#: enterprise/forms.py:299 programs/forms.py:79
+msgid "The start date must occur before the end date."
+msgstr "Дата початку повинна бути раніше дати закінчення."
+
+#: enterprise/forms.py:307
+msgid "More than 2 digits after the decimal not allowed for absolute value."
+msgstr "Більше 2 знаків після коми не допускається для абсолютного значення."
+
+#: enterprise/forms.py:312
+msgid "This field is required when contract discount type is absolute."
+msgstr ""
+"Це поле є обов'язковим для заповнення, якщо тип знижки за контрактом є "
+"абсолютним."
+
+#: enterprise/forms.py:337
+msgid "Discount of type {} provided by {} for {}."
+msgstr "Знижка типу {} надається {} для {}."
+
+#: enterprise/templates/enterprise/enterprise_coupon_app.html:5
+msgid "Enterprise Coupon Codes"
+msgstr "Коди корпоративних купонів"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:9
+#, python-format
+msgid "Edit Enterprise Offer: %(enterprise_customer_name)s"
+msgstr "Редагувати корпоративну пропозицію: %(enterprise_customer_name)s"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:14
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:47
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:60
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:20
+msgid "Create Enterprise Offer"
+msgstr "Створити корпоративну пропозицію"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:30
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:6
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:17
+#: templates/edx/partials/_administration_menu.html:14
+msgid "Enterprise Offers"
+msgstr "Пропозиції для підприємств"
+
+#: ecommerce/enterprise/templates/enterprise/enterpriseoffer_form.html:34
+#: ecommerce/programs/templates/programs/programoffer_form.html:34
+#: ecommerce/templates/oscar/dashboard/catalogue/product_row_actions.html:11
+#: ecommerce/templates/oscar/dashboard/catalogue/product_update.html:268
+#: ecommerce/templates/oscar/dashboard/offers/offer_detail.html:56
+#: ecommerce/templates/oscar/dashboard/offers/offer_detail.html:69
+#: ecommerce/templates/oscar/dashboard/offers/offer_detail.html:74
+#: ecommerce/templates/oscar/dashboard/offers/offer_detail.html:85
+#: ecommerce/templates/oscar/dashboard/offers/summary.html:9
+#: ecommerce/templates/oscar/dashboard/offers/summary.html:19
+#: ecommerce/templates/oscar/dashboard/offers/summary.html:25
+#: ecommerce/templates/oscar/dashboard/offers/summary.html:30
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:695
+msgid "Edit"
+msgstr "Редагувати"
+
+#: ecommerce/enterprise/templates/enterprise/enterpriseoffer_form.html:36
+#: ecommerce/programs/templates/programs/programoffer_form.html:36
+msgid "Create"
+msgstr "Створити"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:45
+msgid "Edit Enterprise Offer"
+msgstr "Редагувати корпоративну пропозицію"
+
+#: ecommerce/enterprise/templates/enterprise/enterpriseoffer_form.html:58
+#: ecommerce/programs/templates/programs/programoffer_form.html:58
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: ecommerce/enterprise/templates/enterprise/enterpriseoffer_form.html:62
+#: ecommerce/programs/templates/programs/programoffer_form.html:62
+#: ecommerce/templates/oscar/dashboard/catalogue/product_update.html:323
+#: ecommerce/templates/oscar/dashboard/partials/refund_action_modal.html:20
+msgid "Cancel"
+msgstr "Відмінити"
+
+#: enterprise/templates/enterprise/enterpriseoffer_form.html:76
+#, python-format
+msgid ""
+"\n"
+"              %(platform_name)s Enterprise Offer Administration Tool\n"
+"              "
+msgstr ""
+"\n"
+"              %(platform_name)s Інструмент адміністрування корпоративних "
+"пропозицій\n"
+"              "
+
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:26
+msgid "Current enterprise offers"
+msgstr "Актуальні пропозиції підприємств"
+
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:29
+msgid "Enterprise Customer Name"
+msgstr "Ім'я клієнта підприємства"
+
+#: ecommerce/enterprise/templates/enterprise/enterpriseoffer_list.html:32
+#: ecommerce/programs/templates/programs/programoffer_list.html:31
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:629
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:681
+msgid "Type"
+msgstr "Тип"
+
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:33
+#: programs/templates/programs/programoffer_list.html:32
+msgid "Value"
+msgstr "Значення"
+
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:34
+#: programs/templates/programs/programoffer_list.html:33
+msgid "Start"
+msgstr "Старт"
+
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:35
+#: programs/templates/programs/programoffer_list.html:34
+msgid "End"
+msgstr "Кінець"
+
+#: enterprise/templates/enterprise/enterpriseoffer_list.html:64
+#, python-format
+msgid ""
+"\n"
+"                %(platform_name)s Enterprise Offer Administration Tool\n"
+"              "
+msgstr ""
+"\n"
+"                %(platform_name)s Інструмент адміністрування корпоративних "
+"пропозицій\n"
+"              "
+
+#: enterprise/utils.py:239
+#, python-brace-format
+msgid "SKU {sku} does not exist."
+msgstr "SKU {sku} не існує."
+
+#: enterprise/utils.py:248
+#, python-brace-format
+msgid "There is no Enterprise Customer associated with SKU {sku}."
+msgstr "З SKU {sku} не існує корпоративного клієнта, пов'язаного з SKU ."
+
+#: enterprise/utils.py:256
+#, python-brace-format
+msgid ""
+"If you have concerns about sharing your data, please contact your "
+"administrator at {enterprise}."
+msgstr ""
+"Якщо у вас є сумніви щодо передачі ваших даних, будь ласка, зверніться до "
+"адміністратора за адресою {enterprise}."
+
+#: enterprise/utils.py:259
+#, python-brace-format
+msgid ""
+"If you have concerns about sharing your data, please contact your "
+"administrator at {enterprise} at {contact_info}."
+msgstr ""
+"Якщо у вас є сумніви щодо надання ваших даних, будь ласка, зверніться до "
+"адміністратора за адресою {enterprise} або {contact_info}."
+
+#: enterprise/utils.py:265
+#, python-brace-format
+msgid "Enrollment in {course_name} was not complete."
+msgstr "Реєстрація на сайті {course_name} не була завершена."
+
+#: enterprise/views.py:39
+msgid "Enterprise offer updated!"
+msgstr "Оновлена корпоративна пропозиція!"
+
+#: enterprise/views.py:62
+msgid "Enterprise offer created!"
+msgstr "Підприємницьку пропозицію створено!"
+
+#: extensions/api/exceptions.py:9
+msgid "You can't check out with an empty basket."
+msgstr "Ви не можете виїхати з порожнім кошиком."
+
+#: extensions/api/exceptions.py:12
+msgid ""
+"We couldn't locate the identification code necessary to find one of your "
+"products."
+msgstr ""
+"Ми не змогли знайти ідентифікаційний код, необхідний для пошуку одного з "
+"ваших продуктів."
+
+#: extensions/api/exceptions.py:15
+msgid "We couldn't find one of the products you're looking for."
+msgstr "Ми не знайшли жодного з продуктів, які ви шукаєте."
+
+#: extensions/api/exceptions.py:18
+msgid "One of the products you're trying to order is unavailable."
+msgstr "Один з продуктів, які ви намагаєтесь замовити, недоступний."
+
+#: extensions/api/exceptions.py:21
+msgid ""
+"We couldn't find enough information about you to perform the calculation."
+msgstr ""
+"Ми не змогли знайти достатньо інформації про вас, щоб виконати розрахунок."
+
+#: extensions/api/serializers.py:261
+msgid "EXPIRED"
+msgstr "ЗАКІНЧИВСЯ"
+
+#: extensions/api/serializers.py:263
+msgid "INACTIVE"
+msgstr "НЕДІЄВИЙ"
+
+#: extensions/api/serializers.py:264
+msgid "ACTIVE"
+msgstr "АКТИВНИЙ"
+
+#: extensions/api/serializers.py:705
+msgid "Products must have a certificate type."
+msgstr "Продукція повинна мати тип сертифіката."
+
+#: extensions/api/serializers.py:708 extensions/api/serializers.py:753
+msgid "Products must have a price."
+msgstr "Продукти повинні мати ціну."
+
+#: extensions/api/serializers.py:715
+msgid "You need to provide a course UUID to create Course Entitlements."
+msgstr "Вам потрібно вказати UUID курсу, щоб створити права на курс."
+
+#: extensions/api/serializers.py:749
+msgid "Products must indicate whether ID verification is required."
+msgstr "На продуктах має бути зазначено, чи потрібна перевірка особи."
+
+#: extensions/api/serializers.py:820
+#, python-brace-format
+msgid "Invalid product class [{product_class}] requested."
+msgstr "Запитано невірний клас товару [{product_class}]."
+
+#: extensions/api/serializers.py:859
+#, python-brace-format
+msgid ""
+"Course [{course_id}] was not published to LMS because the switch "
+"[publish_course_modes_to_lms] is disabled. To avoid ghost SKUs, data has not "
+"been saved."
+msgstr ""
+"Курс [{course_id}] не було опубліковано в LMS, оскільки перемикач "
+"[publish_course_modes_to_lms] вимкнено. Щоб уникнути примарних SKU, дані не "
+"були збережені."
+
+#: extensions/api/serializers.py:1562
+msgid "Enrollment code"
+msgstr "Реєстраційний код"
+
+#: extensions/api/serializers.py:1563
+msgid "Discount code"
+msgstr "Код на знижку"
+
+#: extensions/api/serializers.py:2060
+msgid "Invalid order number or order {} does not exists."
+msgstr "Невірний номер замовлення або замовлення {} не існує."
+
+#: extensions/api/serializers.py:2115
+msgid "New coupon voucher assignment Failure. Error: {}"
+msgstr "Помилка привласнення нового купона-ваучера. Помилка: {}"
+
+#: extensions/api/serializers.py:2133
+msgid ""
+"Your order {} can not be refunded as '{}' coupon are not supported to refund."
+msgstr ""
+"Ваше замовлення {} не може бути відшкодовано, оскільки купон '{}' не "
+"підтримується для відшкодування."
+
+#: extensions/api/serializers.py:2164
+msgid "Could note create new voucher for the order: {}"
+msgstr "Можна відзначити створення нового ваучера для замовлення: {}"
+
+#: extensions/api/v2/views/baskets.py:445 extensions/basket/views.py:460
+#: extensions/iap/api/v1/views.py:131
+msgid "No SKUs provided."
+msgstr "Товарні позиції не надаються."
+
+#: extensions/api/v2/views/baskets.py:456 extensions/basket/views.py:467
+#, python-brace-format
+msgid "Products with SKU(s) [{skus}] do not exist."
+msgstr "Товарів з SKU(ами) [{skus}] не існує."
+
+#: extensions/api/v2/views/baskets.py:467
+msgid "Provide username or is_anonymous query param, but not both"
+msgstr ""
+"Вкажіть ім'я користувача або параметр запиту is_anonymous, але не обидва"
+
+#: extensions/api/v2/views/products.py:54
+#, python-brace-format
+msgid "Product API only supports {http_method} for {product_class} products."
+msgstr ""
+"API продукту підтримує лише {http_method} для продуктів {product_class}."
+
+#: extensions/api/v2/views/products.py:69
+#, python-brace-format
+msgid "Missing or bad value for: [{name}]."
+msgstr "Відсутні або мають погану вартість: [{name}]."
+
+#: extensions/basket/models.py:119
+#, python-brace-format
+msgid "{id} - {status} basket (owner: {owner}, lines: {num_lines})"
+msgstr "{id} - {status} кошик (власник: {owner}, рядки: {num_lines})"
+
+#: extensions/basket/models.py:142 extensions/payment/models.py:28
+#: templates/oscar/basket/basket.html:9
+msgid "Basket"
+msgstr "Кошик"
+
+#: extensions/basket/models.py:144
+msgid "Attribute Type"
+msgstr "Тип атрибуту"
+
+#: extensions/basket/models.py:146
+msgid "Text Attribute"
+msgstr "Текстовий атрибут"
+
+#: extensions/basket/utils.py:155
+msgid ""
+"Due to export controls, we cannot allow you to access this course at this "
+"time."
+msgstr ""
+"Через експортний контроль ми не можемо надати вам доступ до цього курсу в "
+"даний час."
+
+#: ecommerce/extensions/basket/utils.py:218
+msgid "Click here to just purchase an enrollment for yourself"
+msgstr "Натисніть тут, щоб придбати курс для себе"
+
+#: ecommerce/extensions/basket/utils.py:221
+msgid "Click here to purchase multiple seats in this course"
+msgstr "Натисніть тут, щоб придбати кілька місць на цьому курсі"
+
+#: ecommerce/extensions/basket/utils.py:449
+#, python-brace-format
+msgid "Coupon code '{code}' has expired."
+msgstr "Термін дії купона '{code}' минув."
+
+#: ecommerce/extensions/basket/utils.py:453
+#, python-brace-format
+msgid "Coupon code '{code}' is not active."
+msgstr "Код купона '{code}' не активний."
+
+#: ecommerce/extensions/basket/utils.py:459
+#, python-brace-format
+msgid "Coupon code '{code}' is not available. {msg}"
+msgstr "Код купона '{code}' недоступний. {msg}"
+
+#: ecommerce/extensions/basket/utils.py:465
+#, python-brace-format
+msgid "Coupon code '{code}' is not valid for this basket."
+msgstr "Код купона '{code}' не діє для цього кошика."
+
+#: ecommerce/extensions/basket/utils.py:478
+#, python-brace-format
+msgid ""
+"Coupon code '{code}' is not valid for this basket for a bundled purchase."
+msgstr "Код купона '{code}' не діє для цього кошика для пакетної покупки."
+
+#: ecommerce/extensions/basket/utils.py:533
+#, python-brace-format
+msgid "Coupon code '{code}' added to basket."
+msgstr "Код купона '{code}' додано до кошика."
+
+#: ecommerce/extensions/basket/utils.py:536
+#, python-brace-format
+msgid "Basket does not qualify for coupon code {code}."
+msgstr "Кошик не підходить для коду купона {code}."
+
+#: ecommerce/extensions/basket/views.py:207
+#, python-brace-format
+msgid "Could not apply the code '{code}'; it requires data sharing consent."
+msgstr ""
+"Не вдалося застосувати код '{code}'; він вимагає згоди на обмін даними."
+
+#: ecommerce/extensions/basket/views.py:295
+msgid ""
+"After you complete your order you will be able to select course dates from "
+"your dashboard."
+msgstr ""
+"Після завершення замовлення ви зможете вибрати дати курсу на вкладці Мої "
+"курси."
+
+#: ecommerce/extensions/basket/views.py:310
+msgid ""
+"After you complete your order you will be automatically enrolled in the "
+"verified track of the course."
+msgstr "Після завершення замовлення ви будете автоматично зараховані на курс."
+
+#: ecommerce/extensions/basket/views.py:314
+msgid "After you complete your order you will receive credit for your course."
+msgstr "Після завершення замовлення ви отримаєте кредит на курс."
+
+#: ecommerce/extensions/basket/views.py:317
+msgid ""
+"After you complete your order you will be automatically enrolled in the "
+"course."
+msgstr ""
+"Після того, як ви оформите замовлення, ви будете автоматично зараховані на "
+"курс."
+
+#: extensions/basket/views.py:323
+#, python-brace-format
+msgid ""
+"{paragraph_start}By purchasing, you and your organization agree to the "
+"following terms:{paragraph_end} {ul_start} {li_start}Each code is valid for "
+"the one course covered and can be used only one time.{li_end} {li_start}You "
+"are responsible for distributing codes to your learners in your organization."
+"{li_end} {li_start}Each code will expire in one year from date of purchase "
+"or, if earlier, once the course is closed.{li_end} {li_start}If a course is "
+"not designated as self-paced, you should confirm that a course run is "
+"available before expiration. {li_end} {li_start}You may not resell codes to "
+"third parties.{li_end} {li_start}All edX for Business Sales are final and "
+"not eligible for refunds.{li_end}{ul_end} {paragraph_start}You will receive "
+"an email at {user_email} with your enrollment code(s). {paragraph_end}"
+msgstr ""
+"{paragraph_start}Здійснюючи покупку, ви та ваша організація погоджуєтеся з "
+"наступними умовами:{paragraph_end} {ul_start} {li_start}Кожен код дійсний "
+"для одного курсу і може бути використаний лише один раз.{li_end} {li_start}"
+"Ви несете відповідальність за розповсюдження кодів серед ваших учнів у вашій "
+"організації.{li_end} {li_start}Термін дії кожного коду закінчується через "
+"один рік з дати придбання або, якщо раніше, після закриття курсу.{li_end} "
+"{li_start}Якщо курс не позначений як самостійний, ви повинні підтвердити, що "
+"курс доступний до закінчення терміну дії коду. {li_end} {li_start}Ви не "
+"можете перепродавати коди третім особам.{li_end} {li_start}Усі коди edX for "
+"Business Sales є остаточними і поверненню не підлягають.{li_end}{ul_end} "
+"{paragraph_start}Ви отримаєте лист на електронну адресу {user_email} з "
+"кодом(ами) реєстрації. {paragraph_end}"
+
+#: ecommerce/extensions/basket/views.py:359
+#, python-brace-format
+msgid ""
+"{strong_start}Purchasing just for yourself?{strong_end}{paragraph_start}If "
+"you are purchasing a single code for someone else, please continue with "
+"checkout. However, if you are the learner {link_start}go back{link_end} to "
+"enroll directly.{paragraph_end}"
+msgstr ""
+"{strong_start}Купуєте тільки для себе?{strong_end}{paragraph_start} Якщо Ви "
+"купуєте один код для когось іншого, будь ласка, продовжуйте оформлення "
+"замовлення. Однак, якщо ви купуєте для себе, поверніться безпосередньо "
+"{link_start}до реєстрації{link_end}{paragraph_end}."
+
+#: ecommerce/extensions/basket/views.py:444
+msgid "You have already purchased these products"
+msgstr "Ви вже придбали ці продукти"
+
+#: ecommerce/extensions/basket/views.py:489
+msgid "No product is available to buy."
+msgstr "Жоден продукт не доступний для покупки."
+
+#: ecommerce/extensions/basket/views.py:854
+msgid "quantity successfully updated"
+msgstr "кількість успішно оновлено"
+
+#: ecommerce/extensions/basket/views.py:873
+msgid ""
+"Your basket couldn't be updated. Please correct any validation errors below."
+msgstr ""
+"Ваш кошик не вдалося оновити. Будь ласка, виправте помилки перевірки нижче."
+
+#: ecommerce/extensions/basket/views.py:927
+#, python-brace-format
+msgid "You have already added coupon code '{code}' to your basket."
+msgstr "Ви вже додали код купона '{code}' до свого кошика."
+
+#: ecommerce/extensions/basket/views.py:1003
+#, python-brace-format
+msgid "Coupon code '{code}' does not exist."
+msgstr "Код купона '{code}' не існує."
+
+#: ecommerce/extensions/basket/views.py:1088
+#, python-format
+msgid "No coupon found with id '%s'"
+msgstr "Не знайдено купонів з id '%s'"
+
+#: ecommerce/extensions/basket/views.py:1092
+#, python-format
+msgid "Coupon code '%s' was removed from your basket."
+msgstr "Код купона '%s' було видалено з вашого кошика."
+
+#: ecommerce/extensions/catalogue/models.py:68
+msgid "Last date/time on which this product can be purchased."
+msgstr "Останні дата/час, коли цей продукт можна придбати."
+
+#: ecommerce/extensions/dashboard/forms.py:9
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:48
+#: ecommerce/templates/oscar/dashboard/orders/order_list.html:72
+#: ecommerce/templates/oscar/dashboard/refunds/refund_detail.html:52
+#: ecommerce/templates/oscar/dashboard/refunds/refund_list.html:59
+#: ecommerce/templates/oscar/dashboard/users/detail.html:40
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: ecommerce/extensions/dashboard/forms.py:10
+#: ecommerce/templates/oscar/dashboard/orders/order_list.html:73
+#: ecommerce/templates/oscar/dashboard/refunds/refund_list.html:60
+#: ecommerce/templates/oscar/dashboard/users/detail.html:48
+msgid "Email"
+msgstr "Електронна пошта"
+
+#: extensions/dashboard/orders/views.py:74
+#, python-brace-format
+msgid ""
+"{link_start}Refund #{refund_id}{link_end} created! Click {link_start}"
+"here{link_end} to view it."
+msgstr ""
+"{link_start}Повернення #{refund_id}{link_end} створено! Натисніть "
+"{link_start}тут{link_end}, щоб переглянути його."
+
+#: extensions/dashboard/orders/views.py:78
+msgid ""
+"A refund cannot be created for these lines. They may have already been "
+"refunded."
+msgstr ""
+"Для цих рядків не можна створити відшкодування. Можливо, вони вже були "
+"відшкодовані."
+
+#: extensions/dashboard/refunds/apps.py:13
+msgid "Refunds Dashboard"
+msgstr "Панель відшкодувань"
+
+#: extensions/dashboard/refunds/forms.py:15
+#: templates/oscar/dashboard/partials/refund_table.html:9
+#: templates/oscar/dashboard/refunds/refund_list.html:56
+msgid "Refund ID"
+msgstr "Ідентифікатор відшкодування"
+
+#: extensions/dashboard/refunds/forms.py:16 extensions/refund/models.py:72
+#: extensions/refund/models.py:316 extensions/voucher/utils.py:222
+#: extensions/voucher/utils.py:281 extensions/voucher/utils.py:318
+#: templates/oscar/dashboard/offers/offer_detail.html:118
+#: templates/oscar/dashboard/orders/line_detail.html:68
+#: templates/oscar/dashboard/orders/order_detail.html:62
+#: templates/oscar/dashboard/orders/order_detail.html:134
+#: templates/oscar/dashboard/orders/order_detail.html:625
+#: templates/oscar/dashboard/orders/order_list.html:97
+#: templates/oscar/dashboard/partials/refund_table.html:13
+#: templates/oscar/dashboard/refunds/refund_detail.html:73
+#: templates/oscar/dashboard/refunds/refund_detail.html:109
+#: templates/oscar/dashboard/refunds/refund_list.html:59
+#: templates/oscar/dashboard/users/detail.html:142
+msgid "Status"
+msgstr "Статус"
+
+#: extensions/dashboard/users/views.py:48
+msgid "Failed to retrieve enrollment data."
+msgstr "Не вдалося отримати дані про зарахування."
+
+#: extensions/offer/constants.py:32
+msgid "Day 3"
+msgstr "День 3"
+
+#: extensions/offer/constants.py:33
+msgid "Day 10"
+msgstr "День 10"
+
+#: extensions/offer/constants.py:34
+msgid "Day 19"
+msgstr "День 19"
+
+#: extensions/offer/constants.py:40
+msgid "Assign"
+msgstr "Призначити"
+
+#: extensions/offer/constants.py:41
+msgid "Remind"
+msgstr "Нагадуємо"
+
+#: extensions/offer/constants.py:42
+msgid "Revoke"
+msgstr "Відкликати"
+
+#: extensions/offer/models.py:447
+msgid "Course Catalog ID from the Discovery Service."
+msgstr "Ідентифікатор каталогу курсів від Discovery Service."
+
+#: extensions/offer/models.py:458
+msgid "UUID for an EnterpriseCustomerCatalog from the Enterprise Service."
+msgstr "UUID для EnterpriseCustomerCatalog з Enterprise Service."
+
+#: extensions/offer/models.py:590
+msgid "EnterpriseCustomer Name"
+msgstr "Назва підприємстваКлієнт Ім'я клієнта"
+
+#: extensions/offer/models.py:595
+msgid "EnterpriseCustomerCatalog UUID"
+msgstr "EnterpriseCustomerCatalog UUID"
+
+#: extensions/offer/models.py:600 extensions/voucher/utils.py:53
+#: extensions/voucher/utils.py:190 extensions/voucher/utils.py:270
+#: extensions/voucher/utils.py:326 extensions/voucher/utils.py:335
+#: extensions/voucher/utils.py:341 programs/forms.py:22
+#: programs/templates/programs/programoffer_list.html:30
+msgid "Program UUID"
+msgstr "UUID do Programa"
+
+#: extensions/offer/models.py:613
+msgid "Email to user pending."
+msgstr "Імейл користувачеві очікує на розгляд."
+
+#: extensions/offer/models.py:614
+msgid "Code successfully assigned to user."
+msgstr "Код успішно призначено користувачеві."
+
+#: extensions/offer/models.py:615
+msgid "Code has been redeemed by user."
+msgstr "Код було викуплено користувачем."
+
+#: extensions/offer/models.py:616
+msgid "Email to user bounced."
+msgstr "Імейл, надісланий користувачеві, відхилено."
+
+#: extensions/offer/models.py:617
+msgid "Code has been revoked for this user."
+msgstr "Код було відкликано для цього користувача."
+
+#: extensions/offer/models.py:663
+msgid "Make a particular template version active."
+msgstr "Зробіть певну версію шаблону активною."
+
+#: extensions/offer/models.py:883
+msgid "Email has been sent."
+msgstr "Імейл відправлено."
+
+#: extensions/offer/models.py:884
+msgid "This user should receive email"
+msgstr "Цей користувач повинен отримати електронну пошту"
+
+#: extensions/offer/utils.py:97
+#, python-brace-format
+msgid "{benefit_value}%"
+msgstr "{benefit_value}%"
+
+#: extensions/offer/utils.py:100
+#, python-brace-format
+msgid "${benefit_value}"
+msgstr "${benefit_value}"
+
+#. Translators: "Waffle" is the name of a third-party library. It should not
+#. be translated
+#: extensions/order/admin.py:35
+#, python-brace-format
+msgid ""
+"Order administration has been disabled due to the load on the database. This "
+"functionality can be restored by activating the {switch_name} Waffle switch. "
+"Be careful when re-activating this switch!"
+msgstr ""
+"Адміністрування замовлень відключено у зв'язку з навантаженням на базу "
+"даних. Відновити цю функціональність можна, активувавши перемикач "
+"{switch_name} Waffle switch. Будьте обережні при повторній активації цього "
+"перемикача!"
+
+#: extensions/order/benefits.py:22
+#, python-format
+msgid "%d%% discount for manual course enrollment order"
+msgstr "%d%% знижка на ручний запис на курс"
+
+#: extensions/order/models.py:39 extensions/payment/models.py:26
+msgid "Payment Processor"
+msgstr "Платіжний процесор"
+
+#: extensions/order/models.py:51
+msgid ""
+"It expect that the order numbers stuck in fulfillment error state will "
+"be             provided in a txt file format one per line."
+msgstr ""
+"Очікується, що номери замовлень, які застрягли в стані помилки виконання, "
+"будуть надані у форматі txt-файлу по одному в рядку."
+
+#: extensions/partner/admin.py:28
+msgid "Click 'Save and Continue Editing' to add stock records"
+msgstr ""
+"Натисніть \"Зберегти і продовжити редагування\", щоб додати записи про запаси"
+
+#: extensions/partner/models.py:22
+#: templates/oscar/dashboard/catalogue/product_update.html:193
+#: templates/oscar/dashboard/orders/line_detail.html:71
+msgid "Partner"
+msgstr "Партнер"
+
+#: extensions/partner/models.py:23 settings/_oscar.py:276
+msgid "Partners"
+msgstr "Партнери"
+
+#: extensions/payment/constants.py:8
+msgid "American Express"
+msgstr "American Express"
+
+#: extensions/payment/constants.py:18
+msgid "Discover"
+msgstr "Відкрийте для себе"
+
+#: extensions/payment/constants.py:28
+msgid "MasterCard"
+msgstr "MasterCard"
+
+#: extensions/payment/constants.py:42
+msgid "Visa"
+msgstr "Віза"
+
+#: extensions/payment/exceptions.py:8
+msgid "We don't support the payment option you selected."
+msgstr "Ми не підтримуємо обраний вами спосіб оплати."
+
+#: extensions/payment/forms.py:31
+msgid "Choose country"
+msgstr "Обрати країну"
+
+#. Translators: This is a string added next to the name of the required
+#. fields on the payment form. For example, the first name field is
+#. required, so this would read "First name (required)".
+#: extensions/payment/forms.py:105
+#, python-brace-format
+msgid "{label} (required)"
+msgstr "{label} (обов'язково)"
+
+#: extensions/payment/forms.py:111
+msgid "Organization (required)"
+msgstr "Організація (обов'язкове поле)"
+
+#: extensions/payment/forms.py:124
+msgid ""
+"I am purchasing on behalf of my employer or other professional organization"
+msgstr "Я купую від імені свого роботодавця або іншої професійної організації"
+
+#: ecommerce/extensions/payment/forms.py:141
+#: ecommerce/extensions/payment/forms.py:218
+#: ecommerce/extensions/payment/views/__init__.py:97
+msgid ""
+"There was a problem retrieving your basket. Refresh the page to try again."
+msgstr ""
+"Виникла проблема з завантаженням вашої корзини. Оновіть сторінку, щоб "
+"повторити спробу."
+
+#: extensions/payment/forms.py:144
+msgid "First Name (required)"
+msgstr "Ім'я (обов'язкове поле)"
+
+#: extensions/payment/forms.py:145
+msgid "Last Name (required)"
+msgstr "Прізвище (обов'язкове поле)"
+
+#: extensions/payment/forms.py:146
+msgid "Address (required)"
+msgstr "Адреса (обов'язкове поле)"
+
+#: extensions/payment/forms.py:147
+msgid "Suite/Apartment Number"
+msgstr "Номер квартири/офісу"
+
+#: extensions/payment/forms.py:148
+msgid "City (required)"
+msgstr "Місто (обов'язкове поле)"
+
+#: extensions/payment/forms.py:151
+msgid "State/Province"
+msgstr "Область"
+
+#: extensions/payment/forms.py:152
+msgid "Zip/Postal Code"
+msgstr "Поштовий індекс"
+
+#: extensions/payment/forms.py:153
+msgid "Country (required)"
+msgstr "Країна (обов'язкове поле)"
+
+#: extensions/payment/forms.py:180 extensions/payment/forms.py:182
+#: extensions/payment/forms.py:193
+msgid "This field is required."
+msgstr "Це поле є обов'язкове."
+
+#: extensions/payment/forms.py:199
+msgid ""
+"Postal codes for the U.S. and Canada are limited to nine (9) characters."
+msgstr "Поштові індекси для США і Канади обмежені дев'ятьма (9) символами."
+
+#: extensions/payment/models.py:27
+msgid "Transaction ID"
+msgstr "Ідентифікатор транзакції"
+
+#: extensions/payment/models.py:36
+msgid "Payment Processor Response"
+msgstr "Відповідь платіжного процесора"
+
+#: extensions/payment/models.py:37
+msgid "Payment Processor Responses"
+msgstr "Відповіді платіжних систем"
+
+#: extensions/payment/models.py:54
+msgid ""
+"Number of times to retry failing Paypal client actions (e.g., payment "
+"creation, payment execution)"
+msgstr ""
+"Кількість спроб повторення невдалих дій клієнта Paypal (наприклад, створення "
+"платежу, виконання платежу)"
+
+#: extensions/payment/models.py:112
+msgid "More than 10 digits before the decimal not allowed for fixed value."
+msgstr ""
+"Для фіксованого значення не допускається більше 10 знаків перед десятковою "
+"комою."
+
+#: extensions/payment/models.py:118
+msgid "More than 2 digits after the decimal not allowed for fixed value."
+msgstr "Більше 2 знаків після коми для фіксованого значення не допускається."
+
+#: extensions/payment/models.py:126
+msgid "Percentage greater than 100 not allowed."
+msgstr "Відсоток більше 100 не допускається."
+
+#. Translators: This is a string placed in the middle of a truncated string
+#. to indicate that truncation has occurred. For example, if a title may only
+#. be at most 11 characters long, "A Very Long Title" (17 characters) would be
+#. truncated to "A Ve...itle".
+#: extensions/payment/utils.py:77
+msgid "..."
+msgstr "..."
+
+#: extensions/payment/views/cybersource.py:368
+msgid "transaction declined"
+msgstr "транзакцію відхилено"
+
+#. Translators: "Waffle" is the name of a third-party library. It should not
+#. be translated
+#: extensions/refund/admin.py:36
+#, python-brace-format
+msgid ""
+"Refund administration has been disabled due to the load on the database. "
+"This functionality can be restored by activating the {switch_name} Waffle "
+"switch. Be careful when re-activating this switch!"
+msgstr ""
+"Адміністрування відшкодувань відключено через навантаження на базу даних. "
+"Відновити цю функціональність можна, активувавши перемикач {switch_name} "
+"Waffle switch. Будьте обережні при повторній активації цього перемикача!"
+
+#: extensions/refund/models.py:67
+msgid "Order"
+msgstr "Порядок"
+
+#: ecommerce/extensions/refund/models.py:69
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:680
+msgid "User"
+msgstr "Користувач"
+
+#: extensions/refund/models.py:69
+msgid "Total Credit (excl. tax)"
+msgstr "Загальна сума кредиту (без урахування податку)"
+
+#: extensions/refund/models.py:70
+#: templates/oscar/dashboard/catalogue/product_update.html:200
+msgid "Currency"
+msgstr "Валюта"
+
+#: extensions/refund/models.py:308
+msgid "Refund"
+msgstr "Повернення коштів"
+
+#: extensions/refund/models.py:311
+msgid "Order Line"
+msgstr "Лінія замовлень"
+
+#: extensions/refund/models.py:313
+msgid "Line Credit (excl. tax)"
+msgstr "Кредитна лінія (без урахування податку)"
+
+#: ecommerce/extensions/refund/models.py:306
+#: ecommerce/templates/edx/checkout/receipt.html:88
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:30
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:51
+#: ecommerce/templates/oscar/basket/partials/hosted_checkout_basket.html:43
+#: ecommerce/templates/oscar/dashboard/orders/line_detail.html:50
+#: ecommerce/templates/oscar/dashboard/orders/line_detail.html:108
+#: ecommerce/templates/oscar/dashboard/orders/line_detail.html:133
+#: ecommerce/templates/oscar/dashboard/orders/line_detail.html:164
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:138
+#: ecommerce/templates/oscar/dashboard/refunds/refund_detail.html:108
+msgid "Quantity"
+msgstr "Кількість"
+
+#: extensions/voucher/models.py:40
+msgid "Can be used once by one customer"
+msgstr "Може бути використано один раз одним покупцем"
+
+#: extensions/voucher/models.py:41
+msgid "Can be used multiple times by multiple customers"
+msgstr "Може бути використано кілька разів кількома покупцями"
+
+#: extensions/voucher/models.py:42
+msgid "Can only be used once per customer"
+msgstr "Може бути використана лише один раз на одного клієнта"
+
+#: extensions/voucher/models.py:43
+msgid "Can be used multiple times by one customer"
+msgstr "Може використовуватись кілька разів одним покупцем"
+
+#: extensions/voucher/models.py:45
+msgid "Usage"
+msgstr "Використання"
+
+#: extensions/voucher/models.py:48
+msgid "Is Public Code Batch"
+msgstr "Чи є публічний код пакетом"
+
+#: extensions/voucher/models.py:49
+msgid "Should this code batch be public or private for assignment."
+msgstr ""
+"Чи повинна ця партія коду бути загальнодоступною або приватною для "
+"присвоєння."
+
+#: extensions/voucher/models.py:63
+msgid "This voucher is assigned to another user."
+msgstr "Цей ваучер призначається іншому користувачеві."
+
+#: extensions/voucher/utils.py:76 extensions/voucher/utils.py:318
+msgid "Redeemed"
+msgstr "Викуплено"
+
+#: extensions/voucher/utils.py:95 extensions/voucher/utils.py:161
+#: templates/edx/checkout/receipt.html:135
+#: templates/oscar/dashboard/orders/order_detail.html:180
+#: templates/oscar/dashboard/orders/order_detail.html:198
+#: templates/oscar/dashboard/orders/order_detail.html:236
+msgid "Discount"
+msgstr "Знижка"
+
+#: extensions/voucher/utils.py:95 extensions/voucher/utils.py:161
+msgid "Enrollment"
+msgstr "Зарахування на навчання"
+
+#: extensions/voucher/utils.py:96 extensions/voucher/utils.py:165
+#, python-brace-format
+msgid "{percentage} %"
+msgstr "{percentage} %"
+
+#: extensions/voucher/utils.py:78
+#: templates/oscar/dashboard/offers/offer_detail.html:134
+msgid "Inactive"
+msgstr "Неактивовано"
+
+#: extensions/voucher/utils.py:53 extensions/voucher/utils.py:192
+#: extensions/voucher/utils.py:271 extensions/voucher/utils.py:329
+#: extensions/voucher/utils.py:332 extensions/voucher/utils.py:337
+msgid "Catalog Query"
+msgstr "Запит до каталогу"
+
+#: extensions/voucher/utils.py:55 extensions/voucher/utils.py:285
+#: extensions/voucher/utils.py:340
+msgid "Redeemed For Course IDs"
+msgstr "Викуплено для курсових посвідчень"
+
+#: extensions/voucher/utils.py:57 extensions/voucher/utils.py:284
+#: extensions/voucher/utils.py:331 extensions/voucher/utils.py:339
+msgid "Redeemed For Course ID"
+msgstr "Викуплено для курсового посвідчення"
+
+#: extensions/voucher/utils.py:76
+#: templates/oscar/dashboard/offers/offer_detail.html:132
+#: templates/oscar/dashboard/users/detail.html:52
+msgid "Active"
+msgstr "Активний"
+
+#: extensions/voucher/utils.py:171 extensions/voucher/utils.py:219
+#: extensions/voucher/utils.py:263
+#: templates/oscar/dashboard/offers/offer_detail.html:117
+msgid "Code"
+msgstr "Код"
+
+#: extensions/voucher/utils.py:171
+msgid "This row applies to all vouchers"
+msgstr "Цей рядок стосується всіх ваучерів"
+
+#: extensions/voucher/utils.py:172 extensions/voucher/utils.py:275
+#: templates/oscar/dashboard/catalogue/product_update.html:126
+msgid "Category"
+msgstr "Категорія"
+
+#: extensions/voucher/utils.py:173 extensions/voucher/utils.py:288
+msgid "Coupon Expiry Date"
+msgstr "Термін дії купона"
+
+#: extensions/voucher/utils.py:174 extensions/voucher/utils.py:264
+msgid "Coupon Name"
+msgstr "Назва купона"
+
+#: extensions/voucher/utils.py:175 extensions/voucher/utils.py:287
+msgid "Coupon Start Date"
+msgstr "Дата початку дії купона"
+
+#: extensions/voucher/utils.py:176 extensions/voucher/utils.py:267
+msgid "Coupon Type"
+msgstr "Тип купона"
+
+#: extensions/voucher/utils.py:177 extensions/voucher/utils.py:286
+msgid "Create Date"
+msgstr "Дата створення"
+
+#: extensions/voucher/utils.py:178 extensions/voucher/utils.py:279
+msgid "Discount Percentage"
+msgstr "Відсоток знижки"
+
+#: extensions/voucher/utils.py:179 extensions/voucher/utils.py:280
+msgid "Discount Amount"
+msgstr "Сума знижки"
+
+#: extensions/voucher/utils.py:180 extensions/voucher/utils.py:289
+msgid "Email Domains"
+msgstr "Домени електронної пошти"
+
+#: extensions/voucher/utils.py:181 extensions/voucher/utils.py:278
+msgid "Invoiced Amount"
+msgstr "Сума рахунку-фактури"
+
+#: extensions/voucher/utils.py:182 extensions/voucher/utils.py:276
+msgid "Note"
+msgstr "Примітка"
+
+#: extensions/voucher/utils.py:183 extensions/voucher/utils.py:277
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:50
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:61
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:63
+msgid "Price"
+msgstr "Ціна"
+
+#: extensions/voucher/utils.py:187 extensions/voucher/utils.py:269
+#: extensions/voucher/utils.py:327 extensions/voucher/utils.py:333
+#: templates/oscar/dashboard/partials/enrollment_table.html:8
+msgid "Course ID"
+msgstr "ID курсу"
+
+#: ecommerce/extensions/voucher/utils.py:188
+#: ecommerce/extensions/voucher/utils.py:273
+#: ecommerce/extensions/voucher/utils.py:328
+#: ecommerce/extensions/voucher/utils.py:334
+msgid "Organization"
+msgstr "Організація"
+
+#: extensions/voucher/utils.py:193 extensions/voucher/utils.py:272
+#: extensions/voucher/utils.py:330 extensions/voucher/utils.py:338
+msgid "Course Seat Types"
+msgstr "Типи місць на курсі"
+
+#: extensions/voucher/utils.py:220 extensions/voucher/utils.py:265
+#: extensions/voucher/utils.py:321
+msgid "Maximum Coupon Usage"
+msgstr "Максимальне використання купона"
+
+#: extensions/voucher/utils.py:221 extensions/voucher/utils.py:266
+#: extensions/voucher/utils.py:322
+msgid "Redemption Count"
+msgstr "Кількість викупу"
+
+#: extensions/voucher/utils.py:223 extensions/voucher/utils.py:268
+msgid "URL"
+msgstr "URL"
+
+#: extensions/voucher/utils.py:274 extensions/voucher/utils.py:297
+msgid "Client"
+msgstr "Клієнт"
+
+#: extensions/voucher/utils.py:282 extensions/voucher/utils.py:302
+#: extensions/voucher/utils.py:319
+#: templates/oscar/dashboard/users/detail.html:138
+msgid "Order Number"
+msgstr "Номер замовлення"
+
+#: extensions/voucher/utils.py:283 extensions/voucher/utils.py:302
+#: extensions/voucher/utils.py:320
+msgid "Redeemed By Username"
+msgstr "Викуплено іменем користувача"
+
+#: extensions/voucher/utils.py:786
+#, python-brace-format
+msgid "Range for coupon [{coupon_id}]"
+msgstr "Діапазон для купона [{coupon_id}]"
+
+#: extensions/voucher/views.py:31
+#, python-brace-format
+msgid "Coupon Report for {coupon_name}"
+msgstr "Звіт про купони для {coupon_name}"
+
+#: extensions/voucher/views.py:40
+msgid ""
+"Failed to find a matching stock record for coupon, report download canceled."
+msgstr ""
+"Не вдалося знайти відповідний складський запис для купона, завантаження "
+"звіту скасовано."
+
+#: invoice/models.py:13
+msgid "Not Paid"
+msgstr "Не оплачено"
+
+#: invoice/models.py:14
+msgid "Paid"
+msgstr "Оплачено"
+
+#: invoice/models.py:18
+msgid "Prepaid"
+msgstr "Передоплата"
+
+#: invoice/models.py:19
+msgid "Postpaid"
+msgstr "Післяплата"
+
+#: invoice/models.py:20
+msgid "Bulk purchase"
+msgstr "Оптова закупівля"
+
+#: invoice/models.py:21
+msgid "Not applicable"
+msgstr "Не застосовується"
+
+#: invoice/models.py:26
+msgid "Fixed"
+msgstr "Виправлено"
+
+#: management/templates/management/index.html:7
+msgid "Management View"
+msgstr "Visão de gerenciamento"
+
+#: management/templates/management/index.html:26
+msgid "Refund Transactions"
+msgstr "Операції повернення коштів"
+
+#: management/views.py:53
+#, python-brace-format
+msgid "{action} is not a valid action."
+msgstr "{action} não é uma ação válida."
+
+#: programs/benefits.py:27
+#, python-brace-format
+msgid "{value}% program discount"
+msgstr "{value}% знижка за програмою"
+
+#: programs/benefits.py:44
+#, python-brace-format
+msgid "{value} fixed-price program discount"
+msgstr "{value} знижка за програмою з фіксованою ціною"
+
+#: programs/forms.py:70
+msgid "An offer already exists for this program."
+msgstr "На цю програму вже є пропозиція."
+
+#: ecommerce/programs/forms.py:88
+#, python-brace-format
+msgid "Discount for the {program_title} {program_type} Program"
+msgstr ""
+
+#: programs/templates/programs/programoffer_form.html:9
+#, python-format
+msgid "Edit Program Offer: %(program_title)s"
+msgstr "Редагувати пропозицію програми: %(program_title)s"
+
+#: programs/templates/programs/programoffer_form.html:14
+#: programs/templates/programs/programoffer_form.html:47
+#: programs/templates/programs/programoffer_form.html:60
+#: programs/templates/programs/programoffer_list.html:20
+msgid "Create Program Offer"
+msgstr "Створити програмну пропозицію"
+
+#: programs/templates/programs/programoffer_form.html:30
+#: programs/templates/programs/programoffer_list.html:6
+#: programs/templates/programs/programoffer_list.html:17
+#: templates/edx/partials/_administration_menu.html:11
+msgid "Program Offers"
+msgstr "Пропозиції програми"
+
+#: programs/templates/programs/programoffer_form.html:45
+msgid "Edit Program Offer"
+msgstr "Редагувати програмну пропозицію"
+
+#: programs/templates/programs/programoffer_form.html:76
+#: programs/templates/programs/programoffer_list.html:60
+#, python-format
+msgid ""
+"\n"
+"                %(platform_name)s Program Offer Administration Tool\n"
+"              "
+msgstr ""
+"\n"
+"                %(platform_name)s Інструмент адміністрування програмної "
+"пропозиції\n"
+"              "
+
+#: programs/templates/programs/programoffer_list.html:26
+msgid "Current program offers"
+msgstr "Актуальні пропозиції програми"
+
+#: programs/templates/programs/programoffer_list.html:29
+msgid "Program Title"
+msgstr "Назва програми"
+
+#: programs/views.py:38
+msgid "Program offer updated!"
+msgstr "Програмна пропозиція оновлена!"
+
+#: programs/views.py:61
+msgid "Program offer created!"
+msgstr "Програмна пропозиція створена!"
+
+#: referrals/models.py:26
+msgid "Affiliate ID"
+msgstr "Ідентифікатор партнера"
+
+#: referrals/models.py:27
+msgid "UTM Source"
+msgstr "Джерело UTM"
+
+#: referrals/models.py:28
+msgid "UTM Medium"
+msgstr "UTM Medium"
+
+#: referrals/models.py:29
+msgid "UTM Campaign"
+msgstr "Кампанія UTM"
+
+#: referrals/models.py:30
+msgid "UTM Term"
+msgstr "Термін UTM"
+
+#: referrals/models.py:31
+msgid "UTM Content"
+msgstr "Вміст UTM"
+
+#: referrals/models.py:32
+msgid "UTM Created At"
+msgstr "UTM створено за адресою"
+
+#: ecommerce/settings/_oscar.py:211
+#: ecommerce/templates/oscar/dashboard/catalogue/product_update.html:18
+#: ecommerce/templates/oscar/dashboard/index.html:22
+#: ecommerce/templates/oscar/dashboard/offers/offer_detail.html:12
+#: ecommerce/templates/oscar/dashboard/orders/line_detail.html:14
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:29
+#: ecommerce/templates/oscar/dashboard/orders/order_list.html:30
+#: ecommerce/templates/oscar/dashboard/refunds/refund_detail.html:31
+#: ecommerce/templates/oscar/dashboard/refunds/refund_list.html:30
+#: ecommerce/templates/oscar/dashboard/users/detail.html:20
+msgid "Dashboard"
+msgstr "Панель управління"
+
+#: settings/_oscar.py:238
+msgid "Catalogue"
+msgstr "Каталог"
+
+#: settings/_oscar.py:242
+#: templates/oscar/dashboard/catalogue/product_update.html:12
+#: templates/oscar/dashboard/catalogue/product_update.html:21
+msgid "Products"
+msgstr "Продукти"
+
+#: settings/_oscar.py:246
+msgid "Product Types"
+msgstr "Типи продуктів"
+
+#: settings/_oscar.py:250
+#: templates/oscar/dashboard/catalogue/category_form.html:8
+#: templates/oscar/dashboard/catalogue/category_form.html:18
+#: templates/oscar/dashboard/catalogue/product_update.html:75
+msgid "Categories"
+msgstr "Категорії"
+
+#: settings/_oscar.py:254
+msgid "Ranges"
+msgstr "Діапазони"
+
+#: settings/_oscar.py:258
+msgid "Low stock alerts"
+msgstr "Сповіщення про низький рівень запасів"
+
+#: settings/_oscar.py:264
+msgid "Fulfillment"
+msgstr "Виконання"
+
+#: settings/_oscar.py:268 templates/oscar/dashboard/index.html:33
+#: templates/oscar/dashboard/orders/line_detail.html:15
+#: templates/oscar/dashboard/orders/order_detail.html:15
+#: templates/oscar/dashboard/orders/order_list.html:10
+#: templates/oscar/dashboard/orders/order_list.html:17
+#: templates/oscar/dashboard/orders/order_list.html:24
+#: templates/oscar/dashboard/users/detail.html:120
+#: templates/oscar/dashboard/users/detail.html:134
+msgid "Orders"
+msgstr "Накази"
+
+#: settings/_oscar.py:272
+msgid "Statistics"
+msgstr "Статистика"
+
+#: settings/_oscar.py:280 templates/oscar/dashboard/orders/order_detail.html:91
+#: templates/oscar/dashboard/partials/refund_table.html:5
+#: templates/oscar/dashboard/refunds/refund_detail.html:32
+#: templates/oscar/dashboard/refunds/refund_list.html:11
+#: templates/oscar/dashboard/refunds/refund_list.html:31
+#: templates/oscar/dashboard/refunds/refund_list.html:38
+#: templates/oscar/dashboard/users/detail.html:121
+msgid "Refunds"
+msgstr "Повернення коштів"
+
+#: settings/_oscar.py:286 settings/_oscar.py:290
+#: templates/oscar/dashboard/users/detail.html:23
+msgid "Customers"
+msgstr "Клієнти"
+
+#: settings/_oscar.py:294
+msgid "Stock alert requests"
+msgstr "Запити на оповіщення про запаси"
+
+#: settings/_oscar.py:300 settings/_oscar.py:304
+#: templates/oscar/dashboard/offers/offer_detail.html:15
+msgid "Offers"
+msgstr "Пропозиції"
+
+#: settings/_oscar.py:308
+msgid "Vouchers"
+msgstr "Ваучери"
+
+#: settings/_oscar.py:314
+msgid "Reports"
+msgstr "Звіти"
+
+#: ecommerce/settings/base.py:88
+msgid "English"
+msgstr "Англійська"
+
+#: settings/base.py:94
+msgid "Spanish"
+msgstr "Іспанська"
+
+#: settings/base.py:95
+msgid "Spanish (Latin American)"
+msgstr "Іспанська (латиноамериканська)"
+
+#: templates/base.html:10
+msgid "Build"
+msgstr "Побудова"
+
+#: templates/base.html:71
+msgid "Version:"
+msgstr "Версія:"
+
+#: templates/coupons/_offer_error.html:4 templates/coupons/offer.html:5
+#: templates/edx/email_confirmation_required.html:4
+msgid "Redeem"
+msgstr "Повернути"
+
+#: templates/coupons/coupon_app.html:5
+msgid "Coupon Codes"
+msgstr "Коди купонів"
+
+#: templates/coupons/offer.html:18
+msgid ""
+"Earn a verified certificate in one of our popular courses to advance your "
+"career, showcase your accomplishments or enhance your college application."
+msgstr ""
+"Отримайте підтверджений сертифікат на одному з наших популярних курсів, щоб "
+"просунутися по кар'єрних сходах, продемонструвати свої досягнення або "
+"покращити свою заявку на вступ до коледжу."
+
+#: templates/coupons/offer.html:22
+msgid "Why buy a verified certificate?"
+msgstr "Навіщо купувати перевірений сертифікат?"
+
+#: templates/coupons/offer.html:27
+msgid ""
+"A verified certificate (digital) confirming that a user has completed the "
+"course on a specified date. The certificate includes edX's logo and the "
+"university's logo, as well as signatures from faculty members involved with "
+"the course. There is also a URL that can be used to verify the authenticity "
+"of the certificate."
+msgstr ""
+"Верифікований сертифікат (цифровий), який підтверджує, що користувач пройшов "
+"курс у визначений термін. Сертифікат містить логотип edX та логотип "
+"університету, а також підписи викладачів, які брали участь у курсі. Також є "
+"URL-адреса, за якою можна перевірити справжність сертифіката."
+
+#: templates/coupons/offer.html:30
+msgid ""
+"A verified certificate demonstrates to future employers that you've mastered "
+"the course material."
+msgstr ""
+"Підтверджений сертифікат демонструє майбутнім роботодавцям, що ви засвоїли "
+"матеріал курсу."
+
+#: templates/coupons/offer.html:32
+msgid ""
+"The certificate is officially signed and stamped by the institution that "
+"offers the course."
+msgstr ""
+"Сертифікат офіційно завірений підписом і печаткою установи, яка пропонує "
+"курс."
+
+#: templates/coupons/offer.html:34
+msgid ""
+"You're twelve times more likely to complete the course if you're working "
+"toward a verified certificate."
+msgstr ""
+"У вас у дванадцять разів більше шансів завершити курс, якщо ви працюєте над "
+"отриманням підтвердженого сертифікату."
+
+#: ecommerce/templates/courses/course_app.html:5
+#: ecommerce/templates/edx/partials/_administration_menu.html:5
+msgid "Courses"
+msgstr "Курси"
+
+#: templates/courses/course_app.html:27
+#, python-format
+msgid ""
+"\n"
+"                                %(platform_name)s Course Administration "
+"Tool\n"
+"                            "
+msgstr ""
+"\n"
+"                                %(platform_name)s Інструмент адміністрування "
+"курсу\n"
+"                            "
+
+#: templates/courses/menu_options.html:8
+msgid "Student Dashboard"
+msgstr "Інформаційна панель студента"
+
+#: templates/courses/menu_options.html:11
+msgid "Course Admin Tool"
+msgstr "Інструмент адміністрування курсу"
+
+#: templates/courses/menu_options.html:14
+msgid "E-Commerce Dashboard"
+msgstr "Панель управління електронною комерцією"
+
+#: ecommerce/templates/edx/base_menu.html:7
+msgid "Sign Out"
+msgstr "Вийти"
+
+#: templates/edx/checkout/receipt.html:13
+#, python-format
+msgid "Receipt for %(order_number)s"
+msgstr "Квитанція за %(order_number)s"
+
+#: ecommerce/templates/edx/checkout/receipt.html:36
+msgid "Thank you for your order!"
+msgstr "Дякуємо за Ваше замовлення!"
+
+#: ecommerce/templates/edx/checkout/receipt.html:46
+#, python-brace-format
+msgid ""
+"Your order is complete. You will receive a confirmation message and your "
+"enrollment code(s) at {link_start}{email}{link_end}. If you need a receipt, "
+"you can print this page."
+msgstr ""
+"Ваше замовлення сформовано. Ви отримаєте повідомлення з підтвердженням та "
+"код(и) реєстрації на адресу {link_start}{email}{link_end}. Якщо Вам потрібна "
+"квитанція, Ви можете роздрукувати цю сторінку."
+
+#: ecommerce/templates/edx/checkout/receipt.html:52
+#, python-brace-format
+msgid ""
+"Your order is complete. If you need a receipt, you can print this page. You "
+"will also receive a confirmation message with this information at "
+"{link_start}{email}{link_end}."
+msgstr ""
+"Ваше замовлення сформоване. Якщо Вам потрібна квитанція, Ви можете "
+"роздрукувати цю сторінку. Ви також отримаєте повідомлення з цією інформацією "
+"на адресу {link_start}{email}{link_end}."
+
+#: ecommerce/templates/edx/checkout/receipt.html:72
+msgid "Order Number:"
+msgstr "Номер замовлення:"
+
+#: ecommerce/templates/edx/checkout/receipt.html:75
+msgid "Payment Method:"
+msgstr "Спосіб оплати:"
+
+#: ecommerce/templates/edx/checkout/receipt.html:78
+msgid "Order Date:"
+msgstr "Дата замовлення:"
+
+#: ecommerce/templates/edx/checkout/receipt.html:84
+msgid "Order Information"
+msgstr "Інформація про замовлення"
+
+#: ecommerce/templates/edx/checkout/receipt.html:89
+#: ecommerce/templates/oscar/dashboard/offers/offer_detail.html:59
+#: ecommerce/templates/oscar/dashboard/offers/summary.html:12
+msgid "Description"
+msgstr "Опис"
+
+#: ecommerce/templates/edx/checkout/receipt.html:90
+#: ecommerce/templates/oscar/basket/partials/hosted_checkout_basket.html:39
+msgid "Item Price"
+msgstr "Ціна товару"
+
+#: ecommerce/templates/edx/checkout/receipt.html:94
+#: ecommerce/templates/oscar/dashboard/refunds/refund_detail.html:184
+msgid "Quantity:"
+msgstr "Кількість:"
+
+#: ecommerce/templates/edx/checkout/receipt.html:96
+msgid "Description:"
+msgstr "Опис:"
+
+#: ecommerce/templates/edx/checkout/receipt.html:105
+msgid "Item Price:"
+msgstr "Ціна товару:"
+
+#: ecommerce/templates/edx/checkout/receipt.html:111
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:52
+msgid "Subtotal"
+msgstr "Ціна"
+
+#: templates/edx/checkout/receipt.html:142
+#, python-format
+msgid "%(voucher_discount_amount)s off"
+msgstr "%(voucher_discount_amount)s вимкнено"
+
+#: templates/edx/checkout/receipt.html:152
+#, python-format
+msgid "Discount of type %(type)s provided by %(enterprise_name)s"
+msgstr "Знижка типу %(type)s надана %(enterprise_name)s"
+
+#: templates/edx/checkout/receipt.html:157
+msgid "Discount for your first upgrade"
+msgstr "Знижка на перше оновлення"
+
+#: templates/edx/checkout/receipt.html:160
+#, python-format
+msgid "Discount of type %(type)s is provided."
+msgstr "Надається знижка типу %(type)s."
+
+#: templates/edx/checkout/receipt.html:174
+#, python-format
+msgid "Courtesy of %(enterprise_name)s."
+msgstr "Надано з люб'язності %(enterprise_name)s."
+
+#: ecommerce/templates/edx/checkout/receipt.html:172
+msgid "Total"
+msgstr "Всього"
+
+#: templates/edx/checkout/receipt.html:194
+msgid "Get Your Course Credit"
+msgstr "Отримайте кредит на курс"
+
+#: templates/edx/checkout/receipt.html:196
+#, python-brace-format
+msgid ""
+"To receive academic credit for this course, you must apply for credit at the "
+"organization that offers the credit. You can find a link to the "
+"organization’s website on your {link_start}{lms_dashboard_url}{link_middle}"
+"dashboard{link_end}, next to the course name."
+msgstr ""
+"Щоб отримати академічний кредит за цей курс, ви повинні подати заявку на "
+"отримання кредиту в організацію, яка його пропонує. Посилання на сайт "
+"організації можна знайти на вашій {link_start}{lms_dashboard_url} "
+"{link_middle} інформаційній панелі{link_end} поруч з назвою курсу."
+
+#: ecommerce/templates/edx/checkout/receipt.html:200
+msgid "Go to dashboard"
+msgstr "Мої курси"
+
+#: ecommerce/templates/edx/checkout/receipt.html:204
+msgid "Find more courses"
+msgstr "Всі курси"
+
+#: templates/edx/checkout/receipt_not_found.html:7
+msgid "Order Not Found"
+msgstr "Замовлення не знайдено"
+
+#: templates/edx/checkout/receipt_not_found.html:19
+#, python-format
+msgid " %(error_summary)s "
+msgstr " %(error_summary)s "
+
+#: templates/edx/checkout/receipt_not_found.html:23
+msgid ""
+"The specified order could not be located. Please ensure that the URL is "
+"correct, and try again."
+msgstr ""
+"Вказане замовлення не вдалося знайти. Будь ласка, переконайтеся, що URL-"
+"адреса правильна, і спробуйте ще раз."
+
+#: templates/edx/checkout/receipt_not_found.html:31
+#, python-brace-format
+msgid ""
+"\n"
+"                You may also view your previous orders on the {link_start}"
+"{order_history_url}{link_middle}{link_end}Account Settings{link_end}\n"
+"                page.\n"
+"              "
+msgstr ""
+"\n"
+"                Ви також можете переглянути свої попередні замовлення на "
+"сторінці {link_start}{order_history_url} {link_middle} {link_end} "
+"Налаштування облікового запису{link_end}\n"
+"                сторінці.\n"
+"              "
+
+#: templates/edx/credit/_provider_detail.html:8
+msgid "Select"
+msgstr "Обрати"
+
+#: templates/edx/credit/_provider_detail.html:16
+msgid "Credits: "
+msgstr "Титри: "
+
+#: templates/edx/credit/_provider_detail.html:17
+msgid "Price: "
+msgstr "Ціна: "
+
+#: templates/edx/credit/_provider_detail.html:27
+#, python-format
+msgid ""
+"\n"
+"                        Learn more about %(display_name)s credit?\n"
+"                    "
+msgstr ""
+"\n"
+"                        Дізнайтеся більше про %(display_name)s кредит?\n"
+"                    "
+
+#: templates/edx/credit/_provider_detail.html:47
+#, python-format
+msgid ""
+"\n"
+"                        Credit available until %(date)s\n"
+"                    "
+msgstr ""
+"\n"
+"                        Кредит доступний до %(date)s\n"
+"                    "
+
+#: templates/edx/credit/checkout.html:9
+#, python-format
+msgid "Purchase Credit for %(course_name)s"
+msgstr "Кредит на покупку для %(course_name)s"
+
+#: templates/edx/credit/checkout.html:27
+#, python-format
+msgid ""
+"\n"
+"                                    Purchase Credit for %(course_name)s\n"
+"                                "
+msgstr ""
+"\n"
+"                                    Кредит на покупку для %(course_name)s\n"
+"                                "
+
+#: templates/edx/credit/checkout.html:34
+#, python-format
+msgid ""
+"\n"
+"                            Congratulations! You are eligible to purchase "
+"academic course credit for this course.\n"
+"                            You must purchase your credit before %(date)s.\n"
+"                            Select one of the following institutions to "
+"purchase your credit.\n"
+"                        "
+msgstr ""
+"\n"
+"                            Вітаємо! Ви маєте право придбати академічний "
+"кредит за цей курс.\n"
+"                            Ви повинні придбати кредит до %(date)s.\n"
+"                            Виберіть одну з наступних установ, щоб придбати "
+"кредит.\n"
+"                        "
+
+#: ecommerce/templates/edx/credit/checkout.html:51
+msgid "Price:"
+msgstr "Ціна:"
+
+#: ecommerce/templates/edx/credit/checkout.html:55
+msgid "Discount:"
+msgstr "Знижка:"
+
+#: ecommerce/templates/edx/credit/checkout.html:60
+#: ecommerce/templates/oscar/basket/partials/hosted_checkout_basket.html:127
+msgid "Total:"
+msgstr "Всього:"
+
+#: templates/edx/credit/checkout.html:89
+msgid "You deserve it."
+msgstr "Ти на це заслуговуєш."
+
+#: templates/edx/credit/checkout.html:92
+msgid ""
+"The hard work is over - you passed the course! Now get the credit you "
+"deserve to start or complete a degree."
+msgstr ""
+"Важка робота закінчена - ви пройшли курс! Тепер отримайте кредит, на який ви "
+"заслуговуєте, щоб розпочати або завершити навчання."
+
+#: templates/edx/credit/checkout.html:98
+msgid "It's affordable."
+msgstr "Це доступно."
+
+#: templates/edx/credit/checkout.html:101
+msgid ""
+"The credit offered through edX generally costs less than the same credit at "
+"most institutions."
+msgstr ""
+"Кредит, пропонований через edX, зазвичай коштує дешевше, ніж такий самий "
+"кредит у більшості установ."
+
+#: templates/edx/credit/checkout.html:107
+msgid "It opens doors."
+msgstr "Він відкриває двері."
+
+#: templates/edx/credit/checkout.html:110
+msgid ""
+"Many of today's most in-demand jobs require a college degree. Start your "
+"path to success!"
+msgstr ""
+"Багато з найбільш затребуваних сьогодні професій вимагають наявності диплома "
+"про вищу освіту. Розпочніть свій шлях до успіху!"
+
+#: ecommerce/templates/edx/credit/checkout.html:118
+msgid "Questions?"
+msgstr "Є питання?"
+
+#: ecommerce/templates/edx/credit/checkout.html:121
+#, python-brace-format
+msgid ""
+"\n"
+"                    Please read {link_start}our FAQs to view common "
+"questions about our certificates.{link_end}\n"
+"                "
+msgstr ""
+"\n"
+"                    Будь ласка, прочитайте {link_start}FAQ, щоб переглянути "
+"поширені запитання про наші сертифікати.{link_end}\n"
+"                "
+
+#: templates/edx/email_confirmation_required.html:16
+msgid "You are enrolling in: "
+msgstr "Ви реєструєтесь: "
+
+#: templates/edx/email_confirmation_required.html:26
+#, python-format
+msgid ""
+"An email has been sent to %(user_email)s with a link for you to activate "
+"your account."
+msgstr ""
+"На електронну адресу %(user_email)s було надіслано лист із посиланням для "
+"активації облікового запису."
+
+#: templates/edx/email_confirmation_required.html:29
+msgid "Why activate?"
+msgstr "Навіщо активувати?"
+
+#: templates/edx/email_confirmation_required.html:31
+msgid ""
+"We ask you to activate your account to ensure it is really you creating the "
+"account and to prevent fraud."
+msgstr ""
+"Ми просимо активувати ваш обліковий запис, щоб впевнитись, що ви насправді "
+"його створити та захіститись від шахрайств."
+
+#: templates/edx/error.html:17
+msgid "If you need assistance, contact edX support."
+msgstr "Якщо вам потрібна допомога, зверніться до служби підтримки edX."
+
+#: templates/edx/partials/_administration_menu.html:6
+msgid "Coupons"
+msgstr "Купони"
+
+#: templates/edx/partials/_administration_menu.html:8
+msgid "Enterprise Coupons"
+msgstr "Купони для підприємств"
+
+#: templates/edx/partials/_base_navbar.html:10
+msgid "Toggle navigation"
+msgstr "Перейдіть до навігації"
+
+#: ecommerce/templates/edx/partials/_base_navbar.html:25
+msgid "Dashboard for:"
+msgstr "Панель управління для:"
+
+#: templates/edx/partials/_base_navbar.html:32
+msgid "Toggle Dropdown"
+msgstr "Перемикач Випадаюче меню"
+
+#: ecommerce/templates/edx/partials/_base_navbar.html:40
+#: ecommerce/templates/edx/partials/_base_navbar.html:41
+msgid "Login"
+msgstr "Увійти"
+
+#: templates/edx/partials/_staff_navbar.html:9
+msgid "E-Commerce Course Administration"
+msgstr "Курс \"Адміністрування електронної комерції"
+
+#: templates/edx/partials/_staff_navbar.html:14
+msgid "E-Commerce Coupon Administration"
+msgstr "Адміністрування купонів електронної комерції"
+
+#: templates/edx/partials/_staff_navbar.html:19
+msgid "E-Commerce Program Offers Administration"
+msgstr "Програма електронної комерції пропонує адміністрування"
+
+#: ecommerce/templates/oscar/basket/basket.html:48
+msgid "Your basket is empty"
+msgstr "Ваш кошик порожній"
+
+#: ecommerce/templates/oscar/basket/basket.html:49
+#, python-brace-format
+msgid ""
+"\n"
+"                                If you attempted to make a purchase, you "
+"have not been charged. Return to your {link_start}{homepage_url}{link_middle}"
+"dashboard{link_end} to try\n"
+"                                again, or {support_link_start}{support_email}"
+"{link_middle}contact {platform_name} Support{link_end}.\n"
+"                            "
+msgstr ""
+"\n"
+"                                Якщо ви намагалися здійснити покупку, то з "
+"вас не було списано коштів. Поверніться на сторінку {link_start}"
+"{homepage_url}{link_middle}Мої курси{link_end} щоб спробувати\n"
+"                                ще раз, або {support_link_start}"
+"{support_email}{link_middle}зверніться до {platform_name}служби "
+"підтримки{link_end}.\n"
+"                            "
+
+#: ecommerce/templates/oscar/basket/messages/new_total.html:7
+msgid "Your basket is now empty"
+msgstr "Ваш кошик порожній"
+
+#: templates/oscar/basket/messages/new_total.html:10
+#: templates/oscar/basket/messages/new_total.html:16
+#, python-brace-format
+msgid ""
+"\n"
+"                {strong_start}We’ve updated your quantity.{strong_end}\n"
+"                {paragraph_start}Your cart includes {num_items} enrollment "
+"codes at a total cost of {total}, that you will receive via email."
+"{paragraph_end}\n"
+"            "
+msgstr ""
+"\n"
+"               {strong_start}Ми оновили вашу кількість.{strong_end}\n"
+"               {paragraph_start}У вашому кошику є {num_items} реєстраційних "
+"кодів загальною вартістю {total}, які ви отримаєте електронною поштою."
+"{paragraph_end}\n"
+"            "
+
+#: ecommerce/templates/oscar/basket/messages/new_total.html:27
+msgid "View basket"
+msgstr "Переглянути кошик"
+
+#: ecommerce/templates/oscar/basket/messages/new_total.html:28
+msgid "Checkout now"
+msgstr "Оформити замовлення зараз"
+
+#: templates/oscar/basket/partials/add_voucher_form.html:11
+msgid "Applying..."
+msgstr "Подача заявки..."
+
+#: templates/oscar/basket/partials/add_voucher_form.html:16
+msgid "Apply"
+msgstr "Прийняти"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:16
+msgid "in your cart"
+msgstr "у кошику"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:17
+msgid "Your purchase contains the following"
+msgstr "Ваша покупка містить наступне"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:36
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:57
+msgid "Updating..."
+msgstr "Оновлення..."
+
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:36
+#: ecommerce/templates/oscar/basket/partials/hosted_checkout_basket.html:57
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:518
+msgid "Update"
+msgstr "Оновити"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:47
+msgid "summary"
+msgstr "резюме"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:68
+msgid "Discounts applied"
+msgstr "Знижку застосовано"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:80
+#, python-format
+msgid ""
+"\n"
+"                                    %(benefit)s discount provided by "
+"%(enterprise_customer_name)s.\n"
+"                                "
+msgstr ""
+"\n"
+"                                    %(benefit)s знижка надана "
+"%(enterprise_customer_name)s.\n"
+"                                "
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:87
+#, python-format
+msgid ""
+"\n"
+"                                    %(benefit)s%% discount for your first "
+"upgrade applied.\n"
+"                            "
+msgstr ""
+"\n"
+"                                    %(benefit)s%% застосовується знижка на "
+"перше оновлення.\n"
+"                            "
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:104
+#, python-format
+msgid ""
+"\n"
+"                                        Coupon %(voucher_code)s applied for "
+"%(total_benefit)s off\n"
+"                                    "
+msgstr ""
+"\n"
+"                                        Купон %(voucher_code)s "
+"застосовується для знижки %(total_benefit)s \n"
+"                                    "
+
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:110
+msgid "Remove coupon"
+msgstr "Видалити купон"
+
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:119
+msgid "Add coupon code"
+msgstr "Додати код купона"
+
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:119
+msgid "(optional)"
+msgstr "(необов'язково)"
+
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:128
+msgid "TOTAL"
+msgstr "ВСЬОГО"
+
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:135
+msgid "order details"
+msgstr "інформація про замовлення"
+
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:153
+msgid "select payment method"
+msgstr "обрати спосіб оплати"
+
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:155
+msgid "Pay with a Credit Card"
+msgstr "Оплата кредитною карткою"
+
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:166
+msgid "Pay with PayPal"
+msgstr "Оплата за допомогою PayPal"
+
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:175
+msgid "Pay with Apple Pay"
+msgstr "Оплата за допомогою Apple Pay"
+
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:190
+msgid "card holder information"
+msgstr "дані власника картки"
+
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:201
+msgid "billing information"
+msgstr "платіжна інформація"
+
+#: ecommerce/templates/oscar/basket/partials/client_side_checkout_basket.html:203
+msgid "Credit cards"
+msgstr "Кредитні картки"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:210
+msgid "Card Number (required)"
+msgstr "Номер кредитної картки (обов'язкове поле)"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:210
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:220
+msgid "Secure"
+msgstr "Безпечно."
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:213
+msgid "Credit card icon"
+msgstr "Значок кредитної картки"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:219
+msgid "Security Code (required)"
+msgstr "Код безпеки (обов'язкове поле)"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:223
+msgid "Help with CVV"
+msgstr "Допомога з CVV"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:226
+msgid ""
+"The three last digits in the signature area on the back of your card. For "
+"American Express, it is the four digits on the front of the card."
+msgstr ""
+"Три останні цифри в області підпису на звороті картки. Для American Express "
+"це чотири цифри на передній частині картки."
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:233
+msgid "Expiration (required)"
+msgstr "Термін дії (обов'язково)"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:237
+msgid "Month"
+msgstr "Місяць"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:247
+msgid "Year"
+msgstr "Рік"
+
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:264
+#: templates/oscar/basket/partials/client_side_checkout_basket.html:274
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:152
+msgid "Place Order"
+msgstr "Зробити замовлення"
+
+#: ecommerce/templates/oscar/basket/partials/hosted_checkout_basket.html:23
+msgid "Earn a valuable certificate to showcase the skills you learn in"
+msgstr ""
+"Отримайте цінний сертифікат, щоб продемонструвати навички, яких ви навчилися "
+"в"
+
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:70
+#, python-format
+msgid ""
+"\n"
+"                                            %(benefit_value)s off\n"
+"                                        "
+msgstr ""
+"\n"
+"                                            %(benefit_value)s вимкнено\n"
+"                                        "
+
+#: templates/oscar/basket/partials/hosted_checkout_basket.html:99
+#, python-format
+msgid ""
+"\n"
+"                                            Coupon code %(voucher_code)s "
+"applied\n"
+"                                        "
+msgstr ""
+"\n"
+"                                            Застосовано код купона "
+"%(voucher_code)s \n"
+"                                        "
+
+#: ecommerce/templates/oscar/basket/partials/hosted_checkout_basket.html:116
+msgid "Apply a coupon code"
+msgstr "Застосувати код купона"
+
+#: ecommerce/templates/oscar/basket/partials/hosted_checkout_basket.html:164
+msgid "Checkout"
+msgstr "Оплата"
+
+#. Translators: Do NOT translate the name PayPal.
+#: ecommerce/templates/oscar/basket/partials/hosted_checkout_basket.html:167
+msgid "Checkout with PayPal"
+msgstr "Оплата за допомогою PayPal"
+
+msgid "Checkout with %(title)s"
+msgstr "Оплата за допомогою %(title)s"
+
+#: ecommerce/templates/oscar/basket/partials/hosted_checkout_basket.html:181
+#, python-brace-format
+msgid ""
+"{strong_start}Note:{strong_end} To earn a verified certificate, you must "
+"verify your identity with a {strong_start}webcam{strong_end} and a "
+"{strong_start}government-issued photo ID{strong_end}. "
+msgstr ""
+"{strong_start}Примітка:{strong_end} Щоб отримати верифікований сертифікат, "
+"ви повинні підтвердити свою особу за допомогою {strong_start}"
+"вебкамери{strong_end} та {strong_start}офіційного посвідчення особи з "
+"фотографією{strong_end}. "
+
+#: ecommerce/templates/oscar/basket/partials/hosted_checkout_basket.html:184
+#, python-brace-format
+msgid ""
+"{strong_start}Note:{strong_end} To complete your enrollment, select Checkout "
+"or Checkout with PayPal."
+msgstr ""
+"{strong_start}Примітка:{strong_end} Щоб завершити реєстрацію, виберіть "
+"\"Оформлення\" або \"Оформлення за допомогою PayPal\"."
+
+#: ecommerce/templates/oscar/basket/partials/hosted_checkout_basket.html:191
+msgid "Have questions?"
+msgstr "Є питання?"
+
+#: ecommerce/templates/oscar/basket/partials/hosted_checkout_basket.html:192
+msgid "Please read our FAQs to view common questions about our certificates."
+msgstr ""
+"Будь ласка, ознайомтесь з FAQ, щоб переглянути найпоширеніші запитання про "
+"наші сертифікати."
+
+#: ecommerce/templates/oscar/basket/partials/seat_type.html:6
+#, python-format
+msgid ""
+"\n"
+"        %(seat_type)s Certificate\n"
+"    "
+msgstr ""
+"\n"
+"        %(seat_type)s Сертифікат\n"
+"    "
+
+#: ecommerce/templates/oscar/checkout/_verification_data.html:5
+msgid "Verify Your Identity"
+msgstr "Підтвердіть Вашу особу"
+
+#: ecommerce/templates/oscar/checkout/_verification_data.html:7
+#, python-brace-format
+msgid ""
+"To receive a verified certificate, you have to verify your identity using "
+"your {strong_start}webcam{strong_end} and an {strong_start}official "
+"government-issued photo identification{strong_end} before the verification "
+"deadline."
+msgstr ""
+"Щоб отримати верифікований сертифікат, ви повинні підтвердити свою особу за "
+"допомогою {strong_start}веб-камери{strong_end} та {strong_start}офіційного "
+"посвідчення особи з фотографією{strong_end} до закінчення терміну перевірки."
+
+#: ecommerce/templates/oscar/checkout/_verification_data.html:23
+msgid "Verify Now"
+msgstr "Підтвердити зараз"
+
+#: ecommerce/templates/oscar/checkout/_verification_data.html:32
+msgid "Go to my dashboard and verify later"
+msgstr "Повернутися до вкладки Мої Курси та підтвердити пізніше"
+
+#: ecommerce/templates/oscar/checkout/cancel_checkout.html:7
+#: ecommerce/templates/oscar/checkout/cancel_checkout.html:16
+msgid "Checkout Cancelled"
+msgstr "Оформлення замовлення скасовано"
+
+#: ecommerce/templates/oscar/checkout/cancel_checkout.html:18
+#, python-brace-format
+msgid ""
+"\n"
+"        Your transaction has been cancelled. If you feel an error has "
+"occurred, contact {start_link}\n"
+"        {payment_support_email}{end_link}.\n"
+"        "
+msgstr ""
+"\n"
+"        Ваша транзакція скасована. Якщо Ви вважаєте, що сталася помилка, "
+"зверніться за адресою {start_link}\n"
+"        {payment_support_email}{end_link}.\n"
+"        "
+
+#: ecommerce/templates/oscar/checkout/error.html:7
+#: ecommerce/templates/oscar/checkout/error.html:18
+msgid "Checkout Error"
+msgstr "Помилка при оформленні замовлення"
+
+#: ecommerce/templates/oscar/checkout/error.html:19
+msgid "An error has occurred with your payment."
+msgstr "Виникла помилка з Вашим платежем."
+
+#: ecommerce/templates/oscar/checkout/error.html:19
+msgid "You have not been charged."
+msgstr "З Вас не було знято плату."
+
+#: ecommerce/templates/oscar/checkout/error.html:21
+#, python-brace-format
+msgid ""
+"\n"
+"                    Please try to submit your payment again. If this problem "
+"persists, please refer to our {start_link}\n"
+"                    Payments FAQ {end_link} for troubleshooting tips.\n"
+"                    "
+msgstr ""
+"\n"
+"                    Будь ласка, спробуйте надіслати платіж ще раз. Якщо "
+"проблема не зникає, зверніться до {start_link}\n"
+"                    FAQ {end_link}, щоб отримати поради щодо усунення "
+"несправностей оплати. \n"
+"                    "
+
+#: ecommerce/templates/oscar/checkout/payment_error.html:7
+#: ecommerce/templates/oscar/checkout/payment_error.html:16
+msgid "Payment Failed"
+msgstr "Не вдалося здійснити платіж"
+
+#: ecommerce/templates/oscar/checkout/payment_error.html:18
+#, python-brace-format
+msgid ""
+"An error occurred while processing your payment. {strong_start}You have not "
+"been charged.{strong_end}"
+msgstr ""
+"Під час обробки Вашого платежу виникла помилка. {strong_start}З вас не було "
+"списано коштів.{strong_end}"
+
+#: ecommerce/templates/oscar/checkout/payment_error.html:25
+#, python-brace-format
+msgid ""
+"Please wait a few minutes and then try again. For help, check our "
+"{start_link}Help Center{end_link}."
+msgstr ""
+"Зачекайте кілька хвилин і спробуйте ще раз. Зверніться до нашого {start_link}"
+"Центру допомоги{end_link} за допомогою."
+
+#: ecommerce/templates/oscar/checkout/payment_error.html:32
+#, python-brace-format
+msgid "To try again, return to your {start_link}dashboard{end_link}."
+msgstr ""
+"Поверніться до сторінки {start_link}Мої Курси{end_link}, щоб спробувати ще "
+"раз."
+
+#: ecommerce/templates/oscar/checkout/sdn_failure.html:9
+msgid ""
+"\n"
+"      SDN Check Failure\n"
+"    "
+msgstr ""
+"\n"
+"      Помилка перевірки SDN\n"
+"    "
+
+#: ecommerce/templates/oscar/checkout/sdn_failure.html:26
+msgid ""
+"Unfortunately, your account profile or payment information appears to match "
+"one or more records on a U.S. Treasury Department sanctions list. This means "
+"we cannot complete your transaction or provide you with services and must "
+"suspend your learner account."
+msgstr ""
+"На жаль, Ваш обліковий запис або платіжна інформація збігається з одним або "
+"кількома записами в списку санкцій Міністерства фінансів США. Це означає, що "
+"ми не можемо завершити Вашу транзакцію або надати Вам послуги і повинні "
+"призупинити дію Вашого облікового запису."
+
+#: templates/oscar/checkout/sdn_failure.html:35
+#, python-brace-format
+msgid ""
+"If you have questions regarding clearing a match, please contact "
+"{ofac_email_link} ofac.reconsideration@treasury.gov{end_link} for "
+"information about options for clearing a match. Your account will be "
+"suspended until this matter is resolved satisfactorily."
+msgstr ""
+"Якщо у вас виникли питання щодо клірингу матчу, будь ласка, зверніться до "
+"{ofac_email_link} ofac.reconsideration@treasury.gov{end_link} для отримання "
+"інформації про варіанти клірингу матчу. Ваш рахунок буде призупинено до "
+"задовільного вирішення цього питання."
+
+#: ecommerce/templates/oscar/customer/email_base.html:189
+#, python-format
+msgid "Copyright © %(year)s %(platform_name)s. All rights reserved."
+msgstr "Авторське право © %(year)s %(platform_name)s. Всі права захищені."
+
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.html:9
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.txt:4
+#, python-format
+msgid "Hi %(full_name)s,"
+msgstr "Привіт %(full_name)s,"
+
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.html:11
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.txt:6
+#, python-format
+msgid ""
+"Thank you for purchasing %(course_title)s. A charge will appear on your "
+"credit or debit card statement with a company name of \"%(platform_name)s\"."
+msgstr ""
+"Дякуємо, що придбали %(course_title)s. У виписці з вашої кредитної або "
+"дебетової картки з'явиться списання коштів з назвою компанії "
+"\"%(platform_name)s\"."
+
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.html:13
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.txt:8
+#, python-format
+msgid ""
+"You can access your course and complete your verification (if required) on "
+"your %(platform_name)s dashboard. "
+msgstr ""
+"Ви можете отримати доступ до курсу і пройти верифікацію (за необхідності) на "
+"своїй інформаційній панелі %(platform_name)s. "
+
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.html:14
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.txt:9
+#, python-format
+msgid ""
+"To explore other great courses, visit the %(platform_name)s website. More "
+"courses are added every day!"
+msgstr ""
+"Щоб ознайомитися з іншими цікавими курсами, відвідайте вебсайт "
+"%(platform_name)s. Щодня додається все більше курсів!"
+
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.html:17
+#: ecommerce/templates/oscar/customer/emails/commtype_credit_receipt_body.html:43
+msgid "View Payment Information"
+msgstr "Переглянути інформацію про платіж"
+
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.html:20
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.txt:14
+msgid "Thank you. We hope you enjoy the course!"
+msgstr "Дякуємо. Сподіваємося, вам сподобається курс!"
+
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.html:21
+#, python-format
+msgid "%(platform_name)s team "
+msgstr "%(platform_name)s команда "
+
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.html:31
+#, python-format
+msgid ""
+"You are receiving this email because you purchased a seat in the "
+"%(platform_name)s course %(course_title)s."
+msgstr ""
+"Ви отримали цей лист, тому що придбали курс %(course_title)s на "
+"%(platform_name)s."
+
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.txt:2
+msgid "Receipt Confirmation for: "
+msgstr "Підтвердження квитанції на: "
+
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.txt:11
+#: ecommerce/templates/oscar/customer/emails/commtype_credit_receipt_body.txt:12
+msgid "To view your payment information, visit the following website."
+msgstr ""
+"Щоб переглянути інформацію про ваші платежі, відвідайте наступний вебсайт."
+
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.txt:16
+#, python-format
+msgid "%(platform_name)s team"
+msgstr "%(platform_name)s команда"
+
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_body.txt:18
+msgid "The edX team"
+msgstr "Команда edX"
+
+#: ecommerce/templates/oscar/customer/emails/commtype_course_purchased_subject.txt:2
+msgid "Order Placed"
+msgstr "Замовлення оформлено"
+
+#: ecommerce/templates/oscar/customer/emails/commtype_credit_receipt_body.html:13
+msgid "Payment Confirmation"
+msgstr "Підтвердження платежу"
+
+#: ecommerce/templates/oscar/customer/emails/commtype_credit_receipt_body.html:27
+msgid "Payment confirmation for:"
+msgstr "Підтвердження оплати за:"
+
+#: ecommerce/templates/oscar/customer/emails/commtype_credit_receipt_body.html:55
+#: ecommerce/templates/oscar/customer/emails/commtype_credit_receipt_body.txt:4
+#: ecommerce/templates/oscar/customer/emails/commtype_order_with_csv_body.html:25
+#: ecommerce/templates/oscar/customer/emails/commtype_order_with_csv_body.txt:5
+#, python-format
+msgid "Dear %(full_name)s,"
+msgstr "Шановний/a %(full_name)s,"
+
+#: ecommerce/templates/oscar/customer/emails/commtype_credit_receipt_body.html:60
+#, python-format
+msgid ""
+"\n"
+"                            Thank you for purchasing %(credit_hours)s credit "
+"hours from %(credit_provider)s for %(course_title)s. A charge will appear on "
+"your credit or debit card statement with a company name of "
+"\"%(platform_name)s\".\n"
+"                        "
+msgstr ""
+"\n"
+"                            Дякуємо, що придбали %(credit_hours)s кредитні "
+"години у %(credit_provider)s для %(course_title)s. У виписці з Вашої "
+"кредитної або дебетової картки з'явиться рахунок з назвою компанії "
+"\"%(platform_name)s\".\n"
+"                        "
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:67
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:8
+#, python-format
+msgid ""
+"To receive your course credit, you must also request credit at the "
+"%(credit_provider)s website. For a link to request credit from "
+"%(credit_provider)s, or to see the status of your credit request, go to your "
+"%(platform_name)s dashboard."
+msgstr ""
+"Щоб отримати кредит з курсу, ви також повинні подати запит на отримання "
+"кредиту на сайті %(credit_provider)s. Щоб отримати посилання на запит на "
+"отримання кредиту на сайті %(credit_provider)s або переглянути статус вашого "
+"запиту на отримання кредиту, перейдіть на вашу інформаційну панель "
+"%(platform_name)s."
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:71
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:10
+#, python-format
+msgid ""
+"To explore other credit-eligible courses, visit the %(platform_name)s "
+"website. We add new courses frequently!"
+msgstr ""
+"Щоб дізнатися про інші курси, які можна зарахувати, відвідайте веб-сайт "
+"%(platform_name)s. Ми часто додаємо нові курси!"
+
+#: ecommerce/templates/oscar/customer/emails/commtype_credit_receipt_body.html:74
+#: ecommerce/templates/oscar/customer/emails/commtype_credit_receipt_body.txt:15
+msgid "Thank you. We hope you enjoyed your course!"
+msgstr "Дякуємо. Сподіваємося, Вам сподобався курс!"
+
+#: ecommerce/templates/oscar/customer/emails/commtype_credit_receipt_body.html:75
+#: ecommerce/templates/oscar/customer/emails/commtype_credit_receipt_body.txt:16
+#, python-format
+msgid "The %(platform_name)s team"
+msgstr "%(platform_name)s команда"
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.html:88
+#, python-format
+msgid ""
+"\n"
+"                            You received this message because you purchased "
+"credit hours for %(course_title)s, an %(platform_name)s course.\n"
+"                        "
+msgstr ""
+"\n"
+"                            Ви отримали це повідомлення, тому що придбали "
+"кредитні години для %(course_title)s, курсу %(platform_name)s.\n"
+"                        "
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:2
+msgid "Payment confirmation for: "
+msgstr "Підтвердження оплати за: "
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:6
+#, python-format
+msgid ""
+"Thank you for purchasing %(credit_hours)s credit hours from "
+"%(credit_provider)s for %(course_title)s. A charge will appear on your "
+"credit or debit card statement with a company name of \"%(platform_name)s\"."
+msgstr ""
+"Дякуємо, що придбали %(credit_hours)s кредитних годин у %(credit_provider)s "
+"для %(course_title)s. У виписці з вашої кредитної або дебетової картки "
+"з'явиться плата з назвою компанії \"%(platform_name)s\"."
+
+#: templates/oscar/communication/emails/commtype_credit_receipt_body.txt:18
+#, python-format
+msgid ""
+"You received this message because you purchased credit hours for "
+"%(course_title)s, an %(platform_name)s course."
+msgstr ""
+"Ви отримали це повідомлення, тому що придбали кредитні години для "
+"%(course_title)s, курсу %(platform_name)s."
+
+#: ecommerce/templates/oscar/customer/emails/commtype_credit_receipt_subject.txt:2
+msgid "Order Receipt"
+msgstr "Квитанція про оплату замовлення"
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:14
+msgid "For Business"
+msgstr "Для бізнесу"
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:26
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:6
+#, python-format
+msgid ""
+"Thank you for purchasing access to %(course_name)s. Let's get your group "
+"ready to learn with edX:"
+msgstr ""
+"Дякуємо, що придбали доступ до %(course_name)s. Давайте підготуємо вашу "
+"групу до навчання з edX:"
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:29
+#, python-brace-format
+msgid ""
+"\n"
+"                                Download and save the {link_start}"
+"{download_csv_link}{link_middle} enrollment code file.{link_end}\n"
+"                            "
+msgstr ""
+"\n"
+"                                Завантажте та збережіть файл реєстраційного "
+"коду {link_start}{download_csv_link} {link_middle} .{link_end}\n"
+"                            "
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:34
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:9
+msgid "Distribute one code per learner before the expiration date."
+msgstr "Роздайте по одному коду на кожного учня до закінчення терміну дії."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:35
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:10
+msgid "Pro tip: Track which code is associated with which person."
+msgstr ""
+"Порада від професіонала: відстежуйте, який код пов'язаний з якою людиною."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:36
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:11
+msgid "Learners sign-in/register with edX and enroll for the course."
+msgstr "Учні входять/реєструються на сайті edX та записуються на курс."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:39
+#, python-brace-format
+msgid ""
+"\n"
+"                            To view your payment information, log in to see "
+"your Order History, under {link_start}{order_history_url}{link_middle}"
+"Account Settings{link_end}.\n"
+"                        "
+msgstr ""
+"\n"
+"                            Щоб переглянути інформацію про ваші платежі, "
+"увійдіть до Історії замовлень за посиланням {link_start}{order_history_url} "
+"{link_middle} Налаштування облікового запису{link_end}.\n"
+"                        "
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:45
+#, python-brace-format
+msgid ""
+"\n"
+"                            For more information and assistance, check our "
+"{link_start}Help Center{link_end}\n"
+"                        "
+msgstr ""
+"\n"
+"                            Для отримання додаткової інформації та допомоги "
+"зверніться до нашого довідкового центру {link_start}{link_end}\n"
+"                        "
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:50
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:16
+msgid "Thank You"
+msgstr "Дякую."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:61
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:18
+msgid "By purchasing, you and your organization agree to the following terms:"
+msgstr ""
+"Купуючи продукт, ви та ваша організація погоджуєтесь із такими умовами:"
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:63
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:20
+msgid ""
+"Each code is valid for the one course covered and can be used only one time."
+msgstr ""
+"Кожен код дійсний для одного курсу і його можна використовувати лише один "
+"раз."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:64
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:21
+msgid "You are responsible for distributing codes to your learners."
+msgstr "Ви несете відповідальність за розповсюдження кодів серед своїх учнів."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:65
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:22
+msgid ""
+"Each code will expire in one year from date of purchase or, if earlier, once "
+"the course is closed."
+msgstr ""
+"Кожен термін дії закінчується через рік з дати придбання або, якщо раніше, "
+"після закриття курсу."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:66
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:23
+msgid ""
+"If a course is not designated as self-paced, you should confirm that a "
+"course run is available before expiration."
+msgstr ""
+"Якщо курс не призначений для самостійного опрацювання, слід підтвердити, що "
+"доступ до курсу доступний до закінчення терміну дії."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:67
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:24
+msgid "You may not resell codes to third parties."
+msgstr "Ви не можете перепродавати коди третім особам."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.html:68
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:25
+msgid "All sales final. No refunds."
+msgstr "Всі продажі остаточні. Ніяких повернень."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:2
+msgid "Order confirmation for: "
+msgstr "Підтвердження замовлення для: "
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:8
+#, python-format
+msgid ""
+"Please visit %(download_csv_link)s to download and save the enrollment code "
+"file."
+msgstr ""
+"Будь ласка, відвідайте %(download_csv_link)s, щоб завантажити та зберегти "
+"файл з реєстраційним кодом."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:13
+#, python-format
+msgid ""
+"To view your payment information, log in to see your Order History, under "
+"Account Settings at %(order_history_url)s."
+msgstr ""
+"Щоб переглянути інформацію про ваші платежі, увійдіть до журналу замовлень у "
+"розділі \"Налаштування облікового запису\" на сайті %(order_history_url)s."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_body.txt:14
+msgid "For more information and assistance, contact info@edx.org."
+msgstr ""
+"За додатковою інформацією та допомогою звертайтеся за адресою: info@edx.org."
+
+#: templates/oscar/communication/emails/commtype_order_with_csv_subject.txt:2
+#, python-format
+msgid "%(partner_name)s: Order Confirmation: [%(order_number)s]"
+msgstr "%(partner_name)s: Підтвердження замовлення: [%(order_number)s]"
+
+#: templates/oscar/dashboard/catalogue/category_row_actions.html:6
+#: templates/oscar/dashboard/catalogue/product_row_actions.html:6
+#: templates/oscar/dashboard/orders/order_detail.html:139
+#: templates/oscar/dashboard/refunds/refund_detail.html:75
+#: templates/oscar/dashboard/refunds/refund_list.html:63
+#: templates/oscar/dashboard/users/detail.html:99
+msgid "Actions"
+msgstr "Дії"
+
+#: templates/oscar/dashboard/catalogue/category_row_actions.html:10
+msgid "Edit category"
+msgstr "Редагувати категорію"
+
+#: templates/oscar/dashboard/catalogue/category_row_actions.html:13
+msgid "Add child category"
+msgstr "Додати дочірню категорію"
+
+#: templates/oscar/dashboard/catalogue/category_row_actions.html:17
+msgid "Edit children"
+msgstr "Редагувати дочірні підприємства"
+
+#: ecommerce/templates/oscar/dashboard/catalogue/category_row_actions.html:27
+#: ecommerce/templates/oscar/dashboard/catalogue/product_row_actions.html:14
+#: ecommerce/templates/oscar/dashboard/catalogue/product_update.html:271
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:700
+msgid "Delete"
+msgstr "Видалити"
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:11
+#, python-format
+msgid ""
+"\n"
+"                        Created product variant '%(name)s'.\n"
+"                    "
+msgstr ""
+"\n"
+"                        Створено варіант продукту '%(name)s'.\n"
+"                    "
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:17
+#, python-format
+msgid ""
+"\n"
+"                        Created variant of '%(parent_name)s'.\n"
+"                    "
+msgstr ""
+"\n"
+"                        Створено варіант '%(parent_name)s'.\n"
+"                    "
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:25
+#, python-format
+msgid ""
+"\n"
+"                        Updated product variant '%(name)s'.\n"
+"                    "
+msgstr ""
+"\n"
+"                        Оновлений варіант продукту '%(name)s'.\n"
+"                    "
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:31
+#, python-format
+msgid ""
+"\n"
+"                        Updated a variant of '%(parent_name)s'.\n"
+"                    "
+msgstr ""
+"\n"
+"                        Оновлений варіант '%(parent_name)s'.\n"
+"                    "
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:42
+#, python-format
+msgid ""
+"\n"
+"                    Created product '%(name)s'.\n"
+"                "
+msgstr ""
+"\n"
+"                    Створено продукт '%(name)s'.\n"
+"                "
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:48
+#, python-format
+msgid ""
+"\n"
+"                    Updated product '%(name)s'.\n"
+"                "
+msgstr ""
+"\n"
+"                    Оновлений продукт '%(name)s'.\n"
+"                "
+
+#: templates/oscar/dashboard/catalogue/messages/product_saved.html:60
+msgid "Edit again"
+msgstr "Відредагуйте ще раз"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:45
+#, python-brace-format
+msgid ""
+"\n"
+"                            You are currently editing a product variant of\n"
+"                            {start_anchor}{title}{end_anchor}.\n"
+"                        "
+msgstr ""
+"\n"
+"                            Ви зараз редагуєте варіант товару\n"
+"                           {start_anchor}{title}{end_anchor}.\n"
+"                        "
+
+#: templates/oscar/dashboard/catalogue/category_form.html:37
+#: templates/oscar/dashboard/catalogue/product_update.html:61
+msgid "Sections"
+msgstr "Розділи"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:73
+#: templates/oscar/dashboard/catalogue/product_update.html:103
+#: templates/oscar/dashboard/orders/line_detail.html:31
+msgid "Product details"
+msgstr "Детальна інформація про продукт"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:78
+#: templates/oscar/dashboard/catalogue/product_update.html:146
+#: templates/oscar/dashboard/catalogue/product_update.html:256
+msgid "Attributes"
+msgstr "Атрибути"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:81
+msgid "Images"
+msgstr "Зображення"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:84
+#: templates/oscar/dashboard/catalogue/product_update.html:188
+msgid "Stock and pricing"
+msgstr "Складські запаси та ціни"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:87
+#: templates/oscar/dashboard/catalogue/product_update.html:247
+msgid "Variants"
+msgstr "Варіанти"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:90
+msgid "Upselling"
+msgstr "Підвищення продажів"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:148
+msgid "Product Type:"
+msgstr "Тип товару:"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:169
+msgid "Upload, change or remove images"
+msgstr "Завантажуйте, змінюйте та видаляйте зображення"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:194
+msgid "SKU"
+msgstr "SKU"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:196
+msgid "Num in stock"
+msgstr "Кількість на складі"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:197
+msgid "Num allocated"
+msgstr "Виділений номер"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:198
+msgid "Low stock threshold"
+msgstr "Низький поріг запасів"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:201
+msgid "Cost price"
+msgstr "Собівартість"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:202
+msgid "Price (excl tax)"
+msgstr "Ціна (без податків)"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:203
+msgid "Retail price"
+msgstr "Роздрібна ціна"
+
+#: ecommerce/templates/oscar/dashboard/catalogue/product_update.html:204
+msgid "Delete?"
+msgstr "Видалити?"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:248
+msgid "Adding..."
+msgstr "Додавання..."
+
+#: templates/oscar/dashboard/catalogue/product_update.html:250
+msgid "Add variant"
+msgstr "Додати варіант"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:255
+msgid "Title"
+msgstr "Назва"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:257
+msgid "Stock records"
+msgstr "Облік запасів"
+
+#: templates/oscar/dashboard/catalogue/product_update.html:279
+msgid "This product does not have any variants."
+msgstr "Цей товар не має варіантів."
+
+#: templates/oscar/dashboard/catalogue/product_update.html:281
+msgid "One can't add variants to this product at this point."
+msgstr "На даний момент ви не можете додати варіанти до цього продукту."
+
+#: templates/oscar/dashboard/catalogue/product_update.html:283
+msgid "This is likely because this product still has stock records."
+msgstr ""
+"Ймовірно, це пов'язано з тим, що цей товар все ще зберігається на складі."
+
+#: templates/oscar/dashboard/catalogue/product_update.html:299
+msgid "Recommended products"
+msgstr "Рекомендовані продукти"
+
+#: templates/oscar/dashboard/catalogue/category_form.html:106
+#: templates/oscar/dashboard/catalogue/product_update.html:324
+msgid "or"
+msgstr "або"
+
+#: templates/oscar/dashboard/catalogue/category_form.html:107
+#: templates/oscar/dashboard/catalogue/category_form.html:110
+#: templates/oscar/dashboard/catalogue/product_update.html:326
+#: templates/oscar/dashboard/catalogue/product_update.html:330
+#: templates/oscar/dashboard/catalogue/product_update.html:333
+msgid "Saving..."
+msgstr "Збереження ..."
+
+#: templates/oscar/dashboard/catalogue/product_update.html:327
+msgid "Save and add another variant"
+msgstr "Збережіть і додайте інший варіант"
+
+#: templates/oscar/dashboard/catalogue/category_form.html:108
+#: templates/oscar/dashboard/catalogue/product_update.html:331
+msgid "Save and continue editing"
+msgstr "Зберегти та продовжити редагування"
+
+#: ecommerce/templates/oscar/dashboard/catalogue/product_update.html:335
+msgid "Save"
+msgstr "Зберегти"
+
+#: templates/oscar/dashboard/index.html:27
+msgid "Store Statistics (Last 24 Hours)"
+msgstr "Статистика магазину (за останні 24 години)"
+
+#: templates/oscar/dashboard/index.html:34
+msgid "New Customers"
+msgstr "Нові клієнти"
+
+#: templates/oscar/dashboard/index.html:35
+#: templates/oscar/dashboard/index.html:41
+msgid "Revenue"
+msgstr "Виручка"
+
+#: templates/oscar/dashboard/index.html:36
+msgid "Average order cost"
+msgstr "Середня вартість замовлення"
+
+#: templates/oscar/dashboard/index.html:37
+msgid "Average (paid) order cost"
+msgstr "Середня (оплачена) вартість замовлення"
+
+#: templates/oscar/dashboard/index.html:67
+msgid "Products and vouchers"
+msgstr "Продукти та ваучери"
+
+#: templates/oscar/dashboard/index.html:69
+msgid "Total products"
+msgstr "Всього продуктів"
+
+#: templates/oscar/dashboard/index.html:73
+msgid "Active Vouchers"
+msgstr "Активні ваучери"
+
+#: ecommerce/templates/oscar/dashboard/offers/offer_detail.html:6
+#, python-format
+msgid "%(name)s | Offers "
+msgstr ""
+
+#: templates/oscar/dashboard/offers/offer_detail.html:26
+msgid "Reinstating..."
+msgstr "Відновлення..."
+
+#: templates/oscar/dashboard/offers/offer_detail.html:26
+msgid "Reinstate offer"
+msgstr "Відновити пропозицію"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:28
+msgid "Suspending..."
+msgstr "Призупинення..."
+
+#: templates/oscar/dashboard/offers/offer_detail.html:28
+msgid "Suspend offer"
+msgstr "Призупинити пропозицію"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:31
+msgid "Delete offer"
+msgstr "Видалити пропозицію"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:44
+msgid "Offer currently available"
+msgstr "Пропозиція доступна в даний час"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:46
+msgid "Offer not available due to restrictions!"
+msgstr "Пропозиція недоступна через обмеження!"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:49
+msgid "Total cost:"
+msgstr "Загальна вартість:"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:50
+msgid "Number of orders:"
+msgstr "Кількість замовлень:"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:51
+msgid "Number of uses:"
+msgstr "Кількість застосувань:"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:56
+msgid "Date created:"
+msgstr "Дата створення:"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:57
+msgid "Offer details"
+msgstr "Деталі пропозиції"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:75
+#: templates/oscar/dashboard/offers/summary.html:20
+msgid "Incentive"
+msgstr "Стимул"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:80
+#: templates/oscar/dashboard/offers/summary.html:26
+msgid "Condition"
+msgstr "Умова"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:85
+#: templates/oscar/dashboard/offers/summary.html:31
+msgid "Restrictions"
+msgstr "Обмеження"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:150
+msgid "Export to CSV"
+msgstr "Експорт у CSV"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:151
+msgid "Orders that used this offer"
+msgstr "Замовлення, які скористалися цією пропозицією"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:155
+#: templates/oscar/dashboard/orders/order_list.html:94
+msgid "Order number"
+msgstr "Номер замовлення"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:156
+msgid "Order date"
+msgstr "Дата замовлення"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:157
+#: templates/oscar/dashboard/orders/order_detail.html:277
+msgid "Order total"
+msgstr "Загальна сума замовлення"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:158
+msgid "Cost"
+msgstr "Вартість"
+
+#: templates/oscar/dashboard/offers/summary.html:4
+msgid "Offer summary"
+msgstr "Короткий зміст пропозиції"
+
+#: templates/oscar/dashboard/orders/line_detail.html:6
+#, python-format
+msgid ""
+"\n"
+"        Order %(number)s - Line #%(id)s\n"
+"    "
+msgstr ""
+"\n"
+"        Замовляйте %(number)s - Лінія №%(id)s\n"
+"    "
+
+#: templates/oscar/dashboard/orders/line_detail.html:18
+#, python-format
+msgid "Line #%(id)s"
+msgstr "Рядок №%(id)s"
+
+#: templates/oscar/dashboard/orders/line_detail.html:24
+#, python-format
+msgid "Order #%(number)s - Line #%(id)s"
+msgstr "Замовлення №%(number)s - Рядок №%(id)s"
+
+#: templates/oscar/dashboard/orders/line_detail.html:35
+msgctxt "Product title"
+msgid "Title"
+msgstr "Назва"
+
+#: templates/oscar/dashboard/orders/line_detail.html:41
+msgid "Product Type"
+msgstr "Тип продукту"
+
+#: templates/oscar/dashboard/orders/line_detail.html:44
+#: templates/oscar/dashboard/orders/order_detail.html:133
+#: templates/oscar/dashboard/refunds/refund_detail.html:108
+msgid "UPC"
+msgstr "UPC"
+
+#: templates/oscar/dashboard/orders/line_detail.html:51
+msgid "Product Options"
+msgstr "Параметри продукту"
+
+#: templates/oscar/dashboard/orders/line_detail.html:64
+msgid "Partner details"
+msgstr "Інформація про партнера"
+
+#: templates/oscar/dashboard/orders/line_detail.html:74
+msgid "Partner SKU"
+msgstr "Партнерський SKU"
+
+#: templates/oscar/dashboard/orders/line_detail.html:80
+msgid "Shipping details"
+msgstr "Інформація про доставку"
+
+#: templates/oscar/dashboard/orders/line_detail.html:84
+msgid "Partner reference number"
+msgstr "Реєстраційний номер партнера"
+
+#: templates/oscar/dashboard/orders/line_detail.html:87
+msgid "Partner notes"
+msgstr "Нотатки партнера"
+
+#: templates/oscar/dashboard/orders/line_detail.html:90
+msgid "Estimate dispatch date"
+msgstr "Орієнтовна дата відправлення"
+
+#: templates/oscar/dashboard/orders/line_detail.html:99
+msgid "Shipping status"
+msgstr "Статус відправлення"
+
+#: templates/oscar/dashboard/orders/line_detail.html:104
+msgid "State"
+msgstr "Статус"
+
+#: templates/oscar/dashboard/orders/line_detail.html:116
+#: templates/oscar/dashboard/orders/line_detail.html:147
+msgid "No shipping events have occurred."
+msgstr "Жодних подій, пов'язаних з перевезенням, не відбулося."
+
+#: templates/oscar/dashboard/orders/line_detail.html:124
+msgid "Shipping events"
+msgstr "Події у сфері судноплавства"
+
+#: templates/oscar/dashboard/orders/line_detail.html:129
+#: templates/oscar/dashboard/orders/line_detail.html:160
+#: templates/oscar/dashboard/orders/order_detail.html:432
+#: templates/oscar/dashboard/orders/order_detail.html:478
+#: templates/oscar/dashboard/refunds/refund_detail.html:166
+msgid "Event"
+msgstr "Подія"
+
+#: templates/oscar/dashboard/orders/line_detail.html:131
+#: templates/oscar/dashboard/orders/order_detail.html:434
+#: templates/oscar/dashboard/orders/order_detail.html:481
+#: templates/oscar/dashboard/orders/order_detail.html:592
+#: templates/oscar/dashboard/orders/order_detail.html:624
+#: templates/oscar/dashboard/refunds/refund_detail.html:170
+msgid "Reference"
+msgstr "Посилання"
+
+#: templates/oscar/dashboard/orders/line_detail.html:132
+#: templates/oscar/dashboard/orders/line_detail.html:162
+#: templates/oscar/dashboard/orders/order_detail.html:399
+#: templates/oscar/dashboard/orders/order_detail.html:431
+#: templates/oscar/dashboard/orders/order_detail.html:477
+#: templates/oscar/dashboard/orders/order_detail.html:626
+#: templates/oscar/dashboard/orders/order_detail.html:706
+#: templates/oscar/dashboard/refunds/refund_detail.html:165
+msgid "Date"
+msgstr "Дата"
+
+#: templates/oscar/dashboard/orders/line_detail.html:155
+msgid "Payment events"
+msgstr "Платіжні події"
+
+#: templates/oscar/dashboard/orders/line_detail.html:176
+msgid "No payment events have occurred."
+msgstr "Платіжних подій не відбулося."
+
+#: templates/oscar/dashboard/orders/order_detail.html:8
+#, python-format
+msgid "Order %(number)s"
+msgstr "Порядок %(number)s"
+
+#: templates/oscar/dashboard/orders/order_detail.html:22
+#, python-format
+msgid "Order #%(number)s"
+msgstr "Номер замовлення%(number)s"
+
+#: templates/oscar/dashboard/orders/order_detail.html:28
+#: templates/oscar/dashboard/refunds/refund_detail.html:47
+msgid "Customer Information"
+msgstr "Інформація про клієнта"
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:49
+#: ecommerce/templates/oscar/dashboard/refunds/refund_detail.html:53
+#: ecommerce/templates/oscar/dashboard/users/detail.html:44
+msgid "Full name"
+msgstr "Ім'я та прізвище"
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:50
+#: ecommerce/templates/oscar/dashboard/refunds/refund_detail.html:54
+msgid "Email address"
+msgstr "Електронна пошта"
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:59
+#: ecommerce/templates/oscar/dashboard/refunds/refund_detail.html:63
+msgid "Customer has deleted their account."
+msgstr "Клієнт видалив свій обліковий запис."
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:67
+msgid "Order information"
+msgstr "Інформація про замовлення"
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:69
+msgid "Order Total"
+msgstr "Загальна сума замовлення"
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:70
+#: ecommerce/templates/oscar/dashboard/orders/order_list.html:74
+msgid "Date of purchase"
+msgstr "Дата покупки"
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:71
+msgid "Time of purchase"
+msgstr "Час покупки"
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:85
+#: ecommerce/templates/oscar/dashboard/orders/order_list.html:108
+msgid "Retry Fulfillment"
+msgstr ""
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:96
+msgid "Order Details"
+msgstr "Деталі замовлень"
+
+#: templates/oscar/dashboard/orders/order_detail.html:86
+msgid "Order contents"
+msgstr "Зміст замовлення"
+
+#: templates/oscar/dashboard/orders/order_detail.html:96
+#: templates/oscar/dashboard/orders/order_detail.html:514
+msgid "Shipping"
+msgstr "Доставка"
+
+#: templates/oscar/dashboard/orders/order_detail.html:101
+msgid "Payment"
+msgstr "Оплата"
+
+#: templates/oscar/dashboard/orders/order_detail.html:106
+#: templates/oscar/dashboard/orders/order_detail.html:652
+msgid "Discounts"
+msgstr "Знижки"
+
+#: templates/oscar/dashboard/orders/order_detail.html:111
+#: templates/oscar/dashboard/orders/order_detail.html:700
+msgid "Notes"
+msgstr "Нотатки"
+
+#: templates/oscar/dashboard/orders/order_detail.html:120
+msgid "Items ordered"
+msgstr "Замовлені товари"
+
+#: templates/oscar/dashboard/orders/order_detail.html:130
+msgid "Line ID"
+msgstr "Ідентифікатор лінії"
+
+#: templates/oscar/dashboard/orders/order_detail.html:132
+#: templates/oscar/dashboard/refunds/refund_detail.html:107
+msgid "Product"
+msgstr "Продукт"
+
+#: templates/oscar/dashboard/orders/order_detail.html:135
+#: templates/oscar/dashboard/refunds/refund_detail.html:110
+msgid "Supplier"
+msgstr "Постачальник"
+
+#: templates/oscar/dashboard/orders/order_detail.html:136
+#: templates/oscar/dashboard/refunds/refund_detail.html:111
+msgid "Supplier SKU"
+msgstr "SKU постачальника"
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:144
+msgid "Est. dispatch date"
+msgstr ""
+
+#: templates/oscar/dashboard/orders/order_detail.html:137
+msgid "Price excl tax (before discounts)"
+msgstr "Ціна без урахування податків (до знижок)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:138
+msgid "Price inc tax (before discounts)"
+msgstr "Ціна з податком (до знижок)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:173
+#: templates/oscar/dashboard/orders/order_list.html:126
+#: templates/oscar/dashboard/partials/refund_table.html:26
+#: templates/oscar/dashboard/refunds/refund_list.html:91
+#: templates/oscar/dashboard/users/detail.html:155
+msgid "View"
+msgstr "Дивитися"
+
+#: templates/oscar/dashboard/orders/order_detail.html:189
+msgid "Basket total (excl. discounts)"
+msgstr "Загальна сума кошика (без урахування знижок)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:208
+msgid "Basket total (inc. discounts)"
+msgstr "Загальна сума кошика (з урахуванням знижок)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:216
+msgid "Basket total"
+msgstr "Загальна сума в кошику"
+
+#: templates/oscar/dashboard/orders/order_detail.html:227
+msgid "Shipping total (excl. discounts)"
+msgstr "Вартість доставки (без урахування знижок)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:246
+msgid "Shipping total (inc. discounts)"
+msgstr "Загальна вартість доставки (з урахуванням знижок)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:254
+msgid "Shipping total"
+msgstr "Загальна сума доставки"
+
+#: templates/oscar/dashboard/orders/order_detail.html:294
+msgid "With selected lines"
+msgstr "З вибраними рядками"
+
+#: templates/oscar/dashboard/orders/order_detail.html:299
+msgid "Change line status to"
+msgstr "Змініть стан рядка на"
+
+#: templates/oscar/dashboard/orders/order_detail.html:303
+#: templates/oscar/dashboard/orders/order_detail.html:305
+#: templates/oscar/dashboard/orders/order_list.html:140
+msgid "choose new status"
+msgstr "вибрати новий статус"
+
+#: templates/oscar/dashboard/orders/order_detail.html:316
+msgid "Create shipping event"
+msgstr "Створити подію відвантаження"
+
+#: templates/oscar/dashboard/orders/order_detail.html:320
+#: templates/oscar/dashboard/orders/order_detail.html:322
+#: templates/oscar/dashboard/orders/order_detail.html:341
+#: templates/oscar/dashboard/orders/order_detail.html:343
+msgid "choose event type"
+msgstr "вибрати тип події"
+
+#: templates/oscar/dashboard/orders/order_detail.html:329
+msgid "with reference"
+msgstr "з посиланням"
+
+#: templates/oscar/dashboard/orders/order_detail.html:337
+msgid "Create payment event"
+msgstr "Створіть платіжну подію"
+
+#: templates/oscar/dashboard/orders/order_detail.html:350
+msgid "with amount"
+msgstr "з сумою"
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:369
+msgid "Create refund"
+msgstr ""
+
+#: templates/oscar/dashboard/orders/order_detail.html:364
+msgid "Go!"
+msgstr "Вперед!"
+
+#: templates/oscar/dashboard/orders/order_detail.html:374
+#: templates/oscar/dashboard/orders/order_list.html:135
+msgid "Change order status"
+msgstr "Статус замовлення на зміну"
+
+#: templates/oscar/dashboard/orders/order_detail.html:379
+#: templates/oscar/dashboard/orders/order_list.html:149
+msgid "Change status"
+msgstr "Змінити статус"
+
+#: templates/oscar/dashboard/orders/order_detail.html:382
+#: templates/oscar/dashboard/orders/order_list.html:153
+msgid "This order can't have its status changed."
+msgstr "Статус цього замовлення не може бути змінений."
+
+#: templates/oscar/dashboard/orders/order_detail.html:424
+msgid "Shipping Events"
+msgstr "Події у сфері судноплавства"
+
+#: templates/oscar/dashboard/orders/order_detail.html:433
+#: templates/oscar/dashboard/orders/order_detail.html:480
+#: templates/oscar/dashboard/refunds/refund_detail.html:168
+msgid "Lines"
+msgstr "Лінії"
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:419
+#, python-format
+msgid ""
+"\n"
+"                                              %(title)s (quantity "
+"%(event_qty)s/%(total_qty)s)\n"
+"                                            "
+msgstr ""
+
+#: templates/oscar/dashboard/orders/order_detail.html:460
+msgid "No shipping events."
+msgstr "Ніяких транспортних подій."
+
+#: templates/oscar/dashboard/orders/order_detail.html:470
+#: templates/oscar/dashboard/refunds/refund_detail.html:157
+msgid "Payment Events"
+msgstr "Платіжні події"
+
+#: templates/oscar/dashboard/orders/order_detail.html:479
+#: templates/oscar/dashboard/orders/order_detail.html:623
+#: templates/oscar/dashboard/orders/order_detail.html:663
+#: templates/oscar/dashboard/refunds/refund_detail.html:167
+msgid "Amount"
+msgstr "Сума"
+
+#: templates/oscar/dashboard/orders/order_detail.html:493
+#: templates/oscar/dashboard/refunds/refund_detail.html:182
+msgid "Product:"
+msgstr "Товар:"
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:467
+msgid "quantity"
+msgstr "кількість"
+
+#: templates/oscar/dashboard/orders/order_detail.html:503
+#: templates/oscar/dashboard/refunds/refund_detail.html:194
+msgid "No payment events."
+msgstr "Немає подій оплати."
+
+#: templates/oscar/dashboard/orders/order_detail.html:519
+msgid "Method name"
+msgstr "Назва методу"
+
+#: templates/oscar/dashboard/orders/order_detail.html:523
+msgid "Method code"
+msgstr "Код методу"
+
+#: templates/oscar/dashboard/orders/order_detail.html:527
+msgid "Charge (incl tax)"
+msgstr "Плата (включаючи податок)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:531
+msgid "Charge (excl tax)"
+msgstr "Плата (без урахування податку)"
+
+#: templates/oscar/dashboard/orders/order_detail.html:535
+msgid "Address"
+msgstr "Адреса"
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:523
+msgid "Phone"
+msgstr "Номер телефону"
+
+#: templates/oscar/dashboard/orders/order_detail.html:550
+msgid "Instructions"
+msgstr "Інструкція"
+
+#: templates/oscar/dashboard/orders/order_detail.html:571
+#: templates/oscar/dashboard/orders/order_list.html:100
+msgid "Billing address"
+msgstr "Адреса для виставлення рахунку"
+
+#: templates/oscar/dashboard/orders/order_detail.html:582
+msgid "Payment sources"
+msgstr "Джерела оплати"
+
+#: templates/oscar/dashboard/orders/order_detail.html:588
+#: templates/oscar/dashboard/orders/order_detail.html:622
+msgid "Source"
+msgstr "Джерело"
+
+#: templates/oscar/dashboard/orders/order_detail.html:589
+msgid "Allocation"
+msgstr "Розподіл"
+
+#: templates/oscar/dashboard/orders/order_detail.html:590
+msgid "Amount debited"
+msgstr "Списано суму"
+
+#: templates/oscar/dashboard/orders/order_detail.html:591
+msgid "Amount refunded"
+msgstr "Сума відшкодування"
+
+#: templates/oscar/dashboard/orders/order_detail.html:609
+msgid "No payment sources found for this order."
+msgstr "Не знайдено джерел оплати для цього замовлення."
+
+#: templates/oscar/dashboard/orders/order_detail.html:617
+msgid "Transactions"
+msgstr "Транзакції"
+
+#: templates/oscar/dashboard/orders/order_detail.html:659
+msgid "Voucher"
+msgstr "Ваучер"
+
+#: templates/oscar/dashboard/orders/order_detail.html:660
+msgid "Offer name"
+msgstr "Назва пропозиції"
+
+#: templates/oscar/dashboard/orders/order_detail.html:661
+msgid "Frequency"
+msgstr "Частота"
+
+#: templates/oscar/dashboard/orders/order_detail.html:662
+#: templates/oscar/dashboard/orders/order_detail.html:709
+msgid "Message"
+msgstr "Повідомлення"
+
+#: templates/oscar/dashboard/orders/order_detail.html:689
+msgid "No discounts were applied to this order."
+msgstr "До цього замовлення не застосовувалися знижки."
+
+#: ecommerce/templates/oscar/dashboard/orders/order_detail.html:683
+msgid "Admin"
+msgstr "Адміністратор"
+
+#: templates/oscar/dashboard/orders/order_detail.html:733
+msgid "No notes available."
+msgstr "Нотаток немає."
+
+#: templates/oscar/dashboard/orders/order_detail.html:744
+msgid "Save note"
+msgstr "Зберегти нотатку"
+
+#: templates/oscar/dashboard/orders/order_detail.html:745
+msgid "Notes are only editable for 5 minutes after being saved."
+msgstr "Нотатки можна редагувати лише протягом 5 хвилин після збереження."
+
+#: templates/oscar/dashboard/orders/order_list.html:85
+msgid "Download selected orders as a CSV"
+msgstr "Завантажте вибрані замовлення у форматі CSV"
+
+#: templates/oscar/dashboard/orders/order_list.html:86
+msgid "Download"
+msgstr "Завантаження"
+
+#: templates/oscar/dashboard/orders/order_list.html:95
+msgid "Total inc tax"
+msgstr "Загальний податок на прибуток"
+
+#: templates/oscar/dashboard/orders/order_list.html:96
+msgid "Number of items"
+msgstr "Кількість позицій"
+
+#: ecommerce/templates/oscar/dashboard/orders/order_list.html:92
+#: ecommerce/templates/oscar/dashboard/orders/order_list.html:99
+#: ecommerce/templates/oscar/dashboard/refunds/refund_list.html:78
+#: ecommerce/templates/oscar/dashboard/refunds/refund_list.html:85
+msgid "Deleted"
+msgstr "Видалено"
+
+#: templates/oscar/dashboard/orders/order_list.html:169
+msgid "No orders found."
+msgstr "Наказів не знайдено."
+
+#: templates/oscar/dashboard/partials/enrollment_table.html:4
+#: templates/oscar/dashboard/users/detail.html:123
+msgid "Enrollments"
+msgstr "Зарахування на курс"
+
+#: templates/oscar/dashboard/partials/enrollment_table.html:9
+msgid "Mode"
+msgstr "Режим"
+
+#: templates/oscar/dashboard/partials/enrollment_table.html:10
+msgid "Active?"
+msgstr "Активний?"
+
+#: templates/oscar/dashboard/partials/enrollment_table.html:21
+msgid "No enrollments found."
+msgstr "Не знайдено жодної реєстрації."
+
+#: templates/oscar/dashboard/partials/refund_action_modal.html:8
+msgid "Confirm Refund Processing"
+msgstr "Підтвердити обробку відшкодування"
+
+#: templates/oscar/dashboard/partials/refund_action_modal.html:11
+msgid ""
+"Are you sure you want to issue a full refund and revoke student's enrollment?"
+msgstr ""
+"Ви впевнені, що хочете повернути повне відшкодування та скасувати реєстрацію "
+"студента?"
+
+#: templates/oscar/dashboard/partials/refund_action_modal.html:14
+msgid ""
+"Are you sure you want to issue a full refund without revoking student's "
+"enrollment?"
+msgstr ""
+"Ви впевнені, що хочете повернути повне відшкодування, не скасовуючи "
+"зарахування студента?"
+
+#: templates/oscar/dashboard/partials/refund_action_modal.html:17
+msgid "Are you sure you want to deny this refund request?"
+msgstr "Ви впевнені, що хочете відхилити цей запит на відшкодування?"
+
+#: templates/oscar/dashboard/partials/refund_action_modal.html:21
+msgid "Confirm"
+msgstr "Підтвердити"
+
+#: templates/oscar/dashboard/partials/refund_buttons.html:5
+msgid "Approve Credit and Revoke"
+msgstr "Схвалення та відкликання кредиту"
+
+#: templates/oscar/dashboard/partials/refund_buttons.html:8
+msgid "Approve Credit Only"
+msgstr "Тільки схвалення кредиту"
+
+#: templates/oscar/dashboard/partials/refund_buttons.html:14
+msgid "Deny"
+msgstr "Відхилити"
+
+#: templates/oscar/dashboard/partials/refund_table.html:10
+#: templates/oscar/dashboard/refunds/refund_list.html:58
+msgid "Number of Items"
+msgstr "Кількість позицій"
+
+#: templates/oscar/dashboard/partials/refund_table.html:11
+#: templates/oscar/dashboard/refunds/refund_detail.html:71
+#: templates/oscar/dashboard/refunds/refund_detail.html:146
+#: templates/oscar/dashboard/refunds/refund_list.html:57
+msgid "Total Credit"
+msgstr "Загальний кредит"
+
+#: templates/oscar/dashboard/partials/refund_table.html:12
+#: templates/oscar/dashboard/refunds/refund_detail.html:72
+#: templates/oscar/dashboard/refunds/refund_list.html:62
+msgid "Created"
+msgstr "Створено"
+
+#: templates/oscar/dashboard/partials/refund_table.html:31
+#: templates/oscar/dashboard/refunds/refund_list.html:105
+msgid "No refunds found."
+msgstr "Відшкодування не знайдено."
+
+#: ecommerce/templates/oscar/dashboard/partials/search_form.html:4
+#: ecommerce/templates/oscar/dashboard/partials/search_form.html:25
+#: ecommerce/templates/oscar/dashboard/partials/search_form.html:45
+msgid "Search"
+msgstr "Пошук"
+
+#: templates/oscar/dashboard/orders/order_list.html:52
+#: templates/oscar/dashboard/partials/search_form.html:26
+#: templates/oscar/dashboard/partials/search_form.html:34
+msgid "Advanced Search"
+msgstr "Розширений пошук"
+
+#: templates/oscar/dashboard/partials/search_form.html:44
+msgid "Close"
+msgstr "Закрити"
+
+#: templates/oscar/dashboard/partials/search_form.html:45
+msgid "Searching..."
+msgstr "Пошук..."
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:11
+#: templates/oscar/dashboard/refunds/refund_detail.html:40
+#, python-format
+msgid "Refund #%(id)s"
+msgstr "Відшкодування №%(id)s"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:69
+msgid "Refund Overview"
+msgstr "Огляд відшкодувань"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:74
+msgid "Associated Order"
+msgstr "Асоційоване замовлення"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:95
+msgid "Refund Items"
+msgstr "Статті відшкодування"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:104
+msgid "Refund Line ID"
+msgstr "Ідентифікатор лінії відшкодування"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:105
+msgid "Associated Order Line"
+msgstr "Пов'язана лінія замовлень"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:112
+msgid "Credit (excl. tax)"
+msgstr "Кредит (без урахування податку)"
+
+#: templates/oscar/dashboard/refunds/refund_detail.html:169
+msgid "Processor"
+msgstr "Процесор"
+
+#: ecommerce/templates/oscar/dashboard/users/detail.html:36
+msgid "General"
+msgstr "Загальне"
+
+#: templates/oscar/dashboard/users/detail.html:54
+msgid "Yes,No"
+msgstr "Так, ні."
+
+#: templates/oscar/dashboard/users/detail.html:58
+msgid "Superuser"
+msgstr "Суперкористувач"
+
+#: templates/oscar/dashboard/users/detail.html:59
+#: templates/oscar/dashboard/users/detail.html:63
+msgid "True,False"
+msgstr "True, False"
+
+#: ecommerce/templates/oscar/dashboard/users/detail.html:62
+msgid "Staff"
+msgstr "Персонал"
+
+#: templates/oscar/dashboard/users/detail.html:66
+msgid "Last login"
+msgstr "Останній вхід"
+
+#: templates/oscar/dashboard/users/detail.html:70
+msgid "Date joined"
+msgstr "Дата приєднання"
+
+#: templates/oscar/dashboard/users/detail.html:76
+msgid "Products viewed"
+msgstr "Переглянуті товари"
+
+#: templates/oscar/dashboard/users/detail.html:80
+msgid "Number of orders"
+msgstr "Кількість замовлень"
+
+#: templates/oscar/dashboard/users/detail.html:84
+msgid "Number of ordered items"
+msgstr "Кількість замовлених товарів"
+
+#: templates/oscar/dashboard/users/detail.html:88
+msgid "Total spent"
+msgstr "Всього витрачено"
+
+#: templates/oscar/dashboard/users/detail.html:94
+msgid "Reviews written"
+msgstr "Написані відгуки"
+
+#: templates/oscar/dashboard/users/detail.html:107
+msgid "Send password reset email"
+msgstr "Надіслати електронний лист для скидання пароля"
+
+#: templates/oscar/dashboard/users/detail.html:125
+#: templates/oscar/dashboard/users/detail.html:186
+msgid "Addresses"
+msgstr "Адреси"
+
+#: templates/oscar/dashboard/users/detail.html:126
+#: templates/oscar/dashboard/users/detail.html:214
+msgid "Reviews"
+msgstr "Відгуки"
+
+#: templates/oscar/dashboard/users/detail.html:139
+msgid "Num items"
+msgstr "Кількість елементів"
+
+#: templates/oscar/dashboard/users/detail.html:140
+msgid "Total value"
+msgstr "Загальна вартість"
+
+#: templates/oscar/dashboard/users/detail.html:141
+msgid "Date placed"
+msgstr "Дата розміщення"
+
+#: templates/oscar/dashboard/users/detail.html:160
+msgid "This customer has not placed any orders yet."
+msgstr "Цей клієнт ще не зробив жодного замовлення."
+
+#: templates/oscar/dashboard/users/detail.html:205
+msgid "This customer has not saved any addresses."
+msgstr "Цей клієнт не зберіг жодної адреси."
+
+#: templates/oscar/dashboard/users/detail.html:217
+msgid "Product ID"
+msgstr "Ідентифікатор продукту"
+
+#: templates/oscar/dashboard/users/detail.html:218
+msgid "Score"
+msgstr "Бали"
+
+#: templates/oscar/dashboard/users/detail.html:219
+msgctxt "Product review title"
+msgid "Title"
+msgstr "Назва"
+
+#: templates/oscar/dashboard/users/detail.html:220
+msgid "Body"
+msgstr "Тіло"
+
+#: templates/oscar/dashboard/users/detail.html:221
+msgid "Date created"
+msgstr "Дата створення"
+
+#: templates/oscar/dashboard/users/detail.html:234
+msgid "This customer has not written any reviews yet."
+msgstr "Цей клієнт ще не написав жодного відгуку."
+
+#: urls.py:45
+msgid "E-Commerce Service Administration"
+msgstr "Адміністрування послуг електронної комерції"
+
+#: core/models.py:449
+msgid "first name"
+msgstr "ім'я та прізвище"
+
+#: courses/utils.py:144
+msgid "Paid Executive Education"
+msgstr "Платна управлінська освіта"
+
+#: courses/utils.py:145
+msgid "Unpaid Executive Education"
+msgstr "Безоплатне навчання для працівників на керівних посадах"
+
+#: courses/utils.py:146
+msgid "Paid Bootcamp"
+msgstr "Платний Bootcamp"
+
+#: courses/utils.py:147
+msgid "Unpaid Bootcamp"
+msgstr "Неоплачуваний Bootcamp"
+
+#: enterprise/forms.py:55
+msgid "Salesforce Opportunity Line Item"
+msgstr "Стаття можливостей Salesforce"
+
+#: enterprise/forms.py:166
+msgid ""
+"Salesforce Opportunity ID must be 18 alphanumeric characters and begin with "
+"006."
+msgstr ""
+"Salesforce Opportunity ID повинен складатися з 18 буквено-цифрових символів "
+"і починатися з 006."
+
+#: enterprise/forms.py:176
+msgid ""
+"The Salesforce Opportunity Line Item must be 18 alphanumeric characters and "
+"begin with '00k'."
+msgstr ""
+"Рядок Salesforce Opportunity Line Item повинен складатися з 18 буквено-"
+"цифрових символів і починатися з '00k'."
+
+#: extensions/iap/models.py:14
+msgid ""
+"Number of times to retry failing IAP client actions (e.g., payment creation, "
+"payment execution)"
+msgstr ""
+"Кількість спроб повторення невдалих дій клієнта IAP (наприклад, створення "
+"платежу, виконання платежу)"
+
+#: extensions/iap/models.py:21
+msgid "Past number of days to fetch Android refunds for."
+msgstr ""
+"Минула кількість днів, за які можна отримати відшкодування для Android."
+
+#: extensions/iap/models.py:27
+msgid "mobile team email"
+msgstr "електронна пошта мобільної команди"
+
+#: extensions/iap/models.py:42
+msgid "Original Transaction ID"
+msgstr "Оригінальний ідентифікатор транзакції"
+
+#: extensions/offer/constants.py:77
+msgid "Automatic"
+msgstr "Автоматичний"
+
+#: extensions/offer/constants.py:78
+msgid "Manual"
+msgstr "Вручну"
+
+#: extensions/payment/constants.py:14
+msgid "Diners"
+msgstr "Закусочні"
+
+#: extensions/payment/constants.py:24
+msgid "JCB"
+msgstr "JCB"
+
+#: extensions/payment/constants.py:34
+msgid "UnionPay"
+msgstr "UnionPay"
+
+#: extensions/payment/constants.py:38
+msgid "Unknown"
+msgstr "Невідомий"
+
+#: programs/forms.py:90
+#, python-brace-format
+msgid "{current_date} Discount for the {program_title} {program_type} Program"
+msgstr "{current_date} Знижка за програмою {program_title} {program_type} "
+
+#: templates/edx/checkout/receipt.html:60
+#, python-brace-format
+msgid ""
+"Your order is complete. If you need a receipt, you can print this page. "
+"{next_start} Next Steps:{next_end} 1. Check your inbox for an order "
+"confirmation email from Get Smarter.{next_line} 2: Follow the instructions "
+"in the email to complete your registration."
+msgstr ""
+"Ваше замовлення завершено. Якщо вам потрібна квитанція, ви можете "
+"роздрукувати цю сторінку. {next_start} Наступні кроки:{next_end} 1. "
+"Перевірте свою поштову скриньку на наявність електронного листа з "
+"підтвердженням замовлення від Get Smarter.{next_line} 2: Дотримуйтесь "
+"інструкцій в електронному листі, щоб завершити реєстрацію."
+
+#: templates/edx/checkout/receipt.html:68
+msgid "Your order is complete. If you need a receipt, you can print this page."
+msgstr ""
+"Ваше замовлення завершено. Якщо вам потрібна квитанція, ви можете "
+"роздрукувати цю сторінку."
+
+#: templates/oscar/basket/basket.html:49
+#, python-brace-format
+msgid ""
+"\n"
+"                                If you attempted to make a purchase, you "
+"have not been charged. Return to your {link_start}{link_middle}{homepage_url}"
+"dashboard{link_end} to try\n"
+"                                again, or {link_start}{homepage_url}"
+"{link_middle}contact {platform_name} Support{link_end}.\n"
+"                            "
+msgstr ""
+"\n"
+"                                Якщо ви намагалися здійснити покупку, з вас "
+"не було списано коштів. Поверніться на свою {link_start}{link_middle} "
+"{homepage_url} інформаційну панель{link_end}, щоб спробувати\n"
+"                                ще раз, або {link_start}{homepage_url} "
+"{link_middle} зверніться до служби підтримки {platform_name}{link_end} .\n"
+"                            "
+
+#: templates/oscar/dashboard/catalogue/category_form.html:43
+#: templates/oscar/dashboard/catalogue/category_form.html:62
+msgid "Category details"
+msgstr "Інформація про категорію"
+
+#: templates/oscar/dashboard/catalogue/category_form.html:48
+#: templates/oscar/dashboard/catalogue/category_form.html:82
+msgid "Search engine optimisation"
+msgstr "Пошукова оптимізація"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:6
+#, python-format
+msgid ""
+"\n"
+"        %(name)s | Offers\n"
+"    "
+msgstr ""
+"\n"
+"        %(name)s | Пропозиції\n"
+"    "
+
+#: templates/oscar/dashboard/offers/offer_detail.html:101
+msgid "Num of vouchers"
+msgstr "Кількість ваучерів"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:110
+msgid "Attached vouchers"
+msgstr "Додані ваучери"
+
+#: templates/oscar/dashboard/offers/offer_detail.html:142
+msgid "No vouchers are attached to this offer."
+msgstr "До цієї пропозиції не додаються ваучери."
+
+#: templates/oscar/dashboard/orders/order_detail.html:36
+msgid "Customer checked out as a guest."
+msgstr "Клієнт виїхав як гість."
+
+#: templates/oscar/dashboard/orders/order_detail.html:266
+#, python-format
+msgid "Surcharge %(name)s"
+msgstr "Доплата %(name)s"
+
+#: templates/oscar/dashboard/orders/order_detail.html:358
+msgid "Create  Refund"
+msgstr "Створити відшкодування"
+
+#: templates/oscar/dashboard/orders/order_detail.html:390
+msgid "Status Changes"
+msgstr "Зміни статусу"
+
+#: templates/oscar/dashboard/orders/order_detail.html:397
+msgid "From"
+msgstr "Видано"
+
+#: templates/oscar/dashboard/orders/order_detail.html:398
+msgid "To"
+msgstr "До"
+
+#: templates/oscar/dashboard/orders/order_detail.html:414
+msgid "No status changes."
+msgstr "Статус не змінився."
+
+#: templates/oscar/dashboard/orders/order_detail.html:446
+#, python-format
+msgid ""
+"\n"
+"                                                                %(title)s "
+"(quantity %(event_qty)s/%(total_qty)s)\n"
+"                                                            "
+msgstr ""
+"\n"
+"                                                                %(title)s "
+"(кількість %(event_qty)s/%(total_qty)s)\n"
+"                                                            "
+
+#: templates/oscar/dashboard/orders/order_list.html:78
+#: templates/oscar/dashboard/orders/order_list.html:164
+msgid "Order Search Results"
+msgstr "Замовити результати пошуку"
+
+#: templates/oscar/dashboard/orders/order_list.html:80
+#: templates/oscar/dashboard/orders/order_list.html:166
+msgid "All Orders"
+msgstr "Всі накази"
+
+#: templates/oscar/dashboard/orders/order_list.html:86
+msgid "Submitting..."
+msgstr "Подання..."
+
+#: templates/oscar/dashboard/orders/order_list.html:98
+msgid "Customer"
+msgstr "Клієнт"
+
+#: templates/oscar/dashboard/orders/order_list.html:99
+msgid "Shipping address"
+msgstr "Адреса доставки"
+
+#: templates/oscar/dashboard/orders/order_list.html:148
+msgid "Changing..."
+msgstr "Зміна..."
