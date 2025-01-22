@@ -20,7 +20,7 @@
   "registration.using.tpa.form.heading": "Finish creating your account",
   "zendesk.supportTitle": "edX Support",
   "zendesk.selectTicketForm": "Please choose your request type:",
-  "registration.other.options.heading": "Or register with:",
+  "registration.other.options.heading": "Create an account using",
   "institution.login.button": "Institution/campus credentials",
   "login.other.options.heading": "Or sign in with:",
   "enterprise.login.btn.text": "Company or school credentials",
@@ -177,5 +177,6 @@
   "complete.your.profile.2": "your profile",
   "register.page.terms.of.service.and.honor.code": "By creating an account, you agree to the {tosAndHonorCode} and you acknowledge that {platformName} and each Member process your personal data in accordance with the {privacyPolicy}.",
   "register.page.honor.code": "I agree to the {platformName}&nbsp;{tosAndHonorCode}",
-  "register.page.terms.of.service": "I agree to the {platformName}&nbsp;{termsOfService}"
+  "register.page.terms.of.service": "I agree to the {platformName}&nbsp;{termsOfService}",
+  "sigma.login.other.options.heading": "If you are a Sigma Software employee, please press the button below and use your corporate email to sign in."
 }
