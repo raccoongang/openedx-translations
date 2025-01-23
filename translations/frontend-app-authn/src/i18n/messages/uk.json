@@ -20,7 +20,7 @@
   "registration.using.tpa.form.heading": "Завершити створення Вашого облікового запису",
   "zendesk.supportTitle": "Підтримка edX",
   "zendesk.selectTicketForm": "Виберіть тип запиту:",
-  "registration.other.options.heading": "Або зареєструватись за допомогою:",
+  "registration.other.options.heading": "Створити обліковий запис за допомогою",
   "institution.login.button": "Використати мій навчальний заклад",
   "login.other.options.heading": "Або увійти за допомогою:",
   "enterprise.login.btn.text": "Облікові дані від компанії чи навчального закладу",
@@ -177,5 +177,6 @@
   "complete.your.profile.2": "Ваш профіль",
   "register.page.terms.of.service.and.honor.code": "Створюючи аккаунт, ви погоджуєтесь з умовами {tosAndHonorCode}, і з тим, що {platformName}, та кожен учасник, використовує ваші персональні дані згідно {privacyPolicy}.",
   "register.page.honor.code": "Я погоджуюсь з {platformName}&nbsp;{tosAndHonorCode}",
-  "register.page.terms.of.service": "Я погоджуюсь з {platformName}&nbsp;{termsOfService}"
+  "register.page.terms.of.service": "Я погоджуюсь з {platformName}&nbsp;{termsOfService}",
+  "sigma.login.other.options.heading": "Якщо Ви є співробітником Sigma Software, будь ласка, натисніть кнопку нижче і використовуйте свою корпоративну електронну пошту для входу."
 }
