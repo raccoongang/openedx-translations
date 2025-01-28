@@ -26508,3 +26508,6 @@ msgstr "لوحة الصدارة"
 
 msgid "The organization you are affiliated with."
 msgstr "المنظمة التي تنتسب إليها."
+
+msgid "Organization name is required."
+msgstr "اسم المنظمة مطلوب."
