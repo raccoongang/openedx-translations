@@ -26505,3 +26505,6 @@ msgstr "أداء"
 
 msgid "Leaderboard"
 msgstr "لوحة الصدارة"
+
+msgid "The organization you are affiliated with."
+msgstr "المنظمة التي تنتسب إليها."
