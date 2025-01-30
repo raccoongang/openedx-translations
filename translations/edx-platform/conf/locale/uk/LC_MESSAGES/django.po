@@ -19400,6 +19400,11 @@ msgstr ""
 msgid "My Courses"
 msgstr "Мої курси"
 
+#: lms/templates/learner_dashboard/_dashboard_navigation_courses.html
+#: themes/edx.org/lms/templates/dashboard.html
+msgid "My courses"
+msgstr "Мої курси"
+
 #: lms/templates/learner_dashboard/text-me-fragment.html
 msgid "Get the {platform_name} Mobile App!"
 msgstr ""
