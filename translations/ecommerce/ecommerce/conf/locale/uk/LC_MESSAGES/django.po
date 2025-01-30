@@ -4602,3 +4602,17 @@ msgstr "Адреса доставки"
 #: templates/oscar/dashboard/orders/order_list.html:148
 msgid "Changing..."
 msgstr "Зміна..."
+
+msgid ""
+"{strong_start}Note:{strong_end} To complete your enrollment, please choose one of the payment methods."
+msgstr ""
+"{strong_start}Примітка:{strong_end} Щоб завершити реєстрацію на курс, будь ласка, виберіть один із методів оплати."
+
+msgid "About"
+msgstr "Про нас"
+
+msgid "Privacy Policy"
+msgstr "Політика конфіденційності"
+
+msgid "Terms of Service"
+msgstr "Умови надання послуг"
