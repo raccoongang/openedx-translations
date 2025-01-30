@@ -4606,7 +4606,7 @@ msgstr "Зміна..."
 msgid ""
 "{strong_start}Note:{strong_end} To complete your enrollment, please choose one of the payment methods."
 msgstr ""
-"{strong_start}Примітка:{strong_end} Щоб завершити реєстрацію на курс, будь ласка, виберіть один із методів оплати"
+"{strong_start}Примітка:{strong_end} Щоб завершити реєстрацію на курс, будь ласка, виберіть один із методів оплати."
 
 msgid "About"
 msgstr "Про нас"
