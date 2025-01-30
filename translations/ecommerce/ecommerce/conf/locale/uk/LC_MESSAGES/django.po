@@ -4603,14 +4603,10 @@ msgstr "Адреса доставки"
 msgid "Changing..."
 msgstr "Зміна..."
 
-msgid "Note: "
-msgstr "Примітка: "
-
-msgid "To complete your enrollment, please choose one of the payment methods"
-msgstr "Щоб завершити реєстрацію на курс, будь ласка, виберіть один із методів оплати"
-
-msgid "Note: To complete your enrollment, please choose one of the payment methods"
-msgstr "Примітка: Щоб завершити реєстрацію на курс, будь ласка, виберіть один із методів оплати"
+msgid ""
+"{strong_start}Note:{strong_end} To complete your enrollment, please choose one of the payment methods."
+msgstr ""
+"{strong_start}Примітка:{strong_end} Щоб завершити реєстрацію на курс, будь ласка, виберіть один із методів оплати"
 
 msgid "About"
 msgstr "Про нас"
