@@ -39,5 +39,9 @@
   "authoring.footer.termsOfService.link.label": "شروط الخدمة",
   "authoring.footer.privacyPolicy.link.label": "سياسة الخصوصية",
   "authoring.footer.accessibilityRequest.link.label": "طلب الإقامة لذوي الاحتياجات الخاصة",
-  "authoring.footer.trademark.message": "إن edX وOpen edX، وشعارات edX وOpen edX هي علامات تجارية مسجلة لشركة"
+  "authoring.footer.trademark.message": "إن edX وOpen edX، وشعارات edX وOpen edX هي علامات تجارية مسجلة لشركة",
+  "footer.staticPages.about": "لمحة عن",
+  "footer.staticPages.privacy": "سياسة الخصوصية",
+  "footer.staticPages.tos": "شروط الخدمة",
+  "footer.staticPages.contact": "اتصل بنا"
 }
