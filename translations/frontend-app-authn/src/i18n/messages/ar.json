@@ -179,5 +179,6 @@
   "register.page.honor.code": "أوافق على to و {platformName} {tosAndHonorCode}",
   "register.page.terms.of.service": "أوافق على to و {platformName} {termsOfService}",
   "organization.validation.invalid-length": "يجب أن يتراوح اسم المؤسسة بين 2 و70 حرفاً.",
-  "organization.validation.invalid-characters": "يمكن أن يحتوي اسم المؤسسة على أحرف وأرقام ومسافات والأحرف التالية فقط: , @ . -"
+  "organization.validation.invalid-characters": "يمكن أن يحتوي اسم المؤسسة على أحرف وأرقام ومسافات والأحرف التالية فقط: , @ . -",
+  "organization.validation.required": "اسم المنظمة مطلوب."
 }
