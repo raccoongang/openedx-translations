@@ -180,5 +180,7 @@
   "register.page.terms.of.service": "Я погоджуюсь з {platformName} {termsOfService}",
   "sigma.login.other.options.heading": "Якщо Ви є співробітником Sigma Software, будь ласка, натисніть кнопку нижче і використовуйте свою корпоративну електронну пошту для входу.",
   "sso.label.login.text": "або",
-  "sso.label.register.text": "або створити обліковий запис тут"
+  "sso.label.register.text": "або створити обліковий запис тут",
+  "empty.tos.checkbox.error": "Ви маєте погодитися із {platformName} {termsOfService}",
+  "empty.privacy.policy.checkbox.error": "Ви маєте погодитися із {platformName} {privacyPolicy}"
 }
