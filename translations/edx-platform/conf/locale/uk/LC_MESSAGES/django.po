@@ -11461,6 +11461,7 @@ msgid "You must agree to the {platform_name} {terms_of_service}"
 msgstr "Ви повинні прийняти пункт «{terms_of_service}» {platform_name}"
 
 #: extended_platform/overrides.py
+#: openedx/core/djangoapps/user_authn/api/form_fields.py
 #, python-brace-format
 msgid "You must agree to the {platform_name} {terms_label}"
 msgstr "Ви повинні прийняти пункт {terms_label} {platform_name}"
