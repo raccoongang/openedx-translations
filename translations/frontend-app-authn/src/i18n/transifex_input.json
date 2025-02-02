@@ -180,7 +180,5 @@
   "register.page.terms.of.service": "I agree to the {platformName} {termsOfService}",
   "sigma.login.other.options.heading": "If you are a Sigma Software employee, please press the button below and use your corporate email to sign in.",
   "sso.label.login.text": "or",
-  "sso.label.register.text": "or create a new one here",
-  "empty.tos.checkbox.error": "You must agree to the {platformName} {termsOfService}",
-  "empty.privacy.policy.checkbox.error": "You must agree to the {platformName} {privacyPolicy}"
+  "sso.label.register.text": "or create a new one here"
 }
