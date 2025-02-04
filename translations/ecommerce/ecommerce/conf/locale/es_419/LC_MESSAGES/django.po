@@ -4438,7 +4438,7 @@ msgstr "Este cliente aún no ha escrito ninguna evaluación."
 msgid "E-Commerce Service Administration"
 msgstr "Administración del servicio de E-commerce"
 
-msgid "About us"
+msgid "About"
 msgstr "Quiénes somos"
 
 msgid "Privacy Policy"
@@ -4447,5 +4447,5 @@ msgstr "Política de privacidad"
 msgid "Terms of Service"
 msgstr "Condiciones de Uso"
 
-msgid "Contact us"
+msgid "Contact Us"
 msgstr "Contáctenos"
