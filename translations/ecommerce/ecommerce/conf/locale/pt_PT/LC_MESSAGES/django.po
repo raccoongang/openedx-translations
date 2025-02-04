@@ -2,11 +2,11 @@
 # Copyright (C) 2024 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2024.
-# 
+#
 # Translators:
 # Brian Smith, 2024
 # Cátia Lopes <catia.lopes@bridgelk.com>, 2024
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -4423,3 +4423,15 @@ msgstr "Este cliente ainda não escreveu comentários."
 #: urls.py:45
 msgid "E-Commerce Service Administration"
 msgstr "Administração do Serviço E-Commerce"
+
+msgid "About Us"
+msgstr "Quem Somos"
+
+msgid "Contact Us"
+msgstr "Fale conosco"
+
+msgid "Terms of Service"
+msgstr "Termos de Uso"
+
+msgid "Privacy Policy"
+msgstr "Politica de Privacidade"
