@@ -4424,7 +4424,7 @@ msgstr "Este cliente ainda não escreveu comentários."
 msgid "E-Commerce Service Administration"
 msgstr "Administração do Serviço E-Commerce"
 
-msgid "About Us"
+msgid "About"
 msgstr "Quem Somos"
 
 msgid "Contact Us"
