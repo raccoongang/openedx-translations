@@ -4442,7 +4442,7 @@ msgid "About"
 msgstr "Quiénes somos"
 
 msgid "Privacy Policy"
-msgstr "Política de privacidad"
+msgstr "Política de Privacidad"
 
 msgid "Terms of Service"
 msgstr "Condiciones de Uso"

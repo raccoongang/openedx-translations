@@ -4434,4 +4434,4 @@ msgid "Terms of Service"
 msgstr "Termos de Uso"
 
 msgid "Privacy Policy"
-msgstr "Politica de Privacidade"
+msgstr "Política de Privacidade"
