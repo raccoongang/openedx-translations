@@ -7555,7 +7555,7 @@ msgstr "انتقل إلى الصفحة الرئيسية لـ %(platform_name)s"
 #: lms/templates/navigation/navbar-authenticated.html:22
 #: lms/templates/navigation/navbar-not-authenticated.html:20
 msgid "Courses"
-msgstr "دورات تدريبية"
+msgstr "الدورات التدريبية"
 
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:108
 msgid "My Account"
@@ -19583,7 +19583,7 @@ msgstr ""
 #: themes/stanford-style/lms/templates/index.html:22
 #: themes/stanford-style/lms/templates/index.html:23
 msgid "Search for a course"
-msgstr "البحث عن دورة تدريبية"
+msgstr "البحث عن الدورات التدريبية"
 
 #: lms/templates/index_overlay.html:8
 msgid "Welcome to {platform_name}"
@@ -26394,5 +26394,3 @@ msgstr "ضع نصّ حقوق النشر والطبع الخاصة بك هنا!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "محرر الرمز"
-
-

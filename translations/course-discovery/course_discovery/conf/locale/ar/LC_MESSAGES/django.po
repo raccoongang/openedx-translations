@@ -1401,8 +1401,8 @@ msgid ""
 " in Studio via Refresh Course Metadata."
 msgstr ""
 "ما إذا كان يجب إخفاء هذا التشغيل من استجابات واجهة برمجة التطبيقات. لا تقم "
-"بالتحرير هنا - ستتم الكتابة فوق هذه القيمة بواسطة حقل \"رؤية المساق في "
-"الدليل\" في الاستوديو عبر تحديث بيانات تعريف المساق."
+"بالتحرير هنا - ستتم الكتابة فوق هذه القيمة بواسطة حقل \"رؤية الدورات التدريبية في "
+"الدليل\" في الاستوديو عبر تحديث بيانات تعريف الدورات التدريبية."
 
 #: apps/course_metadata/models.py:2164
 msgid "Indicates whether the course relation has been manually overridden."
@@ -1853,7 +1853,7 @@ msgid ""
 "Partner {partner_key} and course partner {course_partner_key} do not match "
 "when attempting to save url slug {url_slug}"
 msgstr ""
-"لا يتطابق الشريك {partner_key} وشريك المساق {course_partner_key} عند محاولة "
+"لا يتطابق الشريك {partner_key} وشريك الدورات التدريبية {course_partner_key} عند محاولة "
 "حفظ عنوان رابط الشارة {url_slug}"
 
 #: apps/course_metadata/models.py:4299
