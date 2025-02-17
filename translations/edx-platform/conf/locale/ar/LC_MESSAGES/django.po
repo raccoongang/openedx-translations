@@ -26394,3 +26394,36 @@ msgstr "ضع نصّ حقوق النشر والطبع الخاصة بك هنا!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "محرر الرمز"
+
+msgid "Code Number"
+msgstr "الرقم الكودي"
+
+msgid "Level"
+msgstr "الدرجة"
+
+msgid "Seniority No"
+msgstr "رقم الأقدمية"
+
+msgid "Appeal Prosecution"
+msgstr "نيابة الاستئناف"
+
+msgid "General Prosecution"
+msgstr "النيابة الكلية"
+
+msgid "Partial Prosecution"
+msgstr "النيابة الجزئية"
+
+msgid "Specialized Prosecution"
+msgstr "النيابة المتخصصة"
+
+msgid "Notes"
+msgstr "ملاحظات"
+
+msgid "Extended profile for {username}"
+msgstr "الملف الموسع للمستخدم {username}"
+
+msgid "{field} must not exceed 500 characters."
+msgstr "{field} يجب ألا يتجاوز 500 حرف."
+
+msgid "{field} must be positive integer."
+msgstr "{field} يجب أن يكون عددًا صحيحًا موجبًا."
