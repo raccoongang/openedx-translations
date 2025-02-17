@@ -37,13 +37,13 @@ msgstr "الاسم الظاهر"
 msgid ""
 "ISO-8601 formatted string representing the start date of this assignment. We"
 " ignore this."
-msgstr "نصّ بنسَق ISO-8601 يدلّ على تاريخ بدء هذه المهمة. نحن نتجاهل هذا."
+msgstr "نصّ بنسَق ISO-8601 يدلّ على تاريخ بدء هذا التكليف . نحن نتجاهل هذا."
 
 #: done.py:144
 msgid ""
 "ISO-8601 formatted string representing the due date of this assignment. We "
 "ignore this."
-msgstr "نصّ بنسَق ISO-8601 يدلّ على موعد تسليم هذه المهمة. نحن نتجاهل هذا."
+msgstr "نصّ بنسَق ISO-8601 يدلّ على الموعد النهائي لهذا التكليف . نحن نتجاهل هذا."
 
 #: done.py:148
 msgid "Problem Weight"
@@ -91,7 +91,7 @@ msgid ""
 "It is also helpful to give students a way to sign off on having completed "
 "something. They are less likely to skip material that way."
 msgstr ""
-"من المفيد أيضًا منح الطلاب طريقة للتوقيع على إكمال شيء ما. هذا يقلل احتامل "
+"من المفيد أيضًا منح الطلاب طريقة للتوقيع على إكمال شيء ما. هذا يقلل احتمالية "
 "تخطيهم لمادة ما."
 
 #: templates/studioview.html:8

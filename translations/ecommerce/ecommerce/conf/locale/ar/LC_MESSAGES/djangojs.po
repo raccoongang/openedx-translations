@@ -43,7 +43,7 @@ msgstr "يجب تحديد نوع واحد من المقاعد على الأقل.
 #: static/js/models/coupon_model.js:72
 msgid "This field must be empty or contain 1-16 alphanumeric characters."
 msgstr ""
-"يجب أن يكون هذا الحقل فارغًا أو يحوي 1-16 رمزًا من حروفأو أرقام أو كليهما."
+"يجب أن يكون هذا الحقل فارغًا أو يحوي 1-16 رمزًا من حروف و أرقام أو كليهما."
 
 #: static/js/models/coupon_model.js:81
 #, javascript-format
@@ -64,7 +64,7 @@ msgstr "يجب أن يكون قبل تاريخ الانتهاء"
 
 #: static/js/models/coupon_model.js:174
 msgid "A valid course ID is required"
-msgstr "مطلوب رقم تعريف صالح للمساق"
+msgstr "مطلوب رقم تعريف صالح للدورة التدريبية"
 
 #: static/js/models/coupon_model.js:188
 msgid "A valid Program UUID is required."
@@ -72,7 +72,7 @@ msgstr "مطلوب معرف UUID صالح للبرنامج"
 
 #: static/js/models/course_model.js:54
 msgid "You must select a course type."
-msgstr "يجب أن تختار نوعاً للمساق."
+msgstr "يجب أن تختار نوع الدورة التدريبية."
 
 #: static/js/models/course_model.js:60
 msgid "You must choose if an honor seat should be created."
@@ -89,19 +89,19 @@ msgstr "فشل التحقُّق من المُنتَج."
 #: static/js/models/course_model.js:94
 #: static/js/views/dynamic_catalog_view.js:70
 msgid "Course ID"
-msgstr "مُعرِّف المساق"
+msgstr "مُعرِّف الدورة التدريبية"
 
 #: static/js/models/course_model.js:95
 msgid "Course Name"
-msgstr "اسم المساق"
+msgstr "اسم الدورة التدريبية"
 
 #: static/js/models/course_model.js:96 static/js/views/course_list_view.js:77
 msgid "Course Type"
-msgstr "نوع المساق"
+msgstr "نوع الدورة التدريبية"
 
 #: static/js/models/course_model.js:97
 msgid "Verification Deadline"
-msgstr "الموعد النهائي للتوثيق"
+msgstr "الموعد النهائي للتحقق"
 
 #: static/js/models/course_model.js:98
 msgid "Include Honor Seat"
@@ -109,7 +109,7 @@ msgstr "اشمل مقعد الشرف"
 
 #: static/js/models/course_seats/course_seat.js:28
 msgid "All course seats must have a price."
-msgstr "يجب أن يكون لجميع مقاعد المساق سعر."
+msgstr "يجب أن يكون لجميع مقاعد الدورة التدريبية سعر."
 
 #: static/js/models/course_seats/course_seat.js:45
 msgid "Verified seats must have an upgrade deadline."
@@ -117,7 +117,7 @@ msgstr "يجب أن يكون للمقاعد الموثّقة موعداً نها
 
 #: static/js/models/course_seats/course_seat.js:53
 msgid "The upgrade deadline must occur BEFORE the verification deadline."
-msgstr "يجب أن يكون الموعد النهائي الترقية *قبل* الموعد النهائي للتوثيق."
+msgstr "يجب أن يكون الموعد النهائي للترقية *قبل* الموعد النهائي للتوثيق."
 
 #: static/js/models/course_seats/course_seat.js:84
 msgid "Verified"
@@ -138,7 +138,7 @@ msgstr "شَرَفيّة"
 
 #: static/js/models/course_seats/course_seat.js:93
 msgid "Audit"
-msgstr "مستمع"
+msgstr "تدقيق"
 
 #: static/js/models/course_seats/course_seat.js:101
 msgid "Verified Certificate"
@@ -235,19 +235,19 @@ msgstr "رموز القسائم"
 
 #: static/js/pages/course_create_page.js:12
 msgid "Create New Course"
-msgstr "إنشاء مساق جديد"
+msgstr "إنشاء دورة تدريبية جديدة"
 
 #: static/js/pages/course_detail_page.js:13
 msgid "View Course"
-msgstr "عرض المساق"
+msgstr "عرض دورة تدريبية"
 
 #: static/js/pages/course_edit_page.js:13
 msgid "Edit Course"
-msgstr "تعديل المساق"
+msgstr "تعديل دورة تدريبية"
 
 #: static/js/pages/course_list_page.js:10
 msgid "Courses"
-msgstr "المساقات"
+msgstr "الدورات التدريبية"
 
 #: static/js/pages/enterprise_coupon_list_page.js:10
 msgid "Enterprise Coupon Codes"
@@ -390,15 +390,15 @@ msgstr "عرض قسائم _MENU_"
 
 #: static/js/views/course_form_view.js:55
 msgid "Free (Audit)"
-msgstr "مجاني (مستمع)"
+msgstr "مجاني (تدقيق)"
 
 #: static/js/views/course_form_view.js:56
 msgid "Free audit track. No certificate."
-msgstr "مساق استماع مجاني. لا تُمنح شهادة."
+msgstr "مسار تدقيق مجاني. لا تُمنح شهادة."
 
 #: static/js/views/course_form_view.js:60
 msgid "Verified and Audit"
-msgstr "مستمع موثّق بشهادة"
+msgstr "تحقيق وتدقيق"
 
 #: static/js/views/course_form_view.js:61
 #: static/js/views/course_form_view.js:67
@@ -408,7 +408,7 @@ msgstr "مسار نيل شهادة مدفوع بتوثيق مبدئيّ وشها
 
 #: static/js/views/course_form_view.js:62
 msgid "Also includes the free audit track."
-msgstr "يشمل أيضًا مسار المستمع المجاني."
+msgstr "يشمل أيضًا مسار التدقيق المجاني."
 
 #: static/js/views/course_form_view.js:66
 msgid "Verified Only"
@@ -450,7 +450,7 @@ msgstr "عرض مساقات _MENU_"
 
 #: static/js/views/course_list_view.js:69
 msgid "Course"
-msgstr "مساق"
+msgstr "دورة تدريبية"
 
 #: static/js/views/course_list_view.js:86
 msgid "Last Edited"
@@ -487,7 +487,7 @@ msgstr "دليل عميل المؤسسات"
 
 #: static/js/views/form_view.js:71
 msgid "A course with the specified ID already exists."
-msgstr "يوجد مساق بنفس المعرِّف من قبل."
+msgstr "يوجد دورة تدريبية بنفس المعرِّف من قبل."
 
 #: static/js/views/form_view.js:81 static/js/views/form_view.js:174
 msgid "Error!"
