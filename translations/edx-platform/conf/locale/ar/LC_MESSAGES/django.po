@@ -26395,14 +26395,14 @@ msgstr "ضع نصّ حقوق النشر والطبع الخاصة بك هنا!"
 msgid "Code Editor"
 msgstr "محرر الرمز"
 
-msgid "Code Number"
-msgstr "الرقم الكودي"
+msgid "Number"
+msgstr "تسلسل"
 
 msgid "Level"
 msgstr "الدرجة"
 
-msgid "Seniority No"
-msgstr "رقم الأقدمية"
+msgid "ID Number"
+msgstr "الرقم القومى"
 
 msgid "Appeal Prosecution"
 msgstr "نيابة الاستئناف"
@@ -26413,12 +26413,6 @@ msgstr "النيابة الكلية"
 msgid "Partial Prosecution"
 msgstr "النيابة الجزئية"
 
-msgid "Specialized Prosecution"
-msgstr "النيابة المتخصصة"
-
-msgid "Notes"
-msgstr "ملاحظات"
-
 msgid "Extended profile for {username}"
 msgstr "الملف الموسع للمستخدم {username}"
 
@@ -26427,3 +26421,9 @@ msgstr "{field} يجب ألا يتجاوز 500 حرف."
 
 msgid "{field} must be positive integer."
 msgstr "{field} يجب أن يكون عددًا صحيحًا موجبًا."
+
+msgid "Please enter a valid {field}. It must be a positive whole number."
+msgstr "يُرجى إدخال {field} صالح. يجب أن يكون عددًا صحيحًا موجبًا صحيحًا."
+
+msgid "{field} is required."
+msgstr "{field} مطلوب."
