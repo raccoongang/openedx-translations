@@ -4376,7 +4376,7 @@ msgstr "إعدادات مستوى الدورة التدريبية لتقييم �
 #: lms/templates/courseware/courseware.html:215
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:21
 msgid "Course"
-msgstr "الدورة التدريبية "
+msgstr "الدورات التدريبية"
 
 #: lms/djangoapps/courseware/tabs.py:63
 #: lms/templates/courseware/syllabus.html:21
@@ -22796,7 +22796,7 @@ msgstr "ترقية"
 
 #: lms/templates/dashboard/_dashboard_course_resume.html:12
 msgid "Resume Course"
-msgstr "تابع الدورة التدريبية"
+msgstr "استئناف الدورات التدريبية"
 
 #. Translators: provider_name is the name of a credit provider or university
 #. (e.g. State University)
