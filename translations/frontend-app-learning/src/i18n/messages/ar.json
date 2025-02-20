@@ -467,5 +467,7 @@
   "learn.sequence.navigation.next.button": "التالي",
   "learn.sequence.navigation.next.up.button": "التالي: {title}",
   "learn.sequence.navigation.previous.button": "السابق",
-  "discussions.sidebar.open.button": "إظهار دٌرج المناقشات"
+  "discussions.sidebar.open.button": "إظهار دٌرج المناقشات",
+  "learning.privateCourse.signIn": "{signIn} أولاً، ثم سجل نفسك في الدورة التدريبية.",
+  "learning.logistration.alert.signIn": "لرؤية محتوى الدورة التدريبية، {signIn}."
 }

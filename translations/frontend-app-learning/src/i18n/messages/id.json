@@ -467,5 +467,7 @@
   "learn.sequence.navigation.next.button": "Next",
   "learn.sequence.navigation.next.up.button": "Next Up: {title}",
   "learn.sequence.navigation.previous.button": "Previous",
-  "discussions.sidebar.open.button": "Show discussions tray"
+  "discussions.sidebar.open.button": "Show discussions tray",
+  "learning.privateCourse.signIn": "{signIn} and then enroll in this course.",
+  "learning.logistration.alert.signIn": "To see course content, {signIn}."
 }
