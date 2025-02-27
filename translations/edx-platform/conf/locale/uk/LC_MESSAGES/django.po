@@ -5894,8 +5894,6 @@ msgid ""
 "successfully completed, received a passing grade, and was awarded this "
 "{platform_name} {certificate_type} Certificate of Completion in "
 msgstr ""
-"успішно завершив, отримав прохідний бал, і був удостоєний Сертифіката "
-"{certificate_type} про закінчення курсу на {platform_name}"
 
 #. Translators: This text describes the purpose (and therefore, value) of a
 #. course certificate
@@ -5941,13 +5939,13 @@ msgstr "Про досягнення в {platform_name}"
 #. for the certificate
 #: lms/djangoapps/certificates/views/webview.py
 msgid "Issued On:"
-msgstr "Виданий:"
+msgstr ""
 
 #. Translators:  The Certificate ID Number is an alphanumeric value unique to
 #. each individual certificate
 #: lms/djangoapps/certificates/views/webview.py:204
 msgid "Certificate ID Number"
-msgstr "Ідентифікаційний номер сертифікату"
+msgstr ""
 
 #: lms/djangoapps/certificates/views/webview.py
 #, python-brace-format
