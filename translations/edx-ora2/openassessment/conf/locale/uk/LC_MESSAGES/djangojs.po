@@ -212,7 +212,7 @@ msgstr "Отримано фінальну оцінку"
 #: xblock/static/dist/openassessment-lms.dc8bb1e464bcaaab4668.js:319
 #: xblock/static/js/src/lms/oa_course_items_listing.js:169
 msgid "Staff Grader"
-msgstr "Викладач, що проводить оцінку"
+msgstr "Перевіряючий викладач"
 
 #: xblock/static/dist/openassessment-lms.dc8bb1e464bcaaab4668.js:319
 #: xblock/static/js/src/lms/oa_course_items_listing.js:200
@@ -650,3 +650,13 @@ msgstr ""
 #: xblock/static/js/src/studio/oa_edit.js:319
 msgid "error count: "
 msgstr "кількість помилок :"
+
+#: templates/legacy/oa_base.html:16 templates/openassessmentblock/base.html:22
+msgid ""
+"This assignment has several steps. In the first step, you'll provide a "
+"response to the prompt. The other steps appear below the Your Response "
+"field."
+msgstr ""
+"Це завдання складається з кількох етапів. На першому кроці вам потрібно "
+"надати відповідь на запитання. Інші кроки з'являться під полем "
+"«Ваша відповідь»."

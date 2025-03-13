@@ -2538,19 +2538,19 @@ msgstr ""
 #, python-brace-format
 msgid "Incorrect ({progress} point)"
 msgid_plural "Incorrect ({progress} points)"
-msgstr[0] "Невірно ({progress} бал)"
-msgstr[1] "Невірно ({progress} балів)"
-msgstr[2] "Невірно ({progress} балів)"
-msgstr[3] "Невірно ({progress} балів)"
+msgstr[0] "Неправильно ({progress} бал)"
+msgstr[1] "Неправильно ({progress} балів)"
+msgstr[2] "Неправильно ({progress} балів)"
+msgstr[3] "Неправильно ({progress} балів)"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #, python-brace-format
 msgid "Correct ({progress} point)"
 msgid_plural "Correct ({progress} points)"
-msgstr[0] "Вірно ({progress} бал)"
-msgstr[1] "Вірно ({progress} балів)"
-msgstr[2] "Вірно ({progress} балів)"
-msgstr[3] "Вірно ({progress} балів)"
+msgstr[0] "Правильно ({progress} бал)"
+msgstr[1] "Правильно ({progress} балів)"
+msgstr[2] "Правильно ({progress} балів)"
+msgstr[3] "Правильно ({progress} балів)"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #, python-brace-format
@@ -2633,8 +2633,8 @@ msgid ""
 "Your answers have been saved but not graded. Click '{button_name}' to grade "
 "them."
 msgstr ""
-"Ваші відповіді були збережені, але вони не оцінюються. Натисніть кнопку "
-"'{button_name}' для їх оцінки."
+"Ваші відповіді були збережені, але ще не оцінені. Натисніть кнопку "
+"'{button_name}', щоб отримати оцінку."
 
 #. Translators: 'closed' means the problem's due date has passed. You may no
 #. longer attempt to solve the problem.
@@ -5184,7 +5184,7 @@ msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 msgid "Account Activation"
-msgstr ""
+msgstr "Активація облікового запису"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:27
 #, python-format
@@ -5193,20 +5193,20 @@ msgid ""
 "engaging, high-quality %(platform_name)s courses. Note that you will not be "
 "able to log back into your account until you have activated it."
 msgstr ""
-"Ви майже з нами! Скористайтеся посиланням, щоб активувати свій обліковий "
-"запис та отримати доступ до цікавих та якісних курсів від  "
-"%(platform_name)s. Зауважте, що ви не зможете ввійти до свого облікового "
-"запису, доки ви його не активуєте."
+"Ви за крок до старту! Будь ласка, активуйте свій обліковий запис за допомогою "
+"посилання нижче, щоб отримати доступ до захопливих та якісних курсів від "
+"%(platform_name)s. Зверніть увагу, що ви не зможете увійти до свого облікового запису, "
+"доки не активуєте його."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 msgid "Activate Your Account"
-msgstr ""
+msgstr "Активувати обліковий запис"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html
 #: common/templates/student/edx_ace/accountactivation/email/body.txt
 #, python-format
 msgid "Enjoy learning with %(platform_name)s."
-msgstr "Насолоджуйтесь навчанням з %(platform_name)s."
+msgstr "Навчайтеся із задоволенням разом із %(platform_name)s."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:50
 #, python-format, python-brace-format
@@ -5215,9 +5215,9 @@ msgid ""
 "{start_anchor_web}%(support_url)s{end_anchor} or email "
 "{start_anchor_email}%(support_email)s{end_anchor}."
 msgstr ""
-"Якщо Вам потрібна допомога, можете використовувати форму "
-"{start_anchor_web}%(support_url)s{end_anchor} або написати нам на електронну "
-"пошту {start_anchor_email}%(support_email)s{end_anchor}."
+"Якщо вам потрібна допомога, скористайтеся нашою веб-формою "
+"{start_anchor_web}%(support_url)s{end_anchor} або напишіть нам на "
+"{start_anchor_email}%(support_email)s{end_anchor}."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:64
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:10
@@ -5226,9 +5226,8 @@ msgid ""
 "This email message was automatically sent by %(lms_url)s because someone "
 "attempted to create an account on %(platform_name)s using this email address."
 msgstr ""
-"Цей лист було автоматично відправлено з %(lms_url)s, тому що хтось спробував "
-"створити обліковий запис на %(platform_name)s використовуючи цю електронну "
-"адресу."
+"Цей лист було автоматично надіслано з %(lms_url)s, оскільки хтось спробував "
+"створити обліковий запис на %(platform_name)s із цією електронною адресою."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:8
 #, python-format
@@ -8618,7 +8617,7 @@ msgstr "Вас було запрошено на бета-тестування д
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html
 #, python-format
 msgid "You have been invited to %(course_name)s"
-msgstr "Вас було запрошено до%(course_name)s"
+msgstr "Вас було запрошено до курсу %(course_name)s"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt
@@ -8789,7 +8788,7 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"Вас було запрошено у%(course_name)s "
+"Вас було запрошено до курсу %(course_name)s "
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.txt
@@ -8799,13 +8798,13 @@ msgid ""
 "the course staff. This course will now appear on your %(site_name)s "
 "dashboard."
 msgstr ""
-"Ви були зареєстровані в одному %(course_name)sз "
-"%(site_name)sспівробітниками  курсу. Цей курс тепер відображатиметься на "
-"вашій %(site_name)s інформаційній панелі."
+"Вас зараховано на курс %(course_name)s на платформі "
+"%(site_name)s командою курсу. Тепер цей курс з’явиться на вашій інформаційній "
+"панелі на %(site_name)s"
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
 msgid "Access the Course Materials Now"
-msgstr "Перейти до Матеріалів Курсу зараз"
+msgstr "Перейти до матеріалів курсу"
 
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.html
 #, python-format
@@ -11004,7 +11003,7 @@ msgid ""
 "We received a deletion request for your account on %(platform_name)s. We're "
 "sorry to see you go!"
 msgstr ""
-"Ми отримали запит на видалення вашого облікового запису%(platform_name)s . "
+"Ми отримали запит на видалення вашого облікового запису %(platform_name)s. "
 "Нам шкода, що ви йдете!"
 
 #: openedx/core/djangoapps/user_api/templates/user_api/edx_ace/deletionnotificationmessage/email/body.html
@@ -11015,11 +11014,10 @@ msgid ""
 "If you want to opt-out of emails before then, please unsubscribe from the "
 "footer of any email."
 msgstr ""
-"Ваш обліковий запис буде видалено найближчим часом. Видалення облікового "
-"запису, включаючи видалення зі списків електронної пошти, може зайняти "
-"кілька тижнів, щоб повністю обробити через нашу систему. Якщо ви хочете "
-"відмовитися від електронних листів до цього, будь ласка, скасуйте підписку "
-"на нижній колонтитул будь-якої електронної пошти."
+"Ваш обліковий запис буде видалено найближчим часом. Процес видалення облікового "
+"запису, включаючи виключення з електронних розсилок, може зайняти кілька тижнів. "
+"Якщо ви хочете відмовитися від отримання листів раніше, будь ласка, відпишіться "
+"через посилання у футері будь-якого листа."
 
 #: openedx/core/djangoapps/user_api/templates/user_api/edx_ace/deletionnotificationmessage/email/body.html
 #: openedx/core/djangoapps/user_api/templates/user_api/edx_ace/deletionnotificationmessage/email/body.txt
@@ -11028,8 +11026,8 @@ msgid ""
 "This is an informational email only. If you did not initiate this request, "
 "please contact %(contact_email)s."
 msgstr ""
-"Це лише інформаційний лист. Якщо ви не ініціювали цей запит,  будь ласка "
-"зверніться до служби%(contact_email)s."
+"Цей лист є лише інформаційним. Якщо ви не надсилали цей запит, будь ласка, "
+"зв’яжіться з нами: %(contact_email)s."
 
 #: openedx/core/djangoapps/user_api/templates/user_api/edx_ace/deletionnotificationmessage/email/body.html
 #: openedx/core/djangoapps/user_api/templates/user_api/edx_ace/deletionnotificationmessage/email/body.txt
@@ -12944,7 +12942,7 @@ msgstr "Вперед"
 #: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:33
 #: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:41
 msgid "Reset"
-msgstr "Зкинути"
+msgstr "Скинути"
 
 #: cms/templates/widgets/footer.html:45 lms/templates/footer.html:50
 #: lms/templates/footer.html:127 themes/red-theme/lms/templates/footer.html:78
@@ -19987,20 +19985,19 @@ msgstr "Повернутися до Вашої Панелі управління
 
 #: lms/templates/widgets/cookie-consent.html:20
 msgid ""
-"This website uses cookies to ensure you get the best experience on our "
-"website. If you continue browsing this site, we understand that you accept "
-"the use of cookies."
+"We use cookies on this site to enhance your user experience. "
+"By using this website, you accept this use."
 msgstr ""
-"Цей  веб-сайт використовує  cookies для надання найкращого досвіду на нашому "
-"сайті."
+"Ми використовуємо файли cookie на цьому сайті, щоб покращити ваш досвід користувача. "
+"Використовуючи цей вебсайт, ви погоджуєтесь з їхнім використанням."
 
 #: lms/templates/widgets/cookie-consent.html:21
-msgid "Got it!"
-msgstr "Зрозуміло!"
+msgid "Learn more about it in {link_start}Cookie Policy{link_end}."
+msgstr "Докладніше читайте в {link_start}Політиці використання файлів cookie{link_end}."
 
 #: lms/templates/widgets/cookie-consent.html
-msgid "Learn more"
-msgstr "Дізнатися більше"
+msgid "For a complete overview of all cookies used, please see your personal settings."
+msgstr "Для перегляду всіх файлів cookie, що використовуються, будь ласка, перегляньте свої особисті налаштування."
 
 #: lms/templates/wiki/includes/article_menu.html:14
 #: lms/templates/wiki/includes/article_menu.html:23
@@ -26033,7 +26030,7 @@ msgstr ""
 msgid ""
 "This email was automatically sent from %(platform_name)s to %(full_name)s."
 msgstr ""
-"Це повідомлення електронної пошти було автоматично надіслано "
+"Цей електронний лист було автоматично надіслано від "
 "з%(platform_name)s до %(full_name)s."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/subject.txt:3
@@ -26857,22 +26854,22 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"           Це повідомлення електронної пошти було автоматично надіслано "
-"з%(platform_name)s.\n"
+"           Цей лист було автоматично надіслано від "
+"%(platform_name)s.\n"
 "         "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:24
 #, python-format
 msgid ""
 "\n"
-"            You are receiving this email at address %(email)s because you "
+"            You are receiving this email at address <a style=\"color:%(brand_color)s;\" href=\"mailto:%(email)s\">%(email)s</a> because you "
 "are enrolled in\n"
 "          "
 msgstr ""
 "\n"
-"          Ви отримали цей електронний лист на адресу %(email)s, тому що Ви "
-"зареєстровані на\n"
-"          "
+"            Ви отримали цей лист на адресу <a style=\"color:%(brand_color)s;\" href=\"mailto:%(email)s\">%(email)s</a>, оскільки ви "
+"зараховані на курс.\n"
+"          "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:30
 msgid ""
@@ -26882,8 +26879,8 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"           Щоб більше не отримувати такі електронні листи, оновіть "
-"налаштування електронної пошти обраного курсу\n"
+"           Щоб припинити отримувати такі листи, оновіть "
+"налаштування електронної пошти курсу\n"
 "         "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:33
@@ -26897,9 +26894,7 @@ msgstr "Скасувати підписку"
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:7
 #, python-format
 msgid "This email was automatically sent from %(platform_name)s."
-msgstr ""
-"Це повідомлення електронної пошти було автоматично надіслано "
-"з%(platform_name)s ."
+msgstr "Цей лист було автоматично надіслано від %(platform_name)s."
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:8
 #, python-format
@@ -26907,17 +26902,15 @@ msgid ""
 "You are receiving this email at address %(email)s because you are enrolled "
 "in %(course_title)s."
 msgstr ""
-"Ви отримали цей електронний лист на адресу %(email)s, тому що Ви "
-"зареєстровані на %(course_title)s."
+"Ви отримали цей електронний лист на адресу %(email)s, оскільки ви "
+"зараховані на курс %(course_title)s."
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:9
 #, python-format
 msgid ""
-"To stop receiving email like this, update your course email settings here "
-"%(email_settings_url)s"
+"To stop receiving email like this, update your course email settings"
 msgstr ""
-"Щоб більше не отримувати такі електронні листи, оновіть налаштування "
-"електронної пошти обраного курсу тут %(email_settings_url)s."
+"Щоб припинити отримувати такі листи, оновіть налаштування електронної пошти"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:10
 #, python-format
