@@ -177,5 +177,9 @@
   "complete.your.profile.2": "ملفك الشخصي",
   "register.page.terms.of.service.and.honor.code": "by بإنشاء حساب ، فإنك توافق على to على {tosAndHonorCode} وتقر بأن {platformName} وكل Member يعالج data الخاص بك in وفقًا لـ {privacyPolicy} .",
   "register.page.honor.code": "أوافق على to و {platformName} {tosAndHonorCode}",
-  "register.page.terms.of.service": "أوافق على to و {platformName} {termsOfService}"
+  "register.page.terms.of.service": "أوافق على to و {platformName} {termsOfService}",
+  "name_ar.validation.message": "الرجاء استخدام الحروف والمسافات العربية.",
+  "registration.fullname_ar.label": "الاسم كامل  باللغة العربية اختياري",
+  "help.text.name_ar": "سيستخدم هذا الاسم في أيّ شهادة تحصل عليها.",
+  "empty.name_ar.field.error": "الرجاء استخدام الحروف والمسافات العربية."
 }
