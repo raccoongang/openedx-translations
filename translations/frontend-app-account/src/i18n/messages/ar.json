@@ -354,5 +354,8 @@
   "id.verification.requirements.card.device.text": "أنت بحاجة إلى جهاز مزود بكاميرا. إذا تلقيت طلبًا من المتصفح للوصول إلى كاميرا جهازك، فتأكد رجاءً من النقر على {السماح}.",
   "id.verification.account.name.summary.alert": "إعدادات حسابك يديرها {managerTitle}. إن لم يكن الاسم في بطاقة هويتك ذات الصورة. مطابقًا للاسم الذي في حسابك، فيرجى الاتصال بالمسؤول {profileDataManager} أو ب{support} للحصول على المساعدة قبل إتمام عملية التحقق من الصورة..",
   "idv.submission.alert.error": "لقد واجهنا مشكلة فنية error أثناء محاولة to submit ID Verification . قد تكون this مشكلة مؤقتة، لذا Please حاول مرة أخرى in قليلًا minutes . إذا استمرت المشكلة Problem ، فانتقل Please إلى to {support_link} للحصول على المساعدة.",
-  "id.verification.account.name.edit": "تعديل {sr}"
+  "id.verification.account.name.edit": "تعديل {sr}",
+  "account.settings.field.full.name_ar": "الاسم كامل باللغة العربية",
+  "account.settings.field.full.name_ar.empty": "أضف الاسم باللغة العربية",
+  "account.settings.field.full.name_ar.help.text": "الاسم الذي سوف يظهر بالشهادة"
 }
