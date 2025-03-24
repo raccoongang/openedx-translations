@@ -766,20 +766,20 @@ msgstr[3] "{earned} / {possible} бали (без оцінки)"
 #: public/js/drag_and_drop.js:627
 msgid "{possible} point possible (graded)"
 msgid_plural "{possible} points possible (graded)"
-msgstr[0] "{possible} бал можливий (з оцінкою)"
-msgstr[1] "{possible} можливих балів (з оцінкою)"
-msgstr[2] "{possible} можливих балів (з оцінкою)"
-msgstr[3] "{possible} можливих балів (з оцінкою)"
+msgstr[0] "Можливий {possible} бал (з оцінкою)"
+msgstr[1] "Можливі {possible} бали (з оцінкою)"
+msgstr[2] "Можливі {possible} бали (з оцінкою)"
+msgstr[3] "Можливі {possible} бали (з оцінкою)"
 
 #. Translators: {possible} is the number of points possible (examples: 1, 3,
 #. 10).
 #: public/js/drag_and_drop.js:634
 msgid "{possible} point possible (ungraded)"
 msgid_plural "{possible} points possible (ungraded)"
-msgstr[0] "{possible} можливий бал (без оцінки)"
-msgstr[1] "{possible} можливих балів (без оцінки)"
-msgstr[2] "{possible} можливих балів (без оцінки)"
-msgstr[3] "{possible} можливих балів (без оцінки)"
+msgstr[0] "Можливий {possible} бал (без оцінки)"
+msgstr[1] "Можливі {possible} бали (без оцінки)"
+msgstr[2] "Можливі {possible} бали (без оцінки)"
+msgstr[3] "Можливі {possible} бали (без оцінки)"
 
 #: public/js/drag_and_drop.js:660
 msgid "Drag and Drop Problem"
