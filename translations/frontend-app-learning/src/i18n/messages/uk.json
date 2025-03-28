@@ -71,7 +71,7 @@
   "learning.goals.unsubscribe.goToDashboard": "Перейти на інформаційну панель",
   "learning.goals.unsubscribe.header": "Ви відписалися від нагадувань про цілі",
   "learning.goals.unsubscribe.loading": "Відписка...",
-  "learning.outline.sequence-due-date-set": "{description} до {assignmentDue}",
+  "learning.outline.sequence-due-date-set": "{description} дедлайн {assignmentDue}",
   "learning.outline.sequence-due-date-not-set": "{description}",
   "learning.outline.dates.all": "Переглянути всі важливі дати курсу",
   "learning.outline.goalButton.casual.text": "1 раз на тиждень",
@@ -467,5 +467,6 @@
   "learn.sequence.navigation.next.button": "Далі",
   "learn.sequence.navigation.next.up.button": "Далі: {title}",
   "learn.sequence.navigation.previous.button": "Назад",
-  "discussions.sidebar.open.button": "Показати панель обговорень"
+  "discussions.sidebar.open.button": "Показати панель обговорень",
+  "pgn.Alert.closeLabel": "Відхилити"
 }

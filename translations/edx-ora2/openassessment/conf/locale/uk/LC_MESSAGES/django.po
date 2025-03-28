@@ -71,5 +71,5 @@ msgid "(Required)"
 msgstr "(обов’язково)"
 
 #: openassessment/xblock/ui_mixins/legacy/views/submission.py:155
-msgid "Response not started. "
+msgid "Response not started."
 msgstr "Виконання не розпочато."

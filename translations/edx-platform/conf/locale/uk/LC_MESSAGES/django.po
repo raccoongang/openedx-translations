@@ -8777,7 +8777,7 @@ msgstr "Це не вплине на Ваші інші курси."
 #, python-format
 msgid "This email was automatically sent from %(site_name)s to %(full_name)s"
 msgstr ""
-"Це повідомлення електронної пошти було автоматично надіслано з%(site_name)s "
+"Це повідомлення електронної пошти було автоматично надіслано з %(site_name)s "
 "до %(full_name)s"
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
@@ -8798,9 +8798,8 @@ msgid ""
 "the course staff. This course will now appear on your %(site_name)s "
 "dashboard."
 msgstr ""
-"Вас зараховано на курс %(course_name)s на платформі "
-"%(site_name)s командою курсу. Тепер цей курс з’явиться на вашій інформаційній "
-"панелі на %(site_name)s"
+"Вас зараховано на курс %(course_name)s на %(site_name)s командою курсу. "
+"Тепер цей курс з’явиться на сторінці Мої курси на %(site_name)s."
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html
 msgid "Access the Course Materials Now"
@@ -25895,7 +25894,7 @@ msgstr "Активація облікового запису"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:33
 msgid "Activate your account"
-msgstr "Активуйте Ваш обліковий запис"
+msgstr "Активувати обліковий запис"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:2
 #, python-format
@@ -26862,12 +26861,12 @@ msgstr ""
 #, python-format
 msgid ""
 "\n"
-"            You are receiving this email at address <a style=\"color:%(brand_color)s;\" href=\"mailto:%(email)s\">%(email)s</a> because you "
+"          You are receiving this email at address <a style=\"color:%(brand_color)s;\" href=\"mailto:%(email)s\">%(email)s</a> because you "
 "are enrolled in\n"
-"          "
+"        "
 msgstr ""
 "\n"
-"            Ви отримали цей лист на адресу <a style=\"color:%(brand_color)s;\" href=\"mailto:%(email)s\">%(email)s</a>, оскільки ви "
+"          Ви отримали цей лист на адресу <a style=\"color:%(brand_color)s;\" href=\"mailto:%(email)s\">%(email)s</a>, оскільки ви "
 "зараховані на курс.\n"
 "          "
 
@@ -29246,3 +29245,100 @@ msgstr "Скористайся кнопкою \"{}\"."
 
 msgid "I am Sigma Software employee"
 msgstr "Я співробітник Sigma Software"
+
+#: templates/legacy/oa_base.html:16 templates/openassessmentblock/base.html:22
+msgid ""
+"This assignment has several steps. In the first step, you'll provide a "
+"response to the prompt. The other steps appear below the Your Response "
+"field."
+msgstr ""
+"Це завдання складається з кількох етапів. На першому кроці вам потрібно "
+"надати відповідь на запитання. Інші кроки з'являться під полем «Ваша відповідь»."
+
+#: templates/legacy/message/oa_message_open.html:11
+#, python-format
+msgid ""
+"\n"
+"                    This assignment has several steps. In the first step, you'll provide a response to the prompt. The other steps appear below the %(start_tag)sYour Response%(end_tag)s field.\n"
+"                "
+msgstr ""
+"\n"
+"                    Це завдання складається з кількох етапів. На першому кроці вам потрібно надати відповідь на запитання. Інші кроки з'являться під полем %(start_tag)s«Ваша відповідь»%(end_tag)s.\n"
+"                "
+
+#: templates/legacy/response/oa_response.html:89
+msgid "Enter your response to the prompt."
+msgstr "Напишіть свою відповідь на завдання."
+
+#: templates/legacy/response/oa_response.html:68
+msgid ""
+"\n"
+"                        Your work will save automatically and you can return to complete your team's response at any time before the due date\n"
+"                      "
+msgstr ""
+"\n"
+"Вашу роботу буде збережено автоматично, і ви зможете повернутися до неї в будь-який час до крайнього терміну\n"
+"                      "
+
+#: templates/legacy/response/oa_response.html:96
+msgid ""
+"Your work will save automatically and you can return to complete your "
+"response at any time before the due date "
+msgstr ""
+"Вашу роботу буде збережено автоматично, і ви зможете повернутися до неї в "
+"будь-який час до крайнього терміну"
+
+#: templates/legacy/response/oa_response.html:110
+msgid "After you submit your response, you cannot edit it"
+msgstr "Після надсилання відповіді редагування буде неможливе"
+
+#: templates/legacy/staff/oa_staff_grade.html:13 xblock/grade_mixin.py:365
+msgid "Staff Grade"
+msgstr "Оцінка викладача"
+
+#: templates/legacy/grade/oa_grade_cancelled.html:14
+#: templates/legacy/grade/oa_grade_complete.html:15
+#: templates/legacy/grade/oa_grade_complete.html:26
+#: templates/legacy/grade/oa_grade_incomplete.html:14
+#: templates/legacy/grade/oa_grade_not_started.html:14
+#: templates/legacy/grade/oa_grade_waiting.html:14
+msgid "Your Grade"
+msgstr "Ваша оцінка"
+
+#: templates/legacy/grade/oa_grade_not_started.html:16
+msgid "Not Started"
+msgstr "Не розпочато"
+
+#: templates/legacy/peer/oa_peer_unavailable.html:16
+#: templates/legacy/response/oa_response_unavailable.html:17
+#: templates/legacy/self/oa_self_unavailable.html:17
+#: templates/legacy/student_training/student_training_unavailable.html:16
+msgid "Not Available"
+msgstr "недоступно"
+
+#: templates/legacy/response/oa_response.html:332
+msgid "Submit your response and move to the next step"
+msgstr "Надіслати відповідь і перейти до наступного кроку"
+
+#: templates/legacy/grade/oa_grade_complete.html:38
+#: templates/legacy/response/oa_response.html:29
+msgid "Your Response"
+msgstr "Ваша відповідь"
+
+#: templates/legacy/response/oa_response.html:177
+#: templates/legacy/response/oa_response.html:247
+msgid "(Required)"
+msgstr "(обов’язково)"
+
+#: templates/legacy/response/oa_response.html:197
+msgid "Enter your response to the prompt above."
+msgstr "Введіть відповідь на завдання вище."
+
+#: openassessment/xblock/ui_mixins/legacy/views/submission.py:155
+msgid "Response not started. "
+msgstr "Виконання не розпочато."
+
+#: xblock/static/dist/openassessment-lms.dc8bb1e464bcaaab4668.js:319
+#: xblock/static/js/src/lms/oa_course_items_listing.js:169
+msgid "Staff Grader"
+msgstr "Перевіряючий викладач"

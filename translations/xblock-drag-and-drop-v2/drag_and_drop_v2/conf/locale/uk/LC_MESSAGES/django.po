@@ -719,7 +719,7 @@ msgstr "Перейти на початок"
 
 #: public/js/drag_and_drop.js:472
 msgid "Reset"
-msgstr "Зкинути"
+msgstr "Скинути"
 
 #: public/js/drag_and_drop.js:506 public/js/drag_and_drop.js:1233
 msgid "Some of your answers were not correct."
