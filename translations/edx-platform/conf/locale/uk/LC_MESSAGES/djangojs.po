@@ -12409,3 +12409,8 @@ msgstr ""
 #: extended_platform/overrides.py
 msgid "Use \"{}\" button."
 msgstr "Використайте \"{}\" кнопку."
+
+#: xblock/static/dist/openassessment-lms.dc8bb1e464bcaaab4668.js:319
+#: xblock/static/js/src/lms/oa_course_items_listing.js:169
+msgid "Staff Grader"
+msgstr "Перевіряючий викладач"
