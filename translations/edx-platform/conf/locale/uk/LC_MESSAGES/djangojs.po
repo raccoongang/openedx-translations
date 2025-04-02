@@ -11630,7 +11630,7 @@ msgstr "Переглянути файли"
 #: cms/static/js/views/pages/container.js:344
 #: cms/static/js/views/utils/xblock_utils.js:134
 msgid "Dismiss"
-msgstr "Відхилити"
+msgstr "Закрити"
 
 #: cms/static/js/views/modals/course_outline_modals.js:279
 msgid "Enable Course Highlight Emails"

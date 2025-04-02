@@ -222,7 +222,7 @@
   "learning.streakCelebration.factoidBBoldedSection": "завершити в середньому в 5 разів більше вмісту курсу",
   "learning.streakCelebration.streakDiscountMessage": "Ви розблокували знижку {percent}% при переході на новий курс лише протягом обмеженого часу.",
   "progress.certificateStatus.unverifiedBody": "Для того, щоб згенерувати сертифікат, ви повинні пройти верифікацію особи. {idVerificationSupportLink}.",
-  "progress.certificateStatus.downloadableBody": "Продемонструйте свої досягнення на LinkedIn або в резюме вже сьогодні. Ви можете завантажити свій сертифікат зараз і отримати доступ до нього в будь-який час з {dashboardLink} та {profileLink}.",
+  "progress.certificateStatus.downloadableBody": "Продемонструйте свої досягнення на LinkedIn або в резюме вже сьогодні. Ви можете завантажити свій сертифікат зараз і отримати доступ до нього в будь-який час на сторінках {dashboardLink} та {profileLink}.",
   "courseCelebration.certificateBody.notAvailable.endDate": "Підсумкові оцінки та всі отримані сертифікати будуть доступні після {endDate}.",
   "progress.certificateStatus.notPassingHeader": "Статус сертифіката",
   "progress.certificateStatus.notPassingBody": "Щоб отримати сертифікат, потрібно набрати прохідний бал.",
@@ -468,5 +468,5 @@
   "learn.sequence.navigation.next.up.button": "Далі: {title}",
   "learn.sequence.navigation.previous.button": "Назад",
   "discussions.sidebar.open.button": "Показати панель обговорень",
-  "pgn.Alert.closeLabel": "Відхилити"
+  "pgn.Alert.closeLabel": "Закрити"
 }

@@ -11506,7 +11506,7 @@ msgstr "{header_open}{title}{header_close}"
 #: openedx/features/course_experience/templates/course_experience/latest-update-fragment.html
 #: openedx/features/course_experience/templates/course_experience/welcome-message-fragment.html
 msgid "Dismiss"
-msgstr "Відхилити"
+msgstr "Закрити"
 
 #: openedx/core/djangoapps/verified_track_content/models.py
 msgid "The course key for the course we would like to be auto-cohorted."
@@ -14243,7 +14243,7 @@ msgstr ""
 
 #: lms/templates/vert_module.html:18
 msgid "{subsection_format} due {{date}}"
-msgstr "{subsection_format} до {{date}}"
+msgstr "{subsection_format} дедлайн {{date}}"
 
 #: lms/templates/vert_module.html:22
 msgid "Due {date}"
@@ -27667,7 +27667,7 @@ msgstr "Конфігураційні дані LTI для цієї програм
 #. an invalid email format.
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:55
 msgid "Enter a valid email address"
-msgstr "Введіть введіть дійсну адресу електронної пошти"
+msgstr "Введіть дійсну адресу електронної пошти"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:64
 msgid "This email is already associated with an existing account"
@@ -29320,9 +29320,19 @@ msgstr "недоступно"
 msgid "Submit your response and move to the next step"
 msgstr "Надіслати відповідь і перейти до наступного кроку"
 
+#: templates/legacy/response/oa_response.html:173
+msgid "Your Response "
+msgstr "Ваша відповідь "
+
 #: templates/legacy/grade/oa_grade_complete.html:38
 #: templates/legacy/response/oa_response.html:29
 msgid "Your Response"
+msgstr "Ваша відповідь"
+
+#: templates/legacy/response/oa_response_graded.html:30
+#: templates/legacy/response/oa_response_submitted.html:51
+#: templates/legacy/self/oa_self_assessment.html:67
+msgid "Your response"
 msgstr "Ваша відповідь"
 
 #: templates/legacy/response/oa_response.html:177
