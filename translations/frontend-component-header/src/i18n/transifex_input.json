@@ -33,5 +33,10 @@
   "header.user.menu.studio": "Studio Home",
   "header.user.menu.maintenance": "Maintenance",
   "header.label.courseOutline": "Back to course outline in Studio",
-  "header.label.search.nav": "Search content"
+  "header.label.search.nav": "Search content",
+  "header.cookie.banner.text": "We use cookies on this site to enhance your user experience. By using this website, you accept this use. Learn more about it in {cookiePolicyLink}. For a complete overview of all cookies used, please see your personal settings.",
+  "header.cookie.banner.link.text": "Cookie Policy",
+  "header.cookie.banner.aria.label.text": "Notice about use of cookies on {siteName}.",
+  "header.cookie.banner.privacy.policy.text": "edX and its Members use cookies and other tracking technologies for performance, analytics, and marketing purposes. By using this website, you accept this use. Learn more about these technologies in {privacyPolicyLink}.",
+  "header.cookie.banner.privacy.policy.link.text": "Privacy Policy"
 }
