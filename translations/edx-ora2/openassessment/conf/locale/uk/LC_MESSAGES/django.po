@@ -73,3 +73,10 @@ msgstr "(обов’язково)"
 #: openassessment/xblock/ui_mixins/legacy/views/submission.py:155
 msgid "Response not started."
 msgstr "Виконання не розпочато."
+
+#: templates/legacy/peer/oa_peer_unavailable.html:16
+#: templates/legacy/response/oa_response_unavailable.html:17
+#: templates/legacy/self/oa_self_unavailable.html:17
+#: templates/legacy/student_training/student_training_unavailable.html:16
+msgid "Not Available"
+msgstr "недоступно"
