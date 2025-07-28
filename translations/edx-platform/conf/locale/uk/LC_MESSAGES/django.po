@@ -29352,3 +29352,7 @@ msgstr "Виконання не розпочато."
 #: xblock/static/js/src/lms/oa_course_items_listing.js:169
 msgid "Staff Grader"
 msgstr "Перевіряючий викладач"
+
+#: templates/timed_exam/submitted.html:34
+msgid "Return to the course outline"
+msgstr "Повернутися до структури курсу"
