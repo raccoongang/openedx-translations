@@ -14,7 +14,7 @@
   "footer.edxLinks.news": "Noticias",
   "footer.legalLinks.heading": "Legal",
   "footer.legalLinks.termsOfService": "Condiciones del servicio y código de honor",
-  "footer.legalLinks.privacyPolicy": "Política de privacidad",
+  "footer.legalLinks.privacyPolicy": "Política de privacidad !TEMPORARY CHANGE 1!",
   "footer.legalLinks.a11yPolicy": "Política de accesibilidad",
   "footer.legalLinks.trademarkPolicy": "Política de marca registrada",
   "footer.legalLinks.sitemap": "Mapa del sitio",
@@ -37,7 +37,7 @@
   "authoring.footer.help.studioX.button.label": "inscribirse en StudioX",
   "authoring.footer.help.contactUs.button.label": "Contactarse",
   "authoring.footer.termsOfService.link.label": "Condiciones del servicio",
-  "authoring.footer.privacyPolicy.link.label": "Política de privacidad",
+  "authoring.footer.privacyPolicy.link.label": "Política de privacidad !TEMPORARY CHANGE 2!",
   "authoring.footer.accessibilityRequest.link.label": "Solicitud de alojamiento de accesibilidad",
   "authoring.footer.trademark.message": "edX y Open edX, y los logotipos de edX y Open edX son marcas comerciales registradas de"
 }
