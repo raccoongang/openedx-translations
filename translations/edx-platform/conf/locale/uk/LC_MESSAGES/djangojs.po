@@ -11517,15 +11517,6 @@ msgstr ""
 msgid "Use Current Transcript"
 msgstr "Використати Поточний Транскрипт"
 
-# custom translations
-#: lms/templates/student_account/login.underscore
-msgid ""
-"If you are a Sigma Software employee, please press the button below and use "
-"your corporate email to sign in."
-msgstr ""
-"Якщо Ви є співробітником Sigma Software, будь ласка, натисніть кнопку нижче "
-"і використовуйте свою корпоративну електронну пошту для входу."
-
 #: lms/templates/student_account/login.underscore
 msgid ""
 "If you have registered in any other way, please use your email and password "
@@ -11537,11 +11528,6 @@ msgstr ""
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
 msgid "To my courses"
 msgstr "Мої курси"
-
-# translation for custom sso provider name
-#: lms/static/templates/student_account/login.underscore
-msgid "I am Sigma Software employee"
-msgstr "Я співробітник Sigma Software"
 
 #: cms/static/js/models/settings/course_details.js:94
 msgid "The certificate display behavior must be one of: {behavior_options}"
