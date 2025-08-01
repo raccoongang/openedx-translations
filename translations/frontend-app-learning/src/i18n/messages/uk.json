@@ -26,8 +26,8 @@
   "learning.accessExpiration.upgradeNow": "Оновити зараз",
   "learning.activeEnterprise.alert": "{changeActiveEnterprise} .",
   "learning.activeEnterprise.change.alert": "змінити організацію зараз",
-  "learning.outline.alert.start.short": "Курс почнеться {timeRemaining}, {courseStartTime}.",
-  "learning.outline.alert.start.long": "Курс почнеться {timeRemaining}, {courseStartDate}.",
+  "learning.outline.alert.start.short": "Курс починається {timeRemaining} о {courseStartTime}.",
+  "learning.outline.alert.start.long": "Курс починається {timeRemaining} {courseStartDate}.",
   "learning.outline.alert.start.calendar": "Не забудьте додати нагадування в календар!",
   "instructorToolbar.pageBanner.courseHasNotStarted": "Цей учень ще не має доступу до цього курсу. Курс розпочнеться {date}.",
   "learning.enrollment.alert": "Ви повинні записатися на курс аби бачити контент курсу.",
@@ -80,6 +80,8 @@
   "learning.outline.collapseAll": "Згорнути зміст",
   "learning.outline.completedAssignment": "Завершено",
   "learning.outline.completedSection": "Завершений розділ",
+  "learning.outline.hiddenSection": "Приховано в Конспекті курсу, доступний за посиланням",
+  "learning.outline.hiddenSequenceLink": "Підрозділи не є навігаційними між собою, доступ до них можливий лише за їхнім посиланням.",
   "learning.outline.dates": "Важливі дати",
   "learning.outline.editGoal": "Редагувати ціль",
   "learning.outline.expandAll": "Розгорнути зміст",
@@ -468,5 +470,10 @@
   "learn.sequence.navigation.next.up.button": "Далі: {title}",
   "learn.sequence.navigation.previous.button": "Назад",
   "discussions.sidebar.open.button": "Показати панель обговорень",
-  "pgn.Alert.closeLabel": "Закрити"
+  "pgn.Alert.closeLabel": "Закрити",
+  "courseOutline.loading": "Завантаження...",
+  "courseOutline.toggle.button": "Перемикання лотка контуру курсу",
+  "courseOutline.tray.title": "Структура курсу",
+  "courseOutline.completedUnit": "Готовий блок",
+  "courseOutline.incompleteUnit": "Неповний блок"
 }

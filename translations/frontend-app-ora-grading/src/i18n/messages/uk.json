@@ -38,6 +38,8 @@
   "ora-grading.ListView.backToResponsesLowercase": "повернутися до всіх відкритих відповідей",
   "ora-grading.ListView.reloadSubmissions": "Оновити подання",
   "ora-grading.ListView.loadingResponses": "Завантаження відповідей",
+  "ora-grading.NotificationsBanner.Message": "Тепер ви можете ввімкнути сповіщення для завдань ORA, які потребують оцінювання персоналу, у розділі",
+  "ora-grading.NotificationsBanner.linkMessage": "центр уподобань.",
   "ora-grading.ResponseDisplay.SubmissionFiles.tableNameHeader": "Ім'я",
   "ora-grading.ResponseDisplay.SubmissionFiles.tableExtensionHeader": "Розширення файлу",
   "ora-grading.ResponseDisplay.SubmissionFiles.tablePopoverHeader": "Метадані файлу",

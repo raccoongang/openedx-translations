@@ -55,6 +55,7 @@
   "program.record.name": "{program_name} Registro",
   "platform.and.school.name": "{platform} | {school}",
   "last.updated.date": "В останнє оновлено {date}",
+  "learner.full_name": "{full_name} |",
   "learner.username": "{username}",
   "learner.email": "{email}",
   "help.section.header": "Маєте запитання з документів щодо Вашої програми?",
