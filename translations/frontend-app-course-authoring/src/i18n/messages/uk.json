@@ -171,7 +171,7 @@
   "header.links.exportTags": "Експорт тегів",
   "header.links.checklists": "Контрольні списки",
   "header.user.menu.studio": "Головна сторінка в Студії",
-  "header.user.menu.maintenance": "Технічні робити",
+  "header.user.menu.maintenance": "Технічні роботи",
   "header.user.menu.logout": "Вийти",
   "header.label.account.menu": "Меню облікового запису",
   "header.label.account.menu.for": "Меню облікового запису для {username}",

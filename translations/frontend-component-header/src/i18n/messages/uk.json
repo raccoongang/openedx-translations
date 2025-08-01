@@ -11,7 +11,7 @@
   "header.user.menu.login": "Увійти",
   "header.user.menu.register": "Зареєструватися",
   "header.user.menu.studio.home": "Головна сторінка в Студії",
-  "header.user.menu.studio.maintenance": "Технічні робити",
+  "header.user.menu.studio.maintenance": "Технічні роботи",
   "header.label.account.nav": "Обліковий запис",
   "header.label.account.menu": "Меню облікового запису",
   "header.label.account.menu.for": "Меню облікового запису для {username}",
@@ -31,6 +31,6 @@
   "header.navigation.skipNavLink": "Перейти до головного змісту.",
   "header.menu.signOut.label": "Вийти",
   "header.user.menu.studio": "Головна сторінка в Студії",
-  "header.user.menu.maintenance": "Технічні робити",
+  "header.user.menu.maintenance": "Технічні роботи",
   "header.label.courseOutline": "Повернутися до плану курсу в Studio"
 }
