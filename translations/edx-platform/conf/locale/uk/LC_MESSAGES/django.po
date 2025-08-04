@@ -4877,7 +4877,7 @@ msgid ""
 msgstr ""
 "Момент, коли почнеться відтворення відео, якщо не потрібен перегляд всього "
 "відео. У мобільному додатку не підтримується: відео відтворюються повністю. "
-"Формат ЧЧ:ММ:СС, максимальне значення 23:59:59."
+"Формат ГГ:ХХ:СС, максимальне значення 23:59:59."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Video Start Time"
@@ -4891,7 +4891,7 @@ msgid ""
 msgstr ""
 "Момент, коли закінчеться відтворення відео, якщо не потрібен перегляд всього "
 "відео. У мобільному додатку не підтримується: відео відтворюються повністю. "
-"Формат ЧЧ:ММ:СС, максимальне значення 23:59:59."
+"Формат ГГ:ХХ:СС, максимальне значення 23:59:59."
 
 #: common/lib/xmodule/xmodule/video_module/video_xfields.py
 msgid "Video Stop Time"
@@ -15998,7 +15998,7 @@ msgstr "Зареєструватись"
 
 #: lms/templates/courseware/course_about.html
 msgid "View About Page in studio"
-msgstr "Переглянути About Page в студії"
+msgstr "Переглянути \"Про курс\" в студії"
 
 #: lms/templates/courseware/course_about.html
 msgid "Classes Start"

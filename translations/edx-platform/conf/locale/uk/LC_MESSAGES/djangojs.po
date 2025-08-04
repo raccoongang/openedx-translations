@@ -329,15 +329,15 @@ msgstr "Оновлення за допомогою найновішого вмі
 
 #: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx
 msgid "Loading..."
-msgstr ""
+msgstr "Завантаження..."
 
 #: common/lib/xmodule/xmodule/assets/library_source_block/LibrarySourcedBlockPicker.jsx
 msgid "Selected blocks"
-msgstr ""
+msgstr "Обрані блоки"
 
 #: common/lib/xmodule/xmodule/assets/library_source_block/public/js/library_source_block.js
 msgid "Unable to update settings"
-msgstr ""
+msgstr "Не вдалося оновити налаштування"
 
 #: common/lib/xmodule/xmodule/assets/split_test/public/js/split_test_author_view.js
 #: common/lib/xmodule/xmodule/js/public/js/split_test_author_view.js
@@ -2025,11 +2025,11 @@ msgstr "Переглянути підлеглі елементи"
 
 #: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx:17
 msgid "Navigate up"
-msgstr "Навігація"
+msgstr "Перейти вгору"
 
 #: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx
 msgid "Browsing"
-msgstr ""
+msgstr "Огляд"
 
 #: common/static/common/js/components/BlockBrowser/components/BlockBrowser/BlockBrowser.jsx:96
 msgid "Select"
@@ -3518,47 +3518,53 @@ msgstr "Допоможи зробити edX краще для кожного!"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "Why does edX collect this information?"
-msgstr ""
+msgstr "Чому edX збирає цю інформацію?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid ""
 "An error occurred while attempting to retrieve or save the information "
 "below. Please try again later."
 msgstr ""
+"Сталася помилка під час спроби отримати або зберегти наведену нижче "
+"інформацію. Будь ласка, спробуйте пізніше."
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid ""
 "What was the total combined income, during the last 12 months, of all "
 "members of your family? "
 msgstr ""
+"Яким був загальний сукупний дохід усіх членів вашої родини за останні 12 "
+"місяців?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid ""
 "Have you ever served on active duty in the U.S. Armed Forces, Reserves, or "
 "National Guard?"
 msgstr ""
+"Чи проходили ви активну службу в Збройних силах США, Резерві або Національній гвардії?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "What is the highest level of education that you have achieved so far?"
-msgstr ""
+msgstr "Який найвищий рівень освіти ви здобули на цей момент?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid ""
 "What is the highest level of education that any of your parents or guardians "
 "have achieved?"
 msgstr ""
+"Який найвищий рівень освіти здобув хтось із ваших батьків або опікунів?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "Select employment status"
-msgstr ""
+msgstr "Оберіть статус зайнятості"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "What industry do you currently work in?"
-msgstr ""
+msgstr "У якій галузі ви наразі працюєте?"
 
 #: lms/static/js/demographics_collection/DemographicsCollectionModal.jsx
 msgid "What industry do you want to work in?"
-msgstr ""
+msgstr "У якій галузі ви хотіли б працювати?"
 
 #: lms/static/js/demographics_collection/MultiselectDropdown.jsx:99
 msgid "Clear all"
@@ -3575,19 +3581,19 @@ msgstr "закрити анкету"
 
 #: lms/static/js/demographics_collection/Wizard.jsx
 msgid "finish later"
-msgstr ""
+msgstr "завершити пізніше"
 
 #: lms/static/js/demographics_collection/Wizard.jsx
 msgid "Return to my dashboard"
-msgstr ""
+msgstr "Повернутися до мого кабінету"
 
 #: lms/static/js/demographics_collection/Wizard.jsx
 msgid "Finish later"
-msgstr ""
+msgstr "Завершити пізніше"
 
 #: lms/static/js/demographics_collection/Wizard.jsx
 msgid "next page"
-msgstr ""
+msgstr "наступна сторінка"
 
 #: lms/static/js/discovery/views/search_form.js
 #, javascript-format
@@ -5951,7 +5957,7 @@ msgstr "Помилка завантаження"
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Organization:"
-msgstr ""
+msgstr "Організація:"
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Course Number:"
@@ -5967,7 +5973,7 @@ msgstr "(Лише для читання)"
 
 #: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx
 msgid "Re-run Course"
-msgstr ""
+msgstr "Перезапустити курс"
 
 #: cms/templates/js/show-textbook.underscore:37
 msgid "View Live"
@@ -6100,7 +6106,7 @@ msgstr "Будь ласка, введіть додатне число"
 
 #: cms/static/js/models/settings/course_grader.js
 msgid "Cannot drop more <%= types %> assignments than are assigned."
-msgstr ""
+msgstr "Неможливо виключити більше завдань типу <%= types %>, ніж призначено."
 
 #: cms/static/js/models/settings/course_grading_policy.js:79
 msgid "Grace period must be specified in HH:MM format."
@@ -7749,7 +7755,7 @@ msgstr "Статус"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Download URL"
-msgstr ""
+msgstr "Посилання для завантаження"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:9
 msgid "Grade"
@@ -7761,7 +7767,7 @@ msgstr "Останнє оновлення"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Download the user's certificate"
-msgstr ""
+msgstr "Завантажити сертифікат користувача"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Not available"
@@ -8756,6 +8762,7 @@ msgid ""
 "To complete the program, you must earn a verified certificate for each "
 "course."
 msgstr ""
+"Для завершення програми ви повинні отримати підтверджений сертифікат за кожен курс."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:112
 #: lms/templates/learner_dashboard/program_details_view.underscore:87
@@ -10083,22 +10090,22 @@ msgstr ""
 "одиниці цього підрозділу стають доступними для учнів, якщо вони не приховані "
 "явно."
 
-#: cms/templates/js/copy-clipboard-button.underscore:1
+##: cms/templates/js/copy-clipboard-button.underscore:1
 #: cms/templates/js/copy-clipboard-button.underscore:3
 msgid "Copy Component Location"
-msgstr "Копіювати розташування компонентів"
+msgstr "Копіювати розташування компонента"
 
 #: cms/templates/js/course-highlights-enable.underscore
 msgid "Weekly Highlight Emails"
-msgstr ""
+msgstr "Щотижневі листи з підсумками"
 
 #: cms/templates/js/course-highlights-enable.underscore:7
 msgid "Enabled"
-msgstr "Включено"
+msgstr "Увімкнено"
 
 #: cms/templates/js/course-highlights-enable.underscore:9
 msgid "Enable Now"
-msgstr "Дозволити Зараз"
+msgstr "Увімкнути зараз"
 
 #: cms/templates/js/course-instructor-details.underscore:4
 msgid "Instructor Name"
@@ -10627,6 +10634,8 @@ msgid ""
 "This feature is currently in testing. Course teams can enter highlights, but "
 "learners will not receive email messages."
 msgstr ""
+"Ця функція наразі проходить тестування. Команди курсу можуть додавати підсумки, "
+"але студенти не отримуватимуть електронних листів."
 
 #: cms/templates/js/highlights-editor.underscore:5
 msgid ""
@@ -10928,12 +10937,16 @@ msgid ""
 "incorrect, nor the score received, until after the course end date has "
 "passed."
 msgstr ""
+"Учні не бачать, чи були їхні відповіді на завдання правильними чи неправильними, "
+"а також отриманий бал, доки не мине дата завершення курсу."
 
 #: cms/templates/js/show-correctness-editor.underscore
 msgid ""
 "If the course does not have an end date, learners always see their scores "
 "when they submit answers to assessments."
 msgstr ""
+"Якщо курс не має дати завершення, учні завжди бачать свої бали одразу після "
+"надсилання відповідей на завдання."
 
 #: cms/templates/js/show-correctness-editor.underscore:24
 msgid ""
@@ -11098,6 +11111,9 @@ msgid ""
 "back to a basic exam. You may not configure it as a special exam now. "
 "Contact edX Support for assistance."
 msgstr ""
+"Ця підсекція була опублікована для студентів як спеціальний іспит, але була "
+"повернена до базового іспиту. Наразі її не можна налаштовувати як спеціальний іспит. "
+"Зверніться до служби підтримки edX для допомоги."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore
 msgid ""
@@ -11106,6 +11122,9 @@ msgid ""
 "basic exam by selecting 'None', but you will NOT be able to configure it as "
 "a special exam in the future."
 msgstr ""
+"Цей спеціальний іспит було опубліковано для студентів. Ви не можете змінити його "
+"на інший тип спеціального іспиту. Ви можете повернути цю підсекцію до базового "
+"іспиту, обравши 'None', але в майбутньому не зможете налаштувати її як спеціальний іспит."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:29
 msgid "Timed"
@@ -11131,6 +11150,8 @@ msgid ""
 "exam. The videos are then reviewed to ensure that learners follow all "
 "examination rules."
 msgstr ""
+"Proctored іспити мають обмежений час і записують відео кожного студента під час здачі. "
+"Ці відео переглядаються, щоб переконатися, що студенти дотримуються всіх правил іспиту."
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:49
 msgid "Onboarding"
@@ -11163,7 +11184,7 @@ msgstr ""
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:67
 msgid "Time Allotted (HH:MM):"
-msgstr "Розподілений час (ЧЧ: ММ):"
+msgstr "Розподілений час (ГГ: ХХ):"
 
 #: cms/templates/js/timed-examination-preference-editor.underscore:71
 msgid ""
