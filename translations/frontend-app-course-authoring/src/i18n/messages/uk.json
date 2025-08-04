@@ -1148,7 +1148,7 @@
   "course-authoring.studio-home.processing.title": "Курси оброблюються",
   "course-authoring.studio-home.courses.tab.title": "Курси",
   "course-authoring.studio-home.courses.tab.error.message": "Не вдалося отримати курси. Будь-ласка спробуйте пізніше.",
-  "course-authoring.studio-home.courses.pagination.info": "Показує {length} з {total}",
+  "course-authoring.studio-home.courses.pagination.info": "Показано {length} з {total}",
   "course-authoring.studio-home.libraries.tab.error.message": "Не вдалося отримати бібліотеки. Будь-ласка спробуйте пізніше.",
   "course-authoring.studio-home.libraries.tab.title": "Бібліотеки",
   "course-authoring.studio-home.archived.tab.title": "Курси, що переміщено до архіву",
