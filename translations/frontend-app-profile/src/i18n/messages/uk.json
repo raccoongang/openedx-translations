@@ -1,5 +1,6 @@
 {
   "profile.page.title": "Профіль | {siteName}",
+  "profile.age.cannotShare": "Ви не можете поділитись профілем.",
   "profile.age.details": "Для того, щоб поділитися вашим профілем з іншими учнями {siteName}, вам необхідно підтвердити, що ви старше 13 років.",
   "profile.age.set.date": "Задайте свою дату народження",
   "profile.datejoined.member.since": "Учасник з {year}",
