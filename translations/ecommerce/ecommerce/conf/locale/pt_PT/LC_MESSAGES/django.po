@@ -4425,7 +4425,7 @@ msgid "E-Commerce Service Administration"
 msgstr "Administração do Serviço E-Commerce"
 
 msgid "About"
-msgstr "Quem Somos"
+msgstr "Quem somos"
 
 msgid "Contact Us"
 msgstr "Fale conosco"
