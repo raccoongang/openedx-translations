@@ -27196,11 +27196,7 @@ msgstr ""
 
 #: themes/edx-theme-rg/lms/templates/static_templates/tos.html:50
 msgid ""
-"Disclaimers: The materials on Drilledge.com are provided “as is”. "
-"Drilledge.com makes no warranties, expressed or implied, and hereby "
-"disclaims all other warranties including, without limitation, implied "
-"warranties or conditions of merchantability, fitness for a particular "
-"purpose, or non-infringement of intellectual property."
+"Disclaimers: The materials on Drilledge.com are provided \"as is\". Drilledge.com makes no warranties, expressed or implied, and hereby disclaims all other warranties including, without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property."
 msgstr ""
 "Isenção de responsabilidade Os materiais oferecidos no site Drilledge.com "
 "são fornecidos 'como estão'. Drilledge.com não oferece garantias, expressas "
