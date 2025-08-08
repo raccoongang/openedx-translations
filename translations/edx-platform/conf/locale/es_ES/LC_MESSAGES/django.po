@@ -27255,11 +27255,11 @@ msgstr "Contáctenos"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/contact.html:14
 msgid "Contact us"
-msgstr "Contáctenos"
+msgstr "Página de contacto:"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/contact.html:14
 msgid "Contact Us"
-msgstr "Contáctenos"
+msgstr "Página de contacto:"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/contact.html:17
 msgid "Contact email for general information or questions:"
@@ -28626,7 +28626,7 @@ msgid ""
 msgstr ""
 " Aparte de estas novedades, Drilledge sigue aplicando las cláusulas contractuales "
 "tipo (SCC). Además, hemos evaluado específicamente los riesgos y hemos determinado "
-"que son muy poco probables para Drilledge, ya que es improbable que las aplicaciones "
+"que son muy poco probables para Drilledge, ya que es improbable que las {bold_start}aplicaciones{bold_end} "
 "teóricas de la Orden Ejecutiva 12333, y la Ley de Vigilancia de Inteligencia Extranjera "
 "de EE.UU. afecten a Drilledge de alguna manera. Esto se debe a que los servicios que "
 "ofrecemos no pertenecen a los sectores de proveedores de telecomunicaciones, ISP, militar "
@@ -28721,7 +28721,7 @@ msgstr "Infringir los derechos de propiedad intelectual de terceros."
 
 #: themes/edx-theme-rg/lms/templates/static_templates/tos.html
 msgid "Drilledge LTD"
-msgstr "Drilledge Pte LTD"
+msgstr "Drilledge Pte Ltd"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "Financial information when you make a subscription (credit card details, account details, payment information);"
