@@ -27505,11 +27505,6 @@ msgid ""
 msgstr "Informações de TI (endereços IP, dados de uso, dados de cookies, dados do navegador, dados de pesquisa);"
 
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
-msgid ""
-"Financial information when you make a subscription (credit card details, account details, payment information);"
-msgstr "Informações financeiras (detalhes do cartão de crédito, detalhes da conta, informações de pagamento)"
-
-#. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid "Telephone number;"
 msgstr "Número de telefone;"
 
