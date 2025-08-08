@@ -27731,7 +27731,6 @@ msgstr "(ii) Usuarios finales"
 #. themes/edx-theme-rg/lms/templates/static_templates/privacy.html
 msgid ""
 "If you are an End User of an Online School, please see the terms and conditions and privacy policy of that third party, and direct your privacy inquiries, including any requests to exercise your data protection rights, to the Online School’s Administrator. We are not responsible for the privacy or security practices of our Online School Administrators, which may differ from those set forth in this privacy policy. However, we process your Personal Data and act as data processors to the Online School Administrator that is the data controller, with whom you have entered into an agreement with."
-
 msgstr ""
 "Si usted es un Usuario Final de una Escuela Online de un tercero, "
 "consulte los términos y condiciones y la política de privacidad "
