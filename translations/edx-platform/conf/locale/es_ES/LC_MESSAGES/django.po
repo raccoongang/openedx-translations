@@ -27259,7 +27259,7 @@ msgstr "Página de contacto:"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/contact.html:14
 msgid "Contact Us"
-msgstr "Página de contacto:"
+msgstr "Contáctenos"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/contact.html:17
 msgid "Contact email for general information or questions:"
