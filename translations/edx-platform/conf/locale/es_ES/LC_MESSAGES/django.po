@@ -27251,11 +27251,11 @@ msgstr "Correo electrónico de contacto:"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/about.html:41
 msgid "Contact page"
-msgstr "Contáctenos"
+msgstr "Página de contacto"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/contact.html:14
 msgid "Contact us"
-msgstr "Página de contacto:"
+msgstr "Contáctenos"
 
 #: themes/edx-theme-rg/lms/templates/static_templates/contact.html:14
 msgid "Contact Us"
