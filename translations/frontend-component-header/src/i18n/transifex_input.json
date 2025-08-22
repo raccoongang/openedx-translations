@@ -34,5 +34,6 @@
   "header.user.menu.studio": "Studio Home",
   "header.user.menu.maintenance": "Maintenance",
   "header.label.courseOutline": "Back to course outline in Studio",
-  "header.label.search.nav": "Search content"
+  "header.label.search.nav": "Search content",
+  "header.cookie.banner.text": "We use cookies on this site to enhance your user experience. By using this website, you accept this use. Learn more about it in {cookiePolicyLink}. For a complete overview of all cookies used, please see your personal settings."
 }

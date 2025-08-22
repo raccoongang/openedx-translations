@@ -20862,7 +20862,7 @@ msgstr "Зберегти відповідь"
 #: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:33
 #: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:41
 msgid "Reset"
-msgstr "Зкинути"
+msgstr "Скинути"
 
 #: lms/templates/problem.html:45
 msgid "Reset your answer"
@@ -27478,3 +27478,19 @@ msgstr "Додайте текст Авторського Права сюди!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Редактор коду"
+
+#: cms/templates/widgets/header.html:357 cms/templates/widgets/header.html:372
+#: lms/templates/header/user_dropdown.html:48
+#: lms/templates/user_dropdown.html:31 lms/templates/user_dropdown.html:39
+msgid "Performance"
+msgstr "Продуктивність"
+
+#: cms/templates/widgets/header.html:357 cms/templates/widgets/header.html:372
+#: lms/templates/header/user_dropdown.html:48
+#: lms/templates/user_dropdown.html:31 lms/templates/user_dropdown.html:39
+msgid "Leaderboard"
+msgstr "Таблиця лідерів"
+
+#: templates/timed_exam/submitted.html:34
+msgid "Return to the course outline"
+msgstr "Повернутися до структури курсу"

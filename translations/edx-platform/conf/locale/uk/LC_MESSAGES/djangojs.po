@@ -11577,3 +11577,7 @@ msgstr[3] "Завантажити наступні {num_items} результа�
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
 msgid "Sorry, no results were found."
 msgstr "На жаль, жодного результату не знайдено."
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+msgid "Not available"
+msgstr "недоступно"
