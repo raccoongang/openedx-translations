@@ -2153,7 +2153,7 @@ msgstr "Будь ласка, зачекайте"
 #. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:145
 msgid "LONG_DATE_FORMAT"
-msgstr "ДОВГИЙ_ФОРМАТ_ДАТИ"
+msgstr "%A, %B %d %Y"
 
 #. Translators: the translation for "DATE_TIME_FORMAT" must be a format
 #. string for formatting dates with times.  For example, the American
@@ -2161,7 +2161,7 @@ msgstr "ДОВГИЙ_ФОРМАТ_ДАТИ"
 #. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:153
 msgid "DATE_TIME_FORMAT"
-msgstr "ЧАСОВИЙ_ФОРМАТ_ДАТИ"
+msgstr "%d %b %Y %H:%M"
 
 #. Translators: the translation for "SHORT_DATE_FORMAT" must be a
 #. format string for formatting dates in a brief form.  For example,
@@ -2169,14 +2169,14 @@ msgstr "ЧАСОВИЙ_ФОРМАТ_ДАТИ"
 #. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:189
 msgid "SHORT_DATE_FORMAT"
-msgstr "КОРОТКИЙ_ФОРМАТ_ДАТИ"
+msgstr "%b %d %Y"
 
 #. Translators: the translation for "TIME_FORMAT" must be a format
 #. string for formatting times.  For example, the American English
 #. form is "%H:%M:%S". See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py:201
 msgid "TIME_FORMAT"
-msgstr "ФОРМАТ_ЧАСУ"
+msgstr "%H:%M:%S"
 
 #. Translators: This is an AM/PM indicator for displaying times.  It is
 #. used for the %p directive in date-time formats. See http://strftime.org
@@ -14407,28 +14407,26 @@ msgstr "Зовнішнє обговорення"
 #, python-format
 msgid ""
 "\n"
-"                Learners will see the selected component:\n"
-"                "
+"Learners will see the selected component:\n"
 msgid_plural ""
 "\n"
-"                Learners will see all of the %(num_selected)s selected components, in random order:\n"
-"                "
+"Learners will see all of the %(num_selected)s selected components, in random order:\n"
+
 msgstr[0] ""
 "\n"
-"                учні побачите вибрані компонент:\n"
-"                "
+"Учні побачать %(num_selected)s вибраний компонент:\n"
+
 msgstr[1] ""
 "\n"
-"                учні побачить всі %(num_selected)s вибрані компоненти, в випадковому порядку:\n"
-"                "
+"Учні побачать %(num_selected)s вибрані компоненти у випадковому порядку:\n"
+
 msgstr[2] ""
 "\n"
-"                учні побачить всі %(num_selected)s вибрані компоненти, в випадковому порядку:\n"
-"                "
+"Учні побачать %(num_selected)s вибраних компонентів у випадковому порядку:\n"
+
 msgstr[3] ""
 "\n"
-"                учні побачить всі %(num_selected)s вибрані компоненти, в випадковому порядку:\n"
-"                "
+"Учні побачать %(num_selected)s вибраного компонента у випадковому порядку:\n"
 
 #: xmodule/templates/item_bank/author_view.html:32
 #, python-brace-format
@@ -20864,7 +20862,7 @@ msgstr "Зберегти відповідь"
 #: openedx/core/djangoapps/dark_lang/templates/dark_lang/preview-language-fragment.html:33
 #: openedx/core/djangoapps/theming/templates/theming/theming-admin-fragment.html:41
 msgid "Reset"
-msgstr "Зкинути"
+msgstr "Скинути"
 
 #: lms/templates/problem.html:45
 msgid "Reset your answer"
@@ -27480,3 +27478,19 @@ msgstr "Додайте текст Авторського Права сюди!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Редактор коду"
+
+#: cms/templates/widgets/header.html:357 cms/templates/widgets/header.html:372
+#: lms/templates/header/user_dropdown.html:48
+#: lms/templates/user_dropdown.html:31 lms/templates/user_dropdown.html:39
+msgid "Performance"
+msgstr "Продуктивність"
+
+#: cms/templates/widgets/header.html:357 cms/templates/widgets/header.html:372
+#: lms/templates/header/user_dropdown.html:48
+#: lms/templates/user_dropdown.html:31 lms/templates/user_dropdown.html:39
+msgid "Leaderboard"
+msgstr "Таблиця лідерів"
+
+#: templates/timed_exam/submitted.html:34
+msgid "Return to the course outline"
+msgstr "Повернутися до структури курсу"

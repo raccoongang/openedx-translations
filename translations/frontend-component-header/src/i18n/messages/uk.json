@@ -32,5 +32,6 @@
   "header.menu.signOut.label": "Вийти",
   "header.user.menu.studio": "Головна сторінка в Студії",
   "header.user.menu.maintenance": "Технічні робити",
-  "header.label.courseOutline": "Повернутися до плану курсу в Studio"
+  "header.label.courseOutline": "Повернутися до плану курсу в Studio",
+  "header.cookie.banner.text": "Ми використовуємо файли cookie на цьому сайті, щоб покращити взаємодію з користувачем. Використовуючи цей веб-сайт, ви погоджуєтеся з цим використанням. Дізнайтеся більше про це в {cookiePolicyLink}. Повний огляд усіх використаних файлів cookie дивіться у ваших особистих налаштуваннях."
 }

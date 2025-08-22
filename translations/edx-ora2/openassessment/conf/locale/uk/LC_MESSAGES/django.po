@@ -1604,6 +1604,10 @@ msgstr "(Обов'язково)"
 msgid "(Optional)"
 msgstr "(необов'язково)"
 
+#: openassessment/xblock/ui_mixins/legacy/views/submission.py:155
+msgid "Response not started. "
+msgstr "Виконання не розпочато."
+
 #: templates/legacy/response/oa_response.html:183
 msgid ""
 "\n"

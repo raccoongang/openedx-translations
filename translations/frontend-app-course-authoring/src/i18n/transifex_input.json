@@ -1199,6 +1199,7 @@
   "authoring.texteditor.sourcecodemodal.title.label": "Edit Source Code",
   "pgn.DataTable.FilterStatus.removeFilter": "Remove this filter",
   "pgn.DataTable.FilterStatus.clearFiltersText": "Clear filters",
+  "pgn.Alert.dismiss": "Dismiss",
   "course-authoring.video-uploads.file-info.infoTab.title": "Info",
   "course-authoring.video-uploads.file-info.transcriptTab.title": "Transcript ({transcriptCount})",
   "course-authoring.video-uploads.file-info.transcriptTab.notification.screenReader.text": "Transcription error",

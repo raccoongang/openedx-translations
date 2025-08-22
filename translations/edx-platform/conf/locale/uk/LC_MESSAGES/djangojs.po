@@ -4821,10 +4821,10 @@ msgid ""
 "{strongStart}you will no longer be able to use the same email on "
 "{platformName}.{strongEnd}"
 msgstr ""
-"{strongStart}Попередження: видалення Аккаунту є незворотнім. {strongEnd} "
-"Будь ласка, уважно прочитайте вище, перш ніж продовжити. Це незворотні дії, "
-"і {strongStart} ви більше не зможете використовувати ту саму пошту на "
-"{platformName}. {StrongEnd}"
+"{strongStart}Попередження: видалення акаунту є незворотнім.{strongEnd} "
+"Будь ласка, уважно прочитайте вище, перш ніж продовжити. Це незворотна дія, "
+"{strongStart}ви більше не зможете використовувати ту саму пошту на "
+"{platformName}.{strongEnd}"
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:80
 msgid ""
@@ -11577,3 +11577,7 @@ msgstr[3] "Завантажити наступні {num_items} результа�
 #: openedx/features/course_search/static/course_search/templates/dashboard_search_results.underscore:26
 msgid "Sorry, no results were found."
 msgstr "На жаль, жодного результату не знайдено."
+
+#: lms/djangoapps/support/static/support/templates/certificates_results.underscore
+msgid "Not available"
+msgstr "недоступно"

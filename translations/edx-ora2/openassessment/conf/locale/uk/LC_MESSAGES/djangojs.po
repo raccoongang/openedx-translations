@@ -694,3 +694,13 @@ msgstr ""
 #: xblock/static/js/src/studio/oa_edit.js:321
 msgid "error count: "
 msgstr "кількість помилок :"
+
+#: templates/legacy/oa_base.html:16 templates/openassessmentblock/base.html:22
+msgid ""
+"This assignment has several steps. In the first step, you'll provide a "
+"response to the prompt. The other steps appear below the Your Response "
+"field."
+msgstr ""
+"Це завдання складається з кількох етапів. На першому кроці вам потрібно "
+"надати відповідь на запитання. Інші кроки з'являться під полем "
+"«Ваша відповідь»."
