@@ -29356,3 +29356,11 @@ msgstr "Перевіряючий викладач"
 #: templates/timed_exam/submitted.html:34
 msgid "Return to the course outline"
 msgstr "Повернутися до структури курсу"
+
+#: templates/edx-theme-rg/lms/templates/index_overlay.html:17
+msgid "DIVE INTO KNOWLEDGE"
+msgstr "ПІРНАЙ У ЗНАННЯ"
+
+#: templates/edx-theme-rg/lms/templates/index_overlay.html:21
+msgid "with Sigma Software University"
+msgstr "разом з Sigma Software University"
