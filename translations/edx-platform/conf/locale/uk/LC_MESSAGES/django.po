@@ -5894,6 +5894,12 @@ msgid ""
 "{platform_name} {certificate_type} Certificate of Completion in "
 msgstr ""
 
+#: lms/templates/certificates/_accomplishment-rendering.html
+msgid ""
+"successfully completed, received a passing grade, and was awarded this {platform_name} Certificate of Completion in"
+msgstr ""
+"успішно завершив(ла) навчальну програму, продемонстрував(ла) необхідний рівень знань та отримав(ла) Сертифікат про завершення навчання від {platform_name} у напрямку:"
+
 #. Translators: This text describes the purpose (and therefore, value) of a
 #. course certificate
 #: lms/djangoapps/certificates/views/webview.py
@@ -25414,8 +25420,8 @@ msgid "Quick metrics"
 msgstr "Параметри"
 
 #: lms/templates/certificates/_accomplishment-rendering.html
-msgid "This certificate is proudly presented to"
-msgstr ""
+msgid "This certificate is proudly presented to "
+msgstr "Цей сертифікат підтверджує, що"
 
 #: lms/templates/static_templates/404.html
 msgid "Oops, something went wrong... :("
