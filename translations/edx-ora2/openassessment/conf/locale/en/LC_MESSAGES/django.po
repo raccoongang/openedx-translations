@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-21 00:43+0000\n"
+"POT-Creation-Date: 2024-11-13 17:55-0500\n"
 "PO-Revision-Date: 2014-06-04 15:41-0400\n"
 "Last-Translator: Muhammad Ayub khan <ayubkhan@edx.org>\n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
@@ -159,7 +159,7 @@ msgid "No description provided."
 msgstr ""
 
 #: data.py:1626 templates/legacy/edit/oa_edit_criterion.html:54
-#: xblock/studio_mixin.py:58
+#: xblock/studio_mixin.py:57
 msgid "None"
 msgstr ""
 
@@ -388,14 +388,14 @@ msgstr ""
 msgid "Feedback for This Criterion"
 msgstr ""
 
-#: templates/legacy/edit/oa_edit_criterion.html:55 xblock/studio_mixin.py:57
+#: templates/legacy/edit/oa_edit_criterion.html:55 xblock/studio_mixin.py:56
 msgid "Optional"
 msgstr ""
 
 #: templates/legacy/edit/oa_edit_criterion.html:56
 #: templates/legacy/oa_rubric.html:13
 #: templates/legacy/student_training/student_training.html:93
-#: xblock/studio_mixin.py:56
+#: xblock/studio_mixin.py:55
 msgid "Required"
 msgstr ""
 
@@ -1573,40 +1573,40 @@ msgstr ""
 msgid "Supported file types: "
 msgstr ""
 
-#: templates/legacy/response/oa_response.html:286
+#: templates/legacy/response/oa_response.html:285
 msgid "Upload files"
 msgstr ""
 
-#: templates/legacy/response/oa_response.html:288
+#: templates/legacy/response/oa_response.html:287
 msgid "Upload file"
 msgstr ""
 
-#: templates/legacy/response/oa_response.html:305
+#: templates/legacy/response/oa_response.html:304
 msgid "This is a team submission."
 msgstr ""
 
-#: templates/legacy/response/oa_response.html:307
+#: templates/legacy/response/oa_response.html:306
 msgid ""
 "One team member should submit a response with the team’s shared files and a "
 "text response on behalf of the entire team."
 msgstr ""
 
-#: templates/legacy/response/oa_response.html:309
+#: templates/legacy/response/oa_response.html:308
 msgid ""
 "One team member should submit a response with the team’s shared files on "
 "behalf of the entire team."
 msgstr ""
 
-#: templates/legacy/response/oa_response.html:311
+#: templates/legacy/response/oa_response.html:310
 msgid ""
 "One team member should submit a text response on behalf of the entire team."
 msgstr ""
 
-#: templates/legacy/response/oa_response.html:313
+#: templates/legacy/response/oa_response.html:312
 msgid "One team member should submit on behalf of the entire team."
 msgstr ""
 
-#: templates/legacy/response/oa_response.html:315
+#: templates/legacy/response/oa_response.html:314
 msgid ""
 "\n"
 "                  Learn more about team assignments here: (<a "
@@ -1616,11 +1616,11 @@ msgid ""
 "                  "
 msgstr ""
 
-#: templates/legacy/response/oa_response.html:323
+#: templates/legacy/response/oa_response.html:322
 msgid "We could not submit your response"
 msgstr ""
 
-#: templates/legacy/response/oa_response.html:334
+#: templates/legacy/response/oa_response.html:333
 msgid "Submit your response and move to the next step"
 msgstr ""
 
@@ -2382,19 +2382,19 @@ msgstr ""
 msgid "Self Assessment to Staff Assessment"
 msgstr ""
 
-#: xblock/openassessmentblock.py:1365
+#: xblock/openassessmentblock.py:1358
 msgid "You can't reset your submission."
 msgstr ""
 
-#: xblock/openassessmentblock.py:1378
+#: xblock/openassessmentblock.py:1371
 msgid "The user does not exist."
 msgstr ""
 
-#: xblock/openassessmentblock.py:1381
+#: xblock/openassessmentblock.py:1374
 msgid "There is no submission to reset."
 msgstr ""
 
-#: xblock/openassessmentblock.py:1383
+#: xblock/openassessmentblock.py:1376
 msgid "Submission reset successfully."
 msgstr ""
 
@@ -2498,30 +2498,30 @@ msgid ""
 "allow the team to resubmit a response."
 msgstr ""
 
-#: xblock/studio_mixin.py:247 xblock/studio_mixin.py:259
+#: xblock/studio_mixin.py:246 xblock/studio_mixin.py:258
 msgid "Error updating XBlock configuration"
 msgstr ""
 
-#: xblock/studio_mixin.py:264
+#: xblock/studio_mixin.py:263
 msgid "Error: Text Response and File Upload Response cannot both be disabled"
 msgstr ""
 
-#: xblock/studio_mixin.py:268
+#: xblock/studio_mixin.py:267
 msgid ""
 "Error: When Text Response is disabled, File Upload Response must be Required"
 msgstr ""
 
-#: xblock/studio_mixin.py:271
+#: xblock/studio_mixin.py:270
 msgid ""
 "Error: When File Upload Response is disabled, Text Response must be Required"
 msgstr ""
 
-#: xblock/studio_mixin.py:295
+#: xblock/studio_mixin.py:294
 #, python-brace-format
 msgid "Validation error: {error}"
 msgstr ""
 
-#: xblock/studio_mixin.py:329
+#: xblock/studio_mixin.py:328
 msgid "Successfully updated OpenAssessment XBlock"
 msgstr ""
 
