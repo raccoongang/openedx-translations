@@ -1,10 +1,4 @@
 {
-  "Hyperlink.externalLinkAltText": {
-    "string": "in a new tab"
-  },
-  "Hyperlink.externalLinkTitle": {
-    "string": "Opens in a new tab"
-  },
   "dropzone.Dropzone.invalidSizeLessError": {
     "developer_comment": "A message shown when a file with less than minimum allowed size is being uploaded in Dropzone.",
     "string": "File must be larger than {size}."
@@ -38,14 +32,6 @@
     "string": "Scroll to next"
   },
   "pgn.CardCarousel.scrollToPrevious": {
-    "developer_comment": "Accessibility text describing the action for navigating a scrollable carousel to the previous element",
-    "string": "Scroll to previous"
-  },
-  "pgn.ChipCarousel.scrollToNext": {
-    "developer_comment": "Accessibility text describing the action for navigating a scrollable carousel to the next element",
-    "string": "Scroll to next"
-  },
-  "pgn.ChipCarousel.scrollToPrevious": {
     "developer_comment": "Accessibility text describing the action for navigating a scrollable carousel to the previous element",
     "string": "Scroll to previous"
   },
@@ -83,19 +69,11 @@
   },
   "pgn.DataTable.RowStatus.statusText": {
     "developer_comment": "A text describing how many rows is shown in the table",
-    "string": "Showing {firstRow} - {lastRow} of {itemCount}."
+    "string": "Showing {pageSize} of {itemCount}."
   },
   "pgn.DataTable.SidebarFilters.title": {
     "developer_comment": "Title for the sidebar filters component",
     "string": "Filters"
-  },
-  "pgn.DataTable.filtersDropdownTitle": {
-    "developer_comment": "Title of the filters dropdown",
-    "string": "Filters"
-  },
-  "pgn.DataTable.paginationLabel": {
-    "developer_comment": "Accessibile name for the navigation element of a pagination component",
-    "string": "table pagination"
   },
   "pgn.Dropzone.DefaultContent.fileSizeBetween": {
     "developer_comment": "A message shown when uploaded file's size must be in given range.",
@@ -132,26 +110,6 @@
   "pgn.FormAutosuggest.iconButtonOpened": {
     "developer_comment": "A message shown in case when the autosuggest menu is closed.",
     "string": "Open the options menu"
-  },
-  "pgn.Modal.closeButon": {
-    "developer_comment": "Accessible name for the close button in the modal dialog",
-    "string": "Close"
-  },
-  "pgn.ProductTour.Checkpoint.bottom-position-text": {
-    "developer_comment": "Screen-reader message to notify user that they are located at the bottom of the product tour step.",
-    "string": "Bottom of step {step}"
-  },
-  "pgn.ProductTour.Checkpoint.page-index-text": {
-    "developer_comment": "Page index showing your place in the ProductTour",
-    "string": "{step} of {totalSteps}"
-  },
-  "pgn.ProductTour.Checkpoint.top-position-text": {
-    "developer_comment": "Screen-reader message to notify user that they are located at the bottom of the product tour step.",
-    "string": "Top of step {step}"
-  },
-  "pgn.ProductTour.checkpointHeader.close": {
-    "developer_comment": "Close alternative text for ProductTour component",
-    "string": "Close tour"
   },
   "pgn.Toast.closeLabel": {
     "developer_comment": "Close label for Toast component",
