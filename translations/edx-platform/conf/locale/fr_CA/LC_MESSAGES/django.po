@@ -24395,6 +24395,14 @@ msgstr "Écoles"
 msgid "Register for free"
 msgstr "S'inscrire gratuitement"
 
+#: lms/templates/header/user_dropdown.html:43
+msgid "Performance"
+msgstr "Rendement"
+
+#: lms/templates/header/user_dropdown.html:44
+msgid "Leaderboard"
+msgstr "Classement"
+
 #: lms/templates/header/user_dropdown.html:47
 msgid "Profile"
 msgstr "Profil"
