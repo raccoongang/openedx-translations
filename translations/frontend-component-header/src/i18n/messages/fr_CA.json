@@ -28,6 +28,8 @@
   "header.menu.profile.label": "Profil",
   "header.menu.account.label": "Compte",
   "header.menu.orderHistory.label": "Historique des commandes",
+  "header.menu.performance.label": "Rendement",
+  "header.menu.leaderboard.label": "Classement",
   "header.navigation.skipNavLink": "Passer au contenu principal.",
   "header.menu.signOut.label": "Se déconnecter",
   "header.user.menu.studio": "Accueil Studio",
