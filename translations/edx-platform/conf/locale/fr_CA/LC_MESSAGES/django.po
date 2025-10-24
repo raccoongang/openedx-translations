@@ -26743,6 +26743,16 @@ msgstr "J'ai compris!"
 msgid "Learn more"
 msgstr "En savoir plus"
 
+#: lms/templates/widgets/cookie-consent.html:29
+msgid "We use cookies on this site to enhance your user experience. By using this website, you accept this use."
+msgstr "Nous utilisons des témoins sur ce site pour améliorer votre expérience. En utilisant ce site, vous acceptez cette utilisation."
+
+msgid "Learn more about it in {link_start}Cookie Policy{link_end}."
+msgstr "En savoir plus dans la {link_start}Politique relative aux témoins{link_end}."
+
+msgid "For a complete overview of all cookies used, please see your personal settings."
+msgstr "Pour un aperçu complet de tous les témoins utilisés, veuillez consulter vos paramètres personnels."
+
 #: lms/templates/wiki/includes/article_menu.html:14
 #: lms/templates/wiki/includes/article_menu.html:23
 #: lms/templates/wiki/includes/article_menu.html:32
