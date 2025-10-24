@@ -3631,6 +3631,14 @@ msgstr "Attestation invalide"
 msgid "Certificate Validation"
 msgstr "Validation de l'attestation"
 
+#: tutor-contrib-rg-theme/tutor_rg_theme/templates/edx-theme-rg/lms/templates/certificates/_accomplishment-rendering.html:18
+msgid "Certificate"
+msgstr "Certificat"
+
+#: tutor-contrib-rg-theme/tutor_rg_theme/templates/edx-theme-rg/lms/templates/certificates/_accomplishment-rendering.html:20
+msgid "This certificate is proudly presented to"
+msgstr "Ce certificat est fièrement décerné à"
+
 #. Translators: Accomplishments describe the awards/certifications obtained by
 #. students on this platform
 #: lms/djangoapps/certificates/views/webview.py:196
