@@ -3270,7 +3270,7 @@ msgid "Terms of Service"
 msgstr "Conditions générales du service"
 
 #: lms/djangoapps/branding/api.py:334 lms/djangoapps/branding/api.py:409
-msgid "Sitemap"
+msgid "Site Map"
 msgstr "Plan du site"
 
 #: lms/djangoapps/branding/api.py:370
