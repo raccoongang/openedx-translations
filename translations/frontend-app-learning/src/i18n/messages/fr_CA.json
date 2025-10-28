@@ -475,5 +475,14 @@
   "courseOutline.tray.title": "Plan de cours",
   "courseOutline.completedUnit": "Unité terminée",
   "courseOutline.incompleteUnit": "Unité incomplète",
-  "discussions.sidebar.open.button": "Afficher le plateau des discussions"
+  "discussions.sidebar.open.button": "Afficher le plateau des discussions",
+  "masquerade-widget.role.staff": "Personnel",
+  "masquerade-widget.role.learner": "Apprenant",
+  "masquerade-widget.role.specificStudent": "Apprenant spécifique...",
+  "masquerade-widget.options.error": "Impossible d'obtenir les options de se faire passer pour",
+  "instructorToolbar.viewCourseIn.label": "Voir le cours dans :",
+  "instructorToolbar.studio.link": "Studio",
+  "instructorToolbar.insights.link": "Insights",
+  "masquerade-widget.viewThisCourseAs.label": "Voir ce cours en tant que :",
+  "learn.tabs.instructorAnalytics": "Analytique de l'instructeur"
 }

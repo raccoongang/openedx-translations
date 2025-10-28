@@ -475,5 +475,14 @@
   "courseOutline.tray.title": "Course Outline",
   "courseOutline.completedUnit": "Completed unit",
   "courseOutline.incompleteUnit": "Incomplete unit",
-  "discussions.sidebar.open.button": "Show discussions tray"
+  "discussions.sidebar.open.button": "Show discussions tray",
+  "masquerade-widget.role.staff": "Staff",
+  "masquerade-widget.role.learner": "Learner",
+  "masquerade-widget.role.specificStudent": "Specific Student...",
+  "masquerade-widget.options.error": "Unable to get masquerade options",
+  "instructorToolbar.viewCourseIn.label": "View course in:",
+  "instructorToolbar.studio.link": "Studio",
+  "instructorToolbar.insights.link": "Insights",
+  "masquerade-widget.viewThisCourseAs.label": "View this course as:",
+  "learn.tabs.instructorAnalytics": "Instructor analytics"
 }
