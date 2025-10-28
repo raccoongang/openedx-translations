@@ -479,6 +479,7 @@
   "masquerade-widget.role.staff": "Staff",
   "masquerade-widget.role.learner": "Learner",
   "masquerade-widget.role.specificStudent": "Specific Student...",
+  "masquerade-widget.role.myCertificate": "My certificate",
   "masquerade-widget.options.error": "Unable to get masquerade options",
   "instructorToolbar.viewCourseIn.label": "View course in:",
   "instructorToolbar.studio.link": "Studio",

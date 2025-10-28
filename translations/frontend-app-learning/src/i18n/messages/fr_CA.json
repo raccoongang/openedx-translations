@@ -479,6 +479,7 @@
   "masquerade-widget.role.staff": "Personnel",
   "masquerade-widget.role.learner": "Apprenant",
   "masquerade-widget.role.specificStudent": "Apprenant spécifique...",
+  "masquerade-widget.role.myCertificate": "Mon attestation",
   "masquerade-widget.options.error": "Impossible d'obtenir les options de se faire passer pour",
   "instructorToolbar.viewCourseIn.label": "Voir le cours dans :",
   "instructorToolbar.studio.link": "Studio",
