@@ -124,7 +124,7 @@ msgstr "Entonnoir de progression"
 msgid "Suggestions"
 msgstr "Suggestions"
 
-#: models.py:96
+#: models.py:96 views/tab_fragment.py:87
 msgid "Demographics"
 msgstr "Données démographiques"
 
@@ -233,10 +233,6 @@ msgid ""
 msgstr ""
 "Jetez un œil à \"{}\": le nombre moyen de tentatives est trop élevé et "
 "la valeur du taux de réussite moyen est trop faible."
-
-#: views/tab_fragment.py:87
-msgid "Demographics"
-msgstr "Données démographiques"
 
 #: templates/rg_instructor_analytics/activity.html:8
 #: templates/rg_instructor_analytics/cohort.html:16
