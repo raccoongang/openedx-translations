@@ -1,0 +1,610 @@
+# edX translation file for instructor-analytics.
+# Copyright (C) 2024 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-08-20 19:20+0000\n"
+"PO-Revision-Date: 2024-10-30 19:30+0000\n"
+"Last-Translator: Community Housing Academy Team\n"
+"Language-Team: French (Canada) (https://app.transifex.com/open-edx/teams/147691/fr_CA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: admin.py:20
+msgid "Tabs"
+msgstr "Onglets"
+
+#: admin.py:23
+msgid ""
+"Enabling additional tabs requires extra traffic, and might affect system "
+"activity. It might take a little time before data is updated."
+msgstr ""
+"L'activation d'onglets supplémentaires nécessite un trafic supplémentaire et pourrait affecter "
+"l'activité du système. Il peut falloir un peu de temps avant que les données ne soient mises à jour."
+
+#: models.py:23
+msgid "Generation Z: 1995-2012"
+msgstr "Génération Z: 1995-2012"
+
+#: models.py:24
+msgid "Millenials: 1980-1994"
+msgstr "Milléniaux: 1980-1994"
+
+#: models.py:25
+msgid "Generation X: 1965-1979"
+msgstr "Génération X: 1965-1979"
+
+#: models.py:26
+msgid "Baby boomers: 1942-1964"
+msgstr "Baby-boomers: 1942-1964"
+
+#: models.py:30
+msgid "Academic degree"
+msgstr "Diplôme universitaire"
+
+#: models.py:31
+msgid "Master's degree on specialty"
+msgstr "Maîtrise de spécialité"
+
+#: models.py:32
+msgid "Undergraduate"
+msgstr "Premier cycle"
+
+#: models.py:33
+msgid "Incomplete higher education"
+msgstr "Études supérieures incomplètes"
+
+#: models.py:34
+msgid "The average"
+msgstr "La moyenne"
+
+#: models.py:35
+msgid "Incomplete secondary"
+msgstr "Secondaire incomplet"
+
+#: models.py:36
+msgid "Initial"
+msgstr "Initial"
+
+#: models.py:37
+msgid "No formal education"
+msgstr "Aucune éducation formelle"
+
+#: models.py:38
+msgid "Other education"
+msgstr "Autre éducation"
+
+#: models.py:42
+msgid "Male"
+msgstr "Homme"
+
+#: models.py:43
+msgid "Other"
+msgstr "Autre"
+
+#: models.py:44
+msgid "Female"
+msgstr "Femme"
+
+#: models.py:88
+msgid "Instructor"
+msgstr "Instructeur"
+
+#: models.py:89 views/tab_fragment.py:38
+msgid "Enrollment stats"
+msgstr "Statistiques d'inscription"
+
+#: models.py:90 views/tab_fragment.py:45
+msgid "Activities"
+msgstr "Activités"
+
+#: models.py:91 views/tab_fragment.py:52
+msgid "Problems"
+msgstr "Problèmes"
+
+#: models.py:92 views/tab_fragment.py:59
+msgid "Students' Info"
+msgstr "Info des étudiants"
+
+#: models.py:93 views/tab_fragment.py:66
+msgid "Clusters"
+msgstr "Groupes"
+
+#: models.py:94 views/tab_fragment.py:73
+msgid "Progress Funnel"
+msgstr "Entonnoir de progression"
+
+#: models.py:95 views/tab_fragment.py:80
+msgid "Suggestions"
+msgstr "Suggestions"
+
+#: models.py:96
+msgid "Demographics"
+msgstr "Données démographiques"
+
+#: models.py:131 models.py:174 models.py:219 models.py:262
+msgid "total users"
+msgstr "utilisateurs au total"
+
+#: models.py:132 models.py:175 models.py:220 models.py:263
+msgid "no data"
+msgstr "aucune donnée"
+
+#: models.py:134 models.py:177 models.py:222 models.py:265
+msgid "date"
+msgstr "date"
+
+#: models.py:137 models.py:138
+msgid "gender statistics"
+msgstr "statistiques de genre"
+
+#: models.py:180 models.py:181
+msgid "education statistics"
+msgstr "statistiques d'éducation"
+
+#: models.py:225 models.py:226
+msgid "age statistics"
+msgstr "statistiques d'âge"
+
+#: models.py:268 models.py:269
+msgid "geo statistics"
+msgstr "statistiques géographiques"
+
+#: plugins.py:20
+msgid "Instructor analytics"
+msgstr "Analytique de l'instructeur"
+
+#: utils/decorators.py:43 views/activity.py:169 views/cohort.py:41
+#: views/enrollment.py:165 views/funnel.py:93 views/gradebook.py:51
+#: views/gradebook.py:119 views/gradebook.py:186 views/gradebook.py:248
+#: views/problem.py:74 views/problem.py:197 views/problem.py:392
+#: views/problem.py:433 views/suggestion.py:214
+msgid "Invalid course ID."
+msgstr "ID de cours invalide."
+
+#: views/activity.py:167 views/enrollment.py:163 views/funnel.py:91
+#: views/problem.py:72 views/problem.py:195 views/problem.py:431
+msgid "Invalid date range."
+msgstr "Plage de dates invalide."
+
+#: views/demographics.py:264
+msgid "system"
+msgstr "système"
+
+#: views/demographics.py:265
+msgid "microsite"
+msgstr "microsite"
+
+#: views/demographics.py:266
+msgid "course"
+msgstr "cours"
+
+#: views/demographics.py:270
+msgid "admin"
+msgstr "admin"
+
+#: views/demographics.py:271
+msgid "instructor"
+msgstr "instructeur"
+
+#: views/cohort.py:63
+msgid "zero progress"
+msgstr "aucun progrès"
+
+#: views/cohort.py:66
+msgid "from {} % to {} %"
+msgstr "de {} % à {} %"
+
+#: views/cohort.py:176
+msgid "Not all field are filled."
+msgstr "Tous les champs ne sont pas remplis."
+
+#: views/enrollment.py:161
+msgid "`from`, `to`, `course_id` are the must."
+msgstr "`from`, `to`, `course_id` sont obligatoires."
+
+#: views/gradebook.py:113 views/gradebook.py:180 views/gradebook.py:242
+msgid "Invalid username."
+msgstr "Nom d'utilisateur invalide."
+
+#: views/problem.py:390
+msgid "Invalid `answerMap` (JSON parsing error)."
+msgstr "`answerMap` invalide (erreur d'analyse JSON)."
+
+#: views/suggestion.py:131
+#, python-format
+msgid ""
+"Take a look at \"{}\" - the number of students that stuck there is "
+"{:01.0f}% higher than average."
+msgstr ""
+"Jetez un œil à \"{}\" - le nombre d'étudiants qui y sont bloqués est "
+"{:01.0f}% plus élevé que la moyenne."
+
+#: views/suggestion.py:176
+msgid ""
+"Take a look at \"{}\": there is too high avg attempts number and too low "
+"value of the mean success rate."
+msgstr ""
+"Jetez un œil à \"{}\": le nombre moyen de tentatives est trop élevé et "
+"la valeur du taux de réussite moyen est trop faible."
+
+#: views/tab_fragment.py:87
+msgid "Demographics"
+msgstr "Données démographiques"
+
+#: templates/rg_instructor_analytics/activity.html:8
+#: templates/rg_instructor_analytics/cohort.html:16
+#: templates/rg_instructor_analytics/funnel.html:8
+#: templates/rg_instructor_analytics/gradebook.html:9
+#: templates/rg_instructor_analytics/problems.html:9
+msgid "Course has not started yet."
+msgstr "Le cours n'a pas encore commencé."
+
+#: templates/rg_instructor_analytics/activity.html:16
+#: templates/rg_instructor_analytics/activity.html:31
+#: templates/rg_instructor_analytics/cohort.html:27
+#: templates/rg_instructor_analytics/gradebook.html:27
+#: templates/rg_instructor_analytics/gradebook.html:53
+#: templates/rg_instructor_analytics/gradebook.html:66
+#: templates/rg_instructor_analytics/gradebook.html:78
+#: templates/rg_instructor_analytics/time-filter.html:38
+msgid "Loading"
+msgstr "Chargement"
+
+#: templates/rg_instructor_analytics/activity.html:21
+msgid "Video views count"
+msgstr "Nombre de vues de vidéos"
+
+#: templates/rg_instructor_analytics/activity.html:22
+msgid "Discussion activities count"
+msgstr "Nombre d'activités de discussion"
+
+#: templates/rg_instructor_analytics/activity.html:23
+msgid "Intensity of visits the course count"
+msgstr "Intensité des visites du cours"
+
+#: templates/rg_instructor_analytics/activity.html:35
+msgid "Transition Pattern through Units"
+msgstr "Modèle de transition entre les unités"
+
+#: templates/rg_instructor_analytics/activity.html:37
+msgid ""
+"This graph indicates the number of visits of each Unit and bring you the "
+"whole perspective of what part of Course was the most difficult or "
+"interesting for your Students."
+msgstr ""
+"Ce graphique indique le nombre de visites de chaque unité et vous donne "
+"une vue d'ensemble de quelle partie du cours était la plus difficile ou "
+"intéressante pour vos étudiants."
+
+#: templates/rg_instructor_analytics/cohort.html:19
+msgid "Keep an eye on your students' progress"
+msgstr "Gardez un œil sur la progression de vos étudiants"
+
+#: templates/rg_instructor_analytics/cohort.html:21
+msgid ""
+"This report constantly divides your students' progress in clusters: from "
+"low-performing to high-performing groups. You can take action right away "
+"- send appropriate email to clusters in couple of clicks."
+msgstr ""
+"Ce rapport divise constamment la progression de vos étudiants en groupes: "
+"des groupes peu performants aux groupes très performants. Vous pouvez agir "
+"immédiatement - envoyer un courriel approprié aux groupes en quelques clics."
+
+#: templates/rg_instructor_analytics/cohort.html:35
+#: templates/rg_instructor_analytics/funnel.html:32
+msgid "Send Email"
+msgstr "Envoyer un courriel"
+
+#: templates/rg_instructor_analytics/cohort.html:37
+msgid ""
+"Choose clusters you want to send emails to, create email and send. "
+"Exactly that simple."
+msgstr ""
+"Choisissez les groupes auxquels vous souhaitez envoyer des courriels, "
+"créez le courriel et envoyez. C'est aussi simple que ça."
+
+#: templates/rg_instructor_analytics/cohort.html:42
+#: templates/rg_instructor_analytics/funnel.html:39
+msgid "Subject: "
+msgstr "Sujet: "
+
+#: templates/rg_instructor_analytics/cohort.html:45
+#: templates/rg_instructor_analytics/funnel.html:42
+msgid "(Maximum 128 characters)"
+msgstr "(Maximum 128 caractères)"
+
+#: templates/rg_instructor_analytics/cohort.html:60
+#: templates/rg_instructor_analytics/funnel.html:55
+msgid "SEND EMAIL(S)"
+msgstr "ENVOYER COURRIEL(S)"
+
+#: templates/rg_instructor_analytics/cohort.html:61
+#: templates/rg_instructor_analytics/funnel.html:56
+msgid "Email(s) sending failed"
+msgstr "L'envoi du/des courriel(s) a échoué"
+
+#: templates/rg_instructor_analytics/cohort.html:62
+#: templates/rg_instructor_analytics/funnel.html:57
+msgid "Message sent"
+msgstr "Message envoyé"
+
+#: templates/rg_instructor_analytics/cohort.html:63
+#: templates/rg_instructor_analytics/funnel.html:58
+msgid "Required fields"
+msgstr "Champs obligatoires"
+
+#: templates/rg_instructor_analytics/enrollment_stats.html:6
+msgid "This report shows the dynamics of the following metrics:"
+msgstr "Ce rapport montre la dynamique des métriques suivantes:"
+
+#: templates/rg_instructor_analytics/enrollment_stats.html:8
+msgid "Enrollments: Number of students that enrolled in the course"
+msgstr "Inscriptions: Nombre d'étudiants inscrits au cours"
+
+#: templates/rg_instructor_analytics/enrollment_stats.html:9
+msgid "Unenrollments: Number of students that unenrolled from the course"
+msgstr "Désinscriptions: Nombre d'étudiants désinscrits du cours"
+
+#: templates/rg_instructor_analytics/enrollment_stats.html:10
+msgid "Total: Total number of students that are currently passing the course"
+msgstr "Total: Nombre total d'étudiants suivant actuellement le cours"
+
+#: templates/rg_instructor_analytics/enrollment_stats.html:12
+msgid ""
+"You can choose the predefined periods of time to see the dynamics (Last "
+"Week, Last 2 Weeks, Last Month) or you can choose custom time period."
+msgstr ""
+"Vous pouvez choisir des périodes de temps prédéfinies pour voir la dynamique "
+"(Semaine dernière, 2 dernières semaines, Mois dernier) ou vous pouvez choisir "
+"une période personnalisée."
+
+#: templates/rg_instructor_analytics/enrollment_stats.html:20
+msgid "Enrollments"
+msgstr "Inscriptions"
+
+#: templates/rg_instructor_analytics/enrollment_stats.html:21
+msgid "Unenrollments"
+msgstr "Désinscriptions"
+
+#: templates/rg_instructor_analytics/enrollment_stats.html:22
+msgid "Total"
+msgstr "Total"
+
+#: templates/rg_instructor_analytics/funnel.html:12
+msgid ""
+"This report shows which stages of your course prevent students from "
+"moving forward. "
+msgstr ""
+"Ce rapport montre quelles étapes de votre cours empêchent les étudiants "
+"de progresser. "
+
+#: templates/rg_instructor_analytics/funnel.html:15
+msgid "By stages we mean the hierarchical parts of Open edX course:"
+msgstr "Par étapes, nous entendons les parties hiérarchiques du cours Open edX:"
+
+#: templates/rg_instructor_analytics/funnel.html:18
+msgid "Section"
+msgstr "Section"
+
+#: templates/rg_instructor_analytics/funnel.html:19
+msgid "Subsection"
+msgstr "Sous-section"
+
+#: templates/rg_instructor_analytics/funnel.html:20
+msgid "Unit"
+msgstr "Unité"
+
+#: templates/rg_instructor_analytics/funnel.html:23
+msgid ""
+"See how many students entered each stage, how many passed to another one "
+"and how many stuck."
+msgstr ""
+"Voyez combien d'étudiants sont entrés à chaque étape, combien sont passés "
+"à une autre et combien sont bloqués."
+
+#: templates/rg_instructor_analytics/funnel.html:25
+msgid "Click on each stage to see the breakdown by available sub-stages."
+msgstr "Cliquez sur chaque étape pour voir la répartition par sous-étapes disponibles."
+
+#: templates/rg_instructor_analytics/funnel.html:34
+msgid ""
+"Choose section or subsection with a checkbox. Email will be sent to all "
+"the students who stuck there."
+msgstr ""
+"Choisissez une section ou sous-section avec une case à cocher. Un courriel "
+"sera envoyé à tous les étudiants qui y sont bloqués."
+
+#: templates/rg_instructor_analytics/gradebook.html:13
+msgid ""
+"This reports gives an overview of all students' progress in a simple "
+"spreadsheet form."
+msgstr ""
+"Ce rapport donne un aperçu de la progression de tous les étudiants sous "
+"forme de feuille de calcul simple."
+
+#: templates/rg_instructor_analytics/gradebook.html:16
+msgid ""
+"Progress details of any student are available by clicking on the "
+"corresponding row of the spreadsheet."
+msgstr ""
+"Les détails de progression de tout étudiant sont disponibles en cliquant "
+"sur la ligne correspondante de la feuille de calcul."
+
+#: templates/rg_instructor_analytics/gradebook.html:20
+msgid "You can filter student list by using 'Search Student...' field."
+msgstr "Vous pouvez filtrer la liste des étudiants en utilisant le champ 'Rechercher un étudiant...'."
+
+#: templates/rg_instructor_analytics/gradebook.html:21
+msgid "You can search by first name, last name or email (non-case-sensitive)."
+msgstr "Vous pouvez rechercher par prénom, nom de famille ou courriel (non sensible à la casse)."
+
+#: templates/rg_instructor_analytics/gradebook.html:37
+msgid "Progress Graph"
+msgstr "Graphique de progression"
+
+#: templates/rg_instructor_analytics/gradebook.html:39
+msgid ""
+"This graph shows the current progress details for the selected student. "
+"It contains progress on each Homework (blue columns) and total course "
+"progress (red column)."
+msgstr ""
+"Ce graphique montre les détails de progression actuels pour l'étudiant sélectionné. "
+"Il contient la progression de chaque devoir (colonnes bleues) et la progression "
+"totale du cours (colonne rouge)."
+
+#: templates/rg_instructor_analytics/gradebook.html:46
+msgid "Video Views"
+msgstr "Vues de vidéos"
+
+#: templates/rg_instructor_analytics/gradebook.html:48
+msgid ""
+"This graph indicates the number of seconds Student watched each of the "
+"course videos. Completed videos are indicated green."
+msgstr ""
+"Ce graphique indique le nombre de secondes que l'étudiant a regardé chacune "
+"des vidéos du cours. Les vidéos complétées sont indiquées en vert."
+
+#: templates/rg_instructor_analytics/gradebook.html:59
+msgid "Discussion Activity"
+msgstr "Activité de discussion"
+
+#: templates/rg_instructor_analytics/gradebook.html:61
+msgid ""
+"This graphic indicates the number of Student's activity in Discussions "
+"including comments, responses, topics creation, and votes."
+msgstr ""
+"Ce graphique indique le nombre d'activités de l'étudiant dans les discussions, "
+"y compris les commentaires, réponses, création de sujets et votes."
+
+#: templates/rg_instructor_analytics/gradebook.html:72
+msgid "Student Step"
+msgstr "Étape de l'étudiant"
+
+#: templates/rg_instructor_analytics/gradebook.html:74
+msgid "Student's path through the course ."
+msgstr "Parcours de l'étudiant dans le cours."
+
+#: templates/rg_instructor_analytics/instructor_analytics_fragment.html:6
+msgid "Instructor Analytics"
+msgstr "Analytique de l'instructeur"
+
+#: templates/rg_instructor_analytics/instructor_analytics_fragment.html:63
+msgid "Unfortunately, Analytics was disabled by admin."
+msgstr "Malheureusement, l'analytique a été désactivée par l'administrateur."
+
+#: templates/rg_instructor_analytics/problems.html:14
+msgid ""
+"This report helps detect assessments that are most problematic for "
+"students."
+msgstr ""
+"Ce rapport aide à détecter les évaluations qui posent le plus de problèmes "
+"aux étudiants."
+
+#: templates/rg_instructor_analytics/problems.html:18
+msgid ""
+"Blue columns represent average count of attempts for all assessments in a"
+" subsection."
+msgstr ""
+"Les colonnes bleues représentent le nombre moyen de tentatives pour toutes "
+"les évaluations d'une sous-section."
+
+#: templates/rg_instructor_analytics/problems.html:21
+msgid ""
+"Red columns represent average level of student's success in a subsection "
+"(%)"
+msgstr ""
+"Les colonnes rouges représentent le niveau moyen de réussite des étudiants "
+"dans une sous-section (%)"
+
+#: templates/rg_instructor_analytics/problems.html:26
+msgid ""
+"Click on the area that represents a subsection (only subsections that "
+"contain graded assessments are displayed) to get more detailed "
+"information."
+msgstr ""
+"Cliquez sur la zone qui représente une sous-section (seules les sous-sections "
+"contenant des évaluations notées sont affichées) pour obtenir des informations "
+"plus détaillées."
+
+#: templates/rg_instructor_analytics/problems.html:44
+msgid ""
+"This level of the report indexes units from assessments success "
+"perspective"
+msgstr ""
+"Ce niveau du rapport indexe les unités du point de vue de la réussite "
+"des évaluations"
+
+#: templates/rg_instructor_analytics/problems.html:48
+msgid "Blue column = 100% if students gave correct answers with 1st attempt"
+msgstr "Colonne bleue = 100% si les étudiants ont donné des réponses correctes à la 1ère tentative"
+
+#: templates/rg_instructor_analytics/problems.html:51
+msgid ""
+"Red column = 100% if students gave incorrect answers and used all the "
+"attempts"
+msgstr ""
+"Colonne rouge = 100% si les étudiants ont donné des réponses incorrectes "
+"et utilisé toutes les tentatives"
+
+#: templates/rg_instructor_analytics/problems.html:56
+msgid "Click on the area that represents a unit to get detailed information."
+msgstr "Cliquez sur la zone qui représente une unité pour obtenir des informations détaillées."
+
+#: templates/rg_instructor_analytics/problems.html:59
+msgid "Correct Answers, %"
+msgstr "Réponses correctes, %"
+
+#: templates/rg_instructor_analytics/problems.html:60
+msgid "Incorrect Answers, %"
+msgstr "Réponses incorrectes, %"
+
+#: templates/rg_instructor_analytics/suggestion.html:9
+msgid "Computing"
+msgstr "Calcul en cours"
+
+#: templates/rg_instructor_analytics/time-filter.html:9
+msgid "Select period"
+msgstr "Sélectionner la période"
+
+#: templates/rg_instructor_analytics/time-filter.html:13
+msgid "From"
+msgstr "De"
+
+#: templates/rg_instructor_analytics/time-filter.html:15
+msgid "To"
+msgstr "À"
+
+#: templates/rg_instructor_analytics/time-filter.html:20
+msgid "Apply"
+msgstr "Appliquer"
+
+#: templates/rg_instructor_analytics/time-filter.html:21
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/rg_instructor_analytics/time-filter.html:26
+msgid "Last Week"
+msgstr "Semaine dernière"
+
+#: templates/rg_instructor_analytics/time-filter.html:27
+msgid "Last 2 Weeks"
+msgstr "2 dernières semaines"
+
+#: templates/rg_instructor_analytics/time-filter.html:28
+msgid "Last Month"
+msgstr "Mois dernier"
+
+#: templates/rg_instructor_analytics/time-filter.html:29
+msgid "Since Course Start"
+msgstr "Depuis le début du cours"
+
+#: templates/rg_instructor_analytics/time-filter.html:31
+msgid "All Enrollments"
+msgstr "Toutes les inscriptions"
