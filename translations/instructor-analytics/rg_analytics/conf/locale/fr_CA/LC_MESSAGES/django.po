@@ -218,7 +218,6 @@ msgid "Invalid `answerMap` (JSON parsing error)."
 msgstr "`answerMap` invalide (erreur d'analyse JSON)."
 
 #: views/suggestion.py:131
-#, python-format
 msgid ""
 "Take a look at \"{}\" - the number of students that stuck there is "
 "{:01.0f}% higher than average."
