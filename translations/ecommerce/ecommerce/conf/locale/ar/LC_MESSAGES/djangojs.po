@@ -208,7 +208,7 @@ msgstr "البطاقة منتهية الصلاحية"
 
 #: static/js/pages/basket_page.js:474
 msgid "<Choose state/province>"
-msgstr "<اختر ولاية/إمارة/مقاطعة>"
+msgstr "<Choose state/province>"
 
 #: static/js/pages/basket_page.js:475
 msgid "State/Province (required)"
