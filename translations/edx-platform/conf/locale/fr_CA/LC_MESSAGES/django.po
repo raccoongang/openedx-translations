@@ -19611,7 +19611,7 @@ msgid ""
 "edX, Open edX, and the edX and Open edX logos are registered trademarks of "
 "{link_start}edX Inc.{link_end}"
 msgstr ""
-"edX, Open edX, and the edX and Open edX logos are registered trademarks of "
+"edX, Open edX, ainsi que les logos edX et Open edX, sont des marques de commerce déposées de "
 "{link_start}edX Inc.{link_end}"
 
 #: cms/templates/widgets/header.html:72
