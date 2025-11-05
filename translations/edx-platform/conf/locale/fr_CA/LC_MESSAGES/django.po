@@ -20369,6 +20369,10 @@ msgstr "Personnel"
 msgid "Learner"
 msgstr "Apprenant"
 
+#: lms/djangoapps/courseware/masquerade.py
+msgid "Specific Student..."
+msgstr "Apprenant spécifique..."
+
 #: lms/templates/preview_menu.html:63
 msgid "Specific learner"
 msgstr "Apprenant spécifique"
