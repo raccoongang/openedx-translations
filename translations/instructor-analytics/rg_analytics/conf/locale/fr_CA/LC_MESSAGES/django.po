@@ -340,16 +340,16 @@ msgid "This report shows the dynamics of the following metrics:"
 msgstr "Ce rapport montre la dynamique des métriques suivantes:"
 
 #: templates/rg_instructor_analytics/enrollment_stats.html:8
-msgid "Enrollments: Number of students that enrolled in the course"
-msgstr "Inscriptions: Nombre d'étudiants inscrits au cours"
+msgid "Enrollments: Number of students that enrolled in the course."
+msgstr "Inscriptions: Nombre d'étudiants inscrits au cours."
 
 #: templates/rg_instructor_analytics/enrollment_stats.html:9
-msgid "Unenrollments: Number of students that unenrolled from the course"
-msgstr "Désinscriptions: Nombre d'étudiants désinscrits du cours"
+msgid "Unenrollments: Number of students that unenrolled from the course."
+msgstr "Désinscriptions: Nombre d'étudiants désinscrits du cours."
 
 #: templates/rg_instructor_analytics/enrollment_stats.html:10
-msgid "Total: Total number of students that are currently passing the course"
-msgstr "Total: Nombre total d'étudiants suivant actuellement le cours"
+msgid "Total: Total number of students that are currently passing the course."
+msgstr "Total: Nombre total d'étudiants suivant actuellement le cours."
 
 #: templates/rg_instructor_analytics/enrollment_stats.html:12
 msgid ""
