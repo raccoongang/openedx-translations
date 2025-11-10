@@ -165,3 +165,43 @@ msgstr ""
 msgid "Give feedback"
 msgstr ""
 
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:9
+msgid "Ask a question"
+msgstr ""
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:9
+msgid "Leave a comment"
+msgstr ""
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:9
+msgid "Report a bug"
+msgstr ""
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:9
+msgid "Suggest an improvement"
+msgstr ""
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:58
+msgid "Your feedback has been noted."
+msgstr ""
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:62
+msgid "The server is not responding. Please try again later"
+msgstr ""
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:66
+msgid "Got it"
+msgstr ""
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:93
+msgid "Let us know how we can help"
+msgstr ""
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:100
+msgid "Cancel"
+msgstr ""
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:103
+msgid "Send feedback"
+msgstr ""
+

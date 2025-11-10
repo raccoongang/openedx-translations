@@ -167,3 +167,43 @@ msgstr "Guide de l'utilisateur Analytics"
 msgid "Give feedback"
 msgstr "Donner des commentaires"
 
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:9
+msgid "Ask a question"
+msgstr "Poser une question"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:9
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:9
+msgid "Report a bug"
+msgstr "Signaler un bogue"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:9
+msgid "Suggest an improvement"
+msgstr "Suggérer une amélioration"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:58
+msgid "Your feedback has been noted."
+msgstr "Votre commentaire a été enregistré."
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:62
+msgid "The server is not responding. Please try again later"
+msgstr "Le serveur ne répond pas. Veuillez réessayer plus tard."
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:66
+msgid "Got it"
+msgstr "Compris"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:93
+msgid "Let us know how we can help"
+msgstr "Dites-nous comment nous pouvons vous aider"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:100
+msgid "Cancel"
+msgstr "Annuler"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:103
+msgid "Send feedback"
+msgstr "Envoyer des commentaires"
+
