@@ -1,0 +1,209 @@
+# edX translation file for instructor-analytics (JavaScript strings).
+# Copyright (C) 2024 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2020-08-20 16:53+0000\n"
+"PO-Revision-Date: 2024-10-30 19:30+0000\n"
+"Last-Translator: Community Housing Academy Team\n"
+"Language-Team: French (Canada) (https://app.transifex.com/open-edx/teams/147691/fr_CA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_CA\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: static/rg_instructor_analytics/js/activity-tab.js:31
+msgid "Video"
+msgstr "Vidéo"
+
+#: static/rg_instructor_analytics/js/activity-tab.js:41
+msgid "Discussion"
+msgstr "Discussion"
+
+#: static/rg_instructor_analytics/js/activity-tab.js:51
+msgid "Visit"
+msgstr "Visite"
+
+#: static/rg_instructor_analytics/js/enrollment-tab.js:42
+#: static/rg_instructor_analytics/js/enrollment-tab.js:62
+msgid "Total"
+msgstr "Total"
+
+#: static/rg_instructor_analytics/js/enrollment-tab.js:51
+msgid "Enrollments/Unenrollments"
+msgstr "Inscriptions/Désinscriptions"
+
+#: static/rg_instructor_analytics/js/enrollment-tab.js:78
+msgid "Enrollments"
+msgstr "Inscriptions"
+
+#: static/rg_instructor_analytics/js/enrollment-tab.js:93
+msgid "Unenrollments"
+msgstr "Désinscriptions"
+
+#: static/rg_instructor_analytics/js/funnel-tab.js:95
+msgid "Hide emails"
+msgstr "Masquer les courriels"
+
+#: static/rg_instructor_analytics/js/funnel-tab.js:99
+msgid "Show emails"
+msgstr "Afficher les courriels"
+
+#: static/rg_instructor_analytics/js/gradebook-tab.js:283
+msgid "Search students"
+msgstr "Rechercher des étudiants"
+
+#: static/rg_instructor_analytics/js/gradebook-tab.js:375
+msgid "Date of the last Course visit:"
+msgstr "Date de la dernière visite du cours:"
+
+#: static/rg_instructor_analytics/js/problem-tab.js:96
+msgid "DETAILS"
+msgstr "DÉTAILS"
+
+#: static/rg_instructor_analytics/js/problem-tab.js:213
+msgid "Subsection"
+msgstr "Sous-section"
+
+#: static/rg_instructor_analytics/js/problem-tab.js:341
+msgid "Problem"
+msgstr "Problème"
+
+#: static/rg_instructor_analytics/js/problem-tab.js:521
+#: static/rg_instructor_analytics/js/problem-tab.js:540
+msgid "Show Plot"
+msgstr "Afficher le graphique"
+
+#: static/rg_instructor_analytics/js/react-bundle.js:55011
+#: static/rg_instructor_analytics/js/react-bundle.js:58510
+#: static/rg_instructor_analytics/js/react-bundle.js:58521
+#: static/rg_instructor_analytics/js/react-bundle.js:59280
+#: static/src/DemographicsTab/age/Empty.jsx:22
+#: static/src/DemographicsTab/education/Empty.jsx:22
+#: static/src/DemographicsTab/gender/Empty.jsx:22
+#: static/src/DemographicsTab/geo/Empty.jsx:22
+msgid "no data available"
+msgstr "aucune donnée disponible"
+
+#: static/rg_instructor_analytics/js/react-bundle.js:55485
+#: static/rg_instructor_analytics/js/react-bundle.js:58505
+#: static/rg_instructor_analytics/js/react-bundle.js:58528
+#: static/rg_instructor_analytics/js/react-bundle.js:59282
+#: static/src/DemographicsTab/age/AgeTooltip.jsx:26
+#: static/src/DemographicsTab/education/EducationTooltip.jsx:26
+#: static/src/DemographicsTab/gender/GenderTooltip.jsx:30
+#: static/src/DemographicsTab/geo/MapTooltip.jsx:28
+msgid "Users: "
+msgstr "Utilisateurs: "
+
+#: static/rg_instructor_analytics/js/react-bundle.js:58533
+#: static/src/DemographicsTab/geo/TotalUsers.jsx:21
+msgid "Total Users: "
+msgstr "Total des utilisateurs: "
+
+#: static/rg_instructor_analytics/js/react-bundle.js:66068
+#: static/src/DemographicsTab/index.jsx:19
+msgid "Country or region of residence"
+msgstr "Pays ou région de résidence"
+
+#: static/rg_instructor_analytics/js/react-bundle.js:66068
+#: static/src/DemographicsTab/index.jsx:21
+#: static/src/DemographicsTab/index.jsx:35
+#: static/src/DemographicsTab/index.jsx:49
+#: static/src/DemographicsTab/index.jsx:63
+msgid "Saepe possimus voluptatum aspernatur temporibus porro alias"
+msgstr "Saepe possimus voluptatum aspernatur temporibus porro alias"
+
+#: static/rg_instructor_analytics/js/react-bundle.js:66068
+#: static/src/DemographicsTab/index.jsx:24
+#: static/src/DemographicsTab/index.jsx:38
+#: static/src/DemographicsTab/index.jsx:52
+#: static/src/DemographicsTab/index.jsx:66
+msgid ""
+"Illum at dolorum amet reiciendis in, et adipisci assumenda deserunt quos "
+"deleniti quasi vero, perferendis dolorem modi ullam accusantium inventore "
+"amet, commodi illum perferendis ea tenetur iusto animi atque dicta rem ut?"
+msgstr ""
+"Illum at dolorum amet reiciendis in, et adipisci assumenda deserunt quos "
+"deleniti quasi vero, perferendis dolorem modi ullam accusantium inventore "
+"amet, commodi illum perferendis ea tenetur iusto animi atque dicta rem ut?"
+
+#: static/rg_instructor_analytics/js/react-bundle.js:66068
+#: static/src/DemographicsTab/index.jsx:33
+msgid "Gender"
+msgstr "Genre"
+
+#: static/rg_instructor_analytics/js/react-bundle.js:66068
+#: static/src/DemographicsTab/index.jsx:47
+msgid "Year of birth"
+msgstr "Année de naissance"
+
+#: static/rg_instructor_analytics/js/react-bundle.js:66068
+#: static/src/DemographicsTab/index.jsx:61
+msgid "Level of education"
+msgstr "Niveau d'éducation"
+
+#: static/rg_instructor_analytics/js/suggestions-tab.js:20
+msgid "No suggestions so far."
+msgstr "Aucune suggestion pour le moment."
+
+#: static/rg_instructor_analytics/js/suggestions-tab.js:39
+msgid "Go to item"
+msgstr "Aller à l'élément"
+
+#: static/rg_instructor_analytics/js/clusters-tab.js:123
+msgid "Percent:"
+msgstr "Pourcentage:"
+
+#: static/src/LogoDropdown/index.jsx:24
+msgid "Analytics user guide"
+msgstr "Guide de l'utilisateur Analytics"
+
+#: static/src/LogoDropdown/index.jsx:28
+msgid "Give feedback"
+msgstr "Donner des commentaires"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:9
+msgid "Ask a question"
+msgstr "Poser une question"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:9
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:9
+msgid "Report a bug"
+msgstr "Signaler un bogue"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:9
+msgid "Suggest an improvement"
+msgstr "Suggérer une amélioration"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:58
+msgid "Your feedback has been noted."
+msgstr "Votre commentaire a été enregistré."
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:62
+msgid "The server is not responding. Please try again later"
+msgstr "Le serveur ne répond pas. Veuillez réessayer plus tard."
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:66
+msgid "Got it"
+msgstr "Compris"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:93
+msgid "Let us know how we can help"
+msgstr "Dites-nous comment nous pouvons vous aider"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:100
+msgid "Cancel"
+msgstr "Annuler"
+
+#: static/src/LogoDropdown/components/FeedbackForm.jsx:103
+msgid "Send feedback"
+msgstr "Envoyer des commentaires"
+
