@@ -123,5 +123,7 @@
   "calculator.instruction.table.to.use.scientific.notation.type2": "{notationSyntax} 符号",
   "calculator.instruction.table.to.use.scientific.notation.type3": "{notationSyntax} 和指数",
   "learn.honorCode.content": "诚信对 {siteName} 以及在 {siteName} 网站上提供课程和计划的机构来说很重要。点击下面的“我同意”，我确认我已阅读、理解并将遵守 {siteName} 网站的 {link}。",
-  "learn.course.sequence.navigation.mobile.menu": "{current} 共 {total}"
+  "learn.course.sequence.navigation.mobile.menu": "{current} 共 {total}",
+  "learn.contentLock.complete.prerequisite": "在继续之前，您必须完成所有之前的内容。",
+  "learn.contentLock.goToSection": "前往上一部分内容"
 }
