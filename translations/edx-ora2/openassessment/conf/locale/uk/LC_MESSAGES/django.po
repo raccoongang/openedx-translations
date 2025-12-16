@@ -2947,3 +2947,24 @@ msgstr "Номер у лідерборді недійсний."
 #: xblock/utils/validation.py:382
 msgid "The submission format is invalid."
 msgstr "Формат подачі заявки є невірним."
+
+msgid "Waiting for a Staff Grade"
+msgstr "Очікує оцінки персонала"
+
+msgid "You Must Complete the Steps Above to View Your Grade"
+msgstr "Потрібно виконати наведені вище кроки, щоб переглянути свою оцінку."
+
+msgid ""
+"Although a course staff member has assessed your response, "
+"you will receive your grade only after you have completed "
+"all the required steps of this problem."
+msgstr ""
+"Хоча персонал курсу вже оцінив вашу відповідь, "
+"оцінку ви отримаєте лише після виконання всіх обов’язкових кроків цього завдання."
+
+msgid ""
+"Check back later to see if a course staff member has assessed your response. "
+"You will receive your grade after the assessment is complete."
+msgstr ""
+"Перевірте пізніше, чи оцінив вашу відповідь співробітник курсу. "
+"Ви отримаєте свою оцінку після завершення оцінювання."
