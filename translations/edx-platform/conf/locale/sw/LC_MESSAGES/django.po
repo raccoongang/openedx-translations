@@ -5957,7 +5957,7 @@ msgstr "Maendeleo: {action} {succeeded} ya {attempted} hadi sasa"
 #, python-brace-format
 msgid "Unable to find submission to be {action} for student '{student}'"
 msgstr ""
-"Imeshindwa kupata wasilisho la {action} la mwanafunzi &#39;{mwanafunzi}&#39;"
+"Imeshindwa kupata wasilisho la {action} la mwanafunzi '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.  # lint-amnesty, pylint: disable=line-
@@ -5966,7 +5966,7 @@ msgstr ""
 #, python-brace-format
 msgid "Problem failed to be {action} for student '{student}'"
 msgstr ""
-"Tatizo limeshindwa kuwa {action} kwa mwanafunzi &#39;{mwanafunzi}&#39;"
+"Tatizo limeshindwa kuwa {action} kwa mwanafunzi '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.  # lint-amnesty, pylint: disable=line-
@@ -5974,7 +5974,7 @@ msgstr ""
 #: lms/djangoapps/instructor_task/views.py:168
 #, python-brace-format
 msgid "Problem successfully {action} for student '{student}'"
-msgstr "Tatizo limefaulu {action} kwa &#39;{mwanafunzi}&#39;"
+msgstr "Tatizo limefaulu {action} kwa '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
@@ -5985,7 +5985,7 @@ msgid ""
 "'{student}'"
 msgstr ""
 "Haijaweza kupata wasilisho la mtihani wa kujiunga kuwa {action} kwa "
-"mwanafunzi &#39;{mwanafunzi}&#39;"
+"'{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #. {student} is a student identifier.
@@ -5993,7 +5993,7 @@ msgstr ""
 #, python-brace-format
 msgid "Entrance exam successfully {action} for student '{student}'"
 msgstr ""
-"Mtihani wa kuingia kwa ufaulu {action} kwa mwanafunzi &#39;{mwanafunzi}&#39;"
+"Mtihani wa kuingia kwa ufaulu {action} kwa '{student}'"
 
 #. Translators: {action} is a past-tense verb that is localized separately.
 #: lms/djangoapps/instructor_task/views.py:184
@@ -8952,10 +8952,8 @@ msgid ""
 "<{p}><{strong}>{replier_name}</{strong}> commented on your response to the "
 "post <{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {replier_name} </ {strong} &gt; alitoa maoni"
-" kuhusu jibu lako kwa chapisho &lt; <span class='notranslate'>{strong} &gt; "
-"{post_title} </<span class='notranslate'> {strong} &gt; </<span "
-"class='notranslate'> {p} &gt;"
+"<{p}><{strong}>{replier_name}</{strong}> alitoa maoni"
+" kuhusu jibu lako kwa chapisho <{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:32
 #, python-brace-format
@@ -8964,11 +8962,9 @@ msgid ""
 "<{strong}>{author_name}</{strong}> response to your post "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {replier_name} </ {strong} &gt; ametoa maoni"
-" kuhusu &lt; <span class='notranslate'>{strong} &gt; {author_name} </ "
-"{strong} &gt; majibu kwa chapisho lako &lt; <span "
-"class='notranslate'>{strong} &gt; {post_title} </<span class='notranslate'> "
-"{strong} &gt; </<span class='notranslate'> {p} &gt;"
+"<{p}><{strong}>{replier_name}</{strong}> ametoa maoni kuhusu jibu la "
+"<{strong}>{author_name}</{strong}> kwenye chapisho lako "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:46
 #, python-brace-format
@@ -8976,10 +8972,8 @@ msgid ""
 "<{p}><{strong}>{replier_name}</{strong}> responded to your post "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {replier_name} </ {strong} &gt; alijibu "
-"chapisho lako &lt; <span class='notranslate'>{strong} &gt; {post_title} "
-"</<span class='notranslate'> {strong} &gt; </<span class='notranslate'> {p} "
-"&gt;"
+"<{p}><{strong}>{replier_name}</{strong}> alijibu chapisho lako "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:65
 #, python-brace-format
@@ -8987,9 +8981,8 @@ msgid ""
 "<{p}><{strong}>{username}</{strong}> posted "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {username} </ {strong} &gt; posted &lt; "
-"<span class='notranslate'>{strong} &gt; {post_title} </<span "
-"class='notranslate'> {strong} &gt; </<span class='notranslate'> {p} &gt;"
+"<{p}><{strong}>{username}</{strong}> alichapisha "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:66
 #, python-brace-format
@@ -8997,9 +8990,7 @@ msgid ""
 "<{p}><{strong}>{replier_name}</{strong}> and others started new "
 "discussions</{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {replier_name} </<span class='notranslate'> "
-"{strong} &gt; na wengine walianza mijadala mipya </<span "
-"class='notranslate'> {p} &gt;"
+"<{p}><{strong}>{replier_name}</{strong}> na wengine walianza mijadala mipya</{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:85
 #, python-brace-format
@@ -9007,9 +8998,8 @@ msgid ""
 "<{p}><{strong}>{username}</{strong}> asked "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {username} </ {strong} &gt; aliuliza &lt; "
-"<span class='notranslate'>{strong} &gt; {post_title} </<span "
-"class='notranslate'> {strong} &gt; </<span class='notranslate'> {p} &gt;"
+"<{p}><{strong}>{username}</{strong}> aliuliza "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:99
 #, python-brace-format
@@ -9017,10 +9007,8 @@ msgid ""
 "<{p}><{strong}>{replier_name}</{strong}> responded to a post you’re "
 "following: <{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {replier_name} </ {strong} &gt; alijibu "
-"chapisho unalofuata: &lt; <span class='notranslate'>{strong} &gt; "
-"{post_title} </<span class='notranslate'> {strong} &gt; </<span "
-"class='notranslate'> {p} &gt;"
+"<{p}><{strong}>{replier_name}</{strong}> alijibu chapisho unalofuata: "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:114
 #, python-brace-format
@@ -9029,11 +9017,9 @@ msgid ""
 "<{strong}>{author_name}</{strong}> response in a post you’re following "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {replier_name} </ {strong} &gt; ametoa maoni"
-" kuhusu &lt; <span class='notranslate'>{strong} &gt; {author_name} </ "
-"{strong} &gt; jibu katika chapisho unalofuata &lt; <span "
-"class='notranslate'>{strong} &gt; {post_title} </<span class='notranslate'> "
-"{strong} &gt; </<span class='notranslate'> {p} &gt;"
+"<{p}><{strong}>{replier_name}</{strong}> ametoa maoni kuhusu jibu la "
+"<{strong}>{author_name}</{strong}> katika chapisho unalofuata "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:135
 #, python-brace-format
@@ -9041,8 +9027,7 @@ msgid ""
 "<p><strong>{username}’s </strong> {content_type} has been reported <strong> "
 "{content}</strong></p>"
 msgstr ""
-"<p><strong>{username} &#39;s</strong> {content_type} imeripotiwa "
-"<strong>{content}</strong></p>"
+"<p><strong>{username}’s </strong> {content_type} imeripotiwa <strong>{content}</strong></p>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:152
 #, python-brace-format
@@ -9050,10 +9035,8 @@ msgid ""
 "<{p}><{strong}>{replier_name}'s</{strong}> response has been endorsed in "
 "your post <{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {replier_name} &#39;s </ {strong} &gt; jibu "
-"limeidhinishwa katika chapisho lako &lt; <span class='notranslate'>{strong} "
-"&gt; {post_title} </<span class='notranslate'> {strong} &gt; </<span "
-"class='notranslate'> {p} &gt;"
+"<{p}><{strong}>{replier_name}'s</{strong}> jibu limeidhinishwa katika chapisho lako "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:167
 #, python-brace-format
@@ -9061,16 +9044,13 @@ msgid ""
 "<{p}>Your response has been endorsed on the post "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt; Jibu lako limeidhinishwa kwenye chapisho &lt; {strong} &gt; "
-"{post_title} </<span class='notranslate'> {strong} &gt; </<span "
-"class='notranslate'> {p} &gt;"
+"<{p}>Jibu lako limeidhinishwa kwenye chapisho "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:185
 #, python-brace-format
 msgid "<{p}><{strong}>{course_update_content}</{strong}></{p}>"
-msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {course_update_content} </<span "
-"class='notranslate'> {strong} &gt; </<span class='notranslate'> {p} &gt;"
+msgstr "<{p}><{strong}>{course_update_content}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:202
 #, python-brace-format
@@ -9078,9 +9058,8 @@ msgid ""
 "<{p}>You have a new open response submission awaiting review for "
 "<{strong}>{ora_name}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;Una wasilisho jipya la jibu wazi linalosubiri ukaguzi wa &lt; "
-"{strong} &gt; {ora_name} </<span class='notranslate'> {strong} &gt; </<span "
-"class='notranslate'> {p} &gt;"
+"<{p}>Una wasilisho jipya la jibu wazi linalosubiri ukaguzi wa "
+"<{strong}>{ora_name}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:204
 #, python-brace-format
@@ -9088,9 +9067,8 @@ msgid ""
 "<{p}>You have multiple submissions awaiting review for "
 "<{strong}>{ora_name}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt; Una mawasilisho mengi yanayosubiri ukaguzi wa &lt; {strong} "
-"&gt; {ora_name} </<span class='notranslate'> {strong} &gt; </<span "
-"class='notranslate'> {p} &gt;"
+"<{p}>Una mawasilisho mengi yanayosubiri ukaguzi wa "
+"<{strong}>{ora_name}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:223
 #, python-brace-format
@@ -9098,9 +9076,8 @@ msgid ""
 "<{p}>You have received {points_earned} out of {points_possible} on your "
 "assessment: <{strong}>{ora_name}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;Umepokea {points_earned} kati ya {points_possible} kwenye "
-"tathmini yako: &lt; {strong} &gt; {ora_name} </<span class='notranslate'> "
-"{strong} &gt; </<span class='notranslate'> {p} &gt;"
+"<{p}>Umepokea {points_earned} kati ya {points_possible} kwenye tathmini yako: "
+"<{strong}>{ora_name}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:238
 msgid ""
@@ -10353,7 +10330,7 @@ msgstr "Tokeni_ya_ufikio iliyotolewa si sahihi."
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:107
 msgid "Full Name cannot contain the following characters: < >"
-msgstr "Jina Kamili haliwezi kuwa na herufi zifuatazo: &lt; &gt;"
+msgstr "Jina Kamili haliwezi kuwa na herufi zifuatazo: < >"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:147
 msgid "A properly formatted e-mail is required"
@@ -12224,18 +12201,15 @@ msgid ""
 "\"default\" attribute to true. For example, \"Lydian Mode\": {\"id\": "
 "\"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": true}."
 msgstr ""
-"Ingiza kategoria za majadiliano katika umbizo lifuatalo: "
-"&quot;CategoryName&quot;: {&quot;id&quot;: &quot;i4x-InstitutionName-"
-"CourseNumber-course-CourseRun&quot;}. Kwa mfano, aina moja ya majadiliano "
-"inaweza kuwa &quot;Modi ya Lydiani&quot;: {&quot;id&quot;: "
-"&quot;i4x-UniversityX-MUS101-course-2015_T1&quot;}. Thamani ya "
-"&quot;id&quot; kwa kila aina lazima iwe ya kipekee. Katika thamani za "
-"&quot;id&quot;, herufi maalum pekee zinazotumika ni chini, kistari, na "
-"kipindi. Unaweza pia kubainisha kategoria kama chaguomsingi kwa machapisho "
-"mapya katika ukurasa wa Majadiliano kwa kuweka sifa yake ya &quot;chaguo-"
-"msingi&quot; kuwa kweli. Kwa mfano, &quot;Lydian Mode&quot;: "
-"{&quot;id&quot;: &quot;i4x-UniversityX-MUS101-course-2015_T1&quot;, "
-"&quot;default&quot;: true}."
+"Ingiza kategoria za majadiliano katika umbizo lifuatalo: \"CategoryName\": "
+"{\"id\": \"i4x-InstitutionName-CourseNumber-course-CourseRun\"}. Kwa mfano, "
+"aina moja ya majadiliano inaweza kuwa \"Modi ya Lydiani\": {\"id\": "
+"\"i4x-UniversityX-MUS101-course-2015_T1\"}. Thamani ya \"id\" kwa kila aina "
+"lazima iwe ya kipekee. Katika thamani za \"id\", herufi maalum pekee "
+"zinazotumika ni chini, kistari, na kipindi. Unaweza pia kubainisha kategoria "
+"kama chaguomsingi kwa machapisho mapya katika ukurasa wa Majadiliano kwa "
+"kuweka sifa yake ya \"default\" kuwa kweli. Kwa mfano, \"Lydian Mode\": "
+"{\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": true}."
 
 #: xmodule/course_block.py:434
 msgid "Discussions Plugin Settings"
@@ -12793,7 +12767,9 @@ msgid ""
 " configuration documentation</a> for help and examples."
 msgstr ""
 "Sanidi seti za timu, punguza ukubwa wa timu, na uweke mipangilio ya "
-"mwonekano kwa kutumia JSON. Tazama"
+"mwonekano kwa kutumia JSON. Tazama <a target=\"&#95;blank\" "
+"href=\"https://docs.openedx.org/en/latest/educators/references/advanced_features/teams_configuration_options.html\">"
+" hati za usanidi wa timu</a> kwa msaada na mifano."
 
 #: xmodule/course_block.py:852
 msgid "Enable Proctored Exams"
@@ -13054,9 +13030,8 @@ msgid ""
 msgstr ""
 "Maelezo yoyote ya ziada kuhusu kozi ambayo jukwaa linahitaji au ambayo "
 "inaruhusu kuunganishwa na mifumo ya nje kama vile programu ya CRM. Weka "
-"kamusi ya thamani katika umbizo la JSON, kama vile "
-"{&quot;my_custom_setting&quot;: &quot;value&quot;, "
-"&quot;other_setting&quot;: &quot;value&quot; }"
+"kamusi ya thamani katika umbizo la JSON, kama vile { \"my_custom_setting\": "
+"\"value\", \"other_setting\": \"value\" }"
 
 #: xmodule/course_block.py:1110
 msgid "General"
@@ -13103,7 +13078,7 @@ msgstr ""
 #, python-brace-format
 msgid "{assignment_type} = {weighted_percent:.2%} of a possible {weight:.2%}"
 msgstr ""
-"{assignment_type} = {weighted_percent:.2%} ya uwezekano wa {uzito:.2%}"
+"{assignment_type} = {weighted_percent:.2%} ya uwezekano wa {weight:.2%}"
 
 #: xmodule/graders.py:382
 msgid "Generated"
@@ -13125,7 +13100,7 @@ msgstr "Alama za chini kabisa {drop_count} {section_type} zimepunguzwa."
 #: xmodule/graders.py:433
 #, python-brace-format
 msgid "{section_type} Average = {percent:.2%}"
-msgstr "{section_type} Wastani = {asilimia:.2%}"
+msgstr "{section_type} Wastani = {percent:.2%}"
 
 #. Translators: Avg is short for Average
 #: xmodule/graders.py:438
@@ -23083,7 +23058,7 @@ msgstr "Tazama Kuweka alama kwenye studio"
 #: lms/templates/courseware/progress.html:67
 #, python-brace-format
 msgid "Course Progress for '{username}' ({email})"
-msgstr "Maendeleo ya Kozi ya &#39;{jina la mtumiaji}&#39; ( {email} )"
+msgstr "Maendeleo ya Kozi ya '{username}' ({email})"
 
 #: lms/templates/courseware/progress.html:85
 msgid "View Certificate"
