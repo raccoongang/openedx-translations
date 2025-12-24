@@ -9245,10 +9245,8 @@ msgid ""
 "<{p}><{strong}>{replier_name}</{strong}> commented on your response to the "
 "post <{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {replier_name} </ {strong} &gt; a commenté "
-"votre réponse au message &lt; <span class='notranslate'>{strong} &gt; "
-"{post_title} </<span class='notranslate'> {strong} &gt; </<span "
-"class='notranslate'> {p} &gt;"
+"<{p}><{strong}>{replier_name}</{strong}> a commenté votre réponse au message "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:32
 #, python-brace-format
@@ -9257,11 +9255,9 @@ msgid ""
 "<{strong}>{author_name}</{strong}> response to your post "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {replier_name} </ {strong} &gt; commenté "
-"&lt; <span class='notranslate'>{strong} &gt; {author_name} </ {strong} &gt; "
-"réponse à votre message &lt; <span class='notranslate'>{strong} &gt; "
-"{post_title} </<span class='notranslate'> {strong} &gt; </<span "
-"class='notranslate'> {p} &gt;"
+"<{p}><{strong}>{replier_name}</{strong}> a commenté "
+"<{strong}>{author_name}</{strong}> réponse à votre message "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:46
 #, python-brace-format
@@ -9269,10 +9265,8 @@ msgid ""
 "<{p}><{strong}>{replier_name}</{strong}> responded to your post "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {replier_name} </ {strong} &gt; a répondu à "
-"votre message &lt; <span class='notranslate'>{strong} &gt; {post_title} "
-"</<span class='notranslate'> {strong} &gt; </<span class='notranslate'> {p} "
-"&gt;"
+"<{p}><{strong}>{replier_name}</{strong}> a répondu à votre message "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:65
 #, python-brace-format
@@ -9280,9 +9274,8 @@ msgid ""
 "<{p}><{strong}>{username}</{strong}> posted "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {username} </ {strong} &gt; publié &lt; "
-"<span class='notranslate'>{strong} &gt; {post_title} </<span "
-"class='notranslate'> {strong} &gt; </<span class='notranslate'> {p} &gt;"
+"<{p}><{strong}>{username}</{strong}> a publié "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:66
 #, python-brace-format
@@ -9299,20 +9292,17 @@ msgid ""
 "<{p}><{strong}>{username}</{strong}> asked "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {username} </ {strong} &gt; demandé &lt; "
-"<span class='notranslate'>{strong} &gt; {post_title} </<span "
-"class='notranslate'> {strong} &gt; </<span class='notranslate'> {p} &gt;"
+"<{p}><{strong}>{username}</{strong}> a demandé "
+"<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:99
 #, python-brace-format
 msgid ""
-"<{p}><{strong}>{replier_name}</{strong}> responded to a post you’re "
+"<{p}><{strong}>{replier_name}</{strong}> responded to a post you're "
 "following: <{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"&lt; {p} &gt;&lt; {strong} &gt; {replier_name} </ {strong} &gt; a répondu à "
-"un message que vous suivez : &lt; <span class='notranslate'>{strong} &gt; "
-"{post_title} </<span class='notranslate'> {strong} &gt; </<span "
-"class='notranslate'> {p} &gt;"
+"<{p}><{strong}>{replier_name}</{strong}> a répondu à un message que vous "
+"suivez : <{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:114
 #, python-brace-format
@@ -10667,7 +10657,7 @@ msgstr "Le access_token fourni n&#39;est pas valide."
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:107
 msgid "Full Name cannot contain the following characters: < >"
 msgstr ""
-"Le nom complet ne peut pas contenir les caractères suivants : &lt; &gt;"
+"Le nom complet ne peut pas contenir les caractères suivants : < >"
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:147
 msgid "A properly formatted e-mail is required"
@@ -12604,18 +12594,18 @@ msgid ""
 "\"default\" attribute to true. For example, \"Lydian Mode\": {\"id\": "
 "\"i4x-UniversityX-MUS101-course-2015_T1\", \"default\": true}."
 msgstr ""
-"Saisissez les catégories de discussion au format suivant : "
-"&quot;CategoryName&quot;: {&quot;id&quot;: &quot;i4x-InstitutionName-"
-"CourseNumber-course-CourseRun&quot;}. Par exemple, une catégorie de "
-"discussion peut être « Mode Lydian » : {&quot;id&quot;: "
-"&quot;i4x-UniversityX-MUS101-course-2015_T1&quot;}. La valeur « id » pour "
+"Saisissez les catégories de discussion au format suivant : "
+"\"CategoryName\": {\"id\": \"i4x-InstitutionName-"
+"CourseNumber-course-CourseRun\"}. Par exemple, une catégorie de "
+"discussion peut être « Mode Lydian » : {\"id\": "
+"\"i4x-UniversityX-MUS101-course-2015_T1\"}. La valeur « id » pour "
 "chaque catégorie doit être unique. Dans les valeurs « id », les seuls "
 "caractères spéciaux pris en charge sont le trait de soulignement, le trait "
-"d’union et le point. Vous pouvez également spécifier une catégorie par "
+"d'union et le point. Vous pouvez également spécifier une catégorie par "
 "défaut pour les nouveaux messages dans la page Discussion en définissant son"
-" attribut « par défaut » sur true. Par exemple, « Mode Lydian » : "
-"{&quot;id&quot;: &quot;i4x-UniversityX-MUS101-course-2015_T1&quot;, "
-"&quot;default&quot;: true}."
+" attribut « par défaut » sur true. Par exemple, « Mode Lydian » : "
+"{\"id\": \"i4x-UniversityX-MUS101-course-2015_T1\", "
+"\"default\": true}."
 
 #: xmodule/course_block.py:434
 msgid "Discussions Plugin Settings"
@@ -13464,8 +13454,8 @@ msgstr ""
 "Toute information supplémentaire sur le cours dont la plateforme a besoin ou"
 " qui permet l&#39;intégration avec des systèmes externes tels que le "
 "logiciel CRM. Saisissez un dictionnaire de valeurs au format JSON, tel que {"
-" &quot;my_custom_setting&quot;: &quot;value&quot;, "
-"&quot;other_setting&quot;: &quot;value&quot; }"
+" \"my_custom_setting\": \"value\", "
+"\"other_setting\": \"value\" }"
 
 #: xmodule/course_block.py:1110
 msgid "General"
