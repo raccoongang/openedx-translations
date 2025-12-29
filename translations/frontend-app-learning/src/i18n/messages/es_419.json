@@ -454,7 +454,7 @@
   "calculator.result.field.placeholder": "",
   "notes.button.show": "",
   "notes.button.hide": "",
-  "learn.contentLock.content.locked": "",
+  "learn.contentLock.content.locked": "Contenido bloqueado",
   "learn.contentLock.complete.prerequisite": "Debes completar todo el contenido anterior antes de poder continuar.",
   "learn.contentLock.goToSection": "Ir al contenido anterior",
   "learn.hiddenAfterDue.header": "",
