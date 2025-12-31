@@ -29327,7 +29327,7 @@ msgid "Enter your response to the prompt above."
 msgstr "Введіть відповідь на завдання вище."
 
 #: openassessment/xblock/ui_mixins/legacy/views/submission.py:155
-msgid "Response not started. "
+msgid "Response not started."
 msgstr "Виконання не розпочато."
 
 #: xblock/static/dist/openassessment-lms.dc8bb1e464bcaaab4668.js:319
