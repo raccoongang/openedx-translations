@@ -126,5 +126,7 @@
   "learn.course.sequence.navigation.mobile.menu": "{current} 共 {total}",
   "learn.contentLock.content.locked": "内容已锁定",
   "learn.contentLock.complete.prerequisite": "在继续之前，您必须完成所有之前的内容。",
-  "learn.contentLock.goToSection": "前往上一部分内容"
+  "learn.contentLock.goToSection": "前往上一部分内容",
+  "courseCelebration.completedCourseHeader": "您已完成您的课程。",
+  "courseCelebration.congratulationsHeader": "恭喜！"
 }
