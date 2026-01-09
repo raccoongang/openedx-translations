@@ -72,3 +72,8 @@ msgstr "隐藏"
 #: templates/view.html:35
 msgid "Show"
 msgstr "显示"
+
+#: views.py:171
+msgid "Your response must be between {min} and {max} word."
+msgid_plural "Your response must be between {min} and {max} words."
+msgstr[0] "您的回复必须在{min}和{max}个字之间。"
