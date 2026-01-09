@@ -22,7 +22,7 @@ msgstr ""
 
 #: models.py:39
 msgid "Display Correctness?"
-msgstr "Affichage correct ?"
+msgstr "Affichage correct?"
 
 #: models.py:41
 msgid ""
@@ -217,8 +217,8 @@ msgstr[2] "Vous avez utilisé {count_attempts} des soumissions {max_attempts}"
 msgid "Your response must be between {min} and {max} word."
 msgid_plural "Your response must be between {min} and {max} words."
 msgstr[0] "Votre réponse doit être comprise entre {min} et {max} word."
-msgstr[1] "Votre réponse doit être comprise entre les mots {min} et {max} ."
-msgstr[2] "Votre réponse doit être comprise entre les mots {min} et {max} ."
+msgstr[1] "Votre réponse doit être comprise entre les mots {min} et {max}."
+msgstr[2] "Votre réponse doit être comprise entre les mots {min} et {max}."
 
 #: views.py:267
 #, python-brace-format
