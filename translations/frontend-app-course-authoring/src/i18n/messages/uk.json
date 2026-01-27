@@ -1739,5 +1739,6 @@
   "problemEditor.settings.tolerance.answerrangewarning": "Допуск не може бути застосований до діапазону відповідей",
   "problemEditor.settings.tolerance.type.percent": "Відсоток",
   "problemEditor.settings.tolerance.type.number": "Номер",
-  "problemEditor.settings.tolerance.type.none": "Немає"
+  "problemEditor.settings.tolerance.type.none": "Немає",
+  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна або в URL-адресі є помилка. Перевірте URL-адресу та повторіть спробу."
 }

@@ -1736,5 +1736,6 @@
   "problemEditor.settings.tolerance.answerrangewarning": "Tolerance cannot be applied to an answer range",
   "problemEditor.settings.tolerance.type.percent": "Percentage",
   "problemEditor.settings.tolerance.type.number": "Number",
-  "problemEditor.settings.tolerance.type.none": "None"
+  "problemEditor.settings.tolerance.type.none": "None",
+  "error.notfound.message": "The page you're looking for is unavailable or there's an error in the URL. Please check the URL and try again."
 }
