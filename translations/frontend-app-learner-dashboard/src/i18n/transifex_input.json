@@ -148,5 +148,11 @@
   "learner-dash.courseCard.banners.credit.rejected": "{providerName} did not approve your request for course credit. For more information, contact {linkToProviderSite} directly.",
   "learner-dash.courseCard.banners.credit.requestCredit": "Request Credit",
   "learner-dash.courseCard.banners.credit.viewCredit": "View Credit",
-  "learner-dash.courseCard.banners.credit.viewDetails": "View Details"
+  "learner-dash.courseCard.banners.credit.viewDetails": "View Details",
+  "enrollmentCodeSidebar.card.header.title": "Got an invitation code from a teacher?",
+  "enrollmentCodeSidebar.error.unexpected": "An unexpected error occurred. Please try again later or contact technical support.",
+  "enrollmentCodeSidebar.placeholder.code": "Enter code",
+  "enrollmentCodeSidebar.button.enroll": "Enroll",
+  "enrollmentCodeSidebar.state.processing": "Processing...",
+  "enrollmentCodeSidebar.state.complete": "Enrolled in the course"
 }
