@@ -148,5 +148,11 @@
   "learner-dash.courseCard.banners.credit.rejected": "{providerName} не схвалив ваш запит на кредит за курс. Щоб отримати додаткову інформацію, зверніться безпосередньо до {linkToProviderSite} .",
   "learner-dash.courseCard.banners.credit.requestCredit": "Запросити залікові одиниці",
   "learner-dash.courseCard.banners.credit.viewCredit": "Подивитися бали",
-  "learner-dash.courseCard.banners.credit.viewDetails": "Детальніше"
+  "learner-dash.courseCard.banners.credit.viewDetails": "Детальніше",
+  "enrollmentCodeSidebar.card.header.title": "Отримав код запрошення від учителя/учительки?",
+  "enrollmentCodeSidebar.error.unexpected": "Сталася неочікувана помилка. Будь ласка, спробуйте пізніше або зверніться до технічної підтримки.",
+  "enrollmentCodeSidebar.placeholder.code": "Введіть код",
+  "enrollmentCodeSidebar.button.enroll": "Записатись",
+  "enrollmentCodeSidebar.state.processing": "Обробка...",
+  "enrollmentCodeSidebar.state.complete": "Записано на курс"
 }
