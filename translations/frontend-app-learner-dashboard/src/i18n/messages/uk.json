@@ -154,5 +154,6 @@
   "enrollmentCodeSidebar.placeholder.code": "Введіть код",
   "enrollmentCodeSidebar.button.enroll": "Записатись",
   "enrollmentCodeSidebar.state.processing": "Обробка...",
-  "enrollmentCodeSidebar.state.complete": "Записано на курс"
+  "enrollmentCodeSidebar.state.complete": "Записано на курс",
+  "alertMessagesRenderer.error.studioAccess": "У вас немає доступу до студії."
 }
