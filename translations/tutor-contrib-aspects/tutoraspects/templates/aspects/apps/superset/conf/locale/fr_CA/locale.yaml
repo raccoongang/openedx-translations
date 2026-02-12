@@ -14,6 +14,10 @@ en:
   At-Risk Learners: Apprenants à risque
   Attempts: Tentatives
   Avg Attempts: Nombre moyen de tentatives
+  Average Grade: Note moyenne
+  Average grade: Note moyenne
+  Average Completion: Achèvement moyen
+  Average completion: Achèvement moyen
   Avg Course Grade: Note moyenne du cours
   Block ID: ID de bloc
   Block Id: Bloquer l'identifiant
@@ -25,6 +29,7 @@ en:
   Chart showing the number of registered users over the selected time period.: Graphique montrant le nombre d'utilisateurs enregistrés sur la période sélectionnée.
   ClickHouse: ClickHouse
   ClickHouse metrics: Métriques ClickHouse
+  Completion: Achèvement
   Content Level: Niveau de contenu
   Correct Attempts: Tentatives correctes
   Count: Compte
@@ -90,11 +95,16 @@ en:
   Event Time: Heure de l'évènement
   Fail Login Count: Nombre d'échecs de connexion
   First Name: Prénom
+  Full name: Nom complet
   Full Views: Vues complètes
+  Grade: Note
   Grade Range: Gamme de notes
   Grade range: Gamme de notes
   Graded: Noté
   Graded Learners: Apprenants notés
+  Group: Groupe
+  Group name: Nom du groupe
+  Groups: Groupes
   Help: Aide
   Id: Identifiant
   Incorrect Attempts: Tentatives incorrectes
@@ -107,6 +117,7 @@ en:
   Last Visited: Dernière visite
   Last course syncronized: Dernier cours synchronisé
   Learner Summary: Résumé de l'apprenant
+  Learners: Apprenants
   Learners with Passing Grade: Apprenants ayant obtenu la note de passage
   Login Count: Nombre de connexions
   Median Course Grade: Note médiane du cours
@@ -165,6 +176,7 @@ en:
   Superset Active Users Over Time: Surensemble des utilisateurs actifs au fil du temps
   Superset Registered Users Over Time: Surensemble des utilisateurs enregistrés au fil du temps
   Tables: Tableaux
+  Teacher Dashboard: Tableau de bord de l'enseignant
   Time Grain: Time Grain
   Time Last Dumped: Heure du dernier dumping
   Time Range: Intervalle de temps
