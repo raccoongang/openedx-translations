@@ -154,5 +154,6 @@
   "enrollmentCodeSidebar.placeholder.code": "Enter code",
   "enrollmentCodeSidebar.button.enroll": "Enroll",
   "enrollmentCodeSidebar.state.processing": "Processing...",
-  "enrollmentCodeSidebar.state.complete": "Enrolled in the course"
+  "enrollmentCodeSidebar.state.complete": "Enrolled in the course",
+  "alertMessagesRenderer.error.studioAccess": "You do not have access to the studio."
 }
