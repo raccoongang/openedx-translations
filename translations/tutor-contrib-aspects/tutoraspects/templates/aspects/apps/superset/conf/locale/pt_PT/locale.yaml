@@ -35,6 +35,10 @@ en:
   Attempts: Tentativas
   Avg % Correct on 1st Attempt: Média da % de acerto na 1ª tentativa
   Avg Attempts: Média de tentativas
+  Average Grade: Nota média
+  Average grade: Nota média
+  Average Completion: Conclusão média
+  Average completion: Conclusão média
   Avg Correct Attempts Coursewide: Média de tentativas corretas em todo o curso
   Avg Correct Attempts by Selected Learners: Média de tentativas corretas dos alunos selecionados
   Avg Course Grade: Nota média do curso
@@ -51,6 +55,7 @@ en:
   Chart showing the number of registered users over the selected time period.: Gráfico que mostra o número de utilizadores registados durante o período de tempo selecionado.
   ClickHouse: ClickHouse
   ClickHouse metrics: Métricas do ClickHouse
+  Completion: Conclusão
   Content Level: Nível de conteúdo
   Correct Attempts: Tentativas correctas
   Correct Attempts By Learner: Tentativas corretas do aluno
@@ -137,12 +142,17 @@ en:
   Events Cnt: Número de eventos
   Fail Login Count: Contagem de falhas de início de sessão
   First Name: Primeiro Nome
+  Full name: Nome completo
   Full Views: Visualizações completas
+  Grade: Nota
   Grade Bucket: Bucket da Avaliação
   Grade Range: Intervalo de Notas
   Grade range: Intervalo de notas
   Graded: Avaliado
   Graded Learners: Alunos classificados
+  Group: Groupo
+  Group name: Nome do grupo
+  Groups: Groupos
   Help: Ajuda
   Http User Agent: Agente de utilizador HTTP
   Id: Id
@@ -264,6 +274,7 @@ en:
   Tag: Etiqueta
   Tags: Etiquetas
   Tags Str: Etiquetas Str
+  Teacher Dashboard: Painel do professor
   Time Grain: Granularidade do tempo
   Time Last Dumped: Hora do último descarregamento
   Time Range: Intervalo de tempo
