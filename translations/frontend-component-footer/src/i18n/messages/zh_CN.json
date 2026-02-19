@@ -39,5 +39,6 @@
   "authoring.footer.termsOfService.link.label": "服务条款",
   "authoring.footer.privacyPolicy.link.label": "隐私政策",
   "authoring.footer.accessibilityRequest.link.label": "",
-  "authoring.footer.trademark.message": ""
+  "authoring.footer.trademark.message": "",
+  "footer.copyrightText": "保留所有权利"
 }
