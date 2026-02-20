@@ -54,5 +54,21 @@
   "profile.formcontrols.button.saving": "Saving",
   "profile.formcontrols.button.saved": "Saved",
   "profile.visibility.who.just.me": "Just me",
-  "profile.visibility.who.everyone": "Everyone on {siteName}"
+  "profile.visibility.who.everyone": "Everyone on {siteName}",
+  "profile.learning-transcript.title": "My Learning Transcript",
+  "profile.learning-transcript.description": "Generate a report to show how much learning you have accomplished.",
+  "profile.learning-transcript.generate.report.label": "Generate report",
+  "profile.learning-transcript.form.title": "Select dates for report generation:",
+  "profile.learning-transcript.form.from.label": "From:",
+  "profile.learning-transcript.form.to.label": "To:",
+  "profile.learning-transcript.form.note.label": "Please note:",
+  "profile.learning-transcript.form.note": "The report for the selected period shows all courses that you have enrolled or earned a certificate for during that time period. Examples of course display conditions:",
+  "profile.learning-transcript.form.condition.enrolled": "If you enrolled in a course in a specified time period.",
+  "profile.learning-transcript.form.condition.certificate": "If you earned a certificate in a specified time period.",
+  "profile.learning-transcript.form.condition.both": "In the two cases listed at the same time.",
+  "profile.learning-transcript.form.generate.label": "Generate",
+  "profile.learning-transcript.form.generate.loading": "Loading...",
+  "profile.learning-transcript.form.cancel.label": "Cancel",
+  "profile.learning-transcript.form.error": "Error, data entered incorrectly",
+  "profile.learning-transcript.form.date.placeholder": "Select date"
 }

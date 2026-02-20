@@ -54,5 +54,21 @@
   "profile.formcontrols.button.saving": "正在保存",
   "profile.formcontrols.button.saved": "已保存",
   "profile.visibility.who.just.me": "仅自己",
-  "profile.visibility.who.everyone": "{siteName} 上的每个人"
+  "profile.visibility.who.everyone": "{siteName} 上的每个人",
+  "profile.learning-transcript.title": "我的学习记录",
+  "profile.learning-transcript.description": "生成报告，展示你已完成的学习成果。",
+  "profile.learning-transcript.generate.report.label": "生成报告",
+  "profile.learning-transcript.form.title": "选择报告生成日期：",
+  "profile.learning-transcript.form.from.label": "从：",
+  "profile.learning-transcript.form.to.label": "至：",
+  "profile.learning-transcript.form.note.label": "请注意：",
+  "profile.learning-transcript.form.note": "所选时间段的报告会显示你在该期间内已报名或已获得证书的所有课程。课程显示条件示例：",
+  "profile.learning-transcript.form.condition.enrolled": "如果你在指定时间段内报名了课程。",
+  "profile.learning-transcript.form.condition.certificate": "如果你在指定时间段内获得了证书。",
+  "profile.learning-transcript.form.condition.both": "以上两种情况同时发生。",
+  "profile.learning-transcript.form.generate.label": "生成",
+  "profile.learning-transcript.form.generate.loading": "加载中...",
+  "profile.learning-transcript.form.cancel.label": "取消",
+  "profile.learning-transcript.form.error": "错误，数据填写不正确",
+  "profile.learning-transcript.form.date.placeholder": "选择日期"
 }
