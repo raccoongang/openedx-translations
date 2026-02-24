@@ -1827,10 +1827,6 @@ msgstr "排行榜号码是无效的。"
 msgid "The submission format is invalid."
 msgstr "提交的格式不正确"
 
-#: templates/legacy/edit/oa_edit_header_and_validation.html:22
-msgid "Schedule"
-msgstr "排程"
-
 #: templates/legacy/edit/oa_edit_header_and_validation.html:29
 msgid "Assessment steps"
 msgstr "评估步骤"
