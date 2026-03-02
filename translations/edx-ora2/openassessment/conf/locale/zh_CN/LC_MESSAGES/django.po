@@ -3,10 +3,10 @@
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2018.
-# 
+#
 # Translators:
 # Brian Smith, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
@@ -1826,3 +1826,46 @@ msgstr "排行榜号码是无效的。"
 #: xblock/utils/validation.py:392
 msgid "The submission format is invalid."
 msgstr "提交的格式不正确"
+
+#: templates/legacy/edit/oa_edit_header_and_validation.html:29
+msgid "Assessment steps"
+msgstr "评估步骤"
+
+#: templates/legacy/edit/oa_edit_schedule.html:14
+msgid "Configure deadlines manually"
+msgstr "手动配置截止日期"
+
+#: templates/legacy/edit/oa_edit_schedule.html:18
+msgid "Match deadlines to the subsection due date"
+msgstr "使截止日期与小节截止日期一致"
+
+#: templates/legacy/edit/oa_edit_schedule.html:22
+msgid "Match deadlines to the course end date"
+msgstr "使截止日期与课程结束日期一致"
+
+#: templates/legacy/edit/oa_edit_schedule.html:25
+msgid "Learn more about open response date settings"
+msgstr "详细了解开放式回答日期设置"
+
+msgid "Open Response Assessments allow you to configure single or multiple steps in a rubric based open response assessment sequence. The steps available below can be enabled, disable, and ordered for a flexible set of pedagogical needs."
+msgstr "开放式回答评估（ORA）允许您在基于评分标准的开放式回答评估序列中配置单个或多个步骤。您可以启用、禁用或排序以下步骤，以满足灵活的教学需求。"
+
+msgid "Learner Training is used to help students practice grading a simulated peer submission in order to train them on the rubric and ensure learner's understand the rubric for either Self or Peer Assessment steps. Configuration: For this step to be fully configured you must provide one or more graded sample responses. Learners must then match this instructor score to advance and are provided feedback when their score doesn't match the sample response."
+msgstr "学员训练旨在帮助学生通过对模拟的同伴提交内容进行评分来练习使用评分标准，确保学员在进行自评或互评前理解评分标准。配置说明：要完整配置此步骤，您必须提供一个或多个已评分的样本回答。学员必须匹配教师给出的分数才能继续，如果分数不匹配，系统将提供反馈。"
+
+msgid "Peer Assessment allows students to provide feedback to other students and also receive feedback from others in their final grade. Often, though not always, this step is preceded by Self Assessment or Learner Training steps. Configuration: For this step to be configured you must specify the number of peer reviews a student will be assessed with, and the number of peer a student must grade. Additional options can be specified"
+msgstr "互评步骤允许学生向其他学生提供反馈，并从他人的评价中获得最终成绩。此步骤通常（但非绝对）紧随自评或学员训练步骤之后。配置说明：要配置此步骤，您必须指定学生被评价所需的互评数量，以及学生必须完成的评分数量。还可以指定其他选项。"
+
+msgid "Self Assessment asks learners to grade their own submissions against the rubric."
+msgstr "自评步骤要求学员根据评分标准对自己的提交内容进行评分。"
+
+msgid "Staff Assessment gates sets the final grade for students if enabled with other steps, though it can also be used as a standalone step."
+msgstr "教师评分步骤（如果与其他步骤一起启用）将决定学生的最终成绩，它也可以作为一个独立的步骤使用。"
+
+#: templates/legacy/edit/oa_edit_basic_settings_list.html:155
+msgid "Show Rubric During Response"
+msgstr "在提交回答期间显示评分标准"
+
+#: templates/legacy/edit/oa_edit_basic_settings_list.html:167
+msgid "Allow Learner Resubmissions"
+msgstr "允许学员重新提交"
