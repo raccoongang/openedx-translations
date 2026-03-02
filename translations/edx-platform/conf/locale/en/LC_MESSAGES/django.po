@@ -1346,7 +1346,7 @@ msgid ""
 "OPTIONAL: After this date/time, users will no longer be able to enroll in "
 "this mode. Leave this blank if users can enroll in this mode until "
 "enrollment closes for the course."
-msgstr ""
+msgstr "OPTIONAL: After this date/time, users will no longer be able to enrol in this mode. Leave this blank if users can enrol in this mode until enrolment closes for the course."
 
 #: common/djangoapps/course_modes/models.py:94
 msgid "Lock upgrade deadline date"
@@ -1421,11 +1421,11 @@ msgstr ""
 
 #: common/djangoapps/course_modes/views.py:268
 msgid "Enrollment is closed"
-msgstr ""
+msgstr "Enrolment is closed"
 
 #: common/djangoapps/course_modes/views.py:283
 msgid "Enrollment mode not supported"
-msgstr ""
+msgstr "Enrolment mode not supported"
 
 #: common/djangoapps/course_modes/views.py:314
 msgid "Invalid amount selected."
@@ -1511,15 +1511,15 @@ msgstr ""
 
 #: common/djangoapps/student/models/course_enrollment.py:1658
 msgid "Namespace of enrollment attribute"
-msgstr ""
+msgstr "Namespace of enrolment attribute"
 
 #: common/djangoapps/student/models/course_enrollment.py:1662
 msgid "Name of the enrollment attribute"
-msgstr ""
+msgstr "Name of the enrolment attribute"
 
 #: common/djangoapps/student/models/course_enrollment.py:1666
 msgid "Value of the enrollment attribute"
-msgstr ""
+msgstr "Value of the enrolment attribute"
 
 #: common/djangoapps/student/models/course_enrollment.py:1740
 msgid ""
@@ -1734,7 +1734,7 @@ msgstr ""
 #: common/djangoapps/student/views/dashboard.py:759
 #, python-brace-format
 msgid "The course you are looking for is closed for enrollment as of {date}."
-msgstr ""
+msgstr "The course you are looking for is closed for enrolment as of {date}."
 
 #: common/djangoapps/student/views/management.py:369
 msgid "Course id not specified"
@@ -1750,7 +1750,7 @@ msgstr ""
 
 #: common/djangoapps/student/views/management.py:430
 msgid "Could not enroll"
-msgstr ""
+msgstr "Could not enrol"
 
 #: common/djangoapps/student/views/management.py:450
 msgid "Unenrollment is currently disabled"
@@ -1766,7 +1766,7 @@ msgstr ""
 
 #: common/djangoapps/student/views/management.py:469
 msgid "Enrollment action is invalid"
-msgstr ""
+msgstr "Enrolment action is invalid"
 
 #: common/djangoapps/student/views/management.py:512
 msgid "Please enter a username"
@@ -3325,7 +3325,7 @@ msgstr ""
 msgid ""
 "An {cert_type} certificate demonstrates a high level of achievement in a "
 "program of study, and includes verification of the student's identity."
-msgstr ""
+msgstr "An {cert_type} certificate demonstrates a high level of achievement in a programme of study, and includes verification of the student's identity."
 
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views/webview.py:127
@@ -3868,7 +3868,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/date_summary.py:272
 msgid "Enrollment Date"
-msgstr ""
+msgstr "Enrolment Date"
 
 #: lms/djangoapps/courseware/date_summary.py:273
 msgid "Course starts"
@@ -4112,7 +4112,7 @@ msgstr ""
 msgid ""
 "You are not signed in. To see additional course content, {sign_in_link} or "
 "{register_link}, and enroll in this course."
-msgstr ""
+msgstr "You are not signed in. To see additional course content, {sign_in_link} or {register_link}, and enrol in this course."
 
 #: lms/djangoapps/courseware/views/index.py:236
 #: lms/djangoapps/courseware/views/views.py:561 xmodule/discussion_block.py:187
@@ -4127,7 +4127,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:174
 msgid "Your enrollment: Audit track"
-msgstr ""
+msgstr "Your enrolment: Audit track"
 
 #: lms/djangoapps/courseware/views/views.py:175
 msgid ""
@@ -4137,7 +4137,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:183
 msgid "Your enrollment: Honor track"
-msgstr ""
+msgstr "Your enrolment: Honor track"
 
 #: lms/djangoapps/courseware/views/views.py:184
 msgid ""
@@ -4221,7 +4221,7 @@ msgstr ""
 msgid ""
 "You must be enrolled in the course to see course content. {enroll_link_start}"
 "Enroll now{enroll_link_end}."
-msgstr ""
+msgstr "You must be enrolled in the course to see course content. {enroll_link_start}Enrol now{enroll_link_end}."
 
 #: lms/djangoapps/courseware/views/views.py:603
 msgid "You must be enrolled in the course to see course content."
@@ -4277,7 +4277,7 @@ msgid ""
 "2. Complete this application. \n"
 "3. Check your email, please allow 4 weeks for your application to be "
 "processed."
-msgstr ""
+msgstr "We plan to use this information to evaluate your application for financial assistance and to further develop our financial assistance programme. \nPlease note that while assistance is available in most courses that offer verified certificates, a few courses and programmes are not eligible. You must complete a separate application for each course you take. You may be approved for financial assistance five (5) times each year (based on 12-month period from you first approval). \nTo apply for financial assistance: \n1. Enrol in the audit track for an eligible course that offers Verified Certificates. \n2. Complete this application. \n3. Check your email, please allow 4 weeks for your application to be processed."
 
 #: lms/djangoapps/courseware/views/views.py:2224
 msgid ""
@@ -4706,7 +4706,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:1512
 msgid "Enrollment Mode"
-msgstr ""
+msgstr "Enrolment Mode"
 
 #: lms/djangoapps/instructor/views/api.py:1513
 msgid "Last Login"
@@ -4751,7 +4751,7 @@ msgstr ""
 #: lms/djangoapps/instructor/views/api.py:1580
 #: lms/djangoapps/instructor_task/api_helper.py:111
 msgid "enrollment"
-msgstr ""
+msgstr "enrolment"
 
 #: lms/djangoapps/instructor/views/api.py:1606
 msgid "The file must contain a 'cohort' column containing cohort names."
@@ -4778,22 +4778,22 @@ msgstr ""
 #: lms/djangoapps/instructor/views/api.py:1803
 #, python-brace-format
 msgid "Enrollment status for {student}: active"
-msgstr ""
+msgstr "Enrolment status for {student}: active"
 
 #: lms/djangoapps/instructor/views/api.py:1805
 #, python-brace-format
 msgid "Enrollment status for {student}: inactive"
-msgstr ""
+msgstr "Enrolment status for {student}: inactive"
 
 #: lms/djangoapps/instructor/views/api.py:1810
 #, python-brace-format
 msgid "Enrollment status for {student}: pending"
-msgstr ""
+msgstr "Enrolment status for {student}: pending"
 
 #: lms/djangoapps/instructor/views/api.py:1812
 #, python-brace-format
 msgid "Enrollment status for {student}: never enrolled"
-msgstr ""
+msgstr "Enrolment status for {student}: never enrolled"
 
 #: lms/djangoapps/instructor/views/api.py:1958
 msgid "Module does not exist."
@@ -5090,7 +5090,7 @@ msgstr ""
 msgid ""
 "To gain insights into student enrollment and participation {link_start}visit "
 "{analytics_dashboard_name}, our new course analytics product{link_end}."
-msgstr ""
+msgstr "To gain insights into student enrolment and participation {link_start}visit {analytics_dashboard_name}, our new course analytics product{link_end}."
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:322
 msgid "Special Exams"
@@ -5123,7 +5123,7 @@ msgstr ""
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:471
 #, python-brace-format
 msgid "Enrollment data is now available in {dashboard_link}."
-msgstr ""
+msgstr "Enrolment data is now available in {dashboard_link}."
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py:498
 msgid "Membership"
@@ -5226,7 +5226,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/tools.py:171
 msgid "Could not find student enrollment in the course."
-msgstr ""
+msgstr "Could not find student enrolment in the course."
 
 #: lms/djangoapps/instructor/views/tools.py:199
 #, python-brace-format
@@ -5274,7 +5274,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor_task/api_helper.py:112
 msgid "detailed enrollment"
-msgstr ""
+msgstr "detailed enrolment"
 
 #: lms/djangoapps/instructor_task/api_helper.py:123
 #, python-brace-format
@@ -5550,12 +5550,12 @@ msgstr ""
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html:45
 #: lms/templates/navigation/navbar-authenticated.html:28
 msgid "Programs"
-msgstr ""
+msgstr "Programmes"
 
 #: lms/djangoapps/learner_dashboard/programs.py:155
 #: lms/templates/learner_dashboard/program_details.html:11
 msgid "Program Details"
-msgstr ""
+msgstr "Programme Details"
 
 #: lms/djangoapps/lms_xblock/mixin.py:23
 msgid ""
@@ -5665,11 +5665,11 @@ msgstr ""
 #: lms/templates/ccx/coach_dashboard.html:60
 #: lms/templates/ccx/enrollment.html:8 lms/templates/support/enrollment.html:22
 msgid "Enrollment"
-msgstr ""
+msgstr "Enrolment"
 
 #: lms/djangoapps/support/views/index.py:21
 msgid "View and update learner enrollments."
-msgstr ""
+msgstr "View and update learner enrolments."
 
 #: lms/djangoapps/support/views/index.py:25
 #: lms/templates/support/manage_user.html:23
@@ -5692,28 +5692,28 @@ msgstr ""
 #: lms/djangoapps/support/views/index.py:35
 #: lms/templates/support/feature_based_enrollments.html:11
 msgid "Feature Based Enrollments"
-msgstr ""
+msgstr "Feature Based Enrolments"
 
 #: lms/djangoapps/support/views/index.py:36
 msgid "View feature based enrollment settings"
-msgstr ""
+msgstr "View feature based enrolment settings"
 
 #: lms/djangoapps/support/views/index.py:40
 #: lms/templates/support/link_program_enrollments.html:19
 msgid "Link Program Enrollments"
-msgstr ""
+msgstr "Link Programme Enrolments"
 
 #: lms/djangoapps/support/views/index.py:41
 msgid "Link LMS users to program enrollments"
-msgstr ""
+msgstr "Link LMS users to programme enrolments"
 
 #: lms/djangoapps/support/views/index.py:45
 msgid "Program Enrollments Inspector Tool"
-msgstr ""
+msgstr "Programme Enrolments Inspector Tool"
 
 #: lms/djangoapps/support/views/index.py:46
 msgid "Find information related to a learner's program enrollments"
-msgstr ""
+msgstr "Find information related to a learner's programme enrolments"
 
 #: lms/djangoapps/support/views/manage_user.py:34
 #: lms/templates/tracking_log.html:6
@@ -5912,7 +5912,7 @@ msgstr ""
 
 #: lms/djangoapps/verify_student/views.py:148
 msgid "Enrollment confirmation"
-msgstr ""
+msgstr "Enrolment confirmation"
 
 #: lms/djangoapps/verify_student/views.py:765
 msgid "Selected price is not valid number."
@@ -6111,7 +6111,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:37
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:49
 msgid "To enroll in this course and begin the beta test:"
-msgstr ""
+msgstr "To enrol in this course and begin the beta test:"
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.html:42
 #, python-format
@@ -6163,12 +6163,12 @@ msgstr ""
 #, python-format
 msgid ""
 "Visit %(course_about_url)s to enroll in this course and begin the beta test."
-msgstr ""
+msgstr "Visit %(course_about_url)s to enrol in this course and begin the beta test."
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/body.txt:9
 #, python-format
 msgid "Visit %(site_name)s to enroll in this course and begin the beta test."
-msgstr ""
+msgstr "Visit %(site_name)s to enrol in this course and begin the beta test."
 
 #: lms/templates/instructor/edx_ace/addbetatester/email/subject.txt:3
 #, python-format
@@ -6246,7 +6246,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:11
 #, python-format
 msgid "You can then enroll in %(course_name)s."
-msgstr ""
+msgstr "You can then enrol in %(course_name)s."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:1
 msgid "Dear student,"
@@ -8052,7 +8052,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/embargo/models.py:144
 msgid "The message to show when a user is blocked from enrollment."
-msgstr ""
+msgstr "The message to show when a user is blocked from enrolment."
 
 #: openedx/core/djangoapps/embargo/models.py:151
 msgid "The message to show when a user is blocked from accessing a course."
@@ -8369,19 +8369,19 @@ msgstr ""
 #: openedx/core/djangoapps/programs/models.py:25
 msgid ""
 "Path used to construct URLs to programs marketing pages (e.g., \"/foo\")."
-msgstr ""
+msgstr "Path used to construct URLs to programmes marketing pages (e.g., \"/foo\")."
 
 #: openedx/core/djangoapps/programs/models.py:41
 msgid "Program UUID"
-msgstr ""
+msgstr "Programme UUID"
 
 #: openedx/core/djangoapps/programs/models.py:45
 msgid "If disabled, the LTI in the associated program will be disabled."
-msgstr ""
+msgstr "If disabled, the LTI in the associated programme will be disabled."
 
 #: openedx/core/djangoapps/programs/models.py:52
 msgid "The LTI configuration data for this program/provider."
-msgstr ""
+msgstr "The LTI configuration data for this programme/provider."
 
 #: openedx/core/djangoapps/schedules/admin.py:62
 msgid "Known Error Case"
@@ -9363,7 +9363,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:211
 msgid "To enroll, you must follow the honor code."
-msgstr ""
+msgstr "To enrol, you must follow the honor code."
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:219
 msgid "You are missing one or more required fields"
@@ -9630,7 +9630,7 @@ msgstr ""
 msgid ""
 "If the configuration is Enabled, then all enrollments created after this "
 "date and time (user local time) will be affected."
-msgstr ""
+msgstr "If the configuration is Enabled, then all enrolments created after this date and time (user local time) will be affected."
 
 #: openedx/features/content_type_gating/models.py:36
 msgid "Studio Override Enabled"
@@ -9640,7 +9640,7 @@ msgstr ""
 msgid ""
 "Allow Feature Based Enrollment visibility to be overriden on a per-component "
 "basis in Studio."
-msgstr ""
+msgstr "Allow Feature Based Enrolment visibility to be overriden on a per-component basis in Studio."
 
 #: openedx/features/content_type_gating/models.py:91
 #: openedx/features/course_duration_limits/models.py:91
@@ -9781,7 +9781,7 @@ msgstr ""
 msgid ""
 "Enrollment attributes were not updated for records at following line numbers "
 "in csv because no enrollment found for these records: {error_line_numbers}"
-msgstr ""
+msgstr "Enrolment attributes were not updated for records at following line numbers in csv because no enrolment found for these records: {error_line_numbers}"
 
 #: openedx/features/enterprise_support/api.py:903
 #, python-brace-format
@@ -9794,7 +9794,7 @@ msgstr ""
 #: openedx/features/enterprise_support/api.py:1004
 #, python-brace-format
 msgid "Enrollment in {course_title} was not complete."
-msgstr ""
+msgstr "Enrolment in {course_title} was not complete."
 
 #: openedx/features/enterprise_support/api.py:1008
 #, python-brace-format
@@ -9809,15 +9809,15 @@ msgstr ""
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:17
 msgid "Enterprise Course Enrollments"
-msgstr ""
+msgstr "Enterprise Course Enrolments"
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:18
 msgid "Override Enrollment Attributes"
-msgstr ""
+msgstr "Override Enrolment Attributes"
 
 #: openedx/features/enterprise_support/templates/enterprise_support/admin/enrollment_attributes_override.html:25
 msgid "Upload CSV to override enrollment attributes for learners"
-msgstr ""
+msgstr "Upload CSV to override enrolment attributes for learners"
 
 #: openedx/features/enterprise_support/utils.py:178
 #, python-brace-format
@@ -10864,11 +10864,11 @@ msgstr ""
 
 #: xmodule/course_block.py:338
 msgid "Date that enrollment for this class is opened"
-msgstr ""
+msgstr "Date that enrolment for this class is opened"
 
 #: xmodule/course_block.py:342
 msgid "Date that enrollment for this class is closed"
-msgstr ""
+msgstr "Date that enrolment for this class is closed"
 
 #: xmodule/course_block.py:344
 msgid "Start time when this block is visible"
@@ -11337,13 +11337,13 @@ msgstr ""
 
 #: xmodule/course_block.py:730
 msgid "Course Maximum Student Enrollment"
-msgstr ""
+msgstr "Course Maximum Student Enrolment"
 
 #: xmodule/course_block.py:732
 msgid ""
 "Enter the maximum number of students that can enroll in the course. To allow "
 "an unlimited number of students, enter null."
-msgstr ""
+msgstr "Enter the maximum number of students that can enrol in the course. To allow an unlimited number of students, enter null."
 
 #: xmodule/course_block.py:739
 msgid "Allow Public Wiki Access"
@@ -11361,7 +11361,7 @@ msgstr ""
 
 #: xmodule/course_block.py:750
 msgid "Whether to restrict enrollment to invitation by the course staff."
-msgstr ""
+msgstr "Whether to restrict enrolment to invitation by the course staff."
 
 #: xmodule/course_block.py:756
 msgid "Pre-Course Survey Name"
@@ -11700,7 +11700,7 @@ msgstr ""
 msgid ""
 "You are not signed in. To view the discussion content, {sign_in_link} or "
 "{register_link}, and enroll in this course."
-msgstr ""
+msgstr "You are not signed in. To view the discussion content, {sign_in_link} or {register_link}, and enrol in this course."
 
 #: xmodule/graders.py:276
 #, python-brace-format
@@ -12114,7 +12114,7 @@ msgstr ""
 msgid ""
 "Enter the number of weeks the problems are due by relative to the learner's "
 "enrollment date"
-msgstr ""
+msgstr "Enter the number of weeks the problems are due by relative to the learner's enrolment date"
 
 #: xmodule/modulestore/inheritance.py:70
 msgid "GIT URL"
@@ -12319,11 +12319,11 @@ msgstr ""
 #: xmodule/partitions/enrollment_track_partition_generator.py:38
 #: cms/templates/group_configurations.html:86
 msgid "Enrollment Track Groups"
-msgstr ""
+msgstr "Enrolment Track Groups"
 
 #: xmodule/partitions/enrollment_track_partition_generator.py:39
 msgid "Partition for segmenting users by enrollment track"
-msgstr ""
+msgstr "Partition for segmenting users by enrolment track"
 
 #: xmodule/poll_block.py:57
 msgid "Whether this student has voted on the poll"
@@ -12965,7 +12965,7 @@ msgstr ""
 msgid ""
 "{display_name} is only accessible to enrolled learners. Sign in or register, "
 "and enroll in this course to view it."
-msgstr ""
+msgstr "{display_name} is only accessible to enrolled learners. Sign in or register, and enrol in this course to view it."
 
 #: wiki/admin.py:77 wiki/models/article.py:28
 msgid "created"
@@ -15121,7 +15121,7 @@ msgid ""
 "Use an archive program to extract the data from the .tar.gz file. Extracted "
 "data includes the library.xml file, as well as subfolders that contain "
 "library content."
-msgstr ""
+msgstr "Use an archive programme to extract the data from the .tar.gz file. Extracted data includes the library.xml file, as well as subfolders that contain library content."
 
 #: cms/templates/export.html:238
 msgid "Learn more about exporting a library"
@@ -15189,7 +15189,7 @@ msgid ""
 "Use an archive program to extract the data from the .tar.gz file. Extracted "
 "data includes the course.xml file, as well as subfolders that contain course "
 "content."
-msgstr ""
+msgstr "Use an archive programme to extract the data from the .tar.gz file. Extracted data includes the course.xml file, as well as subfolders that contain course content."
 
 #: cms/templates/export.html:272
 msgid "Learn more about exporting a course"
@@ -15259,20 +15259,20 @@ msgid ""
 "learners in each enrollment track. Learners enrolled in each enrollment "
 "track in your course are automatically included in the corresponding "
 "enrollment track group."
-msgstr ""
+msgstr "Enrolment track groups allow you to offer different course content to learners in each enrolment track. Learners enrolled in each enrolment track in your course are automatically included in the corresponding enrolment track group."
 
 #: cms/templates/group_configurations.html:88
 msgid ""
 "On unit pages in the course outline, you can restrict access to components "
 "to learners based on their enrollment track."
-msgstr ""
+msgstr "On unit pages in the course outline, you can restrict access to components to learners based on their enrolment track."
 
 #: cms/templates/group_configurations.html:89
 msgid ""
 "You cannot edit enrollment track groups, but you can expand each group to "
 "view details of the course content that is designated for learners in the "
 "group."
-msgstr ""
+msgstr "You cannot edit enrolment track groups, but you can expand each group to view details of the course content that is designated for learners in the group."
 
 #: cms/templates/group_configurations.html:97
 msgid ""
@@ -16371,12 +16371,12 @@ msgstr ""
 
 #: cms/templates/settings.html:92
 msgid "(for student enrollment and access)"
-msgstr ""
+msgstr "(for student enrolment and access)"
 
 #: cms/templates/settings.html:103
 #, python-brace-format
 msgid "Enroll in {course_display_name}"
-msgstr ""
+msgstr "Enrol in {course_display_name}"
 
 #: cms/templates/settings.html:106
 #, python-brace-format
@@ -16384,7 +16384,7 @@ msgid ""
 "The course \"{course_display_name}\", provided by {platform_name}, is open "
 "for enrollment. Please navigate to this course at {link_for_about_page} to "
 "enroll."
-msgstr ""
+msgstr "The course \"{course_display_name}\", provided by {platform_name}, is open for enrolment. Please navigate to this course at {link_for_about_page} to enrol."
 
 #: cms/templates/settings.html:112
 msgid "Send a note to students via email"
@@ -16404,7 +16404,7 @@ msgid ""
 "Your course summary page will not be viewable until your course has been "
 "announced. To provide content for the page and preview it, follow the "
 "instructions provided by your Program Manager."
-msgstr ""
+msgstr "Your course summary page will not be viewable until your course has been announced. To provide content for the page and preview it, follow the instructions provided by your Programme Manager."
 
 #: cms/templates/settings.html:129
 msgid ""
@@ -16470,7 +16470,7 @@ msgid ""
 "Self-paced courses offer suggested due dates for assignments or exams based "
 "on the learner’s enrollment date and the expected course duration. These "
 "courses offer learners flexibility to modify the assignment dates as needed."
-msgstr ""
+msgstr "Self-paced courses offer suggested due dates for assignments or exams based on the learner’s enrolment date and the expected course duration. These courses offer learners flexibility to modify the assignment dates as needed."
 
 #: cms/templates/settings.html:217
 msgid "Course Schedule"
@@ -16566,23 +16566,23 @@ msgstr ""
 
 #: cms/templates/settings.html:303
 msgid "Enrollment Start Date"
-msgstr ""
+msgstr "Enrolment Start Date"
 
 #: cms/templates/settings.html:306
 msgid "First day students can enroll"
-msgstr ""
+msgstr "First day students can enrol"
 
 #: cms/templates/settings.html:310
 msgid "Enrollment Start Time"
-msgstr ""
+msgstr "Enrolment Start Time"
 
 #: cms/templates/settings.html:321
 msgid "Enrollment End Date"
-msgstr ""
+msgstr "Enrolment End Date"
 
 #: cms/templates/settings.html:325
 msgid "Last day students can enroll."
-msgstr ""
+msgstr "Last day students can enrol."
 
 #: cms/templates/settings.html:327 cms/templates/settings.html:348
 #, python-brace-format
@@ -16591,7 +16591,7 @@ msgstr ""
 
 #: cms/templates/settings.html:333
 msgid "Enrollment End Time"
-msgstr ""
+msgstr "Enrolment End Time"
 
 #: cms/templates/settings.html:344
 msgid "Upgrade Deadline Date"
@@ -16599,7 +16599,7 @@ msgstr ""
 
 #: cms/templates/settings.html:347
 msgid "Last day students can upgrade to a verified enrollment."
-msgstr ""
+msgstr "Last day students can upgrade to a verified enrolment."
 
 #: cms/templates/settings.html:353
 msgid "Upgrade Deadline Time"
@@ -16904,7 +16904,7 @@ msgstr ""
 msgid ""
 "Your course's schedule determines when students can enroll in and begin a "
 "course."
-msgstr ""
+msgstr "Your course's schedule determines when students can enrol in and begin a course."
 
 #: cms/templates/settings.html:693
 msgid ""
@@ -17183,13 +17183,13 @@ msgstr ""
 msgid ""
 "You can restrict access to this unit to learners in specific enrollment "
 "tracks or content groups."
-msgstr ""
+msgstr "You can restrict access to this unit to learners in specific enrolment tracks or content groups."
 
 #: cms/templates/visibility_editor.html:31
 msgid ""
 "You can restrict access to this component to learners in specific enrollment "
 "tracks or content groups."
-msgstr ""
+msgstr "You can restrict access to this component to learners in specific enrolment tracks or content groups."
 
 #: cms/templates/visibility_editor.html:35
 msgid ""
@@ -17398,7 +17398,7 @@ msgid ""
 "Something went wrong. Email programs sometimes split URLs into two lines, so "
 "make sure the URL you're using is formatted correctly. If you still have "
 "issues, send us an email message at {email_start}{email}{email_end}."
-msgstr ""
+msgstr "Something went wrong. Email programmes sometimes split URLs into two lines, so make sure the URL you're using is formatted correctly. If you still have issues, send us an email message at {email_start}{email}{email_end}."
 
 #: cms/templates/registration/activation_invalid.html:25
 #, python-brace-format
@@ -17613,19 +17613,19 @@ msgstr ""
 
 #: cms/templates/widgets/sock_links.html:24
 msgid "Enroll in edX101: Overview of Creating an edX Course"
-msgstr ""
+msgstr "Enrol in edX101: Overview of Creating an edX Course"
 
 #: cms/templates/widgets/sock_links.html:25
 msgid "Enroll in edX101"
-msgstr ""
+msgstr "Enrol in edX101"
 
 #: cms/templates/widgets/sock_links.html:29
 msgid "Enroll in StudioX: Creating a Course with edX Studio"
-msgstr ""
+msgstr "Enrol in StudioX: Creating a Course with edX Studio"
 
 #: cms/templates/widgets/sock_links.html:30
 msgid "Enroll in StudioX"
-msgstr ""
+msgstr "Enrol in StudioX"
 
 #: cms/templates/widgets/sock_links.html:34
 #, python-brace-format
@@ -17941,15 +17941,15 @@ msgstr ""
 #: lms/templates/enroll_staff.html:34
 msgctxt "self"
 msgid "Enroll"
-msgstr ""
+msgstr "Enrol"
 
 #: lms/templates/enroll_staff.html:37
 msgid "Don't enroll"
-msgstr ""
+msgstr "Don't enrol"
 
 #: lms/templates/enroll_students.html:4
 msgid "Student Enrollment Form"
-msgstr ""
+msgstr "Student Enrolment Form"
 
 #: lms/templates/enroll_students.html:6
 msgid "Course: "
@@ -18328,7 +18328,7 @@ msgstr ""
 
 #: lms/templates/public_video.html:47
 msgid "Enroll in this course"
-msgstr ""
+msgstr "Enrol in this course"
 
 #: lms/templates/courseware/courseware-chromeless.html:12
 #: lms/templates/courseware/courseware.html:28
@@ -19623,7 +19623,7 @@ msgstr ""
 #: lms/templates/ccx/coach_dashboard.html:72
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:9
 msgid "Batch Enrollment"
-msgstr ""
+msgstr "Batch Enrolment"
 
 #: lms/templates/ccx/coach_dashboard.html:78
 #: lms/templates/ccx/student_admin.html:5
@@ -19656,7 +19656,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:27
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:108
 msgid "Auto Enroll"
-msgstr ""
+msgstr "Auto Enrol"
 
 #: lms/templates/ccx/enrollment.html:26
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:31
@@ -19673,7 +19673,7 @@ msgid ""
 "If this option is left {em_start}unchecked{em_end}, users who have not yet "
 "registered for {platform_name} will not be enrolled, but will be allowed to "
 "enroll once they make an account."
-msgstr ""
+msgstr "If this option is left {em_start}unchecked{em_end}, users who have not yet registered for {platform_name} will not be enrolled, but will be allowed to enrol once they make an account."
 
 #: lms/templates/ccx/enrollment.html:37
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:34
@@ -19701,7 +19701,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:53
 msgctxt "someone"
 msgid "Enroll"
-msgstr ""
+msgstr "Enrol"
 
 #: lms/templates/ccx/enrollment.html:71
 msgid "Student List Management"
@@ -19934,11 +19934,11 @@ msgstr ""
 #: lms/templates/course_modes/error.html:13
 #, python-brace-format
 msgid "Unable to enroll in {course_name}"
-msgstr ""
+msgstr "Unable to enrol in {course_name}"
 
 #: lms/templates/course_modes/error.html:24
 msgid "Sorry, we were unable to enroll you in"
-msgstr ""
+msgstr "Sorry, we were unable to enrol you in"
 
 #: lms/templates/course_modes/error.html:29
 msgid "Explore all courses on edX"
@@ -20012,7 +20012,7 @@ msgstr ""
 #: lms/templates/course_modes/track_selection.html:13
 #, python-brace-format
 msgid "Enroll In {course_name} | Upgrade Now"
-msgstr ""
+msgstr "Enrol In {course_name} | Upgrade Now"
 
 #: lms/templates/course_modes/track_selection.html:92
 msgid "Choose a path for your course in"
@@ -20078,15 +20078,15 @@ msgstr ""
 
 #: lms/templates/courseware/course_about.html:89
 msgid "Enrollment in this course is by invitation only"
-msgstr ""
+msgstr "Enrolment in this course is by invitation only"
 
 #: lms/templates/courseware/course_about.html:94
 msgid "Enrollment is Closed"
-msgstr ""
+msgstr "Enrolment is Closed"
 
 #: lms/templates/courseware/course_about.html:113
 msgid "Enroll Now"
-msgstr ""
+msgstr "Enrol Now"
 
 #: lms/templates/courseware/course_about.html:145
 msgid "View About Page in studio"
@@ -20123,7 +20123,7 @@ msgstr ""
 #: lms/templates/courseware/course_about.html:286
 msgctxt "self"
 msgid "enroll"
-msgstr ""
+msgstr "enrol"
 
 #: lms/templates/courseware/course_about_sidebar_header.html:14
 #: themes/stanford-style/lms/templates/courseware/course_about_sidebar_header.html:8
@@ -20269,7 +20269,7 @@ msgstr ""
 
 #: lms/templates/courseware/program_marketing.html:92
 msgid "Purchase the Program ("
-msgstr ""
+msgstr "Purchase the Programme ("
 
 #: lms/templates/courseware/program_marketing.html:94
 #: lms/templates/courseware/program_marketing.html:254
@@ -20361,7 +20361,7 @@ msgstr ""
 #: lms/templates/courseware/program_marketing.html:241
 #, python-brace-format
 msgid "{number_of_courses} courses in program"
-msgstr ""
+msgstr "{number_of_courses} courses in programme"
 
 #: lms/templates/courseware/program_marketing.html:249
 msgid "Price (USD)"
@@ -20370,7 +20370,7 @@ msgstr ""
 #: lms/templates/courseware/program_marketing.html:260
 #, python-brace-format
 msgid "${newPrice}{htmlEnd} for entire program"
-msgstr ""
+msgstr "${newPrice}{htmlEnd} for entire programme"
 
 #: lms/templates/courseware/program_marketing.html:265
 #, python-brace-format
@@ -20380,7 +20380,7 @@ msgstr ""
 #: lms/templates/courseware/program_marketing.html:273
 #, python-brace-format
 msgid "${full_program_price} for entire program"
-msgstr ""
+msgstr "${full_program_price} for entire programme"
 
 #: lms/templates/courseware/program_marketing.html:290
 #, python-brace-format
@@ -20809,7 +20809,7 @@ msgstr ""
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:352
 msgid "Related Programs"
-msgstr ""
+msgstr "Related Programmes"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:386
 #, python-brace-format
@@ -21274,7 +21274,7 @@ msgid ""
 "A CSV file of your registration URLs is attached. Please distribute "
 "registration URLs to each student planning to enroll using the email "
 "template below."
-msgstr ""
+msgstr "A CSV file of your registration URLs is attached. Please distribute registration URLs to each student planning to enrol using the email template below."
 
 #. Translators: This is followed by the instructor or course team name (so
 #. could be singular or plural)
@@ -21300,7 +21300,7 @@ msgstr ""
 msgid ""
 "To enroll in {course_names} we have provided a registration URL for you.  "
 "Please follow the instructions below to claim your access."
-msgstr ""
+msgstr "To enrol in {course_names} we have provided a registration URL for you.  Please follow the instructions below to claim your access."
 
 #. Translators: please translate the text inside [[ ]]. This is meant as a
 #. template for course teams to use.
@@ -21322,7 +21322,7 @@ msgstr ""
 msgid ""
 "(3) On the enrollment confirmation page, Click the 'Activate Enrollment "
 "Code' button. This will show the enrollment confirmation."
-msgstr ""
+msgstr "(3) On the enrolment confirmation page, Click the 'Activate Enrolment Code' button. This will show the enrolment confirmation."
 
 #: lms/templates/emails/business_order_confirmation_email.txt:97
 #, python-brace-format
@@ -21504,11 +21504,11 @@ msgstr ""
 msgid ""
 "Our system indicates that you are trying to enroll in this {platform_name} "
 "course from a country or region in which it is not currently available."
-msgstr ""
+msgstr "Our system indicates that you are trying to enrol in this {platform_name} course from a country or region in which it is not currently available."
 
 #: lms/templates/enrollment/course_enrollment_message.html:6
 msgid "Enrollment Successful"
-msgstr ""
+msgstr "Enrolment Successful"
 
 #: lms/templates/enrollment/course_enrollment_message.html:9
 #, python-brace-format
@@ -21543,7 +21543,7 @@ msgid ""
 "EdX Financial Assistance is a program we created to give learners in all "
 "financial circumstances a chance to earn a Verified Certificate upon "
 "successful completion of an edX course."
-msgstr ""
+msgstr "EdX Financial Assistance is a programme we created to give learners in all financial circumstances a chance to earn a Verified Certificate upon successful completion of an edX course."
 
 #. Translators: This string will not be used in Open edX installations.
 #: lms/templates/financial-assistance/financial-assistance.html:31
@@ -21821,11 +21821,11 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:8
 msgid "Enrollment Information"
-msgstr ""
+msgstr "Enrolment Information"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:14
 msgid "Number of enrollees (admins, staff, and students) by track"
-msgstr ""
+msgstr "Number of enrolees (admins, staff, and students) by track"
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:19
 msgid "Audit"
@@ -21964,11 +21964,11 @@ msgstr ""
 msgid ""
 "Click to generate a CSV file that lists learners who can enroll in the "
 "course but have not yet done so."
-msgstr ""
+msgstr "Click to generate a CSV file that lists learners who can enrol in the course but have not yet done so."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:38
 msgid "Download a CSV of learners who can enroll"
-msgstr ""
+msgstr "Download a CSV of learners who can enrol"
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:40
 msgid "Click to download a CSV of anonymized student IDs:"
@@ -22253,7 +22253,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:19
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:150
 msgid "Create Enrollment Codes"
-msgstr ""
+msgstr "Create Enrolment Codes"
 
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:24
 msgid "* Required Information"
@@ -22261,7 +22261,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:39
 msgid "The organization that purchased enrollments in the course"
-msgstr ""
+msgstr "The organization that purchased enrolments in the course"
 
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:43
 msgid "Organization Contact"
@@ -22313,15 +22313,15 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:113
 msgid "The price per enrollment purchased"
-msgstr ""
+msgstr "The price per enrolment purchased"
 
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:117
 msgid "Number of Enrollment Codes"
-msgstr ""
+msgstr "Number of Enrolment Codes"
 
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:121
 msgid "The total number of enrollment codes to create"
-msgstr ""
+msgstr "The total number of enrolment codes to create"
 
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html:126
 msgid "Course Team Internal Reference"
@@ -22362,19 +22362,19 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:5
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:17
 msgid "Enrollment Code Status"
-msgstr ""
+msgstr "Enrolment Code Status"
 
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:22
 msgid "Change the status of an enrollment code."
-msgstr ""
+msgstr "Change the status of an enrolment code."
 
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:32
 msgid "Enrollment Code"
-msgstr ""
+msgstr "Enrolment Code"
 
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html:38
 msgid "Find Enrollment Code"
-msgstr ""
+msgstr "Find Enrolment Code"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:11
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:101
@@ -22397,7 +22397,7 @@ msgstr ""
 msgid ""
 "This cannot be left blank and will be recorded and presented in Enrollment "
 "Reports."
-msgstr ""
+msgstr "This cannot be left blank and will be recorded and presented in Enrolment Reports."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:20
 msgid "Therefore, please give enough detail to account for this action."
@@ -22411,7 +22411,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:64
 msgid "Register/Enroll Students"
-msgstr ""
+msgstr "Register/Enrol Students"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:65
 msgid ""
@@ -22420,11 +22420,11 @@ msgid ""
 "name, and country. Please include one student per row and do not include any "
 "headers, footers, or blank lines. Optionally, extra columns can be provided: "
 "cohort and course mode, in that order. These extra columns may be blank."
-msgstr ""
+msgstr "To register and enrol a list of users in this course, choose a CSV file that contains the following columns in this exact order: email, username, name, and country. Please include one student per row and do not include any headers, footers, or blank lines. Optionally, extra columns can be provided: cohort and course mode, in that order. These extra columns may be blank."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:68
 msgid "Upload a CSV for bulk enrollment"
-msgstr ""
+msgstr "Upload a CSV for bulk enrolment"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:75
 msgid "Upload CSV"
@@ -22490,7 +22490,7 @@ msgid ""
 "all course data. Staff also have access to your course in Studio and "
 "Insights. Any users not yet enrolled in the course will be automatically "
 "enrolled when added as Staff."
-msgstr ""
+msgstr "Course team members with the Staff role help you manage your course. Staff can enrol and unenroll learners, as well as modify their grades and access all course data. Staff also have access to your course in Studio and Insights. Any users not yet enrolled in the course will be automatically enrolled when added as Staff."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:179
 msgid "Add Staff"
@@ -22507,7 +22507,7 @@ msgid ""
 "grades and access all course data. Limited Staff don't have access to your "
 "course in Studio. Any users not yet enrolled in the course will be "
 "automatically enrolled when added as Limited Staff."
-msgstr ""
+msgstr "Course team members with the Limited Staff role help you manage your course. Limited Staff can enrol and unenroll learners, as well as modify their grades and access all course data. Limited Staff don't have access to your course in Studio. Any users not yet enrolled in the course will be automatically enrolled when added as Limited Staff."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:193
 msgid "Add Limited Staff"
@@ -22624,7 +22624,7 @@ msgid ""
 "open threads, and endorse responses. Their posts are marked as 'Community "
 "TA'. Any users not yet enrolled in the course will be automatically enrolled "
 "when added as Community TA"
-msgstr ""
+msgstr "Community TAs are members of the community who help course teams moderate discussions. They can see posts by learners in their assigned cohort or enrolment track, and can edit or delete posts, clear flags, close or re-open threads, and endorse responses. Their posts are marked as 'Community TA'. Any users not yet enrolled in the course will be automatically enrolled when added as Community TA"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:292
 msgid "Add Community TA"
@@ -22818,7 +22818,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:22
 msgid "View a specific learner's enrollment status"
-msgstr ""
+msgstr "View a specific learner's enrolment status"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:25
 #, python-brace-format
@@ -22834,7 +22834,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:36
 msgid "View Enrollment Status"
-msgstr ""
+msgstr "View Enrolment Status"
 
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:44
 msgid "View a specific learner's grades and progress"
@@ -23084,7 +23084,7 @@ msgstr ""
 msgid ""
 "Click to generate a CSV file                 that lists learners who can "
 "enroll in the course but have not yet done so."
-msgstr ""
+msgstr "Click to generate a CSV file                 that lists learners who can enrol in the course but have not yet done so."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download_2/reports.html:98
 msgid ""
@@ -23468,11 +23468,11 @@ msgstr ""
 
 #: lms/templates/support/enrollment.html:27
 msgid "Student Support: Enrollment"
-msgstr ""
+msgstr "Student Support: Enrolment"
 
 #: lms/templates/support/feature_based_enrollments.html:16
 msgid "Student Support: Feature Based Enrollments"
-msgstr ""
+msgstr "Student Support: Feature Based Enrolments"
 
 #: lms/templates/support/feature_based_enrollments.html:33
 msgid "Content Type Gating"
@@ -23497,7 +23497,7 @@ msgstr ""
 
 #: lms/templates/support/program_enrollments_inspector.html:19
 msgid "Program Enrollments Inspector"
-msgstr ""
+msgstr "Programme Enrolments Inspector"
 
 #: lms/templates/survey/survey.html:11
 msgid "User Survey"
@@ -23597,7 +23597,7 @@ msgstr ""
 #: lms/templates/verify_student/pay_and_verify.html:16
 #, python-brace-format
 msgid "Upgrade Your Enrollment For {course_name}."
-msgstr ""
+msgstr "Upgrade Your Enrolment For {course_name}."
 
 #: lms/templates/verify_student/pay_and_verify.html:18
 #, python-brace-format
@@ -23607,7 +23607,7 @@ msgstr ""
 #: lms/templates/verify_student/pay_and_verify.html:20
 #, python-brace-format
 msgid "Enroll In {course_name}"
-msgstr ""
+msgstr "Enrol In {course_name}"
 
 #: lms/templates/verify_student/pay_and_verify.html:106
 msgid "Technical Requirements"

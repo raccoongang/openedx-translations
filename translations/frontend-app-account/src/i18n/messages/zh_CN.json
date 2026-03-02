@@ -329,5 +329,22 @@
   "id.verification.requirements.card.device.text": "你需要一个有摄像头的设备。如果您收到访问相机的浏览器提示，请确保单击 {allow}。",
   "id.verification.account.name.summary.alert": "您的帐户设置由 {managerTitle} 管理。如果您照片 ID 上的姓名与您帐户上的姓名不符，请联系您的 {profileDataManager} 管理员或 {support} 寻求帮助。",
   "idv.submission.alert.error": "",
-  "id.verification.account.name.edit": "编辑 {sr}"
+  "id.verification.account.name.edit": "编辑 {sr}",
+  "account.education_level.label": "你的教育程度",
+  "account.work_context.label": "您目前的角色",
+  "account.work_context.description": "你的工作环境",
+  "education.level.hs": "高中",
+  "education.level.ug": "本科",
+  "education.level.m": "硕士",
+  "education.level.d": "博士",
+  "education.level.other": "其他",
+  "work.context.ti": "学术人员（高等院校)",
+  "work.context.kg": "学术人员（幼儿园级别)",
+  "work.context.ps": "学术人员（小学级别)",
+  "work.context.ss": "学术人员（中学水平)",
+  "work.context.nas": "非学术人员",
+  "work.context.phs": "家长 (AISL 哈罗学校)",
+  "work.context.pnhs": "家长（非AISL哈罗学校)",
+  "work.context.st": "学生 (AISL 哈罗学校)",
+  "work.context.stnh": "学生 (非AISL哈罗学校)"
 }
