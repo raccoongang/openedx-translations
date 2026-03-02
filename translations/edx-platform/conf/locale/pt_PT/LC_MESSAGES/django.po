@@ -27196,3 +27196,10 @@ msgstr "Classificação"
 #: RGG/CourseLeaderboard/tab
 msgid "Course Leaderboard"
 msgstr "Classificação do Curso"
+
+#: plugins.py:20
+msgid "Instructor analytics"
+msgstr "Análise para instrutores"
+
+msgid "This certificate is proudly presented to"
+msgstr "Este certificado é atribuído com distinção a"

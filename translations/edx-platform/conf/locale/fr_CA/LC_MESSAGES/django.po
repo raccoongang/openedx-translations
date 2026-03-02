@@ -26870,3 +26870,10 @@ msgstr "Classement"
 #: RGG/CourseLeaderboard/tab
 msgid "Course Leaderboard"
 msgstr "Classement du parcours"
+
+msgid "This certificate is proudly presented to"
+msgstr "Ce certificat est fièrement décerné à"
+
+#: pdf/static/html/pdf_view.html:13
+msgid "Download the PDF"
+msgstr "Téléchargez le PDF"

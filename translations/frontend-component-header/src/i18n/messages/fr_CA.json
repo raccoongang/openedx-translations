@@ -34,5 +34,6 @@
   "header.user.menu.studio": "Accueil Studio",
   "header.user.menu.maintenance": "",
   "header.label.courseOutline": "Retour au plan de cours dans Studio",
-  "header.label.search.nav": "Rechercher du contenu"
+  "header.label.search.nav": "Rechercher du contenu",
+  "header.cookie.banner.text": "Nous utilisons des cookies sur ce site pour améliorer votre expérience utilisateur. En utilisant ce site web, vous acceptez cette utilisation. En savoir plus à propos de cela dans {cookiePolicyLink}. Pour une vue d'ensemble complète de tous les cookies utilisés, veuillez consulter vos paramètres personnels."
 }
