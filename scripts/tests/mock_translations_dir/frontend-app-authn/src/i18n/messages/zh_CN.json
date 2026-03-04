@@ -1,0 +1,9 @@
+{
+  "login.page.title": "登录",
+<<<<<<< feature-branch
+  "register.page.title": "注册账号",
+=======
+  "register.page.title": "创建账户",
+>>>>>>> main
+  "logout.page.title": "退出"
+}
