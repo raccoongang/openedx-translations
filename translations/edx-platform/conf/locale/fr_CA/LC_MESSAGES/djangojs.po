@@ -10219,6 +10219,10 @@ msgstr "(Champ requis)"
 msgid "e.g. johndoe@example.com, JaneDoe, joeydoe@example.com"
 msgstr "ex : johndoe@example.com, JaneDoe, joeydoe@example.com"
 
+#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:30
+msgid "e.g. johndoe@example.com or joeydoe@gmail.com"
+msgstr "ex : johndoe@example.com avec joeydoe@gmail.com"
+
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore:33
 msgid ""
 "You will not receive notification for emails that bounce, so double-check "
