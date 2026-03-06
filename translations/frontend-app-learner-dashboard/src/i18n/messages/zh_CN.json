@@ -18,7 +18,7 @@
   "learner-dash.courseListFilters.sort": "种类",
   "learner-dash.courseListFilters.sortLastEnrolled": "最后注册",
   "learner-dash.courseListFilters.sortTitle": "标题（AZ）",
-  "learner-dash.courseListFilters.refine": "精炼",
+  "learner-dash.courseListFilters.refine": "筛选",
   "dashboard.mycourses": "我的课程",
   "learner-dash.emailSettings.header": "收到课程电子邮件？",
   "learner-dash.emailSettings.emailsOff": "课程电子邮件已关闭",
