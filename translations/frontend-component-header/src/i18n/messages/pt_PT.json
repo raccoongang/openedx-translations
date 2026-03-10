@@ -27,6 +27,8 @@
   "header.help.label": "Ajuda",
   "header.menu.profile.label": "Perfil",
   "header.menu.account.label": "Conta",
+  "header.menu.performance.label": "Desempenho",
+  "header.menu.leaderboard.label": "Classificação",
   "header.menu.orderHistory.label": "Histórico de Compras",
   "header.navigation.skipNavLink": "Saltar para o conteúdo principal.",
   "header.menu.signOut.label": "Terminar Sessão",
