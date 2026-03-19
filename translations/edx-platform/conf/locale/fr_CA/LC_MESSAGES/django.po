@@ -27287,3 +27287,7 @@ msgstr "Placer votre texte de droits d'auteur ici!"
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr "Éditeur de code"
+
+#: edx-platform/lms/djangoapps/mfe_config_api/views.py:73
+msgid "the Community Housing Academy"
+msgstr "l’Académie du logement communautaire"
