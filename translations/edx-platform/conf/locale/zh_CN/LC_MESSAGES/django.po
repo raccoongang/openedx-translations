@@ -35,12 +35,12 @@ msgstr ""
 "PO-Revision-Date: 2025-07-23 17:30+0000\n"
 "Last-Translator: Eden Huthmacher, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/open-edx/teams/6205/zh_CN/)\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.17.0\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: cms/djangoapps/api/v1/serializers/course_runs.py:49
 msgid "Course team user does not exist"
@@ -7512,7 +7512,7 @@ msgstr "学员必须升级至认证坐席的截止日期"
 #: lms/templates/ccx/coach_dashboard.html:75
 #: lms/templates/ccx/schedule.html:33
 msgid "Schedule"
-msgstr "时间表"
+msgstr "日程"
 
 #: openedx/core/djangoapps/schedules/templates/dropdown_filter.html:3
 #, python-format
@@ -11684,12 +11684,12 @@ msgid ""
 "file. If you want to provide the transcript for download in a different "
 "format, upload a file by using the Upload Handout field."
 msgstr ""
-"允许学生下载字幕。下载链接会出现在视频的下方。默认情况下，下载的字幕是一个 .srt 或者 .txt "
-"文件。如果您需要提供不同文件格式的字幕下载，使用“上传讲义”域上传该文件。"
+"允许学生下载带时间轴的记录副本。下载链接将显示在视频下方。默认情况下，字幕是 .vtt 或 .srt "
+"文件。如果您希望提供其他格式的字幕下载，请使用“上传讲义”字段上传文件。"
 
 #: xmodule/video_block/video_xfields.py:110
 msgid "Download Transcript Allowed"
-msgstr "允许下载字幕"
+msgstr "允许下载记录副本"
 
 #: xmodule/video_block/video_xfields.py:117
 msgid ""
@@ -11700,7 +11700,7 @@ msgstr "视频的默认字幕，来自于“基本”面板的“默认字幕”
 
 #: xmodule/video_block/video_xfields.py:119
 msgid "Default Timed Transcript"
-msgstr "默认字幕"
+msgstr "默认带时间轴的记录副本"
 
 #: xmodule/video_block/video_xfields.py:124
 msgid "Specify whether the transcripts appear with the video by default."
@@ -11714,7 +11714,7 @@ msgstr "显示字幕"
 msgid ""
 "Add transcripts in different languages. Click below to specify a language "
 "and upload an .srt transcript file for that language."
-msgstr "添加不同语言的字幕。单击下方以指定语言并上传该语言对应的 .srt 字幕文件。"
+msgstr "添加不同语言的记录副本。点击下方指定一种语言并上传该语言的 .srt 字幕文件。"
 
 #: xmodule/video_block/video_xfields.py:133
 msgid "Transcript Languages"
@@ -16430,7 +16430,7 @@ msgstr "浏览所有课程"
 #: lms/templates/header/user_dropdown.html:44
 #: lms/templates/user_dropdown.html:30 lms/templates/user_dropdown.html:38
 msgid "Dashboard"
-msgstr "课程面板"
+msgstr "概览"
 
 #: lms/templates/dashboard.html:230
 msgid "results successfully populated,"
@@ -16791,7 +16791,7 @@ msgstr "查看课程的身份："
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:170
 #: lms/templates/preview_menu.html:61
 msgid "Staff"
-msgstr "工作人员"
+msgstr "职员"
 
 #: lms/templates/preview_menu.html:62
 msgid "Learner"
@@ -22045,4 +22045,4 @@ msgstr "旧版内容库"
 #, javascript-format
 msgid "Viewing %s course"
 msgid_plural "Viewing %s courses"
-msgstr[0] "正在查看 %s 门课程"
+msgstr[0] "查看 %s 门课程"

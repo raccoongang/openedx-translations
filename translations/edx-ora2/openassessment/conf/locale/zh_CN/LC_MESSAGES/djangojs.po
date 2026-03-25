@@ -3,10 +3,10 @@
 # Copyright (C) 2018 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2018.
-# 
+#
 # Translators:
 # Brian Smith, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: edx-ora2\n"
@@ -15,10 +15,10 @@ msgstr ""
 "PO-Revision-Date: 2025-07-23 17:30+0000\n"
 "Last-Translator: Brian Smith, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/open-edx/teams/6205/zh_CN/)\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:8
@@ -155,7 +155,7 @@ msgstr "等待"
 #: xblock/static/js/src/lms/oa_course_items_listing.js:153
 #: xblock/static/js/src/lms/oa_course_items_listing.js:154
 msgid "Staff"
-msgstr "工作人员"
+msgstr "职员"
 
 #: xblock/static/dist/openassessment-lms.51b88d7de00c69ab0a2e.js:309
 #: xblock/static/js/src/lms/oa_course_items_listing.js:161
