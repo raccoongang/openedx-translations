@@ -73,5 +73,6 @@
   "gradebook.GradesView.EditModal.Overrides.adjustedGradeHeader": "Скоригована Оцінка",
   "gradebook.GradesView.EditModal.Overrides.dateHeader": "Дата",
   "gradebook.GradesView.EditModal.Overrides.graderHeader": "Оцінка",
-  "gradebook.GradesView.EditModal.Overrides.reasonHeader": "Причина"
+  "gradebook.GradesView.EditModal.Overrides.reasonHeader": "Причина",
+  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна, або в URL-адресі є помилка. Будь ласка, перевірте URL-адресу та спробуйте ще раз."
 }

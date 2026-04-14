@@ -100,5 +100,6 @@
   "ora-grading.lms-api.gradingStatusDisplay.ungraded": "Ungraded",
   "ora-grading.lms-api.gradingStatusDisplay.locked": "Currently being graded by someone else",
   "ora-grading.lms-api.gradingStatusDisplay.graded": "Grading Completed",
-  "ora-grading.lms-api.gradingStatusDisplay.inProgress": "You are currently grading this response"
+  "ora-grading.lms-api.gradingStatusDisplay.inProgress": "You are currently grading this response",
+  "error.notfound.message": "The page you're looking for is unavailable or there's an error in the URL. Please check the URL and try again."
 }

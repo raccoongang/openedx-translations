@@ -73,5 +73,6 @@
   "gradebook.GradesView.EditModal.Overrides.adjustedGradeHeader": "Adjusted grade",
   "gradebook.GradesView.EditModal.Overrides.dateHeader": "Date",
   "gradebook.GradesView.EditModal.Overrides.graderHeader": "Grader",
-  "gradebook.GradesView.EditModal.Overrides.reasonHeader": "Reason"
+  "gradebook.GradesView.EditModal.Overrides.reasonHeader": "Reason",
+  "error.notfound.message": "The page you're looking for is unavailable or there's an error in the URL. Please check the URL and try again."
 }
