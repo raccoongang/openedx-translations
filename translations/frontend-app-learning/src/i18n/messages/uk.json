@@ -470,5 +470,6 @@
   "learn.sequence.navigation.previous.button": "Назад",
   "discussions.sidebar.open.button": "Показати панель обговорень",
   "instructor.toolbar.view.course": "Переглянути курс у:",
-  "instructor.toolbar.view.as": "Переглянути цей курс як:"
+  "instructor.toolbar.view.as": "Переглянути цей курс як:",
+  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна, або в URL-адресі є помилка. Будь ласка, перевірте URL-адресу та спробуйте ще раз."
 }

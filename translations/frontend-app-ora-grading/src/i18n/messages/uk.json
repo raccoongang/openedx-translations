@@ -101,5 +101,6 @@
   "ora-grading.lms-api.gradingStatusDisplay.ungraded": "Оновлено",
   "ora-grading.lms-api.gradingStatusDisplay.locked": "Наразі оцінюється кимось іншим",
   "ora-grading.lms-api.gradingStatusDisplay.graded": "Оцінювання завершено",
-  "ora-grading.lms-api.gradingStatusDisplay.inProgress": "Зараз ви оцінюєте цю відповідь"
+  "ora-grading.lms-api.gradingStatusDisplay.inProgress": "Зараз ви оцінюєте цю відповідь",
+  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна, або в URL-адресі є помилка. Будь ласка, перевірте URL-адресу та спробуйте ще раз."
 }
