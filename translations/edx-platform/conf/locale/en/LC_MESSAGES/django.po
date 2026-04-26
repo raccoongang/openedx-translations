@@ -3218,6 +3218,8 @@ msgid ""
 "An {cert_type} certificate demonstrates a high level of achievement in a "
 "program of study, and includes verification of the student's identity."
 msgstr ""
+"An {cert_type} certificate demonstrates a high level of achievement in a "
+"programme of study, and includes verification of the student's identity."
 
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views/webview.py:127
@@ -4218,6 +4220,12 @@ msgid ""
 "2. Complete this application. \n"
 "3. Check your email, please allow 4 weeks for your application to be processed."
 msgstr ""
+"We plan to use this information to evaluate your application for financial assistance and to further develop our financial assistance programme. \n"
+"Please note that while assistance is available in most courses that offer verified certificates, a few courses and programmes are not eligible. You must complete a separate application for each course you take. You may be approved for financial assistance five (5) times each year (based on 12-month period from you first approval). \n"
+"To apply for financial assistance: \n"
+"1. Enroll in the audit track for an eligible course that offers Verified Certificates. \n"
+"2. Complete this application. \n"
+"3. Check your email, please allow 4 weeks for your application to be processed."
 
 #: lms/djangoapps/courseware/views/views.py:2257
 msgid ""
@@ -5577,11 +5585,11 @@ msgstr ""
 #: lms/djangoapps/learner_dashboard/programs.py:78
 #: openedx/core/djangoapps/ace_common/templates/ace_common/edx_ace/common/base_body.html:103
 msgid "Programs"
-msgstr ""
+msgstr "Programmes"
 
 #: lms/djangoapps/learner_dashboard/programs.py:155
 msgid "Program Details"
-msgstr ""
+msgstr "Programme Details"
 
 #: lms/djangoapps/lms_xblock/mixin.py:23
 msgid ""
@@ -5728,19 +5736,19 @@ msgstr ""
 
 #: lms/djangoapps/support/views/index.py:40
 msgid "Link Program Enrollments"
-msgstr ""
+msgstr "Link Programme Enrollments"
 
 #: lms/djangoapps/support/views/index.py:41
 msgid "Link LMS users to program enrollments"
-msgstr ""
+msgstr "Link LMS users to programme enrollments"
 
 #: lms/djangoapps/support/views/index.py:45
 msgid "Program Enrollments Inspector Tool"
-msgstr ""
+msgstr "Programme Enrollments Inspector Tool"
 
 #: lms/djangoapps/support/views/index.py:46
 msgid "Find information related to a learner's program enrollments"
-msgstr ""
+msgstr "Find information related to a learner's programme enrollments"
 
 #: lms/djangoapps/support/views/manage_user.py:35
 msgid "username"
@@ -8406,19 +8414,20 @@ msgstr ""
 
 #: openedx/core/djangoapps/programs/models.py:25
 msgid "Path used to construct URLs to programs marketing pages (e.g., \"/foo\")."
-msgstr ""
+msgstr "Path used to construct URLs to programmes marketing pages (e.g., \"
+")."
 
 #: openedx/core/djangoapps/programs/models.py:41
 msgid "Program UUID"
-msgstr ""
+msgstr "Programme UUID"
 
 #: openedx/core/djangoapps/programs/models.py:45
 msgid "If disabled, the LTI in the associated program will be disabled."
-msgstr ""
+msgstr "If disabled, the LTI in the associated programme will be disabled."
 
 #: openedx/core/djangoapps/programs/models.py:52
 msgid "The LTI configuration data for this program/provider."
-msgstr ""
+msgstr "The LTI configuration data for this programme/provider."
 
 #: openedx/core/djangoapps/schedules/admin.py:62
 msgid "Known Error Case"
@@ -13046,3 +13055,31 @@ msgid ""
 "{display_name} is only accessible to enrolled learners. Sign in or register,"
 " and enroll in this course to view it."
 msgstr ""
+
+
+msgid "Create Program Offer"
+msgstr "Create Programme Offer"
+
+
+msgid "E-Commerce Program Offers Administration"
+msgstr "E-Commerce Programme Offers Administration"
+
+
+msgid "Edit Program Offer"
+msgstr "Edit Programme Offer"
+
+
+msgid "Program Offers"
+msgstr "Programme Offers"
+
+
+msgid "Program Title"
+msgstr "Programme Title"
+
+
+msgid "Purchase the Program ("
+msgstr "Purchase the Programme ("
+
+
+msgid "Program service is unavailable."
+msgstr "Programme service is unavailable."
