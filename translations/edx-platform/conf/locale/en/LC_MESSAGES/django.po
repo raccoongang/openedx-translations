@@ -8384,9 +8384,7 @@ msgstr ""
 #: openedx/core/djangoapps/programs/models.py:25
 msgid ""
 "Path used to construct URLs to programs marketing pages (e.g., \"/foo\")."
-msgstr ""
-"Path used to construct URLs to programmes marketing pages (e.g., \"
-")."
+msgstr "Path used to construct URLs to programmes marketing pages (e.g., \"/foo\")."
 
 #: openedx/core/djangoapps/programs/models.py:41
 msgid "Program UUID"

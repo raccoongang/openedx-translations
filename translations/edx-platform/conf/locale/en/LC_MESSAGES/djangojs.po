@@ -9740,7 +9740,7 @@ msgstr ""
 #: lms/templates/learner_dashboard/program_card.underscore:60
 #, python-format
 msgid "%(programName)s Home Page."
-msgstr ""
+msgstr "%(programName)s Home Page."
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
 #, python-brace-format
