@@ -5716,19 +5716,19 @@ msgstr "View feature based enrolment settings"
 #: lms/djangoapps/support/views/index.py:40
 #: lms/templates/support/link_program_enrollments.html:19
 msgid "Link Program Enrollments"
-msgstr "Link Programme Enrollments"
+msgstr "Link Programme Enrolments"
 
 #: lms/djangoapps/support/views/index.py:41
 msgid "Link LMS users to program enrollments"
-msgstr "Link LMS users to programme enrollments"
+msgstr "Link LMS users to programme enrolments"
 
 #: lms/djangoapps/support/views/index.py:45
 msgid "Program Enrollments Inspector Tool"
-msgstr "Programme Enrollments Inspector Tool"
+msgstr "Programme Enrolments Inspector Tool"
 
 #: lms/djangoapps/support/views/index.py:46
 msgid "Find information related to a learner's program enrollments"
-msgstr "Find information related to a learner's programme enrollments"
+msgstr "Find information related to a learner's programme enrolments"
 
 #: lms/djangoapps/support/views/manage_user.py:34
 #: lms/templates/tracking_log.html:6
@@ -20101,7 +20101,7 @@ msgstr ""
 #: lms/templates/courseware/course_about.html:98
 #: lms/templates/dashboard/_dashboard_course_resume.html:21
 msgid "View Course"
-msgstr ""
+msgstr "View Content"
 
 #: lms/templates/courseware/course_about.html:89
 msgid "Enrollment in this course is by invitation only"
@@ -22520,7 +22520,7 @@ msgid ""
 "all course data. Staff also have access to your course in Studio and "
 "Insights. Any users not yet enrolled in the course will be automatically "
 "enrolled when added as Staff."
-msgstr "Course team members with the Staff role help you manage your course. Staff can enrol and unenroll learners, as well as modify their grades and access all course data. Staff also have access to your course in Studio and Insights. Any users not yet enrolled in the course will be automatically enrolled when added as Staff."
+msgstr "Course team members with the Staff role help you manage your course. Staff can enrol and unenrol learners, as well as modify their grades and access all course data. Staff also have access to your course in Studio and Insights. Any users not yet enrolled in the course will be automatically enrolled when added as Staff."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:179
 msgid "Add Staff"
@@ -22537,7 +22537,7 @@ msgid ""
 "grades and access all course data. Limited Staff don't have access to your "
 "course in Studio. Any users not yet enrolled in the course will be "
 "automatically enrolled when added as Limited Staff."
-msgstr "Course team members with the Limited Staff role help you manage your course. Limited Staff can enrol and unenroll learners, as well as modify their grades and access all course data. Limited Staff don't have access to your course in Studio. Any users not yet enrolled in the course will be automatically enrolled when added as Limited Staff."
+msgstr "Course team members with the Limited Staff role help you manage your course. Limited Staff can enrol and unenrol learners, as well as modify their grades and access all course data. Limited Staff don't have access to your course in Studio. Any users not yet enrolled in the course will be automatically enrolled when added as Limited Staff."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:193
 msgid "Add Limited Staff"
@@ -23527,7 +23527,7 @@ msgstr ""
 
 #: lms/templates/support/program_enrollments_inspector.html:19
 msgid "Program Enrollments Inspector"
-msgstr "Programme Enrollments Inspector"
+msgstr "Programme Enrolments Inspector"
 
 #: lms/templates/survey/survey.html:11
 msgid "User Survey"
@@ -24048,11 +24048,14 @@ msgstr "Programme Title"
 msgid "Program service is unavailable."
 msgstr "Programme service is unavailable."
 
-msgid "Programmes"
-msgstr "Programmes"
-
-msgid "Programme"
+msgid "Program"
 msgstr "Programme"
 
 msgid "No programmes added yet."
 msgstr "No programmes added yet."
+
+msgid "Your Program Journey"
+msgstr "Your Programme Journey"
+
+msgid "Program Record"
+msgstr "Programme Record"
