@@ -4381,6 +4381,9 @@ msgid ""
 "credentials. You can make a copy of these for your records before proceeding "
 "with deletion."
 msgstr ""
+"You may also lose access to verified certificates and other programme "
+"credentials. You can make a copy of these for your records before proceeding "
+"with deletion."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:46
 msgid ""
@@ -9701,11 +9704,11 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/empty_programs_list.underscore:2
 msgid "You are not enrolled in any programs yet."
-msgstr ""
+msgstr "You are not enrolled in any programmes yet."
 
 #: lms/templates/learner_dashboard/empty_programs_list.underscore:5
 msgid "Explore Programs"
-msgstr ""
+msgstr "Explore Programmes"
 
 #: lms/templates/learner_dashboard/explore_new_programs.underscore:2
 msgid ""
@@ -9715,7 +9718,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/explore_new_programs.underscore:6
 msgid "Explore new programs"
-msgstr ""
+msgstr "Explore new programmes"
 
 #: lms/templates/learner_dashboard/program_card.underscore:16
 #: lms/templates/learner_dashboard/program_card.underscore:24
@@ -9737,21 +9740,21 @@ msgstr ""
 #: lms/templates/learner_dashboard/program_card.underscore:60
 #, python-format
 msgid "%(programName)s Home Page."
-msgstr ""
+msgstr "%(programName)s Home Page."
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:3
 #, python-brace-format
 msgid "Your {program} Certificate"
-msgstr ""
+msgstr "Your {program} Certificate"
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:6
 #, python-format
 msgid "Open the certificate you earned for the %(title)s program."
-msgstr ""
+msgstr "Open the certificate you earned for the %(title)s programme."
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:12
 msgid "Program Record"
-msgstr ""
+msgstr "Programme Record"
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:14
 msgid ""
@@ -9760,10 +9763,14 @@ msgid ""
 "program record can be used to continue your learning journey and demonstrate "
 "your learning to others."
 msgstr ""
+"Once you complete one of the programme requirements you have a programme record. "
+"This record is marked complete once you meet all programme requirements. A "
+"programme record can be used to continue your learning journey and demonstrate "
+"your learning to others."
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:19
 msgid "View Program Record"
-msgstr ""
+msgstr "View Programme Record"
 
 #: lms/templates/learner_dashboard/program_details_sidebar.underscore:27
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:120
@@ -9798,7 +9805,7 @@ msgstr ""
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:40
 #: lms/templates/learner_dashboard/program_details_view.underscore:15
 msgid "Your Program Journey"
-msgstr ""
+msgstr "Your Programme Journey"
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:43
 #, python-format
@@ -9807,6 +9814,9 @@ msgid ""
 "program. To complete the program, you must earn a verified certificate for "
 "each course."
 msgstr ""
+"Track and plan your progress through the %(count)s course(s) in this "
+"programme. To complete the programme, you must earn a verified certificate for "
+"each course."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:52
 #: lms/templates/learner_dashboard/program_details_view.underscore:28
@@ -9863,6 +9873,9 @@ msgid ""
 "towards flexible, rigorous, and affordable masters degrees from the world’s "
 "leading universities."
 msgstr ""
+"Successful completion of %(org)s %(program)s credential can be applied "
+"towards flexible, rigorous, and affordable masters degrees from the world’s "
+"leading universities."
 
 #: lms/templates/learner_dashboard/program_details_view.underscore:18
 #, python-format
@@ -9871,6 +9884,9 @@ msgid ""
 "To complete the program, you must earn a verified certificate for each "
 "course."
 msgstr ""
+"Track and plan your progress through the %(count)s courses in this programme. "
+"To complete the programme, you must earn a verified certificate for each "
+"course."
 
 #: lms/templates/learner_dashboard/program_header_view.underscore:15
 #, python-brace-format
@@ -9879,7 +9895,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/program_list_header_view.underscore:1
 msgid "My programs"
-msgstr ""
+msgstr "My programmes"
 
 #: lms/templates/learner_dashboard/upgrade_message.underscore:3
 msgid "Needs verified certificate "

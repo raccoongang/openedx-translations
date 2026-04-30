@@ -18778,6 +18778,11 @@ msgstr "价格 (USD)"
 msgid "${newPrice}{htmlEnd} for entire program"
 msgstr "全部课程 ${newPrice}{htmlEnd} "
 
+#: lms/templates/courseware/program_marketing.html:261
+#, python-brace-format
+msgid "You save {currency}{amount} {code}"
+msgstr "你节省了 {currency}{amount} {code}"
+
 #: lms/templates/courseware/program_marketing.html:265
 #, python-brace-format
 msgid "You save ${discount_value} {currency}"
