@@ -3325,7 +3325,9 @@ msgstr ""
 msgid ""
 "An {cert_type} certificate demonstrates a high level of achievement in a "
 "program of study, and includes verification of the student's identity."
-msgstr "An {cert_type} certificate demonstrates a high level of achievement in a programme of study, and includes verification of the student's identity."
+msgstr ""
+"An {cert_type} certificate demonstrates a high level of achievement in a "
+"programme of study, and includes verification of the student's identity."
 
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views/webview.py:127
@@ -4277,7 +4279,20 @@ msgid ""
 "2. Complete this application. \n"
 "3. Check your email, please allow 4 weeks for your application to be "
 "processed."
-msgstr "We plan to use this information to evaluate your application for financial assistance and to further develop our financial assistance programme. \nPlease note that while assistance is available in most courses that offer verified certificates, a few courses and programmes are not eligible. You must complete a separate application for each course you take. You may be approved for financial assistance five (5) times each year (based on 12-month period from you first approval). \nTo apply for financial assistance: \n1. Enrol in the audit track for an eligible course that offers Verified Certificates. \n2. Complete this application. \n3. Check your email, please allow 4 weeks for your application to be processed."
+msgstr ""
+"We plan to use this information to evaluate your application for financial "
+"assistance and to further develop our financial assistance programme. \n"
+"Please note that while assistance is available in most courses that offer "
+"verified certificates, a few courses and programmes are not eligible. You must "
+"complete a separate application for each course you take. You may be "
+"approved for financial assistance five (5) times each year (based on 12-"
+"month period from you first approval). \n"
+"To apply for financial assistance: \n"
+"1. Enroll in the audit track for an eligible course that offers Verified "
+"Certificates. \n"
+"2. Complete this application. \n"
+"3. Check your email, please allow 4 weeks for your application to be "
+"processed."
 
 #: lms/djangoapps/courseware/views/views.py:2224
 msgid ""
@@ -15121,7 +15136,10 @@ msgid ""
 "Use an archive program to extract the data from the .tar.gz file. Extracted "
 "data includes the library.xml file, as well as subfolders that contain "
 "library content."
-msgstr "Use an archive programme to extract the data from the .tar.gz file. Extracted data includes the library.xml file, as well as subfolders that contain library content."
+msgstr ""
+"Use an archive programme to extract the data from the .tar.gz file. Extracted "
+"data includes the library.xml file, as well as subfolders that contain "
+"library content."
 
 #: cms/templates/export.html:238
 msgid "Learn more about exporting a library"
@@ -15189,7 +15207,10 @@ msgid ""
 "Use an archive program to extract the data from the .tar.gz file. Extracted "
 "data includes the course.xml file, as well as subfolders that contain course "
 "content."
-msgstr "Use an archive programme to extract the data from the .tar.gz file. Extracted data includes the course.xml file, as well as subfolders that contain course content."
+msgstr ""
+"Use an archive programme to extract the data from the .tar.gz file. Extracted "
+"data includes the course.xml file, as well as subfolders that contain course "
+"content."
 
 #: cms/templates/export.html:272
 msgid "Learn more about exporting a course"
@@ -16404,7 +16425,10 @@ msgid ""
 "Your course summary page will not be viewable until your course has been "
 "announced. To provide content for the page and preview it, follow the "
 "instructions provided by your Program Manager."
-msgstr "Your course summary page will not be viewable until your course has been announced. To provide content for the page and preview it, follow the instructions provided by your Programme Manager."
+msgstr ""
+"Your course summary page will not be viewable until your course has been "
+"announced. To provide content for the page and preview it, follow the "
+"instructions provided by your Programme Manager."
 
 #: cms/templates/settings.html:129
 msgid ""
@@ -17398,7 +17422,10 @@ msgid ""
 "Something went wrong. Email programs sometimes split URLs into two lines, so "
 "make sure the URL you're using is formatted correctly. If you still have "
 "issues, send us an email message at {email_start}{email}{email_end}."
-msgstr "Something went wrong. Email programmes sometimes split URLs into two lines, so make sure the URL you're using is formatted correctly. If you still have issues, send us an email message at {email_start}{email}{email_end}."
+msgstr ""
+"Something went wrong. Email programmes sometimes split URLs into two lines, so "
+"make sure the URL you're using is formatted correctly. If you still have "
+"issues, send us an email message at {email_start}{email}{email_end}."
 
 #: cms/templates/registration/activation_invalid.html:25
 #, python-brace-format
@@ -20074,7 +20101,7 @@ msgstr ""
 #: lms/templates/courseware/course_about.html:98
 #: lms/templates/dashboard/_dashboard_course_resume.html:21
 msgid "View Course"
-msgstr ""
+msgstr "View Content"
 
 #: lms/templates/courseware/course_about.html:89
 msgid "Enrollment in this course is by invitation only"
@@ -20371,6 +20398,11 @@ msgstr ""
 #, python-brace-format
 msgid "${newPrice}{htmlEnd} for entire program"
 msgstr "${newPrice}{htmlEnd} for entire programme"
+
+#: lms/templates/courseware/program_marketing.html:261
+#, python-brace-format
+msgid "You save {currency}{amount} {code}"
+msgstr ""
 
 #: lms/templates/courseware/program_marketing.html:265
 #, python-brace-format
@@ -21543,7 +21575,10 @@ msgid ""
 "EdX Financial Assistance is a program we created to give learners in all "
 "financial circumstances a chance to earn a Verified Certificate upon "
 "successful completion of an edX course."
-msgstr "EdX Financial Assistance is a programme we created to give learners in all financial circumstances a chance to earn a Verified Certificate upon successful completion of an edX course."
+msgstr ""
+"EdX Financial Assistance is a programme we created to give learners in all "
+"financial circumstances a chance to earn a Verified Certificate upon "
+"successful completion of an edX course."
 
 #. Translators: This string will not be used in Open edX installations.
 #: lms/templates/financial-assistance/financial-assistance.html:31
@@ -22490,7 +22525,7 @@ msgid ""
 "all course data. Staff also have access to your course in Studio and "
 "Insights. Any users not yet enrolled in the course will be automatically "
 "enrolled when added as Staff."
-msgstr "Course team members with the Staff role help you manage your course. Staff can enrol and unenroll learners, as well as modify their grades and access all course data. Staff also have access to your course in Studio and Insights. Any users not yet enrolled in the course will be automatically enrolled when added as Staff."
+msgstr "Course team members with the Staff role help you manage your course. Staff can enrol and unenrol learners, as well as modify their grades and access all course data. Staff also have access to your course in Studio and Insights. Any users not yet enrolled in the course will be automatically enrolled when added as Staff."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:179
 msgid "Add Staff"
@@ -22507,7 +22542,7 @@ msgid ""
 "grades and access all course data. Limited Staff don't have access to your "
 "course in Studio. Any users not yet enrolled in the course will be "
 "automatically enrolled when added as Limited Staff."
-msgstr "Course team members with the Limited Staff role help you manage your course. Limited Staff can enrol and unenroll learners, as well as modify their grades and access all course data. Limited Staff don't have access to your course in Studio. Any users not yet enrolled in the course will be automatically enrolled when added as Limited Staff."
+msgstr "Course team members with the Limited Staff role help you manage your course. Limited Staff can enrol and unenrol learners, as well as modify their grades and access all course data. Limited Staff don't have access to your course in Studio. Any users not yet enrolled in the course will be automatically enrolled when added as Limited Staff."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html:193
 msgid "Add Limited Staff"
@@ -23999,3 +24034,33 @@ msgstr ""
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr ""
+
+msgid "Create Program Offer"
+msgstr "Create Programme Offer"
+
+msgid "E-Commerce Program Offers Administration"
+msgstr "E-Commerce Programme Offers Administration"
+
+msgid "Edit Program Offer"
+msgstr "Edit Programme Offer"
+
+msgid "Program Offers"
+msgstr "Programme Offers"
+
+msgid "Program Title"
+msgstr "Programme Title"
+
+msgid "Program service is unavailable."
+msgstr "Programme service is unavailable."
+
+msgid "Program"
+msgstr "Programme"
+
+msgid "No programmes added yet."
+msgstr "No programmes added yet."
+
+msgid "Your Program Journey"
+msgstr "Your Programme Journey"
+
+msgid "Program Record"
+msgstr "Programme Record"
