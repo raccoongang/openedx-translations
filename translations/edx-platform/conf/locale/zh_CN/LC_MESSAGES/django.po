@@ -22054,9 +22054,3 @@ msgstr[0] "查看 %s 门课程"
 
 msgid "Role type"
 msgstr "角色类型"
-
-msgid "Category"
-msgstr "类别"
-
-msgid "Duration"
-msgstr "时长"
