@@ -1,0 +1,4 @@
+{
+  "account.settings.delete.account.text.3": "You may also lose access to verified certificates and other programme credentials. You can make a copy of these for your records before proceeding with deletion.",
+  "account.settings.delete.account.text.3.edX": "You may also lose access to verified certificates and other programme credentials like MicroMasters certificates. You can make a copy of these for your records before proceeding with deletion. {actionLink}."
+}
