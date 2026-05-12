@@ -9702,6 +9702,10 @@ msgstr ""
 msgid "Leave the current session and decide later"
 msgstr ""
 
+#: lms/templates/learner_dashboard/expired_notification.underscore:2
+msgid "You enrolled in this course but did not earn the certificate required to complete this program."
+msgstr "You enrolled in this course but did not earn the certificate required to complete this programme."
+
 #: lms/templates/learner_dashboard/empty_programs_list.underscore:2
 msgid "You are not enrolled in any programs yet."
 msgstr "You are not enrolled in any programmes yet."
@@ -9719,6 +9723,10 @@ msgstr ""
 #: lms/templates/learner_dashboard/explore_new_programs.underscore:6
 msgid "Explore new programs"
 msgstr "Explore new programmes"
+
+#: lms/templates/learner_dashboard/explore_new_programs.underscore:6
+msgid "Explore New Programs"
+msgstr "Explore New Programmes"
 
 #: lms/templates/learner_dashboard/program_card.underscore:16
 #: lms/templates/learner_dashboard/program_card.underscore:24
