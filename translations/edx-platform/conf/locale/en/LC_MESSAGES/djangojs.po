@@ -9644,7 +9644,7 @@ msgstr ""
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:7
 msgid "View Course"
-msgstr ""
+msgstr "View Content"
 
 #: lms/templates/learner_dashboard/course_enroll.underscore:15
 msgid "Select a session:"
