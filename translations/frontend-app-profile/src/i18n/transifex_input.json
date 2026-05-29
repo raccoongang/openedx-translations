@@ -70,5 +70,16 @@
   "profile.learning-transcript.form.generate.loading": "Loading...",
   "profile.learning-transcript.form.cancel.label": "Cancel",
   "profile.learning-transcript.form.error": "Error, data entered incorrectly",
-  "profile.learning-transcript.form.date.placeholder": "Select date"
+  "profile.learning-transcript.form.date.placeholder": "Select date",
+  "profile.workexperience.jobtitle.label": "Job Title",
+  "profile.workexperience.jobtitle.empty": "Add your job title",
+  "profile.workexperience.company.label": "Company",
+  "profile.workexperience.company.empty": "Add your company",
+  "profile.workexperience.lengthofemployment.label": "Length of Employment",
+  "profile.workexperience.lengthofemployment.empty": "Add your length of employment",
+  "profile.programme-certificates.title": "Programme Certificates",
+  "profile.programme-certificates.empty.header": "You haven't earned any certificates yet.",
+  "profile.programme-certificates.empty.cta": "Explore New Programmes",
+  "profile.programme-certificates.completion.date": "Completed {date}",
+  "profile.programme-certificates.card.alt": "{type} certificate"
 }

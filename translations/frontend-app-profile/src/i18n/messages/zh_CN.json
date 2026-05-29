@@ -70,5 +70,16 @@
   "profile.learning-transcript.form.generate.loading": "加载中...",
   "profile.learning-transcript.form.cancel.label": "取消",
   "profile.learning-transcript.form.error": "错误，数据填写不正确",
-  "profile.learning-transcript.form.date.placeholder": "选择日期"
+  "profile.learning-transcript.form.date.placeholder": "选择日期",
+  "profile.workexperience.jobtitle.label": "职位",
+  "profile.workexperience.jobtitle.empty": "添加您的职位",
+  "profile.workexperience.company.label": "公司",
+  "profile.workexperience.company.empty": "添加您的公司",
+  "profile.workexperience.lengthofemployment.label": "工作年限",
+  "profile.workexperience.lengthofemployment.empty": "添加您的工作年限",
+  "profile.programme-certificates.title": "项目证书",
+  "profile.programme-certificates.empty.header": "你还没有任何证书。",
+  "profile.programme-certificates.empty.cta": "探索新项目",
+  "profile.programme-certificates.completion.date": "于{date}完成",
+  "profile.programme-certificates.card.alt": "{type}证书"
 }

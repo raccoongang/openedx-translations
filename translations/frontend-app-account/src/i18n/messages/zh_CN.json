@@ -346,5 +346,11 @@
   "work.context.phs": "家长 (AISL 哈罗学校)",
   "work.context.pnhs": "家长（非AISL哈罗学校)",
   "work.context.st": "学生 (AISL 哈罗学校)",
-  "work.context.stnh": "学生 (非AISL哈罗学校)"
+  "work.context.stnh": "学生 (非AISL哈罗学校)",
+  "account.job_title.label": "职位",
+  "account.company.label": "公司",
+  "account.length_of_employment.label": "工作年限",
+  "account.job_title.placeholder": "请输入您当前的职位",
+  "account.company.placeholder": "请输入您的公司名称",
+  "account.length_of_employment.placeholder": "请输入您的工作年限（以年为单位）"
 }
