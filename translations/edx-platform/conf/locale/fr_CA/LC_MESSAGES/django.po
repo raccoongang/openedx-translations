@@ -27291,3 +27291,18 @@ msgstr "Éditeur de code"
 #: edx-platform/lms/djangoapps/mfe_config_api/views.py:73
 msgid "the Community Housing Academy"
 msgstr "l’Académie du logement communautaire"
+
+msgid "Live online"
+msgstr "En direct"
+
+#: oex_plugin/course_type/constants.py
+msgid "Self-paced online"
+msgstr "À son rythme"
+
+#: oex_plugin/course_type/constants.py
+msgid "In-person"
+msgstr "En présentiel"
+
+#: oex_plugin/course_type/constants.py
+msgid "Blended"
+msgstr "Hybride"

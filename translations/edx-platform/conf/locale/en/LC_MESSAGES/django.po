@@ -23598,3 +23598,18 @@ msgstr ""
 #: xmodule/capa/templates/codeinput.html:10
 msgid "Code Editor"
 msgstr ""
+
+msgid "Live online"
+msgstr ""
+
+#: oex_plugin/course_type/constants.py
+msgid "Self-paced online"
+msgstr ""
+
+#: oex_plugin/course_type/constants.py
+msgid "In-person"
+msgstr ""
+
+#: oex_plugin/course_type/constants.py
+msgid "Blended"
+msgstr ""
