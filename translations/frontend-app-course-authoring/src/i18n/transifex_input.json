@@ -1736,5 +1736,10 @@
   "problemEditor.settings.tolerance.answerrangewarning": "Tolerance cannot be applied to an answer range",
   "problemEditor.settings.tolerance.type.percent": "Percentage",
   "problemEditor.settings.tolerance.type.number": "Number",
-  "problemEditor.settings.tolerance.type.none": "None"
+  "problemEditor.settings.tolerance.type.none": "None",
+  "course-authoring.studio-home.add-new-course.btn.text": "New course",
+  "course-authoring.studio-home.add-new-library.btn.text": "New library",
+  "course-authoring.studio-home.taxonomies.tab.title": "Taxonomies",
+  "course-authoring.studio-home.legacy.libraries.tab.title": "Legacy Libraries",
+  "course-authoring.studio-home.libraries.tab.library.not.found.alert.title": "We could not find any result"
 }
