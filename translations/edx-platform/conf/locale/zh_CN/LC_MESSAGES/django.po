@@ -22054,3 +22054,8 @@ msgstr[0] "查看 %s 门课程"
 
 msgid "Role type"
 msgstr "角色类型"
+
+#: cms/templates/404.html:20
+#, python-brace-format
+msgid "Go back to the {homepage}."
+msgstr "返回{homepage}。"
