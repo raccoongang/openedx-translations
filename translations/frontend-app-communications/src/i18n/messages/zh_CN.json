@@ -87,5 +87,7 @@
   "bulk.email.scheduled.emails.table.sendTo": "发给",
   "bulk.email.scheduled.emails.table.subject": "标题",
   "bulk.email.scheduled.emails.table.Author": "作者",
-  "bulk.email.scheduled.emails.table.confirm.delete": "您正在删除计划在{date}上发送的电子邮件。电子邮件将不会发送，并且日程安排将被取消。你确定吗？"
+  "bulk.email.scheduled.emails.table.confirm.delete": "您正在删除计划在{date}上发送的电子邮件。电子邮件将不会发送，并且日程安排将被取消。你确定吗？",
+  "bulk.email.recipients.staff.label": "教员与主讲教师",
+  "bulk.email.recipients.learners.label": "所有学员"
 }

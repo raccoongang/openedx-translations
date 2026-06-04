@@ -84,5 +84,9 @@
   "records.help.header": "关于学员记录的问题？",
   "records.help.description": "要了解有关记录的更多信息，您可以",
   "records.help.link": "在我们的帮助阅读更多内容。",
-  "records.header": "我的学员记录"
+  "records.header": "我的学员记录",
+  "send.failure.alert.heading.default": "我们无法发送您的节目记录",
+  "send.failure.alert.message.default": "您可以尝试再次将记录发送到{pathway_name}路径。如果此问题仍然存在{link}",
+  "send.failure.alert.heading.429": "请求过多。",
+  "send.failure.alert.message.429": "请几分钟后重试。"
 }

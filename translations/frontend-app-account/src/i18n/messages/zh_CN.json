@@ -352,5 +352,9 @@
   "account.length_of_employment.label": "工作年限",
   "account.job_title.placeholder": "请输入您当前的职位",
   "account.company.placeholder": "请输入您的公司名称",
-  "account.length_of_employment.placeholder": "请输入您的工作年限（以年为单位）"
+  "account.length_of_employment.placeholder": "请输入您的工作年限（以年为单位）",
+  "account.settings.field.social.platform.name.xTwitter": "X（推特）",
+  "account.settings.field.social.platform.name.xTwitter.empty": "添加X档案",
+  "id.verification.privacy.modal.close.button": "关闭",
+  "id.verification.context.loading.state": "正在加载验证状态"
 }
