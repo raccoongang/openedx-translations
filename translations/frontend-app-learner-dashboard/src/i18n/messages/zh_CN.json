@@ -152,5 +152,18 @@
   "learner-dash.courseCard.banners.credit.rejected": "{providerName}未批准您的课程学分请求。欲了解更多信息，请直接联系{linkToProviderSite} 。",
   "learner-dash.courseCard.banners.credit.requestCredit": "申请学分",
   "learner-dash.courseCard.banners.credit.viewCredit": "查看认证",
-  "learner-dash.courseCard.banners.credit.viewDetails": "查看详情"
+  "learner-dash.courseCard.banners.credit.viewDetails": "查看详情",
+  "learner-dash.unenrollConfirm.reasons.prereqs": "我不具备学术或语言方面的先决条件",
+  "learner-dash.unenrollConfirm.reasons.difficulty": "课程材料太难理解了。",
+  "learner-dash.unenrollConfirm.reasons.goals": "这不会帮助我实现我的目标",
+  "learner-dash.unenrollConfirm.reasons.broken": "有东西坏了",
+  "learner-dash.unenrollConfirm.reasons.time": "我没有时间",
+  "learner-dash.unenrollConfirm.reasons.browse": "我只是想浏览一下资料",
+  "learner-dash.unenrollConfirm.reasons.support": "我没有足够的支持",
+  "learner-dash.unenrollConfirm.reasons.quality": "我对内容的质量不满意",
+  "learner-dash.unenrollConfirm.reasons.easy": "课程材料太简单",
+  "learner-dash.unenrollConfirm.reasons.custom-placeholder": "其他",
+  "learner-dash.unenrollConfirm.reasons.prefer-not-to-say": "我不想说",
+  "learner-dash.unenrollConfirm.confirm.text": "你確定要退出課程 {courseTitle} 嗎？",
+  "learner-dash.page.title": "學習者主頁 | {siteName}"
 }
