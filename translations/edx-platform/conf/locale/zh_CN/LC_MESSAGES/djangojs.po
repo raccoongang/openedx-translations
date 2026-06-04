@@ -9635,3 +9635,9 @@ msgstr "对不起，未找到搜索结果。"
 #: cms/templates/js/add-xblock-component-button.underscore:10
 msgid "Beta"
 msgstr "测试版"
+
+#: lms/static/js/discovery/views/search_form.js:47
+#, javascript-format
+msgid "Viewing %s course"
+msgid_plural "Viewing %s courses"
+msgstr[0] "正在查看 %s 门课程"
