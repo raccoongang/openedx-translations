@@ -482,5 +482,16 @@
   "courseOutline.tray.title": "课程概述",
   "courseOutline.completedUnit": "完成单元",
   "courseOutline.incompleteUnit": "不完整单元",
-  "discussions.sidebar.open.button": "显示讨论托盘"
+  "discussions.sidebar.open.button": "显示讨论托盘",
+  "sidebar.responsive.close.button": "返回课程",
+  "progress.courseGrade.footer.dueDateNotice": "某些作業分數尚未計入您的總成績中。這些成績將於{dueDate}公佈。",
+  "progress.hiddenScoreLabel": "隱藏分數",
+  "progress.hiddenScoreInfoText": "作業的分數會計入你的最終成績，但有些分數未顯示在此。",
+  "progress.hiddenScoreLockInfoText": "作業類型的分數被隱藏，但仍計入課程成績。",
+  "progress.weightedGradeSummaryTooltip": "您的原始加权成绩摘要为{rawGrade}并四舍五入为{roundedGrade} 。",
+  "upgrade.container": "升级面板",
+  "upgrade.open.button": "显示升级面板",
+  "upgrade.responsive.close.button": "返回课程",
+  "upgrade.title": "升级",
+  "upgrade.no.message": "暂无可用升级选项。"
 }

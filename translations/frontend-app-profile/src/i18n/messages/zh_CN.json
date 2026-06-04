@@ -81,5 +81,15 @@
   "profile.programme-certificates.empty.header": "你还没有任何证书。",
   "profile.programme-certificates.empty.cta": "探索新项目",
   "profile.programme-certificates.completion.date": "于{date}完成",
-  "profile.programme-certificates.card.alt": "{type}证书"
+  "profile.programme-certificates.card.alt": "{type}证书",
+  "profile.certificate.uuid": "凭证ID {certificate_uuid}",
+  "profile.your.certificates": "您的证书",
+  "profile.certificates.description": "您的学习记录信息只有您自己可见。只有您的用户名和头像在{siteName}上对其他人可见。",
+  "profile.profile.information": "个人资料信息",
+  "profile.username": "用户名",
+  "profile.certificatecount": "{certificate_count}认证",
+  "profile.name.tooltip": "用于ID验证并出现在您的证书上的姓名",
+  "profile.name.redirect": "编辑账户页面的全名",
+  "profile.profileavatar.tooltip.edit": "编辑照片",
+  "profile.profileavatar.tooltip.upload": "上传照片"
 }
