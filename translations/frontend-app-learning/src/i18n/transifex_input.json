@@ -480,5 +480,16 @@
   "courseOutline.tray.title": "Course outline",
   "courseOutline.completedUnit": "Completed unit",
   "courseOutline.incompleteUnit": "Incomplete unit",
-  "discussions.sidebar.open.button": "Show discussions tray"
+  "discussions.sidebar.open.button": "Show discussions tray",
+  "learning.courseFeedback.title": "How would you rate this course?",
+  "learning.courseFeedback.ratingPrompt": "Please rate your experience to help us improve.",
+  "learning.courseFeedback.commentPrompt": "Please share any additional feedback below.",
+  "learning.courseFeedback.commentPlaceholder": "Tell us what worked or what could be improved.",
+  "learning.courseFeedback.ratingGroupLabel": "Course rating",
+  "learning.courseFeedback.starLabel": "{count, plural, one {# star} other {# stars}}",
+  "learning.courseFeedback.exit": "Exit course",
+  "learning.courseFeedback.submit": "Submit",
+  "learning.courseFeedback.submitting": "Submitting…",
+  "learning.courseFeedback.errorGeneric": "Something went wrong. Please try again.",
+  "learning.courseFeedback.characterCount": "{current}/{max}"
 }
