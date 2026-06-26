@@ -22,5 +22,9 @@
   "no.records.found": "Немає результатів для імені користувача",
   "supportTools.accountActions.cancelRetirement": "Це призведе до скасування виходу запитаного користувача. Ви бажаєте продовжити?",
   "supportTools.accountActions.resetPassword": "Ми надішлемо повідомлення з інструкціями щодо відновлення пароля на електронну адресу {email} . Ви бажаєте продовжити?",
-  "supportTools.accountActions.retireUser": "Ви збираєтеся піти на пенсію {username} з електронною адресою: {email} . {br} {br} Це серйозна дія, яка скасує доступ цього користувача до edX і його отриманих сертифікатів. Крім того, адреса електронної пошти, пов’язана з вилученим обліковим записом, не зможе використовуватися для створення нового облікового запису."
+  "supportTools.accountActions.retireUser": "Ви збираєтеся піти на пенсію {username} з електронною адресою: {email} . {br} {br} Це серйозна дія, яка скасує доступ цього користувача до edX і його отриманих сертифікатів. Крім того, адреса електронної пошти, пов’язана з вилученим обліковим записом, не зможе використовуватися для створення нового облікового запису.",
+  "configuration.customersPage.otherSubsidiesColumn": "Інші субсидії",
+  "configuration.customersPage.otherSubsidiesColumn.tooltip": "Включає пропозиції та коди",
+  "configuration.customersPage.viewSubsidiesColumn.tooltip": "Галочка позначає активну субсидію.",
+  "supportTool.customers.page.breadcrumb.customer": "Клієнти"
 }
