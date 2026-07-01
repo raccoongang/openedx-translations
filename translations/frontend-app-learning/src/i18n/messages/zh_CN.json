@@ -493,5 +493,16 @@
   "upgrade.open.button": "显示升级面板",
   "upgrade.responsive.close.button": "返回课程",
   "upgrade.title": "升级",
-  "upgrade.no.message": "暂无可用升级选项。"
+  "upgrade.no.message": "暂无可用升级选项。",
+  "learning.courseFeedback.title": "您如何评价这门课程？",
+  "learning.courseFeedback.ratingPrompt": "请为您的体验评分，帮助我们改进。",
+  "learning.courseFeedback.commentPrompt": "请在下方分享任何其他反馈。",
+  "learning.courseFeedback.commentPlaceholder": "告诉我们哪些做得好，或哪些可以改进。",
+  "learning.courseFeedback.ratingGroupLabel": "课程评分",
+  "learning.courseFeedback.starLabel": "{count} 星",
+  "learning.courseFeedback.exit": "退出课程",
+  "learning.courseFeedback.submit": "提交",
+  "learning.courseFeedback.submitting": "正在提交……",
+  "learning.courseFeedback.errorGeneric": "出现错误，请重试。",
+  "learning.courseFeedback.characterCount": "{current}/{max}"
 }
