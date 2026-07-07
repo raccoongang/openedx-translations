@@ -11,23 +11,21 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
 # 
 # Translators:
-# Brian Smith, 2024
-# Peter Kulko, 2025
-# Iryna Zaporozhets, 2025
-# edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
-# Arsen Turchanikov, 2025
+# Iryna Zaporozhets, 2026
+# Brian Smith, 2026
+# Yana Lovyagina <yana.lovyagina@raccoongang.com>, 2026
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-08-21 00:45+0000\n"
-"PO-Revision-Date: 2023-11-20 11:35+0000\n"
-"Last-Translator: Arsen Turchanikov, 2025\n"
+"POT-Creation-Date: 2025-04-25 00:36+0000\n"
+"PO-Revision-Date: 2025-07-23 17:30+0000\n"
+"Last-Translator: Yana Lovyagina <yana.lovyagina@raccoongang.com>, 2026\n"
 "Language-Team: Ukrainian (https://app.transifex.com/open-edx/teams/6205/uk/)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
 "Language: uk\n"
@@ -68,11 +66,11 @@ msgstr "Помилка збереження відкритого оцінюва�
 msgid "Saving"
 msgstr "Збереження"
 
-#: cms/static/js/base.js:113
+#: cms/static/js/base.js:101
 msgid "This link will open in a new browser window/tab"
 msgstr "Це посилання відкриється в новому вікні або новій вкладці браузера"
 
-#: cms/static/js/base.js:120
+#: cms/static/js/base.js:108
 msgid "This link will open in a modal window"
 msgstr "Це посилання відкриється в новому модальному вікні"
 
@@ -417,7 +415,7 @@ msgstr "Дата завершення курсу повинна бути піз�
 
 #: cms/static/js/models/settings/course_details.js:68
 msgid "The course start date must be later than the enrollment start date."
-msgstr "Дата початку курсу має бути пізніше дати початку реєстрації."
+msgstr "Дата початку курсу повинна бути пізніше дати початку запису на курс."
 
 #: cms/static/js/models/settings/course_details.js:74
 msgid "The enrollment start date cannot be after the enrollment end date."
@@ -433,7 +431,7 @@ msgstr ""
 #: cms/static/js/models/settings/course_details.js:83
 msgid "The certificate available date must be later than the course end date."
 msgstr ""
-"Дата отримання сертифікату має бути назначена пізніше дати закінчення курсу."
+"Дата доступності сертифіката повинна бути пізніше дати завершення курсу."
 
 #: cms/static/js/models/settings/course_details.js:93
 msgid "The certificate display behavior must be one of: {behavior_options}"
@@ -487,7 +485,7 @@ msgstr "Додатковий період часу має бути вказан�
 #: cms/static/js/models/settings/course_grading_policy.js:90
 msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
 msgstr ""
-"Неможливо встановити прохідну оцінку нижче ніж %(minimum_grade_cutoff)s%."
+"Неможливо встановити прохідний бал нижче ніж %(minimum_grade_cutoff)s%."
 
 #: cms/static/js/models/textbook.js:62
 msgid "Textbook name is required"
@@ -540,7 +538,6 @@ msgstr "Ваш файл не може бути завантажений"
 #: cms/static/js/views/modals/course_outline_modals.js:351
 #: cms/static/js/views/modals/edit_xblock.js:151
 #: cms/static/js/views/video_transcripts.js:325
-#: lms/static/js/student_account/enrollment.js:87
 #: lms/static/js/student_account/tos_modal.js:48
 #: xmodule/js/src/html/edit.js:370
 #: cms/templates/js/course-video-settings.underscore:6
@@ -680,11 +677,11 @@ msgstr "Завантажити інший файл"
 #: cms/static/js/views/components/add_library_content.js:23
 #: cms/static/js/views/modals/select_v2_library_content.js:18
 msgid "Add library content"
-msgstr "Додати бібліотека контент"
+msgstr "Додати контент бібліотеки"
 
 #: cms/static/js/views/components/add_xblock.js:120
 #: cms/static/js/views/components/add_xblock.js:131
-#: cms/static/js/views/pages/container.js:650
+#: cms/static/js/views/pages/container.js:642
 #: cms/static/js/views/utils/xblock_utils.js:55
 msgid "Adding"
 msgstr "Додавання"
@@ -703,8 +700,8 @@ msgstr "Ви впевнені, що хочете видалити це онов�
 #: cms/static/js/views/course_info_update.js:241
 #: cms/static/js/views/course_outline.js:390
 #: cms/static/js/views/course_outline.js:402
-#: cms/static/js/views/pages/container.js:422
-#: cms/static/js/views/pages/container.js:434 cms/static/js/views/tabs.js:164
+#: cms/static/js/views/pages/container.js:414
+#: cms/static/js/views/pages/container.js:426 cms/static/js/views/tabs.js:164
 #: cms/static/js/views/utils/xblock_utils.js:101
 #: cms/static/js/views/utils/xblock_utils.js:113
 #: lms/static/js/Markdown.Editor.js:1091 xmodule/js/src/html/edit.js:885
@@ -714,7 +711,7 @@ msgid "OK"
 msgstr "Гаразд"
 
 #: cms/static/js/views/course_outline.js:242
-#: cms/static/js/views/pages/container.js:777
+#: cms/static/js/views/pages/container.js:767
 #: cms/static/js/views/pages/container_subviews.js:187
 msgid "Copying"
 msgstr "Копіювання"
@@ -724,59 +721,59 @@ msgid "Copy of \"{componentDisplayName}\""
 msgstr "Копія \"{componentDisplayName}\""
 
 #: cms/static/js/views/course_outline.js:367
-#: cms/static/js/views/pages/container.js:393
+#: cms/static/js/views/pages/container.js:385
 #: cms/static/js/views/utils/xblock_utils.js:79
 msgid "Pasting"
 msgstr "Перенесення"
 
 #: cms/static/js/views/course_outline.js:385
-#: cms/static/js/views/pages/container.js:417
+#: cms/static/js/views/pages/container.js:409
 #: cms/static/js/views/utils/xblock_utils.js:96
 msgid "Some errors occurred"
 msgstr "Сталися деякі помилки"
 
 #: cms/static/js/views/course_outline.js:387
-#: cms/static/js/views/pages/container.js:419
+#: cms/static/js/views/pages/container.js:411
 #: cms/static/js/views/utils/xblock_utils.js:98
 msgid "The following required files could not be added to the course:"
-msgstr "При доданні наступних обовязкових файлів до курсу сталась помилка:"
+msgstr "Наступні обов’язкові файли не вдалося додати до курсу:"
 
 #: cms/static/js/views/course_outline.js:395
-#: cms/static/js/views/pages/container.js:427
+#: cms/static/js/views/pages/container.js:419
 #: cms/static/js/views/utils/xblock_utils.js:106
 msgid "You may need to update a file(s) manually"
-msgstr "Вам може бути потрібно оновити файл(-и) вручну."
+msgstr "Можливо, вам потрібно буде оновити файл(и) вручну"
 
 #: cms/static/js/views/course_outline.js:398
-#: cms/static/js/views/pages/container.js:430
+#: cms/static/js/views/pages/container.js:422
 #: cms/static/js/views/utils/xblock_utils.js:109
 msgid ""
 "The following files already exist in this course but don't match the version"
 " used by the component you pasted:"
 msgstr ""
-"Наступні файли вже існують у цьому курсі, але не збігаються з версію "
-"перенесеного Вами компоненту:"
+"Наступні файли вже існують у цьому курсі, але не відповідають версії, яку "
+"використовує вставлений вами компонент:"
 
 #: cms/static/js/views/course_outline.js:407
-#: cms/static/js/views/pages/container.js:439
+#: cms/static/js/views/pages/container.js:431
 #: cms/static/js/views/utils/xblock_utils.js:118
 msgid "New file(s) added to Files & Uploads."
 msgstr "Нові файли додано до \"Файлів та Завантажень\"."
 
 #: cms/static/js/views/course_outline.js:409
-#: cms/static/js/views/pages/container.js:441
+#: cms/static/js/views/pages/container.js:433
 #: cms/static/js/views/utils/xblock_utils.js:120
 msgid "The following required files were imported to this course:"
 msgstr "До курсу імпортовано наступні обов’язкові файли:"
 
 #: cms/static/js/views/course_outline.js:414
-#: cms/static/js/views/pages/container.js:446
+#: cms/static/js/views/pages/container.js:438
 #: cms/static/js/views/utils/xblock_utils.js:125
 msgid "View files"
 msgstr "Переглянути файли"
 
 #: cms/static/js/views/course_outline.js:422
-#: cms/static/js/views/pages/container.js:455
+#: cms/static/js/views/pages/container.js:447
 #: cms/static/js/views/utils/xblock_utils.js:134
 msgid "Dismiss"
 msgstr "Відхилити"
@@ -816,7 +813,7 @@ msgid "Select language"
 msgstr "Виберіть мову"
 
 #: cms/static/js/views/course_video_settings.js:474
-#: cms/static/js/views/metadata.js:362
+#: cms/static/js/views/metadata.js:357
 #: cms/static/js/views/previous_video_upload.js:78
 #: cms/static/js/views/video_transcripts.js:270
 #: lms/djangoapps/teams/static/teams/js/views/edit_team_members.js:96
@@ -1122,7 +1119,7 @@ msgstr "Ви впевнені?"
 msgid "Are you sure you want to restrict {email} access to “{container}”?"
 msgstr "Ви впевнені, що хочете обмежити {email} доступ до “{container}”?"
 
-#: cms/static/js/views/metadata.js:615 lms/static/js/views/file_uploader.js:47
+#: cms/static/js/views/metadata.js:610 lms/static/js/views/file_uploader.js:47
 msgid "Upload File"
 msgstr "Вивантажити файл"
 
@@ -1255,7 +1252,7 @@ msgstr "Перенести: {displayName}"
 #. Translators: "title" is the name of the current component being edited.
 #: cms/static/js/views/modals/preview_v2_library_changes.js:23
 msgid "Preview changes to: {title}"
-msgstr "Переглянути змінюється на: {title}"
+msgstr "Попередній перегляд змін для: {title}"
 
 #: cms/static/js/views/modals/preview_v2_library_changes.js:35
 msgid "Accept changes"
@@ -1274,8 +1271,8 @@ msgid ""
 "Would you like to permanently ignore this updated version? If so, you won't "
 "be able to update this until a newer version is published (in the library)."
 msgstr ""
-"Ви хочете назавжди ігнорувати цю оновлену версію? Якщо так, то ви не зможете"
-" оновити цю версію, доки не буде опубліковано нову версію (в та бібліотека)."
+"Ви хочете назавжди ігнорувати цю оновлену версію? Якщо так, ви не зможете "
+"оновити її, доки не буде опубліковано новішу версію (у бібліотеці)."
 
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
@@ -1337,7 +1334,7 @@ msgstr "Дата додавання"
 
 #. Translators: "title" is the name of the current component or unit being
 #. edited.
-#: cms/static/js/views/pages/container.js:729
+#: cms/static/js/views/pages/container.js:719
 msgid "Editing access for: {title}"
 msgstr "Редагування доступу для: {title}"
 
@@ -1583,8 +1580,8 @@ msgid ""
 "The combined length of the organization, course number, and course run "
 "fields cannot be more than <%- limit %> characters."
 msgstr ""
-"Сукупна довжина назви організації, номера курсу та навчального року не може "
-"перевищувати <%- limit %> символів."
+"Сукупна довжина полів організації, номера курсу та кількості пройдених "
+"курсів не може перевищувати <%- limit %> символів."
 
 #: cms/static/js/views/utils/create_library_utils.js:9
 msgid ""
@@ -1948,7 +1945,7 @@ msgstr "Попередження"
 #: common/static/common/js/discussion/views/discussion_thread_view.js:233
 #: common/static/common/js/discussion/views/response_comment_view.js:121
 #: lms/djangoapps/instructor/static/instructor/ProblemBrowser/components/ReportStatus/ReportStatus.jsx:33
-#: lms/static/js/student_account/views/FinishAuthView.js:84
+#: lms/static/js/student_account/views/FinishAuthView.js:82
 #: lms/static/js/verify_student/views/step_view.js:50
 #: lms/static/js/views/fields.js:43
 msgid "Error"
@@ -2036,7 +2033,7 @@ msgid_plural "there are currently {numVotes} votes"
 msgstr[0] "зараз є {numVotes} голосування"
 msgstr[1] "зараз є {numVotes} голосів"
 msgstr[2] "зараз є {numVotes} голосів"
-msgstr[3] "зараз є {numVotes} голосів"
+msgstr[3] "наразі є {numVotes}голосів"
 
 #: common/static/common/js/discussion/views/discussion_content_view.js:291
 msgid "{numVotes} Vote"
@@ -2222,7 +2219,7 @@ msgid_plural "Showing first {numResponses} responses"
 msgstr[0] "Показано першу відповідь"
 msgstr[1] "Показано перші відповіді {numResponses}"
 msgstr[2] "Показано перші відповіді {numResponses}"
-msgstr[3] "Показано перші відповіді {numResponses}"
+msgstr[3] "Показати перших {numResponses} відповідей"
 
 #: common/static/common/js/discussion/views/discussion_thread_view.js:287
 msgid "Load all responses"
@@ -2550,11 +2547,11 @@ msgid ""
 "proper procedures in each course. Please post all course related questions "
 "within the Discussion Forum where the Course Staff can directly respond."
 msgstr ""
-"Хоча наша команда підтримки рада допомогти з платформою edX, співробітники "
-"курсу мають досвід для конкретних питань призначення завдань, оцінювання або"
-" відповідних процедур у кожному курсі. Будь ласка, розмістіть усі питання, "
-"що стосуються курсу, на форумі для обговорення , де співробітники курсу "
-"можуть безпосередньо відповісти."
+"В той час як наша команда підтримки рада допомогти з платформою edX, наші "
+"співробітники курсу мають досвід для конкретних питань з завдань, оцінювання"
+" або відповідних процедур у кожному курсі. Будь ласка, розмістіть усі "
+"питання, що стосуються курсу, на форумі для обговорення, де співробітники "
+"курсу можуть безпосередньо відповісти."
 
 #: lms/djangoapps/support/static/support/jsx/logged_out_user.jsx:15
 msgid "Sign in to {platform} so we can help you better."
@@ -2756,7 +2753,7 @@ msgstr "Команда \"{team}\" успішно видалено. "
 #: lms/djangoapps/teams/static/teams/js/views/manage.js:17
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:165
 msgid "Manage"
-msgstr "Керування"
+msgstr "Керувати"
 
 #: lms/djangoapps/teams/static/teams/js/views/my_teams.js:28
 msgid "You are not currently a member of any team."
@@ -3162,7 +3159,7 @@ msgid ""
 "You have been logged out of your account. Click Okay to log in again now. "
 "Click Cancel to stay on this page (you must log in again to save your work)."
 msgstr ""
-"Ви вийшли з вашого edX облікового запису. Натисніть \"Гаразд\", щоб знову "
+"Ви вийшли з вашого облікового запису edX. Натисніть \"Гаразд\", щоб знову "
 "ввійти. Натисніть \"Скасувати\", щоб залишитися на цій сторінці (для "
 "збереження вашої роботи потрібно знову ввійти)."
 
@@ -3262,8 +3259,8 @@ msgid ""
 "<%- user %> has been successfully added to the exception list. Click "
 "Generate Exception Certificate below to send the certificate."
 msgstr ""
-"<%- user %> успішно додано до списку винятків. Натисніть Створити сертифікат"
-" нижче, щоб надіслати сертифікат."
+"<%- user %> успішно додано до списку винятків. Натисніть «Створити виняток "
+"для сертифікату» нижче, щоб надіслати сертифікат."
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:106
 msgid " learners were successfully added to exception list"
@@ -3277,7 +3274,7 @@ msgstr "студент успішно доданий в список виклю�
 msgid ""
 " records are not in the correct format and have not been added to the "
 "exception list"
-msgstr "записи неправильного формату та їх не додано до виключення"
+msgstr " записи неправильного формату та їх не додано до списку виключення"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:114
 msgid ""
@@ -3295,11 +3292,11 @@ msgstr "студента не знайдено і він не доданий в 
 msgid ""
 " learner account cannot be found and has not been added to the exception "
 "list"
-msgstr "студентів не знайдено і він не доданий в список виключень"
+msgstr "студента не знайдено і він не доданий до списку виключень"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:128
 msgid " learners already appear on the exception list in this course"
-msgstr "студенти вже додані до списку виключень"
+msgstr " студент вже доданий до списку виключень у цьому курсі"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:129
 msgid " learner already appears on the exception list in this course"
@@ -3322,16 +3319,16 @@ msgid ""
 " learners have an active certificate invalidation in this course and have "
 "not been added to the exception list"
 msgstr ""
-"слухачі мають статус визнання сертифіката недійсним у цьому курсі та не були"
-" додані до списку винятків"
+"Учні мають активне анулювання сертифіката на цьому курсі та не були додані "
+"до списку винятків"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:144
 msgid ""
 " learner has an active certificate invalidation in this course and has not "
 "been added to the exception list"
 msgstr ""
-"слухач має статус визнання сертифіката недійсним у цьому курсі та не був "
-"додані до списку винятків"
+"Учень має активне анулювання сертифіката на цьому курсі та не був доданий до"
+" списку винятків"
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:150
 msgid " learners encountered unknown errors"
@@ -3473,10 +3470,10 @@ msgstr ""
 #, javascript-format
 msgid "Viewing %s course"
 msgid_plural "Viewing %s courses"
-msgstr[0] "Перегляд %s курсу"
-msgstr[1] "Перегляд %s курсів"
-msgstr[2] "Перегляд %s курсів"
-msgstr[3] "Перегляд %s курсів"
+msgstr[0] "Перегляд курсу %s"
+msgstr[1] "Перегляд курсів %s"
+msgstr[2] "Перегляд курсів %s"
+msgstr[3] "Перегляд курсів %s"
 
 #: lms/static/js/discovery/views/search_form.js:57
 #, javascript-format
@@ -3486,7 +3483,7 @@ msgstr "Ми не змогли знайти жодних результатів 
 #: lms/static/js/discovery/views/search_form.js:66
 #: openedx/features/course_search/static/course_search/templates/search_error.underscore:1
 msgid "There was an error, try searching again."
-msgstr "Помилка пошуку інформаціі, спробуйте пошук знову."
+msgstr "Помилка, спробуйте пошук знову."
 
 #: lms/static/js/discussions_management/views/discussions.js:60
 msgid "Not divided"
@@ -3837,72 +3834,64 @@ msgstr "Завантаження даних..."
 msgid "Error getting issued certificates list."
 msgstr "Помилка отримання списку випущених сертифікатів."
 
-#: lms/static/js/instructor_dashboard/data_download.js:124
+#: lms/static/js/instructor_dashboard/data_download.js:123
 msgid "Error generating anonymous IDs. Please try again."
-msgstr "Помилка генерації анонімних ID. Будь ласка спробуйте ще раз."
+msgstr "Помилка генерації анонімних ID. Будь ласка, спробуйте ще раз."
 
-#: lms/static/js/instructor_dashboard/data_download.js:150
+#: lms/static/js/instructor_dashboard/data_download.js:149
 #: lms/static/js/instructor_dashboard/data_download_2.js:49
 msgid "Error generating proctored exam results. Please try again."
 msgstr ""
 "Помилка під час генерації результатів контрольваного іспиту. Будь ласка, "
 "спробуйте ще раз."
 
-#: lms/static/js/instructor_dashboard/data_download.js:176
+#: lms/static/js/instructor_dashboard/data_download.js:175
 #: lms/static/js/instructor_dashboard/data_download_2.js:48
 msgid "Error generating survey results. Please try again."
 msgstr ""
 "Помилка створення звіту про результати опитування. Будь ласка, спробуйте ще "
 "раз."
 
-#: lms/static/js/instructor_dashboard/data_download.js:202
+#: lms/static/js/instructor_dashboard/data_download.js:201
 #: lms/static/js/instructor_dashboard/data_download_2.js:47
 msgid "Error generating student profile information. Please try again."
 msgstr ""
 "Помилка при генеруванні інформації з запису студента. Спробуйте пізніше."
 
-#: lms/static/js/instructor_dashboard/data_download.js:228
+#: lms/static/js/instructor_dashboard/data_download.js:227
 #: openedx/features/course_bookmarks/static/course_bookmarks/js/views/bookmarks_list.js:23
 #: cms/templates/js/move-xblock-modal.underscore:6
 #: openedx/features/course_search/static/course_search/templates/search_loading.underscore:1
 msgid "Loading"
 msgstr "Завантаження"
 
-#: lms/static/js/instructor_dashboard/data_download.js:236
+#: lms/static/js/instructor_dashboard/data_download.js:235
 msgid "Error getting student list."
 msgstr "Помилка під час отримання списку студентів."
 
-#: lms/static/js/instructor_dashboard/data_download.js:302
+#: lms/static/js/instructor_dashboard/data_download.js:301
 #: lms/static/js/instructor_dashboard/data_download_2.js:50
 msgid "Error generating list of students who may enroll. Please try again."
 msgstr ""
 "Помилка при генеруванні списка студентів, які записались. Спробуйте пізніше."
 
-#: lms/static/js/instructor_dashboard/data_download.js:327
-msgid ""
-"Error generating list of inactive students who are enrolled in a course. "
-"Please try again."
-msgstr ""
-"помилка генерує список неактивних учнів, які записаний в a курс. Будь ласка "
-"спробувати ще раз."
-
-#: lms/static/js/instructor_dashboard/data_download.js:359
+#: lms/static/js/instructor_dashboard/data_download.js:333
 msgid "Error retrieving grading configuration."
 msgstr "Помилка під час отримання конфігурації оцінювання."
 
-#: lms/static/js/instructor_dashboard/data_download.js:384
+#: lms/static/js/instructor_dashboard/data_download.js:358
 #: lms/static/js/instructor_dashboard/data_download_2.js:156
 msgid "Error generating grades. Please try again."
 msgstr "Помилка під час генерування оцінок. Будь ласка, спробуйте ще раз."
 
-#: lms/static/js/instructor_dashboard/data_download.js:386
+#: lms/static/js/instructor_dashboard/data_download.js:360
 #: lms/static/js/instructor_dashboard/data_download_2.js:46
 msgid "Error generating problem grade report. Please try again."
 msgstr ""
 "Помилка при створенні детального оцінного листа. Будь ласка, спробуйте ще "
 "раз. "
 
-#: lms/static/js/instructor_dashboard/data_download.js:388
+#: lms/static/js/instructor_dashboard/data_download.js:362
 #: lms/static/js/instructor_dashboard/data_download_2.js:45
 msgid "Error generating ORA data report. Please try again."
 msgstr ""
@@ -4100,7 +4089,7 @@ msgid ""
 "they register:"
 msgstr ""
 "Електронні листи було надіслано наступним користувачам. Вони отримають "
-"доступ до записуватися після реєстрації:"
+"доступ до курса після реєстрації:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:804
@@ -4116,7 +4105,7 @@ msgid ""
 "register:"
 msgstr ""
 "Електронні листи було надіслано наступним користувачам. Вони отримають "
-"записаний після реєстрації:"
+"доступ до курсу після реєстрації:"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/js/instructor_dashboard/membership.js:828
@@ -4604,15 +4593,15 @@ msgstr ""
 
 #: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:123
 msgid "You have access to the {enterpriseName} dashboard"
-msgstr "У Вас є доступ до інформаційної панелі {enterpriseName}"
+msgstr "У вас є доступ до інформаційної панелі {enterpriseName}"
 
 #: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:132
 msgid ""
 "To access the courses available to you through {enterpriseName}, visit the "
 "{enterpriseName} dashboard."
 msgstr ""
-"Для доступу до курсів наданих {enterpriseName}, перейдіть на сторінку "
-"{enterpriseName} ."
+"Для отримання доступу до ваших курсів {enterpriseName}, перейдіть на "
+"сторінку {enterpriseName}."
 
 #: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:160
 msgid "Go to dashboard"
@@ -4821,10 +4810,10 @@ msgid ""
 "{strongStart}you will no longer be able to use the same email on "
 "{platformName}.{strongEnd}"
 msgstr ""
-"{strongStart}Попередження: видалення акаунту є незворотнім.{strongEnd} "
-"Будь ласка, уважно прочитайте вище, перш ніж продовжити. Це незворотна дія, "
-"{strongStart}ви більше не зможете використовувати ту саму пошту на "
-"{platformName}.{strongEnd}"
+"{strongStart}Попередження: видалення Аккаунту є незворотнім. {strongEnd} "
+"Будь ласка, уважно прочитайте вище, перш ніж продовжити. Це незворотні дії, "
+"і {strongStart} ви більше не зможете використовувати ту саму пошту на "
+"{platformName}. {strongEnd}"
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:80
 msgid ""
@@ -4843,7 +4832,7 @@ msgid ""
 msgstr ""
 "Після видалення вашого облікового запису, ви не зможете використовувати його"
 " для проходження курсів у додатку {platformName}, {siteName} або на будь-"
-"якому іншому сайті, розміщеному на сайті {platformName}."
+"якому іншому сайті, розміщеному на {platformName}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:95
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:115
@@ -4851,7 +4840,7 @@ msgid ""
 "This includes access to {siteName} from your employer’s or university’s "
 "system{additionalSiteSpecificDeletionText}."
 msgstr ""
-"Сюди входить доступ до сайту {siteName} із системи вашого роботодавця чи "
+"Містить доступ до сайту {siteName} із системи вашого роботодавця чи "
 "університету {additionalSiteSpecificDeletionText}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletion.jsx:104
@@ -4902,9 +4891,9 @@ msgid ""
 "the {platformName} app, {siteName}, or any other site hosted by "
 "{platformName}."
 msgstr ""
-"Якщо продовжити, ви не зможете використовувати цей обліковий запис для "
+"Якщо продовжете, ви не зможете використовувати цей обліковий запис для "
 "проходження курсів у додатку {platformName}, {siteName}, або будь-якому "
-"іншому веб-сайті, розміщеному на сайті {platformName}."
+"іншому веб-сайті, розміщеному на {platformName}."
 
 #: lms/static/js/student_account/components/StudentAccountDeletionModal.jsx:172
 msgid ""
@@ -4937,39 +4926,19 @@ msgstr ""
 msgid "Terms of Service and Honor Code"
 msgstr "Умови надання послуг та Кодекс Честі"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:71
-msgid "query param next is provide"
-msgstr "параметр запиту next має вигляд давати"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:73
-msgid "query param next is internal"
-msgstr "параметр запиту next є внутрішнім"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:111
+#: lms/static/js/student_account/views/FinishAuthView.js:109
 msgid "Saving your email preference"
 msgstr "Збереження налаштувань вашого email"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:129
+#: lms/static/js/student_account/views/FinishAuthView.js:127
 msgid "Enrolling you in the selected course"
 msgstr "Йде реєстрація на обраний Вами курс"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:140
-msgid "course mode param is not provided"
-msgstr "курс параметр режиму не передбачено"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:148
-msgid "course mode param is provided"
-msgstr "курс надається параметр режиму"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:163
+#: lms/static/js/student_account/views/FinishAuthView.js:159
 msgid "Adding the selected course to your cart"
 msgstr "Додати обрані курси до вашої корзини"
 
-#: lms/static/js/student_account/views/FinishAuthView.js:167
-msgid " redirect the user to the next page"
-msgstr " перенаправляти користувача на наступну сторінку"
-
-#: lms/static/js/student_account/views/FinishAuthView.js:177
+#: lms/static/js/student_account/views/FinishAuthView.js:172
 msgid "Loading your courses"
 msgstr "Завантаження ваших курсів"
 
@@ -4997,7 +4966,7 @@ msgstr "Сталася помилка при авторизації Вас на 
 #: lms/static/js/student_account/views/LoginView.js:171
 #: lms/templates/verify_student/intro_step.underscore:38
 msgid "Check Your Email"
-msgstr "Перевірте вашу електрону поштову скриньку"
+msgstr "Перевірте свою електронну пошту"
 
 #: lms/static/js/student_account/views/LoginView.js:173
 msgid ""
@@ -5010,7 +4979,7 @@ msgid ""
 "assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
 msgstr ""
 "{paragraphStart} Ви ввели {boldStart}{email}{boldEnd}. Якщо ця електронна "
-"адреса пов’язана з вашим обліковим записом r {platform_name}, ми надішлемо "
+"адреса пов’язана з вашим обліковим записом {platform_name}, ми надішлемо "
 "інструкцію по відновленню пароля.{paragraphEnd}{paragraphStart} Якщо "
 "впродовж 1 хвилини ви не отримаєте цього повідомлення, переконайтеся, що ви "
 "ввели правильну адресу електронної пошти або перевірте папку зі спамом. "
@@ -5211,7 +5180,7 @@ msgstr "Помилка валідації"
 #: lms/static/js/views/fields.js:53
 #: lms/templates/learner_dashboard/program_card.underscore:26
 msgid "In Progress"
-msgstr "Опрацьовується"
+msgstr "В прогресі "
 
 #: lms/static/js/views/fields.js:63
 msgid "Placeholder"
@@ -5310,8 +5279,7 @@ msgstr[1] ""
 "{total_results} знайдено результати для &quot; {search_term} &quot;"
 msgstr[2] ""
 "{total_results} знайдено результати для &quot; {search_term} &quot;"
-msgstr[3] ""
-"{total_results} знайдено результати для &quot; {search_term} &quot;"
+msgstr[3] "{total_results} знайдено результати для \" {search_term} \""
 
 #: xmodule/assets/library_content/public/js/library_content_edit.js:16
 #: xmodule/js/public/js/library_content_edit.js:16
@@ -6955,11 +6923,11 @@ msgstr "Не показувати знову"
 msgid "Open language menu"
 msgstr "Вибір мови"
 
-#: xmodule/js/src/video/09_video_caption.js:630
+#: xmodule/js/src/video/09_video_caption.js:589
 msgid "Transcript will be displayed when you start playing the video."
 msgstr "Текст з'явиться, коли ви почнете програвати відео."
 
-#: xmodule/js/src/video/09_video_caption.js:878
+#: xmodule/js/src/video/09_video_caption.js:837
 msgid ""
 "Activating a link in this group will skip to the corresponding point in the "
 "video."
@@ -6967,19 +6935,19 @@ msgstr ""
 "При активації пункту в цій групі відбудеться перемотування відео до "
 "відповідної точки. "
 
-#: xmodule/js/src/video/09_video_caption.js:881
+#: xmodule/js/src/video/09_video_caption.js:840
 msgid "Video transcript"
 msgstr "Транскрипт вiдео"
 
-#: xmodule/js/src/video/09_video_caption.js:884
+#: xmodule/js/src/video/09_video_caption.js:843
 msgid "Start of transcript. Skip to the end."
 msgstr "Почати тексту. Перейти в кінець."
 
-#: xmodule/js/src/video/09_video_caption.js:888
+#: xmodule/js/src/video/09_video_caption.js:847
 msgid "End of transcript. Skip to the start."
 msgstr "Кінець тексту. Перейти на початок. "
 
-#: xmodule/js/src/video/09_video_caption.js:892
+#: xmodule/js/src/video/09_video_caption.js:851
 msgid ""
 "Press the UP arrow key to enter the language menu then use UP and DOWN arrow"
 " keys to navigate language options. Press ENTER to change to the selected "
@@ -6988,23 +6956,23 @@ msgstr ""
 "Натисніть кнопку із стрілкою вгору для вибору мови, потім використайте "
 "стрілки вгору і вниз для навігації по меню. Натисніть ENTER для зміни мови."
 
-#: xmodule/js/src/video/09_video_caption.js:1248
+#: xmodule/js/src/video/09_video_caption.js:1205
 msgid "Hide closed captions"
 msgstr "Сховати субтитри"
 
-#: xmodule/js/src/video/09_video_caption.js:1266
+#: xmodule/js/src/video/09_video_caption.js:1223
 msgid "(Caption will be displayed when you start playing the video.)"
 msgstr "(Субтитри відображатимуться, коли Ви почнете програвати відео.)"
 
-#: xmodule/js/src/video/09_video_caption.js:1273
+#: xmodule/js/src/video/09_video_caption.js:1230
 msgid "Turn on closed captioning"
 msgstr "Включити субтитри"
 
-#: xmodule/js/src/video/09_video_caption.js:1381
+#: xmodule/js/src/video/09_video_caption.js:1338
 msgid "Turn on transcripts"
 msgstr "Включити переклад"
 
-#: xmodule/js/src/video/09_video_caption.js:1396
+#: xmodule/js/src/video/09_video_caption.js:1353
 msgid "Turn off transcripts"
 msgstr "Вимкнути переклад"
 
@@ -7036,7 +7004,7 @@ msgstr "Мінімальний бал:"
 
 #: cms/templates/js/access-editor.underscore:29
 msgid "Minimum Completion:"
-msgstr "Мінімальне Виконання:"
+msgstr "Мінімальне виконання:"
 
 #: cms/templates/js/access-editor.underscore:35
 msgid "The minimum score percentage must be a whole number between 0 and 100."
@@ -7079,7 +7047,7 @@ msgstr "Бета"
 #: cms/templates/js/add-xblock-component-menu.underscore:4
 #, python-format
 msgid "%(type)s Component Template Menu"
-msgstr "%(type)sКомпонент Шаблонів Меню"
+msgstr "%(type)sМеню Шаблонів Компонентів"
 
 #: cms/templates/js/add-xblock-component-menu-problem.underscore:10
 msgid "Common Problem Types"
@@ -7087,7 +7055,7 @@ msgstr "Типові проблеми"
 
 #: cms/templates/js/add-xblock-component-support-legend.underscore:9
 msgid "Supported"
-msgstr "Має підтримку"
+msgstr "Підтримується"
 
 #: cms/templates/js/add-xblock-component-support-legend.underscore:13
 msgid "Provisional"
@@ -7104,7 +7072,7 @@ msgstr "Повністю підтримується"
 
 #: cms/templates/js/add-xblock-component-support-level.underscore:6
 msgid "Provisionally Supported"
-msgstr "Часткова підтримка"
+msgstr "Частково підтримується"
 
 #: cms/templates/js/add-xblock-component.underscore:2
 msgid "Add New Component"
@@ -7121,7 +7089,7 @@ msgstr "Список завантажених файлів та складник
 #: cms/templates/js/asset-library.underscore:20
 #: cms/templates/js/asset-library.underscore:53
 msgid "- Sortable"
-msgstr "- Сортувати"
+msgstr "- Сортування"
 
 #: cms/templates/js/asset-library.underscore:35
 msgid "Show All"
@@ -7169,7 +7137,7 @@ msgstr "Видалити цей складник"
 
 #: cms/templates/js/asset.underscore:42
 msgid "Lock this asset"
-msgstr "Закрити складник"
+msgstr "Заблокувати складник"
 
 #: cms/templates/js/asset.underscore:43
 msgid "Lock/unlock file"
@@ -7248,8 +7216,8 @@ msgid ""
 "Specify an alternative to the official course title to display on "
 "certificates. Leave blank to use the official course title."
 msgstr ""
-"Визначте альтернативну до офіційної назву курсу для подання на сертифікаті. "
-"Залиште поле пустим для використання офіційної назви курсу. "
+"Визначте альтернативну до офіційної назву курсу для відображення на "
+"сертифікаті. Залиште поле пустим для використання офіційної назви курсу. "
 
 #: cms/templates/js/certificate-editor.underscore:41
 msgid "Add Additional Signatory"
@@ -7290,7 +7258,7 @@ msgid ""
 "Access to some content in this {blockType} is restricted to specific groups "
 "of learners."
 msgstr ""
-"Доступ до певного контенту в цьому {blockType} обмежена особливими групами "
+"Доступ до певного контенту в цьому {blockType} доступний не всім групами "
 "учнів."
 
 #: cms/templates/js/container-message.underscore:5
@@ -7315,12 +7283,13 @@ msgstr "Це ім'я групи"
 
 #: cms/templates/js/content-group-editor.underscore:25
 msgid "This content group is used in one or more units."
-msgstr "Ця контентна група використовується в одній або декількох одиницях."
+msgstr ""
+"Ця контентна група використовується в одній або декількох блоках курсу."
 
 #: cms/templates/js/content-group-editor.underscore:40
 #: cms/templates/js/partition-group-details.underscore:35
 msgid "Cannot delete when in use by a unit"
-msgstr "Неможливо видалити під час використання підрозділом"
+msgstr "Неможливо видалити під час використання блоком курсу"
 
 #: cms/templates/js/content-visibility-editor.underscore:2
 msgid "Subsection Visibility"
@@ -7350,7 +7319,7 @@ msgstr "Приховати контент після дати завершенн
 
 #: cms/templates/js/content-visibility-editor.underscore:21
 msgid "Hide content after due date"
-msgstr "Приховати контент після дати завершення курсу"
+msgstr "Приховати контент після дати завершення"
 
 #: cms/templates/js/content-visibility-editor.underscore:26
 msgid ""
@@ -7366,7 +7335,8 @@ msgid ""
 "its content. The subsection remains included in grade calculations."
 msgstr ""
 "Після закінчення терміну дії підрозділу, учні не зможуть більше отримати "
-"доступ до його контенту. Підрозділ залишається включеним у розрахунки класу."
+"доступ до його контенту. Підрозділ залишається включеним у розрахунки "
+"оцінки."
 
 #: cms/templates/js/content-visibility-editor.underscore:33
 msgid "Hide entire subsection"
@@ -7377,8 +7347,8 @@ msgid ""
 "Learners do not see the subsection in the course outline. The subsection is "
 "not included in grade calculations."
 msgstr ""
-"ПідрозділУчні не бачать підрозділу в структурі курсу. Підрозділ не включено "
-"в розрахунки класу."
+"Учні не бачать підрозділ в структурі курсу. Підрозділ не включено в "
+"розрахунки оцінки."
 
 #: cms/templates/js/content-visibility-editor.underscore:42
 #, python-format
@@ -7387,9 +7357,8 @@ msgid ""
 "this subsection become available to learners unless they are explicitly "
 "hidden."
 msgstr ""
-"Якщо ви обираєте іншу опцію , ніж \"%(hide_label)s\",  то опубліковані "
-"одиниці цього підрозділу стають доступними для учнів, якщо вони не приховані"
-" явно."
+"Якщо ви обираєте іншу опцію ніж \"%(hide_label)s\",  то опубліковані блоки "
+"цього підрозділу стають доступними для учнів, якщо вони не були приховані."
 
 #: cms/templates/js/copy-clipboard-button.underscore:1
 #: cms/templates/js/copy-clipboard-button.underscore:3
@@ -7398,7 +7367,7 @@ msgstr "Копіювати розташування компонентів"
 
 #: cms/templates/js/course-highlights-enable.underscore:3
 msgid "Course Highlight Emails"
-msgstr "Важливі повідомлення по курсу"
+msgstr "Електронні листи з важливими повідомленнями про курс"
 
 #: cms/templates/js/course-highlights-enable.underscore:7
 msgid "Enabled"
@@ -7480,7 +7449,7 @@ msgstr "Мітки курсів"
 #: cms/templates/js/course-manage-tags.underscore:7
 #: cms/templates/js/tag-list.underscore:28
 msgid "Manage tags"
-msgstr "Керування тегами"
+msgstr "Керування мітками"
 
 #: cms/templates/js/course-outline.underscore:48
 #, python-format
@@ -7505,11 +7474,11 @@ msgid ""
 "through their link."
 msgstr ""
 "Підрозділи не є навігаційними між собою, доступ до них можливий лише за "
-"їхнім посиланням."
+"посиланням."
 
 #: cms/templates/js/course-outline.underscore:71
 msgid "Unpublished changes to live content"
-msgstr "Неопубліковані зміни до тематичного контенту"
+msgstr "Неопубліковані зміни контенту"
 
 #: cms/templates/js/course-outline.underscore:73
 msgid "Unpublished units will not be released"
@@ -7517,20 +7486,20 @@ msgstr "Неопубліковані блоки не відображатиму�
 
 #: cms/templates/js/course-outline.underscore:75
 msgid "Unpublished changes to content that will release in the future"
-msgstr "Неопубліковані зміни до контенту, які в майбутньому будуть видані "
+msgstr "Неопубліковані зміни в контенті, які вийдуть в майбутньому"
 
 #: cms/templates/js/course-outline.underscore:83
 #, python-brace-format
 msgid "Access to this unit is restricted to: {selectedGroupsLabel}"
-msgstr "Доступ до цього пристрою обмежується: {selectedGroupsLabel}"
+msgstr "Доступ до цього блоку обмежено: {selectedGroupsLabel}"
 
 #: cms/templates/js/course-outline.underscore:92
 msgid ""
 "Access to some content in this unit is restricted to specific groups of "
 "learners"
 msgstr ""
-"Доступ до частин контенту у цій частині курсу заборонений визначеним групам "
-"слухачів. "
+"Доступ до частини контенту у цьому блоці курсу заборонений для спеціально "
+"налаштованих груп учнів. "
 
 #: cms/templates/js/course-outline.underscore:97
 msgid "Ungraded"
@@ -7538,11 +7507,11 @@ msgstr "Оновлено"
 
 #: cms/templates/js/course-outline.underscore:114
 msgid "Onboarding Exam"
-msgstr "Іспит для навчання"
+msgstr "Іспит з адаптації"
 
 #: cms/templates/js/course-outline.underscore:116
 msgid "Practice proctored Exam"
-msgstr "Практикуйте Очний Іспит"
+msgstr "Практичний Іспит під наглядом"
 
 #: cms/templates/js/course-outline.underscore:118
 msgid "Proctored Exam"
@@ -7586,7 +7555,7 @@ msgstr "Керування тегами"
 
 #: cms/templates/js/course-outline.underscore:220
 msgid "Copy to Clipboard"
-msgstr "Копіювати до буфера обміну."
+msgstr "Копіювати до буфера обміну"
 
 #: cms/templates/js/course-outline.underscore:225
 #: cms/templates/js/course-outline.underscore:248
@@ -7601,13 +7570,13 @@ msgstr "Перетягніть, щоб змінити порядок "
 
 #: cms/templates/js/course-outline.underscore:285
 msgid "Release Status:"
-msgstr "Позбавлення Статусу:"
+msgstr "Статус Випуску: "
 
 #: cms/templates/js/course-outline.underscore:290
 #: cms/templates/js/publish-xblock.underscore:15
 #: cms/templates/js/xblock-outline.underscore:43
 msgid "Released:"
-msgstr "Дата публікації:"
+msgstr "Випущено:"
 
 #: cms/templates/js/course-outline.underscore:293
 #: cms/templates/js/publish-xblock.underscore:17
@@ -7624,13 +7593,13 @@ msgstr "Незапланований"
 #: cms/templates/js/course-outline.underscore:311
 #: cms/templates/js/highlights-editor.underscore:2
 msgid "Section Highlights"
-msgstr "Основні Розділи"
+msgstr "Важливі Повідомлення в Секції"
 
 #: cms/templates/js/course-outline.underscore:318
 #: cms/templates/js/course-outline.underscore:351
 #: cms/templates/js/course-outline.underscore:381
 msgid "Graded as:"
-msgstr "Оцінка:"
+msgstr "Оцінено як:"
 
 #: cms/templates/js/course-outline.underscore:325
 #: cms/templates/js/course-outline.underscore:355
@@ -7639,15 +7608,15 @@ msgstr "Термін:"
 
 #: cms/templates/js/course-outline.underscore:410
 msgid "Subsection is hidden after course end date"
-msgstr "Приховати підрозділ після дати завершення курсу"
+msgstr "Підрозділ буде приховано після дати завершення курсу"
 
 #: cms/templates/js/course-outline.underscore:412
 msgid "Subsection is hidden after due date"
-msgstr "Приховати підрозділ після дати завершення курсу"
+msgstr "Підрозділ буде приховано після кінцевого терміну"
 
 #: cms/templates/js/course-outline.underscore:428
 msgid "Share"
-msgstr "Поділіться"
+msgstr "Поділитися"
 
 #: cms/templates/js/course-outline.underscore:442
 #, python-format
@@ -7703,7 +7672,9 @@ msgstr "Параметри Оновлення"
 
 #: cms/templates/js/course-video-settings-update-org-credentials-footer.underscore:7
 msgid "Press update settings to update the information for your organization."
-msgstr "Натисніть налаштування, щоб оновити інформацію для своєї організації."
+msgstr ""
+"Натисніть Оновити Налаштування, щоб оновити інформацію для своєї "
+"організації."
 
 #: cms/templates/js/course-video-settings-update-settings-footer.underscore:3
 msgid "Press discard changes to discard changes."
@@ -7724,7 +7695,7 @@ msgstr "Налаштування для відео на курсі"
 
 #: cms/templates/js/course-video-sharing-enable.underscore:3
 msgid "Video Sharing"
-msgstr "Обмін відео"
+msgstr "Поділитися відео"
 
 #: cms/templates/js/course-video-sharing-enable.underscore:13
 msgid "Learn more"
@@ -7732,19 +7703,19 @@ msgstr "Дізнатися більше"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:3
 msgid "Transcript Turnaround"
-msgstr "Транскрипт Обертання"
+msgstr "Обробка Транскрипта"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:8
 msgid "Transcript Fidelity"
-msgstr "Транскрипт Точності"
+msgstr "Точність Транскрипта"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:13
 msgid "Video Source Language"
-msgstr "Видео Джерела Мови"
+msgstr "Джерело Мови Видео"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:18
 msgid "Transcript Languages"
-msgstr "Мови розшифровки"
+msgstr "Мови транскріпта"
 
 #: cms/templates/js/course-video-transcript-preferences.underscore:25
 #: cms/templates/js/metadata-dict-entry.underscore:6
@@ -7783,7 +7754,7 @@ msgid ""
 "Midterm Exam. This name is visible to learners."
 msgstr ""
 "Загальна категорія для цього типу завдання, наприклад, Домашнє Завдання або "
-"Проміжний іспит."
+"Проміжний іспит. Ця назва видима для учнів. "
 
 #: cms/templates/js/course_grade_policy.underscore:9
 msgid "Abbreviation"
@@ -7794,8 +7765,8 @@ msgid ""
 "This short name for the assignment type (for example, HW or Midterm) appears"
 " next to assignments on a learner's Progress page."
 msgstr ""
-"Це коротке ім'я присвоєння (наприклад, HW або Midterm) з'являється поруч із "
-"призначеннями на сторінці учня Прогрес."
+"Це коротке ім'я для типу завдання (наприклад, HW або Midterm) з'являється "
+"поруч із завданням на сторінці учня \"Прогрес\"."
 
 #: cms/templates/js/course_grade_policy.underscore:15
 msgid "Weight of Total Grade"
@@ -7807,7 +7778,7 @@ msgid ""
 "grade, for example, 40. Do not include the percent symbol."
 msgstr ""
 "Вага всіх завдань цього типу у відсотках від загальної оцінки, наприклад, "
-"40. Не включайте відсоток символа."
+"40. Не додавайте символ відсотка."
 
 #: cms/templates/js/course_grade_policy.underscore:21
 msgid "Total Number"
@@ -7989,7 +7960,7 @@ msgstr "Редагувати заголовок"
 
 #: cms/templates/js/edit-upstream-alert.underscore:4
 msgid "You are editing content from a Library."
-msgstr "Ви редагуєте контент з бібліотека."
+msgstr "Ви редагуєте контент з бібліотеки."
 
 #: cms/templates/js/edit-upstream-alert.underscore:6
 msgid ""
@@ -8001,7 +7972,7 @@ msgstr ""
 
 #: cms/templates/js/edit-upstream-alert.underscore:14
 msgid "View in Library"
-msgstr "Переглянути в бібліотека"
+msgstr "Переглянути в бібліотеці"
 
 #: cms/templates/js/embed-link-share-link-editor.underscore:5
 msgid ""
@@ -9556,7 +9527,7 @@ msgstr "Немає результатів"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:6
 msgid "Course Key"
-msgstr "Ключовий Курс"
+msgstr "Ключ Курсу"
 
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore:8
 msgid "Status"
@@ -9813,11 +9784,11 @@ msgstr "Курси цього каталогу:"
 
 #: lms/templates/ccx/schedule.underscore:3
 msgid "Expand All"
-msgstr "Розгорнути Всі "
+msgstr "Розгорнути всі"
 
 #: lms/templates/ccx/schedule.underscore:6
 msgid "Collapse All"
-msgstr "Згорнути Всі"
+msgstr "Згорнути всі"
 
 #: lms/templates/ccx/schedule.underscore:14
 msgid "Start Date"
@@ -11378,7 +11349,7 @@ msgstr "Ваш статус підтвердження дійсний до {veri
 
 #: lms/templates/verify_student/make_payment_step.underscore:112
 msgid "price"
-msgstr ", ціна"
+msgstr "ціна"
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:5
 msgid "Account Not Activated"
@@ -11501,7 +11472,9 @@ msgstr "Чи ваше ім'я на документі можна прочита�
 #: lms/templates/verify_student/review_photos_step.underscore:29
 #, python-format
 msgid "Does the name on your ID match your account name: %(fullName)s?"
-msgstr "Чи ім: %(fullName)s?"
+msgstr ""
+"Чи ім'я на вашому ID збігається з ім'ям вашого облікового запису: "
+"%(fullName)s?"
 
 #: lms/templates/verify_student/review_photos_step.underscore:33
 msgid "Edit Your Name"
@@ -11511,8 +11484,8 @@ msgstr "Редагувати Ваше Ім'я"
 msgid ""
 "Make sure that the full name on your account matches the name on your ID."
 msgstr ""
-"Переконайтесь, що повне ім'я у вашому обліковому записі збігається із "
-"документами. "
+"Переконайтесь, що повне ім'я у вашому Обліковому записі збігається з ім'ям "
+"на вашому ID."
 
 #: lms/templates/verify_student/review_photos_step.underscore:50
 msgid "Photos don't meet the requirements?"
@@ -11578,6 +11551,27 @@ msgstr[3] "Завантажити наступні {num_items} результа�
 msgid "Sorry, no results were found."
 msgstr "На жаль, жодного результату не знайдено."
 
+
+#: lms/static/js/student_account/views/FinishAuthView.js:167
+msgid " redirect the user to the next page"
+msgstr " перенаправляти користувача на наступну сторінку"
+
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Not available"
 msgstr "недоступно"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:140
+msgid "course mode param is not provided"
+msgstr "курс параметр режиму не передбачено"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:148
+msgid "course mode param is provided"
+msgstr "курс надається параметр режиму"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:73
+msgid "query param next is internal"
+msgstr "параметр запиту next є внутрішнім"
+
+#: lms/static/js/student_account/views/FinishAuthView.js:71
+msgid "query param next is provide"
+msgstr "параметр запиту next має вигляд давати"

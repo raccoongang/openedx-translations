@@ -32,12 +32,18 @@
   "authoring.footer.help.openHelp.button.label": "Потрібна допомога щодо Studio?",
   "authoring.footer.help.closeHelp.button.label": "Приховати допомогу щодо Studio",
   "authoring.footer.help.edxDocumentation.button.label": "документація edX",
-  "authoring.footer.help.openEdxPortal.button.label": "Відкрити портал edX",
+  "authoring.footer.help.openEdxPortal.button.label": "Портал Open edX",
   "authoring.footer.help.edx101.button.label": "Записатися на курс edX 101",
   "authoring.footer.help.studioX.button.label": "Записатися на курс StudioX",
   "authoring.footer.help.contactUs.button.label": "Зв'яжіться з нами",
   "authoring.footer.termsOfService.link.label": "Договір публічної оферти",
   "authoring.footer.privacyPolicy.link.label": "Політика Конфіденційності",
   "authoring.footer.accessibilityRequest.link.label": "Запит на створення спеціальних умов для людей з обмеженими можливостями",
-  "authoring.footer.trademark.message": "edX і Open edX, а також логотипи edX і Open edX є зареєстрованими товарними знаками"
+  "authoring.footer.trademark.message": "edX і Open edX, а також логотипи edX і Open edX є зареєстрованими товарними знаками",
+  "footer.copyright": "Copernicus College | Всі права захищені.",
+  "footer.contacts.title": "Контакти",
+  "footer.navLinks.title": "Корисні посилання",
+  "footer.partnerLogoAlt": "Ягеллонський університет у Кракові",
+  "footer.descriptionText": "Перша польська платформа, що дозволяє широкій громадськості брати участь у лекціях та університетських курсах, які проводять найкращі польські науковці та молоді науковці – онлайн і абсолютно безкоштовно.",
+  "footer.descriptionText2": "Платформа фінансується з програми \"Ініціатива Досконалості - Дослідницький Навчальний Заклад\" Ягеллонського університету."
 }
