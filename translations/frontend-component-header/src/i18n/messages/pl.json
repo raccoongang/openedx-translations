@@ -34,5 +34,6 @@
   "header.user.menu.studio": "Dom studyjny",
   "header.user.menu.maintenance": "Konserwacja",
   "header.label.courseOutline": "Powrót do zarysu kursu w Studio",
-  "header.label.search.nav": "Szukaj treści"
+  "header.label.search.nav": "Szukaj treści",
+  "header.links.categories": "Kategorie"
 }

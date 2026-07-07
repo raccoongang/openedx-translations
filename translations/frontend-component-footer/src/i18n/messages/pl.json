@@ -39,5 +39,11 @@
   "authoring.footer.termsOfService.link.label": "Warunki usługi",
   "authoring.footer.privacyPolicy.link.label": "Polityka prywatności",
   "authoring.footer.accessibilityRequest.link.label": "Zapytanie o zakwaterowanie z ułatwieniami dostępu",
-  "authoring.footer.trademark.message": "edX i Open edX oraz logo edX i Open edX są zastrzeżonymi znakami towarowymi firmy"
+  "authoring.footer.trademark.message": "edX i Open edX oraz logo edX i Open edX są zastrzeżonymi znakami towarowymi firmy",
+  "footer.copyright": "Copernicus College | Wszystkie prawa zastrzeżone.",
+  "footer.contacts.title": "Kontakt",
+  "footer.navLinks.title": "Przydatne linki",
+  "footer.partnerLogoAlt": "Uniwersytet Jagielloński w Krakowie",
+  "footer.descriptionText": "Pierwsza polska platforma umożliwiająca szerokiej publiczności uczestniczenie w wykładach i kursach uniwersyteckich prowadzonych przez najlepszych polskich uczonych i młodych naukowców – online i całkowicie bezpłatnie.",
+  "footer.descriptionText2": "Platforma została sfinansowana z programu \"Inicjatywa Doskonałości - Uczelnia Badawcza\" Uniwersytetu Jagiellońskiego."
 }
