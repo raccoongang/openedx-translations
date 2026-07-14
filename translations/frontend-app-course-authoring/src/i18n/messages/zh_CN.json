@@ -2931,5 +2931,8 @@
   "course-authoring.pages-resources.app-settings-modal.reset-all-units": "重置所有单元",
   "course-authoring.pages-resources.app-settings-modal.reset-all-units-tooltip.checked": "立即重置任何单元级别的更改并检查所有单元上的“启用摘要”。",
   "course-authoring.pages-resources.app-settings-modal.reset-all-units-tooltip.unchecked": "立即重置所有单元级别的更改和取消选中的所有单元上的“启用摘要”。",
-  "course-authoring.pages-resources.app-settings-modal.reset": "重置"
+  "course-authoring.pages-resources.app-settings-modal.reset": "重置",
+  "course-authoring.pages-resources.course-feedback.heading": "配置课程反馈",
+  "course-authoring.pages-resources.course-feedback.enable.label": "课程反馈",
+  "course-authoring.pages-resources.course-feedback.enable.help": "当学习者通过课程时向其显示简短的满意度弹窗，收集评分和可选评论。"
 }

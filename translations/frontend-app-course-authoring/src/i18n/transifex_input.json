@@ -1741,5 +1741,8 @@
   "course-authoring.studio-home.add-new-library.btn.text": "New library",
   "course-authoring.studio-home.taxonomies.tab.title": "Taxonomies",
   "course-authoring.studio-home.legacy.libraries.tab.title": "Legacy Libraries",
-  "course-authoring.studio-home.libraries.tab.library.not.found.alert.title": "We could not find any result"
+  "course-authoring.studio-home.libraries.tab.library.not.found.alert.title": "We could not find any result",
+  "course-authoring.pages-resources.course-feedback.heading": "Configure Course Feedback",
+  "course-authoring.pages-resources.course-feedback.enable.label": "Course Feedback",
+  "course-authoring.pages-resources.course-feedback.enable.help": "Show a short satisfaction pop-up to learners when they pass the course, collecting a rating and an optional comment."
 }
