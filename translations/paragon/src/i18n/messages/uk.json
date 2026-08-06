@@ -1,4 +1,10 @@
 {
+  "Hyperlink.externalLinkAltText": {
+    "string": "у новій вкладці"
+  },
+  "Hyperlink.externalLinkTitle": {
+    "string": "Відкривається у новій вкладці"
+  },
   "dropzone.Dropzone.invalidSizeLessError": {
     "developer_comment": "Повідомлення, яке відображається, коли в Dropzone завантажується файл, розмір якого менший за мінімально допустимий.",
     "string": "Файл має бути більшим за {size} ."
@@ -82,6 +88,10 @@
   "pgn.DataTable.SidebarFilters.title": {
     "developer_comment": "Заголовок для компонента фільтрів бічної панелі",
     "string": "Фільтри"
+  },
+  "pgn.DataTable.paginationLabel": {
+    "developer_comment": "Доступна для програм зчитування з екрана назва елемента навігації компонента пагінації",
+    "string": "пагінація таблиці"
   },
   "pgn.Dropzone.DefaultContent.fileSizeBetween": {
     "developer_comment": "Повідомлення, що відображається під час завантаження, розмір файлу має бути в заданому діапазоні.",
