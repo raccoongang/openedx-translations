@@ -2940,3 +2940,151 @@ msgstr "Невірний номер переліку лідерів."
 #: xblock/utils/validation.py:392
 msgid "The submission format is invalid."
 msgstr "Невірний формат подання."
+
+#: staffgrader/staff_grader_mixin.py:514
+msgid "Your team assessment could not be submitted."
+msgstr "Не вдалося надіслати командну оцінку."
+
+#: xblock/apis/submissions/submissions_actions.py:102
+#: xblock/ui_mixins/legacy/handlers_mixin.py:136
+msgid "Response exceeds maximum allowed size."
+msgstr "Розмір відповіді перевищує максимально дозволений."
+
+#: xblock/apis/submissions/submissions_actions.py:103
+#: xblock/ui_mixins/legacy/handlers_mixin.py:137
+msgid ""
+"Note: if you have a spellcheck or grammar check browser extension, try "
+"disabling, reloading, and reentering your response before submitting."
+msgstr ""
+"Примітка: якщо у вас увімкнене розширення браузера для перевірки орфографії "
+"чи граматики, спробуйте вимкнути його, перезавантажити сторінку та ввести "
+"відповідь заново перед надсиланням."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:109
+msgid "\"submission\" required to submit answer."
+msgstr "Для надсилання відповіді потрібне поле \"submission\"."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:127
+msgid "To submit a response, view this component in Preview or Live mode."
+msgstr ""
+"Щоб надіслати відповідь, перегляньте цей компонент у режимі перегляду "
+"(Preview) або в реальному курсі (Live)."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:132
+msgid "Multiple submissions are not allowed."
+msgstr "Повторне надсилання відповіді не дозволено."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:144
+msgid ""
+"The submissions API reported an invalid request error when submitting a "
+"response"
+msgstr ""
+"API подання відповідей повідомило про некоректний запит під час надсилання "
+"відповіді"
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:150
+msgid "Submission cannot be empty. Please refresh the page and try again."
+msgstr "Відповідь не може бути порожньою. Оновіть сторінку та спробуйте ще раз."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:156
+msgid "API returned unclassified exception."
+msgstr "API повернуло невизначену помилку."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:165
+msgid "Submission data missing. Please contact support staff."
+msgstr "Відсутні дані відповіді. Зверніться до служби підтримки."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:173
+msgid "Please contact support staff."
+msgstr "Зверніться до служби підтримки."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:184
+msgid "File descriptions were not submitted."
+msgstr "Описи файлів не було надіслано."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:196
+msgid "Files metadata could not be saved."
+msgstr "Не вдалося зберегти метадані файлів."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:206
+msgid "There was an error uploading your file."
+msgstr "Під час завантаження файлу сталася помилка."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:220
+msgid "Only a single file upload is allowed for this assessment."
+msgstr "Для цього завдання дозволено завантажити лише один файл."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:225
+msgid ""
+"File upload failed: unsupported file type.Only the supported file types "
+"can be uploaded.If you have questions, please reach out to the course team."
+msgstr ""
+"Помилка завантаження файлу: тип файлу не підтримується. Додавати можна лише "
+"типи файлів, що підтримуються. Якщо у вас є запитання, зверніться до служби "
+"підтримки."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:235
+msgid "Error retrieving upload URL."
+msgstr "Помилка отримання посилання для завантаження."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:290
+msgid "You must submit a response before you can perform a peer assessment."
+msgstr ""
+"Спершу потрібно надіслати власну відповідь, перш ніж оцінювати роботи "
+"інших."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:297
+msgid ""
+"This feedback has already been submitted or the submission has been "
+"cancelled."
+msgstr "Цей відгук уже надіслано, або подання було скасовано."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:304
+msgid "Your peer assessment could not be submitted."
+msgstr "Не вдалося надіслати вашу оцінку одногрупника."
+
+#: xblock/ui_mixins/legacy/handlers_mixin.py:307
+msgid "Could not update workflow status."
+msgstr "Не вдалося оновити статус робочого процесу."
+
+#: xblock/ui_mixins/legacy/views/staff.py:72
+msgid "Waiting for a Staff Grade"
+msgstr "Очікування оцінки викладача"
+
+#: xblock/ui_mixins/legacy/views/staff.py:73
+msgid ""
+"Check back later to see if a course staff member has assessed your "
+"response. You will receive your grade after the assessment is complete."
+msgstr ""
+"Перевірте пізніше, чи викладач курсу вже оцінив вашу відповідь. Ви отримаєте "
+"оцінку після завершення оцінювання."
+
+#: xblock/ui_mixins/legacy/views/staff.py:88
+msgid "You Must Complete the Steps Above to View Your Grade"
+msgstr "Щоб побачити оцінку, спершу завершіть кроки вище"
+
+#: xblock/ui_mixins/legacy/views/staff.py:89
+msgid ""
+"Although a course staff member has assessed your response, you will "
+"receive your grade only after you have completed all the required steps of "
+"this problem."
+msgstr ""
+"Хоча викладач курсу вже оцінив вашу відповідь, ви отримаєте оцінку лише "
+"після завершення всіх обов'язкових кроків цього завдання."
+
+#: xblock/ui_mixins/legacy/views/submission.py:156
+msgid "Draft saved!"
+msgstr "Чернетку збережено!"
+
+#: xblock/ui_mixins/legacy/views/peer.py:60
+msgid "Submit your assessment and review another response"
+msgstr "Надіслати оцінку та перейти до наступної роботи"
+
+#: xblock/ui_mixins/legacy/views/peer.py:62
+msgid "Submit your assessment and move to next step"
+msgstr "Надіслати оцінку та перейти до наступного кроку"
+
+#: xblock/ui_mixins/legacy/views/peer.py:64
+#, python-brace-format
+msgid "Submit your assessment and move to response #{response_number}"
+msgstr "Надіслати оцінку та перейти до відповіді №{response_number}"
