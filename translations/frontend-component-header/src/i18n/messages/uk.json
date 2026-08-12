@@ -22,6 +22,8 @@
   "header.label.secondary.nav": "Середня",
   "header.label.skip.nav": "Перейти до головного змісту",
   "header.label.app.nav": "Додаток",
+  "header.menu.performance.label": "Продуктивність",
+  "header.menu.leaderboard.label": "Таблиця лідерів",
   "general.register.sentenceCase": "Зареєструватися",
   "general.signIn.sentenceCase": "Увійти",
   "header.menu.dashboard.label": "Мої курси",
