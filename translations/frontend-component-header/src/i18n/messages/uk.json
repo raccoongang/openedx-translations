@@ -1,4 +1,8 @@
 {
+  "header.links.about": "Про проєкт",
+  "header.links.guide": "Як користуватися",
+  "header.links.exploreCourses": "Курси",
+  "header.links.dashboard": "Мої курси",
   "header.links.courses": "Курси",
   "header.links.programs": "Програми",
   "header.links.content.search": "Відкривайте Нове",

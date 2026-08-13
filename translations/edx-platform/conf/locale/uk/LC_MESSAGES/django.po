@@ -3,32 +3,32 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  wiki.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  edx_proctoring_proctortrack.po (0.1a)  #-#-#-#-#
 # edX translation file
 # Copyright (C) 2025 edX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # #-#-#-#-#  mako.po (PROJECT VERSION)  #-#-#-#-#
 # Translations template for PROJECT.
 # Copyright (C) 2025 ORGANIZATION
 # This file is distributed under the same license as the PROJECT project.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
-# 
+#
 # Translators:
 # Anastasiia Bondarenko <anastasiia.bondarenko@raccoongang.com>, 2025
 # Iryna Zaporozhets, 2025
 # larysa.yefimova, 2025
 # edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>, 2025
 # Brian Smith, 2025
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -3319,6 +3319,7 @@ msgstr "Пакет Медіафайлів"
 msgid "Donate"
 msgstr "Пожертвувати"
 
+# RG override: header wording; community translation is "Про нас".
 #: lms/djangoapps/branding/api.py:286 lms/djangoapps/branding/api.py:362
 #: lms/templates/footer.html:18 lms/templates/footer.html:92
 #: lms/templates/static_templates/about.html:5
@@ -3330,7 +3331,7 @@ msgstr "Пожертвувати"
 #: themes/stanford-style/lms/templates/static_templates/about.html:41
 #: themes/stanford-style/lms/templates/static_templates/about.html:58
 msgid "About"
-msgstr "Про нас"
+msgstr "Про проєкт"
 
 #: lms/djangoapps/branding/api.py:289 lms/djangoapps/branding/api.py:365
 #, python-brace-format
@@ -20402,11 +20403,12 @@ msgstr "Починається: {date}"
 msgid "View all Courses"
 msgstr "Переглянути усі курси"
 
+# RG override: header wording; community translation is "Панель управління".
 #: lms/templates/dashboard.html:29 lms/templates/header/user_dropdown.html:42
 #: lms/templates/header/user_dropdown.html:44
 #: lms/templates/user_dropdown.html:30 lms/templates/user_dropdown.html:38
 msgid "Dashboard"
-msgstr "Панель управління"
+msgstr "Мої курси"
 
 #: lms/templates/dashboard.html:230
 msgid "results successfully populated,"
@@ -20420,12 +20422,13 @@ msgstr "Натисніть, щоб завантажити всі зареєст�
 msgid "You are not enrolled in any courses yet."
 msgstr "Ви ще не зареєструвались на жодному курсі"
 
+# RG override: header wording; community translation is "Обрати курси".
 #: lms/templates/dashboard.html:245
 #: lms/templates/header/navbar-not-authenticated.html:42
 #: lms/templates/navigation/bootstrap/navbar-authenticated.html:32
 #: lms/templates/navigation/navbar-authenticated.html:16
 msgid "Explore courses"
-msgstr "Обрати курси"
+msgstr "Курси"
 
 #: lms/templates/dashboard.html:249
 #: lms/templates/registration/account_activation_sidebar_notice.html:16
@@ -24721,10 +24724,11 @@ msgstr "Як це працює"
 msgid "Schools"
 msgstr "Навчальні заклади"
 
+# RG override: header wording; community translation is "Безкоштовна реєстрація".
 #: lms/templates/header/navbar-not-authenticated.html:53
 #: lms/templates/header/navbar-not-authenticated.html:57
 msgid "Register for free"
-msgstr "Безкоштовна реєстрація"
+msgstr "Зареєструватися"
 
 #: lms/templates/header/user_dropdown.html:47
 msgid "Profile"
