@@ -1,4 +1,8 @@
 {
+  "header.links.about": "About",
+  "header.links.guide": "Guide",
+  "header.links.exploreCourses": "Explore courses",
+  "header.links.dashboard": "Dashboard",
   "header.links.courses": "Courses",
   "header.links.programs": "Programs",
   "header.links.content.search": "Discover New",
