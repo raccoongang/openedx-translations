@@ -144,8 +144,8 @@ msgid "Please vote!"
 msgstr "Будь ласка, проголосуйте!"
 
 #: static/html/feedback_instructor.html:10
-msgid "Unit"
-msgstr "Блок"
+msgid "Component"
+msgstr "Компонент"
 
 #: static/html/feedback_instructor.html:13
 msgid "Number of ratings"
@@ -158,10 +158,6 @@ msgstr "Середня оцінка"
 #: static/html/feedback_instructor.html:19
 msgid "Feedback "
 msgstr "Зворотній зв&#39;язок "
-
-#: static/html/feedback_instructor.html:27
-msgid "See Unit"
-msgstr "Див. Одиниця"
 
 #: static/html/feedback_instructor.html:40
 msgid "Comment"
@@ -218,7 +214,7 @@ msgid "True"
 msgstr "Правильно"
 
 #: templates/html/studio_view.html:39
-msgid "Wheter to show the aggregate report to students."
+msgid "Whether to show the aggregate report to students."
 msgstr "Чи показувати зведений звіт студентам."
 
 #: templates/html/studio_view.html:44
@@ -246,8 +242,8 @@ msgid "Faces (happy to sad)"
 msgstr "Обличчя (від радісних до сумних)"
 
 #: templates/html/studio_view.html:63
-msgid "Faces (sad to happy to sad)"
-msgstr "Обличчя (від сумного до щасливого до сумного)"
+msgid "Faces (sad to happy)"
+msgstr "Обличчя (від сумного до щасливого)"
 
 #: templates/html/studio_view.html:64
 msgid "Numeric"
