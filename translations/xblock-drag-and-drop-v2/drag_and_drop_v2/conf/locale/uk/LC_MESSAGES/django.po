@@ -652,3 +652,173 @@ msgstr "Будь ласка, перевірте введені значення.
 #: public/js/drag_and_drop_edit.js:748
 msgid "Saving"
 msgstr "Збереження"
+
+#: default_data.py:5
+msgid ""
+"An isosceles triangle with three layers of similar height. It is shown "
+"upright, so the widest layer is located at the bottom, and the narrowest "
+"layer is located at the top."
+msgstr ""
+"Рівнобедрений трикутник із трьох шарів однакової висоти. Він показаний "
+"вершиною вгору, тож найширший шар розташований знизу, а найвужчий — зверху."
+
+#: default_data.py:25
+msgid "No, this item does not belong here. Try again."
+msgstr "Ні, цей елемент тут не підходить. Спробуйте ще раз."
+
+#: default_data.py:26
+msgid "You silly, there are no zones for this one."
+msgstr "Ой-ой, для цього елемента немає підходящих зон."
+
+#: default_data.py:27
+msgid "Of course it goes here! It goes anywhere!"
+msgstr "Звісно, він підходить сюди! Він підходить будь-куди!"
+
+#: default_data.py:29
+msgid "Goes to the top"
+msgstr "Підходить до верхнього шару"
+
+#: default_data.py:30
+msgid "Goes to the middle"
+msgstr "Підходить до середнього шару"
+
+#: default_data.py:31
+msgid "Goes to the bottom"
+msgstr "Підходить до нижнього шару"
+
+#: default_data.py:32
+msgid "Goes anywhere"
+msgstr "Підходить будь-куди"
+
+#: drag_and_drop_v2.py:86
+msgid "Drag and Drop"
+msgstr "Перетягування"
+
+#: drag_and_drop_v2.py:135
+msgid "Show \"Problem\" heading"
+msgstr "Показати заголовок «Завдання»"
+
+#: drag_and_drop_v2.py:136
+msgid "Display the heading \"Problem\" above the problem text?"
+msgstr "Відображати заголовок «Завдання» над текстом завдання?"
+
+#: drag_and_drop_v2.py:160
+msgid "Attempted"
+msgstr "Спроба виконана"
+
+#: drag_and_drop_v2.py:167
+msgid "Defines the number of points the problem is worth."
+msgstr "Визначає кількість балів за завдання."
+
+#: drag_and_drop_v2.py:175
+msgid ""
+"The background color of draggable items in the problem (example: 'blue' or "
+"'#0000ff')."
+msgstr ""
+"Колір фону елементів, які можна перетягувати, у завданні (приклад: «синій» "
+"або «#0000ff»)."
+
+#: drag_and_drop_v2.py:210
+msgid ""
+"Information about current positions of items that a learner has dropped on "
+"the target image."
+msgstr ""
+"Інформація про поточне розташування елементів, які учень розмістив на "
+"цільовому зображенні."
+
+#: drag_and_drop_v2.py:237
+msgid ""
+"Keeps maximum score achieved by student as a raw value between 0 and 1."
+msgstr ""
+"Зберігає максимальний бал, досягнутий учнем, як вихідне значення між 0 і 1."
+
+#: drag_and_drop_v2.py:244
+msgid "Maximum score available of the problem as a raw value between 0 and 1."
+msgstr ""
+"Максимальна доступна оцінка завдання як необроблене значення від 0 до 1."
+
+#: templates/html/drag_and_drop.html:4
+msgid "Loading drag and drop problem."
+msgstr "Триває завантаження завдання на перетягування."
+
+#: templates/html/drag_and_drop_edit.html:135
+msgid ""
+"For example, 'http://example.com/background.png' or "
+"'/static/background.png'."
+msgstr ""
+"Наприклад, «http://example.com/background.png» або «/static/background.png»."
+
+#: templates/html/drag_and_drop_edit.html:140
+msgid "Zone Layout"
+msgstr "Розташування зони"
+
+#: public/js/drag_and_drop.js:297
+msgid ", dropzone"
+msgstr ", зона для перетягування"
+
+#: public/js/drag_and_drop.js:300
+msgid "droppable"
+msgstr "можна скинути"
+
+#: public/js/drag_and_drop.js:360 public/js/drag_and_drop.js:595
+msgid "Keyboard Help"
+msgstr "Довідка з клавіатурного керування"
+
+#: public/js/drag_and_drop.js:363
+msgid "This is a screen reader-friendly problem."
+msgstr "Це завдання адаптоване для програм читання з екрана."
+
+#: public/js/drag_and_drop.js:364
+msgid ""
+"Drag and Drop problems consist of draggable items and dropzones. Users "
+"should select a draggable item with their keyboard and then navigate to an "
+"appropriate dropzone to drop it."
+msgstr ""
+"Завдання на перетягування складаються з елементів, які можна перетягувати, "
+"та зон для перетягування. Користувач має вибрати елемент за допомогою "
+"клавіатури, а потім перейти до відповідної зони, щоб розмістити його там."
+
+#: public/js/drag_and_drop.js:369
+msgid ""
+"Navigate using TAB and SHIFT+TAB to the appropriate dropzone and press "
+"CTRL+M once more to drop it here."
+msgstr ""
+"За допомогою TAB і SHIFT+TAB перейдіть до відповідної зони для перетягування"
+" та натисніть CTRL+M ще раз, щоб розмістити елемент тут."
+
+#: public/js/drag_and_drop.js:370
+msgid ""
+"Press ESC if you want to cancel the drop operation (for example, to select a"
+" different item)."
+msgstr ""
+"Натисніть ESC, щоб скасувати переміщення (наприклад, щоб вибрати інший "
+"елемент)."
+
+#: public/js/drag_and_drop.js:371
+msgid ""
+"TAB back to the list of draggable items and repeat this process until all of"
+" the draggable items have been placed on their respective dropzones."
+msgstr ""
+"За допомогою TAB поверніться до списку елементів, які можна перетягувати, і "
+"повторюйте ці дії, доки всі елементи не будуть розміщені у відповідних "
+"зонах."
+
+#: public/js/drag_and_drop.js:660
+msgid "Drag and Drop Problem"
+msgstr "Завдання на перетягування"
+
+#: public/js/drag_and_drop.js:732
+msgid "Drop Targets"
+msgstr "Цілі для перетягування"
+
+#: public/js/drag_and_drop.js:898
+msgid "An error occurred. Unable to load drag and drop problem."
+msgstr "Сталася помилка. Не вдалося завантажити завдання на перетягування."
+
+#: public/js/drag_and_drop.js:1387
+msgid "You cannot add any more items to this zone."
+msgstr "Ви не можете додати більше елементів до цієї зони."
+
+#: public/js/drag_and_drop_edit.js:124
+msgid "Please check over your submission."
+msgstr "Будь ласка, перевірте свою відповідь."
