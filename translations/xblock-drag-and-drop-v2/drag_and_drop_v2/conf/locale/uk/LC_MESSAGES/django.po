@@ -2,10 +2,10 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # Translators:
 # Brian Smith, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -103,7 +103,7 @@ msgstr "Стандартний"
 
 #: drag_and_drop_v2.py:101
 msgid "Assessment"
-msgstr "Завдання"
+msgstr "Оцінювання"
 
 #: drag_and_drop_v2.py:108
 msgid "Maximum attempts"
