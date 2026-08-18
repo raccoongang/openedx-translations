@@ -1,0 +1,470 @@
+# edX translation file.
+# Copyright (C) 2026 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2021-11-09 12:04+0000\n"
+"PO-Revision-Date: 2026-08-18 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Ukrainian (https://app.transifex.com/open-edx/teams/6205/uk/)\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: poll/poll.py:232
+msgid "Whether or not to display results to the user."
+msgstr "Чи показувати результати учневі."
+
+#: poll/poll.py:233
+msgid "The maximum number of times a user may send a submission."
+msgstr ""
+"Максимальна кількість разів, коли користувач може надіслати відповідь."
+
+#: poll/poll.py:235
+msgid "Number of times the user has sent a submission."
+msgstr "Кількість разів, коли користувач надіслав відповідь."
+
+#: poll/poll.py:237
+msgid "Text to display after the user votes."
+msgstr "Текст, який показується після голосування користувача."
+
+#. Translators: {field} is either "answers" or "questions".
+#: poll/poll.py:298
+#, python-brace-format
+msgid "'{field}' is not present, or not a JSON array."
+msgstr "«{field}» відсутнє або не є масивом JSON."
+
+#. Translators: {noun} is either "Answer" or "Question". {item} identifies the
+#. answer or question.
+#: poll/poll.py:310
+#, python-brace-format
+msgid "{noun} {item} not a javascript object!"
+msgstr "{noun} {item} не є об'єктом JavaScript!"
+
+#. Translators: {noun} is either "Answer" or "Question". {item} identifies the
+#. answer or question.
+#: poll/poll.py:319
+#, python-brace-format
+msgid "{noun} {item} contains no key."
+msgstr "{noun} {item} не містить ключа."
+
+#. Translators: {noun} is either "Answer" or "Question".
+#. {noun_lower} is the lowercase version of {noun}.
+#: poll/poll.py:331
+#, python-brace-format
+msgid ""
+"{noun} has no text or img. Please make sure all {noun_lower}s have one or "
+"the other, or both."
+msgstr ""
+"{noun} не має тексту або зображення. Переконайтеся, що всі {noun_lower} "
+"мають щось одне з цього або обидва варіанти."
+
+#. Translators: {noun} is either "Answer" or "Question".
+#. {noun_lower} is the lowercase version of {noun}.
+#: poll/poll.py:342
+#, python-brace-format
+msgid ""
+"{noun} was added with no label. All {noun_lower}s must have labels. Please "
+"check the form. Check the form and explicitly delete {noun_lower}s if not "
+"needed."
+msgstr ""
+"{noun} додано без мітки. Усі {noun_lower} повинні мати мітки. Перевірте "
+"форму та за потреби явно видаліть {noun_lower}, якщо вони не потрібні."
+
+#: poll/poll.py:350
+msgid ""
+"All images must have an alternative text describing the image in a way that "
+"would allow someone to answer the poll if the image did not load."
+msgstr ""
+"Усі зображення повинні мати альтернативний текст, що описує зображення так, "
+"щоб дати змогу відповісти на опитування, навіть якщо зображення не "
+"завантажилося."
+
+#. Translators: "{noun_lower} is either "answer" or "question".
+#: poll/poll.py:362
+#, python-brace-format
+msgid "You must include at least one {noun_lower}."
+msgstr "Потрібно додати принаймні один(у) {noun_lower}."
+
+#: poll/poll.py:410
+msgid "Maximum Submissions missing or not an integer."
+msgstr "Максимальна кількість надсилань відсутня або не є цілим числом."
+
+#: poll/poll.py:415
+msgid "Private results may not be False when Maximum Submissions is not 1."
+msgstr ""
+"Приховані результати не можуть мати значення «Ні», якщо максимальна "
+"кількість надсилань не дорівнює 1."
+
+#: poll/poll.py:452 poll/poll.py:887
+msgid "Poll"
+msgstr "Опитування"
+
+#: poll/poll.py:453
+msgid "What is your favorite color?"
+msgstr "Який ваш улюблений колір?"
+
+#: poll/poll.py:458
+msgid "Red"
+msgstr "Червоний"
+
+#: poll/poll.py:459
+msgid "Blue"
+msgstr "Синій"
+
+#: poll/poll.py:460
+msgid "Green"
+msgstr "Зелений"
+
+#: poll/poll.py:461
+msgid "Other"
+msgstr "Інше"
+
+#: poll/poll.py:463
+msgid "The answer options on this poll."
+msgstr "Варіанти відповідей для цього опитування."
+
+#: poll/poll.py:467 poll/poll.py:913
+msgid "Total tally of answers from students."
+msgstr "Загальна кількість відповідей від учнів."
+
+#: poll/poll.py:468
+msgid "The student's answer"
+msgstr "Відповідь учня"
+
+#: poll/poll.py:683 poll/poll.py:1200
+msgid "You have already voted in this poll."
+msgstr "Ви вже проголосували в цьому опитуванні."
+
+#: poll/poll.py:688
+msgid "Answer not included with request."
+msgstr "У запиті не вказано відповідь."
+
+#. Translators: {choice} uniquely identifies a specific answer belonging to a
+#. poll or survey.
+#: poll/poll.py:697
+#, python-brace-format
+msgid "No key \"{choice}\" in answers table."
+msgstr "У таблиці відповідей немає ключа «{choice}»."
+
+#: poll/poll.py:706 poll/poll.py:1208
+msgid "You have already voted as many times as you are allowed."
+msgstr "Ви вже проголосували стільки разів, скільки дозволено."
+
+#: poll/poll.py:736
+msgid "You must specify a question."
+msgstr "Потрібно вказати запитання."
+
+#: poll/poll.py:739 poll/poll.py:836 poll/poll.py:1262 poll/poll.py:1390
+msgid "Answer"
+msgstr "Відповідь"
+
+#: poll/poll.py:835 poll/poll.py:1263 poll/poll.py:1389
+msgid "Question"
+msgstr "Запитання"
+
+#: poll/poll.py:838 poll/poll.py:1391
+msgid "Submissions count"
+msgstr "Кількість надсилань"
+
+#: poll/poll.py:884
+msgid "Survey"
+msgstr "Опитувальник"
+
+#: poll/poll.py:890
+msgid "Yes"
+msgstr "Так"
+
+#: poll/poll.py:891
+msgid "No"
+msgstr "Ні"
+
+#: poll/poll.py:892
+msgid "Maybe"
+msgstr "Можливо"
+
+#: poll/poll.py:894
+msgid "Answer choices for this Survey"
+msgstr "Варіанти відповідей для цього опитувальника"
+
+#: poll/poll.py:898
+msgid "Are you enjoying the course?"
+msgstr "Чи подобається вам курс?"
+
+#: poll/poll.py:900
+msgid "Would you recommend this course to your friends?"
+msgstr "Чи порекомендували б ви цей курс друзям?"
+
+#: poll/poll.py:904
+msgid "Do you think you will learn a lot?"
+msgstr "Чи вважаєте ви, що дізнаєтесь багато нового?"
+
+#: poll/poll.py:906
+msgid "Questions for this Survey"
+msgstr "Запитання для цього опитувальника"
+
+#: poll/poll.py:915
+msgid "The user's answers"
+msgstr "Відповіді користувача"
+
+#: poll/poll.py:1216
+msgid ""
+"Not all questions were included, or unknown questions were included. Try "
+"refreshing and trying again."
+msgstr ""
+"Не всі запитання були включені, або було включено невідомі запитання. "
+"Спробуйте оновити сторінку і повторити спробу."
+
+#. Translators: {answer_key} uniquely identifies a specific answer belonging
+#. to a poll or survey.
+#. {question_key} uniquely identifies a specific question belonging to a poll
+#. or survey.
+#: poll/poll.py:1229
+#, python-brace-format
+msgid "Found unknown answer '{answer_key}' for question key '{question_key}'"
+msgstr ""
+"Знайдено невідому відповідь «{answer_key}» для ключа запитання "
+"«{question_key}»"
+
+#: poll/public/html/poll.html:35 poll/public/html/survey.html:53
+msgid "Submit"
+msgstr "Надіслати"
+
+#: poll/public/html/poll.html:40 poll/public/html/survey.html:55
+msgid "Thank you."
+msgstr "Дякуємо."
+
+#: poll/public/html/poll.html:44
+#, python-format
+msgid ""
+"\n"
+"        You have used %(submissions_count_s)s out of %(max_submissions_s)s submissions.\n"
+"      "
+msgstr ""
+"\n"
+"        Ви використали %(submissions_count_s)s із %(max_submissions_s)s можливих надсилань.\n"
+"      "
+
+#: poll/public/html/poll.html:52 poll/public/html/poll_edit.html:27
+#: poll/public/html/survey.html:64
+msgid "Feedback"
+msgstr "Відгук"
+
+#: poll/public/html/poll.html:64 poll/public/html/survey.html:73
+msgid "View results"
+msgstr "Переглянути результати"
+
+#: poll/public/html/poll.html:71 poll/public/html/survey.html:81
+msgid "Export results to CSV"
+msgstr "Експортувати результати в CSV"
+
+#: poll/public/html/poll.html:72 poll/public/html/survey.html:82
+msgid "Download CSV"
+msgstr "Завантажити CSV"
+
+#: poll/public/html/poll.html:76 poll/public/html/survey.html:86
+msgid "Student data and results CSV available for download in the LMS."
+msgstr ""
+"CSV-файл із даними та результатами учнів доступний для завантаження в LMS."
+
+#: poll/public/html/poll_edit.html:8
+msgid "Display Name"
+msgstr "Назва"
+
+#: poll/public/html/poll_edit.html:15
+msgid "Question/Prompt"
+msgstr "Запитання/Підказка"
+
+#: poll/public/html/poll_edit.html:16
+#, python-format
+msgid ""
+"\n"
+"                    %(link_start)sMarkdown Syntax%(link_end)s is supported.\n"
+"                "
+msgstr ""
+"\n"
+"                    Підтримується %(link_start)sсинтаксис Markdown%(link_end)s.\n"
+"                "
+
+#: poll/public/html/poll_edit.html:23
+msgid "Enter the prompt for the user."
+msgstr "Введіть підказку для користувача."
+
+#: poll/public/html/poll_edit.html:28
+#, python-format
+msgid ""
+"\n"
+"                %(link_start)sMarkdown Syntax%(link_end)s is supported.\n"
+"            "
+msgstr ""
+"\n"
+"                Підтримується %(link_start)sсинтаксис Markdown%(link_end)s.\n"
+"            "
+
+#: poll/public/html/poll_edit.html:36
+msgid ""
+"\n"
+"                    This text will be displayed for the user as some extra feedback after they have\n"
+"                    submitted their response to the poll.\n"
+"                "
+msgstr ""
+"\n"
+"                    Цей текст буде показано користувачу як додатковий відгук після того, як він\n"
+"                    надішле свою відповідь на опитування.\n"
+"                "
+
+#: poll/public/html/poll_edit.html:44
+msgid "Private Results"
+msgstr "Приховані результати"
+
+#: poll/public/html/poll_edit.html:48
+msgid "True"
+msgstr "Так"
+
+#: poll/public/html/poll_edit.html:49
+msgid "False"
+msgstr "Ні"
+
+#: poll/public/html/poll_edit.html:53
+msgid "If this is set to True, don't display results of the poll to the user."
+msgstr ""
+"Якщо встановлено «Так», результати опитування не показуватимуться "
+"користувачу."
+
+#: poll/public/html/poll_edit.html:58
+msgid "Maximum Submissions"
+msgstr "Максимальна кількість надсилань"
+
+#: poll/public/html/poll_edit.html:63
+#, python-format
+msgid ""
+"\n"
+"                    Maximum number of times a user may submit a poll. %(bold_start)sSetting this to a value other than 1 will imply that\n"
+"                    'Private Results' should be true.%(bold_end)s Setting it to 0 will allow infinite resubmissions.\n"
+"                "
+msgstr ""
+"\n"
+"                    Максимальна кількість разів, коли користувач може надіслати відповідь на опитування. %(bold_start)sЯкщо встановити значення, відмінне від 1, це означатиме, що\n"
+"                    параметр «Приховані результати» має бути увімкнено.%(bold_end)s Значення 0 дозволить необмежену кількість повторних надсилань.\n"
+"                "
+
+#: poll/public/html/poll_edit.html:71
+msgid "Notes:"
+msgstr "Примітки:"
+
+#: poll/public/html/poll_edit.html:72
+msgid ""
+"\n"
+"                    If you change an answer's text, all students who voted for that choice will have their votes updated to\n"
+"                    the new text. You'll want to avoid changing an answer from something like 'True' to 'False', accordingly.\n"
+"                    If you delete an answer, any votes for that answer will also be deleted. Students whose choices are deleted\n"
+"                    may vote again, but will not lose course progress.\n"
+"                "
+msgstr ""
+"\n"
+"                    Якщо ви змінюєте текст відповіді, у всіх учнів, які проголосували за цей варіант, голос буде оновлено на\n"
+"                    новий текст. Тому уникайте зміни відповіді, наприклад, з «Так» на «Ні».\n"
+"                    Якщо ви видалите відповідь, усі голоси за неї також будуть видалені. Учні, чиї варіанти видалено,\n"
+"                    зможуть проголосувати знову, але не втратять прогрес курсу.\n"
+"                "
+
+#: poll/public/html/poll_edit.html:81
+msgid ""
+"\n"
+"                        Questions must be similarly cared for. If a question's text is changed, any votes for that question will remain.\n"
+"                        If a question is deleted, any student who previously took the survey will be permitted to retake it, but will not\n"
+"                        lose course progress.\n"
+"                    "
+msgstr ""
+"\n"
+"                        Із запитаннями слід поводитися так само уважно. Якщо текст запитання змінено, усі голоси за нього залишаться.\n"
+"                        Якщо запитання видалено, будь-який учень, який раніше проходив опитувальник, зможе пройти його повторно, але не\n"
+"                        втратить прогрес курсу.\n"
+"                    "
+
+#: poll/public/html/poll_edit.html:97
+msgid "Add Answer"
+msgstr "Додати відповідь"
+
+#: poll/public/html/poll_edit.html:101
+msgid "Add Question"
+msgstr "Додати запитання"
+
+#: poll/public/html/poll_edit.html:105
+msgid "Save"
+msgstr "Зберегти"
+
+#: poll/public/html/poll_edit.html:108
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: poll/public/html/survey.html:57
+#, python-format
+msgid ""
+"\n"
+"                You have used %(submissions_count_s)s out of %(max_submissions_s)s submissions.\n"
+"            "
+msgstr ""
+"\n"
+"                Ви використали %(submissions_count_s)s із %(max_submissions_s)s можливих надсилань.\n"
+"            "
+
+#: poll/public/handlebars/poll_results.handlebars:5
+#: poll/public/handlebars/survey_results.handlebars:4
+msgid "Results"
+msgstr "Результати"
+
+#: poll/public/handlebars/poll_results.handlebars:32
+#: poll/public/handlebars/survey_results.handlebars:40
+msgid "Results gathered from {total} respondent."
+msgid_plural "Results gathered from {total} respondents."
+msgstr[0] "Результати зібрано від {total} респондента."
+msgstr[1] "Результати зібрано від {total} респондентів."
+msgstr[2] "Результати зібрано від {total} респондентів."
+msgstr[3] "Результати зібрано від {total} респондентів."
+
+#: poll/public/handlebars/poll_studio.handlebars:6
+msgid "move poll up"
+msgstr "перемістити опитування вгору"
+
+#: poll/public/handlebars/poll_studio.handlebars:7
+msgid "move poll down"
+msgstr "перемістити опитування вниз"
+
+#: poll/public/handlebars/poll_studio.handlebars:9
+msgid "Delete"
+msgstr "Видалити"
+
+#: poll/public/handlebars/poll_studio.handlebars:16
+msgid "Image URL"
+msgstr "URL зображення"
+
+#: poll/public/handlebars/poll_studio.handlebars:18
+msgid "Image alternative text"
+msgstr "Альтернативний текст зображення"
+
+#: poll/public/handlebars/poll_studio.handlebars:23
+msgid ""
+"You can make limited use of Markdown in answer texts, preferably only bold "
+"and italics."
+msgstr ""
+"У текстах відповідей можна обмежено використовувати Markdown, бажано лише "
+"жирний та курсивний текст."
+
+#: poll/public/handlebars/poll_studio.handlebars:27
+msgid ""
+"This must have an image URL or text, and can have both.  If you add an "
+"image, you must also provide an alternative text that describes the image in"
+" a way that would allow someone to answer the poll if the image did not "
+"load."
+msgstr ""
+"Тут має бути URL зображення або текст, або і те, і інше. Якщо ви додаєте "
+"зображення, також потрібно вказати альтернативний текст, що описує "
+"зображення так, щоб можна було відповісти на опитування, навіть якщо "
+"зображення не завантажилося."
