@@ -161,7 +161,7 @@ msgstr "Надано відповідь"
 
 #: drag_and_drop_v2.py:152
 msgid "Attempted or Past Due"
-msgstr "Використаний або прострочений термін"
+msgstr "Здійснено спробу або сплив термін"
 
 #: drag_and_drop_v2.py:153
 msgid "Closed"
@@ -173,11 +173,11 @@ msgstr "Закінчено"
 
 #: drag_and_drop_v2.py:155
 msgid "Correct or Past Due"
-msgstr "Правильно або минув термін"
+msgstr "Правильно або сплив термін"
 
 #: drag_and_drop_v2.py:156
 msgid "Past Due"
-msgstr "Пройшов термін здачі"
+msgstr "Сплив термін"
 
 #: drag_and_drop_v2.py:157
 msgid "Never"
