@@ -149,7 +149,7 @@ msgstr ""
 
 #: drag_and_drop_v2.py:149
 msgid "Default"
-msgstr "Основний"
+msgstr "За замовчуванням"
 
 #: drag_and_drop_v2.py:150
 msgid "Always"
