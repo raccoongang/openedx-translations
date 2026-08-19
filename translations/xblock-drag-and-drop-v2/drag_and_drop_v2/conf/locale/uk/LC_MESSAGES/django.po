@@ -197,7 +197,7 @@ msgstr "Вага завдання"
 
 #: drag_and_drop_v2.py:174
 msgid "Item background color"
-msgstr "Колір фону предмета"
+msgstr "Колір фону елемента"
 
 #: drag_and_drop_v2.py:182
 msgid "Item text color"
@@ -206,8 +206,8 @@ msgstr "Колір тексту елемента"
 #: drag_and_drop_v2.py:183
 msgid "Text color to use for draggable items (example: 'white' or '#ffffff')."
 msgstr ""
-"Колір тексту для елементів, які можна перетягувати (приклад: «білий» або "
-"«#ffffff»)."
+"Колір тексту для елементів, які можна перетягувати (приклад: white або "
+"#ffffff)."
 
 #: drag_and_drop_v2.py:190
 msgid "Maximum items per zone"
@@ -715,8 +715,8 @@ msgid ""
 "The background color of draggable items in the problem (example: 'blue' or "
 "'#0000ff')."
 msgstr ""
-"Колір фону елементів, які можна перетягувати, у завданні (приклад: «синій» "
-"або «#0000ff»)."
+"Колір фону елементів, які можна перетягувати, у завданні (приклад: blue "
+"або #0000ff)."
 
 #: drag_and_drop_v2.py:210
 msgid ""
