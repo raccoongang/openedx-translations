@@ -2,10 +2,10 @@
 # Copyright (C) 2025 EdX
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # EdX Team <info@edx.org>, 2025.
-# 
+#
 # Translators:
 # Brian Smith, 2025
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
@@ -103,7 +103,7 @@ msgstr "Стандартний"
 
 #: drag_and_drop_v2.py:101
 msgid "Assessment"
-msgstr "Завдання"
+msgstr "Оцінювання"
 
 #: drag_and_drop_v2.py:108
 msgid "Maximum attempts"
@@ -149,7 +149,7 @@ msgstr ""
 
 #: drag_and_drop_v2.py:149
 msgid "Default"
-msgstr "Основний"
+msgstr "За замовчуванням"
 
 #: drag_and_drop_v2.py:150
 msgid "Always"
@@ -161,7 +161,7 @@ msgstr "Надано відповідь"
 
 #: drag_and_drop_v2.py:152
 msgid "Attempted or Past Due"
-msgstr "Використаний або прострочений термін"
+msgstr "Здійснено спробу або сплив термін"
 
 #: drag_and_drop_v2.py:153
 msgid "Closed"
@@ -173,11 +173,11 @@ msgstr "Закінчено"
 
 #: drag_and_drop_v2.py:155
 msgid "Correct or Past Due"
-msgstr "Правильно або минув термін"
+msgstr "Правильно або сплив термін"
 
 #: drag_and_drop_v2.py:156
 msgid "Past Due"
-msgstr "Пройшов термін здачі"
+msgstr "Сплив термін"
 
 #: drag_and_drop_v2.py:157
 msgid "Never"
@@ -197,7 +197,7 @@ msgstr "Вага завдання"
 
 #: drag_and_drop_v2.py:174
 msgid "Item background color"
-msgstr "Колір фону предмета"
+msgstr "Колір фону елемента"
 
 #: drag_and_drop_v2.py:182
 msgid "Item text color"
@@ -206,8 +206,8 @@ msgstr "Колір тексту елемента"
 #: drag_and_drop_v2.py:183
 msgid "Text color to use for draggable items (example: 'white' or '#ffffff')."
 msgstr ""
-"Колір тексту для елементів, які можна перетягувати (приклад: «білий» або "
-"«#ffffff»)."
+"Колір тексту для елементів, які можна перетягувати (приклад: white або "
+"#ffffff)."
 
 #: drag_and_drop_v2.py:190
 msgid "Maximum items per zone"
@@ -562,7 +562,7 @@ msgstr "Перейти на початок"
 
 #: public/js/drag_and_drop.js:472
 msgid "Reset"
-msgstr "Зкинути"
+msgstr "Скинути"
 
 #: public/js/drag_and_drop.js:506 public/js/drag_and_drop.js:1243
 msgid "Some of your answers were not correct."
@@ -652,3 +652,261 @@ msgstr "Будь ласка, перевірте введені значення.
 #: public/js/drag_and_drop_edit.js:748
 msgid "Saving"
 msgstr "Збереження"
+
+#: default_data.py:5
+msgid ""
+"An isosceles triangle with three layers of similar height. It is shown "
+"upright, so the widest layer is located at the bottom, and the narrowest "
+"layer is located at the top."
+msgstr ""
+"Рівнобедрений трикутник із трьох шарів однакової висоти. Він показаний "
+"вершиною вгору, тож найширший шар розташований знизу, а найвужчий — зверху."
+
+#: default_data.py:25
+msgid "No, this item does not belong here. Try again."
+msgstr "Ні, цей елемент тут не підходить. Спробуйте ще раз."
+
+#: default_data.py:26
+msgid "You silly, there are no zones for this one."
+msgstr "Ой-ой, для цього елемента немає підходящих зон."
+
+#: default_data.py:27
+msgid "Of course it goes here! It goes anywhere!"
+msgstr "Звісно, він підходить сюди! Він підходить будь-куди!"
+
+#: default_data.py:29
+msgid "Goes to the top"
+msgstr "Підходить до верхнього шару"
+
+#: default_data.py:30
+msgid "Goes to the middle"
+msgstr "Підходить до середнього шару"
+
+#: default_data.py:31
+msgid "Goes to the bottom"
+msgstr "Підходить до нижнього шару"
+
+#: default_data.py:32
+msgid "Goes anywhere"
+msgstr "Підходить будь-куди"
+
+#: drag_and_drop_v2.py:86
+msgid "Drag and Drop"
+msgstr "Перетягування"
+
+#: drag_and_drop_v2.py:135
+msgid "Show \"Problem\" heading"
+msgstr "Показати заголовок «Завдання»"
+
+#: drag_and_drop_v2.py:136
+msgid "Display the heading \"Problem\" above the problem text?"
+msgstr "Відображати заголовок «Завдання» над текстом завдання?"
+
+#: drag_and_drop_v2.py:160
+msgid "Attempted"
+msgstr "Спроба виконана"
+
+#: drag_and_drop_v2.py:167
+msgid "Defines the number of points the problem is worth."
+msgstr "Визначає кількість балів за завдання."
+
+#: drag_and_drop_v2.py:175
+msgid ""
+"The background color of draggable items in the problem (example: 'blue' or "
+"'#0000ff')."
+msgstr ""
+"Колір фону елементів, які можна перетягувати, у завданні (приклад: blue "
+"або #0000ff)."
+
+#: drag_and_drop_v2.py:210
+msgid ""
+"Information about current positions of items that a learner has dropped on "
+"the target image."
+msgstr ""
+"Інформація про поточне розташування елементів, які учень розмістив на "
+"цільовому зображенні."
+
+#: drag_and_drop_v2.py:237
+msgid ""
+"Keeps maximum score achieved by student as a raw value between 0 and 1."
+msgstr ""
+"Зберігає максимальний бал, досягнутий учнем, як вихідне значення між 0 і 1."
+
+#: drag_and_drop_v2.py:244
+msgid "Maximum score available of the problem as a raw value between 0 and 1."
+msgstr ""
+"Максимальна доступна оцінка завдання як необроблене значення від 0 до 1."
+
+#: templates/html/drag_and_drop.html:4
+msgid "Loading drag and drop problem."
+msgstr "Триває завантаження завдання на перетягування."
+
+#: templates/html/drag_and_drop_edit.html:135
+msgid ""
+"For example, 'http://example.com/background.png' or "
+"'/static/background.png'."
+msgstr ""
+"Наприклад, «http://example.com/background.png» або «/static/background.png»."
+
+#: templates/html/drag_and_drop_edit.html:140
+msgid "Zone Layout"
+msgstr "Розташування зони"
+
+#: public/js/drag_and_drop.js:297
+msgid ", dropzone"
+msgstr ", зона для перетягування"
+
+#: public/js/drag_and_drop.js:300
+msgid "droppable"
+msgstr "можна скинути"
+
+#: public/js/drag_and_drop.js:360 public/js/drag_and_drop.js:595
+msgid "Keyboard Help"
+msgstr "Довідка з клавіатурного керування"
+
+#: public/js/drag_and_drop.js:363
+msgid "This is a screen reader-friendly problem."
+msgstr "Це завдання адаптоване для програм читання з екрана."
+
+#: public/js/drag_and_drop.js:364
+msgid ""
+"Drag and Drop problems consist of draggable items and dropzones. Users "
+"should select a draggable item with their keyboard and then navigate to an "
+"appropriate dropzone to drop it."
+msgstr ""
+"Завдання на перетягування складаються з елементів, які можна перетягувати, "
+"та зон для перетягування. Користувач має вибрати елемент за допомогою "
+"клавіатури, а потім перейти до відповідної зони, щоб розмістити його там."
+
+#: public/js/drag_and_drop.js:369
+msgid ""
+"Navigate using TAB and SHIFT+TAB to the appropriate dropzone and press "
+"CTRL+M once more to drop it here."
+msgstr ""
+"За допомогою TAB і SHIFT+TAB перейдіть до відповідної зони для перетягування"
+" та натисніть CTRL+M ще раз, щоб розмістити елемент тут."
+
+#: public/js/drag_and_drop.js:370
+msgid ""
+"Press ESC if you want to cancel the drop operation (for example, to select a"
+" different item)."
+msgstr ""
+"Натисніть ESC, щоб скасувати переміщення (наприклад, щоб вибрати інший "
+"елемент)."
+
+#: public/js/drag_and_drop.js:371
+msgid ""
+"TAB back to the list of draggable items and repeat this process until all of"
+" the draggable items have been placed on their respective dropzones."
+msgstr ""
+"За допомогою TAB поверніться до списку елементів, які можна перетягувати, і "
+"повторюйте ці дії, доки всі елементи не будуть розміщені у відповідних "
+"зонах."
+
+#: public/js/drag_and_drop.js:660
+msgid "Drag and Drop Problem"
+msgstr "Завдання на перетягування"
+
+#: public/js/drag_and_drop.js:732
+msgid "Drop Targets"
+msgstr "Цілі для перетягування"
+
+#: public/js/drag_and_drop.js:898
+msgid "An error occurred. Unable to load drag and drop problem."
+msgstr "Сталася помилка. Не вдалося завантажити завдання на перетягування."
+
+#: public/js/drag_and_drop.js:1387
+msgid "You cannot add any more items to this zone."
+msgstr "Ви не можете додати більше елементів до цієї зони."
+
+#: public/js/drag_and_drop_edit.js:124
+msgid "Please check over your submission."
+msgstr "Будь ласка, перевірте свою відповідь."
+
+#: templates/html/js_templates.html:14
+msgid "Remove zone"
+msgstr "Видалити зону"
+
+#: templates/html/js_templates.html:25
+msgid "Description"
+msgstr "Опис"
+
+#: templates/html/js_templates.html:32
+msgid "Describe this zone to non-visual users."
+msgstr "Опишіть цю зону для користувачів, які не бачать зображення."
+
+#: templates/html/js_templates.html:37
+msgid "width"
+msgstr "ширина"
+
+#: templates/html/js_templates.html:43
+msgid "height"
+msgstr "висота"
+
+#: templates/html/js_templates.html:64
+msgid "Alignment"
+msgstr "Вирівнювання"
+
+#: templates/html/js_templates.html:69
+msgid "left"
+msgstr "ліворуч"
+
+#: templates/html/js_templates.html:73
+msgid "center"
+msgstr "по центру"
+
+#: templates/html/js_templates.html:77
+msgid "right"
+msgstr "праворуч"
+
+#: templates/html/js_templates.html:82
+msgid "Align dropped items to the left, center, or right."
+msgstr "Вирівняти перетягнуті елементи ліворуч, по центру або праворуч."
+
+#: templates/html/js_templates.html:102
+msgid "Remove item"
+msgstr "Видалити елемент"
+
+#: templates/html/js_templates.html:107
+msgid "Text"
+msgstr "Текст"
+
+#: templates/html/js_templates.html:114
+msgid "Use text that is clear and descriptive of the item to be placed."
+msgstr "Використовуйте текст, який чітко й описово характеризує предмет, який потрібно розмістити."
+
+#: templates/html/js_templates.html:127
+msgid "Image URL (alternative to the text)"
+msgstr "URL зображення (альтернатива тексту)"
+
+#: templates/html/js_templates.html:134
+msgid "For example, 'http://example.com/image.png' or '/static/image.png'."
+msgstr "Наприклад, 'http://example.com/image.png' або '/static/image.png'."
+
+#: templates/html/js_templates.html:139
+msgid "Image description (should provide sufficient information to place the item even if the image did not load)"
+msgstr "Опис зображення (повинен містити достатньо інформації, щоб розмістити предмет, навіть якщо зображення не завантажилося)"
+
+#: templates/html/js_templates.html:148
+msgid "Remove padding when dropped on a zone (applies only to images)."
+msgstr "Прибрати відступи після розміщення в зоні (стосується лише зображень)."
+
+#: templates/html/js_templates.html:153
+msgid "Success feedback"
+msgstr "Відгук про успіх"
+
+#: templates/html/js_templates.html:159
+msgid "Error feedback"
+msgstr "Відгук про помилку"
+
+#: templates/html/js_templates.html:164
+msgid "Show advanced settings"
+msgstr "Показати розширені налаштування"
+
+#: templates/html/js_templates.html:168
+msgid "Preferred width"
+msgstr "Бажана ширина"
+
+#: templates/html/js_templates.html:178
+msgid "Specify preferred width as percentage of the background image width. Leave blank for automatic width."
+msgstr "Вкажіть бажану ширину у відсотках від ширини фонового зображення. Залиште порожнім для автоматичної ширини."
