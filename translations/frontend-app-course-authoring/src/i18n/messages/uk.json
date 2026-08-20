@@ -1744,5 +1744,19 @@
   "problemEditor.settings.tolerance.type.percent": "Відсоток",
   "problemEditor.settings.tolerance.type.number": "Номер",
   "problemEditor.settings.tolerance.type.none": "Немає",
-  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна або в URL-адресі є помилка. Перевірте URL-адресу та повторіть спробу."
+  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна або в URL-адресі є помилка. Перевірте URL-адресу та повторіть спробу.",
+  "course-authoring.studio-home.courses.tab.title.vso": "Курси від ВШО",
+  "course-authoring.studio-home.courses.tab.title.my": "Мої курси",
+  "course-authoring.studio-home.course-create-limit.available": "{count, plural, one {Доступний <b>{count} курс</b> для копіювання/створення.} few {Доступно <b>{count} курси</b> для копіювання/створення.} many {Доступно <b>{count} курсів</b> для копіювання/створення.} other {Доступно <b>{count} курсів</b> для копіювання/створення.}}",
+  "course-authoring.studio-home.course-create-limit.increase-button": "Як збільшити ліміт?",
+  "course-authoring.studio-home.course-create-limit.modal.title": "Збільшення ліміту",
+  "course-authoring.studio-home.course-create-limit.modal.meaning.title": "Що це означає?",
+  "course-authoring.studio-home.course-create-limit.modal.meaning.text": "З метою забезпечити належний рівень безпеки платформи {platformName} та запобігти хакерським атакам було введено обмеження на кількість курсів, які можна створювати або копіювати одним користувачем.",
+  "course-authoring.studio-home.course-create-limit.modal.how-to.title": "Як отримати додаткові курси для створення/копіювання?",
+  "course-authoring.studio-home.course-create-limit.modal.how-to.text": "Вам необхідно написати листа в підтримку на пошту {supportEmail} використовуючи електронну пошту з якої ви зареєстровані в системі {platformName}, вказавши в листі ваше ПІБ та кількість додаткових курсів для копіювання/створення, які ви бажаєте додати до вашого акаунту.",
+  "course-authoring.studio-home.course-create-limit.modal.template.text": "Ви також можете скористатись шаблоном запиту за наступним посиланням:",
+  "course-authoring.studio-home.course-create-limit.modal.send-request": "Надіслати запит",
+  "course-authoring.studio-home.course-create-limit.modal.confirm": "Зрозуміло",
+  "course-authoring.studio-home.course-create-limit.email.subject": "Запит на додаткові курси для копіювання/створення",
+  "course-authoring.studio-home.course-create-limit.email.body": "Вітаю!\nМене звати [Вкажіть ваше ПІБ].\nМій ліміт на кількість курсів для копіювання/створення було вичерпано. Прошу вас розширити ліміт на додаткові [вказати кількість] курсів для копіювання/створення."
 }
