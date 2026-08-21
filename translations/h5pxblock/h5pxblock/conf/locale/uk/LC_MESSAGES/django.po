@@ -1,0 +1,226 @@
+# edX translation file.
+# Copyright (C) 2026 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# EdX Team <info@edx.org>, 2026.
+#
+# Translators:
+# Serhii Nanai <serhii.nanai@raccoongang.com>, 2026
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.1a\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2026-08-21 00:00+0000\n"
+"PO-Revision-Date: 2026-08-21 00:00+0000\n"
+"Last-Translator: Serhii Nanai <serhii.nanai@raccoongang.com>, 2026\n"
+"Language-Team: Ukrainian (https://app.transifex.com/open-edx/teams/6205/uk/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: h5pxblock.py:63
+msgid "Not attempted"
+msgstr "Не було жодної спроби"
+
+#: h5pxblock.py:64
+msgid "Completed"
+msgstr "Завершено"
+
+#: h5pxblock.py:75
+msgid "H5P Player Id"
+msgstr "ID програвача H5P"
+
+#: h5pxblock.py:76
+msgid "Unique ID for player instance"
+msgstr "Унікальний ID для програвача"
+
+#: h5pxblock.py:82
+msgid "Display Name"
+msgstr "Назва, що відображається"
+
+#: h5pxblock.py:83
+msgid "Display name for this module"
+msgstr "Назва для цього модуля"
+
+#: h5pxblock.py:89 h5pxblock.py:90
+msgid "Upload H5P content"
+msgstr "Завантажити контент H5P"
+
+#: h5pxblock.py:95
+msgid "Show H5P player frame"
+msgstr "Показати рамку програвача H5P"
+
+#: h5pxblock.py:96
+msgid "whether to show H5P player frame and button"
+msgstr "Чи показувати рамку та кнопку програвача H5P"
+
+#: h5pxblock.py:102
+msgid "Show copyright button"
+msgstr "Показувати кнопку авторських прав"
+
+#: h5pxblock.py:103
+msgid "whether to show copyright button"
+msgstr "Чи показувати кнопку авторських прав"
+
+#: h5pxblock.py:109
+msgid "Show h5p icon"
+msgstr "Показати іконку H5P"
+
+#: h5pxblock.py:110
+msgid "whether to show h5p icon"
+msgstr "Чи показувати іконку H5P"
+
+#: h5pxblock.py:116
+msgid "Show fullscreen button"
+msgstr "Показувати кнопку повноекранного режиму"
+
+#: h5pxblock.py:117
+msgid "whether to show fullscreen button"
+msgstr "Чи показувати кнопку повноекранного режиму"
+
+#: h5pxblock.py:123
+msgid "Is Scorable"
+msgstr "Можна оцінити"
+
+#: h5pxblock.py:125
+msgid "Select True if this component will save score"
+msgstr "Оберіть \"Так\", якщо цей компонент буде зберігати оцінку"
+
+#: h5pxblock.py:132
+msgid "User content state save frequency"
+msgstr "Частота збереження стану контенту користувача"
+
+#: h5pxblock.py:134
+msgid ""
+"How often current user content state should be autosaved (in seconds). Set "
+"it to zero if you don't want to save content state."
+msgstr ""
+"Як часто поточний стан контенту користувача повинен автоматично "
+"зберігатися (у секундах). Встановіть значення на нуль, якщо ви не хочете "
+"зберігати стан контенту."
+
+#: h5pxblock.py:142
+msgid "User previous content interaction states"
+msgstr "Стани взаємодії користувача з попереднім контентом"
+
+#: h5pxblock.py:148
+msgid "Problem Weight"
+msgstr "Вага завдання"
+
+#: h5pxblock.py:150
+msgid ""
+"Defines the number of points this problem is worth. If the value is not set,"
+" the problem is worth one point."
+msgstr ""
+"Визначає кількість балів, які можна отримати за це завдання. Якщо значення "
+"не задано, завдання оцінюється в один бал."
+
+#: h5pxblock.py:159
+msgid "Maximum score"
+msgstr "Максимальний бал"
+
+#: h5pxblock.py:160
+msgid "Maximum grade score given to assignment by staff."
+msgstr "Максимальний бал, наданий завданню персоналом."
+
+#: h5pxblock.py:166
+msgid "Problem weighted score"
+msgstr "Зважена оцінка завдання"
+
+#: h5pxblock.py:168
+msgid ""
+"Defines the weighted score of this problem. If the value is not set, the "
+"problem is worth one point."
+msgstr ""
+"Визначає зважену оцінку цього завдання. Якщо значення не встановлено, "
+"завдання оцінюється в один бал."
+
+#: h5pxblock.py:176
+msgid "Submission status"
+msgstr "Статус відправлення"
+
+#: h5pxblock.py:177
+msgid "The submission status of the assignment."
+msgstr "Статус відправленого завдання."
+
+#: h5pxblock.py:263
+msgid "Uploading"
+msgstr "Завантаження"
+
+#: h5pxblock.py:264
+msgid "Uploaded"
+msgstr "Завантажено"
+
+#: h5pxblock.py:265
+msgid "Extracting"
+msgstr "Розпаковка"
+
+#: static/html/h5pxblock.html:6
+msgid "points"
+msgstr "бали"
+
+#: static/html/h5pxblock.html:10
+msgid "Loading..."
+msgstr "Завантаження..."
+
+#: static/html/h5pxblock.html:16
+msgid ""
+"The due date for this subsection has passed. Your response will be recorded,"
+" but not graded."
+msgstr ""
+"Термін для цього підрозділу минув. Ваша відповідь буде записана, але не "
+"оцінена."
+
+#: static/html/h5pxblock.html:21
+msgid "No content. Please upload H5P content."
+msgstr "Немає контенту. Будь ласка, завантажте контент H5P."
+
+#: static/html/studio.html:22
+msgid "Currently:"
+msgstr "Наразі:"
+
+#: static/html/studio.html:22
+msgid "Upload time:"
+msgstr "Час завантаження:"
+
+#: static/html/studio.html:27
+msgid "Reuse Existing H5P Content"
+msgstr "Повторно використати існуючий контент H5P"
+
+#: static/html/studio.html:31
+msgid ""
+"Enter path of existing content or copy path to reuse this content in another"
+" block"
+msgstr ""
+"Введіть шлях до наявного контенту або скопіюйте шлях, щоб повторно "
+"використати цей контент в іншому блоці"
+
+#: static/html/studio.html:40 static/html/studio.html:57
+#: static/html/studio.html:73 static/html/studio.html:89
+#: static/html/studio.html:105
+msgid "True"
+msgstr "Так"
+
+#: static/html/studio.html:40 static/html/studio.html:43
+#: static/html/studio.html:57 static/html/studio.html:60
+#: static/html/studio.html:73 static/html/studio.html:76
+#: static/html/studio.html:89 static/html/studio.html:92
+#: static/html/studio.html:105 static/html/studio.html:108
+msgid "(Default)"
+msgstr "(За замовчуванням)"
+
+#: static/html/studio.html:43 static/html/studio.html:60
+#: static/html/studio.html:76 static/html/studio.html:92
+#: static/html/studio.html:108
+msgid "False"
+msgstr "Ні"
+
+#: static/html/studio.html:141
+msgid "Save"
+msgstr "Зберегти"
+
+#: static/html/studio.html:144
+msgid "Cancel"
+msgstr "Відмінити"
