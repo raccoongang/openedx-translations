@@ -253,6 +253,8 @@
   "course-authoring.schedule-section.course-categories.search.placeholder": "Пошук...",
   "course-authoring.schedule-section.course-categories.expand-category": "Розгорнути {categoryName}",
   "course-authoring.schedule-section.course-categories.collapse-category": "Згорнути {categoryName}",
+  "course-authoring.schedule-section.course-categories.expand-list": "Показати всі ({count})",
+  "course-authoring.schedule-section.course-categories.collapse-list": "Згорнути список",
   "a11yBodyPolicyLink": "Політика щодо доступності веб-сайту",
   "a11yBodyPageHeader": "Індивідуалізований процес доступності для розробників курсу",
   "a11yBodyIntroGraph": "В edX ми прагнемо розуміти та поважати унікальні потреби та перспективи глобальної спільноти edX. Ми цінуємо кожну команду курсу та прагнемо розширити доступ для всіх, у тому числі для розробників та авторів курсів з обмеженими можливостями. З цією метою ми прийняли {communityAccessibilityLink} і цей процес, щоб дозволити розробникам та авторам курсів звертатися по допомогу, якщо вони не можуть розробляти та публікувати вміст на нашій платформі через Studio через свої обмежені можливості.",
