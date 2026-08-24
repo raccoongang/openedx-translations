@@ -239,7 +239,7 @@
   "course-authoring.schedule.schedule-section.error-message-7": "Курсу повинен мати дату початку. ",
   "course-authoring.schedule.schedule-section.error-message-8": "Будь ласка, введіть ціле число між %(min)s та %(max)s.",
   "course-authoring.schedule-section.course-categories.title": "Категорії курсу",
-  "course-authoring.schedule-section.course-categories.description": "Оберіть категорії каталогу, до яких належить цей курс",
+  "course-authoring.schedule-section.course-categories.description": "Оберіть категорії, до яких належить цей курс",
   "course-authoring.schedule-section.course-categories.loading": "Завантаження категорій курсу",
   "course-authoring.schedule-section.course-categories.load-error": "Не вдалося завантажити категорії курсу. Спробуйте оновити сторінку.",
   "course-authoring.schedule-section.course-categories.save-error": "Не вдалося зберегти категорії курсу. Спробуйте ще раз.",
