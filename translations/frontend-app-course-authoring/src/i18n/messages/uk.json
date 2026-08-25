@@ -1799,5 +1799,11 @@
   "course-authoring.studio-home.libraries.tab.order-filter-menu.ascendant-librariesv2": "Назва А-Я",
   "course-authoring.studio-home.libraries.tab.order-filter-menu.descendant-librariesv2": "Назва Я-А",
   "course-authoring.studio-home.libraries.tab.order-filter-menu.newest-librariesv2": "Найновіші",
-  "course-authoring.studio-home.libraries.tab.order-filter-menu.oldest-librariesv2": "Найстаріші"
+  "course-authoring.studio-home.libraries.tab.order-filter-menu.oldest-librariesv2": "Найстаріші",
+  "course-authoring.studio-home.courses.pagination.label": "навігація сторінками",
+  "course-authoring.studio-home.courses.pagination.previous": "Назад",
+  "course-authoring.studio-home.courses.pagination.next": "Далі",
+  "course-authoring.studio-home.courses.pagination.page": "Сторінка",
+  "course-authoring.studio-home.courses.pagination.current-page": "Поточна сторінка",
+  "course-authoring.studio-home.courses.pagination.page-of-count": "з"
 }
