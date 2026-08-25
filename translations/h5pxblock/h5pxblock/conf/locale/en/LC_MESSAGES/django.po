@@ -182,6 +182,10 @@ msgstr "Currently:"
 msgid "Upload time:"
 msgstr "Upload time:"
 
+#: static/html/studio.html:25
+msgid "OR"
+msgstr "OR"
+
 #: static/html/studio.html:27
 msgid "Reuse Existing H5P Content"
 msgstr "Reuse Existing H5P Content"

@@ -185,6 +185,10 @@ msgstr "Наразі:"
 msgid "Upload time:"
 msgstr "Час завантаження:"
 
+#: static/html/studio.html:25
+msgid "OR"
+msgstr "АБО"
+
 #: static/html/studio.html:27
 msgid "Reuse Existing H5P Content"
 msgstr "Повторно використати існуючий контент H5P"
