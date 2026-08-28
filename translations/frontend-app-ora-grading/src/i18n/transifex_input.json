@@ -24,6 +24,7 @@
   "ora-grading.ListView.noResultsFoundBody": "When learners submit responses, they will appear here",
   "ora-grading.ListView.viewAllResponses": "View all responses",
   "ora-grading.ListView.viewSelectedResponses": "View selected responses ({value})",
+  "ora-grading.ListView.searchPlaceholder": "Search {header}",
   "ora-grading.ListView.tableHeaders.username": "Username",
   "ora-grading.ListView.tableHeaders.teamName": "Team name",
   "ora-grading.ListView.tableHeaders.learnerSubmissionDate": "Learner submission date",
