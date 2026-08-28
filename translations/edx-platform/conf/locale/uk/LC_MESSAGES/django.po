@@ -20821,7 +20821,7 @@ msgstr "Персонал"
 
 #: lms/templates/preview_menu.html:62
 msgid "Learner"
-msgstr "Студент"
+msgstr "Учень / учениця"
 
 #: lms/templates/preview_menu.html:63
 msgid "Specific learner"
