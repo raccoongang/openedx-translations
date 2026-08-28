@@ -244,7 +244,7 @@ msgstr "Дозволити кілька файлів"
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:169
 #: templates/legacy/edit/oa_edit_peer_assessment.html:45
 msgid "False"
-msgstr "Неправильно"
+msgstr "Ні"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:53
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:94
@@ -253,7 +253,7 @@ msgstr "Неправильно"
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:170
 #: templates/legacy/edit/oa_edit_peer_assessment.html:46
 msgid "True"
-msgstr "Правильно"
+msgstr "Так"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:56
 msgid ""
@@ -375,8 +375,9 @@ msgid ""
 "Set to TRUE to allow learners to resubmit ungraded work. Set to FALSE if "
 "resubmissions are not allowed."
 msgstr ""
-"Установіть значення TRUE, щоб дозволити учням повторно здавати роботу без "
-"оцінки. Установіть значення FALSE, якщо повторне надсилання заборонено."
+"Установіть значення \"Так\", щоб дозволити учням повторно здавати роботу "
+"без оцінки. Установіть значення \"Ні\", якщо повторне надсилання "
+"заборонено."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:178
 msgid "Resubmission Grace Period"
