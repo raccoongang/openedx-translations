@@ -25,6 +25,7 @@
   "ora-grading.ListView.viewAllResponses": "View all responses",
   "ora-grading.ListView.viewSelectedResponses": "View selected responses ({value})",
   "ora-grading.ListView.searchPlaceholder": "Search {header}",
+  "ora-grading.ListView.toggleSortByTooltip": "Toggle SortBy",
   "ora-grading.ListView.tableHeaders.username": "Username",
   "ora-grading.ListView.tableHeaders.teamName": "Team name",
   "ora-grading.ListView.tableHeaders.learnerSubmissionDate": "Learner submission date",
