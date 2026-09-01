@@ -9,6 +9,7 @@
   "gradebook.GradebookFilters.includeCourseTeamMembersFilterLabel": "Долучити членів команди курсу",
   "gradebook.GradebookFilters.assignmentFilterLabel": "Завдання",
   "gradebook.GradebookFilters.assignmentTypesLabel": "Типи завдань",
+  "gradebook.GradebookFilters.all": "Всі",
   "gradebook.GradebookFilters.maxGradeFilterLabel": "Максимальний бал",
   "gradebook.GradebookFilters.minGradeFilterLabel": "Мінімальний бал",
   "gradebook.GradebookFilters.cohorts": "Когорти",
