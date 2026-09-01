@@ -67,7 +67,7 @@
   "gradebook.GradesView.absoluteOption": "Остаточний",
   "gradebook.GradesView.percentOption": "В процентах",
   "gradebook.GradesView.search.label": "Пошук учня",
-  "gradebook.GradesView.search.hint": "Пошук за іменем користувача, електронною поштою або студентським ключем",
+  "gradebook.GradesView.search.hint": "Пошук за іменем користувача або електронною поштою",
   "gradebook.GradesView.editSuccessAlert": "Оцінка успішно відредагована. Ви можете побачити невелику затримку, перш ніж оновлення з'являться в Журналі Оцінок.",
   "gradebook.GradesView.maxCourseGradeInvalid": "Максимальна оцінка курсу має бути від 0 до 100",
   "gradebook.GradesView.minCourseGradeInvalid": "Мінімальна оцінка курсу має бути від 0 до 100",
