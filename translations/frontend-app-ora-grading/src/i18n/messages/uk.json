@@ -99,7 +99,7 @@
   "ora-grading.ReviewModal.closeReviewConfirm.title": "Ви впевнені, що бажаєте закрити цей режим?",
   "ora-grading.ReviewModal.closeReviewConfirmWarning": "Це не може бути скасоване. Це призведе до скасування незбережених робіт і припинення процесу оцінювання.",
   "ora-grading.ReviewModal.goBack": "Повернутись",
-  "ora-grading.ReviewModal.CloseReviewConfirmModal.confirmText": "Закрити Modal",
+  "ora-grading.ReviewModal.CloseReviewConfirmModal.confirmText": "Закрити форму",
   "ora-grading.lms-api.gradingStatusDisplay.ungraded": "Оновлено",
   "ora-grading.lms-api.gradingStatusDisplay.locked": "Наразі оцінюється кимось іншим",
   "ora-grading.lms-api.gradingStatusDisplay.graded": "Оцінювання завершено",
