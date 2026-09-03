@@ -8640,8 +8640,8 @@ msgstr ""
 "Будь ласка, вкажіть кожний домен в окремому рядку."
 
 #: openedx/core/djangoapps/course_groups/cohorts.py:97
-msgid "Default Group"
-msgstr "Група за замовчуванням"
+msgid "Default Cohort"
+msgstr "Когорта за замовчуванням"
 
 #: openedx/core/djangoapps/course_groups/cohorts.py:388
 msgid "You cannot create two cohorts with the same name"
