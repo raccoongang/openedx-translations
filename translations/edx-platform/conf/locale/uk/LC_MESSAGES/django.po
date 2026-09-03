@@ -11803,6 +11803,21 @@ msgstr ""
 "Визначає, скільки разів студент може давати відповідь на завдання. Якщо "
 "значення не встановлено, надається необмежена кількість спроб."
 
+#: xmodule/capa_block.py:198
+msgid "Required checkbox quantity"
+msgstr "Необхідна кількість прапорців"
+
+#: xmodule/capa_block.py:200
+msgid ""
+"Defines when to change required quantity of the checkboxes for \"Grade "
+"correct answers only\" calculation logic in the associated Python script. "
+"This setting is used only for checkboxes with specific calculation."
+msgstr ""
+"Визначає, коли потрібно змінити необхідну кількість прапорців для "
+"\"Оцінювати лише правильні відповіді\" логіки обчислення у пов'язаному "
+"скрипті Python. Цей параметр використовується лише для прапорців із "
+"конкретним розрахунком."
+
 #: xmodule/capa_block.py:197
 msgid "Grading Method"
 msgstr "Метод оцінювання"
