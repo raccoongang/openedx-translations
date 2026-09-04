@@ -11578,6 +11578,15 @@ msgstr[3] "Завантажити наступні {num_items} результа�
 msgid "Sorry, no results were found."
 msgstr "На жаль, жодного результату не знайдено."
 
+#: tutor_rg_theme/templates/edx-theme-rg/lms/static/js/common.js
+#, python-brace-format
+msgid "Only {checkboxLimit} checkbox can be checked at time."
+msgid_plural "Only {checkboxLimit} checkboxes can be checked at time."
+msgstr[0] "Одночасно можна встановити лише {checkboxLimit} прапорець"
+msgstr[1] "Одночасно можна встановити лише {checkboxLimit} прапорці"
+msgstr[2] "Одночасно можна встановити лише {checkboxLimit} прапорців"
+msgstr[3] "Одночасно можна встановити лише {checkboxLimit} прапорця"
+
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Not available"
 msgstr "недоступно"
