@@ -1642,6 +1642,8 @@
   "authoring.problemeditor.settings.requiredCheckboxQuantity.notSet": "Не встановлено",
   "authoring.problemeditor.settings.requiredCheckboxQuantity.text": "Обмежує кількість прапорців, які учень може вибрати одночасно. Залиште порожнім, щоб не встановлювати обмеження.",
   "authoring.problemeditor.settings.requiredCheckboxQuantity.inputLabel": "Максимальна кількість прапорців",
+  "authoring.problemeditor.settings.requiredCheckboxQuantity.invalidCharacters": "Дозволені лише цілі числа.",
+  "authoring.problemeditor.settings.requiredCheckboxQuantity.maxExceeded": "Не може перевищувати {max} — кількість літер в алфавіті.",
   "authoring.videoeditor.expand": "Розгорнути",
   "authoring.videoeditor.collapse": "Згорнути",
   "authoring.videoeditor.validate.error.title": "Нам не вдалося додати ваше відео.",
