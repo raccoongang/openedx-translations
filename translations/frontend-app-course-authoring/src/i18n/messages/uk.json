@@ -1640,7 +1640,7 @@
   "authoring.problemeditor.settings.requiredCheckboxQuantity.title": "Необхідна кількість прапорців",
   "authoring.problemeditor.settings.requiredCheckboxQuantity.summary": "{quantity, plural, one {# прапорець} few {# прапорці} many {# прапорців} other {# прапорця}}",
   "authoring.problemeditor.settings.requiredCheckboxQuantity.notSet": "Не встановлено",
-  "authoring.problemeditor.settings.requiredCheckboxQuantity.text": "Обмежує кількість прапорців, які учень може вибрати одночасно. Залиште порожнім, щоб не встановлювати обмеження.",
+  "authoring.problemeditor.settings.requiredCheckboxQuantity.text": "Обмежує кількість прапорців, які учень може вибрати одночасно (до 26). Залиште порожнім, щоб не встановлювати обмеження.",
   "authoring.problemeditor.settings.requiredCheckboxQuantity.inputLabel": "Максимальна кількість прапорців",
   "authoring.videoeditor.expand": "Розгорнути",
   "authoring.videoeditor.collapse": "Згорнути",
