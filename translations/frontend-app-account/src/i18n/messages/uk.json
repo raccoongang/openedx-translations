@@ -348,5 +348,18 @@
   "becomePublisherDialog.state.processing": "Обробка...",
   "becomePublisherSection.successMessage": "Ваша заявка на отримання ролі \"Представник видавництва\" збережена та відправлена на розгляд адміністрації платформи. Вам буде надіслано сповіщення про результати розгляду.",
   "becomePublisherSection.instructions": "Якщо ви хочете стати представником видавництва, скористайтеся кнопкою нижче та заповніть форму заявки. Після заповнення форми очікуйте підтвердження надання привілеїв представника видавництва адміністратором.",
-  "becomePublisherSection.button": "Стати представником видавництва"
+  "becomePublisherSection.button": "Стати представником видавництва",
+  "teacherSchoolSection.title": "Заклад освіти, у якому ви навчаєтеся/викладаєте",
+  "teacherSchoolSection.label.region": "Область",
+  "teacherSchoolSection.label.locality": "Населений пункт",
+  "teacherSchoolSection.label.school": "Заклад освіти",
+  "teacherSchoolSection.help.locality": "Спочатку введіть область.",
+  "teacherSchoolSection.help.school": "Спочатку введіть населений пункт.",
+  "teacherSchoolSection.loading": "Завантаження...",
+  "teacherSchoolSection.button.save": "Зберегти",
+  "teacherSchoolSection.successMessage": "Ваші зміни були збережені.",
+  "teacherSchoolSection.errorMessage": "Не вдалося зберегти. Спробуйте ще раз.",
+  "teacherSchoolSection.loadErrorMessage": "Не вдалося завантажити налаштування закладу освіти.",
+  "teacherSchoolSection.localitiesLoadErrorMessage": "Не вдалося завантажити населені пункти.",
+  "teacherSchoolSection.schoolsLoadErrorMessage": "Не вдалося завантажити заклади освіти."
 }
