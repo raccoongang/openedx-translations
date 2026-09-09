@@ -1,5 +1,6 @@
 {
   "header.links.about": "About",
+  "header.links.aboutMonsup": "About us",
   "header.links.guide": "Guide",
   "header.links.exploreCourses": "Explore courses",
   "header.links.dashboard": "Dashboard",
@@ -8,6 +9,7 @@
   "header.links.content.search": "Discover New",
   "header.links.teacherDashboard": "My Dashboard",
   "header.links.schools": "Schools & Partners",
+  "header.links.mySchool": "My School",
   "header.user.menu.dashboard": "Dashboard",
   "header.user.menu.profile": "Profile",
   "header.user.menu.account.settings": "Account",
