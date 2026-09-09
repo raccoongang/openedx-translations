@@ -348,5 +348,18 @@
   "becomePublisherDialog.state.processing": "Processing...",
   "becomePublisherSection.successMessage": "Your application for the role of \"Publishing Representative\" has been saved and sent for review by the platform administration. You will be notified of the results of the review.",
   "becomePublisherSection.instructions": "If you would like to become a publisher representative, please use the button below and fill out the application form. After completing the form, wait for the administrator to confirm that you have been granted publisher representative privileges.",
-  "becomePublisherSection.button": "Become a Publisher Representative"
+  "becomePublisherSection.button": "Become a Publisher Representative",
+  "teacherSchoolSection.title": "School where you study/teach",
+  "teacherSchoolSection.label.region": "Region",
+  "teacherSchoolSection.label.locality": "Locality",
+  "teacherSchoolSection.label.school": "School",
+  "teacherSchoolSection.help.locality": "Please enter the region first.",
+  "teacherSchoolSection.help.school": "Please enter the locality first.",
+  "teacherSchoolSection.loading": "Loading...",
+  "teacherSchoolSection.button.save": "Save",
+  "teacherSchoolSection.successMessage": "Your changes have been saved.",
+  "teacherSchoolSection.errorMessage": "Could not save. Please try again.",
+  "teacherSchoolSection.loadErrorMessage": "Could not load school settings.",
+  "teacherSchoolSection.localitiesLoadErrorMessage": "Could not load localities.",
+  "teacherSchoolSection.schoolsLoadErrorMessage": "Could not load schools."
 }
