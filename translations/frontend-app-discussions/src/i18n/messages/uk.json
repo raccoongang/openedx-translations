@@ -243,8 +243,5 @@
   "discussions.posts.sort.commentCount": "Кількість подій",
   "discussions.posts.sort.voteCount": "Найбільше лайків",
   "discussions.posts.sort-filter.sortFilterStatus": "{own, select, false {Усі} true {Власні} other {{own}} } {status, select, statusAll {} statusUnread {непрочитані} statusFollowing {ті, за якими стежу} statusReported {повідомлені} statusUnanswered {без відповіді} statusUnresponded {без відповіді} other {{status}} } {type, select, discussion {обговорення} question {питання} all {повідомлення} other {{type}} } {cohortType, select, all {} group {у когорті} other {{cohortType}} } відсортовано за {sort, select, lastActivityAt {поточною активністю} commentCount {кількістю подій} voteCount {найбільшою кількістю лайків} other {{sort}} }",
-  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна, або в URL-адресі є помилка. Будь ласка, перевірте URL-адресу та спробуйте ще раз.",
-  "discussions.disabled.title": "Обговорення недоступні",
-  "discussions.disabled.subTitle": "Обговорення недоступні для цього курсу.",
-  "discussions.disabled.action": "Повернутися до курсу"
+  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна, або в URL-адресі є помилка. Будь ласка, перевірте URL-адресу та спробуйте ще раз."
 }
