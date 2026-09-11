@@ -1,5 +1,6 @@
 {
   "header.links.about": "Про проєкт",
+  "header.links.aboutMonsup": "Про нас",
   "header.links.guide": "Як користуватися",
   "header.links.exploreCourses": "Курси",
   "header.links.dashboard": "Мої курси",
@@ -8,6 +9,7 @@
   "header.links.content.search": "Відкривайте Нове",
   "header.links.teacherDashboard": "Мій кабінет",
   "header.links.schools": "Школи та партнери",
+  "header.links.mySchool": "Моя школа",
   "header.user.menu.dashboard": "Мої курси",
   "header.user.menu.profile": "Профіль",
   "header.user.menu.account.settings": "Обліковий запис",
