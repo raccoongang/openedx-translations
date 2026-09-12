@@ -75,6 +75,7 @@
   "Dashboard.NoCoursesView.bannerAlt": "No Courses view banner",
   "Dashboard.NoCoursesView.noTeacherCoursesMessage": "You haven't been enrolled in any courses yet.",
   "Dashboard.NoCoursesView.noTextbookCoursesMessage": "You are not enrolled in any textbook course yet.",
+  "Dashboard.NoCoursesView.noUsoCoursesMessage": "You are not enrolled in any courses yet.",
   "Dashboard.TabNavigation.UsoCourses": "USO Courses",
   "Dashboard.TabNavigation.TeachersCourses": "Teachers Courses",
   "Dashboard.TabNavigation.TextbookCourses": "Textbook Courses",
