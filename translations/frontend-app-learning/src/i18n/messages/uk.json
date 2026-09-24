@@ -471,5 +471,15 @@
   "discussions.sidebar.open.button": "Показати панель обговорень",
   "instructor.toolbar.view.course": "Переглянути курс у:",
   "instructor.toolbar.view.as": "Переглянути цей курс як:",
-  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна, або в URL-адресі є помилка. Будь ласка, перевірте URL-адресу та спробуйте ще раз."
+  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна, або в URL-адресі є помилка. Будь ласка, перевірте URL-адресу та спробуйте ще раз.",
+  "learning.completeSection.confirm.title": "Завершення тесту",
+  "learning.completeSection.confirm.text": "У вас залишилися невиконані завдання. Ви впевнені, що хочете завершити тест?",
+  "learning.completeSection.confirm.uncompletedProblems": "Розділ {sectionName} — {count, plural, one {# незавершене завдання} few {# незавершених завдання} many {# незавершених завдань} other {# незавершених завдань}}.",
+  "learning.completeSection.confirm.button": "Підтвердити завершення тесту",
+  "learning.completeSection.confirm.back": "Повернутися до тесту",
+  "learning.completeSection.success.title": "Тестування завершено.",
+  "learning.completeSection.success.nextText": "Ви завершили тестування з розділу{lineBreak}\"{sectionName}\"",
+  "learning.completeSection.success.continue": "Продовжити",
+  "learning.completeSection.success.resultsText": "Щоб переглянути результат{lineBreak}перейдіть на сторінку \"Прогрес\"",
+  "learning.completeSection.success.results": "Переглянути результати"
 }
