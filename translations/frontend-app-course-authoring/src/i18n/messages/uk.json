@@ -1776,6 +1776,7 @@
   "course-authoring.studio-home.courses.tab.title.my": "Мої курси",
   "course-authoring.studio-home.course-create-limit.available": "{count, plural, one {Доступний <b>{count} курс</b> для копіювання/створення.} few {Доступно <b>{count} курси</b> для копіювання/створення.} many {Доступно <b>{count} курсів</b> для копіювання/створення.} other {Доступно <b>{count} курсів</b> для копіювання/створення.}}",
   "course-authoring.studio-home.course-create-limit.increase-button": "Як збільшити ліміт?",
+  "course-authoring.studio-home.course-create-limit.reached-error": "Неможливо створити курс. Досягнуто максимального ліміту для створення/копіювання курсів, зверніться в технічну підтримку.",
   "course-authoring.studio-home.course-create-limit.modal.title": "Збільшення ліміту",
   "course-authoring.studio-home.course-create-limit.modal.meaning.title": "Що це означає?",
   "course-authoring.studio-home.course-create-limit.modal.meaning.text": "З метою забезпечити належний рівень безпеки платформи {platformName} та запобігти хакерським атакам було введено обмеження на кількість курсів, які можна створювати або копіювати одним користувачем.",
