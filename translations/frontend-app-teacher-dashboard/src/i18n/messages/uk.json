@@ -24,6 +24,8 @@
   "instructionComponent.alert.errorUnexpected": "Не вдалося позначити інструкції як прочитані. Будь ласка, спробуйте пізніше або зверніться до технічної підтримки.",
   "copyCourseCommon.alert.errorUnexpected": "Сталася неочікувана помилка. Будь ласка, спробуйте пізніше або зверніться до технічної підтримки.",
   "copyCourseCommon.legend.description": "У цьому розділі ви можете скопіювати наявний на платформі курс та запросити на нього учнів і учениць. Відстежуйте їхню успішність та влаштовуйте обговорення.",
+  "copyCourseCommon.select.label.partner": "Оберіть партнера",
+  "copyCourseCommon.select.option.allVsoCourses": "Всі курси ВШО",
   "copyCourseCommon.select.label.class": "Оберіть клас",
   "copyCourseCommon.select.label.subject": "Оберіть предмет",
   "copyCourseCommon.select.label.courseName": "Назва курсу",
