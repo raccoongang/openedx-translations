@@ -93,6 +93,8 @@
   "password.security.close.button": "Закрити",
   "password.security.redirect.to.reset.password.button": "Скинути пароль",
   "login.tpa.authentication.failure": "На жаль, ви не маєте права на доступ до {platform_name} через цей канал. Зверніться до свого навчального адміністратора або менеджера , щоб отримати доступ до {platform_name}. {lineBreak}{lineBreak} Помилка детально :{lineBreak}{errorMessage}",
+  "login.qr.error.heading": "Неможливо увійти.",
+  "login.qr.error.body": "Не вдалося увійти за цим QR-кодом. Попросіть у вчителя нову картку входу.",
   "progressive.profiling.page.title": "Вітаємо | {siteName}",
   "progressive.profiling.page.heading": "Будь ласка, дайте відповідь на декілька питань, щоб ми могли стати кращими для Вас.",
   "optional.fields.information.link": "Дізнатись про те, як ми використовуємо цю інформацію.",
