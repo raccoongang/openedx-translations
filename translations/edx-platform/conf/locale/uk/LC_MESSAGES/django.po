@@ -5057,6 +5057,7 @@ msgstr ""
 msgid "Your Platform Insights"
 msgstr "Статистика платформи"
 
+# RG override: Pending Tasks section name; community translation refers to "Черга завдань".
 #: lms/djangoapps/instructor/views/api.py:155
 #, python-brace-format
 msgid ""
@@ -5064,7 +5065,7 @@ msgid ""
 " see Pending Tasks below."
 msgstr ""
 "Звіт {report_type} створюється. Щоб переглянути стан звіту, перегляньте "
-"розділ \"Черга завдань\" нижче."
+"розділ «Поточні задачі» нижче."
 
 #: lms/djangoapps/instructor/views/api.py:173
 msgid ""
@@ -5627,6 +5628,7 @@ msgstr "Цей слухач (%s) може пропустити вступне в
 msgid "This student (%s) is already allowed to skip the entrance exam."
 msgstr "Цьому слухачеві (%s) вже дозволено пропустити вступне випробування."
 
+# RG override: Pending Tasks section name; community translation refers to "Поточні завдання".
 #: lms/djangoapps/instructor/views/api.py:3476
 msgid ""
 "Certificate generation task for all students of this course has been "
@@ -5634,20 +5636,21 @@ msgid ""
 "Tasks\" section."
 msgstr ""
 "Складаються сертифікати для випускників курсу. Статус цього процесу можна "
-"подивитися у розділі «Поточні завдання»."
+"подивитися у розділі «Поточні задачі»."
 
 #: lms/djangoapps/instructor/views/api.py:3509
 msgid "Please select certificate statuses from the list only."
 msgstr ""
 "Будь ласка, виберіть статуси сертифікатів тільки з запропонованого списку."
 
+# RG override: Pending Tasks section name; community translation refers to "Поточні завдання".
 #: lms/djangoapps/instructor/views/api.py:3516
 msgid ""
 "Certificate regeneration task has been started. You can view the status of "
 "the generation task in the \"Pending Tasks\" section."
 msgstr ""
 "Повторне створення сертифікатів запущено. Статус цього процесу можна "
-"подивитися у розділі «Поточні завдання»."
+"подивитися у розділі «Поточні задачі»."
 
 #: lms/djangoapps/instructor/views/api.py:3562
 #: lms/djangoapps/instructor/views/api.py:3712
@@ -6024,6 +6027,7 @@ msgstr "Помилка. Будь ласка, спробуйте пізніше."
 msgid "detailed enrollment"
 msgstr "деталі запису"
 
+# RG override: Pending Tasks section name; community translation refers to "Список Відкладених Задач".
 #: lms/djangoapps/instructor_task/api_helper.py:123
 #, python-brace-format
 msgid ""
@@ -6031,8 +6035,8 @@ msgid ""
 " see Pending Tasks below. You will be able to download the report when it is"
 " complete."
 msgstr ""
-"Звіт {report_type} створюється. Щоб переглянути стан звіту, див. Список "
-"Відкладених Задач нижче. Ви зможете завантажити звіт, коли він буде "
+"Звіт {report_type} створюється. Щоб переглянути стан звіту, перегляньте "
+"розділ «Поточні задачі» нижче. Ви зможете завантажити звіт, коли він буде "
 "завершений."
 
 #: lms/djangoapps/instructor_task/api_helper.py:359
@@ -24845,6 +24849,7 @@ msgstr ""
 "«Створити Сертифікати». Вам не обов'язково це робити, якщо ви виставили "
 "режим видачі сертифікатів «На вимогу»."
 
+# RG override: Pending Tasks section name, as in Lilac; community translation is "Запущені задачі".
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:104
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:142
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html:148
@@ -24852,7 +24857,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html:117
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html:236
 msgid "Pending Tasks"
-msgstr "Запущені задачі"
+msgstr "Поточні задачі"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:106
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html:144
