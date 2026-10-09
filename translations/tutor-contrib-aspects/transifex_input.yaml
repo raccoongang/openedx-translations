@@ -45,7 +45,6 @@ en:
   Avg Incorrect Attempts Coursewide: Avg Incorrect Attempts Coursewide
   Avg Incorrect Attempts by Selected Learners: Avg Incorrect Attempts by 
     Selected Learners
-  Avg Score: Avg Score
   Avg Video Length (seconds): Avg Video Length (seconds)
   Block ID: Block ID
   Block Id: Block Id
@@ -183,6 +182,7 @@ en:
   Incorrect Attempts By Learner: Incorrect Attempts By Learner
   Incorrect Attempts by Selected Learner: Incorrect Attempts by Selected Learner
   Individual Learner: Individual Learner
+  Initial Numeric Responses: Initial Numeric Responses
   Initial Responses: Initial Responses
   Instance Health: Instance Health
   Interaction Type: Interaction Type
@@ -272,6 +272,7 @@ en:
   Run Name: Run Name
   Scaled Score: Scaled Score
   Score Range: Score Range
+  Score Range Count: Score Range Count
   Section Block Id: Section Block Id
   Section Location and Name: Section Location and Name
   Section Name: Section Name
@@ -323,6 +324,7 @@ en:
   : To view the number of views across the duration of a single video, click the
     name of the video in the Video Link column in table above.
   Total: Total
+  Total Avg: Total Avg
   Total Courses: Total Courses
   Total Organizations: Total Organizations
   Total Views: Total Views
