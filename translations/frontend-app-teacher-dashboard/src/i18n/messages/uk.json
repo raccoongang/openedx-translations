@@ -66,6 +66,7 @@
   "courseDeletionModal.state.success": "Успішно",
   "courseFilterDropdown.title": "Доступні курси",
   "courseCardComponent.action.edit": "Редагувати",
+  "courseCardComponent.action.renameCourse": "Перейменувати курс",
   "courseCardComponent.action.delete": "Перейти до видалення",
   "courseCardComponent.label.course": "Курс:",
   "courseCardComponent.button.inviteLearners": "Запросити учнів та учениць",
