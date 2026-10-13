@@ -161,7 +161,7 @@ msgstr ""
 #: cms/djangoapps/contentstore/errors.py:12
 msgid "Course olx validation failed. Please check your email."
 msgstr ""
-"Збій при перевірці OLX курсу. Будь ласка, перегляньте Вашу елетронну пошту."
+"Збій при перевірці OLX курсу. Будь ласка, перегляньте вашу елетронну пошту."
 
 #: cms/djangoapps/contentstore/errors.py:13
 msgid "Permission denied"
@@ -798,7 +798,7 @@ msgstr "Порожній"
 
 #: cms/djangoapps/contentstore/views/component.py:333
 msgid "Peer Assessment Only"
-msgstr "Оцінювання тільки студентами, які навчаються разом з Вами"
+msgstr "Оцінювання тільки студентами, які навчаються разом з вами"
 
 #: cms/djangoapps/contentstore/views/component.py:337
 #: xmodule/capa_block.py:183
@@ -1077,7 +1077,7 @@ msgstr "Некоректні дані ({details})"
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:647
 msgid "There was a problem pasting your component."
-msgstr "Під час перенесення Вашого компоненту сталась помилка."
+msgstr "Під час перенесення вашого компоненту сталась помилка."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:651
 msgid "Your clipboard is empty or invalid."
@@ -1736,7 +1736,7 @@ msgid ""
 " e.g 1337. If not provided, will default to sending Platform Name (e.g. edX)"
 " instead."
 msgstr ""
-"ID Вашої організації (якщо Ваша організація має сторінку в LinkedIn), "
+"ID вашої організації (якщо ваша організація має сторінку в LinkedIn), "
 "наприклад, 1337. Якщо нічого не вказано, за замовчуванням буде надіслано "
 "назву платформи (наприклад, edX)."
 
@@ -1940,7 +1940,7 @@ msgid ""
 "{activated_or_confirmed}{html_end}Something went wrong, please <a "
 "href=\"{support_url}\">contact support</a> to resolve this issue."
 msgstr ""
-"{html_start} Ваш {account_or_email} не може бути {activated_or_confirmed} "
+"{html_start} ваш {account_or_email} не може бути {activated_or_confirmed} "
 "{html_end} Щось пішло не так. Будь ласка, зв’яжіться з <a "
 "href=\"{support_url}\">службою підтримки</a>, щоб вирішити цю проблему."
 
@@ -1959,7 +1959,7 @@ msgid ""
 "{html_start}Success{html_end} You have {activated_or_confirmed} your "
 "{account_or_email}."
 msgstr ""
-"{html_start} Успішно.{html_end} Ви {activated_or_confirmed} свій "
+"{html_start} Успішно.{html_end} ви {activated_or_confirmed} свій "
 "{account_or_email}."
 
 #: common/djangoapps/student/views/management.py:640
@@ -1969,9 +1969,9 @@ msgid ""
 "{account_or_email}.{html_end}You will now receive email updates and alerts "
 "from us related to the courses you are enrolled in. Sign In to continue."
 msgstr ""
-"{html_start} Успішно! Ви {activated_or_confirmed} Ваш "
-"{account_or_email}.{html_end} Тепер Ви отримуватимете на електронну пошту "
-"оновлення і сповіщення, пов’язані з курсами, на які Ви записані. Щоб "
+"{html_start} Успішно! Ви {activated_or_confirmed} ваш "
+"{account_or_email}.{html_end} Тепер ви отримуватимете на електронну пошту "
+"оновлення і сповіщення, пов’язані з курсами, на які ви записані. Щоб "
 "продовжити, увійдіть."
 
 #: common/djangoapps/student/views/management.py:731
@@ -2868,7 +2868,7 @@ msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:33
 msgid "Activate your account"
-msgstr "Активуйте Ваш обліковий запис"
+msgstr "Активуйте ваш обліковий запис"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:42
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:6
@@ -2883,7 +2883,7 @@ msgid ""
 "{start_anchor_web}%(support_url)s{end_anchor} or email "
 "{start_anchor_email}%(support_email)s{end_anchor}."
 msgstr ""
-"Якщо Вам потрібна допомога, можете використовувати форму "
+"Якщо вам потрібна допомога, можете використовувати форму "
 "{start_anchor_web}%(support_url)s{end_anchor} або написати нам на електронну"
 " пошту {start_anchor_email}%(support_email)s{end_anchor}."
 
@@ -2906,9 +2906,9 @@ msgid ""
 "engaging, high-quality %(platform_name)s courses. Note that you will not be "
 "able to log back into your account until you have activated it."
 msgstr ""
-"Майже готово! Використовуйте посилання нижче для активації Вашого облікового"
+"Майже готово! Використовуйте посилання нижче для активації вашого облікового"
 " запису, щоб отримати доступ до цікавих, високоякісних курсів "
-"%(platform_name)s . Зауважте, Ви не зможете знову увійти до свого облікового"
+"%(platform_name)s . Зауважте, ви не зможете знову увійти до свого облікового"
 " запису до його активації."
 
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:8
@@ -2917,7 +2917,7 @@ msgid ""
 "If you need help, please use our web form at %(support_url)s or email "
 "%(support_email)s."
 msgstr ""
-"Якщо Вам потрібна допомога, можете використати форму %(support_url)s або "
+"Якщо вам потрібна допомога, можете використати форму %(support_url)s або "
 "написати нам на електронну пошту %(support_email)s."
 
 #: common/templates/student/edx_ace/accountactivation/email/subject.txt:3
@@ -3096,7 +3096,7 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"Моніторовані екзамени – це іспити, які Ви складаєте за обмежений час, тоді як програмне забезпечення контролює робочий стіл Вашого комп’ютера, відео та аудіо з веб-камери. Ваш курс використовує програмне забезпечення %(proctoring_provider)s для контролю.\n"
+"Моніторовані екзамени – це іспити, які ви складаєте за обмежений час, тоді як програмне забезпечення контролює робочий стіл вашого комп’ютера, відео та аудіо з веб-камери. Ваш курс використовує програмне забезпечення %(proctoring_provider)s для контролю.\n"
 " "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:46
@@ -3106,7 +3106,7 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"Уважно перегляньте вимоги до комп’ютера, а також кроки для складання моніторованого іспиту, щоб переконатися, що Ви готові.\n"
+"Уважно перегляньте вимоги до комп’ютера, а також кроки для складання моніторованого іспиту, щоб переконатися, що ви готові.\n"
 "  "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:53
@@ -3164,8 +3164,8 @@ msgid ""
 "monitors your computer's desktop, webcam video, and audio. Your course uses "
 "%(proctoring_provider)s software for proctoring."
 msgstr ""
-"Моніторовані екзамени – це іспити, які Ви складаєте за обмежений час, тоді "
-"як програмне забезпечення контролює робочий стіл Вашого комп’ютера, відео та"
+"Моніторовані екзамени – це іспити, які ви складаєте за обмежений час, тоді "
+"як програмне забезпечення контролює робочий стіл вашого комп’ютера, відео та"
 " аудіо з веб-камери. Ваш курс використовує програмне забезпечення "
 "%(proctoring_provider)s для контролю."
 
@@ -4085,7 +4085,7 @@ msgid ""
 "that goal!"
 msgstr ""
 "Ви поставили собі за мету вчитися %(days_per_week)s разів на тиждень в "
-"рамках курсу %(course_name)s. Ви ще не досягли поставленої цілі, але у Вас "
+"рамках курсу %(course_name)s. Ви ще не досягли поставленої цілі, але у вас "
 "ще є час!"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:9
@@ -4093,7 +4093,7 @@ msgid ""
 "Remember, you can always change your learning goal. The best goal is one "
 "that you can stick to.  "
 msgstr ""
-"Ви завжди можете змінити навчальну ціль. Найкраща ціль – це та, якої Ви "
+"Ви завжди можете змінити навчальну ціль. Найкраща ціль – це та, якої ви "
 "можете досягнути."
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/footer.html:47
@@ -4223,7 +4223,7 @@ msgid ""
 "Please contact your degree administrator or {platform_name} Support if you "
 "have questions."
 msgstr ""
-"Якщо у Вас є запитання, зверніться до адміністратора або до служби підтримки"
+"Якщо у вас є запитання, зверніться до адміністратора або до служби підтримки"
 " {platform_name}."
 
 #: lms/djangoapps/course_home_api/outline/views.py:300
@@ -4326,7 +4326,7 @@ msgstr ""
 #: lms/djangoapps/courseware/access_response.py:280
 msgid "You must give Data Sharing Consent for the course"
 msgstr ""
-"Для участі в цьому курсі Вам потрібно надати згоду на спільний доступ до "
+"Для участі в цьому курсі вам потрібно надати згоду на спільний доступ до "
 "інформації."
 
 #: lms/djangoapps/courseware/access_response.py:291
@@ -4623,7 +4623,7 @@ msgid ""
 "Maintain exam integrity by enabling a proctoring solution for your course"
 msgstr ""
 "Забезпечте чесне складання екзаменів за допомогою засобів для проведення "
-"контрольованих іспитів Вашого курсу."
+"контрольованих іспитів вашого курсу."
 
 #: lms/djangoapps/courseware/plugins.py:219 cms/templates/edit-tabs.html:12
 #: cms/templates/edit-tabs.html:55 cms/templates/edit-tabs.html:177
@@ -4633,7 +4633,7 @@ msgstr "Власні сторінки"
 #: lms/djangoapps/courseware/plugins.py:220
 msgid "Provide additional course content and resources with custom pages"
 msgstr ""
-"Надайте додатковий контент та ресурси для Вашого курсу за допомогою "
+"Надайте додатковий контент та ресурси для вашого курсу за допомогою "
 "індивідуальних сторінок"
 
 #: lms/djangoapps/courseware/plugins.py:271
@@ -5224,7 +5224,7 @@ msgid ""
 "The provided parameters were invalid. Make sure you've provided at least one"
 " valid usage key for `problem_locations`."
 msgstr ""
-"Надано хибні параметри. Переконайтеся, що Ви надали принаймні один дійсний "
+"Надано хибні параметри. Переконайтеся, що ви надали принаймні один дійсний "
 "ключ для `problem_locations`."
 
 #: lms/djangoapps/instructor/views/api.py:1207
@@ -6788,7 +6788,7 @@ msgid ""
 "          "
 msgstr ""
 "\n"
-"          Ви отримали цей електронний лист на адресу %(email)s, тому що Ви зареєстровані на\n"
+"          Ви отримали цей електронний лист на адресу %(email)s, тому що ви зареєстровані на\n"
 "          "
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:30
@@ -6822,7 +6822,7 @@ msgid ""
 "You are receiving this email at address %(email)s because you are enrolled "
 "in %(course_title)s."
 msgstr ""
-"Ви отримали цей електронний лист на адресу %(email)s, тому що Ви "
+"Ви отримали цей електронний лист на адресу %(email)s, тому що ви "
 "зареєстровані на %(course_title)s."
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:9
@@ -6852,7 +6852,7 @@ msgstr "Щоб розпочати, будь ласка, відвідайте с�
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:25
 msgid "The login information for your account follows:"
-msgstr "Информація що до Вашого профілю наступна:"
+msgstr "Информація що до вашого профілю наступна:"
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:29
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.txt:5
@@ -6869,7 +6869,7 @@ msgstr "пароль: %(password)s"
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:40
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.txt:9
 msgid "It is recommended that you change your password."
-msgstr "Рекомендується Вам змінити свій пароль."
+msgstr "Рекомендується вам змінити свій пароль."
 
 #: lms/templates/instructor/edx_ace/accountcreationandenrollment/email/body.html:48
 msgid "You may access your course."
@@ -7058,7 +7058,7 @@ msgstr ""
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:52
 msgid "Finish Your Registration"
-msgstr "Завершіть Вашу Реєстрацію"
+msgstr "Завершіть вашу Реєстрацію"
 
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.html:59
 #: lms/templates/instructor/edx_ace/allowedenroll/email/body.txt:9
@@ -7200,7 +7200,7 @@ msgstr ""
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.html:33
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.txt:5
 msgid "Your other courses have not been affected."
-msgstr "Це не вплине на Ваші інші курси."
+msgstr "Це не вплине на ваші інші курси."
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:35
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt:8
@@ -7327,7 +7327,7 @@ msgid ""
 "delete your single signed on (SSO) session."
 msgstr ""
 "{start_anchor}%(tpa_logout_url)s{middle_anchor}Натисніть тут,{end_anchor} "
-"щоб видалити Ваш сеанс єдиного входу (SSO)."
+"щоб видалити ваш сеанс єдиного входу (SSO)."
 
 #: lms/templates/logout.html:26
 msgid "We are signing you in."
@@ -7350,7 +7350,7 @@ msgid ""
 "{start_anchor}%(target)s{middle_anchor}click here to go to the home "
 "page{end_anchor}."
 msgstr ""
-"Якщо Вас не буде перенаправлено протягом 5 секунд, {start_anchor} "
+"Якщо вас не буде перенаправлено протягом 5 секунд, {start_anchor} "
 "%(target)s{middle_anchor}натисніть тут, щоб перейти на домашню сторінку{end_anchor}."
 
 #: lms/templates/main_django.html:50 cms/templates/base.html:102
@@ -7554,7 +7554,7 @@ msgstr ""
 msgid ""
 "We have received your photos and they will be reviewed within 3-5 days."
 msgstr ""
-"Ми отримали Ваші світлини, і вони будуть перевірені протягом 3-5 днів."
+"Ми отримали ваші світлини, і вони будуть перевірені протягом 3-5 днів."
 
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.html:27
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.txt:5
@@ -9026,7 +9026,7 @@ msgstr "Додатковий контекст для обраної теми, н
 msgid ""
 "Encourage participation and engagement in your course with discussions."
 msgstr ""
-"Заохочуйте слухачів до активної участі у Вашому курсі за допомогою "
+"Заохочуйте слухачів до активної участі у вашому курсі за допомогою "
 "функціоналу обговорення."
 
 #: openedx/core/djangoapps/django_comment_common/models.py:25
@@ -9140,7 +9140,7 @@ msgid ""
 "<{p}><{strong}>{replier_name}</{strong}> commented on your response to the "
 "post <{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"<{p}><{strong}>{replier_name}</{strong}> залишив коментар до Вашої відповіді"
+"<{p}><{strong}>{replier_name}</{strong}> залишив коментар до вашої відповіді"
 " на допис <{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:32
@@ -9151,7 +9151,7 @@ msgid ""
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
 "<{p}><{strong}>{replier_name}</{strong}> залишив коментар до "
-"<{strong}>{author_name}</{strong}> Вашої відповіді на допис "
+"<{strong}>{author_name}</{strong}> вашої відповіді на допис "
 "<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:46
@@ -9160,7 +9160,7 @@ msgid ""
 "<{p}><{strong}>{replier_name}</{strong}> responded to your post "
 "<{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"<{p}><{strong}>{replier_name}</{strong}> відповів на Ваш допис "
+"<{p}><{strong}>{replier_name}</{strong}> відповів на ваш допис "
 "<{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:65
@@ -9196,7 +9196,7 @@ msgid ""
 "<{p}><{strong}>{replier_name}</{strong}> responded to a post you’re "
 "following: <{strong}>{post_title}</{strong}></{p}>"
 msgstr ""
-"<{p}><{strong}>{replier_name}</{strong}> відповів на допис, за яким Ви "
+"<{p}><{strong}>{replier_name}</{strong}> відповів на допис, за яким ви "
 "слідкуєте: <{strong}>{post_title}</{strong}></{p}>"
 
 #: openedx/core/djangoapps/notifications/base_notification.py:114
@@ -9279,8 +9279,8 @@ msgid ""
 "Notifications for responses and comments on your posts, and the ones you’re "
 "following, including endorsements to your responses and on your posts."
 msgstr ""
-"Сповіщення про відповіді та коментарі до Ваших дописів, а також тих дописів,"
-" на які Ви підписалися, включно з вподобаннями Ваших відповідей та "
+"Сповіщення про відповіді та коментарі до ваших дописів, а також тих дописів,"
+" на які ви підписалися, включно з вподобаннями ваших відповідей та "
 "публікацій."
 
 #: openedx/core/djangoapps/notifications/base_notification.py:266
@@ -9472,7 +9472,7 @@ msgid ""
 "keep your data safe."
 msgstr ""
 "{strong_tag_open}Нещодавно ми змінили вимоги до пароля {strong_tag_close} "
-"{break_line_tag} Ваш поточний пароль не відповідає новим вимогам безпеки. Ми"
+"{break_line_tag} ваш поточний пароль не відповідає новим вимогам безпеки. Ми"
 " надіслали повідомлення про зміну паролю на адресу електронної пошти, "
 "пов’язану з цим аккаунтом. Дякуємо що допомагаєте нам зберегти ваші дані"
 
@@ -9545,7 +9545,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/programs/models.py:41
 msgid "Program UUID"
-msgstr "UUID do Programa"
+msgstr "UUID програми"
 
 #: openedx/core/djangoapps/programs/models.py:45
 msgid "If disabled, the LTI in the associated program will be disabled."
@@ -9668,7 +9668,7 @@ msgid ""
 "in the end!"
 msgstr ""
 "З самостійними курсами ви вчитеметесь за власним розкладом. Ми рекомендуємо "
-"Вам проводити час з курсом щотижня. Ваша зосереджена увага в кінцевому "
+"вам проводити час з курсом щотижня. Ваша зосереджена увага в кінцевому "
 "підсумку окупиться!"
 
 #: openedx/core/djangoapps/schedules/templates/schedules/edx_ace/courseupdate/email/subject.txt:4
@@ -9987,7 +9987,7 @@ msgid ""
 "The password you entered is on a list of known compromised passwords. Please"
 " choose a different one."
 msgstr ""
-"Введений Вами пароль є у списку вкрадених зловмисниками. Будь ласка, оберіть"
+"Введений вами пароль є у списку вкрадених зловмисниками. Будь ласка, оберіть"
 " інший."
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:72
@@ -10026,7 +10026,7 @@ msgstr "Введіть своє ім’я"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:98
 msgid "Enter your last name"
-msgstr "Введіть Ваше прізвище"
+msgstr "Введіть ваше прізвище"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:99
 msgid "The email addresses do not match"
@@ -10034,43 +10034,43 @@ msgstr "Електронні адреси не збігаються"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:100
 msgid "Enter your confirm email"
-msgstr "Введіть Вашу адресу електронної пошти для підтвердження"
+msgstr "Введіть вашу адресу електронної пошти для підтвердження"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:101
 msgid "Select your country or region of residence"
-msgstr "Оберіть Вашу країну чи регіон проживання"
+msgstr "Оберіть вашу країну чи регіон проживання"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:102
 msgid "Select your profession"
-msgstr "Виберіть Вашу професію"
+msgstr "Виберіть вашу професію"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:103
 msgid "Select your specialty"
-msgstr "Виберіть Вашу спеціальність"
+msgstr "Виберіть вашу спеціальність"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:104
 msgid "Enter your profession"
-msgstr "Введіть Вашу професію"
+msgstr "Введіть вашу професію"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:105
 msgid "Enter your specialty"
-msgstr "Введіть Вашу спеціальність"
+msgstr "Введіть вашу спеціальність"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:106
 msgid "Enter your state"
-msgstr "Введіть Вашу область/штат"
+msgstr "Введіть вашу область/штат"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:107
 msgid "Enter your city"
-msgstr "Введіть Ваше місто"
+msgstr "Введіть ваше місто"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:108
 msgid "Tell us your goals"
-msgstr "Розкажіть нам про Вашу навчальну мету"
+msgstr "Розкажіть нам про вашу навчальну мету"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:109
 msgid "Select the highest level of education you have completed"
-msgstr "Виберіть найвищий рівень освіти, що Ви отримали"
+msgstr "Виберіть найвищий рівень освіти, що ви отримали"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:110
 msgid "Select your year of birth"
@@ -10082,14 +10082,14 @@ msgstr "Виберіть стать"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:112
 msgid "Enter your mailing address"
-msgstr "Введіть Вашу адресу проживання."
+msgstr "Введіть вашу адресу проживання."
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:116
 msgid ""
 "Our system detected that your password is vulnerable. Change your password "
 "so that your account stays secure."
 msgstr ""
-"Наша система визначила, що Ваш пароль є вразливим. Змініть пароль, щоб Ваш "
+"Наша система визначила, що ваш пароль є вразливим. Змініть пароль, щоб ваш "
 "обліковий запис залишався захищеним."
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:119
@@ -10097,7 +10097,7 @@ msgid ""
 "Our system detected that your password is vulnerable. We recommend you "
 "change it so that your account stays secure."
 msgstr ""
-"Наша система визначила, що Ваш пароль є вразливим. Змініть пароль, щоб Ваш "
+"Наша система визначила, що ваш пароль є вразливим. Змініть пароль, щоб ваш "
 "обліковий запис залишався захищеним."
 
 #: openedx/core/djangoapps/user_api/accounts/api.py:206
@@ -10266,7 +10266,7 @@ msgstr "Ваш обліковий запис було внесено в черг
 #: openedx/core/djangoapps/user_authn/api/form_fields.py:94
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:629
 msgid "Highest level of education completed"
-msgstr "Найвищий рівень освіти, що Ви отримали:"
+msgstr "Найвищий рівень освіти, що ви отримали:"
 
 #. #-#-#-#-#  django.po (0.1a)  #-#-#-#-#
 #. Translators: This label appears above a dropdown menu on the form
@@ -10287,7 +10287,7 @@ msgstr "Рік народження"
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:820
 #, python-brace-format
 msgid "Tell us why you're interested in {platform_name}"
-msgstr "Розкажіть нам, чому Ви зацікавлені в {platform_name}"
+msgstr "Розкажіть нам, чому ви зацікавлені в {platform_name}"
 
 #. Translators: This label appears above a dropdown menu to select
 #. the user's profession
@@ -10536,7 +10536,7 @@ msgid ""
 "As {allowed_domain} user, You must login with your {allowed_domain} "
 "{link_start}{provider} account{link_end}."
 msgstr ""
-"Як користувач {allowed_domain}, Ви маєте увійти за допомогою свого "
+"Як користувач {allowed_domain}, ви маєте увійти за допомогою свого "
 "{allowed_domain} {link_start}{provider} облікового запису{link_end}."
 
 #. Translators: These instructions appear on the login form, immediately
@@ -10549,7 +10549,7 @@ msgstr ""
 #, python-brace-format
 msgid "The email address you used to register with {platform_name}"
 msgstr ""
-"Електронна пошта, яку Ви використовували для реєстрації на {platform_name}"
+"Електронна пошта, яку ви використовували для реєстрації на {platform_name}"
 
 #. Translators: This example email address is used as a placeholder in
 #. a field on the password reset form meant to hold the user's email address.
@@ -10600,7 +10600,7 @@ msgid ""
 "{html_start}Password Creation Complete{html_end}Your password has been "
 "created. {bold_start}{email}{bold_end} is now your primary login email."
 msgstr ""
-"{html_start}Створення Паролю Завершено{html_end} Ваш Пароль був "
+"{html_start}Створення Паролю Завершено{html_end} ваш Пароль був "
 "створений.{bold_start}{email}{bold_end} тепер є основною електронною адресою"
 " для входу"
 
@@ -10617,7 +10617,7 @@ msgid ""
 "An error has occurred. Try refreshing the page, or check your internet "
 "connection."
 msgstr ""
-"Сталася помилка. Оновіть сторінку та перевірте Ваше інтернет з'єднання."
+"Сталася помилка. Оновіть сторінку та перевірте ваше інтернет з'єднання."
 
 #: openedx/core/djangoapps/user_authn/views/register.py:186
 #, python-brace-format
@@ -10750,7 +10750,7 @@ msgstr "Загальнодоступне ім’я користувача"
 msgid ""
 "The name that will identify you in your courses. It cannot be changed later."
 msgstr ""
-"Ім'я, за яким Вас будуть ідентифікувати на курсах. Його неможливо змінити "
+"Ім'я, за яким вас будуть ідентифікувати на курсах. Його неможливо змінити "
 "пізніше."
 
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:702
@@ -10763,14 +10763,14 @@ msgstr ""
 #. form used to select the country in which the user lives.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:967
 msgid "Country or Region of Residence"
-msgstr "Країна або регіон, де Ви проживаєте."
+msgstr "Країна або регіон, де ви проживаєте."
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's country.
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:978
 msgid "The country or region where you live."
-msgstr "Країна або регіон, де Ви проживаєте."
+msgstr "Країна або регіон, де ви проживаєте."
 
 #. Translators: This is a legal document users must agree to
 #. in order to register a new account.
@@ -11069,7 +11069,7 @@ msgid ""
 "course, including your progress, on {expiration_date}."
 msgstr ""
 "{strong_open} Завершується Доступ до Аудиту "
-"{expiration_date}{strong_close}{line_break}Ви втрачаєте  весь доступ до "
+"{expiration_date}{strong_close}{line_break}ви втрачаєте  весь доступ до "
 "цього курсу, включаючи ваш прогрес, на {expiration_date}."
 
 #: openedx/features/course_duration_limits/access.py:167
@@ -11174,7 +11174,7 @@ msgid ""
 "{link_start}visit the {enterprise_name} dashboard{link_end}."
 msgstr ""
 "Ви маєте доступ до консолі {bold_start}{enterprise_name}{bold_end}. Щоб "
-"отримати відвідати курси, до яких Вам надано доступ через {enterprise_name},"
+"отримати відвідати курси, до яких вам надано доступ через {enterprise_name},"
 " {link_start}відвідайте консоль {enterprise_name}{link_end}."
 
 #: openedx/features/enterprise_support/api.py:1004
@@ -12339,7 +12339,7 @@ msgid ""
 msgstr ""
 "Повідомлення, яке показується учням, коли не всі умови виконуються для "
 "показу змісту цього умовного блоку. Додайте {link} до тексту повідомлення, "
-"щоб дати учням пряме посилання на потрібні підрозділи. Наприклад, \"Ви "
+"щоб дати учням пряме посилання на потрібні підрозділи. Наприклад, \"ви "
 "повинні виконати {link}, перш ніж отримати доступ до цього розділу\"."
 
 #: xmodule/conditional_block.py:131
@@ -13140,7 +13140,7 @@ msgid ""
 "escalations (e.g. appeals, delayed reviews, etc.)."
 msgstr ""
 "Вимагається, якщо в якості провайдера контрольованих іспитів обрано "
-"Proctortrack. Введіть адресу електронної пошти, через яку з Вами може "
+"Proctortrack. Введіть адресу електронної пошти, через яку з вами може "
 "зв’язатись служба підтримки при потребі (наприклад, при апеляції, затримці "
 "оцінки, та інших випадках)."
 
@@ -13434,7 +13434,7 @@ msgstr "Найнижчі {drop_count} {section_type} бали були скас�
 #: xmodule/graders.py:433
 #, python-brace-format
 msgid "{section_type} Average = {percent:.2%}"
-msgstr "{section_type} Average = {percent:.2%}"
+msgstr "{section_type}: середнє = {percent:.2%}"
 
 #. Translators: Avg is short for Average
 #: xmodule/graders.py:438
@@ -14206,7 +14206,7 @@ msgid ""
 "Tag this course block as an Entrance Exam. Note, you must enable Entrance "
 "Exams for this course setting to take effect."
 msgstr ""
-"Позначити цей блок курсу в якості вступного іспиту. Зауважте, що Ви повинні "
+"Позначити цей блок курсу в якості вступного іспиту. Зауважте, що ви повинні "
 "активувати вступний іспит на цьому курсі, щоб це налаштування діяло."
 
 #: xmodule/seq_block.py:152
@@ -15260,7 +15260,7 @@ msgid ""
 "The revision being displayed for this plugin.If you need to do a roll-back, "
 "simply change the value of this field."
 msgstr ""
-"Показана версія для даного плагіна. Якщо Вам необхідно зробити відкат, "
+"Показана версія для даного плагіна. Якщо вам необхідно зробити відкат, "
 "просто змініть значення цього поля.  "
 
 #: wiki/models/urlpath.py:42
@@ -15307,7 +15307,7 @@ msgstr ""
 "Статті, які втратили своїх батьків\n"
 "=============================== \n"
 "\n"
-"У нащадків цієї статті були видалені батьки. Напевно, Вам слід знайти їм новий будинок."
+"У нащадків цієї статті були видалені батьки. Напевно, вам слід знайти їм новий будинок."
 
 #: wiki/models/urlpath.py:267
 msgid "Lost and found"
@@ -17036,7 +17036,7 @@ msgid ""
 "course syllabus, and a course calendar. "
 msgstr ""
 "Ви можете створювати та редагувати персоналізовані сторінки, щоб надати "
-"студентам додатковий контент курсу. Наприклад, Ви можете створити сторінки "
+"студентам додатковий контент курсу. Наприклад, ви можете створити сторінки "
 "для політики оцінювання, програми курсу та календаря курсу."
 
 #: cms/templates/edit-tabs.html:192
@@ -17049,7 +17049,7 @@ msgid ""
 " pages."
 msgstr ""
 "Персоналізовані сторінки внесено до горизонтального списку у верхній частині"
-" Вашого курсу, одразу після стандартних сторінок."
+" вашого курсу, одразу після стандартних сторінок."
 
 #: cms/templates/edit-tabs.html:202
 msgid "Pages in Your Course"
@@ -17149,10 +17149,10 @@ msgid ""
 "contains the course structure and content. You can also re-import courses "
 "that you've exported."
 msgstr ""
-"You can export courses and edit them outside of {studio_name}. The exported "
-"file is a .tar.gz file (that is, a .tar file compressed with GNU Zip) that "
-"contains the course structure and content. You can also re-import courses "
-"that you've exported."
+"Ви можете експортувати курси та редагувати їх поза {studio_name}. "
+"Експортований файл — це файл .tar.gz (тобто файл .tar, стиснутий за "
+"допомогою GNU Zip), що містить структуру та вміст курсу. Експортовані курси "
+"також можна повторно імпортувати."
 
 #: cms/templates/export.html:74
 #, python-brace-format
@@ -17588,7 +17588,7 @@ msgstr " {studio_name}'s Багато особливостей"
 #: cms/templates/howitworks.html:40 cms/templates/howitworks.html:41
 #, python-brace-format
 msgid "{studio_name} Helps You Keep Your Courses Organized"
-msgstr "{studio_name} Допомагає Вам Організовувати Свої Курси"
+msgstr "{studio_name} Допомагає вам Організовувати Свої Курси"
 
 #: cms/templates/howitworks.html:43 cms/templates/howitworks.html:88
 #: cms/templates/howitworks.html:122
@@ -17708,7 +17708,7 @@ msgid ""
 "{studio_name} Gives You Simple, Fast, and Incremental Publishing. With "
 "Friends."
 msgstr ""
-"{studio_name} Дає Вам Просте, Швидке та Інкрементне Видання. З друзями."
+"{studio_name} Дає вам Просте, Швидке та Інкрементне Видання. З друзями."
 
 #: cms/templates/howitworks.html:128
 msgid "Simple, Fast, and Incremental Publishing. With Friends."
@@ -17783,7 +17783,7 @@ msgstr "Вже маєте обліковий запис у {studio_name}? Авт
 
 #: cms/templates/howitworks.html:177
 msgid "Outlining Your Course"
-msgstr "Викладання Вашого Курсу"
+msgstr "Викладання вашого Курсу"
 
 #: cms/templates/howitworks.html:180
 msgid ""
@@ -17853,7 +17853,7 @@ msgid ""
 "copy of it."
 msgstr ""
 "Переконайтеся, що дійсно хочете імпортувати бібліотеку. Контент імпортованої"
-" бібліотеки замінить контент наявної. {em_start}Ви не можете скасувати "
+" бібліотеки замінить контент наявної. {em_start}ви не можете скасувати "
 "імпорт бібліотеки.{em_end}. Тому ми рекомендуємо спершу експортувати поточну"
 " бібліотеку, щоб мати її резервну копію."
 
@@ -17889,7 +17889,7 @@ msgid ""
 " of it."
 msgstr ""
 "Переконатеся, що дійсно хочете імпортувати курс. Контент імпортованого курсу"
-" замінить контент існуючого. {em_start}Ви не можете скасувати імпорт "
+" замінить контент існуючого. {em_start}ви не можете скасувати імпорт "
 "курсу.{em_end}. Тому ми рекомендуємо спершу експортувати поточний курс, щоб "
 "мати його резервну копію."
 
@@ -17919,7 +17919,7 @@ msgstr ""
 
 #: cms/templates/import.html:67
 msgid "Select a .tar.gz File to Replace Your Library Content"
-msgstr "Виберіть файл .tar.gz, щоб Замінити Контент Вашої Бібліотеки"
+msgstr "Виберіть файл .tar.gz, щоб Замінити Контент вашої Бібліотеки"
 
 #: cms/templates/import.html:69
 msgid "Select a .tar.gz or .zip File to Replace Your Course Content"
@@ -19023,7 +19023,7 @@ msgid ""
 "that you set has elapsed."
 msgstr ""
 "Слухачі, що отримали прохідний бал можуть отримати доступ до свого "
-"сертифікату у встановлений Вами термін."
+"сертифікату у встановлений вами термін."
 
 #: cms/templates/settings.html:292
 msgid "Certificates Available Date"
@@ -19871,7 +19871,7 @@ msgstr ""
 #: cms/templates/emails/user_task_complete_email.txt:21
 msgid "Here are some validations we found with your course content."
 msgstr ""
-"Ось деякі результати перевірки даних, які було знайдено в контенті Вашого "
+"Ось деякі результати перевірки даних, які було знайдено в контенті вашого "
 "курсу."
 
 #: cms/templates/emails/user_task_complete_email.txt:24
@@ -20441,7 +20441,7 @@ msgstr "Проблеми з завантаженням курсу"
 
 #: lms/templates/dashboard.html:283
 msgid "Search Your Courses"
-msgstr "Знайти Ваші курси"
+msgstr "Знайти ваші курси"
 
 #: lms/templates/dashboard.html:289
 msgid "Clear search"
@@ -20724,7 +20724,7 @@ msgstr ""
 
 #: lms/templates/lti.html:62
 msgid "Feedback on your work from the grader:"
-msgstr "Відгук оцінюючого про Вашу роботу:"
+msgstr "Відгук оцінюючого про вашу роботу:"
 
 #: lms/templates/lti_form.html:29
 msgid "Press to Launch"
@@ -20967,7 +20967,7 @@ msgid ""
 "You have re-enabled forum notification emails from {platform_name}. You may "
 "{dashboard_link_start}return to your dashboard{link_end}."
 msgstr ""
-"Ви увімкнули повідомлення з форуму на Ваш email з {platform_name}. Ви можете"
+"Ви увімкнули повідомлення з форуму на ваш email з {platform_name}. Ви можете"
 " повернутися до {dashboard_link_start}панелі управління{link_end}."
 
 #: lms/templates/secondary_email_change_failed.html:11
@@ -21036,7 +21036,7 @@ msgstr "наприклад: вашеім'я (відображається на �
 
 #: lms/templates/signup_modal.html:51 lms/templates/signup_modal.html:70
 msgid "e.g. Your Name (for certificates)"
-msgstr "наприклад: Ваше Ім'я (для сертифікатів)"
+msgstr "наприклад: ваше Ім'я (для сертифікатів)"
 
 #: lms/templates/signup_modal.html:53
 #, python-brace-format
@@ -21271,7 +21271,7 @@ msgid ""
 msgstr ""
 "Ви більше не будете отримувати повідомлення з форуму {platform_name}. "
 "Натисніть {dashboard_link_start} тут, {link_end} щоб повернутися до панелі "
-"управління. Якщо Ви відмовилися від підписки випадково, натисніть "
+"управління. Якщо ви відмовилися від підписки випадково, натисніть "
 "{undo_link_start} тут, {link_end} щоб знову активувати повідомлення."
 
 #: lms/templates/header/user_dropdown.html:32
@@ -21406,7 +21406,7 @@ msgstr "Завантажити матеріали"
 
 #: lms/templates/video.html:170
 msgid "How is the transcript quality ?"
-msgstr "Як Вам якість транскрибування?"
+msgstr "Як вам якість транскрибування?"
 
 #: lms/templates/word_cloud.html:29
 #, python-brace-format
@@ -21568,12 +21568,12 @@ msgstr ""
 " стороною, від імені якої ви отримуєте доступ або використовуєте API та  "
 "{platform_name}. У випадку, якщо у вас є така угода, яка застосовується у "
 "використанні APIs, ця Угода буде контролюватись у разі будь-якого конфлікту "
-"між ним і цими Умовами.  Отримавши доступ або скориставшись API, Ви "
+"між ним і цими Умовами.  Отримавши доступ або скориставшись API, ви "
 "приймаєте та погоджуєтеся бути юридично зобов'язаними Умовами, незалежно від"
-" того, чи є Ви зареєстрованим користувачем.  Якщо ви здійснюєте доступ або "
+" того, чи є ви зареєстрованим користувачем.  Якщо ви здійснюєте доступ або "
 "використовуєте API від імені компанії, організації або іншої юридичної "
 "особи, ви погоджуєтеся з цими Умовами для цього суб'єкта, а також "
-"представляєте та гарантуєте {platform_name}  що Ви маєте повноваження "
+"представляєте та гарантуєте {platform_name}  що ви маєте повноваження "
 "приймати та погоджуватися з цими Умовами для такого суб'єкта, у цьому "
 "випадку терміни \"ви\", \"ваші\" або пов'язані з ним терміни в цьому "
 "документі посилаються на цю особу від імені якого ви отримуєте доступ або "
@@ -21634,7 +21634,7 @@ msgstr ""
 "Ви погоджуєтеся використовувати API лише з метою доставки вмісту, доступ до "
 "якого здійснюється через API (\"API Контент \") на ваш власний веб-сайт, "
 "веб-сайт для мобільних пристроїв, додаток, блог, список розсилки електронної"
-" пошти або властивість соціальних медіа (\"Ваша програма\") або для іншого "
+" пошти або властивість соціальних медіа (\"ваша програма\") або для іншого "
 "комерційного використання , що ви описали у своєму запиті для  доступу, і що"
 " {platform_name} схвалено на індивідаульній основі.  "
 "{platform_name_capitalized} може контролювати ваше використання APIs для "
@@ -21754,7 +21754,7 @@ msgid ""
 msgstr ""
 "{platform_name_capitalized} залишає за собою право,  в цьому розсуді,  "
 "накласти обґрунтовані обмеження та обмеження на кількість та частоту "
-"дзвінків, що здійснюються вами або Ваш додаток до API. Ви не повинні "
+"дзвінків, що здійснюються вами або ваш додаток до API. Ви не повинні "
 "намагатися обійти будь-які обмеження або обмеження, що накладаються "
 "{platform_name}."
 
@@ -21881,7 +21881,7 @@ msgstr ""
 "Ви погоджуєтеся дотримуватися всіх відповідних  законів та правил щодо "
 "конфіденційності, а також бути прозорими щодо будь-якого збору та "
 "використання даних кінцевих користувачів.  Ви надасте та дотримуватиметься "
-"політики конфіденційності для Вашого Додатку, яка чітко та точно описує "
+"політики конфіденційності для вашого Додатку, яка чітко та точно описує "
 "ваших кінцевих користувачів, яку інформацію про користувача ви збираєте і як"
 " ви можете використовувати та надавати таку інформацію (у тому числі для "
 "реклами) з {platform_name} та іншими третіми особами."
@@ -21973,7 +21973,7 @@ msgstr ""
 "У разі, якщо {platform_name} надасть вам доступ до інформації, специфічної "
 "для {platform_name} та / або APIs, які або позначені як \"Конфіденційні\", "
 "або які розумна особа вважатиме конфіденційною або приватною, враховуючи "
-"умови її розкриття (\"Конфіденційна інформація\"), Ви погоджуєтеся "
+"умови її розкриття (\"Конфіденційна інформація\"), ви погоджуєтеся "
 "використовувати цю інформацію лише для використання та створення з APIs. Ви "
 "не можете розголошувати Конфіденційну Інформацію будь-кому без попередньої "
 "письмової згоди {platform_name}'s  попередньої письмової згоди, і ви "
@@ -22144,7 +22144,7 @@ msgstr ""
 "виникають внаслідок будь-яких претензій, збитків, (фактичний і послідовний),"
 " судів, судових витрат і зборів адвокатів будь-якого роду і характеру. У "
 "такому випадку, {platform_name} або один із Учасників {platform_name} "
-"надасть Вам письмове повідомлення про таку претензію, дії або вимогу."
+"надасть вам письмове повідомлення про таку претензію, дії або вимогу."
 
 #: lms/templates/api_admin/terms_of_service.html:98
 msgid "General Legal Terms"
@@ -22167,7 +22167,7 @@ msgid ""
 "you by {platform_name} under these Terms, {platform_name} may notify you via"
 " the email address associated with your {platform_name} account."
 msgstr ""
-"Ці Умови складають повну угоду між Вами та {platform_name} стосовно вашого "
+"Ці Умови складають повну угоду між вами та {platform_name} стосовно вашого "
 "використання  APIs та AP Контенту, витісняє будь-які попередні угоди між "
 "вами та {platform_name} щодо використання API та API Контенту. Нездатність "
 "{platform_name} здійснити або забезпечити виконання будь-яких прав або "
@@ -22270,7 +22270,7 @@ msgstr ""
 "систем і серверів якомога швидше. Усі положення цих Умов, які за своєю "
 "природою повинні утримуватися після припинення дії, залишаються чинними, "
 "включаючи, без обмежень, положення про власність, відмову від гарантій та "
-"обмеження відповідальності. Припинення Вашого доступу та використання API та"
+"обмеження відповідальності. Припинення вашого доступу та використання API та"
 " API Контенту не звільняє вас від будь-яких зобов'язань, що виникають, або "
 "нарахування до такого припинення або обмеження будь-якої відповідальності, "
 "яку ви, можливо, маєте на {platform_name}, включаючи, без обмежень, будь-які"
@@ -22769,7 +22769,7 @@ msgstr "Завантажити оцінки студента"
 
 #: lms/templates/certificates/_accomplishment-banner.html:50
 msgid "Print or share your certificate:"
-msgstr "Надрукувати або поділитись Вашим сертифікатом:"
+msgstr "Надрукувати або поділитись вашим сертифікатом:"
 
 #: lms/templates/certificates/_accomplishment-banner.html:56
 msgid "Post on Facebook"
@@ -22900,7 +22900,7 @@ msgstr "Помилка при записі на {course_name}"
 
 #: lms/templates/course_modes/error.html:24
 msgid "Sorry, we were unable to enroll you in"
-msgstr "Вибачте, нам не вдалось записати Вас на"
+msgstr "Вибачте, нам не вдалось записати вас на"
 
 #: lms/templates/course_modes/error.html:29
 msgid "Explore all courses on edX"
@@ -22918,7 +22918,7 @@ msgid ""
 "resumé to advance your career"
 msgstr ""
 "Підкріпіть {link_start}верифікований сертифікат{link_end} про закінчення "
-"курсу до Вашого резюме щоб покращити свій кар’єрний ріст"
+"курсу до вашого резюме щоб покращити свій кар’єрний ріст"
 
 #: lms/templates/course_modes/fbe.html:20
 #, python-brace-format
@@ -22991,7 +22991,7 @@ msgstr "Записатися на {course_name} | Перейти на повну
 
 #: lms/templates/course_modes/track_selection.html:92
 msgid "Choose a path for your course in"
-msgstr "Обрати план Вашого навчання в рамках курсу "
+msgstr "Обрати план вашого навчання в рамках курсу "
 
 #: lms/templates/course_modes/track_selection.html:114
 msgid "Earn a certificate"
@@ -23105,11 +23105,11 @@ msgstr "Пройти курс {platform} онлайн"
 #: lms/templates/courseware/course_about_sidebar_header.html:52
 #: themes/stanford-style/lms/templates/courseware/course_about_sidebar_header.html:10
 msgid "Tweet that you've enrolled in this course"
-msgstr "Поділіться у Twitter тим, що Ви зареєструвались на цей курс"
+msgstr "Поділіться у Twitter тим, що ви зареєструвались на цей курс"
 
 #: lms/templates/courseware/course_about_sidebar_header.html:55
 msgid "Post a Facebook message to say you've enrolled in this course"
-msgstr "Напишіть у Facebook, що Ви записались на цей курс"
+msgstr "Напишіть у Facebook, що ви записались на цей курс"
 
 #: lms/templates/courseware/course_about_sidebar_header.html:58
 #: themes/stanford-style/lms/templates/courseware/course_about_sidebar_header.html:13
@@ -23485,7 +23485,7 @@ msgid ""
 "You were most recently in {section_link}.  If you're done with that, choose "
 "another section on the left."
 msgstr ""
-"Востаннє Ви були в розділі {section_link}. Якщо Ви закінчили, виберіть інший"
+"Востаннє ви були в розділі {section_link}. Якщо ви закінчили, виберіть інший"
 " розділ зліва."
 
 #: lms/templates/credit_notifications/credit_eligibility_email.html:34
@@ -23812,10 +23812,10 @@ msgid ""
 "assignments, and earn a {link_start}verified certificate{link_end} to "
 "showcase on your resumé."
 msgstr ""
-"{start_bold}Отримайте максимум користі від Вашого курсу!{end_bold} Перейдіть"
+"{start_bold}Отримайте максимум користі від вашого курсу!{end_bold} Перейдіть"
 " на повну версію щоб отримати доступ до усіх матеріалів курсу, розблокувати "
 "оцінювані та неоцінювані самостійні завдання, а також отримати {link_start}верифікований"
-" сертифікат{link_end}, який можна долучити до Вашого резюме."
+" сертифікат{link_end}, який можна долучити до вашого резюме."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:396
 #, python-brace-format
@@ -23823,9 +23823,9 @@ msgid ""
 "{start_bold}Get the most out of your course!{end_bold} Upgrade to earn a "
 "{link_start}verified certificate{link_end} to showcase on your resumé."
 msgstr ""
-"{start_bold}Отримайте максимум користі від Вашого курсу!{end_bold} Перейдіть"
+"{start_bold}Отримайте максимум користі від вашого курсу!{end_bold} Перейдіть"
 " на повну версію щоб отримати {link_start}верифікований сертифікат{link_end}, який можна долучити "
-"до Вашого резюме."
+"до вашого резюме."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:411
 msgid "Upgrade"
@@ -24215,7 +24215,7 @@ msgstr "Показати нотатки"
 
 #: lms/templates/emails/business_order_confirmation_email.txt:7
 msgid "Thank you for your purchase of "
-msgstr "Дякуємо Вам за покупку"
+msgstr "Дякуємо вам за покупку"
 
 #: lms/templates/emails/business_order_confirmation_email.txt:10
 msgid "Your payment was successful."
@@ -24345,7 +24345,7 @@ msgid ""
 "To enroll in {course_names} we have provided a registration URL for you.  "
 "Please follow the instructions below to claim your access."
 msgstr ""
-"Для реєстрації на курсі {course_names} ми підготували посилання для Вас. "
+"Для реєстрації на курсі {course_names} ми підготували посилання для вас. "
 "Будь ласка, виконайте інструкції нижче, щоб отримати доступ."
 
 #. Translators: please translate the text inside [[ ]]. This is meant as a
@@ -24395,7 +24395,7 @@ msgstr "(5) Вміст курсу буде недоступним до дати 
 #. tags in place.
 #: lms/templates/emails/business_order_confirmation_email.txt:103
 msgid "<p>Sincerely,</p><p>[[Your Signature]]</p>"
-msgstr "<p>З повагою,</p><p>[[Ваш підпис]]</p>"
+msgstr "<p>З повагою,</p><p>[[ваш підпис]]</p>"
 
 #: lms/templates/emails/failed_verification_email.txt:4
 msgid ""
@@ -24529,7 +24529,7 @@ msgstr ""
 
 #: lms/templates/emails/reverification_processed.txt:14
 msgid "To try to verify your identity again, select the following link:"
-msgstr "Щоб спробувати підтвердити Вашу особу знову, виберіть посилання:"
+msgstr "Щоб спробувати підтвердити вашу особу знову, виберіть посилання:"
 
 #: lms/templates/emails/reverification_processed.txt:18
 #, python-brace-format
@@ -24567,7 +24567,7 @@ msgstr "Дякую,"
 #: themes/stanford-style/lms/templates/embargo/default_enrollment.html:4
 #: themes/stanford-style/lms/templates/static_templates/embargo.html:8
 msgid "This Course Unavailable In Your Country"
-msgstr "Даний курс недоступний для Вашої країни"
+msgstr "Даний курс недоступний для вашої країни"
 
 #: lms/templates/embargo/default_courseware.html:9
 #, python-brace-format
@@ -24698,7 +24698,7 @@ msgid ""
 "{begin_strong}Warning:{end_strong} Your browser is not fully supported. We "
 "strongly recommend using {chrome_link} or {ff_link}."
 msgstr ""
-"{begin_strong}Увага:{end_strong} Ваш браузер не повністю підтримується. Ми "
+"{begin_strong}Увага:{end_strong} ваш браузер не повністю підтримується. Ми "
 "дуже рекомендуємо використовувати {chrome_link} або {ff_link}."
 
 #: lms/templates/header/navbar-authenticated.html:51
@@ -25355,7 +25355,7 @@ msgid ""
 " a particular student."
 msgstr ""
 "У цьому розділі ви можете продовжити терміни здачі для окремих підрозділів "
-"окремим студентам. Зверніть увагу, що завжди береться остання дата; Ви не "
+"окремим студентам. Зверніть увагу, що завжди береться остання дата; ви не "
 "можете використовувати цей інструмент, щоб виконати завдання, призначене "
 "раніше для конкретного студента."
 
@@ -26555,7 +26555,7 @@ msgstr ""
 "\n"
 "{p_tag} У вас поки немає завдань взаємного оцінювання, які необхідно перевірити. Для того, щоб отримати такі завдання: \n"
 "{ul_tag}  \n"
-"{li_tag} Ви повинні відправити відповідь на завдання, що підлягає взаємній перевірці. {end_li_tag}  \n"
+"{li_tag} ви повинні відправити відповідь на завдання, що підлягає взаємній перевірці. {end_li_tag}  \n"
 "{li_tag} Викладач повинен оцінити роботи, що допомагають краще зрозуміти критерії оцінки. {end_li_tag}  \n"
 "{li_tag} Повинні бути здані на перевірку роботи інших студентів. {end_li_tag}  \n"
 "{end_ul_tag}  \n"
@@ -26667,7 +26667,7 @@ msgid ""
 "You will now be shown a series of instructor-scored essays, and will be "
 "asked to score them yourself."
 msgstr ""
-"Тепер Вам буде показана серія есе, оцінених викладачами, і Вас попросять "
+"Тепер вам буде показана серія есе, оцінених викладачами, і вас попросять "
 "проставити бали самостійно."
 
 #: lms/templates/peer_grading/peer_grading_problem.html:83
@@ -26675,7 +26675,7 @@ msgid ""
 "Once you can score the essays similarly to an instructor, you will be ready "
 "to grade your peers."
 msgstr ""
-"Як тільки Ви зможете проставляти бали подібно викладачеві, Ви будете готові "
+"Як тільки ви зможете проставляти бали подібно викладачеві, ви будете готові "
 "оцінювати інших студентів."
 
 #: lms/templates/peer_grading/peer_grading_problem.html:84
@@ -26759,7 +26759,7 @@ msgid ""
 "We've e-mailed you instructions for setting your password to the e-mail "
 "address you submitted. You should be receiving it shortly."
 msgstr ""
-"Ми відправили інструкції, як встановити пароль на e-mail, який Ви вказали. "
+"Ми відправили інструкції, як встановити пароль на e-mail, який ви вказали. "
 "Ви отримаєте їх незабаром."
 
 #: lms/templates/static_templates/404.html:21
@@ -26768,7 +26768,7 @@ msgid ""
 "The page that you were looking for was not found. Go back to the "
 "{link_start}homepage{link_end} ."
 msgstr ""
-"Сторінка, яку Ви шукали, не знайдена. Поверніться до {link_start}домашньої "
+"Сторінка, яку ви шукали, не знайдена. Поверніться до {link_start}домашньої "
 "сторінки{link_end} ."
 
 #: lms/templates/static_templates/429.html:9
@@ -26934,7 +26934,7 @@ msgstr ""
 "Ви будете мати доступ до курсу одразу, як ви заповните наступну форму. Поля,"
 " які відмічені зірочкою (*) - обов'язкові для заповнення. Ця інформація буде"
 " використовуватися тільки {platform_name} і не буде відображена ніяким чином"
-" у Вашому профілі."
+" у вашому профілі."
 
 #: lms/templates/survey/survey.html:42
 msgid "You are missing the following required fields:"
@@ -26954,8 +26954,8 @@ msgid ""
 "and future students. The more we know about your specific needs, the better "
 "we can make your course experience."
 msgstr ""
-"Ми використовуємо інформацію, яку Ви надали, для покращення курсу як для "
-"поточних так і для майбутніх студентів. Чим більше ми знаємо про Ваші "
+"Ми використовуємо інформацію, яку ви надали, для покращення курсу як для "
+"поточних так і для майбутніх студентів. Чим більше ми знаємо про ваші "
 "специфічні вимоги, тим краще ми можемо зробити цей курс."
 
 #: lms/templates/survey/survey.html:65
@@ -26968,7 +26968,7 @@ msgid ""
 "If you have any questions about this course or this form, you can contact "
 "{link_start}{mail_to_link}{link_end}."
 msgstr ""
-"Якщо у Вас є питання про цей курс або цю форму, зв'яжіться з нами за адресою"
+"Якщо у вас є питання про цей курс або цю форму, зв'яжіться з нами за адресою"
 " {link_start}{mail_to_link}{link_end}."
 
 #: lms/templates/ux/reference/bootstrap/course-skeleton.html:39
@@ -27083,7 +27083,7 @@ msgstr "Ви не можете пройти перевірку особисто�
 
 #: lms/templates/verify_student/reverify_not_allowed.html:25
 msgid "Return to Your Dashboard"
-msgstr "Повернутися до Вашої Панелі управління"
+msgstr "Повернутися до вашої Панелі управління"
 
 #: lms/templates/widgets/cookie-consent.html:20
 msgid ""
@@ -27108,12 +27108,12 @@ msgstr "Дізнатися більше"
 #: lms/templates/wiki/includes/article_menu.html:42
 #, python-brace-format
 msgid "{span_start}(active){span_end}"
-msgstr "{span_start}(active){span_end}"
+msgstr "{span_start}(активний){span_end}"
 
 #: lms/templates/wiki/includes/article_menu.html:58
 #, python-brace-format
 msgid "{span_start}active{span_end}"
-msgstr "{span_start}active{span_end}"
+msgstr "{span_start}активний{span_end}"
 
 #: lms/templates/wiki/includes/breadcrumbs.html:10
 msgid "Course Wiki"
@@ -27332,13 +27332,13 @@ msgstr "Оновити мою обліковий запис на {platform_name}
 
 #: themes/stanford-style/lms/templates/register-shib.html:80
 msgid "Processing your account information"
-msgstr "Обробка даних Вашого облікового запису"
+msgstr "Обробка даних вашого облікового запису"
 
 #: themes/stanford-style/lms/templates/register-shib.html:88
 #, python-brace-format
 msgid "Welcome {username}!  Please set your preferences below"
 msgstr ""
-"Ласкаво просимо, {username}! Будь ласка, вкажіть Ваші налаштування нижче"
+"Ласкаво просимо, {username}! Будь ласка, вкажіть ваші налаштування нижче"
 
 #: themes/stanford-style/lms/templates/register-shib.html:109
 #, python-brace-format
@@ -27424,9 +27424,9 @@ msgid ""
 " any more email from us. Please do not reply to this e-mail; if you require "
 "assistance, check the about section of the {platform_name} Courses web site."
 msgstr ""
-"Якщо Ви не робили такого запиту, подальших дій не потрібно; ви більше не "
+"Якщо ви не робили такого запиту, подальших дій не потрібно; ви більше не "
 "будете отримувати від нас повідомлень. Будь ласка, не відповідайте на це "
-"повідомлення; якщо Вам потрібна допомога, загляньте на сторінку \"Поширені "
+"повідомлення; якщо вам потрібна допомога, загляньте на сторінку \"Поширені "
 "питання\" сайту {platform_name}."
 
 #: themes/stanford-style/lms/templates/emails/confirm_email_change.txt:2
@@ -27498,3 +27498,448 @@ msgstr "Таблиця лідерів"
 #: templates/timed_exam/submitted.html:34
 msgid "Return to the course outline"
 msgstr "Повернутися до структури курсу"
+
+#. VSO-1194: edx-platform (django)
+msgid ""
+"\n"
+"                            There’s still time to reach your goal\n"
+"                        "
+msgstr ""
+"\n"
+"                            У вас ще є час досягти своєї мети\n"
+"                        "
+
+#. VSO-1194: edx-platform (django)
+msgid ""
+"\n"
+"                                You set a goal of learning "
+"{start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. "
+"You’re not quite there, but there's still time to reach that goal!\n"
+"                                "
+msgid_plural ""
+"\n"
+"                                You set a goal of learning "
+"{start_bold}%(days_per_week)s times a week in %(course_name)s{end_bold}. "
+"You're not quite there, but there's still time to reach that goal!\n"
+"                            "
+msgstr[0] ""
+"\n"
+"                                Ви поставили собі мету навчатися "
+"{start_bold}%(days_per_week)s раз на тиждень у курсі "
+"%(course_name)s{end_bold}. Ви ще не досягли її, але ще є час це зробити!\n"
+"                                "
+msgstr[1] ""
+"\n"
+"                                Ви поставили собі мету навчатися "
+"{start_bold}%(days_per_week)s рази на тиждень у курсі "
+"%(course_name)s{end_bold}. Ви ще не досягли її, але ще є час це зробити!\n"
+"                            "
+msgstr[2] ""
+"\n"
+"                                Ви поставили собі мету навчатися "
+"{start_bold}%(days_per_week)s разів на тиждень у курсі "
+"%(course_name)s{end_bold}. Ви ще не досягли її, але ще є час це зробити!\n"
+"                            "
+msgstr[3] ""
+"\n"
+"                                Ви поставили собі мету навчатися "
+"{start_bold}%(days_per_week)s рази на тиждень у курсі "
+"%(course_name)s{end_bold}. Ви ще не досягли її, але ще є час це зробити!\n"
+"                            "
+
+#. VSO-1194: edx-platform (django)
+msgid ""
+"\n"
+"                                Jump back in\n"
+"                            "
+msgstr ""
+"\n"
+"                                Повернутися до навчання\n"
+"                            "
+
+#. VSO-1194: edx-platform (django)
+msgid ""
+"\n"
+"                            Remember, you can always change your learning "
+"goal. The best goal is one that you can stick to.\n"
+"                        "
+msgstr ""
+"\n"
+"                            Пам'ятайте, що ви завжди можете змінити свою "
+"навчальну мету. Найкраща мета — та, якої ви можете дотримуватися.\n"
+"                        "
+
+#. VSO-1194: edx-platform (django)
+msgid ""
+"\n"
+"                            Adjust my goal\n"
+"                        "
+msgstr ""
+"\n"
+"                            Змінити мету\n"
+"                        "
+
+#. VSO-1194: edx-platform (django)
+msgid ""
+"You are not signed in. To see additional course content, {sign_in_link} or "
+"{register_link}, and enroll in this course."
+msgstr ""
+"Ви не увійшли в систему. Щоб побачити додатковий вміст курсу, {sign_in_link} "
+"або {register_link} і запишіться на цей курс."
+
+#. VSO-1194: edx-platform (django)
+msgid "Default Group"
+msgstr "Група за замовчуванням"
+
+#. VSO-1194: edx-platform (django)
+msgid "The notification preference config version is not up to date."
+msgstr "Версія конфігурації налаштувань сповіщень застаріла."
+
+#. VSO-1194: edx-platform (django)
+msgid ""
+"We hope you're enjoying {start_strong}{course_name}{end_strong}! We want to "
+"let you know what you can look forward to in week {week_num}:"
+msgstr ""
+"Сподіваємося, вам подобається курс {start_strong}{course_name}{end_strong}! "
+"Хочемо розповісти, що на вас чекає на тижні {week_num}:"
+
+#. VSO-1194: edx-platform (django)
+msgid ""
+"\n"
+"                Learners will see the selected component:\n"
+"                "
+msgid_plural ""
+"\n"
+"                Learners will see all of the %(num_selected)s selected "
+"components, in random order:\n"
+"                "
+msgstr[0] ""
+"\n"
+"                Учні побачать вибраний компонент:\n"
+"                "
+msgstr[1] ""
+"\n"
+"                Учні побачать усі %(num_selected)s вибрані компоненти у "
+"випадковому порядку:\n"
+"                "
+msgstr[2] ""
+"\n"
+"                Учні побачать усі %(num_selected)s вибраних компонентів у "
+"випадковому порядку:\n"
+"                "
+msgstr[3] ""
+"\n"
+"                Учні побачать усі %(num_selected)s вибраного компонента у "
+"випадковому порядку:\n"
+"                "
+
+#. VSO-1194: edx-platform (django)
+msgid "Components within a library referenced object cannot be edited"
+msgstr ""
+"Компоненти в об'єкті, на який посилається бібліотека, не можна редагувати"
+
+#. VSO-1194: edx-platform (django)
+msgid "{chapter} current chapter"
+msgstr "{chapter}, поточний розділ"
+
+#. VSO-1194: edx-platform (django)
+msgid "{span_start}current section{span_end}"
+msgstr "{span_start}поточний розділ{span_end}"
+
+#. VSO-1194: edx-platform (django)
+msgid "{section_format} due {{date}}"
+msgstr "{section_format}, термін виконання {{date}}"
+
+#. VSO-1194: edx-platform (django)
+msgid "This content is graded"
+msgstr "Цей вміст оцінюється"
+
+#. VSO-1194: edx-platform (django)
+msgid "Course Search"
+msgstr "Пошук по курсу"
+
+#. VSO-1194: edx-platform (django)
+msgid "No content has been added to this course"
+msgstr "До цього курсу ще не додано вмісту"
+
+#. VSO-1194: edx-platform (django)
+msgid ""
+"To access course materials, you must score {required_score}% or higher on "
+"this                     exam. Your current score is {current_score}%."
+msgstr ""
+"Щоб отримати доступ до матеріалів курсу, потрібно набрати {required_score}% "
+"або більше за цей іспит. Ваш поточний результат — {current_score}%."
+
+#. VSO-1194: edx-platform (django)
+msgid "Your score is {current_score}%. You have passed the entrance exam."
+msgstr "Ваш результат — {current_score}%. Ви склали вступний іспит."
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Staff Graded Assignment"
+msgstr "Завдання з оцінюванням персоналом"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "This name appears in the horizontal navigation at the top of the page."
+msgstr "Ця назва відображається в горизонтальній навігації вгорі сторінки."
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid ""
+"Defines the number of points each problem is worth. If the value is not set, "
+"the problem is worth the sum of the option point values."
+msgstr ""
+"Визначає кількість балів за кожне завдання. Якщо значення не задано, "
+"завдання оцінюється сумою балів за варіанти."
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Maximum score"
+msgstr "Максимальний бал"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Maximum grade score given to assignment by staff."
+msgstr "Максимальний бал, який персонал може поставити за завдання."
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Score assigned by non-instructor staff"
+msgstr "Бал, виставлений персоналом (не викладачем)"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Score will need to be approved by instructor before being published."
+msgstr "Перед публікацією бал має затвердити викладач."
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Instructor comment"
+msgstr "Коментар викладача"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Feedback given to student by instructor."
+msgstr "Відгук викладача для учня."
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Annotated SHA1"
+msgstr "SHA1 файлу з примітками"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid ""
+"sha1 of the annotated file uploaded by the instructor for this assignment."
+msgstr "SHA1 файлу з примітками, який викладач завантажив для цього завдання."
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Annotated file name"
+msgstr "Назва файлу з примітками"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "The name of the annotated file uploaded for this assignment."
+msgstr "Назва файлу з примітками, завантаженого для цього завдання."
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Mime type of annotated file"
+msgstr "MIME-тип файлу з примітками"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "The mimetype of the annotated file uploaded for this assignment."
+msgstr "MIME-тип файлу з примітками, завантаженого для цього завдання."
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Timestamp"
+msgstr "Позначка часу"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "When the annotated file was uploaded"
+msgstr "Коли було завантажено файл із примітками"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Solution to the problem to show to the user"
+msgstr "Розв'язок завдання, який буде показано користувачу"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Solution"
+msgstr "Розв'язок"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Upload a different file"
+msgstr "Завантажити інший файл"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Upload your assignment"
+msgstr "Завантажте своє завдання"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "File uploaded"
+msgstr "Файл завантажено"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Your score is <%%= graded.score %%> / <%%= max_score %%>"
+msgstr "Ваш бал: <%%= graded.score %%> / <%%= max_score %%>"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Annotated file from instructor"
+msgstr "Файл із примітками від викладача"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "This assignment has not yet been graded."
+msgstr "Це завдання ще не оцінено."
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Filename"
+msgstr "Назва файлу"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Instructor's comments"
+msgstr "Коментарі викладача"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Annotated"
+msgstr "З примітками"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Awaiting instructor approval"
+msgstr "Очікує затвердження викладачем"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Approve grade"
+msgstr "Затвердити оцінку"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Enter grade"
+msgstr "Ввести оцінку"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Upload annotated file"
+msgstr "Завантажити файл із примітками"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Grade Submissions"
+msgstr "Оцінити роботи"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Download All Submissions"
+msgstr "Завантажити всі роботи"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Loading..."
+msgstr "Завантаження..."
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Staff Debug"
+msgstr "Налагодження для персоналу"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "is_released"
+msgstr "is_released"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "location"
+msgstr "location"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "category"
+msgstr "category"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Enter Grade"
+msgstr "Ввести оцінку"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Grade for %(student_name)s"
+msgstr "Оцінка для %(student_name)s"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Grade:"
+msgstr "Оцінка:"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Comment:"
+msgstr "Коментар:"
+
+#. VSO-1194: edx_sga (no Atlas dir)
+msgid "Remove grade"
+msgstr "Видалити оцінку"
+
+#. VSO-1194: forum (no Atlas dir)
+msgid "Has grammar / spelling issues"
+msgstr "Містить граматичні або орфографічні помилки"
+
+#. VSO-1194: forum (no Atlas dir)
+msgid "Content needs clarity"
+msgstr "Вміст потребує уточнення"
+
+#. VSO-1194: forum (no Atlas dir)
+msgid "Has academic integrity concern"
+msgstr "Є сумніви щодо академічної доброчесності"
+
+#. VSO-1194: forum (no Atlas dir)
+msgid "Has inappropriate language"
+msgstr "Містить неприйнятну лексику"
+
+#. VSO-1194: forum (no Atlas dir)
+msgid "Formatting changes needed"
+msgstr "Потрібно змінити форматування"
+
+#. VSO-1194: forum (no Atlas dir)
+msgid "Post type needs change"
+msgstr "Потрібно змінити тип допису"
+
+#. VSO-1194: forum (no Atlas dir)
+msgid "Contains personally identifiable information"
+msgstr "Містить персональні дані"
+
+#. VSO-1194: forum (no Atlas dir)
+msgid "Violates community guidelines"
+msgstr "Порушує правила спільноти"
+
+#. VSO-1194: organization_email_templates (no Atlas dir)
+msgid "Maximum 128 characters."
+msgstr "Не більше 128 символів."
+
+#. VSO-1194: email_blocklist (no Atlas dir)
+msgid "Only one EmailBlocklistConfiguration instance is allowed."
+msgstr "Дозволено лише один екземпляр EmailBlocklistConfiguration."
+
+#. VSO-1194: edx_when (no Atlas dir)
+msgid "Absolute and relative dates cannot both be used"
+msgstr "Не можна одночасно використовувати абсолютні та відносні дати"
+
+#. VSO-1194: edx_when (no Atlas dir)
+msgid "Override date must be later than policy date"
+msgstr "Дата перевизначення має бути пізнішою за дату політики"
+
+#. VSO-1194: super_csv (no Atlas dir)
+msgid "Failure"
+msgstr "Помилка"
+
+#. VSO-1194: super_csv (no Atlas dir)
+msgid "No Action"
+msgstr "Без дії"
+
+#. VSO-1194: super_csv (no Atlas dir)
+msgid "The CSV file must be under {} bytes"
+msgstr "CSV-файл має бути меншим за {} байтів"
+
+#. VSO-1194: super_csv (no Atlas dir)
+msgid "Missing column: {}"
+msgstr "Відсутній стовпець: {}"
+
+#. VSO-1194: super_csv (no Atlas dir)
+msgid "Checksum mismatch. Required columns cannot be edited: {}"
+msgstr ""
+"Невідповідність контрольної суми. Обов'язкові стовпці не можна редагувати: {}"
+
+#. VSO-1194: super_csv (no Atlas dir)
+msgid "Failed to retrieve file."
+msgstr "Не вдалося отримати файл."
+
+#. VSO-1194: openedxscorm (scormxblock.py; package catalog has a mismatched msgid)
+msgid "Width of iframe (default: 100%)"
+msgstr "Ширина iframe (за замовчуванням: 100%)"
+
+#. VSO-1194: openedxscorm (scormxblock.py)
+msgid ""
+"Width of navigation menu. This assumes that Navigation Menu is enabled. "
+"(default: 30%)"
+msgstr ""
+"Ширина меню навігації. Передбачається, що меню навігації ввімкнено. (за "
+"замовчуванням: 30%)"
+
+#. VSO-1194: invideoquiz (Studio translates display_name.default via the global catalog)
+msgid "In-Video Quiz XBlock"
+msgstr "Тест у відео"

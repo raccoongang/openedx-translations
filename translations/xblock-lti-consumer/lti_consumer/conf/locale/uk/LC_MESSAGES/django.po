@@ -754,7 +754,7 @@ msgstr ""
 
 #: templates/html/lti_1p3_studio.html:53
 msgid "Deep Linking Launch - Configure tool"
-msgstr "Deep Linking Launch - Configure tool"
+msgstr "Запуск Deep Linking — налаштування інструмента"
 
 #: templates/html/lti_launch.html:27
 msgid "Press to Launch"

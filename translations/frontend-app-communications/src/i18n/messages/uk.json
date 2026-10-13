@@ -15,7 +15,7 @@
   "bulk.email.task.alert.recipients": "Ви надсилаєте повідомлення електронної пошти з темою {subject} таким одержувачам:",
   "bulk.email.tool.label": "Електронна пошта",
   "bulk.email.subject.label": "Тема",
-  "bulk.email.form.subject.tip": "",
+  "bulk.email.form.subject.tip": "(Не більше 128 символів)",
   "bulk.email.form.subject.error": "Потрібна тема",
   "bulk.email.body.label": "Тіло листа",
   "bulk.email.form.body.error": "Повідомлення не може бути порожнім",
@@ -32,9 +32,9 @@
   "bulk.email.task.alert.subject": "з темою: {subject}",
   "bulk.email.task.alert.to": "одержувачам:",
   "bulk.email.task.alert.warning": "Це не призведе до створення нового запланованого листа електронної пошти, а замінить поточний вибраний. Перезаписати цей запланований електронний лист?",
-  "bulk.email.pending.tasks.description.one": "",
+  "bulk.email.pending.tasks.description.one": "Щоб переглянути всі завдання в черзі, зокрема листи, перейдіть до&nbsp;",
   "bulk.email.pending.tasks.link": "Інформація про курс",
-  "bulk.email.pending.tasks.description.two": "",
+  "bulk.email.pending.tasks.description.two": "&nbsp;на панелі викладача.",
   "bulk.email.tool.close.modalDialog.button": "Закрити",
   "bulk.email.tool.copy.message.button": "Копіювати до редактора",
   "bulk.email.content.history.table.alert.errorFetchingData": "Під час отримання даних історії електронних листів для цього курсу сталася помилка. Будь-ласка спробуйте пізніше.",
@@ -77,7 +77,7 @@
   "bulk.email.form.recipients.sendLabel": "Відправити",
   "bulk.email.form.recipients.myself": "собі",
   "bulk.email.form.recipients.staff": "Персонал/Адміністратори",
-  "bulk.email.form.mode.label": "",
+  "bulk.email.form.mode.label": "Учні на треку {courseModeName}",
   "bulk.email.form.cohort.label": "Когорта: {cohort}",
   "bulk.email.form.recipients.learners": "Усі учні",
   "bulk.email.form.recipients.error": "Потрібен принаймні один одержувач",
@@ -87,5 +87,6 @@
   "bulk.email.scheduled.emails.table.sendTo": "Відправити",
   "bulk.email.scheduled.emails.table.subject": "Тема",
   "bulk.email.scheduled.emails.table.Author": "Автор",
-  "bulk.email.scheduled.emails.table.confirm.delete": "Ви видаляєте електронний лист, який планується до відправки {date} . Електронний лист не буде надіслано, а планування скасовано. Впевнені що хочете продовжити?"
+  "bulk.email.scheduled.emails.table.confirm.delete": "Ви видаляєте електронний лист, який планується до відправки {date} . Електронний лист не буде надіслано, а планування скасовано. Впевнені що хочете продовжити?",
+  "bulk.email.task.alert.title": "Увага"
 }
