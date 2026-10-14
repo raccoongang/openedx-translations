@@ -82,7 +82,7 @@
   "leanerDashboard.confirmEmailBanner": "Підтвердити зараз",
   "leanerDashboard.confirmEmailTextReminderBanner": "Не забудьте підтвердити свою електронну адресу, щоб продовжувати навчання! {confirmNowButton} .",
   "leanerDashboard.verifiedConfirmEmailButton": "Я підтвердив свою адресу електронної пошти",
-  "leanerDashboard.confirmEmailModalHeader": "Підтвердити Вашу адресу електронної пошти",
+  "leanerDashboard.confirmEmailModalHeader": "Підтвердити вашу адресу електронної пошти",
   "leanerDashboard.confirmEmailModalBody": "Ми надіслали вам електронний лист для підтвердження вашого облікового запису. Перевірте, будь ласка, свою поштову скриньку та натисніть велику червону кнопку, щоб підтвердити та продовжити навчання.",
   "leanerDashboard.confirmEmailImageAlt": "Підтвердити адресу електронної пошти",
   "learner-dash.unenrollConfirm.confirm.header": "Відписатись від курсу?",
@@ -101,8 +101,8 @@
   "learner-dash.courseCard.actions.selectSession": "Обрати Сеанс",
   "learner-dash.courseCard.banners.auditAccessExpired": "Ваш доступ у режимі перегляду до цього курсу завершився.",
   "learner-dash.courseCard.banners.findAnotherCourse": "Знайдіть інший курс",
-  "learner-dash.courseCard.banners.certificateRestricted": "Ваш Сертифікат досягнень утримується до підтвердження того, що його надання не порушує суворі ембарго США щодо Ірану, Куби, Сирії та Судану. Якщо Ви вважаєте, що система помилково ідентифікувала Вас як особу, пов’язану з однією з цих країн, будь ласка, повідомте нас, звернувшись за адресою {supportEmail} .",
-  "learner-dash.courseCard.banners.certificateRestrictedNoEmail": "Ваш Сертифікат досягнень утримується до підтвердження того, що його надання не порушує суворі ембарго США щодо Ірану, Куби, Сирії та Судану. Якщо Ви вважаєте, що система помилково ідентифікувала Вас як особу, пов’язану з однією з цих країн, повідомте нас про це.",
+  "learner-dash.courseCard.banners.certificateRestricted": "Ваш Сертифікат досягнень утримується до підтвердження того, що його надання не порушує суворі ембарго США щодо Ірану, Куби, Сирії та Судану. Якщо ви вважаєте, що система помилково ідентифікувала вас як особу, пов’язану з однією з цих країн, будь ласка, повідомте нас, звернувшись за адресою {supportEmail} .",
+  "learner-dash.courseCard.banners.certificateRestrictedNoEmail": "Ваш Сертифікат досягнень утримується до підтвердження того, що його надання не порушує суворі ембарго США щодо Ірану, Куби, Сирії та Судану. Якщо ви вважаєте, що система помилково ідентифікувала вас як особу, пов’язану з однією з цих країн, повідомте нас про це.",
   "learner-dash.courseCard.banners.certificateRefundContactBilling": "Якщо ви бажаєте отримати відшкодування за свій сертифікат досягнень, зверніться за адресою нашої платіжної служби: {billingEmail}",
   "learner-dash.courseCard.banners.certificateRefundContactBillingNoEmail": "Якщо ви бажаєте отримати відшкодування за свій сертифікат досягнень, зв’яжіться з нами.",
   "learner-dash.courseCard.banners.passingGrade": "Оцінка, необхідна для проходження курсу: {minPassingGrade} ‏%",
@@ -156,5 +156,10 @@
   "enrollmentCodeSidebar.button.enroll": "Записатись",
   "enrollmentCodeSidebar.state.processing": "Обробка...",
   "enrollmentCodeSidebar.state.complete": "Записано на курс",
-  "alertMessagesRenderer.error.studioAccess": "У вас немає доступу до студії."
+  "alertMessagesRenderer.error.studioAccess": "У вас немає доступу до студії.",
+  "learnerDashboard.programCard.courses": "{numCourses, plural, one {# курс} few {# курси} many {# курсів} other {# курсу}}",
+  "learnerDashboard.programCard.duration": "{numWeeks, plural, one {# тиждень} few {# тижні} many {# тижнів} other {# тижня}}",
+  "learnerDashboard.programCard.logoAlt": "Логотип {provider}",
+  "learner-dash.courseCard.relatedProgramsBadge.label.plural": "Пов'язаних програм: {numPrograms}",
+  "learner-dash.courseCard.relatedProgramsBadge.label.singular": "Пов'язаних програм: {numPrograms}"
 }

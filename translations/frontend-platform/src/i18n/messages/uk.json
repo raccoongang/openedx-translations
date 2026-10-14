@@ -1,4 +1,11 @@
 {
   "unexpected.error.message.text": "Сталася неочікувана помилка. Натисніть кнопку нижче, щоб оновити сторінку.",
-  "unexpected.error.button.text": "Спробуйте знову"
+  "unexpected.error.button.text": "Спробуйте знову",
+  "publisherField.label.publisher": "Видавець",
+  "publisherField.text.newSuffix": "(новий)",
+  "publisherField.label.newPrefix": "Новий:",
+  "publisherField.message.enterMoreChars": "Введіть щонайменше {count} {count, plural, one {літеру} few {літери} many {літер} other {літери}}",
+  "publisherField.message.searching": "Пошук...",
+  "phoneNumberField.label.phoneNumber": "Номер телефону",
+  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна, або в URL-адресі є помилка. Перевірте URL-адресу та спробуйте ще раз."
 }

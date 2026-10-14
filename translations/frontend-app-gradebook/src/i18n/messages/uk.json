@@ -26,6 +26,7 @@
   "gradebook.GradebookHeader.toGradesView": "Повернутись до Журналу Оцінок",
   "gradebook.GradesView.filterHeading": "Крок 1: Відфільтруйте звіт з оцінками",
   "gradebook.GradesView.gradebookStepHeading": "Крок 2: Перегляньте або змініть окремі оцінки",
+  "gradebook.GradesView.mastersHint": "доступно лише для учнів на треку Master's",
   "gradebook.GradesTab.FilterBadges.assignment": "Завдання",
   "gradebook.GradesTab.FilterBadges.assignmentGrade": "Оцінка Завдання",
   "gradebook.GradesTab.FilterBadges.assignmentType": "Тип завдання",
