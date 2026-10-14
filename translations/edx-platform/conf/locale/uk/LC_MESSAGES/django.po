@@ -27943,3 +27943,171 @@ msgstr ""
 #. VSO-1194: invideoquiz (Studio translates display_name.default via the global catalog)
 msgid "In-Video Quiz XBlock"
 msgstr "Тест у відео"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Comparison"
+msgstr "Порівняння"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Completion"
+msgstr "Завершення"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Provide Feedback"
+msgstr "Залишити відгук"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Google Calendar"
+msgstr "Календар Google"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Google Document"
+msgstr "Документ Google"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "H5P Content"
+msgstr "Вміст H5P"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Inline Text and Dropdown"
+msgstr "Текст із випадним списком"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Randomized Content Block"
+msgstr "Блок випадкового вмісту"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "LTI Consumer"
+msgstr "Споживач LTI"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Column"
+msgstr "Стовпець"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Self-Assessment Summary"
+msgstr "Підсумок самооцінювання"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Instructor Tool"
+msgstr "Інструмент викладача"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Answers Table"
+msgstr "Таблиця відповідей"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Poll Checkboxes"
+msgstr "Опитування з прапорцями"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Poll"
+msgstr "Опитування"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Problem Builder"
+msgstr "Конструктор завдань"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Overlay"
+msgstr "Накладка"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Plot"
+msgstr "Графік"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Review Step"
+msgstr "Крок перегляду"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Scorm module"
+msgstr "Модуль SCORM"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Staff Graded Points"
+msgstr "Бали, виставлені персоналом"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Step Builder"
+msgstr "Конструктор кроків"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Survey"
+msgstr "Анкетування"
+
+#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
+msgid "Word cloud"
+msgstr "Хмара слів"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Announcement"
+msgstr "Оголошення"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Anonymous User ID"
+msgstr "Анонімний ID користувача"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "IFrame Tool"
+msgstr "Інструмент IFrame"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "E-text Written in LaTeX"
+msgstr "Електронний текст у LaTeX"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Raw HTML"
+msgstr "Чистий HTML"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Zooming Image Tool"
+msgstr "Інструмент масштабування зображення"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Blank Common Problem"
+msgstr "Порожнє типове завдання"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Checkboxes with Hints and Feedback"
+msgstr "Прапорці з підказками та відгуком"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Custom Python-Evaluated Input"
+msgstr "Довільне введення з перевіркою Python"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Drag and Drop (Deprecated Version)"
+msgstr "Перетягування (застаріла версія)"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Custom JavaScript Display and Grading"
+msgstr "Власне відображення й оцінювання на JavaScript"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Problem Written in LaTeX"
+msgstr "Завдання, написане в LaTeX"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Multiple Choice with Hints and Feedback"
+msgstr "Множинний вибір з підказками та відгуком"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Numerical Input with Hints and Feedback"
+msgstr "Введення чисел з підказками та відгуком"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Dropdown with Hints and Feedback"
+msgstr "Випадний список з підказками та відгуком"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Problem with Adaptive Hint"
+msgstr "Завдання з адаптивною підказкою"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Problem with Adaptive Hint in Latex"
+msgstr "Завдання з адаптивною підказкою в LaTeX"
+
+#. VSO-1194: component template name (xmodule/templates)
+msgid "Text Input with Hints and Feedback"
+msgstr "Введення тексту з підказками та відгуком"
