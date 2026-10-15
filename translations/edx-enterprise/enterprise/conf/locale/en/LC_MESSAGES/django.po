@@ -572,31 +572,31 @@ msgstr ""
 msgid "Course enrollment track"
 msgstr ""
 
-#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1642
+#: enterprise/admin/forms.py:74 enterprise/api/v1/serializers.py:1634
 msgid "Audit"
 msgstr ""
 
-#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1643
+#: enterprise/admin/forms.py:75 enterprise/api/v1/serializers.py:1635
 msgid "Verified"
 msgstr ""
 
-#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1644
+#: enterprise/admin/forms.py:76 enterprise/api/v1/serializers.py:1636
 msgid "Professional Education"
 msgstr ""
 
-#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1645
+#: enterprise/admin/forms.py:77 enterprise/api/v1/serializers.py:1637
 msgid "Professional Education (no ID)"
 msgstr ""
 
-#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1646
+#: enterprise/admin/forms.py:78 enterprise/api/v1/serializers.py:1638
 msgid "Credit"
 msgstr ""
 
-#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1647
+#: enterprise/admin/forms.py:79 enterprise/api/v1/serializers.py:1639
 msgid "Honor"
 msgstr ""
 
-#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1648
+#: enterprise/admin/forms.py:80 enterprise/api/v1/serializers.py:1640
 msgid "Unpaid Executive Education"
 msgstr ""
 
@@ -770,7 +770,7 @@ msgid ""
 "Successfully written the \"Auth org id\" field for this enterprise customer."
 msgstr ""
 
-#: enterprise/api/utils.py:357
+#: enterprise/api/utils.py:97
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested {token_number_codes} additional codes. Please reach out to them.\n"
@@ -778,14 +778,14 @@ msgid ""
 "{token_notes}."
 msgstr ""
 
-#: enterprise/api/utils.py:364
+#: enterprise/api/utils.py:104
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested "
 "{token_number_codes} additional codes. Please reach out to them."
 msgstr ""
 
-#: enterprise/api/utils.py:370
+#: enterprise/api/utils.py:110
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. Please reach out to them.\n"
@@ -793,26 +793,26 @@ msgid ""
 "{token_notes}."
 msgstr ""
 
-#: enterprise/api/utils.py:376
+#: enterprise/api/utils.py:116
 #, python-brace-format
 msgid ""
 "{token_email} from {token_enterprise_name} has requested additional codes. "
 "Please reach out to them."
 msgstr ""
 
-#: enterprise/api/v1/serializers.py:96
+#: enterprise/api/v1/serializers.py:95
 msgid "Total count of items."
 msgstr ""
 
-#: enterprise/api/v1/serializers.py:97
+#: enterprise/api/v1/serializers.py:96
 msgid "URL to fetch next page of items."
 msgstr ""
 
-#: enterprise/api/v1/serializers.py:98
+#: enterprise/api/v1/serializers.py:97
 msgid "URL to fetch previous page of items."
 msgstr ""
 
-#: enterprise/api/v1/serializers.py:99
+#: enterprise/api/v1/serializers.py:98
 msgid "List of items."
 msgstr ""
 
@@ -945,7 +945,7 @@ msgid ""
 "{enterprise_customer_name}."
 msgstr ""
 
-#: enterprise/constants.py:92
+#: enterprise/constants.py:88
 msgid ""
 "A series of Master’s-level courses to advance your career, created by top "
 "universities and recognized by companies. MicroMasters Programs are credit-"
@@ -953,7 +953,7 @@ msgid ""
 "Master’s Degree."
 msgstr ""
 
-#: enterprise/constants.py:98
+#: enterprise/constants.py:94
 msgid ""
 "Designed by industry leaders and top universities to enhance professional "
 "skills, Professional Certificates develop the proficiency and expertise that"
@@ -961,7 +961,7 @@ msgid ""
 "education."
 msgstr ""
 
-#: enterprise/constants.py:104
+#: enterprise/constants.py:100
 msgid ""
 "Created by world-renowned experts and top universities, XSeries are designed"
 " to provide a deep understanding of key subjects through a series of "
