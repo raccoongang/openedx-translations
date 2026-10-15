@@ -171,6 +171,18 @@ msgstr "Question"
 msgid "Submissions count"
 msgstr "Submissions count"
 
+#: poll/poll.py:64
+msgid "User ID"
+msgstr "User ID"
+
+#: poll/poll.py:64
+msgid "Username"
+msgstr "Username"
+
+#: poll/poll.py:64
+msgid "Email Addresses"
+msgstr "Email Addresses"
+
 #: poll/poll.py:884
 msgid "Survey"
 msgstr "Survey"
