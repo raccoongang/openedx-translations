@@ -27498,3 +27498,59 @@ msgstr "Таблиця лідерів"
 #: templates/timed_exam/submitted.html:34
 msgid "Return to the course outline"
 msgstr "Повернутися до структури курсу"
+
+#. Display name of the "poll" XBlock type
+msgid "Poll"
+msgstr "Опитування"
+
+#. Display name of the "poll_checkboxes" XBlock type
+msgid "Poll Checkboxes"
+msgstr "Опитування з множинним вибором"
+
+#. Display name of the "survey" XBlock type
+msgid "Survey"
+msgstr "Голосування"
+
+#. Display name of the "h5pxblock" XBlock type
+msgid "H5P Content"
+msgstr "H5P контент"
+
+#. Display name of the "comparison" XBlock type
+msgid "Comparison"
+msgstr "Співставлення"
+
+#. Display name of the "feedback" XBlock type
+msgid "Provide Feedback"
+msgstr "Зворотній звʼязок"
+
+#. Display name of the "problem-builder" XBlock type
+msgid "Problem Builder"
+msgstr "Конструктор завдань"
+
+#. Display name of the "step-builder" XBlock type
+msgid "Step Builder"
+msgstr "Конструктор покрокового завдання"
+
+#. Display name of the "invideoquiz" XBlock type
+msgid "In-Video Quiz XBlock"
+msgstr "Тест у відео"
+
+#. Display name of the "scorm" XBlock type
+msgid "Scorm module"
+msgstr "Scorm"
+
+#. Display name of the "inline-text-and-dropdown" XBlock type
+msgid "Inline Text and Dropdown"
+msgstr "Вбудований текст і випадаюче меню"
+
+#. Display name of the "library_content" XBlock type
+msgid "Randomized Content Block"
+msgstr "Блок випадково вибраних завдань"
+
+#. Display name of the "lti_consumer" XBlock type
+msgid "LTI Consumer"
+msgstr "Зовнішній контент (LTI)"
+
+#. Display name of the "word_cloud" XBlock type
+msgid "Word cloud"
+msgstr "Хмара слів"
