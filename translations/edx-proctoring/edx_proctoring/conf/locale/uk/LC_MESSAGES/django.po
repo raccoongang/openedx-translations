@@ -1309,11 +1309,9 @@ msgstr "На курсі {course_id} відсутні іспити під наг�
 msgid "No instructor dashboard for {proctor_service}"
 msgstr "Немає інформаційної панелі інструктора для {proctor_service}"
 
-#. VSO-1194: edx_proctoring (django)
 msgid "active proctored exams"
 msgstr "активні іспити під наглядом"
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        Hello,\n"
@@ -1323,7 +1321,6 @@ msgstr ""
 "        Вітаємо,\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        Your proctored exam \"%(exam_name)s\" in\n"
@@ -1337,7 +1334,6 @@ msgstr ""
 "виконали всі вимоги щодо нагляду.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        Your proctored exam \"%(exam_name)s\" in\n"
@@ -1355,7 +1351,6 @@ msgstr ""
 "протягом 5 робочих днів. Підсумкові оцінки можуть з'явитися пізніше.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        Your proctored exam \"%(exam_name)s\" in\n"
@@ -1382,7 +1377,6 @@ msgstr ""
 "ви не виконали вимоги іспиту під наглядом.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        To appeal your proctored exam results, please reach out with any "
@@ -1402,7 +1396,6 @@ msgstr ""
 "</a>.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "    Proctoring onboarding exam\n"
@@ -1412,7 +1405,6 @@ msgstr ""
 "    Вступний іспит для налаштування нагляду\n"
 "  "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        Create your onboarding profile for faster access in the future\n"
@@ -1422,7 +1414,6 @@ msgstr ""
 "        Створіть свій профіль для швидшого доступу в майбутньому\n"
 "      "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "      Proctoring for this course is provided via %(provider_name)s.  "
@@ -1435,7 +1426,6 @@ msgstr ""
 "зокрема підтвердження особи, може тривати 2 і більше робочих дні.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        Once your profile has been reviewed, you will receive an email with "
@@ -1453,7 +1443,6 @@ msgstr ""
 "Переконайтеся, що цю адресу додано до фільтра вхідних повідомлень.\n"
 "      "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        Please contact\n"
@@ -1468,7 +1457,6 @@ msgstr ""
 "href=\"mailto:%(integration_specific_email)s\">%(integration_specific_email)s</a>.\n"
 "      "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "      Please contact\n"
@@ -1486,7 +1474,6 @@ msgstr ""
 "іспит».\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "      If you do not have an onboarding profile with the system,\n"
@@ -1502,7 +1489,6 @@ msgstr ""
 "профілю може тривати 2 і більше робочих дні.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "      If you already have an onboarding profile approved through another "
@@ -1519,7 +1505,6 @@ msgstr ""
 "щоб переконатися, що ваше обладнання досі відповідає вимогам нагляду.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "      Please contact\n"
@@ -1535,7 +1520,6 @@ msgstr ""
 "</a>.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        Get familiar with proctoring for real exams later in the course. "
@@ -1549,7 +1533,6 @@ msgstr ""
 "на вашу оцінку за курс.\n"
 "      "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        Your proctoring session ended before you completed this practice "
@@ -1565,7 +1548,6 @@ msgstr ""
 "програми для онлайн-нагляду.\n"
 "      "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        Practice exams do not affect your grade.\n"
@@ -1578,7 +1560,6 @@ msgstr ""
 "Ви завершили цей пробний іспит і можете продовжити роботу з курсом.\n"
 "      "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        Are you sure you want to take this exam without proctoring?\n"
@@ -1588,7 +1569,6 @@ msgstr ""
 "        Ви впевнені, що хочете скласти цей іспит без нагляду?\n"
 "      "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "      Your %(platform_name)s account has not yet been activated. To take the "
@@ -1602,7 +1582,6 @@ msgstr ""
 "потрібно активувати обліковий запис.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "      Please check your registered email's Inbox and Spam folders for an "
@@ -1616,7 +1595,6 @@ msgstr ""
 "%(platform_name)s.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "          Step 1\n"
@@ -1626,7 +1604,6 @@ msgstr ""
 "          Крок 1\n"
 "        "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "          Step 2\n"
@@ -1636,7 +1613,6 @@ msgstr ""
 "          Крок 2\n"
 "        "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "          Step 3\n"
@@ -1646,7 +1622,6 @@ msgstr ""
 "          Крок 3\n"
 "        "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "    Your onboarding exam is being reviewed. Before attempting this exam, "
@@ -1658,7 +1633,6 @@ msgstr ""
 "2 і більше робочих дні, поки вступний іспит буде перевірено.\n"
 "  "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "      Proctoring for your exam is provided via %(provider_name)s.\n"
@@ -1675,7 +1649,6 @@ msgstr ""
 "href=\"mailto:%(integration_specific_email)s\">%(integration_specific_email)s</a>.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "    You can take this exam with proctoring only when all prerequisites have "
@@ -1687,7 +1660,6 @@ msgstr ""
 "всіх попередніх вимог.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "            Do not close this window before you finish your exam. if you "
@@ -1701,7 +1673,6 @@ msgstr ""
 "іспит під наглядом.\n"
 "          "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "            Return to the %(platform_name)s course window to start your "
@@ -1719,7 +1690,6 @@ msgstr ""
 "та надіслати дані сеансу на перевірку.\n"
 "          "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "      Important\n"
@@ -1729,7 +1699,6 @@ msgstr ""
 "      Важливо\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        &#8226; You have %(total_time)s to complete this exam. </br>\n"
@@ -1749,7 +1718,6 @@ msgstr ""
 "оцінюватимуться лише надіслані відповіді.\n"
 "      "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "      Proctored Exam Rules\n"
@@ -1759,7 +1727,6 @@ msgstr ""
 "      Правила іспиту під наглядом\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "        The following additional rules apply to this exam. These rules take "
@@ -1775,7 +1742,6 @@ msgstr ""
 "%(exam_review_policy)s </br>\n"
 "      "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "      If you have disabilities,\n"
@@ -1791,7 +1757,6 @@ msgstr ""
 "Зверніться до команди курсу, щоб дізнатися про додатковий час.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "      Make sure that you have selected \"Submit\" for each problem before "
@@ -1803,7 +1768,6 @@ msgstr ""
 "для кожного завдання.\n"
 "    "
 
-#. VSO-1194: edx_proctoring (django)
 msgid ""
 "\n"
 "                You have submitted your timed exam.\n"
@@ -1813,10 +1777,8 @@ msgstr ""
 "                Ви надіслали свій іспит з обмеженням часу.\n"
 "            "
 
-#. VSO-1194: edx_proctoring (django)
 msgid " and {num_of_minutes} minute"
 msgstr " і {num_of_minutes} хв"
 
-#. VSO-1194: edx_proctoring (django)
 msgid "Must be a Staff User to Perform this request."
 msgstr "Для виконання цього запиту потрібні права персоналу."

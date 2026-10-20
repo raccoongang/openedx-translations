@@ -27499,7 +27499,6 @@ msgstr "Таблиця лідерів"
 msgid "Return to the course outline"
 msgstr "Повернутися до структури курсу"
 
-#. VSO-1194: edx-platform (django)
 msgid ""
 "\n"
 "                            There’s still time to reach your goal\n"
@@ -27509,7 +27508,6 @@ msgstr ""
 "                            У вас ще є час досягти своєї мети\n"
 "                        "
 
-#. VSO-1194: edx-platform (django)
 msgid ""
 "\n"
 "                                You set a goal of learning "
@@ -27547,7 +27545,6 @@ msgstr[3] ""
 "%(course_name)s{end_bold}. Ви ще не досягли її, але ще є час це зробити!\n"
 "                            "
 
-#. VSO-1194: edx-platform (django)
 msgid ""
 "\n"
 "                                Jump back in\n"
@@ -27557,7 +27554,6 @@ msgstr ""
 "                                Повернутися до навчання\n"
 "                            "
 
-#. VSO-1194: edx-platform (django)
 msgid ""
 "\n"
 "                            Remember, you can always change your learning "
@@ -27569,7 +27565,6 @@ msgstr ""
 "навчальну мету. Найкраща мета — та, якої ви можете дотримуватися.\n"
 "                        "
 
-#. VSO-1194: edx-platform (django)
 msgid ""
 "\n"
 "                            Adjust my goal\n"
@@ -27579,7 +27574,6 @@ msgstr ""
 "                            Змінити мету\n"
 "                        "
 
-#. VSO-1194: edx-platform (django)
 msgid ""
 "You are not signed in. To see additional course content, {sign_in_link} or "
 "{register_link}, and enroll in this course."
@@ -27587,15 +27581,12 @@ msgstr ""
 "Ви не увійшли в систему. Щоб побачити додатковий вміст курсу, {sign_in_link} "
 "або {register_link} і запишіться на цей курс."
 
-#. VSO-1194: edx-platform (django)
 msgid "Default Group"
 msgstr "Група за замовчуванням"
 
-#. VSO-1194: edx-platform (django)
 msgid "The notification preference config version is not up to date."
 msgstr "Версія конфігурації налаштувань сповіщень застаріла."
 
-#. VSO-1194: edx-platform (django)
 msgid ""
 "We hope you're enjoying {start_strong}{course_name}{end_strong}! We want to "
 "let you know what you can look forward to in week {week_num}:"
@@ -27603,7 +27594,6 @@ msgstr ""
 "Сподіваємося, вам подобається курс {start_strong}{course_name}{end_strong}! "
 "Хочемо розповісти, що на вас чекає на тижні {week_num}:"
 
-#. VSO-1194: edx-platform (django)
 msgid ""
 "\n"
 "                Learners will see the selected component:\n"
@@ -27633,36 +27623,28 @@ msgstr[3] ""
 "випадковому порядку:\n"
 "                "
 
-#. VSO-1194: edx-platform (django)
 msgid "Components within a library referenced object cannot be edited"
 msgstr ""
 "Компоненти в об'єкті, на який посилається бібліотека, не можна редагувати"
 
-#. VSO-1194: edx-platform (django)
 msgid "{chapter} current chapter"
 msgstr "{chapter}, поточний розділ"
 
-#. VSO-1194: edx-platform (django)
 msgid "{span_start}current section{span_end}"
 msgstr "{span_start}поточний розділ{span_end}"
 
-#. VSO-1194: edx-platform (django)
 msgid "{section_format} due {{date}}"
 msgstr "{section_format}, термін виконання {{date}}"
 
-#. VSO-1194: edx-platform (django)
 msgid "This content is graded"
 msgstr "Цей вміст оцінюється"
 
-#. VSO-1194: edx-platform (django)
 msgid "Course Search"
 msgstr "Пошук по курсу"
 
-#. VSO-1194: edx-platform (django)
 msgid "No content has been added to this course"
 msgstr "До цього курсу ще не додано вмісту"
 
-#. VSO-1194: edx-platform (django)
 msgid ""
 "To access course materials, you must score {required_score}% or higher on "
 "this                     exam. Your current score is {current_score}%."
@@ -27670,19 +27652,15 @@ msgstr ""
 "Щоб отримати доступ до матеріалів курсу, потрібно набрати {required_score}% "
 "або більше за цей іспит. Ваш поточний результат — {current_score}%."
 
-#. VSO-1194: edx-platform (django)
 msgid "Your score is {current_score}%. You have passed the entrance exam."
 msgstr "Ваш результат — {current_score}%. Ви склали вступний іспит."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Staff Graded Assignment"
 msgstr "Завдання з оцінюванням персоналом"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "This name appears in the horizontal navigation at the top of the page."
 msgstr "Ця назва відображається в горизонтальній навігації вгорі сторінки."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid ""
 "Defines the number of points each problem is worth. If the value is not set, "
 "the problem is worth the sum of the option point values."
@@ -27690,249 +27668,188 @@ msgstr ""
 "Визначає кількість балів за кожне завдання. Якщо значення не задано, "
 "завдання оцінюється сумою балів за варіанти."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Maximum score"
 msgstr "Максимальний бал"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Maximum grade score given to assignment by staff."
 msgstr "Максимальний бал, який персонал може поставити за завдання."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Score assigned by non-instructor staff"
 msgstr "Бал, виставлений персоналом (не викладачем)"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Score will need to be approved by instructor before being published."
 msgstr "Перед публікацією бал має затвердити викладач."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Instructor comment"
 msgstr "Коментар викладача"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Feedback given to student by instructor."
 msgstr "Відгук викладача для учня."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Annotated SHA1"
 msgstr "SHA1 файлу з примітками"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid ""
 "sha1 of the annotated file uploaded by the instructor for this assignment."
 msgstr "SHA1 файлу з примітками, який викладач завантажив для цього завдання."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Annotated file name"
 msgstr "Назва файлу з примітками"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "The name of the annotated file uploaded for this assignment."
 msgstr "Назва файлу з примітками, завантаженого для цього завдання."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Mime type of annotated file"
 msgstr "MIME-тип файлу з примітками"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "The mimetype of the annotated file uploaded for this assignment."
 msgstr "MIME-тип файлу з примітками, завантаженого для цього завдання."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Timestamp"
 msgstr "Позначка часу"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "When the annotated file was uploaded"
 msgstr "Коли було завантажено файл із примітками"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Solution to the problem to show to the user"
 msgstr "Розв'язок завдання, який буде показано користувачу"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Solution"
 msgstr "Розв'язок"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Upload a different file"
 msgstr "Завантажити інший файл"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Upload your assignment"
 msgstr "Завантажте своє завдання"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "File uploaded"
 msgstr "Файл завантажено"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Your score is <%%= graded.score %%> / <%%= max_score %%>"
 msgstr "Ваш бал: <%%= graded.score %%> / <%%= max_score %%>"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Annotated file from instructor"
 msgstr "Файл із примітками від викладача"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "This assignment has not yet been graded."
 msgstr "Це завдання ще не оцінено."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Filename"
 msgstr "Назва файлу"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Instructor's comments"
 msgstr "Коментарі викладача"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Annotated"
 msgstr "З примітками"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Awaiting instructor approval"
 msgstr "Очікує затвердження викладачем"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Approve grade"
 msgstr "Затвердити оцінку"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Enter grade"
 msgstr "Ввести оцінку"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Upload annotated file"
 msgstr "Завантажити файл із примітками"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Grade Submissions"
 msgstr "Оцінити роботи"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Download All Submissions"
 msgstr "Завантажити всі роботи"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Loading..."
 msgstr "Завантаження..."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Staff Debug"
 msgstr "Налагодження для персоналу"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "is_released"
 msgstr "is_released"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "location"
 msgstr "location"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "category"
 msgstr "category"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Enter Grade"
 msgstr "Ввести оцінку"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Grade for %(student_name)s"
 msgstr "Оцінка для %(student_name)s"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Grade:"
 msgstr "Оцінка:"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Comment:"
 msgstr "Коментар:"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Remove grade"
 msgstr "Видалити оцінку"
 
-#. VSO-1194: forum (no Atlas dir)
 msgid "Has grammar / spelling issues"
 msgstr "Містить граматичні або орфографічні помилки"
 
-#. VSO-1194: forum (no Atlas dir)
 msgid "Content needs clarity"
 msgstr "Вміст потребує уточнення"
 
-#. VSO-1194: forum (no Atlas dir)
 msgid "Has academic integrity concern"
 msgstr "Є сумніви щодо академічної доброчесності"
 
-#. VSO-1194: forum (no Atlas dir)
 msgid "Has inappropriate language"
 msgstr "Містить неприйнятну лексику"
 
-#. VSO-1194: forum (no Atlas dir)
 msgid "Formatting changes needed"
 msgstr "Потрібно змінити форматування"
 
-#. VSO-1194: forum (no Atlas dir)
 msgid "Post type needs change"
 msgstr "Потрібно змінити тип допису"
 
-#. VSO-1194: forum (no Atlas dir)
 msgid "Contains personally identifiable information"
 msgstr "Містить персональні дані"
 
-#. VSO-1194: forum (no Atlas dir)
 msgid "Violates community guidelines"
 msgstr "Порушує правила спільноти"
 
-#. VSO-1194: organization_email_templates (no Atlas dir)
 msgid "Maximum 128 characters."
 msgstr "Не більше 128 символів."
 
-#. VSO-1194: email_blocklist (no Atlas dir)
 msgid "Only one EmailBlocklistConfiguration instance is allowed."
 msgstr "Дозволено лише один екземпляр EmailBlocklistConfiguration."
 
-#. VSO-1194: edx_when (no Atlas dir)
 msgid "Absolute and relative dates cannot both be used"
 msgstr "Не можна одночасно використовувати абсолютні та відносні дати"
 
-#. VSO-1194: edx_when (no Atlas dir)
 msgid "Override date must be later than policy date"
 msgstr "Дата перевизначення має бути пізнішою за дату політики"
 
-#. VSO-1194: super_csv (no Atlas dir)
 msgid "Failure"
 msgstr "Помилка"
 
-#. VSO-1194: super_csv (no Atlas dir)
 msgid "No Action"
 msgstr "Без дії"
 
-#. VSO-1194: super_csv (no Atlas dir)
 msgid "The CSV file must be under {} bytes"
 msgstr "CSV-файл має бути меншим за {} байтів"
 
-#. VSO-1194: super_csv (no Atlas dir)
 msgid "Missing column: {}"
 msgstr "Відсутній стовпець: {}"
 
-#. VSO-1194: super_csv (no Atlas dir)
 msgid "Checksum mismatch. Required columns cannot be edited: {}"
 msgstr ""
 "Невідповідність контрольної суми. Обов'язкові стовпці не можна редагувати: {}"
 
-#. VSO-1194: super_csv (no Atlas dir)
 msgid "Failed to retrieve file."
 msgstr "Не вдалося отримати файл."
 
-#. VSO-1194: openedxscorm (scormxblock.py; package catalog has a mismatched msgid)
 msgid "Width of iframe (default: 100%)"
 msgstr "Ширина iframe (за замовчуванням: 100%)"
 
-#. VSO-1194: openedxscorm (scormxblock.py)
 msgid ""
 "Width of navigation menu. This assumes that Navigation Menu is enabled. "
 "(default: 30%)"
@@ -27940,174 +27857,131 @@ msgstr ""
 "Ширина меню навігації. Передбачається, що меню навігації ввімкнено. (за "
 "замовчуванням: 30%)"
 
-#. VSO-1194: invideoquiz (Studio translates display_name.default via the global catalog)
 msgid "In-Video Quiz XBlock"
 msgstr "Тест у відео"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Comparison"
 msgstr "Порівняння"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Completion"
 msgstr "Завершення"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Provide Feedback"
 msgstr "Залишити відгук"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Google Calendar"
 msgstr "Календар Google"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Google Document"
 msgstr "Документ Google"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "H5P Content"
 msgstr "Вміст H5P"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Inline Text and Dropdown"
 msgstr "Текст із випадним списком"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Randomized Content Block"
 msgstr "Блок випадкового вмісту"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "LTI Consumer"
 msgstr "Споживач LTI"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Column"
 msgstr "Стовпець"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Self-Assessment Summary"
 msgstr "Підсумок самооцінювання"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Instructor Tool"
 msgstr "Інструмент викладача"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Answers Table"
 msgstr "Таблиця відповідей"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Poll Checkboxes"
 msgstr "Опитування з прапорцями"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Poll"
 msgstr "Опитування"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Problem Builder"
 msgstr "Конструктор завдань"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Overlay"
 msgstr "Накладка"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Plot"
 msgstr "Графік"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Review Step"
 msgstr "Крок перегляду"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Scorm module"
 msgstr "Модуль SCORM"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Staff Graded Points"
 msgstr "Бали, виставлені персоналом"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Step Builder"
 msgstr "Конструктор кроків"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Survey"
 msgstr "Анкетування"
 
-#. VSO-1194: XBlock display name (Studio translates display_name.default via the global catalog)
 msgid "Word cloud"
 msgstr "Хмара слів"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Announcement"
 msgstr "Оголошення"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Anonymous User ID"
 msgstr "Анонімний ID користувача"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "IFrame Tool"
 msgstr "Інструмент IFrame"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "E-text Written in LaTeX"
 msgstr "Електронний текст у LaTeX"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Raw HTML"
 msgstr "Чистий HTML"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Zooming Image Tool"
 msgstr "Інструмент масштабування зображення"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Blank Common Problem"
 msgstr "Порожнє типове завдання"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Checkboxes with Hints and Feedback"
 msgstr "Прапорці з підказками та відгуком"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Custom Python-Evaluated Input"
 msgstr "Довільне введення з перевіркою Python"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Drag and Drop (Deprecated Version)"
 msgstr "Перетягування (застаріла версія)"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Custom JavaScript Display and Grading"
 msgstr "Власне відображення й оцінювання на JavaScript"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Problem Written in LaTeX"
 msgstr "Завдання, написане в LaTeX"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Multiple Choice with Hints and Feedback"
 msgstr "Множинний вибір з підказками та відгуком"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Numerical Input with Hints and Feedback"
 msgstr "Введення чисел з підказками та відгуком"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Dropdown with Hints and Feedback"
 msgstr "Випадний список з підказками та відгуком"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Problem with Adaptive Hint"
 msgstr "Завдання з адаптивною підказкою"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Problem with Adaptive Hint in Latex"
 msgstr "Завдання з адаптивною підказкою в LaTeX"
 
-#. VSO-1194: component template name (xmodule/templates)
 msgid "Text Input with Hints and Feedback"
 msgstr "Введення тексту з підказками та відгуком"

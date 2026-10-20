@@ -249,7 +249,6 @@ msgid "How many resources you want to show in each page of the resource list?"
 msgstr ""
 "Скільки ресурсів потрібно відображати на кожній сторінці списку ресурсів?"
 
-#. VSO-1194: recommender (django)
 msgid ""
 "How many page icons in pagination control (i.e., page range)? The icons for "
 "pages from (current page - page range) to (current page + page range) will "
@@ -259,7 +258,6 @@ msgstr ""
 "Буде показано значки сторінок від (поточна сторінка − діапазон) до (поточна "
 "сторінка + діапазон)."
 
-#. VSO-1194: recommender (django)
 msgid ""
 "Recommend a new resource which may be helpful to other students solving this "
 "problem"
@@ -267,35 +265,27 @@ msgstr ""
 "Порекомендуйте новий ресурс, який може допомогти іншим учням розв'язати це "
 "завдання"
 
-#. VSO-1194: recommender (django)
 msgid "Edit this resource"
 msgstr "Редагувати цей ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Upvote if the resource is helpful"
 msgstr "Проголосуйте «за», якщо ресурс корисний"
 
-#. VSO-1194: recommender (django)
 msgid "Downvote if the resource is not helpful"
 msgstr "Проголосуйте «проти», якщо ресурс некорисний"
 
-#. VSO-1194: recommender (django)
 msgid "Votes"
 msgstr "Голоси"
 
-#. VSO-1194: recommender (django)
 msgid "Resource title"
 msgstr "Назва ресурсу"
 
-#. VSO-1194: recommender (django)
 msgid "Remove this resource and give the reason why you do that"
 msgstr "Видаліть цей ресурс і вкажіть причину"
 
-#. VSO-1194: recommender (django)
 msgid "Preview image (typically, a screenshot)"
 msgstr "Зображення для попереднього перегляду (зазвичай знімок екрана)"
 
-#. VSO-1194: recommender (django)
 msgid ""
 "Give a short (1-3 sentence) summary of the resource; ideally, this should be "
 "concise, but give enough detail to let students know whether this resources "
@@ -304,17 +294,14 @@ msgstr ""
 "Коротко (1–3 речення) опишіть ресурс; опис має бути стислим, але достатньо "
 "детальним, щоб учні зрозуміли, чи корисний для них цей ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Cut-and-paste the URL of the resource."
 msgstr "Скопіюйте та вставте URL-адресу ресурсу."
 
-#. VSO-1194: recommender (django)
 msgid ""
 "Give a paragraph of summary of the resource; the summary should be more "
 "detailed than you gave in Title"
 msgstr "Наведіть розгорнутий опис ресурсу; він має бути детальнішим, ніж назва"
 
-#. VSO-1194: recommender (django)
 msgid ""
 "Upload a preview screenshot (in GIF/PNG/JPG) of the resource; ideally, this "
 "should let students know whether this resources is useful to them"
@@ -322,98 +309,75 @@ msgstr ""
 "Завантажте знімок екрана ресурсу для попереднього перегляду (GIF/PNG/JPG); "
 "він має допомогти учням зрозуміти, чи корисний для них цей ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Go back to the main list"
 msgstr "Повернутися до основного списку"
 
-#. VSO-1194: recommender (django)
 msgid "Give a meaningful reason for why this resource should be removed"
 msgstr "Вкажіть обґрунтовану причину, чому цей ресурс слід видалити"
 
-#. VSO-1194: recommender (django)
 msgid "Flag this resource as problematic and give your reason"
 msgstr "Позначте цей ресурс як проблемний і вкажіть причину"
 
-#. VSO-1194: recommender (django)
 msgid "Delete this resource"
 msgstr "Видалити цей ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Show a list of student-recommented related resources"
 msgstr "Показати список пов'язаних ресурсів, рекомендованих учнями"
 
-#. VSO-1194: recommender (django)
 msgid "Hide the recommendations list"
 msgstr "Сховати список рекомендацій"
 
-#. VSO-1194: recommender (django)
 msgid "Check the icon to endorse this resource"
 msgstr "Натисніть значок, щоб схвалити цей ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "This resource is endorsed by staff"
 msgstr "Цей ресурс схвалено персоналом курсу"
 
-#. VSO-1194: recommender (django)
 msgid "Click to view resources for removal"
 msgstr "Натисніть, щоб переглянути ресурси для видалення"
 
-#. VSO-1194: recommender (django)
 msgid "Click to view resources in ordinary decreasing-vote order"
 msgstr ""
 "Натисніть, щоб переглянути ресурси у звичайному порядку спадання голосів"
 
-#. VSO-1194: recommender (django)
 msgid "Here is a list of reasons why students think this resource problematic:"
 msgstr "Ось список причин, чому учні вважають цей ресурс проблемним:"
 
-#. VSO-1194: recommender (django)
 msgid "The reason why it is endorsed is:"
 msgstr "Причина схвалення:"
 
-#. VSO-1194: recommender (django)
 msgid "Resource: "
 msgstr "Ресурс: "
 
-#. VSO-1194: recommender (django)
 msgid "votes"
 msgstr "голосів"
 
-#. VSO-1194: recommender (django)
 msgid ""
 "The content you typed has not been submitted yet. Are you sure to go back?"
 msgstr ""
 "Введений вами вміст ще не надіслано. Ви впевнені, що хочете повернутися?"
 
-#. VSO-1194: recommender (django)
 msgid "Import resources"
 msgstr "Імпортувати ресурси"
 
-#. VSO-1194: recommender (django)
 msgid "Suggest resource"
 msgstr "Запропонувати ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Edit existing resource"
 msgstr "Редагувати наявний ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Flag Resource"
 msgstr "Позначити ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Endorse Resource"
 msgstr "Схвалити ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Remove Resource"
 msgstr "Видалити ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Upload resources in JSON format to the database."
 msgstr "Завантажити ресурси у форматі JSON до бази даних."
 
-#. VSO-1194: recommender (django)
 msgid ""
 "Suggest a resource which can help other students with this problem. Please "
 "do not give the answer directly."
@@ -421,7 +385,6 @@ msgstr ""
 "Запропонуйте ресурс, який може допомогти іншим учням із цим завданням. Будь "
 "ласка, не давайте відповідь напряму."
 
-#. VSO-1194: recommender (django)
 msgid ""
 "Edit the resource and make it more helpful for other students with this "
 "problem. Please do not give the answer directly."
@@ -429,7 +392,6 @@ msgstr ""
 "Відредагуйте ресурс, щоб він став кориснішим для інших учнів із цим "
 "завданням. Будь ласка, не давайте відповідь напряму."
 
-#. VSO-1194: recommender (django)
 msgid ""
 "Why would you like to flag this resource? The staff will review all flagged "
 "resources, and remove inappropriate ones (spam, incorrect, abusive, etc.). "
@@ -439,74 +401,56 @@ msgstr ""
 "ресурси та видалить недоречні (спам, некоректні, образливі тощо). Чітко "
 "вказана причина допоможе зробити це ефективно."
 
-#. VSO-1194: recommender (django)
 msgid "Endorse this resource and give the reason why you do that."
 msgstr "Схваліть цей ресурс і вкажіть причину."
 
-#. VSO-1194: recommender (django)
 msgid "Remove this resource and give the reason why you do that."
 msgstr "Видаліть цей ресурс і вкажіть причину."
 
-#. VSO-1194: recommender (django)
 msgid "Hide related resources"
 msgstr "Сховати пов'язані ресурси"
 
-#. VSO-1194: recommender (django)
 msgid "From page {fromPage} To page {toPage}"
 msgstr "Зі сторінки {fromPage} до сторінки {toPage}"
 
-#. VSO-1194: recommender (django)
 msgid "Export resources"
 msgstr "Експортувати ресурси"
 
-#. VSO-1194: recommender (django)
 msgid "Entering import resource mode"
 msgstr "Перехід у режим імпорту ресурсів"
 
-#. VSO-1194: recommender (django)
 msgid "Entering add resource mode"
 msgstr "Перехід у режим додавання ресурсу"
 
-#. VSO-1194: recommender (django)
 msgid "Add new resource"
 msgstr "Додати новий ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Entering edit resource mode"
 msgstr "Перехід у режим редагування ресурсу"
 
-#. VSO-1194: recommender (django)
 msgid "Entering flag resource mode"
 msgstr "Перехід у режим позначення ресурсу"
 
-#. VSO-1194: recommender (django)
 msgid "Flag resource"
 msgstr "Позначити ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Unflag resource"
 msgstr "Зняти позначку з ресурсу"
 
-#. VSO-1194: recommender (django)
 msgid "Endorse resource"
 msgstr "Схвалити ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Unendorse resource"
 msgstr "Скасувати схвалення ресурсу"
 
-#. VSO-1194: recommender (django)
 msgid "Remove resource"
 msgstr "Видалити ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Hovering resource"
 msgstr "Наведення на ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "A resource was clicked"
 msgstr "Натиснуто на ресурс"
 
-#. VSO-1194: recommender (django)
 msgid "Back to resource list mode"
 msgstr "Повернення до режиму списку ресурсів"

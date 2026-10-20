@@ -11591,96 +11591,73 @@ msgstr[3] "Одночасно можна встановити лише {checkbox
 msgid "Not available"
 msgstr "недоступно"
 
-#. VSO-1194: edx-platform (djangojs)
 msgid "Organization:"
 msgstr "Організація:"
 
-#. VSO-1194: edx-platform (djangojs)
 msgid "Course Number:"
 msgstr "Номер курсу:"
 
-#. VSO-1194: edx-platform (djangojs)
 msgid "Course Run:"
 msgstr "Запуск курсу:"
 
-#. VSO-1194: edx-platform (djangojs)
 msgid "(Read-only)"
 msgstr "(Лише для читання)"
 
-#. VSO-1194: edx-platform (djangojs)
 msgid "Re-run Course"
 msgstr "Перезапустити курс"
 
-#. VSO-1194: edx-platform (djangojs)
 msgid "Browsing"
 msgstr "Перегляд"
 
-#. VSO-1194: edx-platform (djangojs)
 msgid "Details"
 msgstr "Деталі"
 
-#. VSO-1194: edx-platform (djangojs)
 msgid "the more quickly and helpfully we can respond!"
 msgstr "тим швидше й корисніше ми зможемо відповісти!"
 
-#. VSO-1194: edx-platform (djangojs)
 msgid "Create Support Ticket"
 msgstr "Створити звернення до служби підтримки"
 
-#. VSO-1194: edx-platform (djangojs)
 msgid "What can we help you with, {fullName}?"
 msgstr "Чим ми можемо вам допомогти, {fullName}?"
 
-#. VSO-1194: edx-platform (djangojs)
 msgid "Need help logging in?"
 msgstr "Потрібна допомога зі входом?"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Started preparing student submissions zip file. This may take a while."
 msgstr ""
 "Розпочато підготовку zip-архіву з роботами учнів. Це може зайняти деякий час."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Submission failed. Please contact your course instructor."
 msgstr "Не вдалося надіслати роботу. Зверніться до викладача курсу."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Uploading..."
 msgstr "Завантаження..."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "The file you are trying to upload is too large."
 msgstr "Файл, який ви намагаєтеся завантажити, завеликий."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Uploading... %(percent)s %"
 msgstr "Завантаження... %(percent)s %"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "yes"
 msgstr "так"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Grade must be a number."
 msgstr "Оцінка має бути числом."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Grade must be an integer."
 msgstr "Оцінка має бути цілим числом."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Grade must be positive."
 msgstr "Оцінка має бути додатною."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Maximum score is %(max_score)s"
 msgstr "Максимальний бал: %(max_score)s"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "No grade to remove."
 msgstr "Немає оцінки для видалення."
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid ""
 "The download file was not created. Please try again or contact "
 "%(support_email)s"
@@ -11688,10 +11665,54 @@ msgstr ""
 "Файл для завантаження не створено. Спробуйте ще раз або зверніться на "
 "%(support_email)s"
 
-#. VSO-1194: edx_sga (no Atlas dir)
 msgid "Student submission file ready for download"
 msgstr "Файл із роботами учнів готовий до завантаження"
 
-#. VSO-1194: problem_builder (public/js/studio_edit.js, Studio gettext)
 msgid "Unable to update settings"
 msgstr "Не вдалося оновити налаштування"
+
+msgid "Are you staff on an existing %(studio_name)s course?"
+msgstr "Ви працюєте в команді наявного курсу в %(studio_name)s?"
+
+msgid ""
+"The course creator must give you access to the course. Contact the course "
+"creator or administrator for the course you are helping to author."
+msgstr ""
+"Розробник курсу повинен надати вам доступ до курсу. Зверніться до автора або "
+"адміністратора курсу, якому ви допомагаєте."
+
+msgid "Create Your First Course"
+msgstr "Створіть свій перший курс"
+
+msgid "Your new course is just a click away!"
+msgstr "Ваш новий курс лише в одному кліку від вас!"
+
+msgid "Were you expecting to see a particular library here?"
+msgstr "Ви очікували знайти тут певну бібліотеку?"
+
+msgid ""
+"The library creator must give you access to the library. Contact the library "
+"creator or administrator for the library you are helping to author."
+msgstr ""
+"Автор бібліотеки повинен надати вам доступ до бібліотеки. Зверніться до "
+"розробника бібліотеки або адміністратора бібліотеки, з наповненням якої ви "
+"допомагаєте."
+
+msgid "Create Your First Library"
+msgstr "Створіть свою першу бібліотеку"
+
+msgid ""
+"Libraries hold a pool of components that can be re-used across multiple "
+"courses. Create your first library with the click of a button!"
+msgstr ""
+"Бібліотеки мають комплекс компонентів, які можна повторно використовувати на "
+"кількох курсах. Створіть свою першу бібліотеку, лише натиснувши одну кнопку!"
+
+msgid "My Courses"
+msgstr "Мої курси"
+
+msgid "Archived Courses"
+msgstr "Архівовані курси"
+
+msgid "Libraries"
+msgstr "Бібліотеки"

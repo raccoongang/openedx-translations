@@ -3094,23 +3094,18 @@ msgstr "Надіслати оцінку та перейти до наступн�
 msgid "Submit your assessment and move to response #{response_number}"
 msgstr "Надіслати оцінку та перейти до відповіді №{response_number}"
 
-#. VSO-1194: openassessment (django)
 msgid "Must have at least one criterion"
 msgstr "Потрібно вказати принаймні один критерій"
 
-#. VSO-1194: openassessment (django)
 msgid "Training example must be a dictionary"
 msgstr "Приклад для навчання повинен бути словником"
 
-#. VSO-1194: openassessment (django)
 msgid "Training example must contain an \"answer\" field."
 msgstr "Приклад для навчання повинен містити поле \"answer\"."
 
-#. VSO-1194: openassessment (django)
 msgid "Training example must contain an \"options_selected\" field."
 msgstr "Приклад для навчання повинен містити поле \"options_selected\"."
 
-#. VSO-1194: openassessment (django)
 msgid ""
 "Peer Assessment allows students to provide feedback to other students and "
 "also receive feedback from others in their final grade. Often, though not "
@@ -3121,7 +3116,6 @@ msgstr ""
 "не завжди, цьому кроку передують кроки самооцінювання або навчання "
 "оцінюванню."
 
-#. VSO-1194: openassessment (django)
 msgid ""
 "Configuration: For this step to be configured you must specify the number of "
 "peer reviews a student will be assessed with, and the number of peer a "
@@ -3131,11 +3125,9 @@ msgstr ""
 "одногрупників, якими буде оцінено студента, та кількість робіт, які студент "
 "має оцінити. Можна вказати й додаткові параметри."
 
-#. VSO-1194: openassessment (django)
 msgid "View Options & Configuration"
 msgstr "Переглянути параметри та налаштування"
 
-#. VSO-1194: openassessment (django)
 msgid ""
 "Specify the number of peer assessments that each learner must complete. "
 "Valid numbers are 1 to 99."
@@ -3143,7 +3135,6 @@ msgstr ""
 "Вкажіть кількість оцінок одногрупників, які має виконати кожен студент. "
 "Допустимі значення — від 1 до 99."
 
-#. VSO-1194: openassessment (django)
 msgid ""
 "Specify the number of learners that each response must be assessed by. Valid "
 "numbers are 1 to 99."
@@ -3151,15 +3142,12 @@ msgstr ""
 "Вкажіть кількість студентів, які мають оцінити кожну роботу. Допустимі "
 "значення — від 1 до 99."
 
-#. VSO-1194: openassessment (django)
 msgid "Enable Flexible Peer Grade Averaging"
 msgstr "Увімкнути гнучке усереднення оцінок одногрупників"
 
-#. VSO-1194: openassessment (django)
 msgid "Mean"
 msgstr "Середнє"
 
-#. VSO-1194: openassessment (django)
 msgid ""
 "Select the preferred grading strategy for the peer assessment. By default, "
 "the median across all peer reviews is used to calculate the final grade. If "
@@ -3170,24 +3158,19 @@ msgstr ""
 "всіх оцінок. Якщо вибрати середнє, використовуватиметься середнє арифметичне "
 "всіх оцінок."
 
-#. VSO-1194: openassessment (django)
 msgid "Peer Assessment Deadlines"
 msgstr "Дедлайни оцінювання студентами"
 
-#. VSO-1194: openassessment (django)
 msgid "The date and time when learners can begin assessing peer responses."
 msgstr ""
 "Дата й час, коли студенти можуть почати оцінювати роботи одногрупників."
 
-#. VSO-1194: openassessment (django)
 msgid "Due Time"
 msgstr "Кінцевий час"
 
-#. VSO-1194: openassessment (django)
 msgid "The date and time when all peer assessments must be complete."
 msgstr "Дата й час, до якого мають бути завершені всі оцінювання студентами."
 
-#. VSO-1194: openassessment (django)
 msgid ""
 "Prompts. Replace the sample text with your own text. For more information, "
 "see the ORA documentation."
@@ -3195,11 +3178,9 @@ msgstr ""
 "Завдання. Замініть текст-приклад власним текстом. Докладніше — у "
 "документації ORA."
 
-#. VSO-1194: openassessment (django)
 msgid "Add Prompt"
 msgstr "Додати завдання"
 
-#. VSO-1194: openassessment (django)
 msgid ""
 "Rubrics are made up of criteria, which usually contain one or more options. "
 "Each option has a point value. This template contains two sample criteria "
@@ -3211,7 +3192,6 @@ msgstr ""
 "приклади критеріїв з варіантами. Замініть текст-приклад власним текстом. "
 "Докладніше — у документації ORA."
 
-#. VSO-1194: openassessment (django)
 msgid "%(assessment_title)s - %(points)s point"
 msgid_plural "%(assessment_title)s - %(points)s points"
 msgstr[0] "%(assessment_title)s - %(points)s бал"
@@ -3219,10 +3199,8 @@ msgstr[1] "%(assessment_title)s - %(points)s бали"
 msgstr[2] "%(assessment_title)s - %(points)s балів"
 msgstr[3] "%(assessment_title)s - %(points)s бала"
 
-#. VSO-1194: openassessment (django)
 msgid "out of"
 msgstr "з"
 
-#. VSO-1194: openassessment (django)
 msgid "Final grade:"
 msgstr "Підсумкова оцінка:"
