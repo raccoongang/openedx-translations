@@ -1111,7 +1111,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"                                    %(start_strong)sЗавдання триває. Самооцінювання скоро буде закрито.%(end_strong)s Вам потрібно виконати крок %(start_link)sсамооцінювання%(end_link)s.\n"
+"                                    %(start_strong)sЗавдання триває. Самооцінювання скоро буде закрито.%(end_strong)s вам потрібно виконати крок %(start_link)sсамооцінювання%(end_link)s.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:24
@@ -1155,7 +1155,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"Завдання триває. %(start_strong)sПерехресне оцінювання скоро буде закрито.%(end_strong)s Вам потрібно виконати крок %(start_link)sперехресного оцінювання%(end_link)s.\n"
+"Завдання триває. %(start_strong)sПерехресне оцінювання скоро буде закрито.%(end_strong)s вам потрібно виконати крок %(start_link)sперехресного оцінювання%(end_link)s.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_incomplete.html:50
@@ -1166,7 +1166,7 @@ msgid ""
 "                                "
 msgstr ""
 "\n"
-"Завдання триває Вам все ще потрібно виконати крок %(start_link)sперехресного оцінювання%(end_link)s.\n"
+"Завдання триває вам все ще потрібно виконати крок %(start_link)sперехресного оцінювання%(end_link)s.\n"
 "                                "
 
 #: templates/legacy/message/oa_message_no_team.html:4
@@ -1225,7 +1225,7 @@ msgid ""
 "field."
 msgstr ""
 "Це завдання складається з кількох кроків. На першому кроці ви маєте надати "
-"відповідь на питання. Інші кроки з'являться під полем Ваша відповідь, коли "
+"відповідь на питання. Інші кроки з'являться під полем ваша відповідь, коли "
 "ви надасте відповідь."
 
 #: templates/legacy/oa_base.html:37 templates/openassessmentblock/base.html:56
@@ -1512,7 +1512,7 @@ msgstr ""
 msgid ""
 "After you submit a response on behalf of your team, it cannot be edited."
 msgstr ""
-"Після того, як Ви надіслали відповідь від імені своєї команди, її не можна "
+"Після того, як ви надіслали відповідь від імені своєї команди, її не можна "
 "редагувати."
 
 #: templates/legacy/response/oa_response.html:89
@@ -1533,7 +1533,7 @@ msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the course ends "
 msgstr ""
-"Ваша робота буде збережена автоматично, і Ви зможете повернутися, щоб "
+"Ваша робота буде збережена автоматично, і ви зможете повернутися, щоб "
 "завершити свою відповідь у будь-який час до завершення курсу"
 
 #: templates/legacy/response/oa_response.html:96
@@ -1541,7 +1541,7 @@ msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time before the due date "
 msgstr ""
-"Ваша робота буде збережена автоматично, і Ви зможете повернутися, щоб "
+"Ваша робота буде збережена автоматично, і ви зможете повернутися, щоб "
 "завершити свою відповідь у будь-який час до встановленого кінцевого терміну"
 
 #: templates/legacy/response/oa_response.html:108
@@ -1549,7 +1549,7 @@ msgid ""
 "Your work will save automatically and you can return to complete your "
 "response at any time."
 msgstr ""
-"Ваша робота буде збережена автоматично, і Ви зможете повернутися, щоб "
+"Ваша робота буде збережена автоматично, і ви зможете повернутися, щоб "
 "завершити свою відповідь у будь-який час."
 
 #: templates/legacy/response/oa_response.html:110
@@ -1647,9 +1647,9 @@ msgid ""
 "                                  "
 msgstr ""
 "\n"
-"                                      Зараз Ви в команді %(team_name)s. Оскільки Ви були в команді %(previous_team_name)s,\n"
-"                                        коли вони надсилали відповідь на це завдання, Ви бачите відповідь команди %(previous_team_name)s\n"
-"                                         та отримаєте ту саму оцінку за це завдання, що й Ваші колишні товариші по команді. \n"
+"                                      Зараз ви в команді %(team_name)s. Оскільки ви були в команді %(previous_team_name)s,\n"
+"                                        коли вони надсилали відповідь на це завдання, ви бачите відповідь команди %(previous_team_name)s\n"
+"                                         та отримаєте ту саму оцінку за це завдання, що й ваші колишні товариші по команді. \n"
 "                                         Ви не будете частиною подання команди %(team_name)s для цього завдання та не\n"
 "                                        отримаєте оцінку за його подання."
 
@@ -1673,7 +1673,7 @@ msgid ""
 "                              "
 msgstr ""
 "\n"
-"                                 Завантажуйте файли та переглядайте файли, завантажені Вами та Вашими товаришами по команді\n"
+"                                 Завантажуйте файли та переглядайте файли, завантажені вами та вашими товаришами по команді\n"
 "                                  нижче. Обов’язково додайте описи до своїх файлів, щоб допомогти \n"
 "                                 Вашим товаришам по команді їх ідентифікувати."
 
@@ -1892,7 +1892,7 @@ msgid ""
 msgstr ""
 "\n"
 "                            Ви приєдналися до команди %(team_name)s після того, як вони дали відповідь на це завдання,\n"
-"                            тому Ви не отримаєте оцінку за їх відповідь. Ви також раніше не надсилали відповідь на це\n"
+"                            тому ви не отримаєте оцінку за їх відповідь. Ви також раніше не надсилали відповідь на це\n"
 "                            завдання від імені іншої команди. Будь ласка, зв’яжіться з адміністраторами курсу, щоб обговорити\n"
 "                            Ваші варіанти виконання цього завдання.\n"
 "                     "
@@ -2270,7 +2270,7 @@ msgid ""
 " allow the team to resubmit a response."
 msgstr ""
 "Роботу команди вилучено з оцінювання. Команда отримує нульову оцінку, якщо "
-"Ви не видалите стан члена команди для проблеми, щоб команда могла повторно "
+"ви не видалите стан члена команди для проблеми, щоб команда могла повторно "
 "надіслати відповідь."
 
 #: templates/legacy/staff_area/oa_student_info.html:177
@@ -2556,7 +2556,7 @@ msgstr "Очікує перехресного оцінювання"
 
 #: xblock/grade_mixin.py:677
 msgid "The grade for this problem is determined by your Staff Grade."
-msgstr "Оцінка рішення цієї проблеми визначається Вашими викладачами."
+msgstr "Оцінка рішення цієї проблеми визначається вашими викладачами."
 
 #: xblock/grade_mixin.py:681
 msgid "The grade for this problem is determined by your Self Assessment."
@@ -2576,8 +2576,8 @@ msgid ""
 "You have not yet received all necessary peer reviews to determine your final"
 " grade."
 msgstr ""
-"Ви ще не отримали всі необхідні оцінки від Ваших товаришів по навчанню щоб "
-"визначити Ваш остаточний бал."
+"Ви ще не отримали всі необхідні оцінки від ваших товаришів по навчанню щоб "
+"визначити ваш остаточний бал."
 
 #: xblock/grade_mixin.py:710
 msgid ""
@@ -2595,7 +2595,7 @@ msgstr ""
 
 #: xblock/openassesment_template_mixin.py:66
 msgid "Peer Assessment Only"
-msgstr "Оцінювання тільки студентами, які навчаються разом з Вами"
+msgstr "Оцінювання тільки студентами, які навчаються разом з вами"
 
 #: xblock/openassesment_template_mixin.py:67
 msgid "Self Assessment Only"
@@ -2741,7 +2741,7 @@ msgid ""
 "allow the team to resubmit a response."
 msgstr ""
 "Роботу команди вилучено з оцінювання. Команда отримує нульову оцінку, якщо "
-"Ви не видалите стан члена команди для проблеми, щоб команда могла повторно "
+"ви не видалите стан члена команди для проблеми, щоб команда могла повторно "
 "надіслати відповідь."
 
 #: xblock/studio_mixin.py:247 xblock/studio_mixin.py:259
@@ -3093,3 +3093,114 @@ msgstr "Надіслати оцінку та перейти до наступн�
 #, python-brace-format
 msgid "Submit your assessment and move to response #{response_number}"
 msgstr "Надіслати оцінку та перейти до відповіді №{response_number}"
+
+msgid "Must have at least one criterion"
+msgstr "Потрібно вказати принаймні один критерій"
+
+msgid "Training example must be a dictionary"
+msgstr "Приклад для навчання повинен бути словником"
+
+msgid "Training example must contain an \"answer\" field."
+msgstr "Приклад для навчання повинен містити поле \"answer\"."
+
+msgid "Training example must contain an \"options_selected\" field."
+msgstr "Приклад для навчання повинен містити поле \"options_selected\"."
+
+msgid ""
+"Peer Assessment allows students to provide feedback to other students and "
+"also receive feedback from others in their final grade. Often, though not "
+"always, this step is preceded by Self Assessment or Learner Training steps."
+msgstr ""
+"Оцінювання студентами дозволяє учасникам надавати відгук іншим студентам, а "
+"також отримувати відгук від інших у своїй підсумковій оцінці. Часто, хоч і "
+"не завжди, цьому кроку передують кроки самооцінювання або навчання "
+"оцінюванню."
+
+msgid ""
+"Configuration: For this step to be configured you must specify the number of "
+"peer reviews a student will be assessed with, and the number of peer a "
+"student must grade. Additional options can be specified."
+msgstr ""
+"Налаштування: щоб налаштувати цей крок, потрібно вказати кількість оцінок "
+"одногрупників, якими буде оцінено студента, та кількість робіт, які студент "
+"має оцінити. Можна вказати й додаткові параметри."
+
+msgid "View Options & Configuration"
+msgstr "Переглянути параметри та налаштування"
+
+msgid ""
+"Specify the number of peer assessments that each learner must complete. "
+"Valid numbers are 1 to 99."
+msgstr ""
+"Вкажіть кількість оцінок одногрупників, які має виконати кожен студент. "
+"Допустимі значення — від 1 до 99."
+
+msgid ""
+"Specify the number of learners that each response must be assessed by. Valid "
+"numbers are 1 to 99."
+msgstr ""
+"Вкажіть кількість студентів, які мають оцінити кожну роботу. Допустимі "
+"значення — від 1 до 99."
+
+msgid "Enable Flexible Peer Grade Averaging"
+msgstr "Увімкнути гнучке усереднення оцінок одногрупників"
+
+msgid "Mean"
+msgstr "Середнє"
+
+msgid ""
+"Select the preferred grading strategy for the peer assessment. By default, "
+"the median across all peer reviews is used to calculate the final grade. If "
+"you select the mean, the average of all peer reviews will be used."
+msgstr ""
+"Виберіть стратегію оцінювання для оцінювання одногрупниками. За "
+"замовчуванням для обчислення підсумкової оцінки використовується медіана "
+"всіх оцінок. Якщо вибрати середнє, використовуватиметься середнє арифметичне "
+"всіх оцінок."
+
+msgid "Peer Assessment Deadlines"
+msgstr "Дедлайни оцінювання студентами"
+
+msgid "The date and time when learners can begin assessing peer responses."
+msgstr ""
+"Дата й час, коли студенти можуть почати оцінювати роботи одногрупників."
+
+msgid "Due Time"
+msgstr "Кінцевий час"
+
+msgid "The date and time when all peer assessments must be complete."
+msgstr "Дата й час, до якого мають бути завершені всі оцінювання студентами."
+
+msgid ""
+"Prompts. Replace the sample text with your own text. For more information, "
+"see the ORA documentation."
+msgstr ""
+"Завдання. Замініть текст-приклад власним текстом. Докладніше — у "
+"документації ORA."
+
+msgid "Add Prompt"
+msgstr "Додати завдання"
+
+msgid ""
+"Rubrics are made up of criteria, which usually contain one or more options. "
+"Each option has a point value. This template contains two sample criteria "
+"and their options. Replace the sample text with your own text. For more "
+"information, see the ORA documentation."
+msgstr ""
+"Рубрика складається з критеріїв, кожен з яких зазвичай містить один або "
+"кілька варіантів. Кожен варіант має бальне значення. Цей шаблон містить два "
+"приклади критеріїв з варіантами. Замініть текст-приклад власним текстом. "
+"Докладніше — у документації ORA."
+
+msgid "%(assessment_title)s - %(points)s point"
+msgid_plural "%(assessment_title)s - %(points)s points"
+msgstr[0] "%(assessment_title)s - %(points)s бал"
+msgstr[1] "%(assessment_title)s - %(points)s бали"
+msgstr[2] "%(assessment_title)s - %(points)s балів"
+msgstr[3] "%(assessment_title)s - %(points)s бала"
+
+msgid "out of"
+msgstr "з"
+
+msgid "Final grade:"
+msgstr "Підсумкова оцінка:"

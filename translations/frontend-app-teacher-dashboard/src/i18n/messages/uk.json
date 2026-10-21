@@ -94,7 +94,7 @@
   "courseDeletionAlertComponent.button.understand": "Зрозуміло",
   "studioAccessNotificationsComponent.warning.notPassed.withLink": "Ви отримаєте можливість редагувати скопійовані курси, або створювати власні курси, коли пройдете навчання та отримаєте сертифікат курсу \"{courseName}\".",
   "studioAccessNotificationsComponent.warning.notPassed.noLink": "Увага! Ви не можете редагувати жоден з курсів, доки не пройдете спеціальний курс щодо використання системи управління контентом (CMS) та редагування курсів.",
-  "studioAccessNotificationsComponent.warning.adminLocked": "Адміністратор платформи {platformName} обмежив Вас у праві на редагування та створення курсів. Якщо Ви вважаєте, що сталась помилка, зверніться до служби підтримки на адресу електронної пошти: {email}",
+  "studioAccessNotificationsComponent.warning.adminLocked": "Адміністратор платформи {platformName} обмежив вас у праві на редагування та створення курсів. Якщо ви вважаєте, що сталась помилка, зверніться до служби підтримки на адресу електронної пошти: {email}",
   "studioAccessNotificationsComponent.error.general": "Щось пішло не так. Будь ласка, перезавантажте сторінку.",
   "availableCoursesCounterComponent.count.available": "{count, plural, one {<b>Доступний # курс</b>} few {<b>Доступно # курси</b>} many {<b>Доступно # курсів</b>} other {<b>Доступно # курсів</b>}} для копіювання/створення.",
   "availableCoursesCounterComponent.text.limitDescription": "З метою забезпечення належного рівня безпеки платформи {platformName} та запобігти хакерським атакам було введено обмеження на кількість курсів, які можна створювати або копіювати одним користувачем.",
@@ -108,5 +108,11 @@
   "courseCreateLimitModal.action.sendRequest": "Надіслати запит",
   "courseCreateLimitModal.button.understand": "Зрозуміло",
   "courseCreateLimitModal.courseLimitEmail.subject": "Запит на додаткові курси для копіювання/створення",
-  "courseCreateLimitModal.courseLimitEmail.body": "Мене звати [Вкажіть ваше ПІБ].\nМій ліміт на кількість курсів для копіювання/створення було вичерпано. Прошу вас розширити ліміт на додаткові [вказати кількість] курсів для копіювання/створення."
+  "courseCreateLimitModal.courseLimitEmail.body": "Мене звати [Вкажіть ваше ПІБ].\nМій ліміт на кількість курсів для копіювання/створення було вичерпано. Прошу вас розширити ліміт на додаткові [вказати кількість] курсів для копіювання/створення.",
+  "studioAccessNotificationsComponent.modal.label": "Попередження про доступ до Studio",
+  "coursesComponent.label.type.myTextbook": "Мій підручник",
+  "coursesComponent.label.type.copiedTextbook": "Скопійований підручник",
+  "coursesComponent.label.type.courseTeam": "Команда курсу",
+  "coursesComponent.label.type.myCourse": "Мій курс",
+  "coursesComponent.label.type.copiedCourse": "Скопійований курс"
 }

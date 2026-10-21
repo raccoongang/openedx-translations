@@ -755,7 +755,7 @@ msgid ""
 " used by the component you pasted:"
 msgstr ""
 "Наступні файли вже існують у цьому курсі, але не збігаються з версію "
-"перенесеного Вами компоненту:"
+"перенесеного вами компоненту:"
 
 #: cms/static/js/views/course_outline.js:407
 #: cms/static/js/views/pages/container.js:439
@@ -1533,7 +1533,7 @@ msgstr "Період ходу курсу не може бути змінений
 
 #: cms/static/js/views/settings/main.js:223
 msgid "{hours}:{minutes} (current UTC time)"
-msgstr "{hours}:{minutes} (current UTC time)"
+msgstr "{hours}:{minutes} (поточний час UTC)"
 
 #: cms/static/js/views/settings/main.js:457
 msgid "Upload your course image."
@@ -1737,7 +1737,7 @@ msgid ""
 "Sorry, there was an error parsing the subtitles that you uploaded. Please "
 "check the format and try again."
 msgstr ""
-"Вибачте, але сталася помилка при розшифруванні завантажених Вами субтитр. "
+"Вибачте, але сталася помилка при розшифруванні завантажених вами субтитр. "
 "Будь ласка, перевірте формат і спробуйте знову."
 
 #: cms/static/js/views/video/translations_editor.js:172
@@ -2261,7 +2261,7 @@ msgstr "Ви впевнені, що хочете видалити цю відп�
 
 #: common/static/common/js/utils/edx.utils.validate.js:28
 msgid "The email address you've provided isn't formatted correctly."
-msgstr "Наданий Вами електронний адрес має неправильний формат."
+msgstr "Наданий вами електронний адрес має неправильний формат."
 
 #: common/static/common/js/utils/edx.utils.validate.js:29
 msgid "%(field)s must have at least %(count)d characters."
@@ -2796,7 +2796,7 @@ msgid ""
 "If you leave, you can no longer post in this team's discussions.Your place "
 "will be available to another learner."
 msgstr ""
-"Покинувши команду, Ви більше не зможете брати участь в обговореннях команди."
+"Покинувши команду, ви більше не зможете брати участь в обговореннях команди."
 "  Ваше місце зможе зайняти інший студент."
 
 #: lms/djangoapps/teams/static/teams/js/views/team_profile.js:147
@@ -2858,7 +2858,7 @@ msgid ""
 " and try again. If the issue persists, click the Help tab to report the "
 "problem."
 msgstr ""
-"Не вдалося виконати Ваш запит у зв'язку з проблемой на сервері.  "
+"Не вдалося виконати ваш запит у зв'язку з проблемой на сервері.  "
 "Перезавантажте сторінку і спробуйте ще раз.  Якщо помилка повториться, "
 "клацніть по вкладці Допомога і повідомте про це."
 
@@ -2876,7 +2876,7 @@ msgid ""
 "would like to learn with friends you know."
 msgstr ""
 "Створіть нову команду, якщо не можете знайти вже існуючу команду, щоб "
-"приєднатися, або якщо Ви хочете навчатися разом зі своїми друзями."
+"приєднатися, або якщо ви хочете навчатися разом зі своїми друзями."
 
 #: lms/djangoapps/teams/static/teams/js/views/teams_tab.js:303
 #: lms/djangoapps/teams/static/teams/templates/team-profile-header-actions.underscore:11
@@ -2975,7 +2975,7 @@ msgid ""
 "topic{span_end}."
 msgstr ""
 "{browse_span_start}Перегляд команд з інших тем{span_end} або "
-"{search_span_start} пошук{span_end} по цій темі. Якщо Ви все ще не можете "
+"{search_span_start} пошук{span_end} по цій темі. Якщо ви все ще не можете "
 "знайти команду, щоб приєднатися, {create_span_start}створіть нову команду по"
 " цій темі{span_end}."
 
@@ -3995,7 +3995,7 @@ msgstr ""
 
 #: lms/static/js/instructor_dashboard/membership.js:283
 msgid "Error: You cannot remove yourself from the Instructor group!"
-msgstr "Помилка: Ви не можете видалити себе з інструкторської групи. "
+msgstr "Помилка: ви не можете видалити себе з інструкторської групи. "
 
 #: lms/static/js/instructor_dashboard/membership.js:392
 msgid "Errors"
@@ -4604,7 +4604,7 @@ msgstr ""
 
 #: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:123
 msgid "You have access to the {enterpriseName} dashboard"
-msgstr "У Вас є доступ до інформаційної панелі {enterpriseName}"
+msgstr "У вас є доступ до інформаційної панелі {enterpriseName}"
 
 #: lms/static/js/learner_dashboard/EnterpriseLearnerPortalModal.jsx:132
 msgid ""
@@ -4951,7 +4951,7 @@ msgstr "Збереження налаштувань вашого email"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:129
 msgid "Enrolling you in the selected course"
-msgstr "Йде реєстрація на обраний Вами курс"
+msgstr "Йде реєстрація на обраний вами курс"
 
 #: lms/static/js/student_account/views/FinishAuthView.js:140
 msgid "course mode param is not provided"
@@ -4992,7 +4992,7 @@ msgstr "Неможливо увійти."
 #: lms/static/js/student_account/views/LoginView.js:112
 #, javascript-format
 msgid "An error occurred when signing you in to %s."
-msgstr "Сталася помилка при авторизації Вас на %s."
+msgstr "Сталася помилка при авторизації вас на %s."
 
 #: lms/static/js/student_account/views/LoginView.js:171
 #: lms/templates/verify_student/intro_step.underscore:38
@@ -5009,7 +5009,7 @@ msgid ""
 "or check your spam folder.{paragraphEnd}{paragraphStart}If you need further "
 "assistance, {anchorStart}contact technical support{anchorEnd}.{paragraphEnd}"
 msgstr ""
-"{paragraphStart} Ви ввели {boldStart}{email}{boldEnd}. Якщо ця електронна "
+"{paragraphStart} ви ввели {boldStart}{email}{boldEnd}. Якщо ця електронна "
 "адреса пов’язана з вашим обліковим записом r {platform_name}, ми надішлемо "
 "інструкцію по відновленню пароля.{paragraphEnd}{paragraphStart} Якщо "
 "впродовж 1 хвилини ви не отримаєте цього повідомлення, переконайтеся, що ви "
@@ -5056,7 +5056,7 @@ msgstr ""
 
 #: lms/static/js/student_account/views/RegisterView.js:45
 msgid "We couldn't create your account."
-msgstr "Ми не змогли створити Ваш обліковий запис"
+msgstr "Ми не змогли створити ваш обліковий запис"
 
 #: lms/static/js/student_account/views/RegisterView.js:66
 #: lms/templates/student_account/register.underscore:69
@@ -6994,7 +6994,7 @@ msgstr "Сховати субтитри"
 
 #: xmodule/js/src/video/09_video_caption.js:1266
 msgid "(Caption will be displayed when you start playing the video.)"
-msgstr "(Субтитри відображатимуться, коли Ви почнете програвати відео.)"
+msgstr "(Субтитри відображатимуться, коли ви почнете програвати відео.)"
 
 #: xmodule/js/src/video/09_video_caption.js:1273
 msgid "Turn on closed captioning"
@@ -9135,7 +9135,7 @@ msgstr "Номер сторінки із %(total_pages)s"
 
 #: common/static/common/templates/components/paging-footer.underscore:11
 msgid "Enter the page number you'd like to quickly navigate to."
-msgstr "Введіль номер сторінки на яку Ви хочете швидко переміститись"
+msgstr "Введіль номер сторінки на яку ви хочете швидко переміститись"
 
 #: common/static/common/templates/components/paging-header.underscore:11
 msgid "Sorted by"
@@ -10133,7 +10133,7 @@ msgstr ""
 "Завантажте файл зі значеннями, розділеними комами (.csv), який містить імена"
 " користувачів або адреси електронної пошти тих студентів, яким надано "
 "виняток. Першим введіть ім'я користувача або адресу електронної пошти та "
-"відокремте комою. За бажанням Ви можете додати примітку, яка б описувала "
+"відокремте комою. За бажанням ви можете додати примітку, яка б описувала "
 "причину винятку. Вона буде відображатися у другому полі."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-bulk-allowlist.underscore:8
@@ -10614,8 +10614,8 @@ msgid ""
 "program. To complete the program, you must earn a verified certificate for "
 "each course."
 msgstr ""
-"Відслідковуйте та плануйте Ваш навчальний прогрес в межах %(count)s "
-"курсу(-ів), що входять до цієї програми. Щоб закінчити програму, Вам "
+"Відслідковуйте та плануйте ваш навчальний прогрес в межах %(count)s "
+"курсу(-ів), що входять до цієї програми. Щоб закінчити програму, вам "
 "необхідно отримати верифікований сертифікат за кожен з курсів."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:52
@@ -10664,7 +10664,7 @@ msgstr "Складайте курси за вашим розкладом, щоб
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:122
 #, python-format
 msgid "Transform your %(org)s %(type)s into a full master’s degree"
-msgstr "Перетворіть Ваш %(org)s %(type)s на диплом магістра."
+msgstr "Перетворіть ваш %(org)s %(type)s на диплом магістра."
 
 #: lms/templates/learner_dashboard/program_details_tab_view.underscore:125
 #, python-format
@@ -10673,7 +10673,7 @@ msgid ""
 "towards flexible, rigorous, and affordable masters degrees from the world’s "
 "leading universities."
 msgstr ""
-"У Вас є можливість отримати ступінь магістра від провідних університетів "
+"У вас є можливість отримати ступінь магістра від провідних університетів "
 "світу успішно пройшовши інтенсивну, гнучку та доступну програму %(org)s "
 "%(program)s."
 
@@ -10684,8 +10684,8 @@ msgid ""
 "To complete the program, you must earn a verified certificate for each "
 "course."
 msgstr ""
-"Відслідковуйте та плануйте Ваш навчальний прогрес в межах %(count)s "
-"курсу(-ів), що входять до цієї програми. Щоб закінчити програму, Вам "
+"Відслідковуйте та плануйте ваш навчальний прогрес в межах %(count)s "
+"курсу(-ів), що входять до цієї програми. Щоб закінчити програму, вам "
 "необхідно отримати верифікований сертифікат за кожен з курсів."
 
 #: lms/templates/learner_dashboard/program_header_view.underscore:15
@@ -10828,7 +10828,7 @@ msgid ""
 "your Account Settings."
 msgstr ""
 "Ви можете переглядати інформацію або від'єднувати від {enterprise_name}  у "
-"будь який час у Налаштуваннях Вашого Акаунту."
+"будь який час у Налаштуваннях вашого Акаунту."
 
 #: lms/templates/student_account/login.underscore:25
 msgid "To continue learning with this account, sign in below."
@@ -10986,7 +10986,7 @@ msgstr ""
 #: lms/templates/verify_student/face_photo_step.underscore:17
 #: lms/templates/verify_student/incourse_reverify.underscore:3
 msgid "Take Your Photo"
-msgstr "Зробіть Ваше фото"
+msgstr "Зробіть ваше фото"
 
 #: lms/templates/verify_student/face_photo_step.underscore:19
 #, python-brace-format
@@ -11462,7 +11462,7 @@ msgstr ""
 
 #: lms/templates/verify_student/reverify_success_step.underscore:9
 msgid "Return to Your Dashboard"
-msgstr "Повернутися до Вашої Панелі управління"
+msgstr "Повернутися до вашої Панелі управління"
 
 #: lms/templates/verify_student/review_photos_step.underscore:3
 msgid "Review Your Photos"
@@ -11473,8 +11473,8 @@ msgid ""
 "Make sure we can verify your identity with the photos and information you "
 "have provided."
 msgstr ""
-"Переконайтеся, що ми зможемо визначити Вашу особистість із фото та "
-"інформації, яку Ви надали."
+"Переконайтеся, що ми зможемо визначити вашу особистість із фото та "
+"інформації, яку ви надали."
 
 #: lms/templates/verify_student/review_photos_step.underscore:13
 #, python-format
@@ -11505,7 +11505,7 @@ msgstr "Чи ім: %(fullName)s?"
 
 #: lms/templates/verify_student/review_photos_step.underscore:33
 msgid "Edit Your Name"
-msgstr "Редагувати Ваше Ім'я"
+msgstr "Редагувати ваше Ім'я"
 
 #: lms/templates/verify_student/review_photos_step.underscore:38
 msgid ""
@@ -11590,3 +11590,129 @@ msgstr[3] "Одночасно можна встановити лише {checkbox
 #: lms/djangoapps/support/static/support/templates/certificates_results.underscore
 msgid "Not available"
 msgstr "недоступно"
+
+msgid "Organization:"
+msgstr "Організація:"
+
+msgid "Course Number:"
+msgstr "Номер курсу:"
+
+msgid "Course Run:"
+msgstr "Запуск курсу:"
+
+msgid "(Read-only)"
+msgstr "(Лише для читання)"
+
+msgid "Re-run Course"
+msgstr "Перезапустити курс"
+
+msgid "Browsing"
+msgstr "Перегляд"
+
+msgid "Details"
+msgstr "Деталі"
+
+msgid "the more quickly and helpfully we can respond!"
+msgstr "тим швидше й корисніше ми зможемо відповісти!"
+
+msgid "Create Support Ticket"
+msgstr "Створити звернення до служби підтримки"
+
+msgid "What can we help you with, {fullName}?"
+msgstr "Чим ми можемо вам допомогти, {fullName}?"
+
+msgid "Need help logging in?"
+msgstr "Потрібна допомога зі входом?"
+
+msgid "Started preparing student submissions zip file. This may take a while."
+msgstr ""
+"Розпочато підготовку zip-архіву з роботами учнів. Це може зайняти деякий час."
+
+msgid "Submission failed. Please contact your course instructor."
+msgstr "Не вдалося надіслати роботу. Зверніться до викладача курсу."
+
+msgid "Uploading..."
+msgstr "Завантаження..."
+
+msgid "The file you are trying to upload is too large."
+msgstr "Файл, який ви намагаєтеся завантажити, завеликий."
+
+msgid "Uploading... %(percent)s %"
+msgstr "Завантаження... %(percent)s %"
+
+msgid "yes"
+msgstr "так"
+
+msgid "Grade must be a number."
+msgstr "Оцінка має бути числом."
+
+msgid "Grade must be an integer."
+msgstr "Оцінка має бути цілим числом."
+
+msgid "Grade must be positive."
+msgstr "Оцінка має бути додатною."
+
+msgid "Maximum score is %(max_score)s"
+msgstr "Максимальний бал: %(max_score)s"
+
+msgid "No grade to remove."
+msgstr "Немає оцінки для видалення."
+
+msgid ""
+"The download file was not created. Please try again or contact "
+"%(support_email)s"
+msgstr ""
+"Файл для завантаження не створено. Спробуйте ще раз або зверніться на "
+"%(support_email)s"
+
+msgid "Student submission file ready for download"
+msgstr "Файл із роботами учнів готовий до завантаження"
+
+msgid "Unable to update settings"
+msgstr "Не вдалося оновити налаштування"
+
+msgid "Are you staff on an existing %(studio_name)s course?"
+msgstr "Ви працюєте в команді наявного курсу в %(studio_name)s?"
+
+msgid ""
+"The course creator must give you access to the course. Contact the course "
+"creator or administrator for the course you are helping to author."
+msgstr ""
+"Розробник курсу повинен надати вам доступ до курсу. Зверніться до автора або "
+"адміністратора курсу, якому ви допомагаєте."
+
+msgid "Create Your First Course"
+msgstr "Створіть свій перший курс"
+
+msgid "Your new course is just a click away!"
+msgstr "Ваш новий курс лише в одному кліку від вас!"
+
+msgid "Were you expecting to see a particular library here?"
+msgstr "Ви очікували знайти тут певну бібліотеку?"
+
+msgid ""
+"The library creator must give you access to the library. Contact the library "
+"creator or administrator for the library you are helping to author."
+msgstr ""
+"Автор бібліотеки повинен надати вам доступ до бібліотеки. Зверніться до "
+"розробника бібліотеки або адміністратора бібліотеки, з наповненням якої ви "
+"допомагаєте."
+
+msgid "Create Your First Library"
+msgstr "Створіть свою першу бібліотеку"
+
+msgid ""
+"Libraries hold a pool of components that can be re-used across multiple "
+"courses. Create your first library with the click of a button!"
+msgstr ""
+"Бібліотеки мають комплекс компонентів, які можна повторно використовувати на "
+"кількох курсах. Створіть свою першу бібліотеку, лише натиснувши одну кнопку!"
+
+msgid "My Courses"
+msgstr "Мої курси"
+
+msgid "Archived Courses"
+msgstr "Архівовані курси"
+
+msgid "Libraries"
+msgstr "Бібліотеки"
