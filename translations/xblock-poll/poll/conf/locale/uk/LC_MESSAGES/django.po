@@ -173,6 +173,18 @@ msgstr "Запитання"
 msgid "Submissions count"
 msgstr "Кількість надсилань"
 
+#: poll/poll.py:64
+msgid "User ID"
+msgstr "ID користувача"
+
+#: poll/poll.py:64
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: poll/poll.py:64
+msgid "Email Addresses"
+msgstr "Адреси електронної пошти"
+
 #: poll/poll.py:884
 msgid "Survey"
 msgstr "Опитувальник"

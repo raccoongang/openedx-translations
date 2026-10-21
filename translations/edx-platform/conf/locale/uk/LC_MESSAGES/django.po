@@ -27857,35 +27857,14 @@ msgstr ""
 "Ширина меню навігації. Передбачається, що меню навігації ввімкнено. (за "
 "замовчуванням: 30%)"
 
-msgid "In-Video Quiz XBlock"
-msgstr "Тест у відео"
-
-msgid "Comparison"
-msgstr "Порівняння"
-
 msgid "Completion"
 msgstr "Завершення"
-
-msgid "Provide Feedback"
-msgstr "Залишити відгук"
 
 msgid "Google Calendar"
 msgstr "Календар Google"
 
 msgid "Google Document"
 msgstr "Документ Google"
-
-msgid "H5P Content"
-msgstr "Вміст H5P"
-
-msgid "Inline Text and Dropdown"
-msgstr "Текст із випадним списком"
-
-msgid "Randomized Content Block"
-msgstr "Блок випадкового вмісту"
-
-msgid "LTI Consumer"
-msgstr "Споживач LTI"
 
 msgid "Column"
 msgstr "Стовпець"
@@ -27899,15 +27878,6 @@ msgstr "Інструмент викладача"
 msgid "Answers Table"
 msgstr "Таблиця відповідей"
 
-msgid "Poll Checkboxes"
-msgstr "Опитування з прапорцями"
-
-msgid "Poll"
-msgstr "Опитування"
-
-msgid "Problem Builder"
-msgstr "Конструктор завдань"
-
 msgid "Overlay"
 msgstr "Накладка"
 
@@ -27917,20 +27887,8 @@ msgstr "Графік"
 msgid "Review Step"
 msgstr "Крок перегляду"
 
-msgid "Scorm module"
-msgstr "Модуль SCORM"
-
 msgid "Staff Graded Points"
 msgstr "Бали, виставлені персоналом"
-
-msgid "Step Builder"
-msgstr "Конструктор кроків"
-
-msgid "Survey"
-msgstr "Анкетування"
-
-msgid "Word cloud"
-msgstr "Хмара слів"
 
 msgid "Announcement"
 msgstr "Оголошення"
@@ -27985,3 +27943,59 @@ msgstr "Завдання з адаптивною підказкою в LaTeX"
 
 msgid "Text Input with Hints and Feedback"
 msgstr "Введення тексту з підказками та відгуком"
+
+#. Display name of the "poll" XBlock type
+msgid "Poll"
+msgstr "Опитування"
+
+#. Display name of the "poll_checkboxes" XBlock type
+msgid "Poll Checkboxes"
+msgstr "Опитування з множинним вибором"
+
+#. Display name of the "survey" XBlock type
+msgid "Survey"
+msgstr "Голосування"
+
+#. Display name of the "h5pxblock" XBlock type
+msgid "H5P Content"
+msgstr "H5P контент"
+
+#. Display name of the "comparison" XBlock type
+msgid "Comparison"
+msgstr "Співставлення"
+
+#. Display name of the "feedback" XBlock type
+msgid "Provide Feedback"
+msgstr "Зворотній звʼязок"
+
+#. Display name of the "problem-builder" XBlock type
+msgid "Problem Builder"
+msgstr "Конструктор завдань"
+
+#. Display name of the "step-builder" XBlock type
+msgid "Step Builder"
+msgstr "Конструктор покрокового завдання"
+
+#. Display name of the "invideoquiz" XBlock type
+msgid "In-Video Quiz XBlock"
+msgstr "Тест у відео"
+
+#. Display name of the "scorm" XBlock type
+msgid "Scorm module"
+msgstr "Scorm"
+
+#. Display name of the "inline-text-and-dropdown" XBlock type
+msgid "Inline Text and Dropdown"
+msgstr "Вбудований текст і випадаюче меню"
+
+#. Display name of the "library_content" XBlock type
+msgid "Randomized Content Block"
+msgstr "Блок випадково вибраних завдань"
+
+#. Display name of the "lti_consumer" XBlock type
+msgid "LTI Consumer"
+msgstr "Зовнішній контент (LTI)"
+
+#. Display name of the "word_cloud" XBlock type
+msgid "Word cloud"
+msgstr "Хмара слів"
