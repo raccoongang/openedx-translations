@@ -27999,3 +27999,6 @@ msgstr "Зовнішній контент (LTI)"
 #. Display name of the "word_cloud" XBlock type
 msgid "Word cloud"
 msgstr "Хмара слів"
+
+msgid "Cohort Assignment"
+msgstr "Розподіл по когортах"
