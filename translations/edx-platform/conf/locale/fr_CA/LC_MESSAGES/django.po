@@ -27306,3 +27306,24 @@ msgstr "En présentiel"
 #: oex_plugin/course_type/constants.py
 msgid "Blended"
 msgstr "Hybride"
+
+#: tutor-contrib-rg-theme: lms/templates/student/edx_ace/accountactivation/email/body.html
+msgid ""
+"You're almost there! Use the link below to activate your account and access "
+"engaging, high-quality community housing content. Note that you will not be "
+"able to log back into your account until you have activated it."
+msgstr ""
+"Vous y êtes presque! Utilisez le lien ci-dessous pour activer votre compte "
+"et accéder à du contenu attrayant et de haute qualité sur le logement "
+"communautaire. Notez que vous ne pourrez pas vous reconnecter à votre compte "
+"avant de l'avoir activé."
+
+#: tutor-contrib-rg-theme: lms/templates/student/edx_ace/accountactivation/email/body.html
+msgid ""
+"If you need help, please email {start_anchor_email}%(support_email)s{end_anchor}."
+msgstr ""
+"Si vous avez besoin d'aide, veuillez nous écrire à {start_anchor_email}%(support_email)s{end_anchor}."
+
+#: tutor-contrib-rg-theme: lms/templates/student/edx_ace/accountactivation/email/body.txt
+msgid "If you need help, please email %(support_email)s."
+msgstr "Si vous avez besoin d'aide, veuillez nous écrire à %(support_email)s."
