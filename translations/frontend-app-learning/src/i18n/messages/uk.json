@@ -69,7 +69,7 @@
   "learn.coursewareSerch.searchBarPlaceholderText": "Пошук",
   "learn.coursewareSerch.loading": "Пошук...",
   "learn.coursewareSerch.searchResultsNone": "Нічого не знайдено.",
-  "learn.coursewareSerch.searchResultsLabel": "Результати для &quot; {keyword} &quot;:",
+  "learn.coursewareSerch.searchResultsLabel": "Результати для « {keyword} »:",
   "learn.coursewareSerch.searchResultsError": "У процесі пошуку сталася помилка. Повторіть спробу через кілька хвилин. Якщо проблема не зникає, зверніться до служби підтримки.",
   "learn.coursewareSerch.filter:all": "Увесь контент",
   "learn.coursewareSerch.filter:text": "Текст",
