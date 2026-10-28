@@ -1,0 +1,140 @@
+# edX translation file
+# Copyright (C) 2026 RaccoonGang
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: dynamic-pages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-28 19:14+0000\n"
+"PO-Revision-Date: 2026-10-22 00:00+0000\n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != "
+"11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % "
+"100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || "
+"(n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
+
+#: dynamic_pages/admin.py
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#: dynamic_pages/apps.py dynamic_pages/models.py
+msgid "Dynamic pages"
+msgstr "Динамічні сторінки"
+
+#: dynamic_pages/models.py
+msgid "Site"
+msgstr "Сайт"
+
+#: dynamic_pages/models.py
+msgid "Path"
+msgstr "Шлях"
+
+#: dynamic_pages/models.py
+msgid ""
+"A path starting with /, e.g. / or /about. Use lowercase Latin letters, "
+"digits, hyphens and underscores, without a hyphen or underscore at the start "
+"or end of a part, or two hyphens in a row. The path can't start with /"
+"admin, /login, /logout or /register."
+msgstr ""
+"Шлях, що починається з /, наприклад / або /about. Використовуйте малі "
+"латинські літери, цифри, дефіси та підкреслення, без дефіса чи підкреслення "
+"на початку або в кінці частини та без двох дефісів поспіль. Шлях не може "
+"починатися з /admin, /login, /logout або /register."
+
+#: dynamic_pages/models.py
+msgid "Content"
+msgstr "Контент"
+
+#: dynamic_pages/models.py
+msgid "HTML or a Mako template."
+msgstr "HTML або шаблон Mako."
+
+#: dynamic_pages/models.py
+msgid "Is published"
+msgstr "Опубліковано"
+
+#: dynamic_pages/models.py
+msgid "Dynamic page"
+msgstr "Динамічна сторінка"
+
+#: dynamic_pages/models.py
+msgid "Can preview unpublished dynamic pages"
+msgstr "Може переглядати неопубліковані динамічні сторінки"
+
+#: dynamic_pages/models.py
+msgid "Can publish dynamic page and edit published dynamic pages"
+msgstr "Може публікувати динамічні сторінки та редагувати опубліковані"
+
+#: dynamic_pages/models.py
+#, python-format
+msgid "%(path)s (deleted site)"
+msgstr "%(path)s (сайт видалено)"
+
+#: dynamic_pages/models.py
+msgid "Editor"
+msgstr "Редактор"
+
+#: dynamic_pages/models.py
+msgid "Reviewer"
+msgstr "Рецензент"
+
+#: dynamic_pages/models.py
+msgid "User"
+msgstr "Користувач"
+
+#: dynamic_pages/models.py
+msgid "Role"
+msgstr "Роль"
+
+#: dynamic_pages/models.py
+msgid "Dynamic page access"
+msgstr "Доступ до динамічних сторінок"
+
+#: dynamic_pages/models.py
+msgid "Dynamic page accesses"
+msgstr "Доступи до динамічних сторінок"
+
+#: dynamic_pages/utils.py
+msgid "The path must start with /, e.g. /about."
+msgstr "Шлях має починатися з /, наприклад /about."
+
+#: dynamic_pages/utils.py
+#, python-format
+msgid "The path can't start with %(paths)s."
+msgstr "Шлях не може починатися з %(paths)s."
+
+#: dynamic_pages/utils.py
+msgid "The path can't have empty parts (//)."
+msgstr "Шлях не може містити порожніх частин (//)."
+
+#: dynamic_pages/utils.py
+#, python-format
+msgid ""
+"“%(segment)s” can't be part of a path; use lowercase Latin letters, digits, "
+"hyphens and underscores, without a hyphen or underscore at the start or end, "
+"or two hyphens in a row, e.g. “%(slug)s”."
+msgstr ""
+"«%(segment)s» не може бути частиною шляху; використовуйте малі латинські "
+"літери, цифри, дефіси та підкреслення, без дефіса чи підкреслення на початку "
+"або в кінці та без двох дефісів поспіль, наприклад «%(slug)s»."
+
+#: dynamic_pages/utils.py
+#, python-format
+msgid ""
+"“%(segment)s” can't be part of a path; use lowercase Latin letters, digits, "
+"hyphens and underscores, without a hyphen or underscore at the start or end, "
+"or two hyphens in a row."
+msgstr ""
+"«%(segment)s» не може бути частиною шляху; використовуйте малі латинські "
+"літери, цифри, дефіси та підкреслення, без дефіса чи підкреслення на початку "
+"або в кінці та без двох дефісів поспіль."
+
+#: dynamic_pages/utils.py
+#, python-format
+msgid "The content isn't a valid Mako template: %(error)s"
+msgstr "Контент не є коректним шаблоном Mako: %(error)s"
