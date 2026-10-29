@@ -715,8 +715,8 @@ msgid ""
 "The background color of draggable items in the problem (example: 'blue' or "
 "'#0000ff')."
 msgstr ""
-"Колір фону елементів, які можна перетягувати, у завданні (приклад: blue або "
-"#0000ff)."
+"Колір фону елементів, які можна перетягувати, у завданні (приклад: blue "
+"або #0000ff)."
 
 #: drag_and_drop_v2.py:210
 msgid ""
@@ -873,9 +873,7 @@ msgstr "Текст"
 
 #: templates/html/js_templates.html:114
 msgid "Use text that is clear and descriptive of the item to be placed."
-msgstr ""
-"Використовуйте текст, який чітко й описово характеризує предмет, який "
-"потрібно розмістити."
+msgstr "Використовуйте текст, який чітко й описово характеризує предмет, який потрібно розмістити."
 
 #: templates/html/js_templates.html:127
 msgid "Image URL (alternative to the text)"
@@ -886,17 +884,12 @@ msgid "For example, 'http://example.com/image.png' or '/static/image.png'."
 msgstr "Наприклад, 'http://example.com/image.png' або '/static/image.png'."
 
 #: templates/html/js_templates.html:139
-msgid ""
-"Image description (should provide sufficient information to place the item "
-"even if the image did not load)"
-msgstr ""
-"Опис зображення (повинен містити достатньо інформації, щоб розмістити "
-"предмет, навіть якщо зображення не завантажилося)"
+msgid "Image description (should provide sufficient information to place the item even if the image did not load)"
+msgstr "Опис зображення (повинен містити достатньо інформації, щоб розмістити предмет, навіть якщо зображення не завантажилося)"
 
 #: templates/html/js_templates.html:148
 msgid "Remove padding when dropped on a zone (applies only to images)."
-msgstr ""
-"Прибрати відступи після розміщення в зоні (стосується лише зображень)."
+msgstr "Прибрати відступи після розміщення в зоні (стосується лише зображень)."
 
 #: templates/html/js_templates.html:153
 msgid "Success feedback"
@@ -915,9 +908,5 @@ msgid "Preferred width"
 msgstr "Бажана ширина"
 
 #: templates/html/js_templates.html:178
-msgid ""
-"Specify preferred width as percentage of the background image width. Leave "
-"blank for automatic width."
-msgstr ""
-"Вкажіть бажану ширину у відсотках від ширини фонового зображення. Залиште "
-"порожнім для автоматичної ширини."
+msgid "Specify preferred width as percentage of the background image width. Leave blank for automatic width."
+msgstr "Вкажіть бажану ширину у відсотках від ширини фонового зображення. Залиште порожнім для автоматичної ширини."

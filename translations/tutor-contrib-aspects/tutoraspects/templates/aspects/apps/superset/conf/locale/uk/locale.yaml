@@ -1,359 +1,345 @@
 en:
-  '% Correct': '% Правильно'
-  '% Correct All Attempts': '% Виправити всі спроби'
-  '% Correct First Attempts': '% Виправити перші спроби'
-  '% Correct Last Attempts': '% Виправити останні спроби'
-  '% Incorrect': '% Невірно'
-  '% Video Seconds Rewatched': '% переглянутих секунд відео'
-  '% Video Seconds Watched': '% переглянутого відео в секундах'
-  ? '<dl>
-
-    <dt>Avg % Correct on 1st Attempt </dt>
-
-    <dd> The average percentage of correct answers on the first attempt of the learners who attempted the problem. </dd>
-
-    </dl>'
-  : '<dl>
-
-    <dt>Середній відсоток правильних відповідей з першої спроби </dt>
-
-    <dd> Середній відсоток правильних відповідей з першої спроби серед учнів, які намагалися виконати завдання. </dd>
-
-    </dl>'
-  Action: Дія
-  Action Count: Кількість дій
-  Action Date: Дата дії
-  Active: Активний
-  Active Courses: Активні курси
-  Active Learner: Активний учень
-  Active Learners: Активні учні
-  Active Users Per Organization: Активних користувачів на організацію
-  Active Within Last 7 Days: Активні протягом останніх 7 днів
-  Actor ID: ID актора
-  Actor Id: ID актора
-  Actors Count: Кількість акторів
-  Approving State: Стан затвердження
-  At Risk: У зоні ризику
-  At-Risk Learners: Учні групи ризику
-  Attempt: Спроба
-  Attempted All Problems: Спроба вирішити всі проблеми
-  Attempted At Least One Problem: Спроба вирішити принаймні одну проблему
-  Attempts: Спроби
-  Average Score: Середній бал
-  Avg % Correct on 1st Attempt: Середній % правильних відповідей з першої спроби
-  Avg Attempts: Середня кількість спроб
-  Avg Correct Attempts Coursewide: Середній показник правильних спроб по всьому курсу
-  Avg Correct Attempts by Selected Learners: Середній показник правильних спроб для вибраних учнів
-  Avg Course Grade: Середня оцінка курсу
-  Avg Incorrect Attempts Coursewide: Середній показник неправильних спроб по всьому курсу
-  Avg Incorrect Attempts by Selected Learners: Середнє число неправильних спроб для вибраних учнів
-  Avg Score: Середній бал
-  Avg Video Length (seconds): Середня тривалість відео (секунди)
-  Block ID: Блокувати ID
-  Block Id: Ідентифікатор блоку
-  COUNT(*): РАХУВАТИ(*)
-  Changed By Fk: Змінено Fk
-  Changed On: Змінено на
-  Chart showing the number of Superset actions taken on each chart in the selected time period.: Діаграма, яка показує кількість дій Superset, виконаних на кожній діаграмі за вибраний період часу.
-  Chart showing the number of Superset actions taken on each dashboard in the selected time period.: Діаграма, яка показує кількість дій Superset, виконаних на кожній інформаційній панелі за вибраний період часу.
-  Chart showing the number of registered users over the selected time period.: Діаграма, яка показує кількість зареєстрованих користувачів за вибраний період часу.
-  ClickHouse: ClickHouse
-  ClickHouse metrics: Показники ClickHouse
-  Content Level: Рівень вмісту
-  Correct Attempts: Правильні спроби
-  Correct Attempts By Learner: Правильні спроби учня
-  Correct Attempts by Selected Learner: Правильні спроби вибраного учня
-  Count: Кількість
-  Count of Passing Grades: Підрахунок прохідних балів
-  Count of Scores: Підрахунок балів
-  Count of unique users who performed an action in Superset over the selected time period.: Кількість унікальних користувачів, які виконали дію в Superset протягом вибраного періоду часу.
-  Count over time of unique users who performed an action in Superset over the selected time period.: Підрахунок унікальних користувачів з часом, які виконали дію в Superset протягом вибраного періоду часу.
-  Course Comparison Dashboard: Панель порівняння курсів
-  Course Dashboard: Інформаційна панель курсу
-  Course Data JSON: Дані курсу JSON
-  Course End: Кінець курсу
-  Course Enrollment Mode Status Cnt: Режим реєстрації на курс Cnt
-  Course Enrollments Over Time: Зарахування на курси з часом
-  Course Grade: Оцінка курсу
-  Course Grade %: Оцінка курсу %
-  Course ID: ID курсу
-  Course Info: Інформація про курс
-  Course Information: Інформація про курс
-  Course Key: Ключ Курсу
-  Course Key Short: Короткий ключ курсу
-  Course Metrics: Показники курсу
-  Course Name: Назва курсу
-  Course Order: Замовлення курсу
-  Course Run: Запуск курсу
-  Course Start: Початок Курсу
-  Course Tag: Мітка курсу
-  Course grade: Оцінка за курс
-  Course name: Назва курсу
-  Course run: Запуск курсу
-  Courses: Курси
-  Courses Cnt: Курси Cnt
-  Courses Per Organization: Курси на організацію
-  Coursewide % Correct: В цілому по курсу % Правильно
-  Coursewide Percent Correct: Відсоток правильних відповідей по всьому курсу
-  Coursewide averages are based on learners who attempted the problem.: Середні показники по курсу базуються на даних учнів, які намагалися розв'язати задачу.
-  Coursewide percentages are based on learners who attempted the problem.: Відсотки по всьому курсу базуються на учнях, які намагалися розв'язати задачу.
-  Created: Створено
-  Created By Fk: Створено Fk
-  Created On: Дата створення
-  Cumulative Enrollments by Track: Сукупна реєстрація за треком
-  Cumulative Interactions: Кумулятивні взаємодії
-  Current Active Enrollments By Mode: Поточні активні реєстрації за режимом
-  Current Enrollees: Поточні учасники
-  Currently Enrolled Users: Наразі зареєстровані користувачі
-  Dashboard ID: ID інформаційної панелі
-  Dashboard Status: Стан інформаційної панелі
-  Dashboard Title: Заголовок інформаційної панелі
-  Datasource ID: ID джерела даних
-  Datasource Name: Назва джерела даних
-  Datasource Type: Тип джерела даних
-  Date: Дата
-  Description: Опис
-  Display Name: Назва, що відображається
-  Displays the top 10 highest enrollment courses. Selecting different courses in the filter will display those courses.: Відображає 10 найкращих курсів з найбільшою кількістю слухачів. Вибираючи різні курси у фільтрі, ви побачите ці курси.
-  Distribution of Course Grades: Розподіл оцінок за курс
-  Distribution of Current Course Grade: Розподіл поточної оцінки курсу
-  Dump ID: Дамп ID
-  Duration (Seconds): Тривалість (секунди)
-  Email: Електронна пошта
-  Emission Day: День випуску
-  Emission Hour: Година випуску
-  Emission Time: Час випуску
-  Engagement: Залучення
-  Enrolled At: Зарахований Ат
-  Enrollees by Enrollment Track: Реєстратори за треком реєстрації
-  Enrollees per Enrollment Track: Учасники на трек реєстрації
-  Enrollment: Зарахування на курс
-  Enrollment Counts: Кількість зарахованих на курс
-  Enrollment Date: Дата запису на курс
-  Enrollment Dates: Дати зарахування на курс
-  Enrollment End: Кінець реєстрації на курс
-  Enrollment Mode: Режим запису на курс
-  Enrollment Start: Початок реєстрації на курс
-  Enrollment Status: Статус реєстрації на курс
-  Enrollment Track: Трек реєстрації на курс
-  Enrollment status: Статус реєстрації на курс
-  Enrollment track: Реєстраційний трек
-  Enrollments: Зарахування на курс
-  Event Activity: Активність подій
-  Event ID: ID події
-  Event String: Рядок події
-  Event Time: Час події
-  Events Cnt: Події Cnt
-  Fail Login Count: Кількість помилок входу
-  Final Response Results: Остаточні результати відповіді
-  First Name: Ім'я
-  Full Views: Повні перегляди
-  Grade Bucket: Корзина оцінок
-  Grade Range: Діапазон оцінок
-  Grade range: Діапазон оцінок
-  Graded: Оцінено
-  Graded Learners: Оцінені учні
-  Graded Subsection Engagement: Залучення у оцінюваний підрозділ
-  Graded Subsection Performance: Успішність в оцінюваних підрозділах
-  Help: Допомога
-  Http User Agent: Агент користувача Http
-  Id: ID
-  'In-Context Analytics: Course': 'Контекстна аналітика: Курс'
-  'In-Context Analytics: Graded Subsection': 'Контекстна аналітика: Оцінюваний Підрозділ'
-  'In-Context Analytics: Problem': 'Контекстна аналітика: Задача'
-  'In-Context Analytics: Video': 'Контекстна аналітика: Відео'
-  Incorrect Attempts: Неправильні спроби
-  Incorrect Attempts By Learner: Неправильні спроби учня
-  Incorrect Attempts by Selected Learner: Невірні спроби обраних учнів
-  Individual Learner: Індивідуальний учень
-  Initial Numeric Responses: Початкові числові відповіді
-  Initial Responses: Початкові відповіді
-  Instance Health: Стан Платформи на Сервері
-  Interaction Type: Тип взаємодії
-  Last Course Published: Опублікований останній курс
-  Last Name: Прізвище
-  Last Received Event: Остання отримана подія
-  Last Visit Date: Дата останнього відвідування
-  Last Visited: Останнє відвідування
-  Last course syncronized: Останній синхронізований курс
-  Learner Performance: Успішність учнів
-  Learner Performance Breakdown: Розподіл успішності учнів
-  Learner Status: Статус учня
-  Learner Summary: Резюме учня
-  Learners: Учні
-  Learners with Passing Grade: Учні з прохідним балом
-  Login Count: Кількість входів
-  Median Attempts: Середні спроби
-  Median Course Grade: Середня оцінка курсу
-  Memory Usage (KB): Використання пам'яті (Кб)
-  Memory Usage Mb: Використання пам'яті (Мб)
-  Modified: Змінено
-  More details: Більш детальна інформація
-  Most-used Charts: Найбільш використовувані діаграми
-  Most-used Dashboards: Найчастіше використовувані інформаційні панелі
   Name: Ім'я
-  Name Org: Ім'я організації
-  Number of Learners: Кількість учнів
-  Number of Learners who Attempted the Problem: Кількість учнів, які спробували вирішити проблему
-  Number of Videos: Кількість відеороликів
-  Number of Videos Watched: Кількість переглянутих відео
-  Number of Views across Video Duration: Кількість переглядів протягом всієї тривалості відео
-  Object ID: ID об'єкта
-  Object Id: ID об'єкта
-  Object Type: Тип об'єкта
-  Only available in versions Redwood and later: Доступно лише у версіях Redwood та новіших
-  Operator Dashboard: Інформаційна панель оператора
-  Org: Організація
-  Organization: Організація
-  Organizations: Організації
-  Overview: Огляд
-  Page Count: Кількість сторінок
-  Page Engagement Over Time: Залученість сторінки з плином часу
-  Page Engagement per Section: Залученість сторінки за розділом
-  Page Engagement per Section/Subsection: Залученість сторінки за розділом/підрозділом
-  Page Engagement per Subsection: Залученість сторінки за підрозділом
-  Pages: Сторінки
-  Partial Views: Часткові перегляди
-  Partial and Full Video Views: Часткові та повні перегляди відео
-  Passed: Складено
-  Passed/Failed: Складено/Не складено
-  Password: Пароль
-  Performance: Продуктивність
-  Problem Attempts: Спроби вирішення завдання
-  Problem Attempts and Results: Спроби вирішення завдання та результати
-  Problem Engagement: Залучення в завдання
-  Problem Engagement per Section: Залучення в завдання за розділом
-  Problem Engagement per Section/Subsection: Залучення в завдання за розділом/підрозділом
-  Problem Engagement per Subsection: Залучення в завдання за підрозділом
-  Problem Id: ID завдання
-  Problem Link: Посилання на завдання
-  Problem Location and Name: Місце та назва завдання
-  Problem Name: Назва завдання
-  Problem Name Location: Розташування назви завдання
-  Problem Name With Location: Назва завдання з розташуванням
-  Problem Number: 'Номер Завдання '
-  Problem Results: Результати завдання
-  Problem Results Table: Таблиця результатів завдання
-  Problems: Завдання
-  Query: Запит
-  Query Duration Ms: Тривалість запиту Ms
-  Query performance: Продуктивність запиту
-  Read Rows: Прочитайте рядки
-  Repeat Views: Повторні перегляди
-  Respondents: Респонденти
-  Response: Відповідь
-  Response Numeric: Числове значення відповіді
-  Responses: Відповіді
-  Result: Результат
-  Result Rows: Рядки результатів
-  Rewatched Time: Час Переглядання
-  Rownum: Rownum
-  Run Metrics: Показники запуску
-  Run Name: Назва запуску
-  Scaled Score: Шкала оцінок
-  Section Location and Name: Розташування та назва розділу
-  Section Name: Назва розділу
-  Section Subsection Video Engagement: 'Залучення у відео Розділу/Підрозділу '
-  Section Summary: Підсумок розділу
-  Section With Name: Розділ з назвою
-  Section with name: Розділ з назвою
-  Section/Subsection Name: Назва розділу/підрозділу
-  Section/Subsection Page Enggagement: Залучення в сторінку розділу/підрозділу
-  Section/Subsection Problem Engagement: Залучення в завдання розділу/підрозділу
-  Section/Subsection Video Engagement: Залучення у відео Розділу/підрозділу
-  Segment Range: Діапазон сегментів
-  Segment Start: Початок сегмента
-  Selected Learner % Correct: Обраний учень % Правильно
-  Selected Learner % Incorrect: Обраний учень % Неправильно
-  Selected Learner Percent Correct: Відсоток правильних відповідей вибраного учня
-  Selected Learner Percent Incorrect: Відсоток неправильних відповідей вибраного учня
-  Selected Learners % Correct: Вибрані учні % Правильно
-  Selected Learners % Incorrect: Вибрані учні % Неправильно
-  Self Paced: Самостiйне проходження
-  Slice ID: ID фрагменту
-  Slice Name: Назва фрагменту
-  Slowest ClickHouse Queries: Найповільніші запити ClickHouse
-  Start Position: Початкова позиція
-  Started At: Розпочато в
-  Subsection Location and Name: Розташування та назва підрозділу
-  Subsection Name: Назва підрозділу
-  Subsection Number: Номер Підрозділу
-  Subsection Summary: Підсумок Підрозділу
-  Subsection With Name: Підрозділ з назвою
-  Subsection with name: Підрозділ з назвою
-  Success: Успіх
-  Superset: Суперсет
-  Superset Active Users: Суперсет активних користувачів
-  Superset Active Users Over Time: Суперсет активних користувачів з плином часу
-  Superset Registered Users Over Time: Суперсет зареєстрованих користувачів з плином часу
-  Tables: Таблиці
-  Tag: Тег
-  Tags: Теги
-  Tags Str: Теги Str
-  Time Grain: Часовий інтервал
-  Time Last Dumped: Час останнього скидання
-  Time Range: Діапазон часу
-  Time Stamp: Відмітка часу
-  ? To view the number of views across the duration of a single video, click the name of the video in the Video Link column in table above.
-  : Щоб подивитись кількість переглядів за весь час одного відео, натисніть на назву відео в колонці "Посилання на Відео" в таблиці вище.
-  Total: Всього
-  Total Avg: Загальний середній показник
-  Total Courses: Всього курсів
-  Total Organizations: Всього організацій
-  Total Views: Загальна кількість переглядів
-  Unique Viewers: Унікальні глядачі
-  Unique vs. Repeat Views: Унікальні та повторні перегляди
-  User ID: ID користувача
-  User Info: Інформація про користувача
-  User Registration Date: Дата реєстрації користувача
-  Username: Ім'я користувача
-  Value: Значення
-  Verb: Дієслово
-  Verb ID: ID дієслова
-  Video Count: Кількість відео
-  Video Duration: Тривалість відео
-  Video Engagement: Залучення у відео
-  Video Engagement per Section: Залучення у відео за розділом
-  Video Engagement per Section/Subsection: Залучення у відео за розділом/підрозділом
-  Video Engagement per Subsection: Залучення у відео за підрозділом
-  Video Event: Відеоподія
-  Video ID: ID відео
-  Video Id: ID відео
-  Video Link: Посилання на відео
-  Video Location and Name: Розташування та назва відео
-  Video Name: Назва відео
-  Video Name Location: Розташування назви відео
-  Video Name With Location: Назва відео з місцем розташування
-  Video Number: Номер відео
-  Video Position: Позиція відео
-  Video Segment Count: Кількість сегментів відео
-  Videos: Відео
-  Viewed All Pages: Переглянуто всі сторінки
-  Viewed All Videos: Переглянуто всі відео
-  Viewed At Least One Page: Переглянуто принаймні одну сторінку
-  Viewed At Least One Video: Переглянуто принаймні одне відео
-  Visited On: Відвідав на
-  Visualization Bucket: Кошик візуалізації
-  Watched Entire Video: Переглянуто все відео
-  Watched Segment Count: Кількість переглянутих сегментів
-  Watched Time: Час перегляду
+  Changed By Fk: Змінено Fk
+  Problem Engagement: "Залучення в завдання"
+  Count over time of unique users who performed an action in Superset over the selected time period.: "Підрахунок унікальних користувачів з часом, які виконали дію в Superset протягом вибраного періоду часу."
   audit: аудит
-  failed: не вдалося
-  graded: оцінено
-  honor: честь
-  order: порядок
-  passed: пройдено
-  registered: зареєстровано
-  section_subsection_name: section_subsection_name
-  section_subsection_page_engagement: section_subsection_page_engagement
-  section_subsection_problem_engagement: section_subsection_problem_engagement
-  sort: сорт
-  success: успіх
-  ungraded: неоцінений
-  unregistered: незареєстрований
-  verified: перевірено
-  '{{ASPECTS_COURSE_COMPARISON_HELP_MARKDOWN}}': '{{ASPECTS_COURSE_COMPARISON_HELP_MARKDOWN}}'
-  '{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}': '{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}'
-  '{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}': '{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}'
-  '{{ASPECTS_LEARNER_GROUPS_HELP_MARKDOWN}}': '{{ASPECTS_LEARNER_GROUPS_HELP_MARKDOWN}}'
+  Last Name: Прізвище
+  Enrollments: Зарахування на курс
+  Course Run: Запуск курсу
+  Slice ID: "ID фрагменту"
+  Chart showing the number of Superset actions taken on each dashboard in the selected time period.: "Діаграма, яка показує кількість дій Superset, виконаних на кожній інформаційній панелі за вибраний період часу."
+  Video Event: Відеоподія
+  Problem Name: Назва завдання
+  Superset: Суперсет
+  Total Views: Загальна кількість переглядів
+  Username: Ім'я користувача
+  Actor ID: ID актора
+  Created On: Дата створення
+  Object Type: "Тип об'єкта"
+  Display Name: "Назва, що відображається"
+  Action Date: Дата дії
+  Description: Опис
+  Verb: Дієслово
+  Datasource ID: "ID джерела даних"
+  ClickHouse: ClickHouse
+  Datasource Type: Тип джерела даних
+  Read Rows: Прочитайте рядки
+  Query: Запит
+  Last course syncronized: "Останній синхронізований курс"
+  Courses Per Organization: Курси на організацію
+  Success: Успіх
+  Action Count: Кількість дій
+  Datasource Name: Назва джерела даних
+  Repeat Views: Повторні перегляди
+  Most-used Charts: Найбільш використовувані діаграми
+  Dump ID: Дамп ID
+  Event String: Рядок події
+  Object ID: "ID об'єкта"
+  Segment Start: Початок сегмента
   '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}': '{{ASPECTS_OPERATOR_HELP_MARKDOWN}}'
+  Self Paced: "Самостiйне проходження"
+  Time Last Dumped: Час останнього скидання
+  Problem Name With Location: "Назва завдання з розташуванням"
+  Count of unique users who performed an action in Superset over the selected time period.: "Кількість унікальних користувачів, які виконали дію в Superset протягом вибраного періоду часу."
+  Created: Створено
+  Course End: "Кінець курсу"
+  Verb ID: "ID дієслова"
+  Video Name With Location: Назва відео з місцем розташування
+  Email: Електронна пошта
+  Active: Активний
+  Video Engagement: "Залучення у відео"
+  Course Name: Назва курсу
+  Unique Viewers: Унікальні глядачі
+  Actor Id: "ID актора"
+  Responses: Відповіді
+  Event Time: Час події
+  User Registration Date: Дата реєстрації користувача
+  ClickHouse metrics: Показники ClickHouse
+  Scaled Score: "Шкала оцінок"
+  Enrollment Mode: Режим запису на курс
+  Fail Login Count: Кількість помилок входу
+  Last Received Event: Остання отримана подія
+  Course Key: "Ключ Курсу"
+  unregistered: незареєстрований
+  Superset Active Users Over Time: "Суперсет активних користувачів з плином часу"
+  Action: Дія
+  Chart showing the number of registered users over the selected time period.: "Діаграма, яка показує кількість зареєстрованих користувачів за вибраний період часу."
+  Enrollment Start: "Початок реєстрації на курс"
+  Slice Name: "Назва фрагменту"
+  Organizations: "Організації"
+  registered: "зареєстровано"
+  Id: ID
+  Login Count: Кількість входів
+  Dashboard ID: "ID інформаційної панелі"
+  Course Enrollments Over Time: Зарахування на курси з часом
+  Instance Health: "Стан Платформи на Сервері"
+  Total Organizations: Всього організацій
+  Video Id: "ID відео"
+  User ID: ID користувача
+  Course Start: "Початок Курсу"
+  Course ID: ID курсу
+  Duration (Seconds): Тривалість (секунди)
+  Video Name: Назва відео
+  Time Range: Діапазон часу
+  Chart showing the number of Superset actions taken on each chart in the selected time period.: "Діаграма, яка показує кількість дій Superset, виконаних на кожній діаграмі за вибраний період часу."
+  Modified: Змінено
+  Course name: Назва курсу
+  Dashboard Status: "Стан інформаційної панелі"
+  Superset Registered Users Over Time: "Суперсет зареєстрованих користувачів з плином часу"
+  Grade Bucket: "Корзина оцінок"
+  Course Key Short: "Короткий ключ курсу"
+  Slowest ClickHouse Queries: Найповільніші запити ClickHouse
+  Enrollment End: "Кінець реєстрації на курс"
+  Emission Time: "Час випуску"
+  Most-used Dashboards: Найчастіше використовувані інформаційні панелі
+  honor: честь
+  Help: Допомога
+  Enrollment Status: "Статус реєстрації на курс"
+  Query performance: Продуктивність запиту
+  Operator Dashboard: "Інформаційна панель оператора"
+  Problem Id: "ID завдання"
+  Course run: "Запуск курсу"
+  Memory Usage (KB): "Використання пам'яті (Кб)"
+  First Name: Ім'я
+  verified: перевірено
+  Course Data JSON: Дані курсу JSON
+  Attempts: Спроби
+  Event ID: ID події
+  Password: Пароль
+  Dashboard Title: Заголовок інформаційної панелі
+  Courses: Курси
+  Value: Значення
+  Created By Fk: Створено Fk
+  Changed On: Змінено на
+  Superset Active Users: "Суперсет активних користувачів"
+  Active Users Per Organization: Активних користувачів на організацію
+  Started At: Розпочато в
+  COUNT(*): РАХУВАТИ(*)
+  Organization: Організація
+  Graded Subsection Performance: "Успішність в оцінюваних підрозділах"
+  Average Score: Середній бал
+  Respondents: Респонденти
+  Final Response Results: Остаточні результати відповіді
+  "% Correct": "% Правильно"
+  "% Correct All Attempts": "% Виправити всі спроби"
+  "% Correct First Attempts": "% Виправити перші спроби"
+  "% Correct Last Attempts": "% Виправити останні спроби"
+  "% Incorrect": "% Невірно"
+  "% Video Seconds Rewatched": "% переглянутих секунд відео"
+  "% Video Seconds Watched": "% переглянутого відео в секундах"
+  "<dl>\n<dt>Avg % Correct on 1st Attempt </dt>\n<dd> The average percentage of correct answers on the first attempt of the learners who attempted the problem. </dd>\n</dl>": "<dl>\n<dt>Середній відсоток правильних відповідей з першої спроби </dt>\n<dd> Середній відсоток правильних відповідей з першої спроби серед учнів, які намагалися виконати завдання. </dd>\n</dl>"
+  "Active Courses": "Активні курси"
+  "Active Learner": "Активний учень"
+  "Active Learners": "Активні учні"
+  "Active Within Last 7 Days": "Активні протягом останніх 7 днів"
+  "Actors Count": "Кількість акторів"
+  "Approving State": "Стан затвердження"
+  "At Risk": "У зоні ризику"
+  "At-Risk Learners": "Учні групи ризику"
+  "Attempt": "Спроба"
+  "Attempted All Problems": "Спроба вирішити всі проблеми"
+  "Attempted At Least One Problem": "Спроба вирішити принаймні одну проблему"
+  "Avg % Correct on 1st Attempt": "Середній % правильних відповідей з першої спроби"
+  "Avg Attempts": "Середня кількість спроб"
+  "Avg Correct Attempts Coursewide": "Середній показник правильних спроб по всьому курсу"
+  "Avg Correct Attempts by Selected Learners": "Середній показник правильних спроб для вибраних учнів"
+  "Avg Course Grade": "Середня оцінка курсу"
+  "Avg Incorrect Attempts Coursewide": "Середній показник неправильних спроб по всьому курсу"
+  "Avg Incorrect Attempts by Selected Learners": "Середнє число неправильних спроб для вибраних учнів"
+  "Avg Score": "Середній бал"
+  "Avg Video Length (seconds)": "Середня тривалість відео (секунди)"
+  "Block ID": "Блокувати ID"
+  "Block Id": "Ідентифікатор блоку"
+  "Content Level": "Рівень вмісту"
+  "Correct Attempts": "Правильні спроби"
+  "Correct Attempts By Learner": "Правильні спроби учня"
+  "Correct Attempts by Selected Learner": "Правильні спроби вибраного учня"
+  "Count": "Кількість"
+  "Count of Passing Grades": "Підрахунок прохідних балів"
+  "Count of Scores": "Підрахунок балів"
+  "Course Comparison Dashboard": "Панель порівняння курсів"
+  "Course Dashboard": "Інформаційна панель курсу"
+  "Course Enrollment Mode Status Cnt": "Режим реєстрації на курс Cnt"
+  "Course Grade": "Оцінка курсу"
+  "Course Grade %": "Оцінка курсу %"
+  "Course Info": "Інформація про курс"
+  "Course Information": "Інформація про курс"
+  "Course Metrics": "Показники курсу"
+  "Course Order": "Замовлення курсу"
+  "Course Tag": "Мітка курсу"
+  "Course grade": "Оцінка за курс"
+  "Courses Cnt": "Курси Cnt"
+  "Coursewide % Correct": "В цілому по курсу % Правильно"
+  "Coursewide Percent Correct": "Відсоток правильних відповідей по всьому курсу"
+  "Coursewide averages are based on learners who attempted the problem.": "Середні показники по курсу базуються на даних учнів, які намагалися розв'язати задачу."
+  "Coursewide percentages are based on learners who attempted the problem.": "Відсотки по всьому курсу базуються на учнях, які намагалися розв'язати задачу."
+  "Cumulative Enrollments by Track": "Сукупна реєстрація за треком"
+  "Cumulative Interactions": "Кумулятивні взаємодії"
+  "Current Active Enrollments By Mode": "Поточні активні реєстрації за режимом"
+  "Current Enrollees": "Поточні учасники"
+  "Currently Enrolled Users": "Наразі зареєстровані користувачі"
+  "Date": "Дата"
+  "Displays the top 10 highest enrollment courses. Selecting different courses in the filter will display those courses.": "Відображає 10 найкращих курсів з найбільшою кількістю слухачів. Вибираючи різні курси у фільтрі, ви побачите ці курси."
+  "Distribution of Course Grades": "Розподіл оцінок за курс"
+  "Distribution of Current Course Grade": "Розподіл поточної оцінки курсу"
+  "Emission Day": "День випуску"
+  "Emission Hour": "Година випуску"
+  "Engagement": "Залучення"
+  "Enrolled At": "Зарахований Ат"
+  "Enrollees by Enrollment Track": "Реєстратори за треком реєстрації"
+  "Enrollees per Enrollment Track": "Учасники на трек реєстрації"
+  "Enrollment": "Зарахування на курс"
+  "Enrollment Counts": "Кількість зарахованих на курс"
+  "Enrollment Date": "Дата запису на курс"
+  "Enrollment Dates": "Дати зарахування на курс"
+  "Enrollment Track": "Трек реєстрації на курс"
+  "Enrollment status": "Статус реєстрації на курс"
+  "Enrollment track": "Реєстраційний трек"
+  "Event Activity": "Активність подій"
+  "Events Cnt": "Події Cnt"
+  "Full Views": "Повні перегляди"
+  "Grade Range": "Діапазон оцінок"
+  "Grade range": "Діапазон оцінок"
+  "Graded": "Оцінено"
+  "Graded Learners": "Оцінені учні"
+  "Graded Subsection Engagement": "Залучення у оцінюваний підрозділ"
+  "Http User Agent": "Агент користувача Http"
+  "In-Context Analytics: Course": "Контекстна аналітика: Курс"
+  "In-Context Analytics: Graded Subsection": "Контекстна аналітика: Оцінюваний Підрозділ"
+  "In-Context Analytics: Problem": "Контекстна аналітика: Задача"
+  "In-Context Analytics: Video": "Контекстна аналітика: Відео"
+  "Incorrect Attempts": "Неправильні спроби"
+  "Incorrect Attempts By Learner": "Неправильні спроби учня"
+  "Incorrect Attempts by Selected Learner": "Невірні спроби обраних учнів"
+  "Individual Learner": "Індивідуальний учень"
+  "Initial Numeric Responses": "Початкові числові відповіді"
+  "Initial Responses": "Початкові відповіді"
+  "Interaction Type": "Тип взаємодії"
+  "Last Course Published": "Опублікований останній курс"
+  "Last Visit Date": "Дата останнього відвідування"
+  "Last Visited": "Останнє відвідування"
+  "Learner Performance": "Успішність учнів"
+  "Learner Performance Breakdown": "Розподіл успішності учнів"
+  "Learner Status": "Статус учня"
+  "Learner Summary": "Резюме учня"
+  "Learners": "Учні"
+  "Learners with Passing Grade": "Учні з прохідним балом"
+  "Median Attempts": "Середні спроби"
+  "Median Course Grade": "Середня оцінка курсу"
+  "Memory Usage Mb": "Використання пам'яті (Мб)"
+  "More details": "Більш детальна інформація"
+  "Name Org": "Ім'я організації"
+  "Number of Learners": "Кількість учнів"
+  "Number of Learners who Attempted the Problem": "Кількість учнів, які спробували вирішити проблему"
+  "Number of Videos": "Кількість відеороликів"
+  "Number of Videos Watched": "Кількість переглянутих відео"
+  "Number of Views across Video Duration": "Кількість переглядів протягом всієї тривалості відео"
+  "Object Id": "ID об'єкта"
+  "Only available in versions Redwood and later": "Доступно лише у версіях Redwood та новіших"
+  "Org": "Організація"
+  "Overview": "Огляд"
+  "Page Count": "Кількість сторінок"
+  "Page Engagement Over Time": "Залученість сторінки з плином часу"
+  "Page Engagement per Section": "Залученість сторінки за розділом"
+  "Page Engagement per Section/Subsection": "Залученість сторінки за розділом/підрозділом"
+  "Page Engagement per Subsection": "Залученість сторінки за підрозділом"
+  "Pages": "Сторінки"
+  "Partial Views": "Часткові перегляди"
+  "Partial and Full Video Views": "Часткові та повні перегляди відео"
+  "Passed": "Складено"
+  "Passed/Failed": "Складено/Не складено"
+  "Performance": "Продуктивність"
+  "Problem Attempts": "Спроби вирішення завдання"
+  "Problem Attempts and Results": "Спроби вирішення завдання та результати"
+  "Problem Engagement per Section": "Залучення в завдання за розділом"
+  "Problem Engagement per Section/Subsection": "Залучення в завдання за розділом/підрозділом"
+  "Problem Engagement per Subsection": "Залучення в завдання за підрозділом"
+  "Problem Link": "Посилання на завдання"
+  "Problem Location and Name": "Місце та назва завдання"
+  "Problem Name Location": "Розташування назви завдання"
+  "Problem Number": "Номер Завдання "
+  "Problem Results": "Результати завдання"
+  "Problem Results Table": "Таблиця результатів завдання"
+  "Problems": "Завдання"
+  "Query Duration Ms": "Тривалість запиту Ms"
+  "Response": "Відповідь"
+  "Response Numeric": "Числове значення відповіді"
+  "Result": "Результат"
+  "Result Rows": "Рядки результатів"
+  "Rewatched Time": "Час Переглядання"
+  "Rownum": "Rownum"
+  "Run Metrics": "Показники запуску"
+  "Run Name": "Назва запуску"
+  "Section Location and Name": "Розташування та назва розділу"
+  "Section Name": "Назва розділу"
+  "Section Subsection Video Engagement": "Залучення у відео Розділу/Підрозділу "
+  "Section Summary": "Підсумок розділу"
+  "Section With Name": "Розділ з назвою"
+  "Section with name": "Розділ з назвою"
+  "Section/Subsection Name": "Назва розділу/підрозділу"
+  "Section/Subsection Page Enggagement": "Залучення в сторінку розділу/підрозділу"
+  "Section/Subsection Problem Engagement": "Залучення в завдання розділу/підрозділу"
+  "Section/Subsection Video Engagement": "Залучення у відео Розділу/підрозділу"
+  "Segment Range": "Діапазон сегментів"
+  "Selected Learner % Correct": "Обраний учень % Правильно"
+  "Selected Learner % Incorrect": "Обраний учень % Неправильно"
+  "Selected Learner Percent Correct": "Відсоток правильних відповідей вибраного учня"
+  "Selected Learner Percent Incorrect": "Відсоток неправильних відповідей вибраного учня"
+  "Selected Learners % Correct": "Вибрані учні % Правильно"
+  "Selected Learners % Incorrect": "Вибрані учні % Неправильно"
+  "Start Position": "Початкова позиція"
+  "Subsection Location and Name": "Розташування та назва підрозділу"
+  "Subsection Name": "Назва підрозділу"
+  "Subsection Number": "Номер Підрозділу"
+  "Subsection Summary": "Підсумок Підрозділу"
+  "Subsection With Name": "Підрозділ з назвою"
+  "Subsection with name": "Підрозділ з назвою"
+  "Tables": "Таблиці"
+  "Tag": "Тег"
+  "Tags": "Теги"
+  "Tags Str": "Теги Str"
+  "Time Grain": "Часовий інтервал"
+  "Time Stamp": "Відмітка часу"
+  "To view the number of views across the duration of a single video, click the name of the video in the Video Link column in table above.": "Щоб подивитись кількість переглядів за весь час одного відео, натисніть на назву відео в колонці \"Посилання на Відео\" в таблиці вище."
+  "Total": "Всього"
+  "Total Avg": "Загальний середній показник"
+  "Total Courses": "Всього курсів"
+  "Unique vs. Repeat Views": "Унікальні та повторні перегляди"
+  "User Info": "Інформація про користувача"
+  "Video Count": "Кількість відео"
+  "Video Duration": "Тривалість відео"
+  "Video Engagement per Section": "Залучення у відео за розділом"
+  "Video Engagement per Section/Subsection": "Залучення у відео за розділом/підрозділом"
+  "Video Engagement per Subsection": "Залучення у відео за підрозділом"
+  "Video ID": "ID відео"
+  "Video Link": "Посилання на відео"
+  "Video Location and Name": "Розташування та назва відео"
+  "Video Name Location": "Розташування назви відео"
+  "Video Number": "Номер відео"
+  "Video Position": "Позиція відео"
+  "Video Segment Count": "Кількість сегментів відео"
+  "Videos": "Відео"
+  "Viewed All Pages": "Переглянуто всі сторінки"
+  "Viewed All Videos": "Переглянуто всі відео"
+  "Viewed At Least One Page": "Переглянуто принаймні одну сторінку"
+  "Viewed At Least One Video": "Переглянуто принаймні одне відео"
+  "Visited On": "Відвідав на"
+  "Visualization Bucket": "Кошик візуалізації"
+  "Watched Entire Video": "Переглянуто все відео"
+  "Watched Segment Count": "Кількість переглянутих сегментів"
+  "Watched Time": "Час перегляду"
+  "failed": "не вдалося"
+  "graded": "оцінено"
+  "order": "порядок"
+  "passed": "пройдено"
+  "section_subsection_name": "section_subsection_name"
+  "section_subsection_page_engagement": "section_subsection_page_engagement"
+  "section_subsection_problem_engagement": "section_subsection_problem_engagement"
+  "sort": "сорт"
+  "success": "успіх"
+  "ungraded": "неоцінений"
+  "{{ASPECTS_COURSE_COMPARISON_HELP_MARKDOWN}}": "{{ASPECTS_COURSE_COMPARISON_HELP_MARKDOWN}}"
+  "{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}": "{{ASPECTS_COURSE_OVERVIEW_HELP_MARKDOWN}}"
+  "{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}": "{{ASPECTS_INDIVIDUAL_LEARNER_HELP_MARKDOWN}}"
+  "{{ASPECTS_LEARNER_GROUPS_HELP_MARKDOWN}}": "{{ASPECTS_LEARNER_GROUPS_HELP_MARKDOWN}}"

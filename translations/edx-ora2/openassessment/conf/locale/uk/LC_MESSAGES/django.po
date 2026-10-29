@@ -375,8 +375,9 @@ msgid ""
 "Set to TRUE to allow learners to resubmit ungraded work. Set to FALSE if "
 "resubmissions are not allowed."
 msgstr ""
-"Установіть значення \"Так\", щоб дозволити учням повторно здавати роботу без"
-" оцінки. Установіть значення \"Ні\", якщо повторне надсилання заборонено."
+"Установіть значення \"Так\", щоб дозволити учням повторно здавати роботу "
+"без оцінки. Установіть значення \"Ні\", якщо повторне надсилання "
+"заборонено."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:178
 msgid "Resubmission Grace Period"
@@ -2988,8 +2989,7 @@ msgstr ""
 
 #: xblock/ui_mixins/legacy/handlers_mixin.py:150
 msgid "Submission cannot be empty. Please refresh the page and try again."
-msgstr ""
-"Відповідь не може бути порожньою. Оновіть сторінку та спробуйте ще раз."
+msgstr "Відповідь не може бути порожньою. Оновіть сторінку та спробуйте ще раз."
 
 #: xblock/ui_mixins/legacy/handlers_mixin.py:156
 msgid "API returned unclassified exception."
@@ -3021,8 +3021,8 @@ msgstr "Для цього завдання дозволено завантажи
 
 #: xblock/ui_mixins/legacy/handlers_mixin.py:225
 msgid ""
-"File upload failed: unsupported file type.Only the supported file types can "
-"be uploaded.If you have questions, please reach out to the course team."
+"File upload failed: unsupported file type.Only the supported file types "
+"can be uploaded.If you have questions, please reach out to the course team."
 msgstr ""
 "Помилка завантаження файлу: тип файлу не підтримується. Додавати можна лише "
 "типи файлів, що підтримуються. Якщо у вас є запитання, зверніться до служби "
@@ -3035,7 +3035,8 @@ msgstr "Помилка отримання посилання для завант
 #: xblock/ui_mixins/legacy/handlers_mixin.py:290
 msgid "You must submit a response before you can perform a peer assessment."
 msgstr ""
-"Спершу потрібно надіслати власну відповідь, перш ніж оцінювати роботи інших."
+"Спершу потрібно надіслати власну відповідь, перш ніж оцінювати роботи "
+"інших."
 
 #: xblock/ui_mixins/legacy/handlers_mixin.py:297
 msgid ""
@@ -3057,11 +3058,11 @@ msgstr "Очікування оцінки викладача"
 
 #: xblock/ui_mixins/legacy/views/staff.py:73
 msgid ""
-"Check back later to see if a course staff member has assessed your response."
-" You will receive your grade after the assessment is complete."
+"Check back later to see if a course staff member has assessed your "
+"response. You will receive your grade after the assessment is complete."
 msgstr ""
-"Перевірте пізніше, чи викладач курсу вже оцінив вашу відповідь. Ви отримаєте"
-" оцінку після завершення оцінювання."
+"Перевірте пізніше, чи викладач курсу вже оцінив вашу відповідь. Ви отримаєте "
+"оцінку після завершення оцінювання."
 
 #: xblock/ui_mixins/legacy/views/staff.py:88
 msgid "You Must Complete the Steps Above to View Your Grade"
@@ -3069,9 +3070,9 @@ msgstr "Щоб побачити оцінку, спершу завершіть к
 
 #: xblock/ui_mixins/legacy/views/staff.py:89
 msgid ""
-"Although a course staff member has assessed your response, you will receive "
-"your grade only after you have completed all the required steps of this "
-"problem."
+"Although a course staff member has assessed your response, you will "
+"receive your grade only after you have completed all the required steps of "
+"this problem."
 msgstr ""
 "Хоча викладач курсу вже оцінив вашу відповідь, ви отримаєте оцінку лише "
 "після завершення всіх обов'язкових кроків цього завдання."
@@ -3115,8 +3116,8 @@ msgstr ""
 "завжди, цьому кроку передують кроки самооцінювання або підготовки учнів."
 
 msgid ""
-"Configuration: For this step to be configured you must specify the number of"
-" peer reviews a student will be assessed with, and the number of peer a "
+"Configuration: For this step to be configured you must specify the number of "
+"peer reviews a student will be assessed with, and the number of peer a "
 "student must grade. Additional options can be specified."
 msgstr ""
 "Налаштування: щоб налаштувати цей крок, потрібно вказати кількість "
@@ -3134,8 +3135,8 @@ msgstr ""
 "Допустимі значення — від 1 до 99."
 
 msgid ""
-"Specify the number of learners that each response must be assessed by. Valid"
-" numbers are 1 to 99."
+"Specify the number of learners that each response must be assessed by. Valid "
+"numbers are 1 to 99."
 msgstr ""
 "Вкажіть кількість учнів, які мають оцінити кожну роботу. Допустимі значення "
 "— від 1 до 99."
@@ -3152,8 +3153,8 @@ msgid ""
 "you select the mean, the average of all peer reviews will be used."
 msgstr ""
 "Виберіть метод нарахування балів для взаємного оцінювання. За замовчуванням "
-"для обчислення підсумкової оцінки використовується медіана всіх оцінок. Якщо"
-" вибрати середнє, використовуватиметься середнє арифметичне всіх оцінок "
+"для обчислення підсумкової оцінки використовується медіана всіх оцінок. Якщо "
+"вибрати середнє, використовуватиметься середнє арифметичне всіх оцінок "
 "однокласників."
 
 msgid "Peer Assessment Deadlines"

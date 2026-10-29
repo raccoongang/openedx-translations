@@ -581,14 +581,6 @@ msgstr "Реєстрацію закрито"
 msgid "Ends"
 msgstr "Закінчується"
 
-#: integrated_channels/sap_success_factors/models.py:84
-msgid ""
-"The encrypted OAuth client identifier. It will be encrypted when stored in "
-"the database."
-msgstr ""
-"Зашифрований ідентифікатор клієнта OAuth. Він буде зашифрований при "
-"зберіганні в базі даних."
-
 #: integrated_channels/sap_success_factors/models.py:117
 msgid "Base URL of success factors API."
 msgstr "Базовий URL API факторів успіху."
@@ -600,14 +592,6 @@ msgstr "Фактори успіху ідентифікатор компанії.
 #: integrated_channels/sap_success_factors/models.py:131
 msgid "Success factors user identifier."
 msgstr "Фактори успіху ідентифікатор користувача."
-
-#: integrated_channels/sap_success_factors/models.py:140
-msgid ""
-"The encrypted OAuth client secret. It will be encrypted when stored in the "
-"database."
-msgstr ""
-"Зашифрований секретний ключ клієнта OAuth. Він буде зашифрований при "
-"зберіганні в базі даних."
 
 #: integrated_channels/sap_success_factors/models.py:173
 msgid "Type of SAP User (admin or user)."
@@ -1676,50 +1660,6 @@ msgstr ""
 "Чи скасовується субсидія підприємству, наприклад, коли відкликається "
 "ліцензія користувача."
 
-#: enterprise/models.py:2521
-msgid "The customer for which this default enrollment will be realized."
-msgstr ""
-"Клієнт, для якого буде реалізовано цей запис на курс за замовчуванням."
-
-#: enterprise/models.py:2530
-msgid "The type of content (e.g. a course vs. a course run)."
-msgstr "Тип контенту (наприклад, курс проти запуску курсу)."
-
-#: enterprise/models.py:2538
-msgid ""
-"A course or course run that related users should be automatically enrolled "
-"into."
-msgstr ""
-"Курс або запуск курсу, на який відповідні користувачі повинні бути записані "
-"автоматично."
-
-#: enterprise/models.py:2710
-#, python-brace-format
-msgid ""
-"A default enrollment intention with this enterprise customer and content key"
-" already exists, but is soft-deleted. Please restore it <a "
-"href=\"{existing_record_admin_url}\">here</a>."
-msgstr ""
-"Намір за замовчуванням записатися на курс цим корпоративним клієнтом і "
-"контент ключем вже існує, але він програмно-видалений. Будь ласка відновити "
-"його <a href=\"{existing_record_admin_url}\">тут</a>."
-
-#: enterprise/models.py:2725
-msgid "The content key did not resolve to a valid course run."
-msgstr "Ключ контенту не був перетворений на дійсний запуск курсу."
-
-#: enterprise/models.py:2793
-msgid ""
-"Query parameters which will be used to filter the discovery service's "
-"search/all endpoint results, specified as a JSON object. An empty JSON "
-"object means that all available content items will be included in the "
-"catalog.  Must be unique."
-msgstr ""
-"Параметри запиту, які будуть використовуватися для фільтрації результатів "
-"пошуку/всіх кінцевих точок, вказані як об'єкт JSON. Порожній об'єкт JSON "
-"означає, що всі доступні елементи вмісту будуть включені до каталогу. Мають "
-"бути унікальними."
-
 #: enterprise/models.py:2808
 msgid ""
 "Specifies whether the catalog is allowed to include exec ed (2U) courses.  "
@@ -2226,10 +2166,6 @@ msgstr "Запис уже надіслано для налаштування."
 msgid "Specifies enterprise group name."
 msgstr "Вказує назву групи підприємств."
 
-#: enterprise/models.py:4715
-msgid "The type of enterprise group"
-msgstr "Тип підприємницької групи"
-
 #: enterprise/models.py:4721
 msgid "Enterprise Group"
 msgstr "Enterprise Group"
@@ -2272,18 +2208,6 @@ msgstr "Членство в корпоративній групі"
 #: enterprise/models.py:4866
 msgid "Enterprise Group Memberships"
 msgstr "Членство в корпоративній групі"
-
-#: enterprise/models.py:4935
-msgid "Title summarizing the onboarding flow."
-msgstr "Заголовок, що підсумовує процес адаптації."
-
-#: enterprise/models.py:4941
-msgid ""
-"Specifies whether this flow is active and shown to admin users in the "
-"onboarding tour."
-msgstr ""
-"Визначає, чи цей потік активний і чи відображається адміністраторам під час "
-"ознайомчого туру."
 
 #: enterprise/templates/enterprise/_data_sharing_decline_modal.html:7
 #: enterprise/views.py:1612 enterprise/views.py:2114
@@ -2944,3 +2868,79 @@ msgid ""
 msgstr ""
 "Щоб використовувати цей EnterpriseCourseEnrollmentSerializer, цей пакет має "
 "бути встановлено в середовищі Open edX."
+
+#: integrated_channels/sap_success_factors/models.py:84
+msgid ""
+"The encrypted OAuth client identifier. It will be encrypted when stored in "
+"the database."
+msgstr ""
+"Зашифрований ідентифікатор клієнта OAuth. Він буде зашифрований при "
+"зберіганні в базі даних."
+
+#: integrated_channels/sap_success_factors/models.py:140
+msgid ""
+"The encrypted OAuth client secret. It will be encrypted when stored in the "
+"database."
+msgstr ""
+"Зашифрований секретний ключ клієнта OAuth. Він буде зашифрований при "
+"зберіганні в базі даних."
+
+#: enterprise/models.py:2521
+msgid "The customer for which this default enrollment will be realized."
+msgstr ""
+"Клієнт, для якого буде реалізовано цей запис на курс за замовчуванням."
+
+#: enterprise/models.py:2530
+msgid "The type of content (e.g. a course vs. a course run)."
+msgstr "Тип контенту (наприклад, курс проти запуску курсу)."
+
+#: enterprise/models.py:2538
+msgid ""
+"A course or course run that related users should be automatically enrolled "
+"into."
+msgstr ""
+"Курс або запуск курсу, на який відповідні користувачі повинні бути записані "
+"автоматично."
+
+#: enterprise/models.py:2710
+#, python-brace-format
+msgid ""
+"A default enrollment intention with this enterprise customer and content key"
+" already exists, but is soft-deleted. Please restore it <a "
+"href=\"{existing_record_admin_url}\">here</a>."
+msgstr ""
+"Намір за замовчуванням записатися на курс цим корпоративним клієнтом і "
+"контент ключем вже існує, але він програмно-видалений. Будь ласка відновити "
+"його <a href=\"{existing_record_admin_url}\">тут</a>."
+
+#: enterprise/models.py:2725
+msgid "The content key did not resolve to a valid course run."
+msgstr "Ключ контенту не був перетворений на дійсний запуск курсу."
+
+#: enterprise/models.py:2793
+msgid ""
+"Query parameters which will be used to filter the discovery service's "
+"search/all endpoint results, specified as a JSON object. An empty JSON "
+"object means that all available content items will be included in the "
+"catalog.  Must be unique."
+msgstr ""
+"Параметри запиту, які будуть використовуватися для фільтрації результатів "
+"пошуку/всіх кінцевих точок, вказані як об'єкт JSON. Порожній об'єкт JSON "
+"означає, що всі доступні елементи вмісту будуть включені до каталогу. Мають "
+"бути унікальними."
+
+#: enterprise/models.py:4715
+msgid "The type of enterprise group"
+msgstr "Тип підприємницької групи"
+
+#: enterprise/models.py:4935
+msgid "Title summarizing the onboarding flow."
+msgstr "Заголовок, що підсумовує процес адаптації."
+
+#: enterprise/models.py:4941
+msgid ""
+"Specifies whether this flow is active and shown to admin users in the "
+"onboarding tour."
+msgstr ""
+"Визначає, чи цей потік активний і чи відображається адміністраторам під час "
+"ознайомчого туру."

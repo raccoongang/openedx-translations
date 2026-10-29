@@ -30,18 +30,6 @@ msgstr ""
 "Це ім’я відображається на горизонтальній панелі навігації у верхній частині "
 "сторінки."
 
-#: image_explorer.py:62
-msgid "Image Explorer"
-msgstr "Оглядач зображень"
-
-#: image_explorer.py:66
-msgid "Hot Spots Coordinates Centered"
-msgstr "Координати гарячих точок відцентровані"
-
-#: image_explorer.py:72
-msgid "Store hotspots opened by student, for completion"
-msgstr "Зберігайте гарячі точки, відкриті учнем, для завершення"
-
 #: image_explorer.py:77
 msgid "XML contents to display for this module"
 msgstr "Вміст XML для відображення для цього модуля"
@@ -53,6 +41,34 @@ msgstr "У даних JSON відсутній event_type"
 #: templates/html/image_explorer_edit.html:8
 msgid "Title"
 msgstr "Назва"
+
+#: templates/html/image_explorer_edit.html:24
+msgid "Definition"
+msgstr "Визначення"
+
+#: templates/html/image_explorer_edit.html:25
+msgid "The XML definition for the Image Explorer"
+msgstr "Визначення XML для Image Explorer"
+
+#: templates/html/image_explorer_edit.html:36
+msgid "Save"
+msgstr "Зберегти"
+
+#: templates/html/image_explorer_edit.html:40
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: image_explorer.py:62
+msgid "Image Explorer"
+msgstr "Оглядач зображень"
+
+#: image_explorer.py:66
+msgid "Hot Spots Coordinates Centered"
+msgstr "Координати гарячих точок відцентровані"
+
+#: image_explorer.py:72
+msgid "Store hotspots opened by student, for completion"
+msgstr "Зберігайте гарячі точки, відкриті учнем, для завершення"
 
 #: templates/html/image_explorer_edit.html:11
 msgid "The title of the Image Explorer that is displayed to the user"
@@ -77,19 +93,3 @@ msgid ""
 msgstr ""
 "Якщо встановлено значення false, передбачається, що воно вказує на верхній "
 "лівий кут зображення гарячої точки"
-
-#: templates/html/image_explorer_edit.html:24
-msgid "Definition"
-msgstr "Визначення"
-
-#: templates/html/image_explorer_edit.html:25
-msgid "The XML definition for the Image Explorer"
-msgstr "Визначення XML для Image Explorer"
-
-#: templates/html/image_explorer_edit.html:36
-msgid "Save"
-msgstr "Зберегти"
-
-#: templates/html/image_explorer_edit.html:40
-msgid "Cancel"
-msgstr "Скасувати"

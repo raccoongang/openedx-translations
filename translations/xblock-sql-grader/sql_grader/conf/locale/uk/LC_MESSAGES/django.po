@@ -28,17 +28,9 @@ msgstr "Ми не змогли виконати ваш запит; будь ла
 msgid "Weight"
 msgstr "Вага"
 
-#: mixins/grading.py:91
-msgid "This assigns an integer value representing the weight of this problem"
-msgstr "Це присвоює ціле число, що представляє вагу цієї проблеми"
-
 #: mixins/grading.py:170
 msgid "Display Name"
 msgstr "Назва, що відображається"
-
-#: mixins/grading.py:171
-msgid "The display name for this component."
-msgstr "Відображена назва для цього компоненту. "
 
 #: mixins/grading.py:172
 msgid "SQL Problem"
@@ -47,14 +39,6 @@ msgstr "Проблема SQL"
 #: mixins/grading.py:176
 msgid "Dataset"
 msgstr "Набір даних"
-
-#: mixins/grading.py:177
-msgid "Which initial dataset/database to be used for queries"
-msgstr "Який початковий набір даних/базу даних використовувати для запитів"
-
-#: mixins/grading.py:183
-msgid "Answer Query"
-msgstr "Відповідь на запит"
 
 #: mixins/grading.py:184
 msgid "A correct response SQL query"
@@ -73,10 +57,6 @@ msgstr ""
 "Вторинний перевірочний SQL-запит, який використовуватиметься, якщо "
 "answer_query змінює базу даних (UPDATE, INSERT, DELETE тощо). Введіть тут "
 "лише один запит SELECT, який використовується для пошуку відповіді"
-
-#: mixins/grading.py:202
-msgid "Modification query statements"
-msgstr "Запити на модифікацію"
 
 #: mixins/grading.py:204
 msgid ""
@@ -101,14 +81,6 @@ msgstr "Підказка"
 #: mixins/grading.py:229
 msgid "Explanatory text to accompany the problem"
 msgstr "Пояснювальний текст до задачі"
-
-#: mixins/grading.py:234
-msgid "Submission Query"
-msgstr "Запит на подання"
-
-#: mixins/grading.py:235
-msgid "A Submission Query"
-msgstr "Запит на подання"
 
 #: templates/view.html:6
 #, python-format
@@ -192,3 +164,31 @@ msgstr "Результат вашого запиту:"
 #: templates/view.html:80
 msgid "Expected Query Result:"
 msgstr "Очікуваний результат запиту:"
+
+#: mixins/grading.py:91
+msgid "This assigns an integer value representing the weight of this problem"
+msgstr "Це присвоює ціле число, що представляє вагу цієї проблеми"
+
+#: mixins/grading.py:171
+msgid "The display name for this component."
+msgstr "Відображена назва для цього компоненту. "
+
+#: mixins/grading.py:177
+msgid "Which initial dataset/database to be used for queries"
+msgstr "Який початковий набір даних/базу даних використовувати для запитів"
+
+#: mixins/grading.py:183
+msgid "Answer Query"
+msgstr "Відповідь на запит"
+
+#: mixins/grading.py:202
+msgid "Modification query statements"
+msgstr "Запити на модифікацію"
+
+#: mixins/grading.py:234
+msgid "Submission Query"
+msgstr "Запит на подання"
+
+#: mixins/grading.py:235
+msgid "A Submission Query"
+msgstr "Запит на подання"
