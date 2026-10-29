@@ -337,8 +337,8 @@ msgid ""
 "Upstream block usage key, this value cannot be null and useful to track "
 "upstream library blocks that do not exist yet"
 msgstr ""
-"Ключ використання блоку upstream; це значення не може бути нульовим і "
-"корисне для відстеження блоків бібліотеки upstream, які ще не існують"
+"Ключ використання блоку upstream; це значення не може бути null і є корисним "
+"для відстеження блоків бібліотеки upstream, які ще не існують"
 
 #: cms/djangoapps/contentstore/models.py:153
 msgid "Component Link"
