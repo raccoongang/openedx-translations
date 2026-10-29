@@ -4523,8 +4523,8 @@ msgid ""
 "There is no user with the username or email address \"{user_identifier}\" "
 "enrolled in this course."
 msgstr ""
-"На цьому курсі не зареєстровано користувача з іменем користувача чи адресою "
-"електронної пошти \"{user_identifier}\"."
+"На цьому курсі не зареєстровано користувача з іменем чи адресою електронної "
+"пошти \"{user_identifier}\"."
 
 #: lms/djangoapps/courseware/masquerade.py:402
 msgid ""
