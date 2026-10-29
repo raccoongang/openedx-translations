@@ -198,7 +198,7 @@ msgstr "Відображувана назва"
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:8
 msgid "The display name for this component."
-msgstr "Назва модулю, яка відображається для цього компоненту. "
+msgstr "Відображувана назва для цього компонента."
 
 #: templates/legacy/edit/oa_edit_basic_settings_list.html:12
 msgid "Text Response"

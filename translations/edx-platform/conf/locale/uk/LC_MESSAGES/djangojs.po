@@ -1751,7 +1751,7 @@ msgid ""
 " component."
 msgstr ""
 "Якщо ви видалите цю копію, то вона більше не буде доступна для цього "
-"компоненту."
+"компонента."
 
 #: cms/static/js/views/video/translations_editor.js:174
 msgid "Remove Transcript"
@@ -8244,8 +8244,8 @@ msgid ""
 "In the {linkStart}Course Outline{linkEnd}, use this group to control access "
 "to a component."
 msgstr ""
-"В  {linkStart}Структурі курсу{linkEnd}, використовуйте цю групу для "
-"контролювання доступу до компоненту."
+"У {linkStart}Структурі курсу{linkEnd}, використовуйте цю групу для "
+"контролювання доступу до компонента."
 
 #: cms/templates/js/previous-video-upload-list.underscore:2
 msgid "Previous Uploads"

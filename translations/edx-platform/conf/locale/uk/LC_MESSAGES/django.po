@@ -1074,7 +1074,7 @@ msgstr "Некоректні дані ({details})"
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:647
 msgid "There was a problem pasting your component."
-msgstr "Під час перенесення вашого компоненту сталась помилка."
+msgstr "Під час вставлення вашого компонента сталася помилка."
 
 #: cms/djangoapps/contentstore/xblock_storage_handlers/view_handlers.py:651
 msgid "Your clipboard is empty or invalid."
@@ -1235,7 +1235,7 @@ msgid ""
 "The original Usage key of the highest-level component that was saved in "
 "StagedContent."
 msgstr ""
-"Оригінальний ключ компоненту найвищого рівня, який було збережено в "
+"Оригінальний ключ компонента найвищого рівня, який було збережено в "
 "StagedContent."
 
 #: cms/djangoapps/maintenance/views.py:32
@@ -6328,8 +6328,8 @@ msgid ""
 "This component's access settings refer to deleted or invalid group "
 "configurations."
 msgstr ""
-"Налаштування доступу цього компоненту посилаються на видалені або некоректні"
-" налаштування груп."
+"Налаштування доступу цього компонента посилаються на видалені або некоректні "
+"налаштування груп."
 
 #: lms/djangoapps/lms_xblock/mixin.py:26
 msgid ""
@@ -6342,8 +6342,8 @@ msgstr ""
 #: lms/djangoapps/lms_xblock/mixin.py:29
 msgid "This component's access settings refer to deleted or invalid groups."
 msgstr ""
-"Налаштування доступу цього компоненту посилаються на видалені або некоректні"
-" групи."
+"Налаштування доступу цього компонента посилаються на видалені або некоректні "
+"групи."
 
 #: lms/djangoapps/lms_xblock/mixin.py:31
 msgid "This unit's access settings refer to deleted or invalid groups."
@@ -13458,7 +13458,7 @@ msgid ""
 "ERROR: \"{block_type}\" is an unknown component type. This component will be"
 " hidden in LMS."
 msgstr ""
-"ПОМИЛКА: \"{block_type}\" є невідомим типом компоненту. Цей компонент буде "
+"ПОМИЛКА: \"{block_type}\" є невідомим типом компонента. Цей компонент буде "
 "приховано у навчальній системі. "
 
 #: xmodule/html_block.py:63 xmodule/html_block.py:373
@@ -14586,7 +14586,7 @@ msgstr "Мова обов'язкова."
 
 #: xmodule/video_block/video_xfields.py:21
 msgid "Component Display Name"
-msgstr "Назва компоненту, що відображається"
+msgstr "Відображувана назва компонента"
 
 #: xmodule/video_block/video_xfields.py:27
 msgid "Current position in the video."
@@ -17837,8 +17837,8 @@ msgid ""
 "Students will not be able to access this component. Re-edit your component "
 "to fix the error."
 msgstr ""
-"Студенти не матимуть доступу до цього компоненту. Відредагуйте ваш "
-"компонент, щоб усунути помилку. "
+"Учні не матимуть доступу до цього компонента. Відредагуйте ваш компонент, "
+"щоб усунути помилку. "
 
 #: cms/templates/html_error.html:18 lms/templates/course_modes/error.html:26
 #: lms/templates/module-error.html:22
