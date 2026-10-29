@@ -72,7 +72,7 @@ msgstr "Зберігайте гарячі точки, відкриті учне�
 
 #: templates/html/image_explorer_edit.html:11
 msgid "The title of the Image Explorer that is displayed to the user"
-msgstr "Назва Оглядача зображень, яка відображається користувачеві"
+msgstr "Назва оглядача зображень, яка відображається користувачеві"
 
 #: templates/html/image_explorer_edit.html:17
 msgid "Hotspot coordinates centered"

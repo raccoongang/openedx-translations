@@ -198,7 +198,7 @@ msgstr "Це присвоює ціле число, що представляє �
 
 #: templates/view.html:36
 msgid "peer responses"
-msgstr "відповіді однокурсників"
+msgstr "відповіді однокласників"
 
 #: templates/view.html:38
 msgid "Submissions by others"
@@ -208,16 +208,16 @@ msgstr "Відповіді інших"
 #, python-brace-format
 msgid "{weight} point possible"
 msgid_plural "{weight} points possible"
-msgstr[0] "{weight} точка можлива"
-msgstr[1] "{weight} можливі точки"
-msgstr[2] "{weight} можливі точки"
-msgstr[3] "{weight} можливих балів"
+msgstr[0] "Можлива кількість балів: {weight}"
+msgstr[1] "Можлива кількість балів: {weight}"
+msgstr[2] "Можлива кількість балів: {weight}"
+msgstr[3] "Можлива кількість балів: {weight}"
 
 #: views.py:147
 #, python-brace-format
 msgid "You have used {count_attempts} of {max_attempts} submission"
 msgid_plural "You have used {count_attempts} of {max_attempts} submissions"
-msgstr[0] "Ви використали {count_attempts} або {max_attempts} подання"
-msgstr[1] "Ви використали {count_attempts} з {max_attempts} подання"
-msgstr[2] "Ви використали {count_attempts} з {max_attempts} подання"
-msgstr[3] "Ви використали {count_attempts} з {max_attempts} спроб"
+msgstr[0] "Використано спроб подання: {count_attempts} з {max_attempts}"
+msgstr[1] "Використано спроб подання: {count_attempts} з {max_attempts}"
+msgstr[2] "Використано спроб подання: {count_attempts} з {max_attempts}"
+msgstr[3] "Використано спроб подання: {count_attempts} з {max_attempts}"

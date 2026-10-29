@@ -43,7 +43,7 @@ msgstr "Курс"
 
 #: settings/common.py:118
 msgid "Graded Subsection"
-msgstr "Оцінений Підрозділ"
+msgstr "Оцінений підрозділ"
 
 #: settings/common.py:126
 msgid "Problem"

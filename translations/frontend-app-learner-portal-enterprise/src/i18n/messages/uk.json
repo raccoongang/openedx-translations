@@ -56,7 +56,7 @@
   "enterprise.learner_portal.enroll-upgrade-modal.buttons.upgrade.text.default": "Підтвердити оновлення",
   "enterprise.learner_portal.enroll-upgrade-modal.buttons.upgrade.text.pending": "Оновлення...",
   "enterprise.learner_portal.enroll-upgrade-modal.buttons.upgrade.text.complete": "Оновлено",
-  "enterprise.learner_portal.enroll-upgrade-modal.buttons.upgrade.text.error": "Спробуйте ще раз",
+  "enterprise.learner_portal.enroll-upgrade-modal.buttons.upgrade.text.error": "Повторити",
   "enterprise.learner_portal.enroll-upgrade-modal.buttons.cancel.text": "Скасувати",
   "enterprise.learner_portal.enroll-upgrade-modal.titles.coupon-code": "Використовувати реєстраційний код для цього курсу?",
   "enterprise.learner_portal.enroll-upgrade-modal.titles.enterprise-offer": "Використовувати кредит для цього курсу?",

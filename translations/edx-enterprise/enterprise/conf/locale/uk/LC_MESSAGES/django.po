@@ -2896,7 +2896,7 @@ msgstr ""
 
 #: enterprise/models.py:2530
 msgid "The type of content (e.g. a course vs. a course run)."
-msgstr "Тип контенту (наприклад, курс проти запуску курсу)."
+msgstr "Тип контенту (наприклад, курс чи запуск курсу)."
 
 #: enterprise/models.py:2538
 msgid ""
@@ -2913,13 +2913,13 @@ msgid ""
 " already exists, but is soft-deleted. Please restore it <a "
 "href=\"{existing_record_admin_url}\">here</a>."
 msgstr ""
-"Намір за замовчуванням записатися на курс цим корпоративним клієнтом і "
-"контент ключем вже існує, але він програмно-видалений. Будь ласка відновити "
-"його <a href=\"{existing_record_admin_url}\">тут</a>."
+"Намір реєстрації за замовчуванням для цього корпоративного клієнта і ключа "
+"контенту вже існує, але він відмічений як видалений. Відновіть його <a "
+"href=\"{existing_record_admin_url}\">тут</a>."
 
 #: enterprise/models.py:2725
 msgid "The content key did not resolve to a valid course run."
-msgstr "Ключ контенту не був перетворений на дійсний запуск курсу."
+msgstr "Не вдалося визначити дійсний запуск курсу за ключем контенту."
 
 #: enterprise/models.py:2793
 msgid ""
@@ -2939,12 +2939,12 @@ msgstr "Тип підприємницької групи"
 
 #: enterprise/models.py:4935
 msgid "Title summarizing the onboarding flow."
-msgstr "Заголовок, що підсумовує процес адаптації."
+msgstr "Заголовок, що підсумовує процедуру ознайомлення."
 
 #: enterprise/models.py:4941
 msgid ""
 "Specifies whether this flow is active and shown to admin users in the "
 "onboarding tour."
 msgstr ""
-"Визначає, чи цей потік активний і чи відображається адміністраторам під час "
-"ознайомчого туру."
+"Визначає, чи ця процедура активна і чи відображається адміністраторам під "
+"час ознайомчого туру."

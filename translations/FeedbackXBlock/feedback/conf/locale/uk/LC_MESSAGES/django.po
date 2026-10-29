@@ -89,7 +89,7 @@ msgstr "Список голосів користувачів"
 
 #: feedback.py:107
 msgid "Feedback"
-msgstr "Зворотній зв'язок"
+msgstr "Відгук"
 
 #: feedback.py:110
 msgid "Display Name"
@@ -97,7 +97,7 @@ msgstr "Назва, що відображається"
 
 #: feedback.py:111
 msgid "Provide Feedback"
-msgstr "Дайте зворотній зв'язок"
+msgstr "Надати відгук"
 
 #: feedback.py:116 templates/html/studio_view.html:17
 msgid "Voting message"
@@ -109,7 +109,7 @@ msgstr "Дякуємо за голосування!"
 
 #: feedback.py:122 templates/html/studio_view.html:25
 msgid "Feedback message"
-msgstr "Повідомлення зворотнього зв'язку"
+msgstr "Повідомлення відгуку"
 
 #: feedback.py:123
 msgid "Thank you for your feedback!"
@@ -117,7 +117,7 @@ msgstr "Спасибі за ваш відгук!"
 
 #: feedback.py:128
 msgid "Show aggregate to students"
-msgstr "Показати зведені дані студентам"
+msgstr "Показувати зведені дані учням"
 
 #: feedback.py:158
 msgid "Please reflect on this course material"
@@ -157,7 +157,7 @@ msgstr "Середня оцінка"
 
 #: static/html/feedback_instructor.html:19
 msgid "Feedback "
-msgstr "Зворотній зв'язок"
+msgstr "Відгук "
 
 #: static/html/feedback_instructor.html:40
 msgid "Comment"
@@ -187,7 +187,7 @@ msgstr ""
 
 #: templates/html/studio_view.html:9
 msgid "Display name"
-msgstr "Назва, що відображається"
+msgstr "Відображуване ім'я"
 
 #: templates/html/studio_view.html:12
 msgid "The name of the component."
