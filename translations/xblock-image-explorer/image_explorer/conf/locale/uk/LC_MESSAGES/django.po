@@ -68,7 +68,7 @@ msgstr "Координати інтерактивних ділянок вказ�
 
 #: image_explorer.py:72
 msgid "Store hotspots opened by student, for completion"
-msgstr "Зберігати відкриті учнем активні ділянки для запису проходження"
+msgstr "Зберігати відкриті учнем інтерактивні ділянки для запису проходження"
 
 #: templates/html/image_explorer_edit.html:11
 msgid "The title of the Image Explorer that is displayed to the user"
@@ -83,8 +83,8 @@ msgid ""
 "If set to true, hotspot coordinates interpreted to point to the center of "
 "the hotspot"
 msgstr ""
-"Якщо встановлено значення True, вважається, що координати активної ділянки "
-"вказують на її центр"
+"Якщо встановлено значення True, вважається, що координати інтерактивної "
+"ділянки вказують на її центр"
 
 #: templates/html/image_explorer_edit.html:19
 msgid ""
