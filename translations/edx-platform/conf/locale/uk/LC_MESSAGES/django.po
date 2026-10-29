@@ -290,7 +290,7 @@ msgstr "Вміст бібліотеки"
 #: cms/djangoapps/contentstore/helpers.py:223
 #: cms/djangoapps/contentstore/views/component.py:288
 msgid "Problem Bank"
-msgstr "задача Банк"
+msgstr "Банк завдань"
 
 #: cms/djangoapps/contentstore/management/commands/git_export.py:33
 msgid ""
@@ -326,19 +326,19 @@ msgstr "Відтворюйте посилання навіть для повні
 
 #: cms/djangoapps/contentstore/management/commands/recreate_upstream_links.py:67
 msgid "Delete all and create links for given course(s)."
-msgstr "Видалити все та створити посилання для вказаного(-их) курсу(-ів)."
+msgstr "Видалити все та створити посилання для вказаного курсу(ів)."
 
 #: cms/djangoapps/contentstore/models.py:96
 msgid "Upstream context key i.e., learning_package/library key"
-msgstr "Ключ висхідного контексту, тобто ключ learning_package/бібліотека "
+msgstr "Ключ контексту upstream, тобто ключ learning_package або library"
 
 #: cms/djangoapps/contentstore/models.py:147
 msgid ""
 "Upstream block usage key, this value cannot be null and useful to track "
 "upstream library blocks that do not exist yet"
 msgstr ""
-"Ключ використання висхідного блоку, це значення не може бути нульовим і є "
-"корисним для відстеження висхідних блоків бібліотека, які ще не існують"
+"Ключ використання блоку upstream; це значення не може бути нульовим і "
+"корисне для відстеження блоків бібліотеки upstream, які ще не існують"
 
 #: cms/djangoapps/contentstore/models.py:153
 msgid "Component Link"
@@ -358,17 +358,17 @@ msgid ""
 "Upstream block key (e.g. lct:...), this value cannot be null and is useful "
 "to track upstream library blocks that do not exist yet or were deleted."
 msgstr ""
-"Ключ висхідного блоку (наприклад, lct:...), це значення не може бути "
-"нульовим і є корисним для відстеження висхідних бібліотека блоків, які ще не"
-" існують або були видалений."
+"Ключ блоку upstream (наприклад, lct:...), це значення не може бути нульовим "
+"і є корисним для відстеження бібліотечних блоків upstream, які ще не існують"
+" або були видалені."
 
 #: cms/djangoapps/contentstore/models.py:324
 msgid "Container Link"
-msgstr "контейнер посилання"
+msgstr "Посилання на контейнер"
 
 #: cms/djangoapps/contentstore/models.py:325
 msgid "Container Links"
-msgstr "контейнер Посилання"
+msgstr "Посилання на контейнери"
 
 #: cms/djangoapps/contentstore/models.py:351
 msgid "The container must be published to access `published_at`"
@@ -403,11 +403,11 @@ msgstr "Завершено"
 
 #: cms/djangoapps/contentstore/models.py:550
 msgid "Linking status for course context key"
-msgstr "Стан зв'язування для контекстного ключа курс "
+msgstr "Стан посилання для контекстного ключа курсу"
 
 #: cms/djangoapps/contentstore/models.py:555
 msgid "Status of links in given learning context/course."
-msgstr "Статус посилань в з урахуванням навчального контексту/курс."
+msgstr "Статус посилань у заданому навчальному контексті/курсі."
 
 #: cms/djangoapps/contentstore/models.py:561
 #: cms/djangoapps/contentstore/models.py:562
@@ -420,7 +420,7 @@ msgstr "Відмітити поле як застаріле."
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:48
 msgid "User-friendly display name for the field"
-msgstr "Інтуїтивно зрозуміла назва для поля"
+msgstr "Зручна для користувача назва поля"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:49
 msgid "Help text that describes the setting."
@@ -436,20 +436,19 @@ msgstr "Назва вкладки за замовчуванням, що відо
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:18
 msgid "True if it's possible to hide the tab for a course"
-msgstr "\"Істина\", якщо можна приховати вкладку курсу"
+msgstr "Значення True, якщо вкладку для курсу можна приховати."
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:21
 msgid "True the tab is hidden for the course"
-msgstr "\"Істина\", вкладку курсу приховано"
+msgstr "Значення True означає, що вкладка прихована для курсу"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:25
 msgid "True if it's possible to reorder the tab in the list of tabs"
-msgstr "\"Істина\", якщо можливо можливо змінити порядок вкладок у списку вкладок"
+msgstr "Значення True, якщо вкладку можна змінювати місцями у списку вкладок"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:29
 msgid "True if this tab should be displayed only for instructors"
-msgstr ""
-"\"Істина\", якщо ця вкладка повинна відображатись тільки для інструкторів."
+msgstr "Значення True, якщо цю вкладку слід відображати лише для інструкторів"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:33
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:37
@@ -460,7 +459,7 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:41
 msgid "Additional settings specific to the tab"
-msgstr "Додаткові налаштування специфічної вкладки"
+msgstr "Додаткові налаштування вкладки"
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:74
 msgid "ID of tab to update"
@@ -476,9 +475,7 @@ msgstr "Потрібно надати правильний параметр tab_
 
 #: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:100
 msgid "True to hide the tab, and False to show it."
-msgstr ""
-"\"True\" (істина), щоб приховати вкладку, та \"False\" (хиба), щоб показати "
-"її."
+msgstr "True, щоб приховати вкладку, та False, щоб показати її."
 
 #: cms/djangoapps/contentstore/rest_api/v0/views/tabs.py:117
 msgid "Change the visibility of tabs in a course."
@@ -786,11 +783,11 @@ msgstr "Відповідь у вільній формі"
 
 #: cms/djangoapps/contentstore/views/component.py:286
 msgid "Legacy Library"
-msgstr "Спадщина бібліотека"
+msgstr "Застаріла версія бібліотеки"
 
 #: cms/djangoapps/contentstore/views/component.py:289
 msgid "Drag and Drop"
-msgstr "Перетягнути і Скинути"
+msgstr "Завдання на перетягування"
 
 #: cms/djangoapps/contentstore/views/component.py:330
 msgid "Blank"
@@ -798,7 +795,7 @@ msgstr "Порожній"
 
 #: cms/djangoapps/contentstore/views/component.py:333
 msgid "Peer Assessment Only"
-msgstr "Оцінювання тільки студентами, які навчаються разом з вами"
+msgstr "Тільки взаємне оцінювання"
 
 #: cms/djangoapps/contentstore/views/component.py:337
 #: xmodule/capa_block.py:183
@@ -1187,7 +1184,7 @@ msgstr "Надати користувачу дозвіл на створення
 
 #: cms/djangoapps/import_from_modulestore/data.py:17
 msgid "Waiting to stage content"
-msgstr "В очікуванні на сцену контент"
+msgstr "Очікування підготовки контенту"
 
 #: cms/djangoapps/import_from_modulestore/data.py:18
 msgid "Staging content for import"
@@ -1195,19 +1192,19 @@ msgstr "Підготовка вмісту для імпорту"
 
 #: cms/djangoapps/import_from_modulestore/data.py:19
 msgid "Failed to stage content"
-msgstr "Не вдалося поставити спектакль контент"
+msgstr "Не вдалося підготувати контент"
 
 #: cms/djangoapps/import_from_modulestore/data.py:20
 msgid "Content is staged and ready for import"
-msgstr "контент поставлений і готовий до імпорт"
+msgstr "Контент підготовлений і готовий до імпорту"
 
 #: cms/djangoapps/import_from_modulestore/data.py:21
 msgid "Importing staged content"
-msgstr "Імпорт поетапно контент"
+msgstr "Імпортування підготовленого контенту"
 
 #: cms/djangoapps/import_from_modulestore/data.py:22
 msgid "Failed to import staged content"
-msgstr "Не вдалося імпорт інсценувати контент"
+msgstr "Не вдалося імпортувати підготовлений контент"
 
 #: cms/djangoapps/import_from_modulestore/data.py:23
 msgid "Successfully imported content"
@@ -1219,43 +1216,44 @@ msgstr "Скасовано"
 
 #: cms/djangoapps/import_from_modulestore/models.py:38
 msgid "The modulestore course"
-msgstr "Модульне сховище курс"
+msgstr "Курс з модульного сховища"
 
 #: cms/djangoapps/import_from_modulestore/models.py:42
 msgid "Import from modulestore"
-msgstr "імпорт від modulestore"
+msgstr "Імпорт з модульного сховища"
 
 #: cms/djangoapps/import_from_modulestore/models.py:43
 msgid "Imports from modulestore"
-msgstr "Імпорт з магазину модулів"
+msgstr "Імпорт з модульного сховища"
 
 #: cms/djangoapps/import_from_modulestore/models.py:72
 msgid "Original usage key/ID of the thing that has been imported."
-msgstr "Оригінальний ключ використання/id речі, яка була імпортована."
+msgstr "Оригінальний ключ використання/ID імпортованого об'єкта."
 
 #: cms/djangoapps/import_from_modulestore/models.py:129
 msgid ""
 "The original Usage key of the highest-level component that was saved in "
 "StagedContent."
 msgstr ""
-"Оригінальний ключ використання найвищого рівня компонент, який було "
-"збережено в StagedContent."
+"Оригінальний ключ компоненту найвищого рівня, який було збережено в "
+"StagedContent."
 
 #: cms/djangoapps/maintenance/views.py:32
 msgid "Edit Announcements"
-msgstr "редагувати Анонси"
+msgstr "Редагувати анонси"
 
 #: cms/djangoapps/maintenance/views.py:35
 msgid ""
 "This view shows the announcement editor to create or alter announcements "
 "that are shown on the rightside of the dashboard."
 msgstr ""
-"У цьому поданні редактор оголошення показує Створювати або змінює "
-"оголошення, які відображаються на правій стороні інформаційної панелі."
+"Тут відображається редактор оголошень, призначений для створення або "
+"редагування оголошень, які показуються в правій частині інформаційної "
+"панелі."
 
 #: cms/djangoapps/maintenance/views.py:43
 msgid "Please provide course id."
-msgstr "Будь ласка давати id курсу."
+msgstr "Надайте ID курсу."
 
 #: cms/djangoapps/maintenance/views.py:44
 msgid "Invalid course key."
@@ -1276,11 +1274,13 @@ msgstr "Словник з доступними тегами"
 
 #: cms/lib/xblock/upstream_sync.py:70
 msgid "Content is not linked to a Content Library."
-msgstr "контент не пов'язаний з контент бібліотека ."
+msgstr "Контент не пов'язаний з бібліотекою контенту."
 
 #: cms/lib/xblock/upstream_sync.py:164
 msgid "Downstream is not an XBlock or is missing required UpstreamSyncMixin"
-msgstr "Downstream не є XBlock або відсутній необхідний UpstreamSyncMixin"
+msgstr ""
+"Компонент Downstream не є XBlock-ом або в ньому відсутній обов’язковий "
+"UpstreamSyncMixin."
 
 #: cms/lib/xblock/upstream_sync.py:168
 msgid "Cannot update content because it does not belong to a course."
@@ -1288,23 +1288,23 @@ msgstr "Неможливо оновити вміст, оскільки він н
 
 #: cms/lib/xblock/upstream_sync.py:178
 msgid "Reference to linked library item is malformed"
-msgstr "Посилання на елемент бібліотека є некоректним"
+msgstr "Посилання на елемент бібліотеки є некоректним"
 
 #: cms/lib/xblock/upstream_sync.py:184
 msgid ""
 "Updating content with children is not yet supported unless the upstream is a"
 " container."
 msgstr ""
-"Оновлення контент за допомогою дітей поки що не підтримується, якщо "
-"висхідним потоком не є контейнер."
+"Оновлення контенту з дочірніми елементами наразі не підтримується, якщо "
+"батьківським елементом (upstream) не є контейнер."
 
 #: cms/lib/xblock/upstream_sync.py:190
 msgid "Linked upstream library block was not found in the system"
-msgstr "Пов'язаний з висхідним потоком бібліотека блок не знайдено в системі"
+msgstr "Зв'язаний upstream-блок бібліотеки не знайдено в системі"
 
 #: cms/lib/xblock/upstream_sync.py:198
 msgid "Linked upstream library container was not found in the system"
-msgstr "Посилання вище за течією бібліотека контейнер не знайдено в системи"
+msgstr "Зв'язаний upstream-контейнер бібліотеки не знайдено в системі"
 
 #: cms/lib/xblock/upstream_sync.py:209
 #, python-brace-format
@@ -1312,13 +1312,12 @@ msgid ""
 "Content type mismatch: {downstream_id} ({downstream_type}) cannot be linked "
 "to {upstream_id}."
 msgstr ""
-"контент Невідповідність типів: {downstream_id} ({downstream_type}) не може "
+"Невідповідність типів контенту: {downstream_id} ({downstream_type}) не може "
 "бути пов'язано з {upstream_id}."
 
 #: cms/lib/xblock/upstream_sync_block.py:79
 msgid "Linked library item could not be loaded: {}"
-msgstr ""
-"Не вдалося завантажити елемент бібліотека, пов'язаний з посиланням: {}"
+msgstr "Не вдалося завантажити зв'язаний елемент бібліотеки: {}"
 
 #: cms/templates/admin/base_site.html:4 lms/templates/admin/base_site.html:3
 msgid "Django site admin"
@@ -1573,10 +1572,10 @@ msgstr ""
 #, python-format
 msgid "%(count)d student account was unlocked."
 msgid_plural "%(count)d student accounts were unlocked."
-msgstr[0] "%(count)d обліковий запис студента розблоковано."
-msgstr[1] "%(count)d облікові записи студентів розблоковано."
-msgstr[2] "%(count)d облікові записи студентів розблоковано."
-msgstr[3] "%(count)d облікові записи студентів розблоковано."
+msgstr[0] "%(count)d обліковий запис учня розблоковано."
+msgstr[1] "%(count)d облікові записи учнів розблоковано."
+msgstr[2] "%(count)d облікових записів учнів розблоковано."
+msgstr[3] "%(count)d облікових записів учнів розблоковано."
 
 #: common/djangoapps/student/admin.py:588
 #, python-brace-format
@@ -1595,7 +1594,7 @@ msgstr "Email не має {allowed_site_email_domain} доменного іме�
 
 #: common/djangoapps/student/admin.py:596
 msgid "User with this email doesn't exist in system."
-msgstr "Користувач з цим електронним адресом не зареєстрований в системі."
+msgstr "У системі немає користувача з такою електронною адресою."
 
 #: common/djangoapps/student/helpers.py:77
 #: common/djangoapps/student/helpers.py:725
@@ -1660,8 +1659,8 @@ msgid ""
 "follows:                     course_id, username, mode"
 msgstr ""
 "Очікується, що дані будуть надані у форматі CSV-файлу, де"
-"                     перший заголовок буде заголовком, а стовпці будуть "
-"такими:                     course_id, username, mode"
+"                     перший рядок буде заголовком, а стовпці будуть такими:"
+"                     course_id, username, mode"
 
 #: common/djangoapps/student/models/user.py:463
 msgid "Male"
@@ -1782,11 +1781,11 @@ msgid ""
 "and password. And if any employee's email doesn't exist in this model then "
 "that employee can login via third party authentication backend only."
 msgstr ""
-"Співробітник (користувач, електронна пошта якого має доменне ім’я поточного "
-"сайту), електронна пошта якого існує в цій моделі, може мати можливість "
-"входу зі сторінки входу за допомогою електронної пошти та пароля. І якщо в "
-"цій моделі не існує жодної електронної пошти працівника, тоді цей працівник "
-"може входити лише через серверну сторону автентифікації третьої сторони."
+"Співробітник (користувач, чия електронна пошта має доменне ім’я поточного "
+"сайту), електронна пошта якого існує в цій моделі, може входити зі сторінки "
+"входу за допомогою електронної пошти та пароля. І якщо в цій моделі не існує"
+" жодної електронної пошти працівника, тоді цей працівник може входити лише "
+"через сторонній сервіс автентифікації."
 
 #: common/djangoapps/student/models/user.py:1691
 msgid ""
@@ -1895,7 +1894,7 @@ msgstr "Неможливо зареєструватися на курс"
 
 #: common/djangoapps/student/views/management.py:450
 msgid "Unenrollment is currently disabled"
-msgstr "Скасування реєстрації на даний час відключено"
+msgstr "Скасування запису на даний час відключено"
 
 #: common/djangoapps/student/views/management.py:454
 msgid "You are not enrolled in this course"
@@ -2610,10 +2609,10 @@ msgstr[3] "%(num)d букви"
 #, python-format
 msgid "This password must contain at least %(min_numeric)d number."
 msgid_plural "This password must contain at least %(min_numeric)d numbers."
-msgstr[0] "Цей пароль має містити принаймні число %(min_numeric)d ."
-msgstr[1] "Цей пароль має містити принаймні %(min_numeric)d чисел."
-msgstr[2] "Цей пароль має містити принаймні %(min_numeric)d чисел."
-msgstr[3] "Цей пароль має містити принаймні %(min_numeric)d чисел."
+msgstr[0] "Цей пароль має містити принаймні %(min_numeric)d цифру."
+msgstr[1] "Цей пароль має містити принаймні %(min_numeric)d цифри."
+msgstr[2] "Цей пароль має містити принаймні %(min_numeric)d цифр."
+msgstr[3] "Цей пароль має містити принаймні %(min_numeric)d цифр."
 
 #: common/djangoapps/util/password_policy_validators.py:271
 #, python-format
@@ -2628,8 +2627,8 @@ msgstr[3] "Ваш пароль має містити принаймні %(min_nu
 #, python-format
 msgid "%(num)d number"
 msgid_plural "%(num)d numbers"
-msgstr[0] "номер %(num)d"
-msgstr[1] "%(num)d чисел"
+msgstr[0] "%(num)d число"
+msgstr[1] "%(num)d числа"
 msgstr[2] "%(num)d чисел"
 msgstr[3] "%(num)d чисел"
 
@@ -2868,7 +2867,7 @@ msgstr ""
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:33
 msgid "Activate your account"
-msgstr "Активуйте ваш обліковий запис"
+msgstr "Активуйте обліковий запис"
 
 #: common/templates/student/edx_ace/accountactivation/email/body.html:42
 #: common/templates/student/edx_ace/accountactivation/email/body.txt:6
@@ -3085,8 +3084,8 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"Ви записані на %(course_name)s, що розміщений на %(platform_name)s. Цей курс містить моніторовані іспити.\n"
-" "
+"                    Ви записані на %(course_name)s, що розміщений на %(platform_name)s. Цей курс містить контрольовані іспити.\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:38
 #, python-format
@@ -3096,8 +3095,8 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"Моніторовані екзамени – це іспити, які ви складаєте за обмежений час, тоді як програмне забезпечення контролює робочий стіл вашого комп’ютера, відео та аудіо з веб-камери. Ваш курс використовує програмне забезпечення %(proctoring_provider)s для контролю.\n"
-" "
+"                    Контрольовані іспити – це іспити, які ви складаєте за обмежений час, тоді як програмне забезпечення контролює робочий стіл вашого комп’ютера, відео та аудіо з веб-камери. Ваш курс використовує програмне забезпечення %(proctoring_provider)s для контролю.\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:46
 msgid ""
@@ -3106,8 +3105,8 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"Уважно перегляньте вимоги до комп’ютера, а також кроки для складання моніторованого іспиту, щоб переконатися, що ви готові.\n"
-"  "
+"                    Уважно перегляньте вимоги до комп’ютера, а також кроки для складання контрольованого іспиту, щоб переконатися, що ви готові.\n"
+"                "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:53
 msgid ""
@@ -3116,8 +3115,8 @@ msgid ""
 "            "
 msgstr ""
 "\n"
-"Інструкції та вимоги для проведення моніторованого екзамену\n"
-" "
+"                Інструкції та вимоги для проведення контрольованого іспиту\n"
+"            "
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.html:60
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:11
@@ -3154,8 +3153,8 @@ msgid ""
 "You are enrolled in %(course_name)s at %(platform_name)s. This course "
 "contains proctored exams."
 msgstr ""
-"Ви записані на %(course_name)s, що розміщений на %(platform_name)s. Цей курс"
-" містить моніторовані іспити."
+"Вас зареєстровано на %(course_name)s, що розміщений на %(platform_name)s. "
+"Цей курс містить контрольовані іспити."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:5
 #, python-format
@@ -3164,9 +3163,9 @@ msgid ""
 "monitors your computer's desktop, webcam video, and audio. Your course uses "
 "%(proctoring_provider)s software for proctoring."
 msgstr ""
-"Моніторовані екзамени – це іспити, які ви складаєте за обмежений час, тоді "
-"як програмне забезпечення контролює робочий стіл вашого комп’ютера, відео та"
-" аудіо з веб-камери. Ваш курс використовує програмне забезпечення "
+"Контрольовані іспити – це іспити, які ви складаєте за обмежений час, тоді як"
+" програмне забезпечення контролює робочий стіл вашого комп’ютера, відео та "
+"аудіо з веб-камери. Ваш курс використовує програмне забезпечення "
 "%(proctoring_provider)s для контролю."
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:7
@@ -3183,7 +3182,7 @@ msgid ""
 "To view proctoring instructions and requirements, please visit: "
 "%(proctoring_requirements_url)s"
 msgstr ""
-"Щоб переглянути інструкції та вимоги до проведення моніторованих іспитів, "
+"Щоб переглянути інструкції та вимоги до проведення контрольованих іспитів, "
 "відвідайте: %(proctoring_requirements_url)s"
 
 #: common/templates/student/edx_ace/proctoringrequirements/email/body.txt:14
@@ -3197,7 +3196,7 @@ msgstr ""
 #: common/templates/student/edx_ace/proctoringrequirements/email/subject.txt:3
 #, python-format
 msgid "Proctoring requirements for %(course_name)s"
-msgstr "Вимоги до проведення моніторованих іспитів для %(course_name)s"
+msgstr "Вимоги до проведення контрольованих іспитів для %(course_name)s"
 
 #: common/templates/student/edx_ace/recoveryemailcreate/email/body.html:10
 msgid "Create Recovery Email"
@@ -3965,7 +3964,7 @@ msgstr ""
 #: lms/djangoapps/course_api/blocks/transformers/milestones.py:191
 #: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py:88
 msgid "Practice Exam"
-msgstr "Пробний iспит"
+msgstr "Пробний іспит"
 
 #: lms/djangoapps/course_api/blocks/transformers/milestones.py:193
 #: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py:90
@@ -3975,7 +3974,7 @@ msgstr "екзамен під наглядом"
 #: lms/djangoapps/course_api/blocks/transformers/milestones.py:195
 #: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py:92
 msgid "Timed Exam"
-msgstr "Іспити з обмеженням по часу"
+msgstr "Іспит з обмеженням по часу"
 
 #: lms/djangoapps/course_api/blocks/transformers/milestones.py:198
 #: openedx/core/djangoapps/content/learning_sequences/api/processors/special_exams.py:95
@@ -4071,7 +4070,7 @@ msgstr ""
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:2
 msgid "You're almost there!"
-msgstr "Ви майже зареєструвались!"
+msgstr "Майже готово!"
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/body.txt:3
 msgid "There's still time to reach your goal"
@@ -4093,8 +4092,8 @@ msgid ""
 "Remember, you can always change your learning goal. The best goal is one "
 "that you can stick to.  "
 msgstr ""
-"Ви завжди можете змінити навчальну ціль. Найкраща ціль – це та, якої ви "
-"можете досягнути."
+"Пам'ятайте, що ви завжди можете змінити свою навчальну мету. Найкраща мета —"
+" та, якої ви можете дотримуватися.  "
 
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/footer.html:47
 #: lms/djangoapps/course_goals/templates/course_goals/edx_ace/goalreminder/email/head.html:24
@@ -4180,14 +4179,14 @@ msgid ""
 "the course specifically, and for the org that the course is in, then the "
 "more specific context overrides the more general context."
 msgstr ""
-"Вони визначають контекст для вимкнення сторінки відображення навчального "
-"прогресу в межах користувацького інтерфейсу. Якщо значення не встановлені, "
-"тоді конфігурація застосовується глобально. Якщо встановлено одне значення, "
-"то конфігурація застосовується до всіх курсів у цьому контексті. Одночасно "
-"може бути встановлено щонайбільше одне значення.<br>Якщо до курсу "
-"застосовується декілька контекстів (наприклад, якщо конфігурація вказана для"
-" курсу конкретно та для організації, в якій знаходиться курс, то "
-"конкретніший контекст замінює більш загальний контекст."
+"Вони визначають контекст для вимкнення сторінки прогресу в інтерфейсі "
+"користувача. Якщо значення не встановлені, тоді конфігурація застосовується "
+"глобально. Якщо встановлено одне значення, то конфігурація застосовується до"
+" всіх курсів у цьому контексті. Одночасно може бути встановлено щонайбільше "
+"одне значення.<br>Якщо до курсу застосовується декілька контекстів "
+"(наприклад, якщо конфігурація вказана для курсу конкретно та для "
+"організації, в якій знаходиться курс, то конкретніший контекст перевизначає "
+"більш загальний контекст."
 
 #: lms/djangoapps/course_home_api/admin.py:33
 #: openedx/features/discounts/admin.py:34
@@ -4212,10 +4211,10 @@ msgstr "Вимкнено"
 #, python-brace-format
 msgid "({number} Question)"
 msgid_plural "({number} Questions)"
-msgstr[0] "( {number} Питання)"
-msgstr[1] "( {number} Питання)"
-msgstr[2] "( {number} Питання)"
-msgstr[3] "( {number} Питання)"
+msgstr[0] "({number} питання)"
+msgstr[1] "({number} питання)"
+msgstr[2] "({number} питань)"
+msgstr[3] "({number} питань)"
 
 #: lms/djangoapps/course_home_api/outline/views.py:293
 #, python-brace-format
@@ -4245,11 +4244,11 @@ msgstr "Вітальне повідомлення успішно відхиле�
 
 #: lms/djangoapps/course_home_api/outline/views.py:694
 msgid "Your course goal has been successfully set."
-msgstr "Мета курсу успішно налаштована."
+msgstr "Вашу ціль курсу успішно налаштовано."
 
 #: lms/djangoapps/course_home_api/outline/views.py:695
 msgid "Course goal updated successfully."
-msgstr "Мета курсу успішно змінена."
+msgstr "Ціль курсу успішно змінено."
 
 #: lms/djangoapps/course_wiki/plugins/course_app.py:31
 #: lms/djangoapps/course_wiki/tab.py:19
@@ -4364,7 +4363,7 @@ msgstr "Самооцінювання"
 
 #: lms/djangoapps/courseware/courses.py:775
 msgid "Peer Assessment"
-msgstr "Оцінювання студентами"
+msgstr "Взаємне оцінювання"
 
 #: lms/djangoapps/courseware/courses.py:777
 msgid "Staff Assessment"
@@ -4433,7 +4432,7 @@ msgstr "Ви втрачаєте доступ до цього курсу, вкл�
 
 #: lms/djangoapps/courseware/date_summary.py:408
 msgid "Audit Access Expires"
-msgstr "Термін дії свободного доступу до курсу закінчується"
+msgstr "Термін доступу в режимі перегляду спливає"
 
 #: lms/djangoapps/courseware/date_summary.py:420
 msgid "Certificate Available"
@@ -4520,8 +4519,8 @@ msgid ""
 "There is no user with the username or email address \"{user_identifier}\" "
 "enrolled in this course."
 msgstr ""
-"На цьому курсі немає користувачів з іменем користувача чи адресою "
-"електронної пошти \"{user_identifier} записаний на цей курс."
+"На цьому курсі не зареєстровано користувача з іменем користувача чи адресою "
+"електронної пошти \"{user_identifier}\"."
 
 #: lms/djangoapps/courseware/masquerade.py:402
 msgid ""
@@ -4603,8 +4602,8 @@ msgstr "Підручники"
 msgid ""
 "Create and manage a library of course readings, textbooks, and chapters."
 msgstr ""
-"Створюйте та управляйте матеріалами курсу, а саме статтями, підручниками, "
-"посібниками."
+"Створюйте та керуйте бібліотекою матеріалів курсу: статтями, підручниками, "
+"розділами."
 
 #: lms/djangoapps/courseware/plugins.py:125
 msgid "Calculator"
@@ -4616,7 +4615,7 @@ msgstr "Надайте калькулятор у курсі для прости�
 
 #: lms/djangoapps/courseware/plugins.py:173
 msgid "Proctoring"
-msgstr "Прокторінг"
+msgstr "Контроль іспитів"
 
 #: lms/djangoapps/courseware/plugins.py:174
 msgid ""
@@ -4842,7 +4841,7 @@ msgid ""
 msgstr ""
 "Ми плануємо використовувати цю інформацію для оцінки вашої заявки на отримання фінансової допомоги та подальшого розвитку нашої програми фінансової допомоги. \n"
 "Зверніть увагу, що хоча допомога доступна для більшості курсів, які пропонують підтверджені сертифікати, деякі курси та програми не підлягають фінансовій підтримці. Ви повинні заповнити окрему заявку для кожного курсу, який ви проходите. Ви можете отримати фінансову допомогу п'ять (5) разів на рік (на основі 12-місячного періоду з моменту першого схвалення). \n"
-"Щоб подати заявку на отримання фінансової допомоги \n"
+"Щоб подати заявку на отримання фінансової допомоги:\n"
 "1. Зареєструйтеся на аудит на відповідний курс, який пропонує підтверджені сертифікати. \n"
 "2. Заповніть цю заявку. \n"
 "3. Перевірте свою електронну пошту, будь ласка, зачекайте 4 тижні, поки ваша заявка буде оброблена."
@@ -4932,7 +4931,7 @@ msgstr "їхній"
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/commentnotification/push/body.txt:2
 #, python-format
 msgid "%(comment_username)s commented to %(thread_title)s:"
-msgstr "%(comment_username)s прокоментували на %(thread_title)s:"
+msgstr "Користувач %(comment_username)s залишив коментар до %(thread_title)s:"
 
 #: lms/djangoapps/discussion/templates/discussion/edx_ace/commentnotification/push/title.txt:2
 #, python-format
@@ -5112,8 +5111,8 @@ msgid ""
 "Course is not cohorted but cohort provided. Ignoring cohort assignment for "
 "all users."
 msgstr ""
-"Курс не розділяється на когорти, не зважаючи на вказану когорту. Завдання, "
-"специфічні для когорт будуть ігноруватись для всіх користувачів."
+"Курс не поділено на когорти, але когорту вказано. Призначення когорти "
+"ігнорується для всіх користувачів."
 
 #: lms/djangoapps/instructor/views/api.py:444
 #, python-brace-format
@@ -5237,7 +5236,7 @@ msgstr "Користувача, який надсилає запит, не ав�
 #: lms/djangoapps/instructor/views/api.py:2499
 #: lms/djangoapps/instructor/views/api.py:2709
 msgid "The requesting user lacks access to the course."
-msgstr "У корситувача, який надсилає запит, немає доступу до цього курсу."
+msgstr "У користувача, який надсилає запит, немає доступу до цього курсу."
 
 #: lms/djangoapps/instructor/views/api.py:1354
 #: lms/djangoapps/instructor_task/api_helper.py:109
@@ -5529,7 +5528,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/api.py:2438
 msgid "List of instructor tasks."
-msgstr "Список завдань іструктора."
+msgstr "Список завдань викладача."
 
 #: lms/djangoapps/instructor/views/api.py:2500
 #: lms/djangoapps/instructor/views/api.py:2710
@@ -5913,11 +5912,11 @@ msgstr "URL-адресу ім'я з задача потрібно скинути
 #: lms/djangoapps/instructor/views/serializer.py:346
 #: lms/djangoapps/instructor/views/serializer.py:567
 msgid "Problem URL name cannot be blank."
-msgstr "задача Адреса ім'я не може бути порожньою."
+msgstr "URL-назва завдання не може бути порожньою."
 
 #: lms/djangoapps/instructor/views/serializer.py:351
 msgid "Whether to reset the problem for all students."
-msgstr "Чи потрібно скидати задача для всіх студентів."
+msgstr "Чи скинути завдання для всіх студентів."
 
 #: lms/djangoapps/instructor/views/serializer.py:361
 #: lms/djangoapps/instructor/views/serializer.py:508
@@ -5972,7 +5971,7 @@ msgstr "Неможливо знайти модуль за адресою: {0}"
 
 #: lms/djangoapps/instructor/views/tools.py:171
 msgid "Could not find student enrollment in the course."
-msgstr "Не вдалося знайти зарахованих студентів на курс."
+msgstr "Не вдалося знайти запис студента на курс."
 
 #: lms/djangoapps/instructor/views/tools.py:199
 #, python-brace-format
@@ -6490,7 +6489,7 @@ msgstr "Переглянути налаштування реєстрації н�
 #: lms/djangoapps/support/views/index.py:40
 #: lms/templates/support/link_program_enrollments.html:19
 msgid "Link Program Enrollments"
-msgstr "Посилання на реєстрацію в програмі"
+msgstr "Додати посилання на реєстрації в програмі"
 
 #: lms/djangoapps/support/views/index.py:41
 msgid "Link LMS users to program enrollments"
@@ -6502,7 +6501,7 @@ msgstr "Інструмент інструктора реєстрації про�
 
 #: lms/djangoapps/support/views/index.py:46
 msgid "Find information related to a learner's program enrollments"
-msgstr "Знайти інформацію, пов’язану із зарахуванням на програму учнів"
+msgstr "Знайти інформацію, пов’язану із реєстрацією учня на програму"
 
 #: lms/djangoapps/support/views/manage_user.py:35
 #: lms/templates/tracking_log.html:6
@@ -6807,7 +6806,7 @@ msgstr "тут"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.html:34
 msgid "unsubscribe"
-msgstr "Скасувати підписку"
+msgstr "скасувати підписку"
 
 #: lms/templates/bulk_email/edx_ace/bulkemail/email/body.txt:7
 #, python-format
@@ -7005,7 +7004,7 @@ msgstr "Вас було запрошено на бета-тестування д
 #: lms/templates/instructor/edx_ace/removebetatester/push/body.txt:3
 #, python-format
 msgid "Dear %(full_name)s,"
-msgstr "Шановний %(full_name)s,"
+msgstr "Шановний/шановна %(full_name)s,"
 
 #: lms/templates/instructor/edx_ace/addbetatester/push/body.txt:4
 #, python-format
@@ -7133,13 +7132,13 @@ msgid ""
 "You have been enrolled in %(course_name)s at %(site_name)s. This course will"
 " now appear on your %(site_name)s dashboard."
 msgstr ""
-"Ви були зареєстровані на курс %(course_name)s за адресою %(site_name)s. "
-"Тепер цей курс з'явиться на вашій інформаційній панелі %(site_name)s."
+"Вас було записано на курс %(course_name)s за адресою %(site_name)s. Тепер "
+"цей курс з'явиться на вашій інформаційній панелі %(site_name)s."
 
 #: lms/templates/instructor/edx_ace/allowedenroll/push/title.txt:3
 #, python-format
 msgid "You have been invited to register for %(course_name)s."
-msgstr "Вам було запропоновано зареєструватися на сайті %(course_name)s."
+msgstr "Вас запросили зареєструватися в %(course_name)s."
 
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.html:12
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/subject.txt:3
@@ -7170,7 +7169,7 @@ msgid ""
 "You have been unenrolled from the course %(course_name)s. Please disregard "
 "the invitation previously sent."
 msgstr ""
-"Вас було скасовано з курсу %(course_name)s. Будь ласка, ігноруйте раніше "
+"Вашу реєстрацію на курс %(course_name)s скасовано. Ігноруйте раніше "
 "надіслане запрошення."
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:12
@@ -7218,8 +7217,8 @@ msgid ""
 "You have been unenrolled from %(course_name)s at %(site_name)s. This course "
 "will no longer appear on your %(site_name)s dashboard."
 msgstr ""
-"Вас було скасовано з %(course_name)s на %(site_name)s. Цей курс більше не "
-"з'явиться на вашій інформаційній панелі %(site_name)s."
+"Вашу реєстрацію на %(course_name)s на %(site_name)s скасовано. Цей курс "
+"більше не з'явиться на вашій інформаційній панелі %(site_name)s."
 
 #: lms/templates/instructor/edx_ace/enrollenrolled/email/body.html:12
 #, python-format
@@ -7331,7 +7330,7 @@ msgstr ""
 
 #: lms/templates/logout.html:26
 msgid "We are signing you in."
-msgstr "Ми авторизовуємо вас."
+msgstr "Виконання входу."
 
 #: lms/templates/logout.html:30
 msgid ""
@@ -7351,7 +7350,8 @@ msgid ""
 "page{end_anchor}."
 msgstr ""
 "Якщо вас не буде перенаправлено протягом 5 секунд, {start_anchor} "
-"%(target)s{middle_anchor}натисніть тут, щоб перейти на домашню сторінку{end_anchor}."
+"%(target)s{middle_anchor}натисніть тут, щоб перейти на домашню "
+"сторінку{end_anchor}."
 
 #: lms/templates/main_django.html:50 cms/templates/base.html:102
 #: cms/templates/container_chromeless.html:112 lms/templates/main.html:203
@@ -7449,7 +7449,7 @@ msgstr "найкращий,"
 #: lms/templates/verify_student/edx_ace/verificationsubmitted/email/body.txt:2
 #, python-format
 msgid "Hello %(full_name)s, "
-msgstr "Здрастуйте %(full_name)s,"
+msgstr "Вітаємо, %(full_name)s! "
 
 #: lms/templates/verify_student/edx_ace/verificationapproved/email/body.html:10
 msgid "ID Verification Approved"
@@ -9425,7 +9425,7 @@ msgstr "Недійсна назва застосунку."
 
 #: openedx/core/djangoapps/notifications/views.py:182
 msgid "Notifications marked as seen."
-msgstr "Сповіщення відмічено як прочитані."
+msgstr "Сповіщення позначено як переглянуті."
 
 #: openedx/core/djangoapps/notifications/views.py:221
 msgid "Notification marked read."
@@ -9961,7 +9961,7 @@ msgstr ""
 #. an invalid email format.
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:55
 msgid "Enter a valid email address"
-msgstr "Введіть введіть дійсну адресу електронної пошти"
+msgstr "Введіть дійсну адресу електронної пошти"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:60
 #, python-brace-format
@@ -10038,7 +10038,7 @@ msgstr "Введіть вашу адресу електронної пошти �
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:101
 msgid "Select your country or region of residence"
-msgstr "Оберіть вашу країну чи регіон проживання"
+msgstr "Оберіть країну чи регіон проживання"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:102
 msgid "Select your profession"
@@ -10058,7 +10058,7 @@ msgstr "Введіть вашу спеціальність"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:106
 msgid "Enter your state"
-msgstr "Введіть вашу область/штат"
+msgstr "Введіть область"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:107
 msgid "Enter your city"
@@ -10066,7 +10066,7 @@ msgstr "Введіть ваше місто"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:108
 msgid "Tell us your goals"
-msgstr "Розкажіть нам про вашу навчальну мету"
+msgstr "Розкажіть нам про ваші цілі"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:109
 msgid "Select the highest level of education you have completed"
@@ -10074,7 +10074,7 @@ msgstr "Виберіть найвищий рівень освіти, що ви �
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:110
 msgid "Select your year of birth"
-msgstr "Задайте свою дату народження"
+msgstr "Виберіть рік народження"
 
 #: openedx/core/djangoapps/user_api/accounts/__init__.py:111
 msgid "Select your gender"
@@ -10107,7 +10107,7 @@ msgstr "Поле '{field_name}' не може бути відредагован�
 
 #: openedx/core/djangoapps/user_api/accounts/api.py:436
 msgid "Full name can't be longer than 255 symbols"
-msgstr "Повне ім&#39;я не може бути довшим за 255 символів"
+msgstr "Ім’я та прізвище не можуть бути довшими за 255 символів"
 
 #: openedx/core/djangoapps/user_api/accounts/api.py:438
 #: openedx/core/djangoapps/user_authn/views/registration_form.py:109
@@ -10434,7 +10434,7 @@ msgstr "Пароль успішно оновлено"
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:14
 #, python-format
 msgid "Hello %(name)s,"
-msgstr "Здрастуйте %(name)s,"
+msgstr "Вітаємо, %(name)s!"
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.html:19
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.txt:3
@@ -10449,7 +10449,7 @@ msgstr ""
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/body.txt:2
 #, python-format
 msgid "Hello %(name)s, "
-msgstr "Здрастуйте %(name)s, "
+msgstr "Вітаємо, %(name)s! "
 
 #: openedx/core/djangoapps/user_authn/templates/user_authn/edx_ace/passwordresetsuccess/email/subject.txt:3
 #, python-format
@@ -10616,8 +10616,7 @@ msgstr "Не надано електронну адресу."
 msgid ""
 "An error has occurred. Try refreshing the page, or check your internet "
 "connection."
-msgstr ""
-"Сталася помилка. Оновіть сторінку та перевірте ваше інтернет з'єднання."
+msgstr "Сталася помилка. Оновіть сторінку або перевірте інтернет-з'єднання."
 
 #: openedx/core/djangoapps/user_authn/views/register.py:186
 #, python-brace-format
@@ -10876,7 +10875,7 @@ msgstr ""
 
 #: openedx/core/djangoapps/xblock/runtime/mixin.py:69
 msgid "This content is only accessible to enrolled learners. "
-msgstr "Цей контент доступний лише для тих, хто підписаний на цей курс."
+msgstr "Цей контент доступний лише для тих, хто записаний на цей курс."
 
 #: openedx/core/lib/api/view_utils.py:159
 #, python-brace-format
@@ -14412,19 +14411,15 @@ msgid ""
 msgid_plural ""
 "\n"
 "Learners will see all of the %(num_selected)s selected components, in random order:\n"
-
 msgstr[0] ""
 "\n"
 "Учні побачать %(num_selected)s вибраний компонент:\n"
-
 msgstr[1] ""
 "\n"
 "Учні побачать %(num_selected)s вибрані компоненти у випадковому порядку:\n"
-
 msgstr[2] ""
 "\n"
 "Учні побачать %(num_selected)s вибраних компонентів у випадковому порядку:\n"
-
 msgstr[3] ""
 "\n"
 "Учні побачать %(num_selected)s вибраного компонента у випадковому порядку:\n"
@@ -16351,7 +16346,7 @@ msgstr "Дізнайтеся більше про сертифікати"
 #: cms/templates/settings_advanced.html:146
 #: cms/templates/settings_graders.html:169
 msgid "Details & Schedule"
-msgstr "Елементи курсу та розклад"
+msgstr "Деталі та розклад"
 
 #: cms/templates/certificates.html:116
 #: cms/templates/group_configurations.html:127 cms/templates/settings.html:707
@@ -16451,11 +16446,11 @@ msgstr "Переглянути Навчальну програму в Навча
 
 #: cms/templates/container.html:208
 msgid "Collapse All"
-msgstr "Згорнути Всі"
+msgstr "Згорнути все"
 
 #: cms/templates/container.html:238
 msgid "Adding components"
-msgstr "Додаю компоненти"
+msgstr "Додавання компонентів"
 
 #: cms/templates/container.html:239
 #, python-brace-format
@@ -16762,11 +16757,11 @@ msgstr "Ви маєте видалити або замінити такі ком
 
 #: cms/templates/course_outline.html:119
 msgid "Unsupported Components"
-msgstr "Компоненти не підтримуються"
+msgstr "Непідтримувані компоненти"
 
 #: cms/templates/course_outline.html:126
 msgid "Deprecated Component"
-msgstr "Застарілий Компонент"
+msgstr "Застарілий компонент"
 
 #: cms/templates/course_outline.html:138
 #, python-brace-format
@@ -16971,7 +16966,7 @@ msgstr "Показати цю сторінку"
 
 #: cms/templates/edit-tabs.html:134 cms/templates/edit-tabs.html:136
 msgid "Show/hide page"
-msgstr "Показати/заховати сторінку"
+msgstr "Показати/приховати сторінку"
 
 #: cms/templates/edit-tabs.html:150 cms/templates/edit-tabs.html:151
 msgid "This page cannot be reordered"
@@ -17349,15 +17344,15 @@ msgstr "Наступний вміст експортується."
 
 #: cms/templates/export.html:254 cms/templates/import.html:232
 msgid "Course content and structure"
-msgstr "Контент Курсу та структура"
+msgstr "Контент і структура курсу"
 
 #: cms/templates/export.html:255 cms/templates/import.html:233
 msgid "Course dates"
-msgstr "Дати Курсу"
+msgstr "Дати курсу"
 
 #: cms/templates/export.html:256 cms/templates/import.html:234
 msgid "Grading policy"
-msgstr "Система Оцінювання"
+msgstr "Політика оцінювання"
 
 #: cms/templates/export.html:257 cms/templates/import.html:235
 msgid "Any group configurations"
@@ -17412,7 +17407,7 @@ msgstr "Експортувати до Git"
 
 #: cms/templates/export_git.html:27
 msgid "About Export to Git"
-msgstr "Про експортування до  Git"
+msgstr "Про експортування до Git"
 
 #: cms/templates/export_git.html:29
 msgid "Use this to export your course to its git repository."
@@ -18070,11 +18065,11 @@ msgstr "Що саме імпортується?"
 
 #: cms/templates/import.html:230
 msgid "The following content is imported."
-msgstr "Наступний контент імпортується."
+msgstr "Наступний контент імпортовано."
 
 #: cms/templates/import.html:238
 msgid "The following content is not imported."
-msgstr "Наступний контент не імпортується."
+msgstr "Наступний контент не імпортовано."
 
 #: cms/templates/import.html:246
 msgid "Warning: Importing while a course is running"
@@ -18308,7 +18303,7 @@ msgstr ""
 
 #: cms/templates/index.html:343 cms/templates/index.html:345
 msgid "Archived Courses"
-msgstr "Архівовані Курси"
+msgstr "Архівовані курси"
 
 #: cms/templates/index.html:353 cms/templates/index.html:355
 #: cms/templates/widgets/header.html:110
@@ -18343,7 +18338,7 @@ msgstr "Ваш новий курс лише в одному кліку від в
 #: cms/templates/index.html:414
 #, python-brace-format
 msgid "Becoming a Course Creator in {studio_name}"
-msgstr "Створити курсу у  {studio_name}"
+msgstr "Стати автором курсу в {studio_name}"
 
 #: cms/templates/index.html:419
 #, python-brace-format
@@ -20059,7 +20054,7 @@ msgstr "курс Оптимізатор"
 
 #: cms/templates/widgets/header.html:285
 msgid "Current Library:"
-msgstr "Поточна бібліотека"
+msgstr "Поточна бібліотека:"
 
 #: cms/templates/widgets/header.html:333
 msgid "Language preference"
@@ -20948,7 +20943,7 @@ msgstr "До курсу"
 
 #: lms/templates/public_video.html:47
 msgid "Enroll in this course"
-msgstr "Зареєструватись на цей курс"
+msgstr "Зареєструватися на цей курс"
 
 #: lms/templates/courseware/courseware-chromeless.html:12
 #: lms/templates/public_video_share_embed.html:18
@@ -22725,7 +22720,7 @@ msgstr ""
 
 #: lms/templates/ccx/schedule.html:106 lms/templates/ccx/schedule.html:121
 msgid "yyyy-mm-dd"
-msgstr "дд-мм-гггг"
+msgstr "рррр-мм-дд"
 
 #. Translators: This explains to people using a screen reader how to interpret
 #. the format of HH:MM
@@ -22964,8 +22959,8 @@ msgid ""
 "Get temporary access to  {start_bold}non-graded{end_bold} activities, "
 "including discussion forums and non-graded assignments"
 msgstr ""
-"Отримайте тимчасовий доступ до {start_bold}недиференційованих{end_bold} ресурсів, включаючи "
-"обговорення та самостійні неоцінювані завдання."
+"Отримайте тимчасовий доступ до {start_bold}недиференційованих{end_bold} "
+"ресурсів, включаючи обговорення та самостійні неоцінювані завдання."
 
 #: lms/templates/course_modes/fbe.html:57
 #, python-brace-format
@@ -22973,8 +22968,8 @@ msgid ""
 "Get {start_bold}temporary access{end_bold} to the course material, including"
 " videos and readings"
 msgstr ""
-"Отримайте {start_bold}тимчасовий доступ{end_bold} до матеріалів курсу, включно з текстовими та "
-"відеоматеріалами."
+"Отримайте {start_bold}тимчасовий доступ{end_bold} до матеріалів курсу, "
+"включно з текстовими та відеоматеріалами."
 
 #: lms/templates/course_modes/fbe.html:62
 msgid "Access expires and all progress will be lost on"
@@ -23814,8 +23809,9 @@ msgid ""
 msgstr ""
 "{start_bold}Отримайте максимум користі від вашого курсу!{end_bold} Перейдіть"
 " на повну версію щоб отримати доступ до усіх матеріалів курсу, розблокувати "
-"оцінювані та неоцінювані самостійні завдання, а також отримати {link_start}верифікований"
-" сертифікат{link_end}, який можна долучити до вашого резюме."
+"оцінювані та неоцінювані самостійні завдання, а також отримати "
+"{link_start}верифікований сертифікат{link_end}, який можна долучити до "
+"вашого резюме."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:396
 #, python-brace-format
@@ -23824,8 +23820,8 @@ msgid ""
 "{link_start}verified certificate{link_end} to showcase on your resumé."
 msgstr ""
 "{start_bold}Отримайте максимум користі від вашого курсу!{end_bold} Перейдіть"
-" на повну версію щоб отримати {link_start}верифікований сертифікат{link_end}, який можна долучити "
-"до вашого резюме."
+" на повну версію щоб отримати {link_start}верифікований "
+"сертифікат{link_end}, який можна долучити до вашого резюме."
 
 #: lms/templates/dashboard/_dashboard_course_listing.html:411
 msgid "Upgrade"
@@ -23980,7 +23976,7 @@ msgstr "Чи можемо ми зв’язатися з вами електро�
 #: lms/templates/dashboard/_entitlement_reason_survey.html:137
 #: lms/templates/dashboard/_reason_survey.html:23
 msgid "Thank you for sharing your reasons for unenrolling."
-msgstr "Дякуємо, що поділилися своїми причинами відмови від реєстрації."
+msgstr "Дякуємо, що поділилися причиною скасування реєстрації."
 
 #: lms/templates/dashboard/_entitlement_reason_survey.html:138
 #: lms/templates/dashboard/_reason_survey.html:24
@@ -24026,7 +24022,7 @@ msgstr "Я не маю достатньої підтримки"
 
 #: lms/templates/dashboard/_reason_survey.html:14
 msgid "I am not happy with the quality of the content"
-msgstr "Я не задоволений якістю контенту."
+msgstr "Я не задоволений якістю контенту"
 
 #: lms/templates/dashboard/_reason_survey.html:15
 msgid "The course material was too hard"
@@ -24207,7 +24203,7 @@ msgstr ""
 
 #: lms/templates/edxnotes/toggle_notes.html:22
 msgid "Hide notes"
-msgstr "Сховати нотатки"
+msgstr "Приховати нотатки"
 
 #: lms/templates/edxnotes/toggle_notes.html:24
 msgid "Show notes"
@@ -24215,7 +24211,7 @@ msgstr "Показати нотатки"
 
 #: lms/templates/emails/business_order_confirmation_email.txt:7
 msgid "Thank you for your purchase of "
-msgstr "Дякуємо вам за покупку"
+msgstr "Дякуємо за покупку "
 
 #: lms/templates/emails/business_order_confirmation_email.txt:10
 msgid "Your payment was successful."
@@ -24407,7 +24403,7 @@ msgstr ""
 
 #: lms/templates/emails/failed_verification_email.txt:5
 msgid "The photo(s) of you:"
-msgstr "Ваші фотографія(ї):"
+msgstr "Ваші фото:"
 
 #: lms/templates/emails/failed_verification_email.txt:9
 msgid "The photo of you:"
@@ -24474,7 +24470,7 @@ msgstr ""
 #: lms/templates/emails/photo_submission_confirmation.txt:4
 #, python-brace-format
 msgid "Hi {full_name},"
-msgstr "Привіт {full_name},"
+msgstr "Вітаємо, {full_name}!"
 
 #: lms/templates/emails/photo_submission_confirmation.txt:6
 msgid "Thanks for submitting your photos!"
@@ -24724,7 +24720,8 @@ msgstr "Як це працює"
 msgid "Schools"
 msgstr "Навчальні заклади"
 
-# RG override: header wording; community translation is "Безкоштовна реєстрація".
+# RG override: header wording; community translation is "Безкоштовна
+# реєстрація".
 #: lms/templates/header/navbar-not-authenticated.html:53
 #: lms/templates/header/navbar-not-authenticated.html:57
 msgid "Register for free"
@@ -26495,8 +26492,8 @@ msgid ""
 "This module is available only for users who are signed into {platform}. "
 "Kindly sign in and refresh this page to load the content."
 msgstr ""
-"Цей модуль доступний лише для користувачів, які ввійшли на {platform}. Будь"
-" ласка, увійдіть і оновіть сторінку, щоб завантажити вміст."
+"Цей модуль доступний лише для користувачів, які ввійшли на {platform}. Будь "
+"ласка, увійдіть і оновіть сторінку, щоб завантажити вміст."
 
 #: lms/templates/lti_provider/user-auth-error.html:21
 msgid "NOTE:"
@@ -27510,39 +27507,27 @@ msgstr ""
 
 msgid ""
 "\n"
-"                                You set a goal of learning "
-"{start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. "
-"You’re not quite there, but there's still time to reach that goal!\n"
+"                                You set a goal of learning {start_bold}%(days_per_week)s time a week in %(course_name)s{end_bold}. You’re not quite there, but there's still time to reach that goal!\n"
 "                                "
 msgid_plural ""
 "\n"
-"                                You set a goal of learning "
-"{start_bold}%(days_per_week)s times a week in %(course_name)s{end_bold}. "
-"You're not quite there, but there's still time to reach that goal!\n"
+"                                You set a goal of learning {start_bold}%(days_per_week)s times a week in %(course_name)s{end_bold}. You're not quite there, but there's still time to reach that goal!\n"
 "                            "
 msgstr[0] ""
 "\n"
-"                                Ви поставили собі мету навчатися "
-"{start_bold}%(days_per_week)s раз на тиждень у курсі "
-"%(course_name)s{end_bold}. Ви ще не досягли її, але ще є час це зробити!\n"
+"                                Ви поставили собі мету навчатися {start_bold}%(days_per_week)s раз на тиждень у курсі %(course_name)s{end_bold}. Ви ще не досягли її, але ще є час це зробити!\n"
 "                                "
 msgstr[1] ""
 "\n"
-"                                Ви поставили собі мету навчатися "
-"{start_bold}%(days_per_week)s рази на тиждень у курсі "
-"%(course_name)s{end_bold}. Ви ще не досягли її, але ще є час це зробити!\n"
+"                                Ви поставили собі мету навчатися {start_bold}%(days_per_week)s рази на тиждень у курсі %(course_name)s{end_bold}. Ви ще не досягли її, але ще є час це зробити!\n"
 "                            "
 msgstr[2] ""
 "\n"
-"                                Ви поставили собі мету навчатися "
-"{start_bold}%(days_per_week)s разів на тиждень у курсі "
-"%(course_name)s{end_bold}. Ви ще не досягли її, але ще є час це зробити!\n"
+"                                Ви поставили собі мету навчатися {start_bold}%(days_per_week)s разів на тиждень у курсі %(course_name)s{end_bold}. Ви ще не досягли її, але ще є час це зробити!\n"
 "                            "
 msgstr[3] ""
 "\n"
-"                                Ви поставили собі мету навчатися "
-"{start_bold}%(days_per_week)s рази на тиждень у курсі "
-"%(course_name)s{end_bold}. Ви ще не досягли її, але ще є час це зробити!\n"
+"                                Ви поставили собі мету навчатися {start_bold}%(days_per_week)s рази на тиждень у курсі %(course_name)s{end_bold}. Ви ще не досягли її, але ще є час це зробити!\n"
 "                            "
 
 msgid ""
@@ -27556,13 +27541,11 @@ msgstr ""
 
 msgid ""
 "\n"
-"                            Remember, you can always change your learning "
-"goal. The best goal is one that you can stick to.\n"
+"                            Remember, you can always change your learning goal. The best goal is one that you can stick to.\n"
 "                        "
 msgstr ""
 "\n"
-"                            Пам'ятайте, що ви завжди можете змінити свою "
-"навчальну мету. Найкраща мета — та, якої ви можете дотримуватися.\n"
+"                            Пам'ятайте, що ви завжди можете змінити свою навчальну мету. Найкраща мета — та, якої ви можете дотримуватися.\n"
 "                        "
 
 msgid ""
@@ -27578,8 +27561,8 @@ msgid ""
 "You are not signed in. To see additional course content, {sign_in_link} or "
 "{register_link}, and enroll in this course."
 msgstr ""
-"Ви не увійшли в систему. Щоб побачити додатковий вміст курсу, {sign_in_link} "
-"або {register_link} і запишіться на цей курс."
+"Ви не увійшли в систему. Щоб побачити додатковий вміст курсу, {sign_in_link}"
+" або {register_link} і запишіться на цей курс."
 
 msgid "Default Group"
 msgstr "Група за замовчуванням"
@@ -27600,8 +27583,7 @@ msgid ""
 "                "
 msgid_plural ""
 "\n"
-"                Learners will see all of the %(num_selected)s selected "
-"components, in random order:\n"
+"                Learners will see all of the %(num_selected)s selected components, in random order:\n"
 "                "
 msgstr[0] ""
 "\n"
@@ -27609,18 +27591,15 @@ msgstr[0] ""
 "                "
 msgstr[1] ""
 "\n"
-"                Учні побачать усі %(num_selected)s вибрані компоненти у "
-"випадковому порядку:\n"
+"                Учні побачать усі %(num_selected)s вибрані компоненти у випадковому порядку:\n"
 "                "
 msgstr[2] ""
 "\n"
-"                Учні побачать усі %(num_selected)s вибраних компонентів у "
-"випадковому порядку:\n"
+"                Учні побачать усі %(num_selected)s вибраних компонентів у випадковому порядку:\n"
 "                "
 msgstr[3] ""
 "\n"
-"                Учні побачать усі %(num_selected)s вибраного компонента у "
-"випадковому порядку:\n"
+"                Учні побачать усі %(num_selected)s вибраного компонента у випадковому порядку:\n"
 "                "
 
 msgid "Components within a library referenced object cannot be edited"
@@ -27662,8 +27641,8 @@ msgid "This name appears in the horizontal navigation at the top of the page."
 msgstr "Ця назва відображається в горизонтальній навігації вгорі сторінки."
 
 msgid ""
-"Defines the number of points each problem is worth. If the value is not set, "
-"the problem is worth the sum of the option point values."
+"Defines the number of points each problem is worth. If the value is not set,"
+" the problem is worth the sum of the option point values."
 msgstr ""
 "Визначає кількість балів за кожне завдання. Якщо значення не задано, "
 "завдання оцінюється сумою балів за варіанти."
@@ -27842,7 +27821,8 @@ msgstr "Відсутній стовпець: {}"
 
 msgid "Checksum mismatch. Required columns cannot be edited: {}"
 msgstr ""
-"Невідповідність контрольної суми. Обов'язкові стовпці не можна редагувати: {}"
+"Невідповідність контрольної суми. Обов'язкові стовпці не можна редагувати: "
+"{}"
 
 msgid "Failed to retrieve file."
 msgstr "Не вдалося отримати файл."
