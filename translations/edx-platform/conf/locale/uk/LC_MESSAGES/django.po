@@ -11320,7 +11320,7 @@ msgstr "XML-дані для анотації"
 #: xmodule/video_block/video_xfields.py:20 xmodule/word_cloud_block.py:64
 #: xmodule/x_module.py:227
 msgid "The display name for this component."
-msgstr "Відображена назва для цього компоненту. "
+msgstr "Відображувана назва для цього компонента."
 
 #: xmodule/annotatable_block.py:72
 msgid "Annotation"
