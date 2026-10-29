@@ -287,7 +287,7 @@
   "account.settings.delete.account.text.warning": "Увага: видалення облікового запису є остаточним. Уважно прочитайте наведене вище, перш ніж продовжити. Цю дію неможливо скасувати, і ви більше не зможете використовувати ту саму електронну адресу на {siteName}.",
   "account.settings.delete.account.text.change.instead": "Можливо, ви хочете змінити електронну адресу, ім'я або пароль?",
   "account.settings.delete.account.button": "Видалити мій обліковий запис",
-  "account.settings.delete.account.please.activate": "Активуйте обліковий запис",
+  "account.settings.delete.account.please.activate": "активуйте обліковий запис",
   "account.settings.delete.account.please.confirm": "підтвердьте обліковий запис",
   "account.settings.delete.account.please.unlink": "від'єднайте всі облікові записи соціальних мереж",
   "account.settings.delete.account.modal.header": "Ви впевнені?",

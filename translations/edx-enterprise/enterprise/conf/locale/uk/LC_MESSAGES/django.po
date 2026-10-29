@@ -2226,6 +2226,10 @@ msgstr "Домашня сторінка"
 msgid "Clear Data Sharing Consent"
 msgstr "Очистити згоду на обмін даними"
 
+#: enterprise/templates/enterprise/admin/manage_learners.html:65
+msgid "Manage Learners"
+msgstr "Керування слухачами"
+
 #: enterprise/templates/enterprise/admin/manage_learners.html:68
 msgid "Search Term: "
 msgstr "Пошуковий термін: "

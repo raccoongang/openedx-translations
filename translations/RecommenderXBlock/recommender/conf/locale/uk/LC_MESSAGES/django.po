@@ -338,7 +338,7 @@ msgstr "Натисніть, щоб переглянути ресурси для 
 
 msgid "Click to view resources in ordinary decreasing-vote order"
 msgstr ""
-"Натисніть, щоб переглянути ресурси у звичайному порядку зменшення голосів"
+"Натисніть, щоб переглянути ресурси у звичайному порядку зниження рейтингу"
 
 msgid "Here is a list of reasons why students think this resource problematic:"
 msgstr "Ось список причин, чому учні вважають цей ресурс проблемним:"

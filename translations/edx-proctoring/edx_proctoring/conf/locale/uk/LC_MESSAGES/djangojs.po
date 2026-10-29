@@ -23,6 +23,10 @@ msgstr ""
 "Language: uk\n"
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n % 10 == 1 && n % 100 != 11 ? 0 : n % 1 == 0 && n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14) ? 1 : n % 1 == 0 && (n % 10 ==0 || (n % 10 >=5 && n % 10 <=9) || (n % 100 >=11 && n % 100 <=14 )) ? 2: 3);\n"
 
+#: static/proctoring/js/exam_action_handler.js:44
+msgid "OK"
+msgstr "Гаразд"
+
 #: static/proctoring/js/exam_action_handler.js:130
 #: static/proctoring/js/exam_action_handler.js:195
 #: static/proctoring/js/exam_action_handler.js:206
@@ -67,6 +71,12 @@ msgstr ""
 "Під час завершення іспиту сталася помилка. Ще раз перевірте, чи програма "
 "запущена."
 
+#: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:218
+#: static/proctoring/js/views/proctored_exam_allowance_view.js:13
+#: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:82
+msgid "Review Policy Exception"
+msgstr "Переглянути виняток із політики"
+
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:224
 msgid "Add Time(Minutes)"
 msgstr "Додати час (хвилини)"
@@ -74,6 +84,10 @@ msgstr "Додати час (хвилини)"
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:226
 msgid "Add Multiplier as a Number Greater Than 1"
 msgstr "Додайте множник як число, більше 1"
+
+#: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:228
+msgid "Add Policy Exception"
+msgstr "Додати виняток політики"
 
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:268
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:276
@@ -86,9 +100,22 @@ msgstr "Обов'язкове поле"
 msgid "Additional Time (minutes)"
 msgstr "Додатковий час (хвилини)"
 
+#: static/proctoring/js/views/proctored_exam_allowance_view.js:14
+#: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:83
+msgid "Time Multiplier"
+msgstr "Множник часу"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:10
+msgid "Eligible"
+msgstr "Придатний"
+
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:11
 msgid "Created"
 msgstr "Створено"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:12
+msgid "Download Software Clicked"
+msgstr "Клацніть для завантаження програмного забезпечення"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:13
 msgid "Ready to start"
@@ -140,6 +167,22 @@ msgstr "Відмовлено"
 msgid "Error"
 msgstr "Помилка"
 
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:23
+msgid "Onboarding Missing"
+msgstr "Вступний іспит не пройдено"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:24
+msgid "Onboarding Pending"
+msgstr "Очікуємо на результати вступного іспиту"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:25
+msgid "Onboarding Failed"
+msgstr "Вступний іспит пройдено невдало"
+
+#: static/proctoring/js/views/proctored_exam_attempt_view.js:26
+msgid "Onboarding Expired"
+msgstr "Термін вступного іспиту сплив"
+
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:179
 msgid "Practice"
 msgstr "Практика"
@@ -167,23 +210,90 @@ msgstr ""
 msgid "Not Started"
 msgstr "Не розпочато"
 
+#: static/proctoring/js/views/proctored_exam_info.js:14
+msgid "You have not started your onboarding exam."
+msgstr "Ви не розпочали свій вступний іспит."
+
+#: static/proctoring/js/views/proctored_exam_info.js:18
+msgid "You have started your onboarding exam."
+msgstr "Ви розпочали вступний іспит."
+
+#: static/proctoring/js/views/proctored_exam_info.js:22
+msgid "You have submitted your onboarding exam."
+msgstr "Ви надіслали свій вступний іспит."
+
+#: static/proctoring/js/views/proctored_exam_info.js:35
+msgid "Your onboarding exam has been approved in this course."
+msgstr "Ваш вступний іспит на цьому курсі схвалено."
+
+#: static/proctoring/js/views/proctored_exam_info.js:39
+msgid "Your onboarding exam has been rejected. Please retry onboarding."
+msgstr "Ваш вступний іспит відхилено. Будь ласка, повторіть спробу."
+
+#: static/proctoring/js/views/proctored_exam_info.js:43
+msgid ""
+"An error has occurred during your onboarding exam. Please retry onboarding."
+msgstr ""
+"Під час вашого вступного іспиту сталася помилка. Будь ласка, повторіть "
+"спробу."
+
 #: static/proctoring/js/views/proctored_exam_info.js:46
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:32
 msgid "Approved in Another Course"
 msgstr "Затверджено в іншому курсі"
 
+#: static/proctoring/js/views/proctored_exam_info.js:47
+msgid "Your onboarding exam has been approved in another course."
+msgstr "Ваш вступний іспит затверджено в іншому курсі."
+
+#: static/proctoring/js/views/proctored_exam_info.js:49
+msgid ""
+"If your device has changed, we recommend that you complete this course's "
+"onboarding exam in order to ensure that your setup still meets the "
+"requirements for proctoring."
+msgstr ""
+"Якщо ваш пристрій змінився, ми рекомендуємо вам пройти вступний іспит цього "
+"курсу, щоб переконатися, що ваше налаштування все ще відповідає вимогам для "
+"прокторінгу."
+
 #: static/proctoring/js/views/proctored_exam_info.js:55
 msgid "Expiring Soon"
 msgstr "Скоро закінчується"
+
+#: static/proctoring/js/views/proctored_exam_info.js:57
+msgid ""
+"Your onboarding profile has been approved. However, your onboarding status "
+"is expiring soon. Please complete onboarding again to ensure that you will "
+"be able to continue taking proctored exams."
+msgstr ""
+"Ваш онбордінг-профіль було схвалено. Однак, ваш онбордінг-статус незабаром "
+"закінчується. Будь ласка, пройдіть онбордінг ще раз, щоб переконатися, що ви"
+" зможете продовжити складати контрольовані іспити."
 
 #: static/proctoring/js/views/proctored_exam_info.js:64
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:38
 msgid "Expired"
 msgstr "Термін дії минув"
 
+#: static/proctoring/js/views/proctored_exam_info.js:66
+msgid ""
+"Your onboarding status has expired. Please complete onboarding again to "
+"continue taking proctored exams."
+msgstr ""
+"Ваш статус онбордінгу закінчився. Будь ласка, пройдіть реєстрацію ще раз, "
+"щоб продовжити складати контрольовані іспити."
+
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:30
 msgid "Setup Started"
 msgstr "Налаштування розпочато"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:31
+msgid "Onboarding Started"
+msgstr "Розпочато адаптацію"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:40
+msgid "Onboarding Reset Failed Due to Past Due Exam"
+msgstr "Помилка скидання початкових налаштувань через прострочений іспит"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:42
 msgid "Audit"
@@ -196,6 +306,22 @@ msgstr "Почесний"
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:44
 msgid "Professional"
 msgstr "Професійний"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:45
+msgid "No ID Professional"
+msgstr "Немає ID Professional"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:46
+msgid "Credit"
+msgstr "Залік"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:47
+msgid "Master's"
+msgstr "Магістр"
+
+#: static/proctoring/js/views/proctored_exam_onboarding_view.js:48
+msgid "Executive Education"
+msgstr "Виконавча освіта"
 
 #: static/proctoring/js/views/proctored_exam_view.js:153
 msgid ""
