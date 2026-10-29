@@ -78,4 +78,4 @@ msgstr "Це назва вашого університету."
 
 #: models.py:24
 msgid "Display Name:"
-msgstr "Відображуване ім'я:"
+msgstr "Відображувана назва:"

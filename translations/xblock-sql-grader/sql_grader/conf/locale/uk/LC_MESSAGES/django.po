@@ -167,11 +167,11 @@ msgstr "Очікуваний результат запиту:"
 
 #: mixins/grading.py:91
 msgid "This assigns an integer value representing the weight of this problem"
-msgstr "Це присвоює ціле число, що представляє вагу цієї проблеми"
+msgstr "Це присвоює ціле число, що представляє вагу цього завдання"
 
 #: mixins/grading.py:171
 msgid "The display name for this component."
-msgstr "Відображена назва для цього компоненту. "
+msgstr "Відображена назва для цього компонента."
 
 #: mixins/grading.py:177
 msgid "Which initial dataset/database to be used for queries"
