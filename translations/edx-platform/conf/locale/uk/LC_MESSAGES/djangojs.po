@@ -1750,7 +1750,7 @@ msgid ""
 "If you remove this transcript, the transcript will not be available for this"
 " component."
 msgstr ""
-"Якщо ви видалите цю копію, то вона більше не буде доступна для цього "
+"Якщо ви видалите цей транскрипт, він більше не буде доступний для цього "
 "компонента."
 
 #: cms/static/js/views/video/translations_editor.js:174
@@ -1909,8 +1909,8 @@ msgid ""
 "If you remove this transcript, the transcript will not be available for any "
 "components that use this video."
 msgstr ""
-"Якщо ви видалите цей транскрипт, запис не буде доступним для будь-яких "
-"компонентів, які використовують це відео."
+"Якщо ви видалите цей транскрипт, він більше не буде доступний для жодного "
+"компонента, що використовує це відео."
 
 #: cms/static/js/views/xblock_editor.js:49
 msgid "Editor"
