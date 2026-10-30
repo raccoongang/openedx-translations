@@ -27,7 +27,7 @@ msgstr "Що ви з цього навчилися? Чого не вистача
 
 #: feedback.py:29
 msgid "How would you rate this as a learning experience?"
-msgstr "Як би ви оцінили це як навчальний досвід?"
+msgstr "Як би ви оцінили цей досвід навчання?"
 
 #: feedback.py:31
 msgid ""
@@ -97,7 +97,7 @@ msgstr "Назва, що відображається"
 
 #: feedback.py:111
 msgid "Provide Feedback"
-msgstr "Забезпечити зворотній звязок"
+msgstr "Надати відгук"
 
 #: feedback.py:116 templates/html/studio_view.html:17
 msgid "Voting message"
@@ -109,7 +109,7 @@ msgstr "Дякуємо за голосування!"
 
 #: feedback.py:122 templates/html/studio_view.html:25
 msgid "Feedback message"
-msgstr "Повідомлення зворотного зв&#39;язку"
+msgstr "Повідомлення відгуку"
 
 #: feedback.py:123
 msgid "Thank you for your feedback!"
@@ -117,7 +117,7 @@ msgstr "Спасибі за ваш відгук!"
 
 #: feedback.py:128
 msgid "Show aggregate to students"
-msgstr "Показати сукупність учням"
+msgstr "Показувати зведені дані учням"
 
 #: feedback.py:158
 msgid "Please reflect on this course material"
@@ -157,7 +157,7 @@ msgstr "Середня оцінка"
 
 #: static/html/feedback_instructor.html:19
 msgid "Feedback "
-msgstr "Зворотній зв&#39;язок "
+msgstr "Відгук "
 
 #: static/html/feedback_instructor.html:40
 msgid "Comment"
@@ -215,7 +215,7 @@ msgstr "Правильно"
 
 #: templates/html/studio_view.html:39
 msgid "Whether to show the aggregate report to students."
-msgstr "Чи показувати зведений звіт студентам."
+msgstr "Чи показувати зведений звіт учням."
 
 #: templates/html/studio_view.html:44
 msgid "Freeform prompt"
@@ -227,7 +227,7 @@ msgstr "Приклад: надайте нам відгук про цей роз�
 
 #: templates/html/studio_view.html:52
 msgid "Freeform placeholder"
-msgstr "Заповнювач довільної форми"
+msgstr "Текст-підказка довільної форми"
 
 #: templates/html/studio_view.html:55
 msgid "This is shown as grayed out text before the student has answered."
@@ -243,7 +243,7 @@ msgstr "Обличчя (від радісних до сумних)"
 
 #: templates/html/studio_view.html:63
 msgid "Faces (sad to happy)"
-msgstr "Обличчя (від сумного до щасливого)"
+msgstr "Обличчя (від сумних до радісних)"
 
 #: templates/html/studio_view.html:64
 msgid "Numeric"

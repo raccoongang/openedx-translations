@@ -93,12 +93,12 @@ msgstr "Додати виняток політики"
 #: static/proctoring/js/views/proctored_exam_add_bulk_allowance_view.js:276
 #: static/proctoring/js/views/proctored_exam_edit_allowance_view.js:118
 msgid "Required field"
-msgstr "Обов&#39;язкове поле"
+msgstr "Обов'язкове поле"
 
 #: static/proctoring/js/views/proctored_exam_allowance_view.js:12
 #: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:81
 msgid "Additional Time (minutes)"
-msgstr "Додатковий час (хв.)"
+msgstr "Додатковий час (хвилини)"
 
 #: static/proctoring/js/views/proctored_exam_allowance_view.js:14
 #: static/proctoring/spec/proctored_exam_add_bulk_allowance_spec.js:83
@@ -125,7 +125,7 @@ msgstr "Готовий почати"
 #: static/proctoring/js/views/proctored_exam_info.js:17
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:33
 msgid "Started"
-msgstr "Розпочався"
+msgstr "Розпочато"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:15
 msgid "Ready to submit"
@@ -133,27 +133,27 @@ msgstr "Готовий до подачі"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:16
 msgid "Declined"
-msgstr "Відхилений"
+msgstr "Відхилено"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:17
 msgid "Timed out"
-msgstr "Тайм-аут"
+msgstr "Час вийшов"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:18
 msgid "Second Review Required"
-msgstr "Другий огляд обов'язковий"
+msgstr "Друга перевірка обов'язкова"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:19
 #: static/proctoring/js/views/proctored_exam_info.js:21
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:34
 msgid "Submitted"
-msgstr "Надіслано"
+msgstr "Подано"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:20
 #: static/proctoring/js/views/proctored_exam_info.js:34
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:35
 msgid "Verified"
-msgstr "Перевірений"
+msgstr "Перевірено"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:21
 #: static/proctoring/js/views/proctored_exam_info.js:38
@@ -193,15 +193,15 @@ msgstr "Контрольований"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:181
 msgid "Timed"
-msgstr "Тимчасовий"
+msgstr "З обмеженням по часу"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:214
 msgid "Are you sure you want to remove this student's exam attempt?"
-msgstr "Ви впевнені, що хочете видалити спробу іспиту цього студента?"
+msgstr "Ви впевнені, що хочете видалити спробу складання іспиту цього учня?"
 
 #: static/proctoring/js/views/proctored_exam_attempt_view.js:248
 msgid "Are you sure you want to resume this student's exam attempt?"
-msgstr "Ви впевнені, що бажаєте відновити спробу іспиту цього студента?"
+msgstr "Ви впевнені, що бажаєте відновити спробу іспиту цього учня?"
 
 #: static/proctoring/js/views/proctored_exam_info.js:13
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:29
@@ -238,7 +238,7 @@ msgstr ""
 #: static/proctoring/js/views/proctored_exam_info.js:46
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:32
 msgid "Approved in Another Course"
-msgstr "Схвалено на іншому курсі"
+msgstr "Затверджено в іншому курсі"
 
 #: static/proctoring/js/views/proctored_exam_info.js:47
 msgid "Your onboarding exam has been approved in another course."
@@ -256,7 +256,7 @@ msgstr ""
 
 #: static/proctoring/js/views/proctored_exam_info.js:55
 msgid "Expiring Soon"
-msgstr "Термін дії скоро закінчується"
+msgstr "Скоро закінчується"
 
 #: static/proctoring/js/views/proctored_exam_info.js:57
 msgid ""
@@ -299,7 +299,7 @@ msgstr "Безкоштовне прослуховування"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:43
 msgid "Honor"
-msgstr "Честь"
+msgstr "Почесний"
 
 #: static/proctoring/js/views/proctored_exam_onboarding_view.js:44
 msgid "Professional"

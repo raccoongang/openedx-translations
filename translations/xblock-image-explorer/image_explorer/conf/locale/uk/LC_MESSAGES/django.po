@@ -57,3 +57,39 @@ msgstr "Зберегти"
 #: templates/html/image_explorer_edit.html:40
 msgid "Cancel"
 msgstr "Скасувати"
+
+#: image_explorer.py:62
+msgid "Image Explorer"
+msgstr "Оглядач зображень"
+
+#: image_explorer.py:66
+msgid "Hot Spots Coordinates Centered"
+msgstr "Координати інтерактивних ділянок вказують на центр"
+
+#: image_explorer.py:72
+msgid "Store hotspots opened by student, for completion"
+msgstr "Зберігати відкриті учнем інтерактивні ділянки для запису проходження"
+
+#: templates/html/image_explorer_edit.html:11
+msgid "The title of the Image Explorer that is displayed to the user"
+msgstr "Назва оглядача зображень, яка відображається користувачеві"
+
+#: templates/html/image_explorer_edit.html:17
+msgid "Hotspot coordinates centered"
+msgstr "Координати інтерактивної ділянки вказують на центр"
+
+#: templates/html/image_explorer_edit.html:19
+msgid ""
+"If set to true, hotspot coordinates interpreted to point to the center of "
+"the hotspot"
+msgstr ""
+"Якщо встановлено значення True, вважається, що координати інтерактивної "
+"ділянки вказують на її центр"
+
+#: templates/html/image_explorer_edit.html:19
+msgid ""
+"If set to false, assumed to point to the top left corner of the hotspot "
+"image"
+msgstr ""
+"Якщо встановлено значення False, вважається, що вони вказують на верхній "
+"лівий кут зображення інтерактивної ділянки"

@@ -75,3 +75,7 @@ msgstr "Ваш університет:"
 #: models.py:70
 msgid "This is the name of your university."
 msgstr "Це назва вашого університету."
+
+#: models.py:24
+msgid "Display Name:"
+msgstr "Відображувана назва:"

@@ -723,8 +723,8 @@ msgid ""
 "Information about current positions of items that a learner has dropped on "
 "the target image."
 msgstr ""
-"Інформація про поточне розташування елементів, які учень розмістив на "
-"цільовому зображенні."
+"Інформація про поточне розташування елементів, розміщених учнем / ученицею "
+"на цільовому зображенні."
 
 #: drag_and_drop_v2.py:237
 msgid ""

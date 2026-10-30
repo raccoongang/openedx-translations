@@ -172,3 +172,52 @@ msgstr[3] "Ваша відповідь має бути від {min} до {max} �
 #, python-brace-format
 msgid "Invalid Word Count. {word_count_message}"
 msgstr "Недійсна кількість слів. {word_count_message}"
+
+#: models.py:71
+msgid "Full-Credit Key Phrases"
+msgstr "Ключові фрази з повним кредитом"
+
+#: models.py:81
+msgid "Half-Credit Key Phrases"
+msgstr "Ключові фрази з половиною кредиту"
+
+#: models.py:93
+msgid ""
+"This is the maximum number of times a student is allowed to attempt the "
+"problem"
+msgstr ""
+"Це максимальна кількість разів, за які учень може спробувати вирішити задачу"
+
+#: models.py:131
+msgid "Submission Received Message"
+msgstr "Повідомлення про отримання"
+
+#: models.py:142
+msgid "This assigns an integer value representing the weight of this problem"
+msgstr "Це присвоює ціле число, що представляє вагу цієї проблеми"
+
+#: templates/view.html:36
+msgid "peer responses"
+msgstr "відповіді однокласників"
+
+#: templates/view.html:38
+msgid "Submissions by others"
+msgstr "Відповіді інших"
+
+#: views.py:126
+#, python-brace-format
+msgid "{weight} point possible"
+msgid_plural "{weight} points possible"
+msgstr[0] "Можлива кількість балів: {weight}"
+msgstr[1] "Можлива кількість балів: {weight}"
+msgstr[2] "Можлива кількість балів: {weight}"
+msgstr[3] "Можлива кількість балів: {weight}"
+
+#: views.py:147
+#, python-brace-format
+msgid "You have used {count_attempts} of {max_attempts} submission"
+msgid_plural "You have used {count_attempts} of {max_attempts} submissions"
+msgstr[0] "Використано спроб подання: {count_attempts} з {max_attempts}"
+msgstr[1] "Використано спроб подання: {count_attempts} з {max_attempts}"
+msgstr[2] "Використано спроб подання: {count_attempts} з {max_attempts}"
+msgstr[3] "Використано спроб подання: {count_attempts} з {max_attempts}"

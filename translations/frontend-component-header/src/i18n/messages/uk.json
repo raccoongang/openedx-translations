@@ -49,5 +49,6 @@
   "header.cookie.banner.aria.label.text": "Повідомлення про використання файлів cookie на {siteName}.",
   "header.cookie.banner.privacy.policy.text": "edX та його учасники використовують файли cookie й інші технології відстеження для забезпечення роботи сайту, аналітики та маркетингу. Користуючись цим вебсайтом, ви погоджуєтеся на таке використання. Докладніше про ці технології — у {privacyPolicyLink}.",
   "header.cookie.banner.privacy.policy.link.text": "Політиці конфіденційності",
-  "help.bot.link": "Бот-помічник RG"
+  "help.bot.link": "Бот-помічник RG",
+  "header.menu.aria-label": "Параметри користувача"
 }

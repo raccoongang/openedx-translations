@@ -338,7 +338,7 @@ msgstr "Натисніть, щоб переглянути ресурси для 
 
 msgid "Click to view resources in ordinary decreasing-vote order"
 msgstr ""
-"Натисніть, щоб переглянути ресурси у звичайному порядку спадання голосів"
+"Натисніть, щоб переглянути ресурси у звичайному порядку зниження рейтингу"
 
 msgid "Here is a list of reasons why students think this resource problematic:"
 msgstr "Ось список причин, чому учні вважають цей ресурс проблемним:"
@@ -382,15 +382,15 @@ msgid ""
 "Suggest a resource which can help other students with this problem. Please "
 "do not give the answer directly."
 msgstr ""
-"Запропонуйте ресурс, який може допомогти іншим учням із цим завданням. Будь "
-"ласка, не давайте відповідь напряму."
+"Запропонуйте ресурс, який може допомогти іншим учням із цим завданням. Не "
+"надавайте відповідь напряму."
 
 msgid ""
 "Edit the resource and make it more helpful for other students with this "
 "problem. Please do not give the answer directly."
 msgstr ""
 "Відредагуйте ресурс, щоб він став кориснішим для інших учнів із цим "
-"завданням. Будь ласка, не давайте відповідь напряму."
+"завданням. Не надавайте відповідь напряму."
 
 msgid ""
 "Why would you like to flag this resource? The staff will review all flagged "
@@ -411,7 +411,7 @@ msgid "Hide related resources"
 msgstr "Сховати пов'язані ресурси"
 
 msgid "From page {fromPage} To page {toPage}"
-msgstr "Зі сторінки {fromPage} до сторінки {toPage}"
+msgstr "Від сторінки {fromPage} до сторінки {toPage}"
 
 msgid "Export resources"
 msgstr "Експортувати ресурси"
@@ -453,4 +453,4 @@ msgid "A resource was clicked"
 msgstr "Натиснуто на ресурс"
 
 msgid "Back to resource list mode"
-msgstr "Повернення до режиму списку ресурсів"
+msgstr "Назад до режиму списку ресурсів"
