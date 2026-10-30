@@ -7968,7 +7968,7 @@ msgstr "Назва підручника"
 
 #: cms/templates/js/edit-textbook.underscore:13
 msgid "Introduction to Cookie Baking"
-msgstr "Вступ до випікання печива"
+msgstr "Основи випікання печива"
 
 #: cms/templates/js/edit-textbook.underscore:14
 msgid ""

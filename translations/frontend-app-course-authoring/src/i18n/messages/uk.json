@@ -1963,7 +1963,7 @@
   "course-authoring.textbooks.header.breadcrumb.aria-label": "Навігаційний ланцюжок підручника",
   "course-authoring.textbooks.header.new-textbook": "Новий підручник",
   "course-authoring.textbooks.form.tab-title.label": "Назва підручника",
-  "course-authoring.textbooks.form.tab-title.placeholder": "Вступ до випікання печива",
+  "course-authoring.textbooks.form.tab-title.placeholder": "Основи випікання печива",
   "course-authoring.textbooks.form.tab-title.helper-text": "вкажіть назву підручника так, як вона має відображатися для учнів",
   "course-authoring.textbooks.form.tab-title.validation-text": "Назва підручника обов'язкова",
   "course-authoring.textbooks.form.chapter.title.label": "Назва розділу",
