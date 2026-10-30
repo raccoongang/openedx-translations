@@ -4736,7 +4736,7 @@ msgstr ""
 
 #: lms/djangoapps/courseware/views/views.py:243
 msgid "Your certificate will be available after the indicated date"
-msgstr "Ваш сертифікуваті буде доступний після зазначеної дати"
+msgstr "Ваш сертифікат буде доступний після зазначеної дати"
 
 #: lms/djangoapps/courseware/views/views.py:254
 msgid "Your certificate is available"
