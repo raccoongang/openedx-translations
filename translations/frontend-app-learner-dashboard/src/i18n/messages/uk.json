@@ -128,7 +128,7 @@
   "learner-dash.courseCard.CourseCardDetails.unknownProviderName": "Невідомий",
   "learner-dash.courseCard.CourseCardDetails.changeOrLeaveSessionButton": "Змінити або залишити сеанс",
   "learner-dash.courseCardMenu.unenroll": "Відписатися від курсу",
-  "learner-dash.courseCardMenu.dropdownAlt": "Випадаюче меню дій курсу",
+  "learner-dash.courseCardMenu.dropdownAlt": "Розкривне меню дій курсу",
   "learner-dash.courseCardMenu.emailSettings": "Налаштування електронної пошти",
   "learner-dash.courseCardMenu.shareToFacebook": "Поділитися на Facebook",
   "learner-dash.courseCardMenu.shareToTwitter": "Поділитися в Twitter",

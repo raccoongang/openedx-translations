@@ -27996,7 +27996,7 @@ msgstr "Scorm"
 
 #. Display name of the "inline-text-and-dropdown" XBlock type
 msgid "Inline Text and Dropdown"
-msgstr "Вбудований текст і випадаюче меню"
+msgstr "Вбудований текст і розкривне меню"
 
 #. Display name of the "library_content" XBlock type
 msgid "Randomized Content Block"
