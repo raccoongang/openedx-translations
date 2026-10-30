@@ -741,12 +741,12 @@ msgstr ""
 
 #: cms/djangoapps/contentstore/views/certificate_manager.py:115
 msgid "must have name of the certificate"
-msgstr "повинна бути вказана назва сертифікату"
+msgstr "повинна бути вказана назва сертифіката"
 
 #: cms/djangoapps/contentstore/views/certificate_manager.py:200
 #, python-brace-format
 msgid "Certificate dict {0} missing value key '{1}'"
-msgstr "У словнику для сертифікату {0} відсутнє значення з ключем '{1}'."
+msgstr "У словнику для сертифіката {0} відсутнє значення з ключем '{1}'."
 
 #: cms/djangoapps/contentstore/views/certificates.py:148
 #, python-brace-format
@@ -3517,7 +3517,7 @@ msgid ""
 "A human-readable description of the example certificate.  For example, "
 "'verified' or 'honor' to differentiate between two types of certificates."
 msgstr ""
-" Читабельний опис прикладу сертифікату. Наприклад, «Підтверджений "
+" Читабельний опис прикладу сертифіката. Наприклад, «Підтверджений "
 "сертифікат» або «Сертифікат Кодексу честі», щоб показати різницю між двома "
 "типами сертифікатів."
 
@@ -3527,8 +3527,8 @@ msgid ""
 "receive a response from the queue to determine which example certificate was"
 " processed."
 msgstr ""
-"Унікальний ідентифікатор для прикладу сертифікату. Він використовується для "
-"того, щоб визначити який приклад сертифікату був оброблений."
+"Унікальний ідентифікатор для прикладу сертифіката. Він використовується для "
+"того, щоб визначити який приклад сертифіката був оброблений."
 
 #: lms/djangoapps/certificates/models.py:858
 msgid ""
@@ -3538,7 +3538,7 @@ msgid ""
 msgstr ""
 "Ключ доступу для прикладу сертифіката. Він використовується для того, щоб "
 "перевірити, що відправник є тією сабою особою, яка запросила створення "
-"сертифікату."
+"сертифіката."
 
 #: lms/djangoapps/certificates/models.py:868
 msgid "The full name that will appear on the certificate."
@@ -3546,19 +3546,19 @@ msgstr "Це ім'я буде використано на вашому серт�
 
 #: lms/djangoapps/certificates/models.py:873
 msgid "The template file to use when generating the certificate."
-msgstr "Файл шаблону, який буде використаний для створення сертифікату."
+msgstr "Файл шаблону, який буде використаний для створення сертифіката."
 
 #: lms/djangoapps/certificates/models.py:885
 msgid "The status of the example certificate."
-msgstr "Статус, який позначає, що це приклад сертифікату."
+msgstr "Статус, який позначає, що це приклад сертифіката."
 
 #: lms/djangoapps/certificates/models.py:891
 msgid "The reason an error occurred during certificate generation."
-msgstr "Причина помилки, що сталася під час випуску сертифікату."
+msgstr "Причина помилки, що сталася під час випуску сертифіката."
 
 #: lms/djangoapps/certificates/models.py:898
 msgid "The download URL for the generated certificate."
-msgstr "Посилання для завантаження згенерованого сертифікату."
+msgstr "Посилання для завантаження згенерованого сертифіката."
 
 #: lms/djangoapps/certificates/models.py:1137
 msgid "Name of template."
@@ -3762,7 +3762,7 @@ msgstr "Недійсний сертифікат"
 #. the purpose of the page
 #: lms/djangoapps/certificates/views/webview.py:193
 msgid "Certificate Validation"
-msgstr "Перевірка сертифікату"
+msgstr "Перевірка сертифіката"
 
 #. Translators: Accomplishments describe the awards/certifications obtained by
 #. students on this platform
@@ -3781,7 +3781,7 @@ msgstr "Виданий:"
 #. each individual certificate
 #: lms/djangoapps/certificates/views/webview.py:204
 msgid "Certificate ID Number"
-msgstr "Ідентифікаційний номер сертифікату"
+msgstr "Ідентифікаційний номер сертифіката"
 
 #: lms/djangoapps/certificates/views/webview.py:206
 #: lms/templates/certificates/invalid.html:15
@@ -4412,7 +4412,7 @@ msgid ""
 msgstr ""
 "Після цієї дати курс буде заархівовано, тобто ви зможете переглядати його "
 "матеріали, але не зможете брати участь у оцінюваних завданнях або "
-"претендувати на отримання сертифікату."
+"претендувати на отримання сертифіката."
 
 #: lms/djangoapps/courseware/date_summary.py:302
 msgid ""
@@ -4514,7 +4514,7 @@ msgid ""
 "You must successfully complete verification before this date to qualify for "
 "a Verified Certificate."
 msgstr ""
-"Для отримання підтвердженого сертифікату вам необхідно пройти підтвердження "
+"Для отримання підтвердженого сертифіката вам необхідно пройти підтвердження "
 "особи до зазначеної дати."
 
 #: lms/djangoapps/courseware/masquerade.py:188
@@ -4815,8 +4815,7 @@ msgstr "Користувач {username} не переглядав завданн
 #: lms/djangoapps/courseware/views/views.py:1457
 #, python-brace-format
 msgid "You must be signed in to {platform_name} to create a certificate."
-msgstr ""
-"Для створення сертифікату ви повинні увійти в систему {platform_name}."
+msgstr "Для створення сертифіката ви повинні увійти в систему {platform_name}."
 
 #: lms/djangoapps/courseware/views/views.py:1467
 msgid "Course is not valid"
@@ -4824,7 +4823,7 @@ msgstr "Курс не дійсний"
 
 #: lms/djangoapps/courseware/views/views.py:1483
 msgid "Your certificate will be available when you pass the course."
-msgstr "Ви отримаєте доступ до свого сертифікату, коли успішно пройдете курс."
+msgstr "Ви отримаєте доступ до свого сертифіката, коли успішно пройдете курс."
 
 #: lms/djangoapps/courseware/views/views.py:1496
 msgid "Certificate has already been created."
@@ -4832,7 +4831,7 @@ msgstr "Сертифікат вже створений"
 
 #: lms/djangoapps/courseware/views/views.py:1498
 msgid "Certificate is being created."
-msgstr "Створення сертифікату."
+msgstr "Створення сертифіката."
 
 #: lms/djangoapps/courseware/views/views.py:2050
 msgid ""
@@ -5265,7 +5264,7 @@ msgstr "ID курса"
 
 #: lms/djangoapps/instructor/views/api.py:1427
 msgid "Certificate Type"
-msgstr "Тип сертифікату"
+msgstr "Тип сертифіката"
 
 #: lms/djangoapps/instructor/views/api.py:1428
 msgid "Total Certificates Issued"
@@ -5791,7 +5790,7 @@ msgid ""
 "Kindly verify student username/email and the selected course are correct and"
 " try again."
 msgstr ""
-"{student} не має сертифікату за курс {course}. Будь ласка, переконайтесь у "
+"{student} не має сертифіката за курс {course}. Будь ласка, переконайтесь у "
 "правильності ім'я користувача/адресі електронної пошти та обраного курсу, "
 "потім повторіть спробу."
 
@@ -12792,8 +12791,8 @@ msgid ""
 "This field, together with certificate_available_date will determine when a "
 "user can see their certificate for the course"
 msgstr ""
-"Це поле, разом з датою доступністю сертифікату (certificate_available_date),"
-" буде визначати, коли користувач зможе побачити свій сертифікат щодо "
+"Це поле, разом з датою доступністю сертифіката (certificate_available_date), "
+"буде визначати, коли користувач зможе побачити свій сертифікат щодо "
 "проходження курсу."
 
 #: xmodule/course_block.py:595
@@ -12842,12 +12841,12 @@ msgid ""
 " when they complete the course. For instance, \"Certificate\"."
 msgstr ""
 "Використовуйте цю опцію тільки для створення сертифікатів у форматі Pdf. В "
-"лапках введіть коротку назву типу сертифікату, який отримають студенти, коли"
-" закінчать курс. Наприклад: \"Сертифікат\"."
+"лапках введіть коротку назву типу сертифіката, який отримають студенти, коли "
+"закінчать курс. Наприклад: \"Сертифікат\"."
 
 #: xmodule/course_block.py:632
 msgid "Certificate Name (Short)"
-msgstr "Назва сертифікату (Коротка)"
+msgstr "Назва сертифіката (Коротка)"
 
 #: xmodule/course_block.py:638
 msgid ""
@@ -12856,16 +12855,16 @@ msgid ""
 "when they complete the course. For instance, \"Certificate of Achievement\"."
 msgstr ""
 "Використовуйте цю опцію тільки для створення сертифікатів у форматі Pdf. В "
-"лапках введіть довгу назву типу сертифікату, який отримають студенти, коли "
+"лапках введіть довгу назву типу сертифіката, який отримають студенти, коли "
 "закінчать курс. Наприклад: \"Сертифікат про успішне завершення\"."
 
 #: xmodule/course_block.py:642
 msgid "Certificate Name (Long)"
-msgstr "Назва сертифікату (Повна)"
+msgstr "Назва сертифіката (Повна)"
 
 #: xmodule/course_block.py:647
 msgid "Certificate Web/HTML View Enabled"
-msgstr "Перегляд сертифікату Web / HTML дозволено"
+msgstr "Перегляд сертифіката Web / HTML дозволено"
 
 #: xmodule/course_block.py:648
 msgid "If true, certificate Web/HTML views are enabled for the course."
@@ -12875,7 +12874,7 @@ msgstr "Якщо true, переглядати сертифікати Web / HTML 
 #. configuration values
 #: xmodule/course_block.py:655
 msgid "Certificate Web/HTML View Overrides"
-msgstr "Перегляд сертифікату Web / HTML відхилено"
+msgstr "Перегляд сертифіката Web / HTML відхилено"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
@@ -12891,7 +12890,7 @@ msgstr ""
 #. configuration values
 #: xmodule/course_block.py:664
 msgid "Certificate Configuration"
-msgstr "Налаштування сертифікату"
+msgstr "Налаштування сертифіката"
 
 #. Translators: These overrides allow for an alternative configuration of the
 #. certificate web view
@@ -16323,8 +16322,8 @@ msgid ""
 "To view a sample certificate, choose a course mode and select "
 "{em_start}Preview Certificate{em_end}."
 msgstr ""
-"Для перегляду зразка сертифікату оберіть вид курсу та виберіть "
-"{em_start}Попередній перегляд сертифікату{em_end}."
+"Для перегляду зразка сертифіката оберіть вид курсу та виберіть "
+"{em_start}Попередній перегляд сертифіката{em_end}."
 
 #: cms/templates/certificates.html:97
 msgid "Issuing Certificates to Learners"
@@ -19025,7 +19024,7 @@ msgid ""
 "of the course has elapsed."
 msgstr ""
 "Слухачі, що отримали прохідний бал можуть отримати доступ до свого "
-"сертифікату щойно настане термін закінчення курсу."
+"сертифіката щойно настане термін закінчення курсу."
 
 #: cms/templates/settings.html:285
 msgid ""
@@ -19033,7 +19032,7 @@ msgid ""
 "that you set has elapsed."
 msgstr ""
 "Слухачі, що отримали прохідний бал можуть отримати доступ до свого "
-"сертифікату у встановлений вами термін."
+"сертифіката у встановлений вами термін."
 
 #: cms/templates/settings.html:292
 msgid "Certificates Available Date"
@@ -19076,7 +19075,7 @@ msgstr "Дата завершення оновлення"
 
 #: cms/templates/settings.html:347
 msgid "Last day students can upgrade to a verified enrollment."
-msgstr "Останній можливий день для перевірки даних і отримання сертифікату."
+msgstr "Останній можливий день для перевірки даних і отримання сертифіката."
 
 #: cms/templates/settings.html:353
 msgid "Upgrade Deadline Time"
@@ -22852,7 +22851,7 @@ msgstr ""
 
 #: lms/templates/certificates/server-error.html:5
 msgid "Invalid Certificate Configuration."
-msgstr "Невірне налаштування сертифікату"
+msgstr "Невірне налаштування сертифіката"
 
 #: lms/templates/certificates/server-error.html:9
 msgid "There is a problem with this certificate."
@@ -23660,7 +23659,7 @@ msgstr "Ваш {cert_name_short} в процесі обробки"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:103
 msgid "This link will open the certificate web view"
-msgstr "За цим посиланням відкриється веб-версія сертифікату"
+msgstr "За цим посиланням відкриється веб-версія сертифіката"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html:104
 #, python-brace-format
@@ -24637,8 +24636,8 @@ msgid ""
 "financial circumstances a chance to earn a Verified Certificate upon "
 "successful completion of an edX course."
 msgstr ""
-"Фінансова допомога EdX — це програма, створена для того, щоб дати можливість"
-" отримання Підтвердженого сертифікату про успішне проходження курсів EdX "
+"Фінансова допомога EdX — це програма, створена для того, щоб дати можливість "
+"отримання Підтвердженого сертифіката про успішне проходження курсів EdX "
 "будь-якому слухачеві, незалежно від його фінансового стану."
 
 #. Translators: This string will not be used in Open edX installations.
@@ -24648,7 +24647,7 @@ msgid ""
 "afford to pay the fee, please apply now. Please note that financial "
 "assistance is limited and may not be awarded to all eligible candidates."
 msgstr ""
-"Якщо ви зацікавлені в отриманні Підтвердженого сертифікату, але не маєте "
+"Якщо ви зацікавлені в отриманні Підтвердженого сертифіката, але не маєте "
 "можливості його сплатити, будь ласка, подайте заявку прямо зараз. Зверніть "
 "увагу на те, що фінансова допомога обмежена і може бути видана тільки "
 "відповідним кандидатам."
@@ -24772,7 +24771,7 @@ msgstr "Додати Термін дії "
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:21
 msgid "Example Certificates"
-msgstr "Приклад сертифікату"
+msgstr "Приклад сертифіката"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:25
 msgid ""
@@ -24780,12 +24779,12 @@ msgid ""
 "type is no longer supported. Example certificates cannot be generated."
 msgstr ""
 "Цей курс налаштовано на видачу сертифікатів у PDF форматі, а такий тип "
-"сертифікатів більше не підтримується. Тому зразок сертифікату неможливо "
+"сертифікатів більше не підтримується. Тому зразок сертифіката неможливо "
 "згенерувати."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:32
 msgid "Generate Example Certificates"
-msgstr "Створити зразок сертифікату"
+msgstr "Створити зразок сертифіката"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:38
 msgid "Status:"
@@ -24799,7 +24798,7 @@ msgstr "Створюється сертифікат {name} для приклад
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:44
 #, python-brace-format
 msgid "Error generating example {name} certificate: {error}"
-msgstr "Помилка при створенні зразка {name} сертифікату: {error}"
+msgstr "Помилка при створенні зразка {name} сертифіката: {error}"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:46
 #, python-brace-format
@@ -24828,7 +24827,7 @@ msgid ""
 "You must successfully generate example certificates before you enable "
 "student-generated certificates."
 msgstr ""
-"Ви повинні створити зразок сертифікату, перш ніж дозволити слухачам "
+"Ви повинні створити зразок сертифіката, перш ніж дозволити слухачам "
 "самостійно випускати сертифікати."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:86
@@ -24939,9 +24938,9 @@ msgid ""
 "Certificates below."
 msgstr ""
 "Встановіть винятки у генеруванні сертифікатів для тих, хто не є "
-"кваліфікованим для сертифікату, але отримав виняток від команди курсу. Після"
-" того як ви додасте студентів до списку винятків, натисніть кнопку "
-"\"Створити виняток для сертифікатів\" нижче."
+"кваліфікованим для сертифіката, але отримав виняток від команди курсу. Після "
+"того як ви додасте студентів до списку винятків, натисніть кнопку \"Створити "
+"виняток для сертифікатів\" нижче."
 
 #: lms/templates/instructor/instructor_dashboard_2/certificates.html:209
 msgid "Invalidate Certificates"

@@ -78,7 +78,7 @@ msgstr "Це посилання відкриється в новому мода�
 
 #: cms/static/js/certificates/models/certificate.js:78
 msgid "Certificate name is required."
-msgstr "Необхідно вказати ім'я сертифікату."
+msgstr "Необхідно вказати ім'я сертифіката."
 
 #: cms/static/js/certificates/models/certificate.js:87
 msgid "Signatory field(s) has invalid data."
@@ -119,7 +119,7 @@ msgstr "Налаштувати сертифікат"
 #. has been inserted
 #: cms/static/js/certificates/views/certificates_list.js:22
 msgid "You have not created any certificates yet."
-msgstr "Ви не створили жодного сертифікату."
+msgstr "Ви не створили жодного сертифіката."
 
 #: cms/static/js/certificates/views/signatory_editor.js:134
 msgid "Delete \"<%- signatoryName %>\" from the list of signatories?"
@@ -3263,7 +3263,7 @@ msgid ""
 "Generate Exception Certificate below to send the certificate."
 msgstr ""
 "<%- user %> успішно додано до списку винятків. Натисніть «Створити виняток "
-"для сертифікату» нижче, щоб надіслати сертифікат."
+"для сертифіката» нижче, щоб надіслати сертифікат."
 
 #: lms/static/js/certificates/views/certificate_bulk_allowlist.js:106
 msgid " learners were successfully added to exception list"
@@ -5110,7 +5110,7 @@ msgstr "Професійна освіта"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js:55
 msgid "Verified Certificate upgrade"
-msgstr "Оновлення підтвердженого сертифікату"
+msgstr "Оновлення підтвердженого сертифіката"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js:57
 msgid "Verified Certificate"
@@ -7185,7 +7185,7 @@ msgstr "Ідентифікатор"
 #: cms/templates/js/certificate-details.underscore:18
 #: cms/templates/js/certificate-editor.underscore:23
 msgid "Certificate Details"
-msgstr "Деталі сертифікату"
+msgstr "Деталі сертифіката"
 
 #: cms/templates/js/certificate-details.underscore:23
 #: cms/templates/js/certificate-editor.underscore:26
@@ -7228,17 +7228,17 @@ msgstr "Інформація про сертифікт"
 
 #: cms/templates/js/certificate-editor.underscore:13
 msgid "Certificate Name"
-msgstr "Ім'я сертифікату"
+msgstr "Ім'я сертифіката"
 
 #: cms/templates/js/certificate-editor.underscore:14
 #: cms/templates/js/certificate-editor.underscore:15
 msgid "Name of the certificate"
-msgstr "Ім'я сертифікату"
+msgstr "Ім'я сертифіката"
 
 #: cms/templates/js/certificate-editor.underscore:19
 #: cms/templates/js/certificate-editor.underscore:20
 msgid "Description of the certificate"
-msgstr "Опис сертифікату"
+msgstr "Опис сертифіката"
 
 #: cms/templates/js/certificate-editor.underscore:31
 msgid "Course title"
@@ -7258,7 +7258,7 @@ msgstr "Додати додатковій підпис"
 
 #: cms/templates/js/certificate-editor.underscore:42
 msgid "(Add signatories for a certificate)"
-msgstr "(Додати підписантів для сертифікату)"
+msgstr "(Додати підписантів для сертифіката)"
 
 #: cms/templates/js/certificate-web-preview.underscore:1
 msgid "Choose mode"
@@ -7266,7 +7266,7 @@ msgstr "Обрати режим"
 
 #: cms/templates/js/certificate-web-preview.underscore:8
 msgid "Preview Certificate"
-msgstr "Попередній перегляд сертифікату"
+msgstr "Попередній перегляд сертифіката"
 
 #: cms/templates/js/certificate-web-preview.underscore:13
 msgid "Activate"
@@ -8498,7 +8498,7 @@ msgstr "Зображення підпису"
 
 #: cms/templates/js/signatory-editor.underscore:11
 msgid "Certificate Signatory Configuration"
-msgstr "Налаштування підписувачів сертифікату"
+msgstr "Налаштування підписувачів сертифіката"
 
 #: cms/templates/js/signatory-editor.underscore:13
 msgid "Name "
@@ -8526,7 +8526,7 @@ msgid ""
 "certificate on a single page."
 msgstr ""
 "Заголовки більше 100 символів можуть ускладнити студентам друкування "
-"сертифікату на одній сторінці."
+"сертифіката на одній сторінці."
 
 #: cms/templates/js/signatory-editor.underscore:29
 msgid "Organization "
@@ -10090,7 +10090,7 @@ msgstr "Генерація сертифікатів для винятків"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:3
 msgid "Certificate exceptions group selection"
-msgstr "Вибір групи винятків для сертифікату"
+msgstr "Вибір групи винятків для сертифіката"
 
 #: lms/templates/instructor/instructor_dashboard_2/certificate-allowlist.underscore:6
 msgid "All users on the Exception list who do not yet have a certificate"
@@ -11421,11 +11421,11 @@ msgstr "Перевірений сертифікат для {courseName}"
 #, python-brace-format
 msgid ""
 "To receive a certificate, you must also verify your identity before {date}."
-msgstr "Підтвердіть особу для одержання сертифікату до {date}."
+msgstr "Підтвердіть особу для одержання сертифіката до {date}."
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:85
 msgid "To receive a certificate, you must also verify your identity."
-msgstr "Підтвердіть особу для одержання сертифікату."
+msgstr "Підтвердіть особу для одержання сертифіката."
 
 #: lms/templates/verify_student/make_payment_step_ab_testing.underscore:87
 msgid ""
