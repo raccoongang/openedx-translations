@@ -248,6 +248,7 @@
   "course-authoring.schedule-section.textbook.modal.body-enable": "Після збереження змін дату початку буде встановлено в минулому, а інші дати підручника будуть скинуті для безперешкодного доступу експертів до контенту підручника",
   "course-authoring.schedule-section.textbook.modal.body-disable": "Перевірте налаштування дат курсу після збереження змін.",
   "course-authoring.schedule-section.textbook.modal.confirm-button": "Гаразд",
+  "course-authoring.schedule-section.textbook.used-in-piloting-hint": "Неможливо зняти позначку «Підручник», оскільки підручник використовується в заявці на участь в апробації або в запланованому чи активному періоді апробації.",
   "course-authoring.schedule-section.course-categories.title": "Категорії курсу",
   "course-authoring.schedule-section.course-categories.description": "Оберіть категорії, до яких належить цей курс",
   "course-authoring.schedule-section.course-categories.loading": "Завантаження категорій курсу",
