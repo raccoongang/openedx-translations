@@ -14813,3 +14813,8 @@ msgid ""
 msgstr ""
 "{display_name} só é acessível a estudantes matriculados. Entre ou registre-"
 "se e matricule-se neste curso para visualizá-lo."
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Você deverá ver seu novo e-mail nas {link_start}configurações da conta{link_end}."

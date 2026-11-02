@@ -14849,3 +14849,8 @@ msgid ""
 msgstr ""
 "{display_name} yalnız qeydiyyatdan keçmiş tələbələrə açıqdır. Ona baxmaq "
 "üçün daxil olun və ya qeydiyyatdan keçərək kursa yazılın."
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Siz yeni e-mailinizi {link_start}hesab seçənəklərində{link_end} görməlisiniz."

@@ -13324,3 +13324,8 @@ msgid ""
 "{display_name} is only accessible to enrolled learners. Sign in or register,"
 " and enroll in this course to view it."
 msgstr "{display_name} 仅供注册的学员使用。 登录或注册，并注册此课程以查看它。"
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "您可以在{link_start}账户设置{link_end}中看到您的新邮箱地址。"

@@ -13954,3 +13954,8 @@ msgid ""
 msgstr ""
 "{display_name} ir pieejama tikai reģistrētiem kursa dalībniekiem. Lai to "
 "apskatītu, pierakstieties vai reģistrējieties un reģistrējieties šajā kursā."
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Jūsu jaunajam e-pastam vajadzētu būt redzamam jūsu {link_start}konta iestatījumos{link_end}."

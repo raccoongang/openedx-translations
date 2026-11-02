@@ -14017,3 +14017,8 @@ msgid ""
 msgstr ""
 "{display_name} فقط برای زبان آموزان ثبت نام شده قابل دسترسی است. وارد شوید "
 "یا ثبت نام کنید و برای مشاهده در این دوره ثبت نام کنید."
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "باید ایمیل جدید خود را در {link_start}تنظیمات حساب{link_end} خود مشاهده کنید."

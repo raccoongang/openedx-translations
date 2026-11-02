@@ -13476,3 +13476,8 @@ msgid ""
 "{display_name} is only accessible to enrolled learners. Sign in or register,"
 " and enroll in this course to view it."
 msgstr "{display_name}は登録した学習者のみがアクセスできます。サインインまたは登録して、このコースに登録し、内容を表示してください。"
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "新しいメールは{link_start}アカウント設定{link_end}で確認できます。"

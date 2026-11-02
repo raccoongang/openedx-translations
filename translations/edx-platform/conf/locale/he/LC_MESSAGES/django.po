@@ -13269,3 +13269,8 @@ msgstr "כל המילים האפשריות מכל הלומדים."
 #: xmodule/word_cloud_block.py:110
 msgid "Top num_top_words words for word cloud."
 msgstr "מילות num_top_words מובילות עבור ענן המילים."
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "תוכל לראות את כתובת הדואר האלקטרוני החדשה שלך ב{link_start}הגדרות החשבון{link_end} שלך."

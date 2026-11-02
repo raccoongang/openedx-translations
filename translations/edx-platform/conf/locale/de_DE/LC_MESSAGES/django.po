@@ -15190,3 +15190,8 @@ msgstr ""
 "{display_name} ist nur für eingeschriebene Lernende zugänglich. Melden Sie "
 "sich an oder registrieren Sie sich, und schreiben Sie sich für diesen Kurs "
 "ein, um ihn anzuschauen."
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Ihre geänderte E-Mail-Adresse sollte nun in Ihren {link_start}Konto-Einstellungen{link_end} erscheinen."

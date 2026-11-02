@@ -14791,3 +14791,8 @@ msgid ""
 msgstr ""
 "{display_name} sadece kayıtlanmış öğrencilere görünür. Görmek için, bu derse"
 " giriş yapın ve derse kayıtlanın."
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Yeni e-posta adresinizi {link_start}hesap ayarlarınızda{link_end} görmelisiniz."
