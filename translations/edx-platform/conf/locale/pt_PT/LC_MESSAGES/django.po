@@ -20182,6 +20182,11 @@ msgstr ""
 "Deverá ver o seu novo e-mail no seu {link_start}painel de "
 "controlo{link_end}."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Deverá ver o seu novo e-mail nas {link_start}configurações de conta{link_end}."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "Já existe um conta com esse endereço de e-mail."

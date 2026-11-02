@@ -18720,6 +18720,11 @@ msgstr "E-mail dəyişməsi uğurlu oldu!"
 msgid "You should see your new email in your {link_start}dashboard{link_end}."
 msgstr "Siz yeni e-mailinizi {link_start}panelinizdə{link_end} görməlisiniz."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Siz yeni e-mailinizi {link_start}hesab seçənəklərində{link_end} görməlisiniz."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "Yeni e-mail ünvanınızla hesabınız artıq mövcuddur."

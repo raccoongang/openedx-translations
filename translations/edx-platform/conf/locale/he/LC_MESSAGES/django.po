@@ -11310,6 +11310,11 @@ msgstr ""
 "תוכל לראות את כתובת הדואר האלקטרוני החדשה שלך  ב{link_start} לוח "
 "הבקרה{link_end} שלך."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "תוכל לראות את כתובת הדואר האלקטרוני החדשה שלך ב{link_start}הגדרות החשבון{link_end} שלך."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "חשבון עם כתובת דואר אלקטרוני חדשה כבר קיים."

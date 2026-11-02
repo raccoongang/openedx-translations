@@ -19590,6 +19590,11 @@ msgstr ""
 "Bạn sẽ thấy email mới của mình trong trang tổng quan {link_start} {link_end}"
 " ."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Bạn sẽ thấy email mới của mình trong {link_start}cài đặt tài khoản{link_end}."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "Một tài khoản có địa chỉ email mới đã tồn tại."

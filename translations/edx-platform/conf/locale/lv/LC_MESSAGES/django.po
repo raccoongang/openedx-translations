@@ -19400,6 +19400,11 @@ msgstr ""
 "Jūsu jaunajam e-pastam vajadzētu būt redzamam jūsu {link_start} informācijas"
 " panelī {link_end} ."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Jūsu jaunajam e-pastam vajadzētu būt redzamam jūsu {link_start}konta iestatījumos{link_end}."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "Jau ir izveidots konts ar jauno e-pasta adresi."

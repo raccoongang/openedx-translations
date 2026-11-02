@@ -19933,6 +19933,11 @@ msgstr ""
 "سيظهر عنوان بريدك الإلكتروني الجديد في {link_start}لوحة المعلومات{link_end} "
 "الخاصة بحسابك."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "سيظهر عنوان بريدك الإلكتروني الجديد في {link_start}إعدادات الحساب{link_end}."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "يوجد حساب مسبق بعنوان البريد الإلكتروني الجديد."

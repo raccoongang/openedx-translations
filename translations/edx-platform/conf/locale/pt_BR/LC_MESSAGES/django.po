@@ -9999,6 +9999,11 @@ msgid "You should see your new email in your {link_start}dashboard{link_end}."
 msgstr ""
 "Você deverá ver seu novo e-mail no {link_start}painel de controle{link_end}."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Você deverá ver seu novo e-mail nas {link_start}configurações da conta{link_end}."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "Já existe uma conta com o seu novo e-mail."

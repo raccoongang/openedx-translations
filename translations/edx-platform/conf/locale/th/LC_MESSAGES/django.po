@@ -4361,6 +4361,11 @@ msgstr "เปลี่ยนอีเมล์สำเร็จลุล่ว
 msgid "You should see your new email in your {link_start}dashboard{link_end}."
 msgstr "คุณสามารถดูอีเมล์ใหม่ของคุณได้ที่ {link_start}แดชบอร์ด{link_end}."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "คุณสามารถดูอีเมลใหม่ของคุณได้ที่ {link_start}การตั้งค่าบัญชีผู้ใช้{link_end}"
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "บัญชีที่ใช้อีเมล์นี้มีอยู่แล้ว"

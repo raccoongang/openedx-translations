@@ -15437,6 +15437,11 @@ msgid "You should see your new email in your {link_start}dashboard{link_end}."
 msgstr ""
 "आपको अपनी नई ई-मेल अपने {link_start}डैशबोर्ड{link_end} पर दिखनी चाहिए।"
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "आपको अपनी नई ई-मेल अपनी {link_start}खाता सेटिंग्स{link_end} में दिखनी चाहिए।"
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "इस ई-मेल से जुड़ा हुआ एक खाता पहले से ही मौजूद है।"

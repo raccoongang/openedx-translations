@@ -13919,6 +13919,11 @@ msgid "You should see your new email in your {link_start}dashboard{link_end}."
 msgstr ""
 "Du bør nu kunne se ny email på dit {link_start}betjeningspanel{link_end}."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Du bør nu kunne se din nye e-mail i dine {link_start}kontoindstillinger{link_end}."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "Der er i forvejen en konto, der benytter denne e-mail"

@@ -20064,6 +20064,11 @@ msgid "You should see your new email in your {link_start}dashboard{link_end}."
 msgstr ""
 "Jy behoort jou nuwe e-pos in jou {link_start} dashboard {link_end} te sien."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Jy behoort jou nuwe e-pos in jou {link_start}rekeninginstellings{link_end} te sien."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "&#39;n Rekening met die nuwe e-posadres bestaan reeds."

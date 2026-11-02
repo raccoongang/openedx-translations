@@ -19889,6 +19889,11 @@ msgstr ""
 "Vous devez voir votre nouvelle adresse courriel sur votre "
 "{link_start}Tableau de bord{link_end}."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Vous devez voir votre nouvelle adresse courriel dans les {link_start}paramètres du compte{link_end}."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "Un compte avec la nouvelle adresse courriel existe déjà."

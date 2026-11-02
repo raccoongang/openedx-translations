@@ -17986,6 +17986,11 @@ msgstr "Az e-mail cím változtatása sikerült!"
 msgid "You should see your new email in your {link_start}dashboard{link_end}."
 msgstr "Látnod kellene az új e-mailt a {link_start}irányítópulton{link_end}."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Az új e-mail-címedet a {link_start}fiókbeállításokban{link_end} láthatod."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "Egy fiók az új e-mail címmel már létezik."

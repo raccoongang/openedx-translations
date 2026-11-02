@@ -20090,6 +20090,11 @@ msgstr ""
 "Yangi elektron pochtangizni {link_start} asboblar panelida {link_end} "
 "ko'rishingiz kerak."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Yangi elektron pochtangizni {link_start}hisob sozlamalarida{link_end} ko'rishingiz kerak."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "Yangi elektron pochta manziliga ega account allaqachon mavjud."
