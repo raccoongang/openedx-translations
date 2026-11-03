@@ -16424,6 +16424,11 @@ msgstr ""
 "Ihre geänderte E-Mail-Adresse sollte nun auf der Seite  {link_start}Meine "
 "Kurse{link_end} erscheinen."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Ihre geänderte E-Mail-Adresse sollte nun in Ihren {link_start}Konto-Einstellungen{link_end} erscheinen."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "Es existiert bereits ein Konto mit dieser E-Mail-Adresse"

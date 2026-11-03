@@ -18676,6 +18676,11 @@ msgid "You should see your new email in your {link_start}dashboard{link_end}."
 msgstr ""
 "La tua nuova email è visibile nella tua {link_start}bacheca{link_end}."
 
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "La tua nuova email è visibile nelle {link_start}impostazioni account{link_end}."
+
 #: lms/templates/email_exists.html:14
 msgid "An account with the new e-mail address already exists."
 msgstr "Un account con il nuovo indirizzo e-mail è già esistente."
