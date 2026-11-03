@@ -14752,3 +14752,8 @@ msgid ""
 msgstr ""
 "{display_name} është i aksesueshëm vetëm për nxënësit e regjistruar. "
 "Identifikohu ose regjistrohu dhe përfshihu në këtë kurs për ta parë atë."
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Duhet ta shihni email-in tuaj të ri te {link_start}cilësimet e llogarisë{link_end}."

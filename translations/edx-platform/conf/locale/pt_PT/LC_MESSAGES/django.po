@@ -15033,3 +15033,8 @@ msgstr ""
 "{display_name} apenas está acessível a estudantes matriculados. Inicie "
 "sessão ou registe-se na plataforma, e inscreva-se neste curso para o "
 "conseguir ver."
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Deverá ver o seu novo e-mail nas {link_start}configurações de conta{link_end}."

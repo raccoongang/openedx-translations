@@ -14139,3 +14139,8 @@ msgid ""
 msgstr ""
 "{display_name} chỉ có thể truy cập được đối với những người học đã đăng ký. "
 "Đăng nhập hoặc đăng ký và đăng ký khóa học này để xem nó."
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Bạn sẽ thấy email mới của mình trong {link_start}cài đặt tài khoản{link_end}."

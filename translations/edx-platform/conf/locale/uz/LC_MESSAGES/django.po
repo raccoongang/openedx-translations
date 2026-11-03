@@ -14478,3 +14478,8 @@ msgid ""
 msgstr ""
 "{display_name} faqat ro'yxatdan o'tgan talabalar uchun ochiq. Tizimga kiring"
 " yoki roʻyxatdan oʻting va uni koʻrish uchun ushbu kursga yoziling."
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Yangi elektron pochtangizni {link_start}hisob sozlamalarida{link_end} ko'rishingiz kerak."

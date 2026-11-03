@@ -5945,3 +5945,8 @@ msgid ""
 msgstr ""
 "{button_start}ནང་དོན་ཚོགས་མཛོད་ནས་ཆ་ཤས་ཁ་སྐོང་བྱེད་{button_end} "
 "འདི་རིམ་ལུགས་ཀྱི་སྒེའུ་ཁུང་ལ་བཙུགས།."
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "ཁྱེད་ཀྱི་གློག་འཕྲིན་གསར་པ་དེ་ {link_start}ཁ་བྱང་གི་སྒྲིག་འགོད{link_end} ནང་མཐོང་ཐུབ།"

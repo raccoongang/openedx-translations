@@ -14428,3 +14428,8 @@ msgid ""
 msgstr ""
 "{display_name} hanya dapat diakses peserta yang terdaftar. Masuk atau "
 "registrasi, dan daftar ke kursus ini untuk melihat."
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "Anda bisa melihat email baru Anda di {link_start}pengaturan akun{link_end} Anda."

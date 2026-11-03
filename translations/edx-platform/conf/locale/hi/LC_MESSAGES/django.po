@@ -14790,3 +14790,8 @@ msgid ""
 msgstr ""
 "{display_name} केवल नामांकित शिक्षार्थियों के लिए सुलभ है। इसे देखने के लिए "
 "साइन इन या रजिस्टर करें, और इस कोर्स में दाखिला लें।"
+
+#: lms/templates/email_change_successful.html:16
+#, python-brace-format
+msgid "You should see your new email in your {link_start}account settings{link_end}."
+msgstr "आपको अपनी नई ई-मेल अपनी {link_start}खाता सेटिंग्स{link_end} में दिखनी चाहिए।"
