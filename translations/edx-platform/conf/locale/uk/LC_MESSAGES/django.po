@@ -10750,7 +10750,7 @@ msgstr "Це ім'я буде використано у кожному отри�
 #: themes/stanford-style/lms/templates/register-form.html:93
 #: themes/stanford-style/lms/templates/register-shib.html:126
 msgid "Public Username"
-msgstr "Загальнодоступне ім’я користувача"
+msgstr "Ім'я користувача для форумів"
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
