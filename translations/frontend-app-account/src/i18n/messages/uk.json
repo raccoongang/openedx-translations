@@ -331,7 +331,7 @@
   "idv.submission.alert.error": "Ми зіткнулися з технічною помилкою під час спроби надіслати підтвердження особи. Це може бути тимчасова проблема, тому спробуйте ще раз через кілька хвилин. Якщо проблема не зникне, перейдіть за посиланням {support_link}.",
   "id.verification.account.name.edit": "Редагувати {sr}",
   "account.settings.field.role": "Роль",
-  "account.settings.field.role.help.text": "Якщо ви хочете змінити вашу роль на платформі, будь ласка, зверніться до команди підтримки за ектронною адресою {supportEmail}. Не видаляйте ваш обліковий запис.",
+  "account.settings.field.role.help.text": "Якщо ви хочете змінити вашу роль на платформі, будь ласка, зверніться до команди підтримки за електронною адресою {supportEmail}. Не видаляйте ваш обліковий запис.",
   "phoneNumberField.label.phoneNumber": "Контактний номер телефону",
   "publisherField.label.publisher": "Видавництво",
   "publisherField.text.newSuffix": "(нове)",
