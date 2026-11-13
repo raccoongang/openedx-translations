@@ -7158,7 +7158,7 @@ msgstr "Вас запросили зареєструватися в %(course_nam
 #: lms/templates/instructor/edx_ace/enrolledunenroll/push/title.txt:3
 #, python-format
 msgid "You have been unenrolled from %(course_name)s"
-msgstr "Ви не були зареєстровані від %(course_name)s"
+msgstr "Вас відраховано з курсу «%(course_name)s»"
 
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.html:19
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.txt:3
@@ -7167,8 +7167,8 @@ msgid ""
 "You have been unenrolled from the course %(course_name)s by a member of the "
 "course staff. Please disregard the invitation previously sent."
 msgstr ""
-"Ви не були зареєстровані на курс%(course_name)s співробітником курсу.  Будь "
-"ласка, проігноруйте запрошення, надіслане раніше."
+"Викладач відрахував вас із курсу «%(course_name)s». Будь ласка, проігноруйте"
+" запрошення, надіслане раніше."
 
 #: lms/templates/instructor/edx_ace/allowedunenroll/email/body.txt:1
 msgid "Dear Student,"
@@ -7191,7 +7191,7 @@ msgid ""
 "                "
 msgstr ""
 "\n"
-"Ви не були зареєстровані від %(course_name)s"
+"Вас відраховано з курсу «%(course_name)s»"
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:21
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt:3
@@ -7201,16 +7201,15 @@ msgid ""
 "of the course staff. This course will no longer appear on your %(site_name)s"
 " dashboard."
 msgstr ""
-"Ви не були зареєстровані %(course_name)s у %(site_name)sчленом курсу "
-"персоналу. Цей курс більше не відображатиметься на вашій %(site_name)s "
-"інформаційній панелі."
+"Викладач відрахував вас із курсу «%(course_name)s» на %(site_name)s. Курс "
+"більше не відображатиметься у розділі «Мої курси»."
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:28
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt:5
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.html:33
 #: lms/templates/instructor/edx_ace/removebetatester/email/body.txt:5
 msgid "Your other courses have not been affected."
-msgstr "Це не вплине на ваші інші курси."
+msgstr "Це не вплине на інші курси, на які ви записані."
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.html:35
 #: lms/templates/instructor/edx_ace/enrolledunenroll/email/body.txt:8
@@ -7219,8 +7218,7 @@ msgstr "Це не вплине на ваші інші курси."
 #, python-format
 msgid "This email was automatically sent from %(site_name)s to %(full_name)s"
 msgstr ""
-"Це повідомлення електронної пошти було автоматично надіслано з%(site_name)s "
-"до %(full_name)s"
+"Повідомлення автоматично надіслано від %(site_name)s до %(full_name)s."
 
 #: lms/templates/instructor/edx_ace/enrolledunenroll/push/body.txt:4
 #, python-format
