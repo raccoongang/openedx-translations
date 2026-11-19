@@ -325,7 +325,7 @@
   "progress.score": "Оцінка",
   "progress.weight": "Вага",
   "progress.weightedGrade": "Зважена оцінка",
-  "progress.weightedGradeSummary": "Ваш поточний зважений підсумок оцінки",
+  "progress.weightedGradeSummary": "Ваша поточна зважена оцінка",
   "progress.weightedGradeSummaryTooltip": "Ваша зважена оцінка за попереднім оцінюванням складає {rawGrade} і округлюється до {roundedGrade}.",
   "progress.detailedGrades.practice-label.info.text": "Бали за неоцінювані завдання для практики й самоперевірки.",
   "progress.detailedGrades.problem-label.info.text": "Бали за завдання, що впливають на вашу підсумкову оцінку.",
