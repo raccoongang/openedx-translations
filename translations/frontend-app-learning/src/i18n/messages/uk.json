@@ -293,6 +293,7 @@
   "progress.courseGrade.gradeBar.altText": "Ваша поточна оцінка становить {currentGrade}%. Для успішного проходження цього курс необхідна оцінка {passingGrade}%.",
   "progress.courseGrade.footer.generic.passing": "На даний момент ви проходите цей курс",
   "progress.courseGrade.footer.nonPassing": "Для успішного проходження цього курсу необхідна оцінка {passingGrade}%.",
+  "progress.courseGrade.footer.nonPassingWithGrade": "Для успішного проходження цього курсу необхідна оцінка не нижче {letterGrade} ({minGrade}-{maxGrade}%)",
   "progress.courseGrade.footer.passing": "Ви на даний час склали цей курс з оцінкою {letterGrade} ({minGrade}-{maxGrade}%)",
   "progress.courseGrade.preview.headerLocked": "Заблокована функція",
   "progress.courseGrade.preview.headerLimited": "Обмежена функція",
