@@ -45,7 +45,7 @@
   "gradebook.GradesView.EditModal.saveVisibility": "Примітка: Після збереження ваші зміни будуть видимі для учнів.",
   "gradebook.GradesView.EditModal.saveGrade": "Зберегти Оцінки",
   "gradebook.GradesView.editFilterLabel": "Редагувати фільтри",
-  "gradebook.GradesTab.usersVisibilityLabel": "Показано {filteredUsers} із {totalUsers} загальної кількості учнів",
+  "gradebook.GradesTab.usersVisibilityLabel": "Таблиця містить {filteredUsers} з {totalUsers} доступних записів",
   "gradebook.GradesView.table.headings.fullName": "Повне ім'я",
   "gradebook.GradesView.table.headings.email": "Електронна пошта",
   "gradebook.GradesView.table.headings.cohort": "Когорта",
@@ -65,8 +65,8 @@
   "gradebook.GradesView.PageButtons.prevPage": "Попередня Сторінка",
   "gradebook.GradesView.PageButtons.nextPage": "Наступна Сторінка",
   "gradebook.GradesView.scoreViewLabel": "Переглянути Оцінки",
-  "gradebook.GradesView.absoluteOption": "Остаточний",
-  "gradebook.GradesView.percentOption": "В процентах",
+  "gradebook.GradesView.absoluteOption": "У балах",
+  "gradebook.GradesView.percentOption": "У відсотках",
   "gradebook.GradesView.search.label": "Пошук учня",
   "gradebook.GradesView.search.hint": "Пошук за іменем користувача або електронною поштою",
   "gradebook.GradesView.editSuccessAlert": "Оцінка успішно відредагована. Ви можете побачити невелику затримку, перш ніж оновлення з'являться в Журналі Оцінок.",
@@ -74,7 +74,7 @@
   "gradebook.GradesView.minCourseGradeInvalid": "Мінімальна оцінка курсу має бути від 0 до 100",
   "gradebook.GradesView.EditModal.Overrides.adjustedGradeHeader": "Скоригована Оцінка",
   "gradebook.GradesView.EditModal.Overrides.dateHeader": "Дата",
-  "gradebook.GradesView.EditModal.Overrides.graderHeader": "Оцінка",
+  "gradebook.GradesView.EditModal.Overrides.graderHeader": "Оцінювач",
   "gradebook.GradesView.EditModal.Overrides.reasonHeader": "Причина",
   "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна, або в URL-адресі є помилка. Будь ласка, перевірте URL-адресу та спробуйте ще раз."
 }
