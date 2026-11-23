@@ -290,7 +290,7 @@ msgstr "Вміст бібліотеки"
 #: cms/djangoapps/contentstore/helpers.py:223
 #: cms/djangoapps/contentstore/views/component.py:288
 msgid "Problem Bank"
-msgstr "задача Банк"
+msgstr "Банк завдань"
 
 #: cms/djangoapps/contentstore/management/commands/git_export.py:33
 msgid ""
@@ -545,7 +545,7 @@ msgstr "Копія {0}"
 #: cms/djangoapps/contentstore/utils.py:1295
 #, python-brace-format
 msgid "Duplicate of '{0}'"
-msgstr "Копіювання '{0}'"
+msgstr "Копія '{0}'"
 
 #: cms/djangoapps/contentstore/utils.py:1351
 msgid "Invalid prerequisite course key"
@@ -786,7 +786,7 @@ msgstr "Відповідь у вільній формі"
 
 #: cms/djangoapps/contentstore/views/component.py:286
 msgid "Legacy Library"
-msgstr "Спадщина бібліотека"
+msgstr "Застаріла бібліотека"
 
 #: cms/djangoapps/contentstore/views/component.py:289
 msgid "Drag and Drop"
@@ -1276,7 +1276,7 @@ msgstr "Словник з доступними тегами"
 
 #: cms/lib/xblock/upstream_sync.py:70
 msgid "Content is not linked to a Content Library."
-msgstr "контент не пов'язаний з контент бібліотека ."
+msgstr "Контент не пов'язаний з бібліотекою контенту."
 
 #: cms/lib/xblock/upstream_sync.py:164
 msgid "Downstream is not an XBlock or is missing required UpstreamSyncMixin"
@@ -13528,12 +13528,12 @@ msgid ""
 "The problem bank has been configured to show {count} problems. Please "
 "specify a positive number of problems, or specify -1 to show all problems."
 msgstr ""
-"Банк задача був налаштований, щоб показати {count} проблеми. Будь ласка "
-"вкажіть додатне число проблем, або вкажіть -1, щоб показати всі проблеми."
+"Банк завдань налаштовано на показ завдань у кількості {count}. Вкажіть "
+"додатне число завдань або -1, щоб показати всі завдання."
 
 #: xmodule/item_bank_block.py:478 xmodule/item_bank_block.py:490
 msgid "Edit the problem bank configuration."
-msgstr "редагувати банк задача конфігурація ."
+msgstr "Редагувати налаштування банку завдань."
 
 #: xmodule/item_bank_block.py:486
 #, python-brace-format
@@ -13541,8 +13541,8 @@ msgid ""
 "The problem bank has been configured to show {count} problems, but only "
 "{actual} have been selected."
 msgstr ""
-"Банк задача був налаштований, щоб показати {count} проблеми, але були обрані"
-" тільки {actual} ."
+"Банк завдань налаштовано на показ завдань у кількості {count}, але вибрано "
+"лише {actual}."
 
 #: xmodule/library_content_block.py:51
 msgid "Any Type"
@@ -14456,8 +14456,8 @@ msgid ""
 "{button_start}Add components{button_end} from a content library to this "
 "problem bank."
 msgstr ""
-"{button_start}Додайте компоненти{button_end} з контент бібліотека до цього "
-"банку задача."
+"{button_start}Додайте компоненти{button_end} з бібліотеки контенту до цього "
+"банку завдань."
 
 #: xmodule/vertical_block.py:45
 msgid "Enable in-context discussions for the Unit"

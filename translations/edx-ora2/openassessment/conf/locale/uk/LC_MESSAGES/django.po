@@ -2940,3 +2940,51 @@ msgstr "Невірний номер переліку лідерів."
 #: xblock/utils/validation.py:392
 msgid "The submission format is invalid."
 msgstr "Невірний формат подання."
+
+msgid "Peer Assessment allows students to provide feedback to other students and also receive feedback from others in their final grade. Often, though not always, this step is preceded by Self Assessment or Learner Training steps."
+msgstr "Взаємне оцінювання дозволяє студентам давати відгуки одне одному й отримувати відгуки від інших, що враховуються в підсумковій оцінці. Часто, але не завжди, цьому кроку передує самооцінювання або навчання оцінювача."
+
+msgid "Configuration: For this step to be configured you must specify the number of peer reviews a student will be assessed with, and the number of peer a student must grade. Additional options can be specified."
+msgstr "Налаштування: для цього кроку потрібно вказати, скільки взаємних рецензій оцінюватимуть студента і скільки робіт має оцінити сам студент. Можна вказати й додаткові параметри."
+
+msgid "View Options & Configuration"
+msgstr "Переглянути параметри та налаштування"
+
+msgid "Specify the number of peer assessments that each learner must complete. Valid numbers are 1 to 99."
+msgstr "Вкажіть кількість взаємних оцінок, які має виконати кожен слухач. Допустимі значення: від 1 до 99."
+
+msgid "Specify the number of learners that each response must be assessed by. Valid numbers are 1 to 99."
+msgstr "Вкажіть, скільки слухачів має оцінити кожну відповідь. Допустимі значення: від 1 до 99."
+
+msgid "Enable Flexible Peer Grade Averaging"
+msgstr "Увімкнути гнучке усереднення взаємних оцінок"
+
+msgid "Mean"
+msgstr "Середнє арифметичне"
+
+msgid "Select the preferred grading strategy for the peer assessment. By default, the median across all peer reviews is used to calculate the final grade. If you select the mean, the average of all peer reviews will be used."
+msgstr "Виберіть бажану стратегію оцінювання для взаємного оцінювання. За замовчуванням для підсумкової оцінки береться медіана всіх взаємних рецензій. Якщо вибрати середнє арифметичне, буде використано середнє всіх рецензій."
+
+msgid "Peer Assessment Deadlines"
+msgstr "Терміни взаємного оцінювання"
+
+msgid "The date and time when learners can begin assessing peer responses."
+msgstr "Дата й час, коли слухачі можуть розпочати оцінювання відповідей інших."
+
+msgid "Due Time"
+msgstr "Час завершення"
+
+msgid "The date and time when all peer assessments must be complete."
+msgstr "Дата й час, до яких усі взаємні оцінки мають бути виконані."
+
+msgid "Prompts. Replace the sample text with your own text. For more information, see the ORA documentation."
+msgstr "Запитання. Замініть зразок тексту власним. Докладніше читайте в документації ORA."
+
+msgid "Add Prompt"
+msgstr "Додати запитання"
+
+msgid "Rubrics are made up of criteria, which usually contain one or more options. Each option has a point value. This template contains two sample criteria and their options. Replace the sample text with your own text. For more information, see the ORA documentation."
+msgstr "Рубрики складаються з критеріїв, які зазвичай містять один або кілька варіантів. Кожен варіант має кількість балів. Цей шаблон містить два зразки критеріїв і їхні варіанти. Замініть зразок тексту власним. Докладніше читайте в документації ORA."
+
+msgid " NEW"
+msgstr " НОВЕ"

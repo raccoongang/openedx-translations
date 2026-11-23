@@ -704,3 +704,18 @@ msgstr ""
 "Це завдання складається з кількох етапів. На першому кроці вам потрібно "
 "надати відповідь на запитання. Інші кроки з'являться під полем "
 "«Ваша відповідь»."
+
+msgid "This response could not be saved."
+msgstr "Цю відповідь не вдалося зберегти."
+
+msgid "Status of Your Response"
+msgstr "Статус вашої відповіді"
+
+msgid "This response has not been saved."
+msgstr "Цю відповідь не збережено."
+
+msgid "Saving..."
+msgstr "Збереження..."
+
+msgid "This response has been saved but not submitted."
+msgstr "Цю відповідь збережено, але не надіслано."

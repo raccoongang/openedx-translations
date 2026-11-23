@@ -652,3 +652,105 @@ msgstr "Будь ласка, перевірте введені значення.
 #: public/js/drag_and_drop_edit.js:748
 msgid "Saving"
 msgstr "Збереження"
+
+msgid "An isosceles triangle with three layers of similar height. It is shown upright, so the widest layer is located at the bottom, and the narrowest layer is located at the top."
+msgstr "Рівнобедрений трикутник із трьох шарів однакової висоти. Він показаний прямо: найширший шар унизу, найвужчий угорі."
+
+msgid "No, this item does not belong here. Try again."
+msgstr "Ні, цей елемент тут не підходить. Спробуйте ще раз."
+
+msgid "You silly, there are no zones for this one."
+msgstr "Для цього елемента немає жодної зони."
+
+msgid "Of course it goes here! It goes anywhere!"
+msgstr "Звісно, він сюди підходить! Він підходить куди завгодно!"
+
+msgid "Goes to the top"
+msgstr "Йде вгору"
+
+msgid "Goes to the middle"
+msgstr "Йде в середину"
+
+msgid "Goes to the bottom"
+msgstr "Йде вниз"
+
+msgid "Goes anywhere"
+msgstr "Підходить куди завгодно"
+
+msgid "Drag and Drop"
+msgstr "Перетягування"
+
+msgid "Show \"Problem\" heading"
+msgstr "Показувати заголовок «Завдання»"
+
+msgid "Display the heading \"Problem\" above the problem text?"
+msgstr "Показувати заголовок «Завдання» над текстом завдання?"
+
+msgid "Attempted"
+msgstr "Здійснено спробу"
+
+msgid "Defines the number of points the problem is worth."
+msgstr "Визначає кількість балів за завдання."
+
+msgid "The background color of draggable items in the problem (example: 'blue' or '#0000ff')."
+msgstr "Колір тла елементів, які можна перетягувати (наприклад: 'blue' або '#0000ff')."
+
+msgid "Information about current positions of items that a learner has dropped on the target image."
+msgstr "Інформація про поточні позиції елементів, які слухач перетягнув на цільове зображення."
+
+msgid "Keeps maximum score achieved by student as a raw value between 0 and 1."
+msgstr "Зберігає максимальну оцінку студента як необроблене значення від 0 до 1."
+
+msgid "Maximum score available of the problem as a raw value between 0 and 1."
+msgstr "Максимально можлива оцінка за завдання як необроблене значення від 0 до 1."
+
+msgid "Loading drag and drop problem."
+msgstr "Завантаження завдання на перетягування."
+
+msgid "For example, 'http://example.com/background.png' or '/static/background.png'."
+msgstr "Наприклад, 'http://example.com/background.png' або '/static/background.png'."
+
+msgid "Zone Layout"
+msgstr "Розташування зон"
+
+msgid ", dropzone"
+msgstr ", зона скидання"
+
+msgid "droppable"
+msgstr "придатне для перетягування"
+
+msgid "Keyboard Help"
+msgstr "Довідка щодо клавіатури"
+
+msgid "This is a screen reader-friendly problem."
+msgstr "Це завдання зручне для користувачів екранних читачів."
+
+msgid "Drag and Drop problems consist of draggable items and dropzones. Users should select a draggable item with their keyboard and then navigate to an appropriate dropzone to drop it."
+msgstr "Завдання на перетягування складаються з елементів, які можна перетягувати, і зон скидання. Виберіть елемент за допомогою клавіатури, а потім перейдіть до відповідної зони, щоб скинути його."
+
+msgid "Navigate using TAB and SHIFT+TAB to the appropriate dropzone and press CTRL+M once more to drop it here."
+msgstr "Скористайтеся TAB і SHIFT+TAB, щоб перейти до відповідної зони, і ще раз натисніть CTRL+M, щоб скинути елемент сюди."
+
+msgid "Press ESC if you want to cancel the drop operation (for example, to select a different item)."
+msgstr "Натисніть ESC, якщо хочете скасувати скидання (наприклад, щоб вибрати інший елемент)."
+
+msgid "TAB back to the list of draggable items and repeat this process until all of the draggable items have been placed on their respective dropzones."
+msgstr "Поверніться клавішею TAB до списку елементів і повторюйте ці дії, доки всі елементи не опиняться у відповідних зонах."
+
+msgid "Actions"
+msgstr "Дії"
+
+msgid "Drag and Drop Problem"
+msgstr "Завдання на перетягування"
+
+msgid "Drop Targets"
+msgstr "Цілі для скидання"
+
+msgid "An error occurred. Unable to load drag and drop problem."
+msgstr "Сталася помилка. Не вдалося завантажити завдання на перетягування."
+
+msgid "You cannot add any more items to this zone."
+msgstr "До цієї зони не можна додати більше елементів."
+
+msgid "Please check over your submission."
+msgstr "Перевірте свою відповідь."
