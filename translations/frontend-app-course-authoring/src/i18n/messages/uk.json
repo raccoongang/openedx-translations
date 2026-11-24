@@ -2755,5 +2755,9 @@
   "authoring.problemEditor.type.description.choiceresponse": "Введіть варіанти відповідей нижче та позначте правильні. Слухачі мають вибрати всі правильні відповіді.",
   "authoring.problemEditor.type.description.optionresponse": "Введіть варіанти відповідей випадного списку нижче та позначте правильний. Слухачі мають вибрати одну правильну відповідь.",
   "authoring.problemEditor.type.description.numericalresponse": "Введіть правильні числові відповіді нижче. Слухачі мають ввести одну правильну відповідь.",
-  "authoring.problemEditor.type.description.stringresponse": "Введіть правильні текстові відповіді нижче та позначте правильні. Слухачі мають ввести одну правильну відповідь."
+  "authoring.problemEditor.type.description.stringresponse": "Введіть правильні текстові відповіді нижче та позначте правильні. Слухачі мають ввести одну правильну відповідь.",
+  "course-authoring.files-and-videos.table.view.card.tooltip": "Картки",
+  "course-authoring.files-and-videos.table.view.card.alt": "Картки",
+  "course-authoring.files-and-videos.table.view.list.tooltip": "Список",
+  "course-authoring.files-and-videos.table.view.list.alt": "Список"
 }
