@@ -116,7 +116,7 @@
   "account.settings.work.experience": "Досвід роботи",
   "account.settings.field.work.experience.empty": "Додати досвід роботи",
   "account.settings.field.work.experience.options.empty": "Виберіть досвід роботи",
-  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна або в URL-адресі є помилка. Перевірте URL-адресу та повторіть спробу.",
+  "error.notfound.message": "Сторінка, яку ви шукали, не знайдена. Будь ласка, перевірте URL-адресу та спробуйте ще раз.",
   "account.page.title": "Обліковий запис | {siteName}",
   "id.verification.access.blocked.denied": "Наразі ми не можемо підтвердити вашу особу. Якщо ви ще не активували свій обліковий запис, перевірте папку \"Спам\" на наявність листа з активацією від {email}.",
   "id.verification.next": "Далі",

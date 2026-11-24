@@ -1,6 +1,6 @@
 {
   "error.message": "Сталася неочікувана помилка. Будь ласка, спробуйте пізніше або зверніться до технічної підтримки.",
-  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна, або в URL-адресі є помилка. Будь ласка, перевірте URL-адресу та спробуйте ще раз.",
+  "error.notfound.message": "Сторінка, яку ви шукали, не знайдена. Будь ласка, перевірте URL-адресу та спробуйте ще раз.",
   "coursesManagement.header.title": "Мій кабінет",
   "coursesManagement.section.instruction": "Інструкція",
   "coursesManagement.section.inviteLearners": "Копіювання курсів",
