@@ -2759,5 +2759,6 @@
   "course-authoring.files-and-videos.table.view.card.tooltip": "Картки",
   "course-authoring.files-and-videos.table.view.card.alt": "Картки",
   "course-authoring.files-and-videos.table.view.list.tooltip": "Список",
-  "course-authoring.files-and-videos.table.view.list.alt": "Список"
+  "course-authoring.files-and-videos.table.view.list.alt": "Список",
+  "course-authoring.files-and-videos.table.search": "Пошук: {column}"
 }
