@@ -515,7 +515,7 @@
   "learning.notification.preferences.unsubscribe.failedMessage": "Недійсна URL-адреса або термін дії токена минув",
   "instructor.toolbar.view.as": "Переглянути цей курс як:",
   "instructor.toolbar.staff": "Персонал",
-  "error.notfound.message": "Сторінка, яку ви шукаєте, недоступна, або в URL-адресі є помилка. Будь ласка, перевірте URL-адресу та спробуйте ще раз.",
+  "error.notfound.message": "Сторінка, яку ви шукали, не знайдена. Будь ласка, перевірте URL-адресу та спробуйте ще раз.",
   "learning.completeSection.confirm.title": "Завершення тесту",
   "learning.completeSection.confirm.text": "У вас залишилися невиконані завдання. Ви впевнені, що хочете завершити тест?",
   "learning.completeSection.confirm.uncompletedProblems": "Розділ {sectionName} — {count, plural, one {# незавершене завдання} few {# незавершених завдання} many {# незавершених завдань} other {# незавершених завдань}}.",
