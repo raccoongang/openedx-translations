@@ -2738,5 +2738,6 @@
   "course-authoring.custom-pages.breadcrumbs.content": "Контент",
   "course-authoring.custom-pages.breadcrumbs.pagesAndResources": "Сторінки та ресурси",
   "course-authoring.taxonomy.system.languages.name": "Мови",
-  "course-authoring.taxonomy.system.languages.description": "Мови, увімкнені в цій системі."
+  "course-authoring.taxonomy.system.languages.description": "Мови, увімкнені в цій системі.",
+  "authoring.texteditor.header.titlePlaceholder": "Назва"
 }
