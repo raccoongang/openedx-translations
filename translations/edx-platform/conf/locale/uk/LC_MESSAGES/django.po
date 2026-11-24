@@ -827,8 +827,8 @@ msgid ""
 "There is already a course defined with the same organization and course "
 "number. Please change either organization or course number to be unique."
 msgstr ""
-"Курсу із такими самими організацією і кодом вже існує. Будь ласка, змініть "
-"або організацію, або номер курсу, щоб вони були унікальними."
+"Курс із такими самими організацією і кодом уже існує. Будь ласка, змініть "
+"організацію або номер курсу, щоб вони були унікальними."
 
 #: cms/djangoapps/contentstore/views/course.py:929
 #: cms/djangoapps/contentstore/views/course.py:932
@@ -16854,7 +16854,7 @@ msgstr "Створення організації курсу"
 #: cms/templates/course_outline.html:299
 msgid "You add sections, subsections, and units directly in the outline."
 msgstr ""
-"Додавайте розділи, підрозділи та окремі блоки беспосередньо у структурі "
+"Додавайте розділи, підрозділи та окремі блоки безпосередньо у структурі "
 "курсу."
 
 #: cms/templates/course_outline.html:300
@@ -16936,7 +16936,7 @@ msgstr ""
 
 #: cms/templates/course_outline.html:322
 msgid "Learn more about content visibility settings"
-msgstr "Дізнайтеся більше про налаштування видимості коненту"
+msgstr "Дізнайтеся більше про налаштування видимості контенту"
 
 #: cms/templates/edit-tabs.html:48 cms/templates/textbooks.html:57
 #: cms/templates/widgets/header.html:130
@@ -18093,7 +18093,7 @@ msgstr ""
 
 #: cms/templates/import.html:250
 msgid "Learn more about importing a course"
-msgstr "Дізнайтеся більше про іморт курсу"
+msgstr "Дізнайтеся більше про імпорт курсу"
 
 #: cms/templates/index.html:15 cms/templates/index.html:27
 #: cms/templates/widgets/user_dropdown.html:22
