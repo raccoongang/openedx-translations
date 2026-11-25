@@ -109,7 +109,7 @@
   "course-authoring.custom-pages.body.addPage.label": "Додати нову сторінку",
   "course-authoring.custom-pages.body.addingPage.label": "Додавання нової сторінки",
   "course-authoring.custom-pages..deleteConfirmation.title": "Підтвердження видалення сторінки",
-  "course-authoring.custom-pages..deleteConfirmation.message": "Ви впевнені, що хочете видалити цю сторінку? Ця дія є незворотньою.",
+  "course-authoring.custom-pages..deleteConfirmation.message": "Ви впевнені, що хочете видалити цю сторінку? Ця дія є незворотною.",
   "course-authoring.custom-pages.deleteConfirmation.deletePage.label": "Видалити",
   "course-authoring.custom-pages.deleteConfirmation.deletingPage.label": "Видалення",
   "course-authoring.custom-pages.deleteConfirmation.cancelButton.label": "Скасувати",
