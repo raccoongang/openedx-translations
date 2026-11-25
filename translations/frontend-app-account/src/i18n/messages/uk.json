@@ -314,7 +314,7 @@
   "account.settings.name.change.error.general": "Сталася технічна помилка. Будь ласка, спробуйте ще раз.",
   "account.settings.name.change.continue": "Продовжити",
   "account.settings.name.change.cancel": "Скасувати",
-  "account.settings.editable.field.password.reset.button.confirmation.support.link": "технічна підтримка",
+  "account.settings.editable.field.password.reset.button.confirmation.support.link": "технічної підтримки",
   "account.settings.editable.field.password.reset.button.confirmation": "Ми надіслали повідомлення на {email}. Перейдіть за посиланням у повідомленні, щоб скинути пароль. Не отримали повідомлення? Зверніться до {technicalSupportLink}.",
   "account.settings.editable.field.password.reset.button.forbidden": "Ваш попередній запит обробляється, будь ласка, спробуйте ще раз за кілька хвилин.",
   "account.settings.editable.field.password.reset.label": "Пароль",
